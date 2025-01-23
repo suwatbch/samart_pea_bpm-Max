@@ -1,8 +1,0 @@
-D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QueueModule\QueueConnector\bin\Release\QueueConnector.dll.config
-D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QueueModule\QueueConnector\bin\Release\QueueConnector.dll
-D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QueueModule\QueueConnector\obj\Release\ResolveAssemblyReference.cache
-D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QueueModule\QueueConnector\obj\Release\QueueConnector.dll
-D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QueueModule\QueueConnector\bin\Release\QueueConnector.dll.config
-D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QueueModule\QueueConnector\bin\Release\QueueConnector.dll
-D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QueueModule\QueueConnector\obj\Release\ResolveAssemblyReference.cache
-D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QueueModule\QueueConnector\obj\Release\QueueConnector.dll

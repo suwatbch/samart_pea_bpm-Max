@@ -1,8 +1,0 @@
-D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ApmModule\APMConnector\bin\Release\APMConnector.dll.config
-D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ApmModule\APMConnector\bin\Release\APMConnector.dll
-D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ApmModule\APMConnector\obj\Release\ResolveAssemblyReference.cache
-D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ApmModule\APMConnector\obj\Release\APMConnector.dll
-D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ApmModule\APMConnector\bin\Release\APMConnector.dll.config
-D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ApmModule\APMConnector\bin\Release\APMConnector.dll
-D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ApmModule\APMConnector\obj\Release\ResolveAssemblyReference.cache
-D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ApmModule\APMConnector\obj\Release\APMConnector.dll

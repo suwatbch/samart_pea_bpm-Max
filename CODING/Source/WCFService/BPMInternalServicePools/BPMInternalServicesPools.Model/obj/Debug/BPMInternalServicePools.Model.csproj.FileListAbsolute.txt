@@ -1,5 +1,0 @@
-D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicesPools.Model\bin\Debug\BPMInternalServicePools.Model.dll
-D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicesPools.Model\bin\Debug\BPMInternalServicePools.Model.pdb
-D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicesPools.Model\obj\Debug\BPMInternalServicePools.Model.csprojResolveAssemblyReference.cache
-D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicesPools.Model\obj\Debug\BPMInternalServicePools.Model.dll
-D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicesPools.Model\obj\Debug\BPMInternalServicePools.Model.pdb

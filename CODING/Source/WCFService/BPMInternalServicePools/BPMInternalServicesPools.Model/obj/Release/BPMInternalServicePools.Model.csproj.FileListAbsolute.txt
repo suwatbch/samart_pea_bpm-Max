@@ -1,4 +1,0 @@
-D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicesPools.Model\bin\Release\BPMInternalServicePools.Model.dll
-D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicesPools.Model\bin\Release\BPMInternalServicePools.Model.pdb
-D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicesPools.Model\obj\Release\BPMInternalServicePools.Model.dll
-D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicesPools.Model\obj\Release\BPMInternalServicePools.Model.pdb
