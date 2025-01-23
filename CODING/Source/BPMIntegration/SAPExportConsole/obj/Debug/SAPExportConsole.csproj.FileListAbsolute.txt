@@ -184,3 +184,34 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\BPMIntegration\SAPExportConsole
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\BPMIntegration\SAPExportConsole\obj\Debug\ResolveAssemblyReference.cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\BPMIntegration\SAPExportConsole\obj\Debug\SAPExportConsole.exe
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\BPMIntegration\SAPExportConsole\obj\Debug\SAPExportConsole.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\SAPExportConsole.exe.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\SAPExportConsole.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\SAPExportConsole.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\ACABatchService.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\PEA.BPM.Integration.BPMIntegration.BS.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\PEA.BPM.Integration.BPMIntegration.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\PEA.BPM.Integration.BPMIntegration.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\PEA.BPM.Integration.BPMIntegration.DA.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\BPMSAPConnector.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\Avanade.ACA.Batch.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\SAP.Connector.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\PEA.BPM.Integration.BPMIntegration.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\PEA.BPM.Integration.BPMIntegration.DA.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\Avanade.ACA.Batch.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\ACABatchService.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\PEA.BPM.Integration.BPMIntegration.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\PEA.BPM.Integration.BPMIntegration.BS.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\PEA.BPM.Integration.BPMIntegration.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\bin\Debug\PEA.BPM.Integration.BPMIntegration.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\obj\Debug\SAPExportConsole.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\SAPExportConsole\obj\Debug\SAPExportConsole.pdb

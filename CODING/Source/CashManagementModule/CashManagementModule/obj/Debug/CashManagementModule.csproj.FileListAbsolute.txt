@@ -460,3 +460,37 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\CashManagementModule\CashManage
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\RdlCompile.compiled
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\CashManagementModule.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\CashManagementModule.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.CustomControls.MoneyGridView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.ChequeItemView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.CancelMoneyCheckInView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.CashierSearchBoxView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.CancelBankDeliveryView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.BaselineConfirm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.TickerErrorBox.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.AdjustOpenBalanceView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.StartOpenBalanceView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.FillMoneyTypeForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.AvailableDayPayIn.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.AvailableCashierList.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.ReportSummaryCloseWorkView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.ReportPayInDailyView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.ReportMoneyFlowView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.ReportDailyRemainView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.ForceCloseWorkView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.Views.MoneyCheckInView.BankSearchForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.MoneyCheckInView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.CloseWorkSummaryView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.ConfirmBankDelivering.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.ConfirmCashierTransfering.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.AvailableListForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.OpenWorkItemView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.MoneyTransferManagementView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.TransferStatusView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.TransferResponseView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\PEA.BPM.CashManagementModule.ReportContainerView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\CashManagementModule.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\RdlCompile.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\RdlCompile.compiled
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\CashManagementModule\CashManagementModule\obj\Debug\CashManagementModule.pdb

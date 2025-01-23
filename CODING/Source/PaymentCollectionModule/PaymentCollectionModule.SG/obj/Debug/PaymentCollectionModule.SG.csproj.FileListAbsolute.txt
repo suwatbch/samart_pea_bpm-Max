@@ -196,3 +196,4 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\Payment
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule.SG\obj\Debug\ResolveAssemblyReference.cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule.SG\obj\Debug\PaymentCollectionModule.SG.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule.SG\obj\Debug\PaymentCollectionModule.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule.SG\obj\Debug\ResolveAssemblyReference.cache

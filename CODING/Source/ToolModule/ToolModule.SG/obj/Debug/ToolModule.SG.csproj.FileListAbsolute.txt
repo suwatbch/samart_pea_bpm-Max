@@ -196,3 +196,36 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule.SG\obj\De
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule.SG\obj\Debug\ToolModule.SG.csproj.GenerateResource.Cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule.SG\obj\Debug\ToolModule.SG.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule.SG\obj\Debug\ToolModule.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\ToolModule.SG.dll.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\ToolModule.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\ToolModule.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\Architecture.ArchitectureTool.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\ToolModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\WCFExtras.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\NewsBroadcast.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\NewsBroadcast.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\Infrastructure.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\Architecture.ArchitectureSG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\WCFExtras.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\NewsBroadcast.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\NewsBroadcast.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\Infrastructure.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\bin\Debug\ToolModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\obj\Debug\PEA.BPM.ToolModule.SG.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\obj\Debug\ToolModule.SG.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\obj\Debug\ToolModule.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule.SG\obj\Debug\ToolModule.SG.pdb

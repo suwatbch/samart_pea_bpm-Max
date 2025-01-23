@@ -68,3 +68,17 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.Batch.Batc
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Debug\Avanade.ACA.Batch.BatchCenterServerHost.csproj.GenerateResource.Cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Debug\Avanade.ACA.Batch.BatchCenterServerHost.exe
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Debug\Avanade.ACA.Batch.BatchCenterServerHost.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Debug\Avanade.ACA.Batch.BatchCenterServerHost.exe.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Debug\Avanade.ACA.Batch.BatchCenterServerHost.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Debug\Avanade.ACA.Batch.BatchCenterServerHost.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Debug\Avanade.ACA.Batch.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Debug\Avanade.ACA.Batch.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Debug\Avanade.ACA.Batch.BatchCenterServerHost.ProjectInstaller.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Debug\Avanade.ACA.Batch.BatchCenterServerHost.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Debug\Avanade.ACA.Batch.BatchCenterServerHost.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Debug\Avanade.ACA.Batch.BatchCenterServerHost.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Debug\Avanade.ACA.Batch.BatchCenterServerHost.pdb

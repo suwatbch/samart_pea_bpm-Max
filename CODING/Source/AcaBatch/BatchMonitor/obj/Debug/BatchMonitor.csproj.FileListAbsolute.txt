@@ -118,3 +118,27 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\BatchMonitor\obj\Debug
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\BatchMonitor.csproj.GenerateResource.Cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\BatchMonitor.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\BatchMonitor.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\bin\BatchMonitor.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\bin\BatchMonitor.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\bin\Avanade.ACA.Batch.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\bin\Avanade.ACA.Batch.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\Avanade.ACA.Batch.BatchMonitor.BatchControl.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\Avanade.ACA.Batch.BatchMonitor.Batches.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\Avanade.ACA.Batch.BatchMonitor.ConfigurationTreeControl.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\Avanade.ACA.Batch.BatchMonitor.WebForm1.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\Avanade.ACA.Batch.BatchMonitor.DetailsControl.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\Avanade.ACA.Batch.BatchMonitor.Enqueue.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\Avanade.ACA.Batch.BatchMonitor.Global.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\Avanade.ACA.Batch.BatchMonitor.Migrated_History.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\Avanade.ACA.Batch.BatchMonitor.QueueControl.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\Avanade.ACA.Batch.BatchMonitor.Transitions1.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\Avanade.ACA.Batch.BatchMonitor.Transitions.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\Avanade.ACA.Batch.BatchMonitor.TreeControl.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\Avanade.ACA.Batch.BatchMonitor.Utilities.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\BatchMonitor.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\BatchMonitor.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\BatchMonitor\obj\Debug\BatchMonitor.pdb

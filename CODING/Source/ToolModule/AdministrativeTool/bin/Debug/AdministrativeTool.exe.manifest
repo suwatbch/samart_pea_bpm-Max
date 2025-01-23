@@ -66,19 +66,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>cVFj6+PqEv4MATKTUIAzeXYH+S0=</dsig:DigestValue>
+        <dsig:DigestValue>ZeGorTR3ccuSFsz1uC4H5KvvWQA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Architecture.ArchitectureInterface.dll" size="17920">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Architecture.ArchitectureInterface.dll" size="19968">
       <assemblyIdentity name="Architecture.ArchitectureInterface" version="1.8.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>3NekCz8xTYp1+2Q3j2VWuQCvsUg=</dsig:DigestValue>
+        <dsig:DigestValue>pIqr/3flq2wq++/wAUgfwC3Bvek=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -90,7 +90,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>WPdYUltM5Mp+EPRFsDvCe2QYGO8=</dsig:DigestValue>
+        <dsig:DigestValue>QkL9OKXSf8hOLkrrVXddIjc16+Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -102,7 +102,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>7fH+c5p8SSkaPScKBlYvIM93G3s=</dsig:DigestValue>
+        <dsig:DigestValue>dBryWBXWpwdMlkE/itcN/xJ/BXM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -126,7 +126,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>f4iNHiyWFyqjWM5Z9MfSCRftV8o=</dsig:DigestValue>
+        <dsig:DigestValue>QQJBmX6CHYlTphD22PeV+lv2jmw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -210,31 +210,31 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>rckPqebA9sb+WSIAoe98q4AYrqw=</dsig:DigestValue>
+        <dsig:DigestValue>QwmGM5Y2kFCtuQ/o3x+Ap3u4c14=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NewsBroadcast.SG.dll" size="27648">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NewsBroadcast.SG.dll" size="28160">
       <assemblyIdentity name="NewsBroadcast.SG" version="1.8.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>LdJGhmF2mAi9qlJm81C/fwDOAzc=</dsig:DigestValue>
+        <dsig:DigestValue>DA6jNdh53u5Zn1JEQIID1Ufp/8I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PaymentCollectionModule.Interface.dll" size="244736">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PaymentCollectionModule.Interface.dll" size="248320">
       <assemblyIdentity name="PaymentCollectionModule.Interface" version="1.8.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>nsJ0hB6v5sICgxQmiqfTnu8yZE8=</dsig:DigestValue>
+        <dsig:DigestValue>pjB3oHapMtrOXYB5TE0hp3uFQnQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -258,7 +258,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>oQgSLpAqxMZhIMpJmpOTn8PIpZU=</dsig:DigestValue>
+        <dsig:DigestValue>2b+CtjCyeCBvMQ5xlMzsAqQPiDA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

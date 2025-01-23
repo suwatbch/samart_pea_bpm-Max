@@ -38,3 +38,13 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\ThirdPartySecuritySe
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\ThirdPartySecurityService\obj\Debug\ResolveAssemblyReference.cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\ThirdPartySecurityService\obj\Debug\ThirdPartySecurityService.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\ThirdPartySecurityService\obj\Debug\ThirdPartySecurityService.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\ThirdPartySecurityService\bin\Debug\AuthenticationWebService.asmx
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\ThirdPartySecurityService\bin\Debug\AuthenticationWebService.asmx.cs
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\ThirdPartySecurityService\bin\Debug\ThirdPartySecurityService.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\ThirdPartySecurityService\bin\Debug\ThirdPartySecurityService.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\ThirdPartySecurityService\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\ThirdPartySecurityService\bin\Debug\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\ThirdPartySecurityService\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\ThirdPartySecurityService\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\ThirdPartySecurityService\obj\Debug\ThirdPartySecurityService.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\ThirdPartySecurityService\obj\Debug\ThirdPartySecurityService.pdb

@@ -14,3 +14,7 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ApmModule\APMConnector\bin\Debu
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ApmModule\APMConnector\bin\Debug\APMConnector.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ApmModule\APMConnector\obj\Debug\ResolveAssemblyReference.cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ApmModule\APMConnector\obj\Debug\APMConnector.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ApmModule\APMConnector\bin\Debug\APMConnector.dll.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ApmModule\APMConnector\bin\Debug\APMConnector.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ApmModule\APMConnector\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ApmModule\APMConnector\obj\Debug\APMConnector.dll

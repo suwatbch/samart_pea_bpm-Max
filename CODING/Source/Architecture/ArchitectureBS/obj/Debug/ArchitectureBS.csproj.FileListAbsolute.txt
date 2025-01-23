@@ -124,3 +124,24 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureBS\obj
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureBS\obj\Debug\ArchitectureBS.csproj.GenerateResource.Cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureBS\obj\Debug\Architecture.ArchitectureBS.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureBS\obj\Debug\Architecture.ArchitectureBS.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\bin\Debug\Architecture.ArchitectureBS.dll.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\bin\Debug\Architecture.ArchitectureBS.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\bin\Debug\Architecture.ArchitectureBS.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\bin\Debug\Architecture.ArchitectureDA.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\bin\Debug\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\bin\Debug\Avanade.ACA.Batch.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\bin\Debug\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\bin\Debug\Avanade.ACA.Batch.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\bin\Debug\Architecture.ArchitectureDA.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\obj\Debug\PEA.BPM.Architecture.ArchitectureBS.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\obj\Debug\ArchitectureBS.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\obj\Debug\Architecture.ArchitectureBS.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureBS\obj\Debug\Architecture.ArchitectureBS.pdb

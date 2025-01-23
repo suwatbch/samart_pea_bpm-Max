@@ -1,0 +1,14 @@
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchBranchServerHost\bin\Debug\Avanade.ACA.Batch.BatchBranchServerHost.exe.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchBranchServerHost\bin\Debug\Avanade.ACA.Batch.BatchBranchServerHost.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchBranchServerHost\bin\Debug\Avanade.ACA.Batch.BatchBranchServerHost.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchBranchServerHost\bin\Debug\Avanade.ACA.Batch.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchBranchServerHost\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchBranchServerHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchBranchServerHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchBranchServerHost\bin\Debug\Avanade.ACA.Batch.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchBranchServerHost\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchBranchServerHost\obj\Debug\Avanade.ACA.Batch.BatchBranchServerHost.ProjectInstaller.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchBranchServerHost\obj\Debug\Avanade.ACA.Batch.BatchBranchServerHost.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchBranchServerHost\obj\Debug\Avanade.ACA.Batch.BatchBranchServerHost.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchBranchServerHost\obj\Debug\Avanade.ACA.Batch.BatchBranchServerHost.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchBranchServerHost\obj\Debug\Avanade.ACA.Batch.BatchBranchServerHost.pdb

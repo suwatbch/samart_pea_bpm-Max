@@ -166,3 +166,31 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationServic
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationService\obj\Debug\BPMIntegrationService.csproj.GenerateResource.Cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationService\obj\Debug\BPMIntegrationService.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationService\obj\Debug\BPMIntegrationService.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\BPMIntegrationService.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\BPMIntegrationService.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\PEA.BPM.Integration.BPMIntegration.BS.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\PEA.BPM.Integration.BPMIntegration.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\PEA.BPM.Integration.BPMIntegration.DA.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\Avanade.ACA.Batch.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\ACABatchService.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\PEA.BPM.Integration.BPMIntegration.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\PEA.BPM.Integration.BPMIntegration.DA.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\Avanade.ACA.Batch.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\ACABatchService.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\PEA.BPM.Integration.BPMIntegration.BS.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\PEA.BPM.Integration.BPMIntegration.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\bin\PEA.BPM.Integration.BPMIntegration.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\obj\Debug\BPMIntegrationService.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\obj\Debug\BPMIntegrationService.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\obj\Debug\BPMIntegrationService.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationService\obj\Debug\BPMIntegrationService.pdb

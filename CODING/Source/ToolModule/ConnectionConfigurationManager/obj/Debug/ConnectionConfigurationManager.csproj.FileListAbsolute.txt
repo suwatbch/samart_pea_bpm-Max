@@ -100,3 +100,20 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurat
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.csproj.GenerateResource.Cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.exe
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.exe.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\Tool.ConnectionConfigurationManager.SettingForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\Tool.ConnectionConfigurationManager.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.pdb

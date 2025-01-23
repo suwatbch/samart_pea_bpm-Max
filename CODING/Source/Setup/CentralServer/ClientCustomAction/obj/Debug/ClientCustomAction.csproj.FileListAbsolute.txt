@@ -18,3 +18,8 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Setup\CentralServer\ClientCusto
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Setup\CentralServer\ClientCustomAction\obj\Debug\ResolveAssemblyReference.cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Setup\CentralServer\ClientCustomAction\obj\Debug\ClientCustomAction.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Setup\CentralServer\ClientCustomAction\obj\Debug\ClientCustomAction.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Setup\CentralServer\ClientCustomAction\bin\Debug\ClientCustomAction.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Setup\CentralServer\ClientCustomAction\bin\Debug\ClientCustomAction.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Setup\CentralServer\ClientCustomAction\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Setup\CentralServer\ClientCustomAction\obj\Debug\ClientCustomAction.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Setup\CentralServer\ClientCustomAction\obj\Debug\ClientCustomAction.pdb

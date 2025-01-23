@@ -94,3 +94,19 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\NewsBroadcast\NewsBroadcast.DA\
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\NewsBroadcast\NewsBroadcast.DA\obj\Debug\ResolveAssemblyReference.cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\NewsBroadcast\NewsBroadcast.DA\obj\Debug\NewsBroadcast.DA.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\NewsBroadcast\NewsBroadcast.DA\obj\Debug\NewsBroadcast.DA.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\NewsBroadcast\NewsBroadcast.DA\bin\Debug\NewsBroadcast.DA.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\NewsBroadcast\NewsBroadcast.DA\bin\Debug\NewsBroadcast.DA.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\NewsBroadcast\NewsBroadcast.DA\bin\Debug\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\NewsBroadcast\NewsBroadcast.DA\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\NewsBroadcast\NewsBroadcast.DA\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\NewsBroadcast\NewsBroadcast.DA\bin\Debug\NewsBroadcast.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\NewsBroadcast\NewsBroadcast.DA\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\NewsBroadcast\NewsBroadcast.DA\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\NewsBroadcast\NewsBroadcast.DA\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\NewsBroadcast\NewsBroadcast.DA\bin\Debug\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\NewsBroadcast\NewsBroadcast.DA\bin\Debug\NewsBroadcast.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\NewsBroadcast\NewsBroadcast.DA\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\NewsBroadcast\NewsBroadcast.DA\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\NewsBroadcast\NewsBroadcast.DA\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\NewsBroadcast\NewsBroadcast.DA\obj\Debug\NewsBroadcast.DA.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\NewsBroadcast\NewsBroadcast.DA\obj\Debug\NewsBroadcast.DA.pdb

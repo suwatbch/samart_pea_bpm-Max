@@ -38,3 +38,13 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Apm2\APM2Connector.Test\obj\Deb
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Apm2\APM2Connector.Test\obj\Debug\APM2Connector.Test.csproj.GenerateResource.Cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Apm2\APM2Connector.Test\obj\Debug\BPMConnector.Test.exe
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Apm2\APM2Connector.Test\obj\Debug\BPMConnector.Test.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Apm2\APM2Connector.Test\bin\Debug\BPMConnector.Test.exe.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Apm2\APM2Connector.Test\bin\Debug\BPMConnector.Test.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Apm2\APM2Connector.Test\bin\Debug\BPMConnector.Test.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Apm2\APM2Connector.Test\bin\Debug\APM2Connector.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Apm2\APM2Connector.Test\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Apm2\APM2Connector.Test\obj\Debug\PEA.BPM.APM2Connector.Test.Form1.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Apm2\APM2Connector.Test\obj\Debug\PEA.BPM.BPMConnector.Test.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Apm2\APM2Connector.Test\obj\Debug\APM2Connector.Test.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Apm2\APM2Connector.Test\obj\Debug\BPMConnector.Test.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Apm2\APM2Connector.Test\obj\Debug\BPMConnector.Test.pdb
