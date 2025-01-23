@@ -142,6 +142,30 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\BPMIntegration\ACABatchService\
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\BPMIntegration\ACABatchService\obj\Debug\ResolveAssemblyReference.cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\BPMIntegration\ACABatchService\obj\Debug\ACABatchService.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\BPMIntegration\ACABatchService\obj\Debug\ACABatchService.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\ACABatchService.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\ACABatchService.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\Architecture.ArchitectureBS.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\PEA.BPM.Integration.BPMIntegration.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\PEA.BPM.Integration.BPMIntegration.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\Architecture.ArchitectureDA.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\Avanade.ACA.Batch.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\Architecture.ArchitectureBS.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\PEA.BPM.Integration.BPMIntegration.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\PEA.BPM.Integration.BPMIntegration.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\Architecture.ArchitectureDA.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\Avanade.ACA.Batch.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\obj\Debug\ACABatchService.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\ACABatchService\obj\Debug\ACABatchService.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\ACABatchService.dll
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\ACABatchService.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\ACABatchService\bin\Debug\Architecture.ArchitectureBS.dll

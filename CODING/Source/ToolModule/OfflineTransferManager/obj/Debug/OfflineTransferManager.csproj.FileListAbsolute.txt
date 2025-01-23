@@ -58,6 +58,16 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManag
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.csproj.GenerateResource.Cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.exe
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\OfflineTransferManager.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\OfflineTransferManager.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.ExportingForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\Tool.OfflineTransferManager.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\OfflineTransferManager.exe
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\OfflineTransferManager.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\Architecture.ArchitectureInterface.dll

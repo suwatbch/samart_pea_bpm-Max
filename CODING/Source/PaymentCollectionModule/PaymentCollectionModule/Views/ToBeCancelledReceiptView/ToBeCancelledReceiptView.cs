@@ -454,9 +454,6 @@ namespace PEA.BPM.PaymentCollectionModule
             if (Authorization.IsAuthorized(SecurityNames.ReceiptCancellationNow,
                     "ยกเลิกใบเสร็จ", false, "กรุณากรอกเหตุผลในการยกเลิกใบเสร็จ", out remark))
             {
-                // DCR 68-001 Cancel ICS 20250117
-                List<string> _receiptCancelICS = new List<string>();
-
                 // DCR QRPayment 
                 // เก็บข้อมูล Payment Type 5. 
                 List<string> paymentIdPMQR = new List<string>();
@@ -466,12 +463,6 @@ namespace PEA.BPM.PaymentCollectionModule
                     {
                         if (itemPmInfo.PtId == "5")
                             paymentIdPMQR.Add(selectedReceipt.OriginalReceipt.PaymentId);
-                    } 
-
-                    // DCR 68-001 
-                    if (selectedReceipt.OriginalReceipt.SpotBillInvoiceNo != null)
-                    {
-                        _receiptCancelICS.Add(selectedReceipt.ReceiptId); // เพิ่มข้อมูล spot bill invoice เตรียมไว้เพื่อนำไปยกเลิกที่ระบบ ICS. 
                     }
                 }
 
@@ -525,10 +516,6 @@ namespace PEA.BPM.PaymentCollectionModule
 
                         ClearData();
 
-                        // DCR 68-001 Cancel ICS , Call Service cancel
-                        if (_receiptCancelICS != null && _receiptCancelICS.Count > 0)
-                            CancelICSInvokeService(_receiptCancelICS); 
-                        
                         using (CancelSummaryForm ccsForm = new CancelSummaryForm())
                         {
                             ccsForm.SetReturnPayment(returnPayment);
@@ -541,18 +528,6 @@ namespace PEA.BPM.PaymentCollectionModule
                         ClearData();
                     }
                 }
-            }
-        }
-
-        private void CancelICSInvokeService(List<string> _receiptCancelICS)
-        {
-            try
-            {
-                _presenter.ICSCancelReceipt(_receiptCancelICS);
-            }
-            catch (Exception)
-            {
-                // No invoke error.
             }
         }
 

@@ -1,0 +1,245 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Time">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReadDate" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Bank">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BankKey" type="xs:string" />
+              <xs:element name="BankName" type="xs:string" minOccurs="0" />
+              <xs:element name="GroupBankName" type="xs:string" minOccurs="0" />
+              <xs:element name="BusinessPlace" type="xs:string" minOccurs="0" />
+              <xs:element name="Active" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BankAccount">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BankKey" type="xs:string" />
+              <xs:element name="AccountNo" type="xs:string" />
+              <xs:element name="BusinessPlace" type="xs:string" minOccurs="0" />
+              <xs:element name="Active" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MeterSize">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MeterSizeId" type="xs:string" />
+              <xs:element name="MeterSizeName" type="xs:string" minOccurs="0" />
+              <xs:element name="ReConnectMeterRate" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Active" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DebtType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DtId" type="xs:string" />
+              <xs:element name="DtName" type="xs:string" minOccurs="0" />
+              <xs:element name="DefaultPaperSize" type="xs:string" minOccurs="0" />
+              <xs:element name="DefaultTaxCode" type="xs:string" minOccurs="0" />
+              <xs:element name="ModReceiptHeaderFlag" type="xs:string" minOccurs="0" />
+              <xs:element name="PrintDescription" type="xs:string" minOccurs="0" />
+              <xs:element name="IndividualReceiptFlag" type="xs:string" minOccurs="0" />
+              <xs:element name="NonInvoicePaymentFlag" type="xs:string" minOccurs="0" />
+              <xs:element name="CategoryPaymentCode" type="xs:string" minOccurs="0" />
+              <xs:element name="Active" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Branch">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BranchId" type="xs:string" />
+              <xs:element name="BranchName" type="xs:string" minOccurs="0" />
+              <xs:element name="BranchName2" type="xs:string" minOccurs="0" />
+              <xs:element name="BranchLevel" type="xs:string" minOccurs="0" />
+              <xs:element name="ParentBranchId" type="xs:string" minOccurs="0" />
+              <xs:element name="Active" type="xs:string" minOccurs="0" />
+              <xs:element name="BranchNo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Terminal">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TerminalId" type="xs:string" />
+              <xs:element name="TerminalCode" type="xs:string" minOccurs="0" />
+              <xs:element name="BranchId" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxCode" type="xs:string" minOccurs="0" />
+              <xs:element name="IP" type="xs:string" minOccurs="0" />
+              <xs:element name="Active" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Calendar">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NwDay" type="xs:dateTime" />
+              <xs:element name="ModifiedDt" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CdType" type="xs:string" minOccurs="0" />
+              <xs:element name="BranchId" type="xs:string" minOccurs="0" />
+              <xs:element name="Active" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UnlockRemark">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FncId" type="xs:string" />
+              <xs:element name="RemarkId" type="xs:string" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Active" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="InterestKey">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InterestKey" type="xs:string" />
+              <xs:element name="InterestName" type="xs:string" minOccurs="0" />
+              <xs:element name="InterestRate" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Active" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TaxCode">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TaxCode" type="xs:string" />
+              <xs:element name="TaxName" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxRate" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Active" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UnitType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UnitTypeId" type="xs:string" />
+              <xs:element name="UnitTypeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Active" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AppSetting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SettingCode" type="xs:string" />
+              <xs:element name="SettingValue" type="xs:string" minOccurs="0" />
+              <xs:element name="Module" type="xs:string" minOccurs="0" />
+              <xs:element name="Active" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Deposit">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BankKey" type="xs:string" />
+              <xs:element name="BankName" type="xs:string" minOccurs="0" />
+              <xs:element name="GroupBankName" type="xs:string" minOccurs="0" />
+              <xs:element name="BusinessPlace" type="xs:string" />
+              <xs:element name="ClearingAccNo" type="xs:string" />
+              <xs:element name="AccountNo" type="xs:string" />
+              <xs:element name="AccountType" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountNoDesc" type="xs:string" minOccurs="0" />
+              <xs:element name="Active" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PaymentSequence">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Sequence" type="xs:string" />
+              <xs:element name="DtId" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table15">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ChannelId" type="xs:string" minOccurs="0" />
+              <xs:element name="ChannelName" type="xs:string" minOccurs="0" />
+              <xs:element name="Active" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Time" />
+      <xs:field xpath="ReadDate" />
+    </xs:unique>
+    <xs:unique name="Bank_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Bank" />
+      <xs:field xpath="BankKey" />
+    </xs:unique>
+    <xs:unique name="BankAccount_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//BankAccount" />
+      <xs:field xpath="BankKey" />
+      <xs:field xpath="AccountNo" />
+    </xs:unique>
+    <xs:unique name="MeterSize_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//MeterSize" />
+      <xs:field xpath="MeterSizeId" />
+    </xs:unique>
+    <xs:unique name="DebtType_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//DebtType" />
+      <xs:field xpath="DtId" />
+    </xs:unique>
+    <xs:unique name="Branch_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Branch" />
+      <xs:field xpath="BranchId" />
+    </xs:unique>
+    <xs:unique name="Terminal_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Terminal" />
+      <xs:field xpath="TerminalId" />
+    </xs:unique>
+    <xs:unique name="Calendar_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Calendar" />
+      <xs:field xpath="NwDay" />
+    </xs:unique>
+    <xs:unique name="UnlockRemark_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//UnlockRemark" />
+      <xs:field xpath="FncId" />
+      <xs:field xpath="RemarkId" />
+    </xs:unique>
+    <xs:unique name="InterestKey_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//InterestKey" />
+      <xs:field xpath="InterestKey" />
+    </xs:unique>
+    <xs:unique name="TaxCode_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//TaxCode" />
+      <xs:field xpath="TaxCode" />
+    </xs:unique>
+    <xs:unique name="UnitType_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//UnitType" />
+      <xs:field xpath="UnitTypeId" />
+    </xs:unique>
+    <xs:unique name="AppSetting_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//AppSetting" />
+      <xs:field xpath="SettingCode" />
+    </xs:unique>
+    <xs:unique name="Deposit_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Deposit" />
+      <xs:field xpath="BankKey" />
+      <xs:field xpath="BusinessPlace" />
+      <xs:field xpath="ClearingAccNo" />
+      <xs:field xpath="AccountNo" />
+    </xs:unique>
+    <xs:unique name="PaymentSequence_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//PaymentSequence" />
+      <xs:field xpath="Sequence" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

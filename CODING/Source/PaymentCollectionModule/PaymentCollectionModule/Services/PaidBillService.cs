@@ -102,12 +102,9 @@ namespace PEA.BPM.PaymentCollectionModule.Services
         }
         #endregion
 
-        public bool ICSCancelReceipt(List<string> _receiptCancelICS)
-        {
-            IPaidBillService bs = GetService();
-            return bs.ICSCancelReceipt(_receiptCancelICS);
-        }
 
+
+       
     }
 
 

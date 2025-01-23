@@ -24,8 +24,6 @@ namespace PEA.BPM.PaymentCollectionModule.Interface.Services
 
         List<string> SearchPaymentTypeQR(List<string> paymentIds);
 
-        bool ICSCancelReceipt(List<string> _receiptCancelICS); 
-
         //List<Repayment> SearchRepayment(RepaymentSearchParam param);
 
         //List<Repayment> UpdateRepaymentByStrLineAPId(string strLineAPId, string reason);

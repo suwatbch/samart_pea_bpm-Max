@@ -88,6 +88,21 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Infrastructure\Infrastructure.L
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Infrastructure\Infrastructure.Library\obj\Debug\Infrastructure.Library.csproj.GenerateResource.Cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Infrastructure\Infrastructure.Library\obj\Debug\Infrastructure.Library.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Infrastructure\Infrastructure.Library\obj\Debug\Infrastructure.Library.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Infrastructure.Library\bin\Debug\Infrastructure.Library.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Infrastructure.Library\bin\Debug\Infrastructure.Library.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Infrastructure.Library\bin\Debug\Infrastructure.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Infrastructure.Library\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Infrastructure.Library\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Infrastructure.Library\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Infrastructure.Library\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Infrastructure.Library\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Infrastructure.Library\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Infrastructure.Library\bin\Debug\Infrastructure.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Infrastructure.Library\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Infrastructure.Library\obj\Debug\PEA.BPM.Infrastructure.Library.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Infrastructure.Library\obj\Debug\Infrastructure.Library.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Infrastructure.Library\obj\Debug\Infrastructure.Library.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Infrastructure.Library\obj\Debug\Infrastructure.Library.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Infrastructure.Library\bin\Debug\Infrastructure.Library.dll
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Infrastructure.Library\bin\Debug\Infrastructure.Library.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Infrastructure.Library\bin\Debug\Infrastructure.Interface.dll

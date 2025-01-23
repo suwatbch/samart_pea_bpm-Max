@@ -1142,22 +1142,6 @@ namespace PEA.BPM.PaymentCollectionModule
             return result; 
         }
 
-        internal bool ICSCancelReceipt(List<string> _receiptCancelICS) {
-            // DCR 68-001.
-            // Call service call. 
-            // service class call SG
-            // SG call internal service pool. 
-            try
-            {
-                _paidBillService.ICSCancelReceipt(_receiptCancelICS);
-            }
-            catch (Exception)
-            {
-            }
-            
-            return true; 
-        }
-
         #region +++ Cash Management +++
 
         [EventPublication(PEA.BPM.PaymentCollectionModule.Interface.Constants.EventTopicNames.CashierOpenWork, PublicationScope.Global)]

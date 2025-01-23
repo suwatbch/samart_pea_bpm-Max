@@ -606,13 +606,5 @@ namespace PEA.BPM.PaymentCollectionModule.BS
             return da.SearchPaymentTypeQR(paymentIds);
         }
 
-        public bool ICSCancelReceipt(List<string> _receiptCancelICS)
-        {
-            // DCR 68-001 ics ยกเลิกใบชำระเงินใบคำร้อง. 
-            // SG Invoice to internal service pool and mark cancel. 
-
-            return true;    
-        }
-
     }
 }

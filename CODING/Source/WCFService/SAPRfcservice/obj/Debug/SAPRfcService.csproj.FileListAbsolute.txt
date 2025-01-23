@@ -40,6 +40,13 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\SAPRfcservice\bin\sa
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\SAPRfcservice\obj\Debug\ResolveAssemblyReference.cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\SAPRfcservice\obj\Debug\SAPRfcService.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\SAPRfcservice\obj\Debug\SAPRfcService.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPRfcservice\bin\SAPRfcService.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPRfcservice\bin\SAPRfcService.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPRfcservice\bin\sapnco.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPRfcservice\bin\sapnco_utils.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPRfcservice\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPRfcservice\obj\Debug\SAPRfcService.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPRfcservice\obj\Debug\SAPRfcService.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\SAPRfcservice\bin\SAPRfcService.dll
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\SAPRfcservice\bin\SAPRfcService.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\SAPRfcservice\bin\sapnco.dll

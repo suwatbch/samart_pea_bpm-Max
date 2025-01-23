@@ -94,6 +94,22 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureSG\bin
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureSG\obj\Debug\ResolveAssemblyReference.cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureSG\obj\Debug\Architecture.ArchitectureSG.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureSG\obj\Debug\Architecture.ArchitectureSG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Architecture\ArchitectureSG\bin\Debug\Architecture.ArchitectureSG.dll.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Architecture\ArchitectureSG\bin\Debug\Architecture.ArchitectureSG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Architecture\ArchitectureSG\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Architecture\ArchitectureSG\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Architecture\ArchitectureSG\bin\Debug\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Architecture\ArchitectureSG\bin\Debug\WCFExtras.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Architecture\ArchitectureSG\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Architecture\ArchitectureSG\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Architecture\ArchitectureSG\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Architecture\ArchitectureSG\bin\Debug\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Architecture\ArchitectureSG\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Architecture\ArchitectureSG\bin\Debug\WCFExtras.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Architecture\ArchitectureSG\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Architecture\ArchitectureSG\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Architecture\ArchitectureSG\obj\Debug\Architecture.ArchitectureSG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Architecture\ArchitectureSG\obj\Debug\Architecture.ArchitectureSG.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureSG\bin\Debug\Architecture.ArchitectureSG.dll.config
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureSG\bin\Debug\Architecture.ArchitectureSG.dll
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Architecture\ArchitectureSG\bin\Debug\Architecture.ArchitectureSG.pdb

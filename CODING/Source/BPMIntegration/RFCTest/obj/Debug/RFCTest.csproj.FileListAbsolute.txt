@@ -172,6 +172,35 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\BPMIntegration\RFCTest\obj\Debu
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\BPMIntegration\RFCTest\obj\Debug\RFCTest.csproj.GenerateResource.Cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\BPMIntegration\RFCTest\obj\Debug\RFCTest.exe
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\BPMIntegration\RFCTest\obj\Debug\RFCTest.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\librfc32.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\RFCTest.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\RFCTest.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\BPMSAPConnector.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\SAP.Connector.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\SAP.Connector.Rfc.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\Infrastructure.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\CashManagementModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\Infrastructure.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\CashManagementModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\obj\Debug\RFCTest.Form1.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\obj\Debug\RFCTest.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\obj\Debug\RFCTest.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\obj\Debug\RFCTest.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\BPMIntegration\RFCTest\obj\Debug\RFCTest.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\RFCTest\bin\Debug\librfc32.dll
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\RFCTest\bin\Debug\RFCTest.exe
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\BPMIntegration\RFCTest\bin\Debug\RFCTest.pdb

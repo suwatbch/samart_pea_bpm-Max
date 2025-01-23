@@ -113,15 +113,6 @@ namespace PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities
             set { _paymentTypeInfo = value; }
         }
 
-
-        // DCR 68-001 Cancel ICS 
-        private string _spotBillInvoiceNo;
-        public string SpotBillInvoiceNo 
-        {
-            get { return _spotBillInvoiceNo; }
-            set { _spotBillInvoiceNo = value; } 
-        }
-
         public Receipt()
         {
             _relatedReceipts = new List<Receipt>();

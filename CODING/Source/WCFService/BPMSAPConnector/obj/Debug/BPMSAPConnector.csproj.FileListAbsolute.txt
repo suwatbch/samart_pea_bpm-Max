@@ -26,6 +26,13 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\BPMSAPConnector\bin\
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\BPMSAPConnector\obj\Debug\ResolveAssemblyReference.cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\BPMSAPConnector\obj\Debug\BPMSAPConnector.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\BPMSAPConnector\obj\Debug\BPMSAPConnector.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\BPMSAPConnector\bin\Debug\BPMSAPConnector.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\BPMSAPConnector\bin\Debug\BPMSAPConnector.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\BPMSAPConnector\bin\Debug\SAP.Connector.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\BPMSAPConnector\bin\Debug\SAP.Connector.Rfc.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\BPMSAPConnector\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\BPMSAPConnector\obj\Debug\BPMSAPConnector.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\BPMSAPConnector\obj\Debug\BPMSAPConnector.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\BPMSAPConnector\bin\Debug\BPMSAPConnector.dll
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\BPMSAPConnector\bin\Debug\BPMSAPConnector.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\BPMSAPConnector\bin\Debug\SAP.Connector.dll

@@ -136,6 +136,29 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\EcsModule\EcsModule.BS\bin\Debu
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\EcsModule\EcsModule.BS\obj\Debug\ResolveAssemblyReference.cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\EcsModule\EcsModule.BS\obj\Debug\EcsModule.BS.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\EcsModule\EcsModule.BS\obj\Debug\EcsModule.BS.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\EcsModule.BS.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\EcsModule.BS.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\EcsModule.DA.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\EcsModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\Infrastructure.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\Infrastructure.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\EcsModule.DA.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\EcsModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\obj\Debug\EcsModule.BS.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\EcsModule\EcsModule.BS\obj\Debug\EcsModule.BS.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\EcsModule.BS.dll
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\EcsModule.BS.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\EcsModule\EcsModule.BS\bin\Debug\Architecture.ArchitectureInterface.dll

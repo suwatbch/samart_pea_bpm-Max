@@ -97,10 +97,35 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.application
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.pdb
-D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm_cbs2_205\CODING\bin\Debug\Shell.exe.config
-D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm_cbs2_205\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe
-D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm_cbs2_205\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\bin\Debug\TestPrint.dat
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\bin\Debug\ProfileCatalog.xml
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\bin\Debug\Shell.exe.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\bin\Debug\Shell.exe.manifest
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\bin\Debug\Shell.application
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\bin\Debug\Shell.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\bin\Debug\Shell.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.ShellForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.TrustInfo.xml
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe.manifest
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.application
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\TestPrint.dat
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\ProfileCatalog.xml
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\Shell.exe.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\Shell.exe.manifest
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\Shell.application
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\Shell.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\Shell.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\ResolveAssemblyReference.cache
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.Properties.Resources.resources
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.ShellForm.resources
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.TrustInfo.xml
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe.manifest
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.application
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.pdb

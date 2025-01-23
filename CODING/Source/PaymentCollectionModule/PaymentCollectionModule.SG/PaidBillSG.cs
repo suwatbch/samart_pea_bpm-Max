@@ -9,7 +9,6 @@ using PEA.BPM.Architecture.ArchitectureTool.Security;
 using PaymentCollectionModule.SG.PaidBillWCF;
 using System.ServiceModel;
 using WCFExtras.Soap;
-using PEA.BPM.Architecture.ArchitectureTool;
 
 namespace PaymentCollectionModule.SG
 {
@@ -212,41 +211,7 @@ namespace PaymentCollectionModule.SG
         #endregion
 
 
-
-
-        #region IPaidBillService Members
-
-
-        public bool ICSCancelReceipt(List<string> _receiptCancelICS)
-        {
-            // Invoke to internal service pool. 
-            // DCR 68-001 ICS CancelReceipt. 
-            //string InternalServicePrefixs = CodeTable.Instant.GetAppSettingValue("INTERNAL_SERVICE_PREFIX");
-            string InternalServicePoolUrl = CodeTable.Instant.GetAppSettingValue("INTERNAL_SERVICE_GATEWAY");
-            string InternalTimeoutText = CodeTable.Instant.GetAppSettingValue("INTERNAL_SERVICE_TIMEOUT");
-            int InternalServiceTimeout = 6000;
-            //bool ConfirmUseInternalService = false;
-            try
-            {
-                InternalServiceTimeout = Int32.Parse(InternalTimeoutText);
-            }
-            catch
-            {
-                InternalServiceTimeout = 6000;
-            }
-            System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
-            var InternalService = new InternalServicePools.ServicePools();
-            InternalService.Url = InternalServicePoolUrl;
-            InternalService.Timeout = InternalServiceTimeout;
-
-            // Confirm prefix ในการยกเลิกชำระเงินใบคำร้องไม่ได้ เนื่องจากในระบบไม่มีการเก็บ Ref1 ของระบบ ICS ไว้ 
-            Dev.
-
-
-            return true;
-        }
-
-        #endregion
+       
     }
 
 }

@@ -94,6 +94,22 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\SAPGateWayService\bi
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\SAPGateWayService\obj\Debug\ResolveAssemblyReference.cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\SAPGateWayService\obj\Debug\SAPGateWayService.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\SAPGateWayService\obj\Debug\SAPGateWayService.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPGateWayService\bin\SAPGateWayService.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPGateWayService\bin\SAPGateWayService.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPGateWayService\bin\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPGateWayService\bin\BPMSAPConnector.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPGateWayService\bin\SAP.Connector.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPGateWayService\bin\SAP.Connector.Rfc.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPGateWayService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPGateWayService\bin\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPGateWayService\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPGateWayService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPGateWayService\bin\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPGateWayService\bin\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPGateWayService\bin\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPGateWayService\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPGateWayService\obj\Debug\SAPGateWayService.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\SAPGateWayService\obj\Debug\SAPGateWayService.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\SAPGateWayService\bin\SAPGateWayService.dll
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\SAPGateWayService\bin\SAPGateWayService.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\SAPGateWayService\bin\Architecture.CommonUtilities.dll

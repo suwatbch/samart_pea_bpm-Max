@@ -154,6 +154,32 @@ D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\bin\
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\obj\Debug\ResolveAssemblyReference.cache
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\obj\Debug\OneTouchService.dll
 D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\obj\Debug\OneTouchService.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\OneTouchService.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\OneTouchService.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\Architecture.ArchitectureBS.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\ePaymentsModule.BS.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\ePaymentsModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\Avanade.ACA.Batch.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\Architecture.ArchitectureDA.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\ePaymentsModule.DA.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\ePaymentsModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\Architecture.ArchitectureBS.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\Avanade.ACA.Batch.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\Architecture.ArchitectureDA.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\ePaymentsModule.DA.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\bin\ePaymentsModule.BS.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\obj\Debug\OneTouchService.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\WCFService\OneTouchService\obj\Debug\OneTouchService.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\OneTouchService\bin\OneTouchService.dll
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\OneTouchService\bin\OneTouchService.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WCFService\OneTouchService\bin\Architecture.ArchitectureBS.dll
