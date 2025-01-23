@@ -279,7 +279,6 @@ D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegra
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.SG.dll
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.DA.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.ArchitectureBS.pdb
-D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Avanade.ACA.Batch.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.ArchitectureDA.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationUploadedService\bin\BPMIntegrationDownloadedService.pdb
 D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.ArchitectureInterface.pdb

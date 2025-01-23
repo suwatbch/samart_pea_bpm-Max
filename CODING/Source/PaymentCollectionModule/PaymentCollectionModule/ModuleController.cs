@@ -98,6 +98,7 @@ namespace PEA.BPM.PaymentCollectionModule
             //TODO: INSTALLMENT CASE
             //AddMenuItem(paymentCollectionMenuItem, Properties.Resources.RpCAC16, "CAC16", 0);
 
+
             //AddMenuSeparator(paymentCollectionMenuItem);
             //AddMenuItem(paymentCollectionMenuItem, Properties.Resources.DEL_POS_TRANSACTION, "DEL_POS_TRANSACTION", 0);
 
