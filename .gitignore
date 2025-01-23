@@ -3,8 +3,12 @@ bin/
 obj/
 *.dll
 *.pdb
+*.suo
+bin/
+obj/
 
 # Ignore เฉพาะในโฟลเดอร์ CODING
 CODING/bin/Debug/
 CODING/Source/**/bin/Debug/
 CODING/Source/**/obj/
+CODECOM/PeaBpm.suo
