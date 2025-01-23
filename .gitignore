@@ -1,0 +1,11 @@
+# Ignore ไฟล์ DLL และ PDB	
+*.dll	
+*.pdb	
+	
+# Ignore โฟลเดอร์ Debug และ Release	
+bin/	
+obj/	
+	
+# Ignore ไฟล์เฉพาะเจาะจง	
+CODING/bin/Debug/*.dll	
+CODING/bin/Debug/*.pdb	
