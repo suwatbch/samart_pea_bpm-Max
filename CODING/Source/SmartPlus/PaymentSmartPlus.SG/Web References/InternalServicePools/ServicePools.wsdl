@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ConfirmServicePrefix">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="notification" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConfirmServicePrefixResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ConfirmServicePrefixResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetARByNotificationModel">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="notification" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetARByNotificationModelResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetARByNotificationModelResult" type="tns:ARInfoModel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ARInfoModel">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CaId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TechBranchId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InvoiceNo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="InvoiceDt" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="DebtId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DebtType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaTaxId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaTaxBranch" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TaxCode" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TaxRate" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="Qty" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AmountExVat" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="VatAmount" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="GAmount" nillable="true" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="NotificationNo" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetARByNotificationDataTable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="notification" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetARByNotificationDataTableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetARByNotificationDataTableResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdatePayment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NotificationNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="InvoiceNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ReceiptId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DebtId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdatePaymentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdatePaymentResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ConfirmServicePrefixSoapIn">
+    <wsdl:part name="parameters" element="tns:ConfirmServicePrefix" />
+  </wsdl:message>
+  <wsdl:message name="ConfirmServicePrefixSoapOut">
+    <wsdl:part name="parameters" element="tns:ConfirmServicePrefixResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetARByNotificationModelSoapIn">
+    <wsdl:part name="parameters" element="tns:GetARByNotificationModel" />
+  </wsdl:message>
+  <wsdl:message name="GetARByNotificationModelSoapOut">
+    <wsdl:part name="parameters" element="tns:GetARByNotificationModelResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetARByNotificationDataTableSoapIn">
+    <wsdl:part name="parameters" element="tns:GetARByNotificationDataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetARByNotificationDataTableSoapOut">
+    <wsdl:part name="parameters" element="tns:GetARByNotificationDataTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePaymentSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdatePayment" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePaymentSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdatePaymentResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServicePoolsSoap">
+    <wsdl:operation name="ConfirmServicePrefix">
+      <wsdl:input message="tns:ConfirmServicePrefixSoapIn" />
+      <wsdl:output message="tns:ConfirmServicePrefixSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetARByNotificationModel">
+      <wsdl:input message="tns:GetARByNotificationModelSoapIn" />
+      <wsdl:output message="tns:GetARByNotificationModelSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetARByNotificationDataTable">
+      <wsdl:input message="tns:GetARByNotificationDataTableSoapIn" />
+      <wsdl:output message="tns:GetARByNotificationDataTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePayment">
+      <wsdl:input message="tns:UpdatePaymentSoapIn" />
+      <wsdl:output message="tns:UpdatePaymentSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServicePoolsSoap" type="tns:ServicePoolsSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConfirmServicePrefix">
+      <soap:operation soapAction="http://tempuri.org/ConfirmServicePrefix" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetARByNotificationModel">
+      <soap:operation soapAction="http://tempuri.org/GetARByNotificationModel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetARByNotificationDataTable">
+      <soap:operation soapAction="http://tempuri.org/GetARByNotificationDataTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePayment">
+      <soap:operation soapAction="http://tempuri.org/UpdatePayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServicePoolsSoap12" type="tns:ServicePoolsSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConfirmServicePrefix">
+      <soap12:operation soapAction="http://tempuri.org/ConfirmServicePrefix" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetARByNotificationModel">
+      <soap12:operation soapAction="http://tempuri.org/GetARByNotificationModel" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetARByNotificationDataTable">
+      <soap12:operation soapAction="http://tempuri.org/GetARByNotificationDataTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePayment">
+      <soap12:operation soapAction="http://tempuri.org/UpdatePayment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicePools">
+    <wsdl:port name="ServicePoolsSoap" binding="tns:ServicePoolsSoap">
+      <soap:address location="http://localhost/BPMInternalServicePools/ServicePools.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServicePoolsSoap12" binding="tns:ServicePoolsSoap12">
+      <soap12:address location="http://localhost/BPMInternalServicePools/ServicePools.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

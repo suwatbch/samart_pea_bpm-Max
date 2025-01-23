@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PEA.BPM.ePaymentsModule.Interface.BusinessEntities.ReceiptPrinting" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PEA.BPM.ePaymentsModule.Interface.BusinessEntities.ReceiptPrinting" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ReceiptConditionParam">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BeginCaId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EndCaId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InvoiceNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiptId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UploadDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CompanyId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReceiptConditionParam" nillable="true" type="tns:ReceiptConditionParam" />
+  <xs:complexType name="PPrintedReceiptParam">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="UploadDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PaymentDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CompanyId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiptId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PPrintedReceiptParam" nillable="true" type="tns:PPrintedReceiptParam" />
+  <xs:complexType name="PPrintedDeposit">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="UploadDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PayDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FixedDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FixedType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiptId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RefDocNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InvoiceNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CompanyId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CompanyName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CompanyAddr" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="DebtAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="DepositName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepositBranch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepositAddr" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepositDt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepositMonth" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepositYear" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepositDetail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Qty" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="UploadDetail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StrAmount" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AccountClass" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PPrintedDeposit" nillable="true" type="tns:PPrintedDeposit" />
+</xs:schema>

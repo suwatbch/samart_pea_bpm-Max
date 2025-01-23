@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/ARCH/SecurityWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ARCH/SecurityWCFService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ARCH/SecurityWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ARCH/SecurityWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISecurityWCFService_ListAuthorizedFunctions_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListAuthorizedFunctions" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityWCFService_ListAuthorizedFunctions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListAuthorizedFunctionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityWCFService_ListAuthorizedFunctions_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityWCFService_SaveUnlockLog_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveUnlockLog" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityWCFService_SaveUnlockLog_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveUnlockLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityWCFService_SaveUnlockLog_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityWCFService_LoadUserProfile_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadUserProfile" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityWCFService_LoadUserProfile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadUserProfileResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityWCFService_LoadUserProfile_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityWCFService_CheckLogInDouble_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckLogInDouble" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityWCFService_CheckLogInDouble_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckLogInDoubleResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityWCFService_CheckLogInDouble_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityWCFService_UpdateCurIPReqFlag_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCurIPReqFlag" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityWCFService_UpdateCurIPReqFlag_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCurIPReqFlagResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityWCFService_UpdateCurIPReqFlag_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="ISecurityWCFService">
+    <wsdl:operation name="ListAuthorizedFunctions">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISecurityWCFService/ListAuthorizedFunctions" message="tns:ISecurityWCFService_ListAuthorizedFunctions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISecurityWCFService/ListAuthorizedFunctionsResponse" message="tns:ISecurityWCFService_ListAuthorizedFunctions_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ISecurityWCFService/ListAuthorizedFunctionsBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ISecurityWCFService_ListAuthorizedFunctions_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveUnlockLog">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISecurityWCFService/SaveUnlockLog" message="tns:ISecurityWCFService_SaveUnlockLog_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISecurityWCFService/SaveUnlockLogResponse" message="tns:ISecurityWCFService_SaveUnlockLog_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ISecurityWCFService/SaveUnlockLogBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ISecurityWCFService_SaveUnlockLog_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadUserProfile">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISecurityWCFService/LoadUserProfile" message="tns:ISecurityWCFService_LoadUserProfile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISecurityWCFService/LoadUserProfileResponse" message="tns:ISecurityWCFService_LoadUserProfile_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ISecurityWCFService/LoadUserProfileBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ISecurityWCFService_LoadUserProfile_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckLogInDouble">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISecurityWCFService/CheckLogInDouble" message="tns:ISecurityWCFService_CheckLogInDouble_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISecurityWCFService/CheckLogInDoubleResponse" message="tns:ISecurityWCFService_CheckLogInDouble_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ISecurityWCFService/CheckLogInDoubleBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ISecurityWCFService_CheckLogInDouble_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCurIPReqFlag">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISecurityWCFService/UpdateCurIPReqFlag" message="tns:ISecurityWCFService_UpdateCurIPReqFlag_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISecurityWCFService/UpdateCurIPReqFlagResponse" message="tns:ISecurityWCFService_UpdateCurIPReqFlag_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ISecurityWCFService/UpdateCurIPReqFlagBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ISecurityWCFService_UpdateCurIPReqFlag_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

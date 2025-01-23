@@ -1,0 +1,157 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CCC7E63C-530C-454A-9DDA-553AB3A1EEE9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PEA.BPM.BillPrintingModule.Interface</RootNamespace>
+    <AssemblyName>BillPrintingModule.Interface</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessEntities\A4Bill.cs" />
+    <Compile Include="BusinessEntities\AuthorizedPerson.cs" />
+    <Compile Include="BusinessEntities\BarcodeMRU.cs" />
+    <Compile Include="BusinessEntities\BillingDetail.cs" />
+    <Compile Include="BusinessEntities\BillingMaster.cs" />
+    <Compile Include="BusinessEntities\BillPrintingConditionParam.cs" />
+    <Compile Include="BusinessEntities\Bills.cs" />
+    <Compile Include="BusinessEntities\BlueBill.cs" />
+    <Compile Include="BusinessEntities\ControlParam.cs" />
+    <Compile Include="BusinessEntities\DeliveryPlace.cs" />
+    <Compile Include="BusinessEntities\GreenBill.cs" />
+    <Compile Include="BusinessEntities\GreenBillParam.cs" />
+    <Compile Include="BusinessEntities\GreenBillReprintParam.cs" />
+    <Compile Include="BusinessEntities\GreenBillSummary.cs" />
+    <Compile Include="BusinessEntities\GreenBillSummaryParam.cs" />
+    <Compile Include="BusinessEntities\GroupInvoiceParam.cs" />
+    <Compile Include="BusinessEntities\Invoice.cs" />
+    <Compile Include="BusinessEntities\ManageBarcodeParam.cs" />
+    <Compile Include="BusinessEntities\Portion.cs" />
+    <Compile Include="BusinessEntities\PrintableId.cs" />
+    <Compile Include="BusinessEntities\EnumValue.cs" />
+    <Compile Include="BusinessEntities\PrintableIdByBank.cs" />
+    <Compile Include="BusinessEntities\ReportBillDelivery.cs" />
+    <Compile Include="BusinessEntities\ReportBillingStatus.cs" />
+    <Compile Include="BusinessEntities\ReportCAUnprint.cs" />
+    <Compile Include="BusinessEntities\ReportConditionParam.cs" />
+    <Compile Include="BusinessEntities\ReportDailyPrint.cs" />
+    <Compile Include="BusinessEntities\ReportDailyUnprint.cs" />
+    <Compile Include="BusinessEntities\ReportDirectDebitStatus.cs" />
+    <Compile Include="BusinessEntities\ReportF16.cs" />
+    <Compile Include="BusinessEntities\ReportGroupingCrossCheck.cs" />
+    <Compile Include="BusinessEntities\ReportPrintByBank.cs" />
+    <Compile Include="BusinessEntities\ReportStreetRoute.cs" />
+    <Compile Include="BusinessEntities\ReportStreetRouteReceive.cs" />
+    <Compile Include="BusinessEntities\ReportStreetRouteUnreceive.cs" />
+    <Compile Include="Constants\CommandNames.cs" />
+    <Compile Include="Constants\EventTopicNames.cs" />
+    <Compile Include="Constants\LocalSettingNames.cs" />
+    <Compile Include="Constants\SecurityNames.cs" />
+    <Compile Include="Constants\UIExtensionSiteNames.cs" />
+    <Compile Include="Constants\WorkspaceNames.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BusinessEntities\ReportGrpInvSummary.cs" />
+    <Compile Include="Services\IBillPrintingServices.cs" />
+    <Compile Include="Services\IControlServices.cs" />
+    <Compile Include="Services\IReportServices.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Architecture\CommonUtilities\CommonUtilities.csproj">
+      <Project>{1A6B6E40-2DD5-4CB8-B766-B61AA237701B}</Project>
+      <Name>CommonUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Infrastructure.Interface\Infrastructure.Interface.csproj">
+      <Project>{A6E71DBF-A767-416C-9DE4-15AEFC619BAF}</Project>
+      <Name>Infrastructure.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

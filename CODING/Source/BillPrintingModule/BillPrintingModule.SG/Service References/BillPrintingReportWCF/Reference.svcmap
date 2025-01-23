@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="491465e6-f240-454b-a609-adb7ba376f9b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BillPrintingReportWCFService7.xsd" MetadataType="Schema" ID="7793d012-ce3b-49ac-9a82-48e5ce39e413" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="BillPrintingReportWCFService71.xsd" MetadataType="Schema" ID="111598d8-47b5-48f2-a43b-abf8cf9a5d46" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="BillPrintingReportWCFService72.xsd" MetadataType="Schema" ID="94e6c481-b3cd-4dba-89aa-1e269a89c975" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="BillPrintingReportWCFService73.xsd" MetadataType="Schema" ID="60dbbb11-8547-4548-9c2a-da8d0290d7af" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="BillPrintingReportWCFService2.wsdl" MetadataType="Wsdl" ID="9508502a-08f7-4535-ac65-8f77bdd1f3ac" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?wsdl" />
+    <MetadataFile FileName="BillPrintingReportWCFService74.xsd" MetadataType="Schema" ID="14bd29ac-135e-4011-abf5-5bc936ce6b9d" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?xsd=xsd5" />
+    <MetadataFile FileName="BillPrintingReportWCFService75.xsd" MetadataType="Schema" ID="1e72159b-7aae-4c5d-b9ff-f10b4ecb26be" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?xsd=xsd4" />
+    <MetadataFile FileName="BillPrintingReportWCFService76.xsd" MetadataType="Schema" ID="f0d81abb-c3c7-49d6-9c45-0ddbffe8a6a6" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?xsd=xsd6" />
+    <MetadataFile FileName="BillPrintingReportWCFService1.disco" MetadataType="Disco" ID="a77e7b97-83ab-41e2-98c8-38057d499617" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?disco" />
+    <MetadataFile FileName="BillPrintingReportWCFService21.wsdl" MetadataType="Wsdl" ID="6c26c317-0496-4b0e-ac74-0228a13c0bdd" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

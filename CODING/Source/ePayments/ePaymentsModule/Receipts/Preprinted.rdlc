@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <ConnectionProperties>
+        <ConnectString />
+        <DataProvider>SQL</DataProvider>
+      </ConnectionProperties>
+      <rd:DataSourceID>5946ba85-0b9c-40d5-8dc5-221ff660c0f5</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <PageWidth>15.5cm</PageWidth>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>16cm</InteractiveWidth>
+  <rd:GridSpacing>0.25cm</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <Body>
+    <ColumnSpacing>0cm</ColumnSpacing>
+    <ReportItems>
+      <Table Name="table2">
+        <Left>0.25cm</Left>
+        <DataSetName>PEA_BPM_ePaymentsModule_Interface_BusinessEntities_ReceiptPrinting_PPrintedReceipt</DataSetName>
+        <Top>13.75291cm</Top>
+        <ZIndex>13</ZIndex>
+        <Visibility>
+          <Hidden>true</Hidden>
+        </Visibility>
+        <Width>11.97061cm</Width>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="strAmount">
+                      <ZIndex>6</ZIndex>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=First(Fields!StrAmount.Value)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="GrandAmount">
+                      <ZIndex>5</ZIndex>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <Format>N</Format>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=First(Fields!TotalBillAmount.Value)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="totalAmount">
+                      <ZIndex>4</ZIndex>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="vatRate">
+                      <ZIndex>3</ZIndex>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textAmount">
+                      <ZIndex>2</ZIndex>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="miscRev">
+                      <ZIndex>1</ZIndex>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="pageSequence">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.25cm</Height>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <TableColumns>
+          <TableColumn>
+            <Width>1.94118cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.94118cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.61765cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.61765cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.61765cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.61765cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.61765cm</Width>
+          </TableColumn>
+        </TableColumns>
+        <Height>0.25cm</Height>
+      </Table>
+      <Table Name="table3">
+        <Left>2.13228cm</Left>
+        <DataSetName>PEA_BPM_ePaymentsModule_Interface_BusinessEntities_ReceiptPrinting_PPrintedReceipt</DataSetName>
+        <Top>12.95001cm</Top>
+        <ZIndex>12</ZIndex>
+        <Width>7.2cm</Width>
+        <Header>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox17">
+                      <rd:DefaultName>textbox17</rd:DefaultName>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <FontFamily>CordiaUPC</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=First(Fields!TranfDetail.Value)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.63492cm</Height>
+            </TableRow>
+          </TableRows>
+        </Header>
+        <TableColumns>
+          <TableColumn>
+            <Width>7.2cm</Width>
+          </TableColumn>
+        </TableColumns>
+        <Height>0.25in</Height>
+      </Table>
+      <Table Name="table1">
+        <Left>0.13228cm</Left>
+        <DataSetName>PEA_BPM_ePaymentsModule_Interface_BusinessEntities_ReceiptPrinting_PPrintedReceipt</DataSetName>
+        <Top>10.659cm</Top>
+        <ZIndex>11</ZIndex>
+        <Width>14.8cm</Width>
+        <Style>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+        </Style>
+        <Header>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox8">
+                      <rd:DefaultName>textbox8</rd:DefaultName>
+                      <ZIndex>4</ZIndex>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox13">
+                      <rd:DefaultName>textbox13</rd:DefaultName>
+                      <ZIndex>3</ZIndex>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <FontFamily>CordiaUPC</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=First(Fields!ReceiveDtDetail.Value)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox14">
+                      <rd:DefaultName>textbox14</rd:DefaultName>
+                      <ZIndex>2</ZIndex>
+                      <Style>
+                        <TextAlign>Center</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <FontFamily>CordiaUPC</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=First(Fields!Qty.Value)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox15">
+                      <rd:DefaultName>textbox15</rd:DefaultName>
+                      <ZIndex>1</ZIndex>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox16">
+                      <rd:DefaultName>textbox16</rd:DefaultName>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <FontFamily>CordiaUPC</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <Format>N</Format>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=First(Fields!TotalBillAmount.Value)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.63492cm</Height>
+            </TableRow>
+          </TableRows>
+        </Header>
+        <TableColumns>
+          <TableColumn>
+            <Width>2cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.8cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>3cm</Width>
+          </TableColumn>
+        </TableColumns>
+        <Height>0.25in</Height>
+      </Table>
+      <Textbox Name="ReceiptAddr">
+        <Left>5.5cm</Left>
+        <Top>4.94735cm</Top>
+        <rd:DefaultName>ReceiptAddr</rd:DefaultName>
+        <ZIndex>10</ZIndex>
+        <Width>3.82864in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <LineHeight>1cm</LineHeight>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.49219in</Height>
+        <Value>=First(Fields!ReceiptAddr.Value)</Value>
+      </Textbox>
+      <Textbox Name="ReceiptBranch">
+        <Left>8.5cm</Left>
+        <Top>4.30318cm</Top>
+        <rd:DefaultName>ReceiptBranch</rd:DefaultName>
+        <ZIndex>9</ZIndex>
+        <Width>2.65781in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!ReceiptBranch.Value)</Value>
+      </Textbox>
+      <Textbox Name="textbox3">
+        <Left>13.28836cm</Left>
+        <Top>6.22381cm</Top>
+        <ZIndex>8</ZIndex>
+        <Width>1.75cm</Width>
+        <Style>
+          <TextAlign>Center</TextAlign>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!ReceiptYear.Value)</Value>
+      </Textbox>
+      <Textbox Name="textbox2">
+        <Left>10.75cm</Left>
+        <Top>6.22381cm</Top>
+        <ZIndex>7</ZIndex>
+        <Width>2.1cm</Width>
+        <Style>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!ReceiptMonth.Value)</Value>
+      </Textbox>
+      <Textbox Name="ReceiptDt">
+        <Left>8.5cm</Left>
+        <Top>6.22381cm</Top>
+        <rd:DefaultName>ReceiptDt</rd:DefaultName>
+        <ZIndex>6</ZIndex>
+        <Width>1.5cm</Width>
+        <Style>
+          <TextAlign>Center</TextAlign>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!ReceiptDt.Value)</Value>
+      </Textbox>
+      <Textbox Name="CustomerId_1">
+        <Left>1.8cm</Left>
+        <Top>6.19735cm</Top>
+        <rd:DefaultName>CustomerId_1</rd:DefaultName>
+        <ZIndex>5</ZIndex>
+        <Width>1.67344in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="CompName_1">
+        <Left>2.3cm</Left>
+        <Top>6.86798cm</Top>
+        <rd:DefaultName>CompName_1</rd:DefaultName>
+        <ZIndex>4</ZIndex>
+        <Width>5.08864in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!CompName.Value)</Value>
+      </Textbox>
+      <Textbox Name="CompAddr">
+        <Left>1.3cm</Left>
+        <Top>7.50028cm</Top>
+        <rd:DefaultName>CompAddr</rd:DefaultName>
+        <ZIndex>3</ZIndex>
+        <Width>5.49281in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <LineHeight>1cm</LineHeight>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.49218in</Height>
+        <Value>=First(Fields!CompAddr.Value)</Value>
+      </Textbox>
+      <Textbox Name="InvoiceId_1">
+        <Left>3.5cm</Left>
+        <Top>8.94736cm</Top>
+        <rd:DefaultName>InvoiceId_1</rd:DefaultName>
+        <ZIndex>2</ZIndex>
+        <Width>11.75291cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="textbox4">
+        <Left>0.25cm</Left>
+        <Top>1.51481cm</Top>
+        <ZIndex>1</ZIndex>
+        <Width>5.90625in</Width>
+        <Style>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontWeight>700</FontWeight>
+          <FontSize>14pt</FontSize>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.3in</Height>
+        <Value>=First(Fields!ReceiptName.Value) + "เลขที่ "+ First(Fields!ReceiptId.Value)</Value>
+      </Textbox>
+      <Textbox Name="DebtId_check">
+        <Left>4.62656in</Left>
+        <Top>5.02031in</Top>
+        <Visibility>
+          <Hidden>true</Hidden>
+        </Visibility>
+        <Width>1in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value />
+      </Textbox>
+    </ReportItems>
+    <Height>18.5cm</Height>
+    <Style>
+      <BorderWidth>
+        <Default>0.25pt</Default>
+      </BorderWidth>
+    </Style>
+  </Body>
+  <rd:ReportID>2466d0e1-1fa7-4f52-8050-bf3fff449f97</rd:ReportID>
+  <EmbeddedImages>
+    <EmbeddedImage Name="logopea">
+      <ImageData>Qk1+agAAAAAAAHYAAAAoAAAA6AAAAOoAAAABAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAICAgADAwMAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AP//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAAAAAAAAAAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8PAAAAAAAAAAAAAAAAAAAAAAAAD//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAAAAAAAAAAAAAD/////8AAAAAAAAAAAAAAAAAAAD////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////AAAAAAAAAAAA////////////////////AAAAAAAAAAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAAAAAAAAP//////////////////////////AAAAAAAAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////wAAAAAAAAAP////////////////////////////////AAAAAAAAAA////////////////////////////////////////////////////////////////////////////////////////////////////8AAAAAAAAP/////////////////////////////////////wAAAAAAAA//////////////////////////////////////////////////////////////////////////////////////////////////AAAAAAAA//////////////////////////////////////////AAAAAAAA//////////////////////////////////////////////////////////////////////////////////////////////8AAAAAAAD/////////////////////////////////////////////8AAAAAAAD///////////////////////////////////////////////////////////////////////////////////////////8AAAAAAP//////
+////////////////8ADwD////w////////////////8AAAAAAA//////////////////////////////////////////////////////////////////////////////////////////AAAAAAD/////////////////8AD///8ADwAP///wAP////D///////8AAP/wAAAAAA///////////////////////////////////////////////////////////////////////////////////////wAAAAAAD/////////////AP////AA//8AAPAA///wAAD///AA/w////8AAAAP8AAAAAAA/////////////////////////////////////////////////////////////////////////////////////wAAAAAP///////////wAPAAD///8AD//wAA8AD///8AAP//AAAPAP///wAPAA///wAAAAAP//////////////////////////////////////////////////////////////////////////////////8AAAAAD////////////wAAAAAA///wAP//AA/wAP////AA//AAAAAAD///8A8AD////wAAAAD/////////////////////////////////////////////////////////////////////////////////8AAAAAD/////////////AAAAAAD///8A//8AAAAA////8AD/8AAAAAAP8A//8AD/////8AAAAAD///////////////////////////////////////////////////////////////////////////////AAAAAA////////8AAP//8AAAAAAP///wAP//AAAAD////wAP/wAP8AAA8AAP//8P//////AAAAAAD//////////////
+//////////////////////////////////////////////////////////////wAAAAAP/////////wAAD///AA8A8AD///AA/////wAP////AA//8A//AA/wAA/wD/////////8AAAAA///////////////////////////////////////////////////////////////////////////wAAAAAP////////AAAAAA//8ADwDwAP//8AD/AA//AA//D/8AD//wD/8AD/AAD/AA//////////AAAAAP////////////////////////////////////////////////////////////////////////8AAAAAD/////////AAAA8AD///AA//AA/wAAAP8AAAAAD/8AAAAP8AAA/wAP/wAP8AD/AAD///////AAAAAP//////////////////////////////////////////////////////////////////////8AAAAA//////////8AAAAPAA///wD/8AD/AAAA//AAAAAP/wAAAA/wAADwAP//AA8AAP8AAP////////AAAAD/////////////////////////////////////////////////////////////////////8AAAAA///////wD//wAP8A8AD/8AAA//AA/wAAD//wAAAA//8AAA//AAAPAA//8ADwAP/wAA/////////wAAAAD///////////////////////////////////////////////////////////////////AAAAAA///////wAA//8ADwDwAA/wAAD/8AD/////////8AD////////wAP8AD/AAD/AA//AADwD///////8AAAAA//////////////////////////////////////////////////////////////////AAAAAP////////
+AAD//wAPAA8AD/8AD//wAAD///////AAAP///////////wAP8AAP8AD/AAAAAP////////AAAAAP////////////////////////////////////////////////////////////////8AAAAP////////8AD///8ADwDwAP//D/AAAAAP//////8A8A////////////8P/wAAAAAP8ADwAA/////////wAAAAD///////////////////////////////////////////////////////////////AAAAAP/////////wAA////AA//8AD///8AAAAA///////wD/D///////////////8AAAAA8AAPAAD//wAP////8AAAAA//////////////////////////////////////////////////////////////AAAAD///////////8AAP//AAD//wAP//8AAAAP////////AP//////////////////8AAA/wAA8AD//wAA///////wAAAP////////////////////////////////////////////////////////////AAAAD/////////////AAD/8AAP//8AD//wAA8A//////////////////////////////8ADwAA/wAP//AAD///////AAAAD///////////////////////////////////////////////////////////8AAAD//////wD//////wAA//AP///wAA//8AD//////wAAAAAAAAD///////////////////AADwAA///wAP///////wAAAA//////////////////////////////////////////////////////////AAAAD//////wAA//////AAD///////8A//////AAAAAAAAAAAAAAAAAAAAAP/////////////wD/AA///wAA/wD//
+///8AAAAA////////////////////////////////////////////////////////AAAA///////wAAAP/////wAA////////////8AAAAAAAAAAAAAAAAAAAAAAAAAD/////////8A//AAD///AA/wAP//////8AAAD///////////////////////////////////////////////////////AAAAD///////AAAAD/////8AAP/////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////AAAP8AD///AAD/AA////////AAAA//////////////////////////////////////////////////////AAAAD////////wDwAA////AAAA///////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////8AAP//AP/wAAD/AAD////////wAAAA////////////////////////////////////////////////////AAAA////////////8ADwAPAAAAD/////AAAAAAAAAAD/////////////////AAAAAAAAAAD///AADwD///AAD/AAD/////////8AAAD///////////////////////////////////////////////////AAAAD/////AA/////wAAAA8AAP//////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/8AAAAP//8AAA8AD/////D/////AAAA//////////////////////////////////////////////////AAAAD/////8AAP////AAAA//AA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA///wAAAAAP////AP/////wAAAP////////////////////////////////////////////////8AAAD/////
+//AAD///AAAA////////AAAAAAAP//////////////////////////////8AAAAAAAAAAAD////wAAAP////8A//////8AAAD///////////////////////////////////////////////AAAAD////////wAA//AAAP///////wAAAAAAD///////////////////////////////////AAAAAAD///////8AAP////8AD///////AAAA//////////////////////////////////////////////8AAAD/////////8AAP/wAP//////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////AA/////wAP///////wAAAP////////////////////////////////////////////8AAAD///////////AAD/////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////AP/wAP////////8AAAD///////////////////////////////////////////8AAAD/////AA/////wAA////////AAAAAA////////////////////////////////////////////8AAAAA////////8ADwAP//8AD////wAAAP///////////////////////////////////////////wAAD/////8AAP///wAAD///////AAAAAA//////////////////////////////////////////////AAAAAP///////wAAAA//AAAP////8AAAD//////////////////////////////////////////wAAAP//////AAD//wAAD//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAP//////AAAA/wAAAA8P////AAAA/////////////////////////////////////////wAAAP////8A/wAA//AAD//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/////wAA/wAAAP8A/////wAAD////////////////////////////////////////wAAAP////8AAP8AAP/////////wAAAAD////////////////////////////////////////////////////wAAAA//////8ADwAAAP8AD/////8AAA////////////////////////////////////////AAAA//////AAD/AAD////////wAAAAD/////////////////////////////////////////////////////8AAAAA//////D/AAAA/wAP/////wAAD///////////////////////////////////////AAAP///////wAA/wAA///////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////8ADwDwAA//////8AAA//////////////////////////////////////8AAA////////8AAPAAD//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////wAP/wAA////////AAAP////////////////////////////////////8AAA//////////AAAAD/////8AAAAA//////////////////////////////////////////////////////////8AAAAA//////AADwAA////////8AAAD////////////////////////////////////wAA
+////D//////wAAAP////8AAAAP////////////////////////////////////8P//////////////////////8AAAAP/////wAAAA////8A////AAAA///////////////////////////////////wAAD//wAA//////AAD//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAD/////8AAA/////wAP///wAAD//////////////////////////////////wAAD///AAD///D/8AAP////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////AA//////AAD///AAAP/////////////////////////////////wAAAP///wAPAAAP////////8AAAAP//////////////////////////////////AAAAAAAP///////////////////////wAAAP/////w///////wAP///wAAD/////////////////////////////////AAAP////AAAAAA/////////wAAAP//////////////////////////////////8AAAAAAA////////////////////////8AAAD/////////////AA////AAAP////////////////////////////////AAAA///wAAAAAAD////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////AAAAAP8AD////wAAD///////////////////////////////8AAA////AAAAAAD////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAPAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAP/////wAAAADwAAD///AAAA//////////////////////////////8AAAD///AAAAAAAP///////wAAAP////////////////////////////////////8AAAAAAA//////////////////////////8AAAD///8AAAAAAAAAAA///wAAAP/////////////////////////////wAAD///AAAA8AAAAAD////wAAAP////////////////////////////////////AAAAAAAAD//////////////////////////wAAAP///wAAAAAAAAAAAP//AAAA/////////////////////////////wAAAP//AAAAAAAAAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAA///wAAD/////////////////////////////AAAP//8AAAAAAAAP8A///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAD///8AAA////////////////////////////AAAP////AAAAAAAAD/////AAAP//////////////////////////////////8AAAAAAAAAD//////////////////////////////wAAAP////8AAAAAAA8A///wAAD///////////////////////////8AAA////8AAAAAAAAP////AAAA///////////////////////////////////wAAAAAAAA////////////////////////////////8AAAD////wAAAAAAAAD///AAAA//////////////////////
+////8AAAD///8AAAAAAAAA////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////AP8AAAAAD////wAAD//////////////////////////wAAD///8AAAAAAADwD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8AD/AAAAAP////8AAP/////////////////////////wAAAP//8AAA/wAAAAAP//8AAAD///////////////8P//////8A/////////wAAAAAAAP///////////////////////////////////wAAAP///wAAAAAAAAD////wAAD/////////////////////////AAAP///wD///APAAAA///wAAAP//////////////8A//////AAD/////////AAAAAAAP/////////wAP////////////////////////AAAAD///8AAAAAAAAA////8AAA////////////////////////8AAA///wD///AA8AD////wAAAAAAAAAAAAAAAAAP8AAAAAAAAADwAAAAAAAP8AAAAAAPAAAAAAAAAP8AAAAAAAAADwAAAAAAAAAAAAAAAAAAAA////AAAAAAAAD////wAAD///////////////////////8AAAD//wAP/wAADwAP///wAAAAAAAAAAAAAAAAAA8AAAAAAP8AAAAAAAAAAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAD///8AAAAAAAAA////AAAP///////////////////////wAAD/8AAP/wAPAAAA////AAAP///////////////wAA////AAD/////////8AAAAAAAD
+///////////8AAP/////wAP////////////////8AAA///wAAAAAP/wD////wAAD///////////////////////AAD//wAPAAAA8AAAD///AAAA//////////////8AAA///wAAAP/////////wAAAAAAAP////////////AAD/////AA//////////////////AAD///AAD/AA/w8A////AAAP//////////////////////AAAP//AAAAAA/wAPAP//8AAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAA/wAAAAAAAPAAAAAAAAAAAADwAAAAAAAAAPAAAAAAAAAAAAAAAAAAAA///wD//wAPAAD////wAA//////////////////////8AAA//AAAAAAD/AAAA//8AAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAPAAAAAAD///AAAP////////////////////8AAA//8AAAD/AP8AAA///wAAD/////////////8AAAAP//AAAP///////wDwAAAAAAAAD//////////////wAAAP//AAAA////////////////8AAA///wAA8AAAAAAP//8AAA/////////////////////wAAD//wAAAP8A8AAAD//wAAAP/////////////wAAAA//AAAA////////AAAAAAAAAAAP//////////////8AAAAP8AAAAP///////////////wAAD///APAAAAAAAAD///AAAP////////////////////AAAP/wAAAP/w/wAAD///AAAAAAAAAAAAAAAADwAAAAAPAAAAAAAAAAAA8AAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAPAAAADwAAAAAAAAAAAAAAAAAA//8AAAAA8AAAAA//8AAA//////
+//////////////8AAP/wAPAA/wD/AAAP//AAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAAAA8AAAAAAAAAAA8AAAAAAAAAAAAAAADwAAAA8AAAAA8AAAAAAAAAAAAAAAAAAP//APAAD/AAAAAP/wAAD////////////////////wAA/wD/8A//APAAAP//8AAA/////////////wAAAAAPAAAA////////8AAAAAAAAAAAD/////////////////8AAAAAAAAAD///////////////8AAA//8AAAD/8AAAAAD/8AAP///////////////////wAAD///8AD/AA8ADwD//wAAD////////////wAAAAAAAAAA//////////AAAAAAAAAAD///////////////////AAAAAAAAAA///////////////wAAD///AAD//wAAAAAA/wAAD///////////////////AAAP//8AAPAADwAPAP/wAAAAAAAAAAAAAAAPAAAAAAAAAAAAAAAAAAAADwAAAAAAAA//AAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AD///D/AAAAD/AAAP//////////////////AAAP///wDwAAAAAA////AAAAAAAAAAAAAAAA8AAAAAAAAA8AAAAAAAAAAA8AAAAAAADwAAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAD/8AAA//AA8AAA///wAA//////////////////8AAA//8AAAAA8AAA////AAAP////////////AAAAAAAAAAD////////////wAAAAAAAP/////////////////////wAAAAAAAAAA//////////////AAAA/wAAD/8ADwAAAP//AAAP/////////////////wAAD//wAAAA/wAAD///8AAA////////////8AAAAAAAAA/////////////
+/8AAAAAAP//////////////////////8AAAAAAAAAAP/////////////wAAD/APAP/wAP8AAA//8AAA//////////////////AAAP/wAAAAD/AAAP//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAAAPAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAA8AAAAAAAAAAAAAAAAP8A8AAAAAD/DwD//wAAD/////////////////AAAP//AAAAAP8AAA///wAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAPAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAD///AAAAAP8AAP//8AAP////////////////8AAP//AAAA8A/wAAAP//AAAP//////////8AAAAAAAAAD///////////////8AAAAA//////////////////////////8AAAAAAAAAD/////////////AAAP//8AAAAAAPAAD//wAAD////////////////wAA//8AAAD/D/AAAA//8AAA//////////8AAAAAAAAAAP///////////////wAAAAD//////////////////////////wAAAAAAAAAA////////////8AAA///wAAAAAAAAAA//8AAP////////////////AAD/8A8A//8A//AAD/8AAAAAAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAAPAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAAAAAAAPAAAAAAAAAAAAAAAP//AAAAAAAAAAD//wAA////////////////8AAP/wDwAP/wD/8AAP8AAAAAAAAAAAAA8AAAAA8AAAAAAAAAAAAAAAAAAAAA8AAAAA8AAAAAAAAAAAAAAPAAAAAAAAAAAPAAAAAAAAAADwAAAAAAAAAAAAAA//8AAADwAA
+AAAA//AAD///////////////8AAA////AA//AP/wAA/wAAAP////////8AAAAP/wAAD///////////////D///AAAAD/////////////8AD/////////////AAAA8AAAAA///////////wAAAP/wAA//8AAADwD/8AAP///////////////wAAD///8A//AA//AAD/AAAA////////AAAAD//wAAAP//////////////AP//8AAAAP/////////////wAP/////////////wAAAP8AAAAP//////////AAAA/wAAD//wAAAAAA/wAAD///////////////AAAP///wD/8AAP8AAP8AAAAAAAAAAAAAAAAAAAAAAPAAAAAA8AAAAAAAAA8AAPAAAADwAAAAAAAAAAAA8AAAAAAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAD/AAAPD/AAAADwD/AAAP//////////////8AAP///wD/8A8AAAAA/wAAAAAAAAAAAAAAAAAAAAAPAAAAAA8PAAAAAPAA8AAA8AAAAA8AAAAAAAAAAAAPAA8AAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAP8AAPAPAAAPAP//8AAA///////////////wAA////AP8ADwAAAAD/AAAP///////wAAAP///wAP//////8A//////AAD/////AAAAD/////////////8AAP/////wD/////8AAP//AAAAD/////////8AAA/w8A8A8ADw8A///wAAD///////////////AAD///AA8AD/AAAA//8AAA///////wAAAP////AP//////8AD/////AAD/////8AAAAP//////////////AAD/////AA/////wAAD///AAAA/////////wAAD//wAP8AD/AAAP//8AAP//////////////AAAP//AAAAD/8AAAD//wAAAAAAAADwAAAPAAAAAAAAAAAAD
+wAPAAAPAADwAAAAAPAAAA8AAAAAAAAAAAAADwAA8AAA8AAAAAAAAAAAAAAAAAAPAAAAAAAAAAAP8P8ADwAA/wAA///wAA//////////////8AAA//AAAAAP/wAAAP/wAAAAAAAADwAAAPAAAAAAAAAAAADwAA8AAPAADwAAAAAA8AAADwAAAAAAAAAAAAAPAAAPAADwAAAAAAAAAAAAAAAAAADwAAAAAAAAAADw/wAAAAD/AAD///AAD//////////////wAAD/8A/wAA//AAAA//AAAP/////wAAD//////////////wAAAP//AAAP////////AAAA///////////////wAAD///AAAP////////////AAAA////////AAAP/wAAAAAA/wAP//8AAA//////////////AAD//w//AAD/8AAAD/8AAP//////AAD//////////////wAAAA//AAAP/////////wAAD///////////////8AAA//8AAAD/////////////AAAP//////8AAA//AAAAAAD/AA///wAAD/////////////8AAP////AAAP/wAAAP/wAAAAAAAPAAAAAAAAAAAAAAAAAPAAAAD/8AAPAAAAAAAAAPAAAPAAAAAAAAAAAAAADwAAAP/wAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAD/8AAA8AAA8AAP//AAAP/////////////wAA//AP8AAA//AA8A//AAAAAAAPAADwAAAAAAAAAAAAAPAAAAAP8AAA8AAAAAAAAA8AAA8AAAAAAAAAAAAAAA8AAAD/AAAADwAAAAAAAAAAAA8AAAAAAAAAAAAA/wAADwAAAA8AD//wAA//////////////AAD/8P/wAAAP8ADwD/8AAP////AAD///////////////8AAAAA8AAA////////////AAAP////////////AP/wAAAAAAAAAP//////////////AA//////
+8AAAD/AAD/AAAAAAAP//AAD/////////////8AAP///wAAAA/wAP8P8AAA////AAD///////////////8AAAAAAAAAD///////////8AAA//////////8AAAD/8AAAAAAAAAD///////////////////////AAAP8AAP8AAAAAAAD/8AAP/////////////wAA////AA/wAPAA/w/wAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAAD/AADwAAAAAAAADwAAAA8PAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAP//AA8A8AAAAAAP/wAA//////////////AAD///AA//AA8AD///AAAAAAAAAAAAAAAAAAAAAAAADwAAAAAAAADwAAAAAAAAAAAPAAAA8AAAAAAAAPAAAADw8AAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAD/AADwDwAAAA8AD/AAD/////////////8AAP//8AAP/wDwAP//8AAA/////////////////////wAAAAAAAAAP////////////8AAAD/////////8AAAAP//AAAAAAAAAA//////////////////////8AAP8AAPAPAAAAD/AP8AAP/////////////wAA///wAA//AA/wD//wAAD////////////////////wAAAAAAAAAP/////////////wAAAP/////////wAAAA///wAAAAAAAAD//////////////////////wAA//8A8PAAAAAA8ADwAAD/////////////AAD///AAD/8AAAAP//AAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA8AAAAAAAAAAADwAAAA8AAAAAAA/wAAAADwAA8AAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAD//wAA8AAADwDwAPAAAP////////////8AAP//8A//8AAAAAD/8AAAAAAAAAAAAAAAA
+AAAAAAPAAAAAAAAAA8AAAAAAAAAAADwAAAAAPAAD////wAAAADwAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AA8AD/APAP//8AAP/////////////wAA///wD/8AAAAAAP/wAAD///////////////////AAAAAAAAAAD/////////////AAAAAA///wAPD/AAAAAP////8AAAAAAAAAD////////////////////wAA//8ADwAP//8A///wAA//////////////AAD///AA/wD/AAAAD/AAAP//////////////////8AAAAAAAAAD/////////////8AAAAAD//wAAAAAAAAAA//////AAAAAAAAAP////////////////////AAD//wAAAA//DwD///AAAA////////////8AAP//8A/wAP8AAAAP8AAAAAAAAAAAAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/wAAAAAP8AAP//8AAA/////////////wAA///wDwAP//AA8A/wAAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAA/wAA///wAAD/////////////AAD///AAAA//AADwD/AAAP/////////////////wAAAAAAAAAP//////////////AAAAAAD//wAAAAAAAAAP//////8AAAAAAAAAD///////////////////AAD/AAAAAAD/AAAP//AAAP////////////8AAP//AAAAAP8AAPAP8AAA/////////////////wAAAAAAAAAA//////////////8AAAAAAP//AAAAAAAAAP////////AAAAAAAAAA////
+//////////////8AAP8AAAAAAA/wAA//8AAA/////////////wAA//8AAAAA//8A/w/wAAD/////////////////AAAADwAAAA///////////////wAAAAAAAAAAAAAAAAAA////////8AAAAAAAAAD//////////////////wAA//AA8ADwAP8AD//wAAD/////////////AAD/8A8AAAD///APAPAAAP////////////////AAAAD/8AAA////////////////AAAAAAAAAAAAAAAAAAD/////////AAAAAAAAAA//////////////////AAD/AADwD/AAD/AP//AAAP////////////8AAP/wAAAA8ADwAA8A8AAA////////////////AAAAAP8AAAD///////////////8AAAAAAAAAAAAAAAAAAAD////////wAAAPAAAAAP////////////////8AAP//APAP8AAAAAD/8AAA/////////////wAA//AAAA//APAAD//wAAD///////////////AAAAD///AAD/////////////////AAAAAAAAAAAAAAAAAAAP////////8AAA/wAAAA////////////////8AAA//8AAP8AAAAAAP/wAA//////////////AAD/8PAAD//wDwAP//AAAP//////////////8AAAD///AAD/////////////////AAAAAAAAAAAAAAAAAAAA/////////wAAD/8AAAAP///////////////wAAD//wAA8AAAAAAA//AAD/////////////8AAP/w8AAP/wAA8A//8AAA//////////////8AAAD///8AAP////////////////AAAAAAAAAAAAAAAAAAAAAP////////8AD///AAAA////////////////AAAP//AAAAAAAAAAD/8AAP/////////////wAA///wD///AADwAP//AAD
+/////////////8AAAD/////AP////////////////8AAAAAAAAAAAAAAAAAAAAAD/////////AP///wAAAP//////////////8AAP//8AAAAAAAAAAP/wAA//////////////AAD///AP//8AAA8AD/8AAP/////////////wAAD/////8P////////////////8AAAAAAAAAAAAAAAAAAAAAAA//////D/8A////8AAAD/////////////8AAAD/8AAAAAAADwAA//AAD/////////////8AAA//8AD/8AAAAAAP/wAA/////////////wAAD///////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAP/////////////wAAAP8AAAAAAA8PAAD/8AAP/////////////wAAD///AP/wAAAAAA//AAAP////////////AAD///////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////8AAAD/////////////AAAA/wAAAAAA//8A8P8AAA//////////////AAAP//8A/wAAAAAAAP8AAA////////////AAD///////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAA////////////8AAA//AAAAAAD//wDw/wAAD/////////////8AAA////APAA/wAAAA/wAAD///////////AAD///////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAD////////////wAAD/8AAAAAAP8AAPD/AAAP/////////////wAAD///8AAA//AAAAD/8AAP//////////8AAP///////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAP/////wAA////////////AAAP/wAA8AAA/wAA//8AAA//////////////8AAP///wAAAP8AAAAP/wAAD/////////8AD/////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////8AD///////////8AAP//AA8AAAAAAAD//wAAD//////////////wAA////AAAA/wAADw//AAAP////////8AD/////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////wAA///////////wAA///wDwAAAAAAD///AAAP//////////////AAD///8AAAAP8AAP//8AAA/////////wAP/////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA///////wAP/////////wAAD///APD/AAAAAP//AAAP//////////////8AAA//8AAA8A/wAA///wAAD/////////AP//////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////8AD/////////AAAP//8AAP8AAAAA//8AAA///////////////wAAD/8AAADwD//wD///AAAA/////////////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////AP////////8AAA///wAA8AAAAAAP/wAAD///////////////8AAP/wDwD/8A/wAP///wAAD/////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////////8AD////////wAAD//wAA8AAAAAAA//AAAP///////////////wAA//APA
+P/wD//wD///AAAP/////////////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////////////wAAAP//AADwAPAAAA//8AAA////////////////AAD/8A8A//AA/wAP///wAA//////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////////////AAAP//8ADwAA8AAAD//wAA////////////////8AAP///wD/8AAP8AD///AAAP/////////////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////////////8AAP//8AAAAA//AA8P//AAD////////////////wAAD///AP/wAAD/AA//8AAA//////////////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA///////////////////wAA//8AAAAAD/8ADwD/8AAP////////////////AAAP//8A/wDwAAAAD//wAAD/////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////////////wAAD/8AAAAAAP/wAPAP/wAA/////////////////wAAD///D/APAAAAAAD/AAAA/////////////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////AAAP8ADwAAAADwAA///wAAD/////////////////AAAP//8AAADwAAAAAP/wAAD/////////////////////////////////////8AAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAP////////////////////8AAP/wDwAPAAAPAA////AAD/////////////////8AAA///wAAAP8AAAAAD/AAAP////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////8AAA//APAPAPAA8AD///8AAP/////////////////wAAD///AAAA////8PAP/wAA/////////////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////////////////////wAAD///AA8A8ADwAP//8AAA//////////////////8AAA//AAAAAP///wAP//AAAP///////////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////////AAAP//8AAA/wAAAA///wAAD//////////////////wAAD/8AAADwAP/w8A///wAAD///////////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////////////////////AAAP///wAAD/AAAAD///AAAP//////////////////8AAP/wAA8P8AAPAAD///AAAP//////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////AAAA///wAAD/AAAAAP//8AAP///////////////////wAAD/AAD//wAAAAAA//8AAA///////////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////8AAA////AADwAAAAAA//8AAA/////////////
+///////AAAP8AAP//8AAAAAD//wAAAP//////////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////8AAAD//wAA8AAAAAAAD//wAA////////////////////8AAA//8A///wAAAAAP//8AAA//////////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////wAAAP/wAAAAAADwAAAP//AAD/////////////////////AAD//wAP/wAAAAAAD///AAAP///////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////AAAP//AAAAAAAPAAAA//AAAP////////////////////8AAA//8A//AA//DwAP//8AAAD///////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////AAAP//AAAAAAAP8AAAD/8AAA//////////////////////AAD///APAAD//wAAD///AAAP//////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////////////8AAA//8AAAAAAA/wAAAP8AAA//////////////////////8AAA//8A8AAA//8PAAD/8AAAD/////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////////////8AAAD/8AAAAA8ADwAA///wAAD//////////////////////wAAD//wDwAAAP//AA////AAAA////////////////////////////8AAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAD////////////////////wAAD///AAAA/wAPAAD///AAD///////////////////////8AAA//8AAAAA//8AAP//8AAAD////////////////////////////wAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAD////////////////////wAAD///8A8A/wAA8AAP//AAAP///////////////////////wAAD//wAAAPAA//AAD///AAAP////////////////////////////AAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAP///////////////////wAAAP//8A8A/wAADwAP//8AAA////////////////////////AAAP//AAAA8AAAD/AA//8AAAD///////////////////////////AAAAAAAAAAAAAAAAAAD//wAAAA8AAAAAAP///////////////////wAAAP//AAAA8AAAAAAA//8AAA/////////////////////////wAAD/8AAA//8AAAAAAP//AAAA//////////////////////////AAAAAAAAAAAAAAAAAAAA////8A//8AAAAP////////////////////AAAA/wAAAAAAAAAAAAD//wAAD/////////////////////////AAAP/wDwAP//AAAAAA///wAAD/////////////////////////8AAAAAAAAAAAAAAAAAAAAP///////wAAAP////////////////////AAAA//AAAAAAAADwAAAP//AAD/////////////////////////8AAAD/APAA//AAAAAAAP//AAAA/////////////////////////wAAAAAAAAAAAAAAAAAAAA////////AAAP////////////////////AAAA/wAAAAAAAADwAAAA//AAAP///
+///////////////////////AAAP8A8A8A/wAAAAAA///wAAAP////////////////////////8AAAAAAAAAAAAAAAAAAAD///////////////////////////////8AAAD/AAAAAAAA//AAAAD/AAAP///////////////////////////wAA//APAAD/AAAAAAAP//8AAAD/////////////////////////AAAAAAAAAAAAAAAAAAAP//////////////////////////////8AAAD/AAAAAAAAD/8AAAAP8AAA////////////////////////////AAAP//8AAPAADwAAAAAP/wAAAA////////////////////////8AAAAAAAAAAAAAAAAAAA//////////////////////////////8AAAD//wAAAAAAD/8AAAAP8AAA/////////////////////////////wAAD///AA/wAP8AAA8AD/8AAAAP///////////////////////wAAAAAAAAAAAAAAAAAAD//////////////////////////////wAAD////wD/DwAP/wAA8A/wAAD/////////////////////////////AAAP//8AD/AA/wAADwAA//AAAA////////////////////////8AAAAAAAAAAAAAAAAAAP/////////////////////////////wAAAP///wD/APAA//AADwD/AAD/////////////////////////////8AAAD///AA8AAP8AAADwAP/wAAAP///////////////////////wAAAAAAAAAAAAAAAAAA////////////////////////////8AAAAP///wAPAA8AD/AAD/APAAAP//////////////////////////////AAAA///wDwAA/wAAAP////8AAAD///////////////////
+////AAAAAAAAAAAAAAAAAAD////////////////////////////wAAAP////APAP/wAA8AAP//AAAA///////////////////////////////wAAD///AAAAAPAA8A//////AAAA//////////////////////8AAAAAAAAAAAAAAAAAAP///////////////////////////wAAAP//8AAPAA/wAADwAP//8AAA////////////////////////////////AAAA///wAAAAAA8AAP////8AAAAP/////////////////////wAAAAAAAAAAAAAAD//////////////////////////////wAAAP///wAAAP/wAAAPAP//8AAAD///////////////////////////////8AAAD///AAAAAAAAAAAP////AAAAD/////////////////////8AAAAAAAAAAAAAAA/////////////////////////////wAAAA//8AAAAP8AAAAAAA//8AAAD/////////////////////////////////8AAA//8AAAAAAAAAAAAP///wAAAA////////////////////////8AAAAAAAAAAAD////////////////////////////wAAAA//8AAAAAAAAAAAAAD//wAAD//////////////////////////////////wAAD///AAAAAAAAAAAA////8AAAAP////////////////////////8AAAAAAAAAAP///////////////////////////wAAAP///wAAAAAAAAAAAAD//wAAAP//////////////////////////////////AAAP//8AAAAAAAAAAAAP////AAAA//////////////////////////AAAAAAAAAA////////////////////////////AAAA///wAAAAAAD/AAAAAP/
+/AAAP///////////////////////////////////wAAD//wAA8AAAAA//8A/////wAAAA//////////////////////////AA8AAAAA//////////////////////////8AAAAA////AA8AAAAAAA8AAP//AAAA////////////////////////////////////8AAA//8AAPAAAAD//wAP////8AAAAP///////////////////////////wAAAP//////////////////////////8AAAAA////AA/wAAAPAA/wAA//AAAA/////////////////////////////////////wAAAP//8AAAAAAA//8AD/////AAAAAA//////////////////////////AA////////////////////////////8AAAAA////AA8A/wAP8A/wAAAPAAAAD/////////////////////////////////////8AAAD///AAAAAAD///AA//////AAAAD///////////////////////////////////////////////////////AAAAAP////8A8P//AA/w//AP//8AAAD//////////////////////////////////////wAAAP///wAAAAAAAA//AP/////wAAAA//////////////////////////////////////////////////////AAAAAA////8AAA//8ADwD/AA//8AAAD///////////////////////////////////////8AAAD///8AAAAA/wAPAAAP////AAAAAAD//////////////////////////////////////////////////wAAAAAP//8AAAAA///wAPAAAA//8AAAD/////////////////////////////////////////AAAA////AAAAAA///wAAD/////AA
+AAAP////////////////////////////////////////////////8AAAAAAP//8AAAD////wAAAAAP///wAAAP/////////////////////////////////////////wAAAP///wAAAAAAAAAAAAD////wAAAAAP//////////////////////////////////////////////8AAAAAD///8AAA/////wAAAAAP///wAAAP//////////////////////////////////////////AAAAD///AAAP/wAAAAAAAP/////wAAAAAP////////////////////////////////////////////8AAAAAD////wAAAAAAAAAAAAAP///wAAAP///////////////////////////////////////////wAAAA///wAAD//wAAAAAA//////8AAAAAAP/////////////////////////////////////////wAAAAAA////8AAPAAAAD//wAAAP///wAAAA////////////////////////////////////////////8AAAD///AAAA//AA8AAAAP//////8AAAAAAP///////////////////////////////////////wAAAAAA/////w/wAAAAD///AAAA///wAAAA/////////////////////////////////////////////wAAAA//8AAAD/8AD/AAAAD///////AAAAAAAP////////////////////////////////////8AAAAAAP///////wAAAAD///AAAAD///AAAA//////////////////////////////////////////////8AAAAP//AAAAAPAP//AAAA////////AAAAAAAA/////////////////////////////////wAAAAAAAP//////8AAAAAD///8
+AAAD///AAAAD///////////////////////////////////////////////AAAAD/D/AAAA8A////DwAA////////AAAAAAAAD/////////////////////////////AAAAAAAA////////AA/wAAAP//8AAPAP//AAAA/////////////////////////////////////////////////wAAAA///wAPAPAP////8AD/////////AAAAAAAAAP////////////////////////8AAAAAAAAA////////AA8A/wAP//8AAAAA//AAAA//////////////////////////////////////////////////8AAAAP///wAAAAAP//8PAA//////////AAAAAAAAAAAA//////////////////AAAAAAAAAAAP///////wAA//D/AA//8PAA8A//AAAAD///////////////////////////////////////////////////AAAAD////wAAAAD/////AP///////////wAAAAAAAAAAAP//////////8AAAAAAAAAAAAA//////////AP////8AD///AA////AAAA/////////////////////////////////////////////////////wAAAA//////AAAA////8A////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////wAP/////wAPD/AA////AAAAD/////////////////////////////////////////////////////8AAAAP//////AAAAAAD/AP/////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA///////////wAP////8AAPAAAA////AAAAD///////////////////////////////////////////////////////8AAAD///
+///wAP8AAAAAD///////////////8AAAAAAAAAAAAAAAAAAAAAAAAP//////////////AP////AAAA8AAP////AAAAD/////////////////////////////////////////////////////////AAAA//////8A////8AAA//////////////////8AAAAAAAAAAAAAAAAAD/////////////////AAD/8AAA8AAAAP///wAAAAD/////////////////////////////////////////////////////////8AAAAP//////AP////AAAP/////////////////////wAAAAAAAAAP////////////////////8AAAAAAP8AAAD/////AAAAD///////////////////////////////////////////////////////////8AAAD/////////////AAAP///////////////////////////////////////////////////wAAD////wAP/////wAAAAD////////////////////////////////////////////////////////////wAAAAD////////////wAAD/////////////////////////////////////////////////8AAAD////wAP/////wAAAAD//////////////////////////////////////////////////////////////wAAAA//////////////8A////////////////////////////////////////////////8AAAD/////AP/////wAAAA////////////////////////////////////////////////////////////////8AAAAP//////////////8P//////////////////////////////////////////////AAAAD//
+///8A/////wAAAAD/////////////////////////////////////////////////////////////////AAAAD/////////////////////////////////////////////////////////////8A///////////////wAAAA///////////////////////////////////////////////////////////////////wAAAAD///////////////////////////////////////////////////////////8A///////////////wAAAA////////////////////////////////////////////////////////////////////8AAAAAD/////////////////////////////////////////////////////////8AD/////////////AAAAAA//////////////////////////////////////////////////////////////////////AAAAAA////////////////////////////////////////////////////////////////////////AAAAAP////////////////////////////////////////////////////////////////////////AAAAAP//////////////////////////////////////////////////////////////////////AAAAAP/////////////////////////////////////////////////////////////////////////wAAAAAP///////////////////////////////////////////////////////////////////wAAAAAP////////////////////////////////////////////////////////////
+///////////////wAAAAAP////////////////////////////////////////////////////////////////8AAAAAD/////////////////////////////////////////////////////////////////////////////8AAAAAD///////////////////////////////////////////////////////////////8AAAAAD///////////////////////////////////////////////////////////////////////////////AAAAAAD////////////////////////////////////////////////////////////wAAAAAAD/////////////////////////////////////////////////////////////////////////////////AAAAAAD/////////////////////////////////////////////////////////8AAAAAAP////////////////////////////////////////////////////////////////////////////////////AAAAAAD///////////////////////////////////////////////////////8AAAAAAP/////////////////////////////////////////////////////////////////////////////////////wAAAAAAD/////////////////////////////////////////////////////AAAAAAD////////////////////////////////////////////////////////////////////////////////////////wAAAAAAD//////////////////////////////////////////
+///////8AAAAAAAD///////////////////////////////////////////////////////////////////////////////////////////AAAAAAAP//////////////////////////////////////////////AAAAAAAP//////////////////////////////////////////////////////////////////////////////////////////////AAAAAAAP///////////////////////////////////////////wAAAAAAD////////////////////////////////////////////////////////////////////////////////////////////////wAAAAAAAAAP/////////////////////////////////////wAAAAAAAAD///////////////////////////////////////////////////////////////////////////////////////////////////8AAAAAAAAP//////////////////////////////////AAAAAAAAAP//////////////////////////////////////////////////////////////////////////////////////////////////////AAAAAAAAAA//////////////////////////////8AAAAAAAAA//////////////////////////////////////////////////////////////////////////////////////////////////////////AAAAAAAAAAAAAA////////////////////AAAAAAAAAAAAAA////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////wAAAAAAAAAAAAD/AA/////////w/w8AAAAAAAAAAAAA//////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAAAAAAAAAAAAAAAAAP//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAP//D//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==</ImageData>
+      <MIMEType>image/bmp</MIMEType>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <DataSets>
+    <DataSet Name="PEA_BPM_ePaymentsModule_Interface_BusinessEntities_ReceiptPrinting_PPrintedReceipt">
+      <rd:DataSetInfo>
+        <rd:DataSetName>PEA.BPM.ePaymentsModule.Interface.BusinessEntities.ReceiptPrinting</rd:DataSetName>
+        <rd:ObjectDataSourceType>PEA.BPM.ePaymentsModule.Interface.BusinessEntities.ReceiptPrinting.PPrintedReceipt, ePaymentsModule.Interface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+        <rd:TableName>PPrintedReceipt</rd:TableName>
+      </rd:DataSetInfo>
+      <Query>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+        <CommandText />
+        <DataSourceName>DummyDataSource</DataSourceName>
+      </Query>
+      <Fields>
+        <Field Name="Amount">
+          <rd:TypeName>System.Nullable`1[[System.Decimal, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</rd:TypeName>
+          <DataField>Amount</DataField>
+        </Field>
+        <Field Name="BankName">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>BankName</DataField>
+        </Field>
+        <Field Name="CompName">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>CompName</DataField>
+        </Field>
+        <Field Name="PayDt">
+          <rd:TypeName>System.Nullable`1[[System.DateTime, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</rd:TypeName>
+          <DataField>PayDt</DataField>
+        </Field>
+        <Field Name="PaymentDt">
+          <rd:TypeName>System.Nullable`1[[System.DateTime, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</rd:TypeName>
+          <DataField>PaymentDt</DataField>
+        </Field>
+        <Field Name="Qty">
+          <rd:TypeName>System.Nullable`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</rd:TypeName>
+          <DataField>Qty</DataField>
+        </Field>
+        <Field Name="ReceiptAddr">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>ReceiptAddr</DataField>
+        </Field>
+        <Field Name="ReceiptBranch">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>ReceiptBranch</DataField>
+        </Field>
+        <Field Name="ReceiptDt">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>ReceiptDt</DataField>
+        </Field>
+        <Field Name="ReceiptMonth">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>ReceiptMonth</DataField>
+        </Field>
+        <Field Name="ReceiptName">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>ReceiptName</DataField>
+        </Field>
+        <Field Name="ReceiptYear">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>ReceiptYear</DataField>
+        </Field>
+        <Field Name="ReceiveDtDetail">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>ReceiveDtDetail</DataField>
+        </Field>
+        <Field Name="StrAmount">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>StrAmount</DataField>
+        </Field>
+        <Field Name="TotalBillAmount">
+          <rd:TypeName>System.Nullable`1[[System.Decimal, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</rd:TypeName>
+          <DataField>TotalBillAmount</DataField>
+        </Field>
+        <Field Name="TotalBillCount">
+          <rd:TypeName>System.Nullable`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</rd:TypeName>
+          <DataField>TotalBillCount</DataField>
+        </Field>
+        <Field Name="TranfAccNo">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>TranfAccNo</DataField>
+        </Field>
+        <Field Name="TranfDetail">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>TranfDetail</DataField>
+        </Field>
+        <Field Name="TranfDt">
+          <rd:TypeName>System.Nullable`1[[System.DateTime, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</rd:TypeName>
+          <DataField>TranfDt</DataField>
+        </Field>
+        <Field Name="CompAddr">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>CompAddr</DataField>
+        </Field>
+        <Field Name="ReceiptId">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>ReceiptId</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <Code>Public Function ToMonthName(ByVal m As Integer) As String
+Dim month As String
+     Select Case m
+     Case 1
+        month = "มกราคม"
+     Case 2
+        month = "กุมภาพันธ์"
+     Case 3
+        month = "มีนาคม"
+     Case 4
+        month = "เมษายน"
+     Case 5
+        month = "พฤษภาคม"
+     Case 6
+        month = "มิถุนายน"
+     Case 7
+        month = "กรกฎาคม"
+     Case 8
+        month = "สิงหาคม"
+     Case 9
+        month = "กันยายน"
+     Case 10
+        month = "ตุลาคม"
+     Case 11
+        month = "พฤศจิกายน"
+     Case 12
+        month = "ธันวาคม"
+     Case Else
+        month = ""     
+     End Select
+Return month
+End Function</Code>
+  <Width>15.4cm</Width>
+  <InteractiveHeight>26cm</InteractiveHeight>
+  <Language>en-US</Language>
+  <PageFooter>
+    <ReportItems>
+      <Line Name="line1">
+        <Left>7cm</Left>
+        <Top>4.72354cm</Top>
+        <ZIndex>9</ZIndex>
+        <Width>1.5cm</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <Height>0cm</Height>
+      </Line>
+      <Textbox Name="textbox5">
+        <Left>11.92064cm</Left>
+        <Top>3.75cm</Top>
+        <ZIndex>8</ZIndex>
+        <Width>3cm</Width>
+        <Style>
+          <TextAlign>Right</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="textbox12">
+        <Left>0.40582cm</Left>
+        <Top>2.209cm</Top>
+        <ZIndex>7</ZIndex>
+        <Width>8.55cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="textbox11">
+        <Left>0.38228cm</Left>
+        <Top>1.53836cm</Top>
+        <ZIndex>6</ZIndex>
+        <Width>8.55cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value>=ReportItems!strAmount.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox10">
+        <Left>10.07937cm</Left>
+        <Top>0.56481cm</Top>
+        <ZIndex>5</ZIndex>
+        <Width>1.8cm</Width>
+        <Style>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="textbox9">
+        <Left>11.98545cm</Left>
+        <Top>1.37963cm</Top>
+        <ZIndex>4</ZIndex>
+        <Width>3cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <Format>N</Format>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value>=ReportItems!GrandAmount.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox7">
+        <Left>11.97354cm</Left>
+        <Top>0.69708cm</Top>
+        <ZIndex>3</ZIndex>
+        <Width>3cm</Width>
+        <Style>
+          <TextAlign>Right</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="textbox1">
+        <Left>11.98836cm</Left>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <ZIndex>2</ZIndex>
+        <Width>3cm</Width>
+        <Style>
+          <TextAlign>Right</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <Format>N</Format>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="notation">
+        <Left>0.40581cm</Left>
+        <Top>2.86772cm</Top>
+        <ZIndex>1</ZIndex>
+        <Width>1.5cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <TextDecoration>Underline</TextDecoration>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="notation_detail">
+        <Left>1.72355cm</Left>
+        <Top>2.86772cm</Top>
+        <Width>8cm</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>CordiaUPC</FontFamily>
+          <FontSize>12pt</FontSize>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value />
+      </Textbox>
+    </ReportItems>
+    <Height>6.8cm</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+    <Style>
+      <BorderWidth>
+        <Default>0.25pt</Default>
+      </BorderWidth>
+    </Style>
+  </PageFooter>
+  <PageHeight>25.3cm</PageHeight>
+</Report>

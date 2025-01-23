@@ -1,0 +1,419 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{37A788B0-65F0-4977-8B55-3784EA3A632C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PEA.BPM.AgencyManagementModule.SG</RootNamespace>
+    <AssemblyName>AgencyManagementModule.SG</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgencyCommonSG.cs" />
+    <Compile Include="AgencyModuleConfigSG.cs" />
+    <Compile Include="AgencyPlanningSG.cs" />
+    <Compile Include="AgencyAuthenHeader.cs" />
+    <Compile Include="BillbookCheckInSG.cs" />
+    <Compile Include="CommissionMgtSG.cs" />
+    <Compile Include="CreateBillbookSG.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ReportMgtSG.cs" />
+    <Compile Include="Service References\AgencyCommonWCF\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\AgencyConfigWCF\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\AgencyPlanningWCF\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BillBookCheckInWCF\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\CommissionMgtWCF\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\CreateBillbookWCF\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ReportMgtWCF\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Architecture\ArchitectureInterface\ArchitectureInterface.csproj">
+      <Project>{7939F32D-01C5-45B5-A545-3EEE99017A7E}</Project>
+      <Name>ArchitectureInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\ArchitectureTool\ArchitectureTool.csproj">
+      <Project>{CD6283A4-2D09-4DB4-9354-7AC912A8C9D5}</Project>
+      <Name>ArchitectureTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\CommonUtilities\CommonUtilities.csproj">
+      <Project>{1A6B6E40-2DD5-4CB8-B766-B61AA237701B}</Project>
+      <Name>CommonUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WCFService\WCFExtras\WCFExtras.csproj">
+      <Project>{22037EAC-02C0-4A99-8A4F-8172590E64ED}</Project>
+      <Name>WCFExtras</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AgencyManagementModule.Interface\AgencyManagementModule.Interface.csproj">
+      <Project>{068B2144-9978-458D-AE79-92935C846C71}</Project>
+      <Name>AgencyManagementModule.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\AgencyCommonWCF\" />
+    <WCFMetadataStorage Include="Service References\AgencyConfigWCF\" />
+    <WCFMetadataStorage Include="Service References\AgencyPlanningWCF\" />
+    <WCFMetadataStorage Include="Service References\BillBookCheckInWCF\" />
+    <WCFMetadataStorage Include="Service References\CommissionMgtWCF\" />
+    <WCFMetadataStorage Include="Service References\CreateBillbookWCF\" />
+    <WCFMetadataStorage Include="Service References\ReportMgtWCF\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AgencyCommonWCF\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AgencyCommonWCF\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AgencyCommonWCF\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AgencyConfigWCF\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AgencyConfigWCF\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AgencyConfigWCF\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AgencyPlanningWCF\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AgencyPlanningWCF\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AgencyPlanningWCF\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BillBookCheckInWCF\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BillBookCheckInWCF\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BillBookCheckInWCF\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CommissionMgtWCF\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CommissionMgtWCF\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CommissionMgtWCF\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CreateBillbookWCF\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CreateBillbookWCF\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CreateBillbookWCF\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ReportMgtWCF\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ReportMgtWCF\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ReportMgtWCF\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.BillBookCheckInInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.ChequeInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.Architecture.CommonUtilities.CompressData.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.AgencyBookDepositAmountInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.AgentInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.BillBookHeaderInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.BillbookInfoReprint.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.BillBookItemListInputInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CallingBillInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CallingBillSummaryInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.DepositBillBookAmountInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.HashInfo.datasource" />
+    <None Include="Service References\AgencyCommonWCF\AgencyCommonWCFService2.wsdl" />
+    <None Include="Service References\AgencyCommonWCF\AgencyCommonWCFService6.xsd" />
+    <None Include="Service References\AgencyCommonWCF\AgencyCommonWCFService61.xsd" />
+    <None Include="Service References\AgencyCommonWCF\AgencyCommonWCFService62.xsd" />
+    <None Include="Service References\AgencyCommonWCF\AgencyCommonWCFService63.xsd" />
+    <None Include="Service References\AgencyCommonWCF\AgencyCommonWCFService64.xsd" />
+    <None Include="Service References\AgencyCommonWCF\AgencyCommonWCFService65.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.HashInfoCollection.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.LineInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.PeaInfo.datasource" />
+    <None Include="Service References\AgencyCommonWCF\AgencyCommonWCFService1.disco" />
+    <None Include="Service References\AgencyCommonWCF\AgencyCommonWCFService21.wsdl" />
+    <None Include="Service References\AgencyConfigWCF\AgencyConfigWCFService2.wsdl" />
+    <None Include="Service References\AgencyConfigWCF\AgencyConfigWCFService21.wsdl" />
+    <None Include="Service References\AgencyConfigWCF\AgencyConfigWCFService6.xsd" />
+    <None Include="Service References\AgencyConfigWCF\AgencyConfigWCFService61.xsd" />
+    <None Include="Service References\AgencyConfigWCF\AgencyConfigWCFService62.xsd" />
+    <None Include="Service References\AgencyConfigWCF\AgencyConfigWCFService63.xsd" />
+    <None Include="Service References\AgencyConfigWCF\AgencyConfigWCFService64.xsd" />
+    <None Include="Service References\AgencyConfigWCF\AgencyConfigWCFService65.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.FeeBaseElement.datasource" />
+    <None Include="Service References\AgencyConfigWCF\AgencyConfigWCFService1.disco" />
+    <None Include="Service References\AgencyPlanningWCF\AgencyPlanningWCFService2.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AgencyPlanningWCF\AgencyPlanningWCFService1.disco" />
+    <None Include="Service References\AgencyPlanningWCF\AgencyPlanningWCFService21.wsdl" />
+    <None Include="Service References\AgencyPlanningWCF\AgencyPlanningWCFService6.xsd" />
+    <None Include="Service References\AgencyPlanningWCF\AgencyPlanningWCFService61.xsd" />
+    <None Include="Service References\AgencyPlanningWCF\AgencyPlanningWCFService62.xsd" />
+    <None Include="Service References\AgencyPlanningWCF\AgencyPlanningWCFService63.xsd" />
+    <None Include="Service References\AgencyPlanningWCF\AgencyPlanningWCFService64.xsd" />
+    <None Include="Service References\AgencyPlanningWCF\AgencyPlanningWCFService65.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BillBookCheckInWCF\BillbookCheckInWCFService.disco" />
+    <None Include="Service References\BillBookCheckInWCF\BillbookCheckInWCFService.wsdl" />
+    <None Include="Service References\BillBookCheckInWCF\BillbookCheckInWCFService.xsd" />
+    <None Include="Service References\BillBookCheckInWCF\BillbookCheckInWCFService1.wsdl" />
+    <None Include="Service References\BillBookCheckInWCF\BillbookCheckInWCFService1.xsd" />
+    <None Include="Service References\BillBookCheckInWCF\BillbookCheckInWCFService2.xsd" />
+    <None Include="Service References\BillBookCheckInWCF\BillbookCheckInWCFService3.xsd" />
+    <None Include="Service References\BillBookCheckInWCF\BillbookCheckInWCFService4.xsd" />
+    <None Include="Service References\BillBookCheckInWCF\BillbookCheckInWCFService5.xsd" />
+    <None Include="Service References\CommissionMgtWCF\CommissionMgtWCFService7.xsd" />
+    <None Include="Service References\CommissionMgtWCF\CommissionMgtWCFService71.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CalculatedCommissionInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CommissionInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.TravelHelpRate.datasource" />
+    <None Include="Service References\CommissionMgtWCF\CommissionMgtWCFService1.disco" />
+    <None Include="Service References\CommissionMgtWCF\CommissionMgtWCFService2.wsdl" />
+    <None Include="Service References\CommissionMgtWCF\CommissionMgtWCFService21.wsdl" />
+    <None Include="Service References\CommissionMgtWCF\CommissionMgtWCFService72.xsd" />
+    <None Include="Service References\CommissionMgtWCF\CommissionMgtWCFService73.xsd" />
+    <None Include="Service References\CommissionMgtWCF\CommissionMgtWCFService74.xsd" />
+    <None Include="Service References\CommissionMgtWCF\CommissionMgtWCFService75.xsd" />
+    <None Include="Service References\CommissionMgtWCF\CommissionMgtWCFService76.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CreateBillbookWCF\CreateBillbookWCFService.disco" />
+    <None Include="Service References\CreateBillbookWCF\CreateBillbookWCFService.wsdl" />
+    <None Include="Service References\CreateBillbookWCF\CreateBillbookWCFService.xsd" />
+    <None Include="Service References\CreateBillbookWCF\CreateBillbookWCFService1.wsdl" />
+    <None Include="Service References\CreateBillbookWCF\CreateBillbookWCFService1.xsd" />
+    <None Include="Service References\CreateBillbookWCF\CreateBillbookWCFService10.xsd" />
+    <None Include="Service References\CreateBillbookWCF\CreateBillbookWCFService11.xsd" />
+    <None Include="Service References\CreateBillbookWCF\CreateBillbookWCFService12.xsd" />
+    <None Include="Service References\CreateBillbookWCF\CreateBillbookWCFService13.xsd" />
+    <None Include="Service References\CreateBillbookWCF\CreateBillbookWCFService8.xsd" />
+    <None Include="Service References\CreateBillbookWCF\CreateBillbookWCFService9.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.AgencyBillCollectionMasterReport.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.BillBookDetailReportListInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.BillBookInfoDetailReport.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB02_DetailReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB03_02DetailReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB03_DetailReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB03_HeaderReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB04_03DetailReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB04_03HeaderReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB05_01DetailReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB06_01DetailReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB06_01HeaderReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB07_01DetailReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB08_01AgencyInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB08_01DetailReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB08_02DetailReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB09_01DetailReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB10_01DetailReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB12_01DetailReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB12_01HeaderReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAB12_02DetailReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CAN34_01DetailReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CommissionRegistInfoReport.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.CommissionVoucherInfoReport.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.PA_7034DetailReportInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.AgencyManagementModule.Interface.BusinessEntities.ReturnBillBookBillPasteStatusReportInfo.datasource" />
+    <None Include="Service References\ReportMgtWCF\ReportMgtWCFService1.disco" />
+    <None Include="Service References\ReportMgtWCF\ReportMgtWCFService2.wsdl" />
+    <None Include="Service References\ReportMgtWCF\ReportMgtWCFService21.wsdl" />
+    <None Include="Service References\ReportMgtWCF\ReportMgtWCFService7.xsd" />
+    <None Include="Service References\ReportMgtWCF\ReportMgtWCFService71.xsd" />
+    <None Include="Service References\ReportMgtWCF\ReportMgtWCFService72.xsd" />
+    <None Include="Service References\ReportMgtWCF\ReportMgtWCFService73.xsd" />
+    <None Include="Service References\ReportMgtWCF\ReportMgtWCFService74.xsd" />
+    <None Include="Service References\ReportMgtWCF\ReportMgtWCFService75.xsd" />
+    <None Include="Service References\ReportMgtWCF\ReportMgtWCFService76.xsd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

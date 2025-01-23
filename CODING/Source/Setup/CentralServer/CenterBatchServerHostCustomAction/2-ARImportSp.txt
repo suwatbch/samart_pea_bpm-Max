@@ -1,0 +1,478 @@
+ALTER PROCEDURE [dbo].[ta_imp_ARBulk] @FileType char(1),
+		@ModifiedBy char(8) = 'BATCH'
+AS
+	DECLARE @DeleteNoRecord As int;
+	DECLARE @InsertExistingRecord As int;
+	DECLARE @UpdateNoRecord As int;
+
+	DECLARE		@ModifiedDt As datetime,
+				@InstallmentFlag As char(1)
+
+	SET			@ModifiedDt = getdate()
+	SET			@InstallmentFlag = '0'   -- E and F = 1, the other = 0
+
+	DECLARE		@t_NewInvoice TABLE (
+					ItemId char(22),
+					NewInvoiceNo char(22)
+			);		
+
+	SELECT
+			ItemId,				SubString(ItemId,1,12) as CaDoc, CaId,				DtId,				[Description],
+			InvoiceNo,				
+			CASE WHEN InvoiceDt is null Then null ELSE Convert(datetime, InvoiceDt, 21) END As InvoiceDt,
+			GroupInvoiceNo,				Period,
+			MeterId, RateTypeId,
+			CASE WHEN MeterReadDt is null Then null ELSE Convert(datetime, MeterReadDt, 21) END As MeterReadDt,
+			CASE WHEN ReadUnit is null Then null ELSE Convert(decimal(18, 2), ReadUnit) END As ReadUnit,
+			CASE WHEN LastUnit is null Then null ELSE Convert(decimal(18, 2), LastUnit) END As LastUnit,
+			CASE WHEN BaseAmount is null Then null ELSE Convert(money, BaseAmount) END As BaseAmount,
+			CASE WHEN FTUnitPrice is null Then null ELSE Convert(money, FTUnitPrice) END As FTUnitPrice,
+			CASE WHEN FTAmount is null Then null ELSE Convert(money, FTAmount) END As FTAmount,
+			CASE WHEN UnitPrice is null Then null ELSE Convert(money, UnitPrice) END As UnitPrice,
+			CASE WHEN Qty is null Then null ELSE Convert(decimal(18, 2), Qty) END As Qty,
+			CASE WHEN Amount is null Then null ELSE Convert(money, Amount) END As Amount,			
+			UnitTypeId,	TaxCode,
+			CASE WHEN VatAmount is null Then null ELSE Convert(money, VatAmount) END As VatAmount,
+			CASE WHEN GAmount is null Then null ELSE Convert(money, GAmount) END As GAmount,
+			CASE WHEN DueDt is null Then null ELSE Convert(datetime, DueDt, 21) END As DueDt,
+			CASE WHEN DueDt2 is null Then null ELSE Convert(datetime, DueDt2, 21) END As DueDt2,
+			InterestLockFlag, InterestKey,
+			CASE WHEN DisconnectDt is null Then null ELSE Convert(datetime, DisconnectDt, 21) END As DisconnectDt,
+			DisconnectDoc, SubstDocNo,
+			CASE WHEN InstallmentPeriod is null Then null ELSE Convert(int, InstallmentPeriod) END As InstallmentPeriod,
+			CASE WHEN InstallmentTotalPeriod is null Then null ELSE Convert(int, InstallmentTotalPeriod) END As InstallmentTotalPeriod,
+			SpotBillInvoiceNo, CancelFlag, PaymentOrderFlag,
+			CASE WHEN PaymentOrderDt is null Then null ELSE Convert(datetime, PaymentOrderDt, 21) END As PaymentOrderDt,
+			ModifiedFlag,
+			SubString([Action],1,1) as [Action]
+		INTO #AR_TEMP_1
+		FROM OPENROWSET ( 
+			BULK 'ardata.txt',
+			FORMATFILE = 'arformat.xml'
+			) AS A
+
+	DECLARE @Row int;
+	SELECT @Row=Count(*) FROM #AR_TEMP_1;	
+	-- 2 seconds (72016)
+
+	-- Clear Non Debt Record
+	Delete from #AR_TEMP_1 Where GAmount<=0;
+
+	-- Process Flag '3' --------------------------------------------------------------------------------
+	-- Clear update not exist record
+	DELETE From #AR_TEMP_1
+		Where [ACTION]='3' AND ItemId not in (Select ItemId from ts.AR);
+	SET @DeleteNoRecord=IsNull(@@ROWCOUNT,0);
+	-- 3 seconds
+	-- Deactivate exist record
+	UPDATE	ts.AR
+		SET		[Active] = '0' , ModifiedDt=getdate(), PostDt = getdate(), ModifiedBy=@ModifiedBy
+		WHERE	ItemId IN (
+				SELECT	DISTINCT ItemId
+				FROM	#AR_TEMP_1
+				WHERE	[Action] = '3'
+			)
+	Delete from #AR_TEMP_1 WHERE [Action]='3';
+	-- 3 seconds
+	-----------------------------------------------------------------------------------------------------
+
+	-- Process Flag = '1' -------------------------------------------------------------------------------
+	-- Clear insert existing record
+	DELETE From #AR_TEMP_1
+		Where [ACTION]='1' AND ItemId in (Select ItemId from ts.AR);
+	SET @InsertExistingRecord=IsNull(@@ROWCOUNT,0);
+	-- Sum(Qty,Amount,VatAmount,GAmount) from Same Item Id 
+	SELECT 	ItemId,			CaDoc, CaId,			DtId,			[Description],
+			InvoiceNo,			InvoiceDt,			GroupInvoiceNo,			Period,
+			MeterId,			RateTypeId,			MeterReadDt,			ReadUnit,
+			LastUnit,			BaseAmount,			FTUnitPrice,			FTAmount,
+			UnitPrice,			Qty,			Sum(Amount) as Amount,			UnitTypeId,
+			TaxCode,			Sum(VatAmount) as VatAmount,			Sum(GAmount) as GAmount,			DueDt,
+			DueDt2,			InterestLockFlag,			InterestKey,			DisconnectDt,
+			DisconnectDoc,			SubstDocNo,			InstallmentPeriod,			InstallmentTotalPeriod,
+			SpotBillInvoiceNo,			CancelFlag,			PaymentOrderFlag,			PaymentOrderDt,
+			ModifiedFlag,			[Action]
+		INTO	#AR_TEMP_2
+		FROM	#AR_TEMP_1
+		GROUP BY ItemId,			CaDoc, CaId,			DtId,			[Description],
+			InvoiceNo,			InvoiceDt,			GroupInvoiceNo,			Period,
+			MeterId,			RateTypeId,			MeterReadDt,			ReadUnit,
+			LastUnit,			BaseAmount,			FTUnitPrice,			FTAmount,
+			UnitPrice,			Qty,			/*Sum(Amount),*/			UnitTypeId,
+			TaxCode,			/*Sum(VatAmount),			Sum(GAmount),*/			DueDt,
+			DueDt2,			InterestLockFlag,			InterestKey,			DisconnectDt,
+			DisconnectDoc,			SubstDocNo,			InstallmentPeriod,			InstallmentTotalPeriod,
+			SpotBillInvoiceNo,			CancelFlag,			PaymentOrderFlag,			PaymentOrderDt,
+			ModifiedFlag,			[Action];
+	DROP TABLE #AR_TEMP_1
+	-- 10 seconds
+
+	DECLARE @MaxIvId char(16);
+	DECLARE @GenIvId bigint;
+	SELECT Top 1 @MaxIvId=SubString(InvoiceNo, 8, 15)
+		FROM ts.AR
+		WHERE InvoiceNo like 'ZZZZZZI%'
+		ORDER BY InvoiceNo DESC;
+	IF @@ROWCOUNT=0
+		BEGIN
+			SET @GenIvId = 1
+		END
+	ELSE
+		BEGIN
+			Set @GenIvId = CAST(@MaxIvId as BigInt) + 1			
+		END
+
+	IF (@FileType = 'A' OR @FileType = 'B' OR @FileType = 'C' OR @FileType = 'D')
+		BEGIN			
+			-- CASE invoiceNo = ''  ---------------------------
+			DECLARE @OItemId AS char(22),
+				@ONewInvoiceNo char(22),
+				@DtId varchar(9)
+			DECLARE curItem CURSOR FOR 
+				SELECT	DISTINCT ItemId
+				FROM 	#AR_TEMP_2	
+				WHERE	InvoiceNo is Null AND [Action]='1'					
+			OPEN curItem
+			FETCH NEXT FROM curItem INTO @OItemId												
+			WHILE (@@FETCH_STATUS = 0)
+			BEGIN		
+
+				-- Special case DtId = 'M00710010' -- ˹礤׹  CaDoc ǡѹ ͧŢ Invoice ǡѹ
+				IF(@DtId = 'M00710010')
+					BEGIN
+						SELECT	TOP 1 @ONewInvoiceNo=InvoiceNo
+						FROM	ts.AR
+						WHERE	SUBSTRING(@OItemId,1,12) = SUBSTRING(ItemId,1,12)
+
+						IF(@@ROWCOUNT = 0)					
+						BEGIN						
+							SET @ONewInvoiceNo = 'ZZZZZZI' + REPLACE(STR(@GenIvId, 15, 0), ' ', '0')
+							SET @GenIvId = @GenIvId+1
+						END
+					END
+				ELSE 
+					BEGIN
+						SET @ONewInvoiceNo = 'ZZZZZZI' + REPLACE(STR(@GenIvId, 15, 0), ' ', '0')
+						SET @GenIvId = @GenIvId+1
+					END
+
+				INSERT INTO @t_NewInvoice (ItemId, NewInvoiceNo)
+					SELECT  @OItemId, @ONewInvoiceNo
+
+				FETCH NEXT FROM curItem INTO	@OItemId
+			END																				
+			CLOSE curItem
+			DEALLOCATE curItem
+
+			-- only InvoiceNo = null
+			INSERT INTO [ts].[AR]	(
+				ItemId,	CaDoc, CaId, DtId,	[Description],	InvoiceNo,	InvoiceDt,	GroupInvoiceNo,	Period,	MeterId,
+				RateTypeId,	MeterReadDt,ReadUnit,LastUnit,	BaseAmount,	FTUnitPrice,	FTAmount,UnitPrice,
+				Qty,	UnitTypeId,	Amount,	TaxCode,VatAmount,GAmount,DueDt,DueDt2,	InterestLockFlag,InterestKey,
+				DisconnectDt,	DisconnectDoc,	SubstDocNo,	InstallmentPeriod,	InstallmentTotalPeriod,	SpotBillInvoiceNo,				
+				CancelFlag,	PaymentOrderFlag,	PaymentOrderDt,	ModifiedFlag,InstallmentFlag,
+				SyncFlag,	PostDt,	ModifiedDt,	ModifiedBy,	Active
+			)
+			SELECT	A.ItemId, CaDoc, CaId, DtId, [Description], NewInvoiceNo, InvoiceDt, GroupInvoiceNo, Period, MeterId, 
+					RateTypeId, MeterReadDt, ReadUnit, LastUnit, BaseAmount, FTUnitPrice, FTAmount, UnitPrice, 
+					Qty, UnitTypeId, Amount, TaxCode, VatAmount, GAmount, DueDt, DueDt2, InterestLockFlag, InterestKey,
+					DisconnectDt, DisconnectDoc, SubstDocNo, InstallmentPeriod, InstallmentTotalPeriod, SpotBillInvoiceNo,
+					CancelFlag, PaymentOrderFlag, PaymentOrderDt, ModifiedFlag, @InstallmentFlag,
+					'0', getdate(), getdate(), @ModifiedBy, '1'
+			FROM	#AR_TEMP_2 A, @t_NewInvoice N
+			WHERE	A.ItemId = N.ItemId
+
+
+			-- CASE InvoiceNo <> ''
+			INSERT INTO [ts].[AR]	(
+				ItemId,	CaId,	CaDoc, DtId,	[Description],	InvoiceNo,	InvoiceDt,	GroupInvoiceNo,	Period,	MeterId,
+				RateTypeId,	MeterReadDt,ReadUnit,LastUnit,	BaseAmount,	FTUnitPrice,	FTAmount,UnitPrice,
+				Qty,	UnitTypeId,	Amount,	TaxCode,VatAmount,GAmount,DueDt,DueDt2,	InterestLockFlag,InterestKey,
+				DisconnectDt,	DisconnectDoc,	SubstDocNo,	InstallmentPeriod,	InstallmentTotalPeriod,	SpotBillInvoiceNo,				
+				CancelFlag,	PaymentOrderFlag,	PaymentOrderDt,	ModifiedFlag,InstallmentFlag,
+				SyncFlag,	PostDt,	ModifiedDt,	ModifiedBy,	Active
+			)
+			SELECT	ItemId, CaId, CaDoc, DtId, [Description], InvoiceNo, InvoiceDt, GroupInvoiceNo, Period, MeterId, 
+					RateTypeId, MeterReadDt, ReadUnit, LastUnit, BaseAmount, FTUnitPrice, FTAmount, UnitPrice, 
+					Qty, UnitTypeId, Amount, TaxCode, VatAmount, GAmount, DueDt, DueDt2, InterestLockFlag, InterestKey,
+					DisconnectDt, DisconnectDoc, SubstDocNo, InstallmentPeriod, InstallmentTotalPeriod, SpotBillInvoiceNo,
+					CancelFlag, PaymentOrderFlag, PaymentOrderDt, ModifiedFlag, @InstallmentFlag,
+					'0', getdate(), getdate(), @ModifiedBy, '9'
+			FROM	#AR_TEMP_2 
+			WHERE	InvoiceNo is not null AND [Action]='1'
+			-- 14 seconds
+
+			-- Rare case!
+			-- check for duplicated InvoiceNo of each CA	
+			DECLARE @QInvoiceId AS char(22),					@QCaId as char(12),
+					@DupFlag as char(1),					@RunningNo as int,
+					@RunningSuffix as varchar(9),			@GenInvoiceNo char(22),					@MyCount int
+			DECLARE curInvCaId CURSOR FOR 
+				Select ar1.CaID, ar1.InvoiceNo
+					From ts.AR ar1 inner join ts.AR ar2 
+						on ar1.InvoiceNo=ar2.InvoiceNo and ar1.CaID<>ar2.CaID and ar1.Active='9'			
+			OPEN curInvCaId
+			FETCH NEXT FROM curInvCaId INTO	@QCaId, @QInvoiceId												
+			WHILE (@@FETCH_STATUS = 0)
+				BEGIN
+					Set @DupFlag = 'Y'
+					Set @RunningNo = 1					
+					WHILE @DupFlag='Y'
+						BEGIN
+							--  6  Ǿ
+							SET @RunningSuffix = '------' + Convert(varchar(3), @RunningNo);
+							SET @RunningSuffix = Substring(@RunningSuffix, Len(@RunningSuffix)-6+1, 6)
+							-- Check if newid used by another row
+							SELECT @MyCount = COUNT(CaId)
+								FROM ts.AR
+								WHERE InvoiceNo=RTrim(@QInvoiceId) + @RunningSuffix
+									and CaId<>@QCaId;
+
+							IF @MyCount=0
+								BEGIN
+									SET @GenInvoiceNo = RTrim(@QInvoiceId) + @RunningSuffix;
+									SET @DupFlag = 'N';
+								END
+							ELSE
+								SET @RunningNo = @RunningNo + 1;
+						END			
+
+					-- update invoiceNo
+					UPDATE	ts.AR
+					SET		InvoiceNo = @GenInvoiceNo
+					WHERE	InvoiceNo = @QInvoiceId and CaID=@QCaId
+								
+					FETCH NEXT FROM curInvCaId INTO	@QCaId, @QInvoiceId
+				END																				
+			CLOSE curInvCaId
+			DEALLOCATE curInvCaId
+
+			Update ts.AR set Active='1' where Active='9';
+
+		END 
+	ELSE -- File type 'E' and 'F'
+		BEGIN
+
+			SET @InstallmentFlag = '1'
+
+		-- <Insert> !!!
+		-- Gen new InvoiceNo for any case , to save Id so we create InvoiceNo in loop
+			DECLARE @ItemId AS char(22),
+				@NewInvoiceNo char(22)
+			DECLARE curItem CURSOR FOR 
+				SELECT	DISTINCT ItemId
+				FROM 	#AR_TEMP_2 WHERE [ACTION]='1'
+			OPEN curItem
+			FETCH NEXT FROM curItem INTO @ItemId												
+			WHILE (@@FETCH_STATUS = 0)
+				BEGIN		
+					SET @NewInvoiceNo = 'ZZZZZZI' + REPLACE(STR(@GenIvId, 15, 0), ' ', '0')
+					Set @GenIvId = @GenIvId+1
+
+					INSERT INTO @t_NewInvoice (ItemId, NewInvoiceNo)
+						SELECT  @ItemId, @NewInvoiceNo
+
+					FETCH NEXT FROM curItem INTO	@ItemId
+				END																				
+			CLOSE curItem
+			DEALLOCATE curItem
+
+			-- start insert
+			INSERT INTO [ts].[AR]	(  
+				ItemId,	CaId,	DtId, [Description],	InvoiceNo,	
+				OriginalInvoiceNo,	InvoiceDt,	GroupInvoiceNo,
+				Period,	MeterId, RateTypeId, MeterReadDt, ReadUnit, LastUnit, BaseAmount, FTUnitPrice, FTAmount,
+				UnitPrice,	Qty, UnitTypeId, Amount,	TaxCode,VatAmount,	GAmount,DueDt,	DueDt2,	DisconnectDt,
+				DisconnectDoc,	SubstDocNo,	SpotBillInvoiceNo,	InterestLockFlag,	InterestKey, InstallmentFlag,
+				InstallmentPeriod,	InstallmentTotalPeriod,	PaymentOrderFlag, PaymentOrderDt,	CancelFlag,
+				ModifiedFlag,	SyncFlag, PostDt,ModifiedDt,ModifiedBy,	Active
+			)
+			SELECT	A.ItemId, CaId, DtId, [Description], NewInvoiceNo, 
+					InvoiceNo = ( SELECT TOP(1) InvoiceNo from ts.AR	where SubstDocNo = Substring(A.ItemId,1,12) )  ,
+					InvoiceDt, GroupInvoiceNo, 
+					Period, MeterId, RateTypeId, MeterReadDt, ReadUnit, LastUnit, BaseAmount, FTUnitPrice, FTAmount,
+					UnitPrice, Qty, UnitTypeId, Amount, TaxCode, VatAmount, GAmount, DueDt, DueDt2, DisconnectDt,
+					DisconnectDoc, SubstDocNo, SpotBillInvoiceNo, InterestLockFlag, InterestKey, @InstallmentFlag,
+					InstallmentPeriod,	InstallmentTotalPeriod,	PaymentOrderFlag, PaymentOrderDt,	CancelFlag,
+					ModifiedFlag, '0', getdate(), getdate(), @ModifiedBy, '1'
+			FROM	#AR_TEMP_2 A, @t_NewInvoice N
+			WHERE	A.ItemId = N.ItemId AND A.[ACTION]='1'
+	END
+
+	Delete from #AR_TEMP_2 WHERE [Action]='1';
+
+	-- Clear update not exist record
+	DELETE From #AR_TEMP_2
+		Where [ACTION]='2' AND ItemId not in (Select ItemId from ts.AR);
+	SET @UpdateNoRecord=IsNull(@@ROWCOUNT,0)
+
+	-- <UPDATE> !!!
+	IF (@FileType = 'A')
+		BEGIN
+		
+			-- update action = 2 /if not found, just exit
+			UPDATE [ts].[AR]
+				SET [Description] = ( SELECT [Description] FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					GroupInvoiceNo = ( SELECT GroupInvoiceNo FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DueDt = ( SELECT DueDt FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DueDt2 = ( SELECT DueDt2 FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					InterestLockFlag = ( SELECT InterestLockFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					InterestKey = ( SELECT InterestKey FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DisconnectDoc = ( SELECT DisconnectDoc FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DisconnectDt = ( SELECT DisconnectDt FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),			
+					SubstDocNo = ( SELECT SubstDocNo FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),				
+					CancelFlag = ( SELECT CancelFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					PaymentOrderFlag = ( SELECT PaymentOrderFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					PaymentOrderDt = ( SELECT PaymentOrderDt FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),																	
+					ModifiedFlag = ( SELECT ModifiedFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),				
+					SyncFlag='0',	
+					PostDt = getdate(),			
+					ModifiedDt=getdate(),
+					ModifiedBy=@ModifiedBy,
+					Active = '1'
+			WHERE   ItemId IN (
+						SELECT	ItemId 
+						FROM	#AR_TEMP_2
+						WHERE	[Action] = '2'
+					)
+
+			Select * from #AR_TEMP_2 order by ItemId;
+
+		END
+	ELSE IF(@FileType = 'B')
+		BEGIN
+			-- update action = 2 /if not found, just exit
+			UPDATE [ts].[AR]
+				SET [Description] = ( SELECT [Description] FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					GroupInvoiceNo = ( SELECT GroupInvoiceNo FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DueDt = ( SELECT DueDt FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DueDt2 = ( SELECT DueDt2 FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					InterestLockFlag = ( SELECT InterestLockFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					InterestKey = ( SELECT InterestKey FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DisconnectDoc = ( SELECT DisconnectDoc FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DisconnectDt = ( SELECT DisconnectDt FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),			
+					SubstDocNo = ( SELECT SubstDocNo FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),				
+					CancelFlag = ( SELECT CancelFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					PaymentOrderFlag = ( SELECT PaymentOrderFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					PaymentOrderDt = ( SELECT PaymentOrderDt FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),																	
+					ModifiedFlag = ( SELECT ModifiedFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),				
+					SyncFlag='0',	
+					PostDt = getdate(),			
+					ModifiedDt=getdate(),
+					ModifiedBy=@ModifiedBy,
+					Active = '1'
+			WHERE   ItemId IN (
+						SELECT	ItemId 
+						FROM	#AR_TEMP_2
+						WHERE	[Action] = '2'
+					)
+		END
+	ELSE IF(@FileType = 'C')
+		BEGIN
+
+			-- update action = 2 /if not found, just exit
+			UPDATE [ts].[AR]
+				SET DueDt = ( SELECT DueDt FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DueDt2 = ( SELECT DueDt2 FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					InterestLockFlag = ( SELECT InterestLockFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					InterestKey = ( SELECT InterestKey FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					SubstDocNo = ( SELECT SubstDocNo FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),				
+					CancelFlag = ( SELECT CancelFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					SyncFlag='0',	
+					PostDt = getdate(),			
+					ModifiedDt=getdate(),
+					ModifiedBy=@ModifiedBy,
+					Active = '1'
+			WHERE   ItemId IN (
+						SELECT	ItemId 
+						FROM	#AR_TEMP_2
+						WHERE	[Action] = '2'
+					)
+		END
+	ELSE IF(@FileType = 'D')
+		BEGIN
+			-- update action = 2 /if not found, just exit
+			UPDATE [ts].[AR]
+				SET InvoiceNo = ( SELECT InvoiceNo FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DueDt = ( SELECT DueDt FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					CancelFlag = ( SELECT CancelFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					SyncFlag='0',	
+					PostDt = getdate(),			
+					ModifiedDt=getdate(),
+					ModifiedBy=@ModifiedBy,
+					Active = '1'
+			WHERE   ItemId IN (
+						SELECT	ItemId 
+						FROM	#AR_TEMP_2
+						WHERE	[Action] = '2'
+					)		
+		END
+	ELSE IF(@FileType = 'E')
+		BEGIN
+
+			SET		@InstallmentFlag = '1'
+			-- update action = 2 /if not found, just exit
+			UPDATE [ts].[AR]
+				SET [Description] = ( SELECT [Description] FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					GAmount = ( SELECT GAmount FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DueDt = ( SELECT DueDt FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DueDt2 = ( SELECT DueDt2 FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					InterestLockFlag = ( SELECT InterestLockFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					InterestKey = ( SELECT InterestKey FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					InstallmentTotalPeriod = ( SELECT InstallmentTotalPeriod FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DisconnectDoc = ( SELECT DisconnectDoc FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DisconnectDt = ( SELECT DisconnectDt FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),			
+					CancelFlag = ( SELECT CancelFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					PaymentOrderFlag = ( SELECT PaymentOrderFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					PaymentOrderDt = ( SELECT PaymentOrderDt FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),																	
+					ModifiedFlag = ( SELECT ModifiedFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),				
+					SyncFlag='0',	
+					PostDt = getdate(),			
+					ModifiedDt=getdate(),
+					ModifiedBy=@ModifiedBy,
+					Active = '1'
+			WHERE   ItemId IN (
+						SELECT	ItemId 
+						FROM	#AR_TEMP_2
+						WHERE	[Action] = '2'
+					)
+		END
+	ELSE IF(@FileType = 'F')
+		BEGIN
+			
+			SET		@InstallmentFlag = '1'
+			-- update action = 2 /if not found, just exit
+			UPDATE [ts].[AR]
+				SET [Description] = ( SELECT [Description] FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					GAmount = ( SELECT GAmount FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DueDt = ( SELECT DueDt FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DueDt2 = ( SELECT DueDt2 FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					InterestLockFlag = ( SELECT InterestLockFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					InterestKey = ( SELECT InterestKey FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					InstallmentTotalPeriod = ( SELECT InstallmentTotalPeriod FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DisconnectDoc = ( SELECT DisconnectDoc FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					DisconnectDt = ( SELECT DisconnectDt FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),		
+					SpotBillInvoiceNo = ( SELECT SpotBillInvoiceNo FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),			
+					CancelFlag = ( SELECT CancelFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					PaymentOrderFlag = ( SELECT PaymentOrderFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),
+					PaymentOrderDt = ( SELECT PaymentOrderDt FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),																	
+					ModifiedFlag = ( SELECT ModifiedFlag FROM #AR_TEMP_2 WHERE ts.AR.ItemId = #AR_TEMP_2.ItemId ),				
+					SyncFlag='0',	
+					PostDt = getdate(),			
+					ModifiedDt=getdate(),
+					ModifiedBy=@ModifiedBy,
+					Active = '1'
+			WHERE   ItemId IN (
+						SELECT	ItemId 
+						FROM	#AR_TEMP_2
+						WHERE	[Action] = '2'
+					)
+		END
+	ELSE 
+		BEGIN
+			RAISERROR ('Invalid File Type',16, 1); 
+
+		END
+
+	Select @Row as TotalRecord, @DeleteNoRecord as DeleteNoRecord, 
+		@InsertExistingRecord as InsertExistingRecord, @UpdateNoRecord as UpdateNoRecord;

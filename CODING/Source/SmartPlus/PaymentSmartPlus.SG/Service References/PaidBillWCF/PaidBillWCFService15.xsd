@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org" elementFormDefault="qualified" targetNamespace="http://tempuri.org" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://scp30064/BPMService/POS/PaidBillWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" />
+  <xs:import schemaLocation="http://scp30064/BPMService/POS/PaidBillWCFService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+  <xs:import schemaLocation="http://scp30064/BPMService/POS/PaidBillWCFService.svc?xsd=xsd6" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="SearchPaidBill">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="param" nillable="true" type="q1:PaidBillSearchParam" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchPaidBillResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchPaidBillResult" nillable="true" type="q2:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchReceipt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="param" nillable="true" type="q3:ReceiptSearchParam" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchReceiptResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchReceiptResult" nillable="true" type="q4:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReceiptDetail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="receiptId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReceiptDetailResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetReceiptDetailResult" nillable="true" type="q5:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CancelReceipt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="receiptIds" nillable="true" type="q6:ArrayOfstring" />
+        <xs:element minOccurs="0" name="reason" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="reprintReceiptId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="newReceiptId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="posId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="terminalCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="branchId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="branchName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cashierId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cashierName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="workId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CancelReceiptResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="CancelReceiptResult" nillable="true" type="q7:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReceiptsForPrint">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="receiptIds" nillable="true" type="q8:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReceiptsForPrintResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetReceiptsForPrintResult" nillable="true" type="q9:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IncreaseNoOfReprint">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="receiptId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IncreaseNoOfReprintResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchOneTouchPayment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="receiptIds" nillable="true" type="q10:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchOneTouchPaymentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchOneTouchPaymentResult" nillable="true" type="q11:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

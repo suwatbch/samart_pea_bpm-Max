@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:i0="http://tempuri.org" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="ReportWCFService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://tempuri.org" location="http://172.16.166.131/BPMReportAppServices/POS/ReportWCFService.svc?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="BasicHttpBinding_IReportWCFService" type="i0:IReportWCFService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetReportCAC01_Compress">
+      <soap:operation soapAction="http://tempuri.org/IReportWCFService/GetReportCAC01_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReportWCFService_GetReportCAC01_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC03_Compress">
+      <soap:operation soapAction="http://tempuri.org/IReportWCFService/GetReportCAC03_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReportWCFService_GetReportCAC03_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC04_Compress">
+      <soap:operation soapAction="http://tempuri.org/IReportWCFService/GetReportCAC04_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReportWCFService_GetReportCAC04_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC05_Compress">
+      <soap:operation soapAction="http://tempuri.org/IReportWCFService/GetReportCAC05_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReportWCFService_GetReportCAC05_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC06_Compress">
+      <soap:operation soapAction="http://tempuri.org/IReportWCFService/GetReportCAC06_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReportWCFService_GetReportCAC06_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC07_Compress">
+      <soap:operation soapAction="http://tempuri.org/IReportWCFService/GetReportCAC07_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReportWCFService_GetReportCAC07_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC09_Compress">
+      <soap:operation soapAction="http://tempuri.org/IReportWCFService/GetReportCAC09_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReportWCFService_GetReportCAC09_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC11_Compress">
+      <soap:operation soapAction="http://tempuri.org/IReportWCFService/GetReportCAC11_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReportWCFService_GetReportCAC11_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC12_Compress">
+      <soap:operation soapAction="http://tempuri.org/IReportWCFService/GetReportCAC12_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReportWCFService_GetReportCAC12_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC13_Compress">
+      <soap:operation soapAction="http://tempuri.org/IReportWCFService/GetReportCAC13_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReportWCFService_GetReportCAC13_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC14_Compress">
+      <soap:operation soapAction="http://tempuri.org/IReportWCFService/GetReportCAC14_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReportWCFService_GetReportCAC14_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC18_Compress">
+      <soap:operation soapAction="http://tempuri.org/IReportWCFService/GetReportCAC18_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReportWCFService_GetReportCAC18_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC19_Compress">
+      <soap:operation soapAction="http://tempuri.org/IReportWCFService/GetReportCAC19_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReportWCFService_GetReportCAC19_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ReportWCFService">
+    <wsdl:port name="BasicHttpBinding_IReportWCFService" binding="tns:BasicHttpBinding_IReportWCFService">
+      <soap:address location="http://172.16.166.131/BPMReportAppServices/POS/ReportWCFService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="https://vsppdb-dev.pea.co.th:4443/web-services/bpm/services.wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns="http://schemas.xmlsoap.org/wsdl/" name="App.Http.WebServices.BpmWebService" targetNamespace="https://vsppdb-dev.pea.co.th:4443/web-services/bpm/services.wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="https://vsppdb-dev.pea.co.th:4443/web-services/bpm/services.wsdl">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:complexType name="App.Http.WebServices.Payment">
+        <xsd:all>
+          <xsd:element name="CaId" type="xsd:string" />
+          <xsd:element name="CaName" type="xsd:string" />
+          <xsd:element name="CaAddress" type="xsd:string" />
+          <xsd:element name="TechBranchId" type="xsd:string" />
+          <xsd:element name="InvoiceNo" type="xsd:string" />
+          <xsd:element name="InvoiceDt" nillable="true" type="xsd:dateTime" />
+          <xsd:element name="DebtId" type="xsd:string" />
+          <xsd:element name="DebtType" type="xsd:string" />
+          <xsd:element name="CaTaxId" type="xsd:string" />
+          <xsd:element name="CaTaxBranch" type="xsd:string" />
+          <xsd:element name="TaxCode" type="xsd:string" />
+          <xsd:element name="TaxRate" nillable="true" type="xsd:decimal" />
+          <xsd:element name="Qty" nillable="true" type="xsd:decimal" />
+          <xsd:element name="AmountExVat" nillable="true" type="xsd:decimal" />
+          <xsd:element name="VatAmount" nillable="true" type="xsd:decimal" />
+          <xsd:element name="GAmount" nillable="true" type="xsd:decimal" />
+          <xsd:element name="NotificationNo" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfApp.Http.WebServices.Payment">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soap-enc:Array">
+            <xsd:attribute wsdl:arrayType="tns:App.Http.WebServices.Payment[]" ref="soap-enc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="SearchPaymentIn">
+    <wsdl:part name="notificationNo" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="SearchPaymentOut">
+    <wsdl:part name="return" type="tns:ArrayOfApp.Http.WebServices.Payment" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePaymentIn">
+    <wsdl:part name="notificationNo" type="xsd:string" />
+    <wsdl:part name="invoiceNo" type="xsd:string" />
+    <wsdl:part name="reciptId" type="xsd:string" />
+    <wsdl:part name="deptId" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePaymentOut">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="App.Http.WebServices.BpmWebServicePort">
+    <wsdl:operation name="SearchPayment">
+      <wsdl:input message="tns:SearchPaymentIn" />
+      <wsdl:output message="tns:SearchPaymentOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePayment">
+      <wsdl:input message="tns:UpdatePaymentIn" />
+      <wsdl:output message="tns:UpdatePaymentOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="App.Http.WebServices.BpmWebServiceBinding" type="tns:App.Http.WebServices.BpmWebServicePort">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="SearchPayment">
+      <soap:operation soapAction="https://vsppdb-dev.pea.co.th:4443/web-services/bpm/services.wsdl#SearchPayment" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="https://vsppdb-dev.pea.co.th:4443/web-services/bpm/services.wsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="https://vsppdb-dev.pea.co.th:4443/web-services/bpm/services.wsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePayment">
+      <soap:operation soapAction="https://vsppdb-dev.pea.co.th:4443/web-services/bpm/services.wsdl#UpdatePayment" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="https://vsppdb-dev.pea.co.th:4443/web-services/bpm/services.wsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="https://vsppdb-dev.pea.co.th:4443/web-services/bpm/services.wsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="App.Http.WebServices.BpmWebServiceService">
+    <wsdl:port name="App.Http.WebServices.BpmWebServicePort" binding="tns:App.Http.WebServices.BpmWebServiceBinding">
+      <soap:address location="https://vsppdb-dev.pea.co.th:4443/web-services/bpm/services.wsdl" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

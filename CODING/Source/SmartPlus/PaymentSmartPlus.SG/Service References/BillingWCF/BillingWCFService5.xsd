@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org" elementFormDefault="qualified" targetNamespace="http://tempuri.org" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://scp30064/BPMService/POS/BillingWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Infrastructure.Interface.BusinessEntities" />
+  <xs:import schemaLocation="http://scp30064/BPMService/POS/BillingWCFService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.CashManagementModule.Interface.BusinessEntities" />
+  <xs:import schemaLocation="http://scp30064/BPMService/POS/BillingWCFService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+  <xs:import schemaLocation="http://scp30064/BPMService/POS/BillingWCFService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" />
+  <xs:element name="CheckWorkStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Infrastructure.Interface.BusinessEntities" minOccurs="0" name="param" nillable="true" type="q1:OpenWorkParam" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckWorkStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CheckWorkStatusResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMoneyInTray">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="workId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMoneyInTrayResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.CashManagementModule.Interface.BusinessEntities" minOccurs="0" name="GetMoneyInTrayResult" nillable="true" type="q2:TrayMoneyInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRepayLastReceiptData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="receiptId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRepayLastReceiptDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetRepayLastReceiptDataResult" nillable="true" type="q3:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveOneTouchLog">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="log" nillable="true" type="q4:OneTouchLogInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveOneTouchLogResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchInvoiceFromOneTouch">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="param" nillable="true" type="q5:OneTouchSearchParam" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchInvoiceFromOneTouchResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="SearchInvoiceFromOneTouchResult" nillable="true" type="q6:ArrayOfInvoice" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchInvoiceFromOneTouch_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="param" nillable="true" type="q7:OneTouchSearchParam" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchInvoiceFromOneTouch_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchInvoiceFromOneTouch_CompressResult" nillable="true" type="q8:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOfflinePayment_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="branchId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cashierId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="workId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOfflinePayment_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetOfflinePayment_CompressResult" nillable="true" type="q9:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateOfflinePayment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="branchId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cashierId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="posId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="workId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateOfflinePaymentResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchInvoiceByCustomerId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="param" nillable="true" type="q10:CustomerSearchParam" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchInvoiceByCustomerIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="SearchInvoiceByCustomerIdResult" nillable="true" type="q11:ArrayOfInvoice" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchInvoiceByCustomerId_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="param" nillable="true" type="q12:CustomerSearchParam" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchInvoiceByCustomerId_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchInvoiceByCustomerId_CompressResult" nillable="true" type="q13:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchInvoiceFromSAP_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="param" nillable="true" type="q14:SAPSearchParam" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchInvoiceFromSAP_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchInvoiceFromSAP_CompressResult" nillable="true" type="q15:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchOriginalInvoiceByInstallmentItemCaDoc_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="param" nillable="true" type="q16:OriginalInvoiceSearchParam" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchOriginalInvoiceByInstallmentItemCaDoc_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchOriginalInvoiceByInstallmentItemCaDoc_CompressResult" nillable="true" type="q17:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchInstallmentInvoice_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="caDoc" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchInstallmentInvoice_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchInstallmentInvoice_CompressResult" nillable="true" type="q18:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchInvoiceByGroupInvoiceNo_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="param" nillable="true" type="q19:GroupInvoiceSearchParam" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchInvoiceByGroupInvoiceNo_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchInvoiceByGroupInvoiceNo_CompressResult" nillable="true" type="q20:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchInvoiceItemByGroupInvoiceNo_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="param" nillable="true" type="q21:InvoiceItemSearchParam" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchInvoiceItemByGroupInvoiceNo_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchInvoiceItemByGroupInvoiceNo_CompressResult" nillable="true" type="q22:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PayInvoice_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="cd" nillable="true" type="q23:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PayInvoice_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="PayInvoice_CompressResult" nillable="true" type="q24:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PayInvoice">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="os" nillable="true" type="q25:PayInvoice" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PayInvoiceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="PayInvoiceResult" nillable="true" type="q26:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchBillByCustomerDetail_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="param" nillable="true" type="q27:CustomerSearchParam" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchBillByCustomerDetail_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchBillByCustomerDetail_CompressResult" nillable="true" type="q28:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchBillByBillBookId_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="billBookId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="billBookStatus" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchBillByBillBookId_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchBillByBillBookId_CompressResult" nillable="true" type="q29:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchBillByAgent_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="param" nillable="true" type="q30:AgencySearchParam" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchBillByAgent_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchBillByAgent_CompressResult" nillable="true" type="q31:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGroupInvoiceItem_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="billBookId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGroupInvoiceItem_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetGroupInvoiceItem_CompressResult" nillable="true" type="q32:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBranchIdByCaId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="caId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBranchIdByCaIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="GetBranchIdByCaIdResult" nillable="true" type="q33:CaIdAndBranchId" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCustomerDetailOnPaymentHistory">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="param" nillable="true" type="q34:HistoryViewParam" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCustomerDetailOnPaymentHistoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="GetCustomerDetailOnPaymentHistoryResult" nillable="true" type="q35:Customer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPaymentHistory_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="param" nillable="true" type="q36:HistoryViewParam" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPaymentHistory_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetPaymentHistory_CompressResult" nillable="true" type="q37:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchBillBookByDetail_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="billBookId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="agencyId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="agencyName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchBillBookByDetail_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchBillBookByDetail_CompressResult" nillable="true" type="q38:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBillBookDetail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="billBookId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="statusLineStr" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBillBookDetailResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="GetBillBookDetailResult" nillable="true" type="q39:BillBook" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchAdvancePaymentHistory_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="billBookId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchAdvancePaymentHistory_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchAdvancePaymentHistory_CompressResult" nillable="true" type="q40:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchAGPayment_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="billBookId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchAGPayment_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchAGPayment_CompressResult" nillable="true" type="q41:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CloseDayPayment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="branchId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CloseDayPaymentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="CloseDayPaymentResult" nillable="true" type="q42:DayClosingResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchDisconnectionStatusByDiscNo_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="discNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchDisconnectionStatusByDiscNo_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchDisconnectionStatusByDiscNo_CompressResult" nillable="true" type="q43:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckExistingInvoiceNo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="caId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="period" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckExistingInvoiceNoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CheckExistingInvoiceNoResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetServerTime">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetServerTimeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetServerTimeResult" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLastDisconnect">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="caId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLastDisconnectResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetLastDisconnectResult" nillable="true" type="q44:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchPaymentNonReceipt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="receiptGen" nillable="true" type="q45:PaymentNonReceiptInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchPaymentNonReceiptResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="SearchPaymentNonReceiptResult" nillable="true" type="q46:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateReceiptService">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="param" nillable="true" type="q47:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateReceiptServiceResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCaAndBpOtherBranch">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="caId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCaAndBpOtherBranchResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetCaAndBpOtherBranchResult" nillable="true" type="q48:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveCaAndBpOtherBranch">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="param" nillable="true" type="q49:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveCaAndBpOtherBranchResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPaidGAmount">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="invoiceNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPaidGAmountResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetPaidGAmountResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetInActiveBillBook">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="invoiceNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetInActiveBillBookResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetInActiveBillBookResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDuplicateExtReceipt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="receiptId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="branchId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDuplicateExtReceiptResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetDuplicateExtReceiptResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidatePaymentActive">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="receiptId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="isPayment" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidatePaymentActiveResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ValidatePaymentActiveResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetActivePayment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="param" nillable="true" type="q50:SAPSearchParam" />
+        <xs:element minOccurs="0" name="renew" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetActivePaymentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetActivePaymentResult" nillable="true" type="q51:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveActivePayment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="acp" nillable="true" type="q52:ActivePayment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveActivePaymentResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OfflineLog">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" minOccurs="0" name="log" nillable="true" type="q53:OfflineLogInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OfflineLogResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

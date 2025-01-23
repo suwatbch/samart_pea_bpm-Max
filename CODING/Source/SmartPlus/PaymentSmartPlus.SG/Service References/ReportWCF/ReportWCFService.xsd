@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org" elementFormDefault="qualified" targetNamespace="http://tempuri.org" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/BPMService/POS/ReportWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports" />
+  <xs:import schemaLocation="http://localhost/BPMService/POS/ReportWCFService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+  <xs:element name="GetReportCAC01_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports" minOccurs="0" name="param" nillable="true" type="q1:CAC01Param" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC01_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetReportCAC01_CompressResult" nillable="true" type="q2:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC03_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports" minOccurs="0" name="param" nillable="true" type="q3:CAC01Param" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC03_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetReportCAC03_CompressResult" nillable="true" type="q4:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC04_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports" minOccurs="0" name="param" nillable="true" type="q5:CAC01Param" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC04_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetReportCAC04_CompressResult" nillable="true" type="q6:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC05_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports" minOccurs="0" name="param" nillable="true" type="q7:CAC06Param" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC05_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetReportCAC05_CompressResult" nillable="true" type="q8:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC06_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports" minOccurs="0" name="param" nillable="true" type="q9:CAC06Param" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC06_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetReportCAC06_CompressResult" nillable="true" type="q10:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC07_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports" minOccurs="0" name="param" nillable="true" type="q11:CAC06Param" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC07_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetReportCAC07_CompressResult" nillable="true" type="q12:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC09_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports" minOccurs="0" name="param" nillable="true" type="q13:CAC09Param" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC09_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetReportCAC09_CompressResult" nillable="true" type="q14:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC11_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports" minOccurs="0" name="param" nillable="true" type="q15:CAC11Param" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC11_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetReportCAC11_CompressResult" nillable="true" type="q16:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC12_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports" minOccurs="0" name="param" nillable="true" type="q17:CAC09Param" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC12_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetReportCAC12_CompressResult" nillable="true" type="q18:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC13_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports" minOccurs="0" name="param" nillable="true" type="q19:CAC11Param" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC13_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetReportCAC13_CompressResult" nillable="true" type="q20:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC14_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports" minOccurs="0" name="param" nillable="true" type="q21:CAC14Param" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportCAC14_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetReportCAC14_CompressResult" nillable="true" type="q22:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

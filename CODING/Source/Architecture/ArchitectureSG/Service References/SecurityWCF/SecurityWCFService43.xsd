@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org" elementFormDefault="qualified" targetNamespace="http://tempuri.org" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/BPMService/ARCH/SecurityWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+  <xs:import schemaLocation="http://localhost/BPMService/ARCH/SecurityWCFService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+  <xs:element name="ListAuthorizedFunctions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListAuthorizedFunctionsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="ListAuthorizedFunctionsResult" nillable="true" type="q1:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveUnlockLog">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" minOccurs="0" name="unlockLog" nillable="true" type="q2:UnlockLog" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveUnlockLogResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadUserProfile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadUserProfileResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" minOccurs="0" name="LoadUserProfileResult" nillable="true" type="q3:UserProfileExt" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckLogInDouble">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="TerminalIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="latency" type="xs:int" />
+        <xs:element minOccurs="0" name="retrycount" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckLogInDoubleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CheckLogInDoubleResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateCurIPReqFlag">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="TerminalIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ReqFlag" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateCurIPReqFlagResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateCurIPReqFlagResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

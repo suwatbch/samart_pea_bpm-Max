@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org" elementFormDefault="qualified" targetNamespace="http://tempuri.org" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/BPMService/AGENCY/AgencyCommonWCFService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" />
+  <xs:import schemaLocation="http://localhost/BPMService/AGENCY/AgencyCommonWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+  <xs:element name="FindAndDisplayAgentSearchInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="agentId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FindAndDisplayAgentSearchInfoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" minOccurs="0" name="FindAndDisplayAgentSearchInfoResult" nillable="true" type="q1:AgentInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FindAndDisplayAgentSearchInfo_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="agentId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FindAndDisplayAgentSearchInfo_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="FindAndDisplayAgentSearchInfo_CompressResult" nillable="true" type="q2:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FindAndDisplayBranchSearchInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="basedBranchId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="branchId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FindAndDisplayBranchSearchInfoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" minOccurs="0" name="FindAndDisplayBranchSearchInfoResult" nillable="true" type="q3:PeaInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FindAndDisplayBranchSearchInfo_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="basedBranchId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="branchId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FindAndDisplayBranchSearchInfo_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="FindAndDisplayBranchSearchInfo_CompressResult" nillable="true" type="q4:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FindAndDisplayLineSearchInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="branchId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="lineKey" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FindAndDisplayLineSearchInfoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" minOccurs="0" name="FindAndDisplayLineSearchInfoResult" nillable="true" type="q5:ArrayOfLineInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FindAndDisplayLineSearchInfo_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="branchId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="lineKey" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FindAndDisplayLineSearchInfo_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="FindAndDisplayLineSearchInfo_CompressResult" nillable="true" type="q6:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPmList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pmId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPmListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" minOccurs="0" name="GetPmListResult" nillable="true" type="q7:HashInfoCollection" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPmList_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pmId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPmList_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetPmList_CompressResult" nillable="true" type="q8:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAbsList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="absId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAbsListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" minOccurs="0" name="GetAbsListResult" nillable="true" type="q9:HashInfoCollection" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAbsList_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="absId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAbsList_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetAbsList_CompressResult" nillable="true" type="q10:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetContractTypeList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ctId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetContractTypeListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetContractTypeListResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBillStatusList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="bsId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBillStatusListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" minOccurs="0" name="GetBillStatusListResult" nillable="true" type="q11:HashInfoCollection" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBillStatusList_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="bsId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBillStatusList_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetBillStatusList_CompressResult" nillable="true" type="q12:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBranches">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="branchId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBranchesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" minOccurs="0" name="GetBranchesResult" nillable="true" type="q13:ArrayOfPeaInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBranches_Compress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="branchId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBranches_CompressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetBranches_CompressResult" nillable="true" type="q14:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

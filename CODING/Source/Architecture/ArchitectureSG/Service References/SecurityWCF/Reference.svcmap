@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4d33c488-b0d9-40d5-a095-136a9c44e917" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/ARCH/SecurityWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SecurityWCFService4.xsd" MetadataType="Schema" ID="72a323ed-7b4e-40f2-bdca-21fab04803e9" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/SecurityWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="SecurityWCFService41.xsd" MetadataType="Schema" ID="285e33ae-7b6b-48f9-86d6-e12b467f3747" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/SecurityWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="SecurityWCFService1.disco" MetadataType="Disco" ID="cadb3145-8818-42d5-aa39-0505e6ccd8f8" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/SecurityWCFService.svc?disco" />
+    <MetadataFile FileName="SecurityWCFService2.wsdl" MetadataType="Wsdl" ID="6122c065-2ab9-4a03-b357-2078a065e567" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/SecurityWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="SecurityWCFService42.xsd" MetadataType="Schema" ID="6ca0cdf0-6a65-4700-8eb2-43fe86ccd384" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/SecurityWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="SecurityWCFService21.wsdl" MetadataType="Wsdl" ID="0b2e4148-8579-4c1c-b0df-dea0b3355ff5" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/SecurityWCFService.svc?wsdl" />
+    <MetadataFile FileName="SecurityWCFService43.xsd" MetadataType="Schema" ID="e88e9c85-4d6b-4736-8d47-71cf991aa3af" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/SecurityWCFService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

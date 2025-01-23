@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PEA.BPM.AgencyManagementModule.SG.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AgencyManagementModule_SG_AgencyPlanningWS_AgencyPlanningWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMService/AGENCY/AgencyPlanningWebService.asmx</Value>
+    </Setting>
+    <Setting Name="AgencyManagementModule_SG_CreateBillbookWS_CreateBillbookWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMService/AGENCY/CreateBillbookWebService.asmx</Value>
+    </Setting>
+    <Setting Name="AgencyManagementModule_SG_AgencyModuleConfigWS_AgencyModuleConfigWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMService/AGENCY/AgencyModuleConfigWebService.asmx</Value>
+    </Setting>
+    <Setting Name="AgencyManagementModule_SG_AgencyCommonWS_AgencyCommonWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMService/AGENCY/AgencyCommonWebService.asmx</Value>
+    </Setting>
+    <Setting Name="AgencyManagementModule_SG_ReportMgtWS_ReportMgtWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMService/AGENCY/ReportMgtWebService.asmx</Value>
+    </Setting>
+    <Setting Name="AgencyManagementModule_SG_BillBookCheckInWS_BillbookCheckInWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMService/AGENCY/BillbookCheckInWebService.asmx</Value>
+    </Setting>
+    <Setting Name="AgencyManagementModule_SG_CommissionMgtWS_CommissionMgtWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMService/AGENCY/CommissionMgtWebService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

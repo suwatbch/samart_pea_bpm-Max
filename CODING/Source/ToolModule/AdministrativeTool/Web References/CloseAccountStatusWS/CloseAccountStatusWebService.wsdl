@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetCloseAccountStatusDisplay">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="datetime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="status" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="region" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCloseAccountStatusDisplayResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCloseAccountStatusDisplayResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetCloseAccountStatusDisplaySoapIn">
+    <wsdl:part name="parameters" element="tns:GetCloseAccountStatusDisplay" />
+  </wsdl:message>
+  <wsdl:message name="GetCloseAccountStatusDisplaySoapOut">
+    <wsdl:part name="parameters" element="tns:GetCloseAccountStatusDisplayResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CloseAccountStatusWebServiceSoap">
+    <wsdl:operation name="GetCloseAccountStatusDisplay">
+      <wsdl:input message="tns:GetCloseAccountStatusDisplaySoapIn" />
+      <wsdl:output message="tns:GetCloseAccountStatusDisplaySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CloseAccountStatusWebServiceSoap" type="tns:CloseAccountStatusWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCloseAccountStatusDisplay">
+      <soap:operation soapAction="http://tempuri.org/GetCloseAccountStatusDisplay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CloseAccountStatusWebServiceSoap12" type="tns:CloseAccountStatusWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCloseAccountStatusDisplay">
+      <soap12:operation soapAction="http://tempuri.org/GetCloseAccountStatusDisplay" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CloseAccountStatusWebService">
+    <wsdl:port name="CloseAccountStatusWebServiceSoap" binding="tns:CloseAccountStatusWebServiceSoap">
+      <soap:address location="http://localhost/AdminToolService/CloseAccountStatus/CloseAccountStatusWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CloseAccountStatusWebServiceSoap12" binding="tns:CloseAccountStatusWebServiceSoap12">
+      <soap12:address location="http://localhost/AdminToolService/CloseAccountStatus/CloseAccountStatusWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

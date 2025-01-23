@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="46b60eae-751b-47d5-b64c-a7df53b742ae" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMCenterAppServices/POS/BillingWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BillingWCFService.xsd" MetadataType="Schema" ID="adaafe71-4bae-4a76-93ec-8524d2d5ab1b" SourceId="1" SourceUrl="http://altpeagptn0009/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="BillingWCFService1.xsd" MetadataType="Schema" ID="cb26bf44-b401-4727-923d-1263044e3781" SourceId="1" SourceUrl="http://altpeagptn0009/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="BillingWCFService2.xsd" MetadataType="Schema" ID="cdfa39c3-80de-4cc8-a13e-e29f0ff5d7a7" SourceId="1" SourceUrl="http://altpeagptn0009/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="BillingWCFService3.xsd" MetadataType="Schema" ID="ce49c674-f367-4df8-bb04-07cf504953d3" SourceId="1" SourceUrl="http://altpeagptn0009/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="BillingWCFService4.xsd" MetadataType="Schema" ID="4e9369e1-8fef-441f-ab7f-d16df87c0d39" SourceId="1" SourceUrl="http://altpeagptn0009/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd7" />
+    <MetadataFile FileName="BillingWCFService5.xsd" MetadataType="Schema" ID="55631c3a-fd0c-4ebd-824a-f015022703bb" SourceId="1" SourceUrl="http://altpeagptn0009/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd6" />
+    <MetadataFile FileName="BillingWCFService6.xsd" MetadataType="Schema" ID="a07f8f49-f14e-47d6-943e-e6d1c6cf750b" SourceId="1" SourceUrl="http://altpeagptn0009/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd5" />
+    <MetadataFile FileName="BillingWCFService7.xsd" MetadataType="Schema" ID="6f8e3c2e-5541-4dfa-a577-ddd9560f8d0e" SourceId="1" SourceUrl="http://altpeagptn0009/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd4" />
+    <MetadataFile FileName="BillingWCFService.disco" MetadataType="Disco" ID="2ef23603-7071-46f3-8d7b-cd1fd9414ae2" SourceId="1" SourceUrl="http://altpeagptn0009/BPMCenterAppServices/POS/BillingWCFService.svc?disco" />
+    <MetadataFile FileName="BillingWCFService.wsdl" MetadataType="Wsdl" ID="d6267b38-ee99-43f4-89cf-db41c76fd0ab" SourceId="1" SourceUrl="http://altpeagptn0009/BPMCenterAppServices/POS/BillingWCFService.svc?wsdl" />
+    <MetadataFile FileName="BillingWCFService8.xsd" MetadataType="Schema" ID="dcc465cc-beef-4609-bdec-944c1b923349" SourceId="1" SourceUrl="http://altpeagptn0009/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd8" />
+    <MetadataFile FileName="BillingWCFService1.wsdl" MetadataType="Wsdl" ID="a33b4ac7-cc05-4ef5-843f-6e911b33f3d7" SourceId="1" SourceUrl="http://altpeagptn0009/BPMCenterAppServices/POS/BillingWCFService.svc?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

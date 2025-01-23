@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://172.16.166.131/BPMReportAppServices/POS/ReportWCFService.svc?xsd=xsd6" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="CAC01Param">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ReportParam">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ControllerId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TransDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="FromTime" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ToTime" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="BankKey" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TransFromDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="TransToDate" nillable="true" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CAC01Param" nillable="true" type="tns:CAC01Param" />
+  <xs:complexType name="ReportParam">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Report" type="tns:ReportName" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReportParam" nillable="true" type="tns:ReportParam" />
+  <xs:simpleType name="ReportName">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="CAC01_1" />
+      <xs:enumeration value="CAC01_2" />
+      <xs:enumeration value="CAC03_1" />
+      <xs:enumeration value="CAC03_2" />
+      <xs:enumeration value="CAC03_3" />
+      <xs:enumeration value="CAC03_4" />
+      <xs:enumeration value="CAC04_1" />
+      <xs:enumeration value="CAC04_2" />
+      <xs:enumeration value="CAC04_3" />
+      <xs:enumeration value="CAC04_4" />
+      <xs:enumeration value="CAC05_1" />
+      <xs:enumeration value="CAC05_2" />
+      <xs:enumeration value="CAC06_1" />
+      <xs:enumeration value="CAC06_2" />
+      <xs:enumeration value="CAC06_3" />
+      <xs:enumeration value="CAC07_1" />
+      <xs:enumeration value="CAC07_2" />
+      <xs:enumeration value="CAC09_1" />
+      <xs:enumeration value="CAC09_2" />
+      <xs:enumeration value="CAC10" />
+      <xs:enumeration value="CAC11" />
+      <xs:enumeration value="CAC12" />
+      <xs:enumeration value="CAC13" />
+      <xs:enumeration value="CAC14" />
+      <xs:enumeration value="AP" />
+      <xs:enumeration value="CAC15" />
+      <xs:enumeration value="CAC18" />
+      <xs:enumeration value="CAC19" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ReportName" nillable="true" type="tns:ReportName" />
+  <xs:complexType name="CAC06Param">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ReportParam">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ControllerId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TransFromDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="TransToDate" nillable="true" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CAC06Param" nillable="true" type="tns:CAC06Param" />
+  <xs:complexType name="CAC09Param">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ReportParam">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PosId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TransFromDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="TransToDate" nillable="true" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CAC09Param" nillable="true" type="tns:CAC09Param" />
+  <xs:complexType name="CAC11Param">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ReportParam">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PosId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ControllerId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TransFromDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="TransToDate" nillable="true" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CAC11Param" nillable="true" type="tns:CAC11Param" />
+  <xs:complexType name="CAC14Param">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ReportParam">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="GroupInvoiceNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PaymentId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ReceiptId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CAC14Param" nillable="true" type="tns:CAC14Param" />
+  <xs:complexType name="CAC18Param">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ReportParam">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PosId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ControllerId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TransFromDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="TransToDate" nillable="true" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CAC18Param" nillable="true" type="tns:CAC18Param" />
+  <xs:complexType name="CAC19Param">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ReportParam">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PosId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ControllerId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TransFromDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="TransToDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="FileName" nillable="true" type="xs:string" />
+          <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="BankQRPayment" nillable="true" type="q1:ArrayOfstring" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CAC19Param" nillable="true" type="tns:CAC19Param" />
+</xs:schema>

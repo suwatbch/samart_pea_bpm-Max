@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/AgencyPlanningWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/AgencyPlanningWCFService.svc?xsd=xsd3" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/AgencyPlanningWCFService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/AgencyPlanningWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/AgencyPlanningWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/AgencyPlanningWCFService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAgencyPlanningWCFService_SaveAssignedLineofAgent_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAssignedLineofAgent" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_SaveAssignedLineofAgent_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_SaveAssignedLineofAgent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAssignedLineofAgentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_SaveAssignedLineofAgent_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayLineOfAgentSearchInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayLineOfAgentSearchInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayLineOfAgentSearchInfo_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayLineOfAgentSearchInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayLineOfAgentSearchInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayLineOfAgentSearchInfo_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayLineOfAgentSearchInfo_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayLineOfAgentSearchInfo_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayLineOfAgentSearchInfo_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayLineOfAgentSearchInfo_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayLineOfAgentSearchInfo_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayLineOfAgentSearchInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_AcquireAgentAssetSearchInformation_InputMessage">
+    <wsdl:part name="parameters" element="tns:AcquireAgentAssetSearchInformation" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_AcquireAgentAssetSearchInformation_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_AcquireAgentAssetSearchInformation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AcquireAgentAssetSearchInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_AcquireAgentAssetSearchInformation_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_AcquireAgentAssetSearchInformation_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:AcquireAgentAssetSearchInformation_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_AcquireAgentAssetSearchInformation_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_AcquireAgentAssetSearchInformation_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AcquireAgentAssetSearchInformation_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_AcquireAgentAssetSearchInformation_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayBranchByKeyword_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayBranchByKeyword" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayBranchByKeyword_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayBranchByKeyword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayBranchByKeywordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayBranchByKeyword_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayBranchByKeyword_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayBranchByKeyword_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayBranchByKeyword_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayBranchByKeyword_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayBranchByKeyword_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayBranchByKeyword_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayLineByKeyword_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayLineByKeyword" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayLineByKeyword_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayLineByKeyword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayLineByKeywordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayLineByKeyword_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q8:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayLineByKeyword_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayLineByKeyword_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayLineByKeyword_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayLineByKeyword_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayLineByKeyword_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyPlanningWCFService_FindAndDisplayLineByKeyword_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q9:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="IAgencyPlanningWCFService">
+    <wsdl:operation name="SaveAssignedLineofAgent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/SaveAssignedLineofAgent" message="tns:IAgencyPlanningWCFService_SaveAssignedLineofAgent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/SaveAssignedLineofAgentResponse" message="tns:IAgencyPlanningWCFService_SaveAssignedLineofAgent_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/SaveAssignedLineofAgentBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAgencyPlanningWCFService_SaveAssignedLineofAgent_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayLineOfAgentSearchInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayLineOfAgentSearchInfo" message="tns:IAgencyPlanningWCFService_FindAndDisplayLineOfAgentSearchInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayLineOfAgentSearchInfoResponse" message="tns:IAgencyPlanningWCFService_FindAndDisplayLineOfAgentSearchInfo_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayLineOfAgentSearchInfoBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAgencyPlanningWCFService_FindAndDisplayLineOfAgentSearchInfo_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayLineOfAgentSearchInfo_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayLineOfAgentSearchInfo_Compress" message="tns:IAgencyPlanningWCFService_FindAndDisplayLineOfAgentSearchInfo_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayLineOfAgentSearchInfo_CompressResponse" message="tns:IAgencyPlanningWCFService_FindAndDisplayLineOfAgentSearchInfo_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayLineOfAgentSearchInfo_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAgencyPlanningWCFService_FindAndDisplayLineOfAgentSearchInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AcquireAgentAssetSearchInformation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/AcquireAgentAssetSearchInformation" message="tns:IAgencyPlanningWCFService_AcquireAgentAssetSearchInformation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/AcquireAgentAssetSearchInformationResponse" message="tns:IAgencyPlanningWCFService_AcquireAgentAssetSearchInformation_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/AcquireAgentAssetSearchInformationBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAgencyPlanningWCFService_AcquireAgentAssetSearchInformation_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AcquireAgentAssetSearchInformation_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/AcquireAgentAssetSearchInformation_Compress" message="tns:IAgencyPlanningWCFService_AcquireAgentAssetSearchInformation_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/AcquireAgentAssetSearchInformation_CompressResponse" message="tns:IAgencyPlanningWCFService_AcquireAgentAssetSearchInformation_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/AcquireAgentAssetSearchInformation_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAgencyPlanningWCFService_AcquireAgentAssetSearchInformation_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayBranchByKeyword">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayBranchByKeyword" message="tns:IAgencyPlanningWCFService_FindAndDisplayBranchByKeyword_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayBranchByKeywordResponse" message="tns:IAgencyPlanningWCFService_FindAndDisplayBranchByKeyword_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayBranchByKeywordBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAgencyPlanningWCFService_FindAndDisplayBranchByKeyword_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayBranchByKeyword_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayBranchByKeyword_Compress" message="tns:IAgencyPlanningWCFService_FindAndDisplayBranchByKeyword_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayBranchByKeyword_CompressResponse" message="tns:IAgencyPlanningWCFService_FindAndDisplayBranchByKeyword_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayBranchByKeyword_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAgencyPlanningWCFService_FindAndDisplayBranchByKeyword_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayLineByKeyword">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayLineByKeyword" message="tns:IAgencyPlanningWCFService_FindAndDisplayLineByKeyword_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayLineByKeywordResponse" message="tns:IAgencyPlanningWCFService_FindAndDisplayLineByKeyword_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayLineByKeywordBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAgencyPlanningWCFService_FindAndDisplayLineByKeyword_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayLineByKeyword_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayLineByKeyword_Compress" message="tns:IAgencyPlanningWCFService_FindAndDisplayLineByKeyword_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayLineByKeyword_CompressResponse" message="tns:IAgencyPlanningWCFService_FindAndDisplayLineByKeyword_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAgencyPlanningWCFService/FindAndDisplayLineByKeyword_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAgencyPlanningWCFService_FindAndDisplayLineByKeyword_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

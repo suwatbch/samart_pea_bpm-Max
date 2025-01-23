@@ -1,0 +1,161 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E0AFD613-2C8A-49A8-9551-0C0222864AEC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PEA.BPM.CashManagementModule.Interface</RootNamespace>
+    <AssemblyName>CashManagementModule.Interface</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessEntities\BankDeliveryInfo.cs" />
+    <Compile Include="BusinessEntities\BaselineInfo.cs" />
+    <Compile Include="BusinessEntities\CancelMoneyCheckedInInfo.cs" />
+    <Compile Include="BusinessEntities\CashierInfo.cs" />
+    <Compile Include="BusinessEntities\CashierMoneyFlowInfo.cs" />
+    <Compile Include="BusinessEntities\CashierMoneyTransferInfo.cs" />
+    <Compile Include="BusinessEntities\CashierPosIdInfo.cs" />
+    <Compile Include="BusinessEntities\CashierWorkStatusInfo.cs" />
+    <Compile Include="BusinessEntities\ChequeInfo.cs" />
+    <Compile Include="BusinessEntities\CloseWorkSubmitInfo.cs" />
+    <Compile Include="BusinessEntities\CloseWorkSumAll.cs" />
+    <Compile Include="BusinessEntities\CloseWorkSummaryInfo.cs" />
+    <Compile Include="BusinessEntities\CashierWorkStatus.cs" />
+    <Compile Include="BusinessEntities\FlowSummaryInfo.cs" />
+    <Compile Include="BusinessEntities\FlowType.cs" />
+    <Compile Include="BusinessEntities\GLBankAccountInfo.cs" />
+    <Compile Include="BusinessEntities\GLBankInfo.cs" />
+    <Compile Include="BusinessEntities\MoneyCheckInInfo.cs" />
+    <Compile Include="BusinessEntities\MoneyTransferInfo.cs" />
+    <Compile Include="BusinessEntities\OpenWorkInfo.cs" />
+    <Compile Include="BusinessEntities\PayInInfo.cs" />
+    <Compile Include="BusinessEntities\ReportCloseWorkSummary.cs" />
+    <Compile Include="BusinessEntities\ReportDailyPayInInfo.cs" />
+    <Compile Include="BusinessEntities\PaymentMethodInfo.cs" />
+    <Compile Include="BusinessEntities\ReportAvailableInfo.cs" />
+    <Compile Include="BusinessEntities\ReportBankPayInDetailInfo.cs" />
+    <Compile Include="BusinessEntities\ReportDailyRemainInfo.cs" />
+    <Compile Include="BusinessEntities\ReportParam.cs" />
+    <Compile Include="BusinessEntities\ReportWorkFlowSummary.cs" />
+    <Compile Include="BusinessEntities\SortChequeKey.cs" />
+    <Compile Include="BusinessEntities\SystemInitialParam.cs" />
+    <Compile Include="BusinessEntities\TrayMoneyInfo.cs" />
+    <Compile Include="BusinessEntities\WorkInfo.cs" />
+    <Compile Include="Constants\CommandNames.cs" />
+    <Compile Include="Constants\EventTopicNames.cs" />
+    <Compile Include="Constants\LocalSettingNames.cs" />
+    <Compile Include="Constants\SecurityNames.cs" />
+    <Compile Include="Constants\UIExtensionSiteNames.cs" />
+    <Compile Include="Constants\WorkspaceNames.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ICashManagementServices.cs" />
+    <Compile Include="Services\ICashReportServices.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Infrastructure.Interface\Infrastructure.Interface.csproj">
+      <Project>{A6E71DBF-A767-416C-9DE4-15AEFC619BAF}</Project>
+      <Name>Infrastructure.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\PEA.BPM.CashManagementModule.Interface.BusinessEntities.ChequeInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.CashManagementModule.Interface.BusinessEntities.FlowSummaryInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.CashManagementModule.Interface.BusinessEntities.ReportDailyPayInInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.CashManagementModule.Interface.BusinessEntities.ReportDailyRemainInfo.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

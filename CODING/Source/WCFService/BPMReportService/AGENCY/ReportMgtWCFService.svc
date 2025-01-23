@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="BPMReportService.AGENCY.ReportMgtWCFService" CodeBehind="ReportMgtWCFService.svc.cs" %>

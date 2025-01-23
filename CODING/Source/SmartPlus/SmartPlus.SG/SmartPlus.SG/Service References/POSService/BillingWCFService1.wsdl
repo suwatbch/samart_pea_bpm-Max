@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://laptop-gl6cncqh/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://laptop-gl6cncqh/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd4" />
+      <xsd:import schemaLocation="http://laptop-gl6cncqh/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://laptop-gl6cncqh/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://laptop-gl6cncqh/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Infrastructure.Interface.BusinessEntities" />
+      <xsd:import schemaLocation="http://laptop-gl6cncqh/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+      <xsd:import schemaLocation="http://laptop-gl6cncqh/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.CashManagementModule.Interface.BusinessEntities" />
+      <xsd:import schemaLocation="http://laptop-gl6cncqh/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" />
+      <xsd:import schemaLocation="http://laptop-gl6cncqh/BPMCenterAppServices/POS/BillingWCFService.svc?xsd=xsd8" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IBillingWCFService_CheckWorkStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckWorkStatus" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_CheckWorkStatus_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_CheckWorkStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckWorkStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_CheckWorkStatus_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetMoneyInTray_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMoneyInTray" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetMoneyInTray_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetMoneyInTray_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMoneyInTrayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetMoneyInTray_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetRepayLastReceiptData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRepayLastReceiptData" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetRepayLastReceiptData_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetRepayLastReceiptData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRepayLastReceiptDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetRepayLastReceiptData_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SaveOneTouchLog_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveOneTouchLog" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SaveOneTouchLog_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SaveOneTouchLog_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveOneTouchLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SaveOneTouchLog_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceFromOneTouch_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceFromOneTouch" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceFromOneTouch_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceFromOneTouch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceFromOneTouchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceFromOneTouch_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceFromOneTouch_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceFromOneTouch_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceFromOneTouch_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceFromOneTouch_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceFromOneTouch_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceFromOneTouch_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetOfflinePayment_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOfflinePayment_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetOfflinePayment_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetOfflinePayment_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOfflinePayment_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetOfflinePayment_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_UpdateOfflinePayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOfflinePayment" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_UpdateOfflinePayment_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_UpdateOfflinePayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOfflinePaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_UpdateOfflinePayment_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q8:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceByCustomerId_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceByCustomerId" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceByCustomerId_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceByCustomerId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceByCustomerIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceByCustomerId_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q9:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceByCustomerId_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceByCustomerId_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceByCustomerId_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceByCustomerId_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceByCustomerId_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceByCustomerId_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q10:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceFromSAP_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceFromSAP_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceFromSAP_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceFromSAP_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceFromSAP_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceFromSAP_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q11:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchOriginalInvoiceByInstallmentItemCaDoc_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchOriginalInvoiceByInstallmentItemCaDoc_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchOriginalInvoiceByInstallmentItemCaDoc_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchOriginalInvoiceByInstallmentItemCaDoc_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchOriginalInvoiceByInstallmentItemCaDoc_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchOriginalInvoiceByInstallmentItemCaDoc_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q12:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInstallmentInvoice_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchInstallmentInvoice_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInstallmentInvoice_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInstallmentInvoice_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchInstallmentInvoice_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInstallmentInvoice_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q13="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q13:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceByGroupInvoiceNo_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceByGroupInvoiceNo_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceByGroupInvoiceNo_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceByGroupInvoiceNo_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceByGroupInvoiceNo_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceByGroupInvoiceNo_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q14:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceItemByGroupInvoiceNo_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceItemByGroupInvoiceNo_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceItemByGroupInvoiceNo_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceItemByGroupInvoiceNo_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceItemByGroupInvoiceNo_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchInvoiceItemByGroupInvoiceNo_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q15="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q15:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_PayInvoice_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:PayInvoice_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_PayInvoice_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_PayInvoice_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PayInvoice_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_PayInvoice_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q16="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q16:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_PayInvoice_InputMessage">
+    <wsdl:part name="parameters" element="tns:PayInvoice" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_PayInvoice_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_PayInvoice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PayInvoiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_PayInvoice_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q17="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q17:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchBillByCustomerDetail_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchBillByCustomerDetail_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchBillByCustomerDetail_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchBillByCustomerDetail_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchBillByCustomerDetail_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchBillByCustomerDetail_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q18="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q18:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchBillByBillBookId_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchBillByBillBookId_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchBillByBillBookId_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchBillByBillBookId_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchBillByBillBookId_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchBillByBillBookId_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q19="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q19:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchBillByAgent_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchBillByAgent_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchBillByAgent_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchBillByAgent_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchBillByAgent_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchBillByAgent_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q20="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q20:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetGroupInvoiceItem_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupInvoiceItem_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetGroupInvoiceItem_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetGroupInvoiceItem_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupInvoiceItem_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetGroupInvoiceItem_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q21="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q21:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetBranchIdByCaId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBranchIdByCaId" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetBranchIdByCaId_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetBranchIdByCaId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBranchIdByCaIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetBranchIdByCaId_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q22="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q22:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetCustomerDetailOnPaymentHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCustomerDetailOnPaymentHistory" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetCustomerDetailOnPaymentHistory_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetCustomerDetailOnPaymentHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCustomerDetailOnPaymentHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetCustomerDetailOnPaymentHistory_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q23="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q23:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetPaymentHistory_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPaymentHistory_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetPaymentHistory_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetPaymentHistory_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPaymentHistory_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetPaymentHistory_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q24="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q24:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchBillBookByDetail_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchBillBookByDetail_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchBillBookByDetail_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchBillBookByDetail_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchBillBookByDetail_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchBillBookByDetail_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q25="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q25:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetBillBookDetail_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookDetail" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetBillBookDetail_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetBillBookDetail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetBillBookDetail_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q26="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q26:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchAdvancePaymentHistory_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchAdvancePaymentHistory_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchAdvancePaymentHistory_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchAdvancePaymentHistory_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchAdvancePaymentHistory_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchAdvancePaymentHistory_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q27="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q27:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchAGPayment_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchAGPayment_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchAGPayment_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchAGPayment_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchAGPayment_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchAGPayment_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q28="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q28:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_CloseDayPayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:CloseDayPayment" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_CloseDayPayment_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_CloseDayPayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CloseDayPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_CloseDayPayment_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q29="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q29:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchDisconnectionStatusByDiscNo_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchDisconnectionStatusByDiscNo_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchDisconnectionStatusByDiscNo_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchDisconnectionStatusByDiscNo_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchDisconnectionStatusByDiscNo_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchDisconnectionStatusByDiscNo_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q30="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q30:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_CheckExistingInvoiceNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistingInvoiceNo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_CheckExistingInvoiceNo_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_CheckExistingInvoiceNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistingInvoiceNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_CheckExistingInvoiceNo_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q31="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q31:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetServerTime_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerTime" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetServerTime_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetServerTime_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetServerTime_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q32="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q32:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetLastDisconnect_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastDisconnect" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetLastDisconnect_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetLastDisconnect_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastDisconnectResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetLastDisconnect_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q33="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q33:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchPaymentNonReceipt_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPaymentNonReceipt" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchPaymentNonReceipt_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchPaymentNonReceipt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPaymentNonReceiptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SearchPaymentNonReceipt_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q34="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q34:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_CreateReceiptService_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateReceiptService" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_CreateReceiptService_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_CreateReceiptService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateReceiptServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_CreateReceiptService_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q35="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q35:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetCaAndBpOtherBranch_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCaAndBpOtherBranch" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetCaAndBpOtherBranch_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetCaAndBpOtherBranch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCaAndBpOtherBranchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetCaAndBpOtherBranch_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q36="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q36:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SaveCaAndBpOtherBranch_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveCaAndBpOtherBranch" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SaveCaAndBpOtherBranch_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SaveCaAndBpOtherBranch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveCaAndBpOtherBranchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SaveCaAndBpOtherBranch_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q37="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q37:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetPaidGAmount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPaidGAmount" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetPaidGAmount_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetPaidGAmount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPaidGAmountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetPaidGAmount_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q38="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q38:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetInActiveBillBook_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInActiveBillBook" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetInActiveBillBook_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetInActiveBillBook_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInActiveBillBookResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetInActiveBillBook_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q39="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q39:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetDuplicateExtReceipt_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDuplicateExtReceipt" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetDuplicateExtReceipt_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetDuplicateExtReceipt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDuplicateExtReceiptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetDuplicateExtReceipt_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q40="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q40:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_ValidatePaymentActive_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidatePaymentActive" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_ValidatePaymentActive_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_ValidatePaymentActive_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidatePaymentActiveResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_ValidatePaymentActive_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q41="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q41:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetActivePayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetActivePayment" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetActivePayment_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetActivePayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetActivePaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_GetActivePayment_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q42="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q42:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SaveActivePayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveActivePayment" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SaveActivePayment_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SaveActivePayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveActivePaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_SaveActivePayment_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q43="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q43:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_OfflineLog_InputMessage">
+    <wsdl:part name="parameters" element="tns:OfflineLog" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_OfflineLog_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_OfflineLog_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OfflineLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillingWCFService_OfflineLog_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q44="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q44:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="IBillingWCFService">
+    <wsdl:operation name="CheckWorkStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/CheckWorkStatus" message="tns:IBillingWCFService_CheckWorkStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/CheckWorkStatusResponse" message="tns:IBillingWCFService_CheckWorkStatus_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/CheckWorkStatusBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_CheckWorkStatus_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMoneyInTray">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/GetMoneyInTray" message="tns:IBillingWCFService_GetMoneyInTray_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/GetMoneyInTrayResponse" message="tns:IBillingWCFService_GetMoneyInTray_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/GetMoneyInTrayBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_GetMoneyInTray_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRepayLastReceiptData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/GetRepayLastReceiptData" message="tns:IBillingWCFService_GetRepayLastReceiptData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/GetRepayLastReceiptDataResponse" message="tns:IBillingWCFService_GetRepayLastReceiptData_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/GetRepayLastReceiptDataBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_GetRepayLastReceiptData_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveOneTouchLog">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SaveOneTouchLog" message="tns:IBillingWCFService_SaveOneTouchLog_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SaveOneTouchLogResponse" message="tns:IBillingWCFService_SaveOneTouchLog_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SaveOneTouchLogBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SaveOneTouchLog_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceFromOneTouch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceFromOneTouch" message="tns:IBillingWCFService_SearchInvoiceFromOneTouch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceFromOneTouchResponse" message="tns:IBillingWCFService_SearchInvoiceFromOneTouch_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceFromOneTouchBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SearchInvoiceFromOneTouch_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceFromOneTouch_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceFromOneTouch_Compress" message="tns:IBillingWCFService_SearchInvoiceFromOneTouch_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceFromOneTouch_CompressResponse" message="tns:IBillingWCFService_SearchInvoiceFromOneTouch_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceFromOneTouch_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SearchInvoiceFromOneTouch_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOfflinePayment_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/GetOfflinePayment_Compress" message="tns:IBillingWCFService_GetOfflinePayment_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/GetOfflinePayment_CompressResponse" message="tns:IBillingWCFService_GetOfflinePayment_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/GetOfflinePayment_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_GetOfflinePayment_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOfflinePayment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/UpdateOfflinePayment" message="tns:IBillingWCFService_UpdateOfflinePayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/UpdateOfflinePaymentResponse" message="tns:IBillingWCFService_UpdateOfflinePayment_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/UpdateOfflinePaymentBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_UpdateOfflinePayment_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceByCustomerId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceByCustomerId" message="tns:IBillingWCFService_SearchInvoiceByCustomerId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceByCustomerIdResponse" message="tns:IBillingWCFService_SearchInvoiceByCustomerId_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceByCustomerIdBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SearchInvoiceByCustomerId_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceByCustomerId_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceByCustomerId_Compress" message="tns:IBillingWCFService_SearchInvoiceByCustomerId_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceByCustomerId_CompressResponse" message="tns:IBillingWCFService_SearchInvoiceByCustomerId_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceByCustomerId_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SearchInvoiceByCustomerId_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceFromSAP_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceFromSAP_Compress" message="tns:IBillingWCFService_SearchInvoiceFromSAP_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceFromSAP_CompressResponse" message="tns:IBillingWCFService_SearchInvoiceFromSAP_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceFromSAP_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SearchInvoiceFromSAP_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchOriginalInvoiceByInstallmentItemCaDoc_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SearchOriginalInvoiceByInstallmentItemCaDoc_Compress" message="tns:IBillingWCFService_SearchOriginalInvoiceByInstallmentItemCaDoc_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SearchOriginalInvoiceByInstallmentItemCaDoc_CompressResponse" message="tns:IBillingWCFService_SearchOriginalInvoiceByInstallmentItemCaDoc_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SearchOriginalInvoiceByInstallmentItemCaDoc_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SearchOriginalInvoiceByInstallmentItemCaDoc_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchInstallmentInvoice_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInstallmentInvoice_Compress" message="tns:IBillingWCFService_SearchInstallmentInvoice_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInstallmentInvoice_CompressResponse" message="tns:IBillingWCFService_SearchInstallmentInvoice_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInstallmentInvoice_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SearchInstallmentInvoice_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceByGroupInvoiceNo_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceByGroupInvoiceNo_Compress" message="tns:IBillingWCFService_SearchInvoiceByGroupInvoiceNo_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceByGroupInvoiceNo_CompressResponse" message="tns:IBillingWCFService_SearchInvoiceByGroupInvoiceNo_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceByGroupInvoiceNo_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SearchInvoiceByGroupInvoiceNo_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceItemByGroupInvoiceNo_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceItemByGroupInvoiceNo_Compress" message="tns:IBillingWCFService_SearchInvoiceItemByGroupInvoiceNo_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceItemByGroupInvoiceNo_CompressResponse" message="tns:IBillingWCFService_SearchInvoiceItemByGroupInvoiceNo_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SearchInvoiceItemByGroupInvoiceNo_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SearchInvoiceItemByGroupInvoiceNo_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PayInvoice_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/PayInvoice_Compress" message="tns:IBillingWCFService_PayInvoice_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/PayInvoice_CompressResponse" message="tns:IBillingWCFService_PayInvoice_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/PayInvoice_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_PayInvoice_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PayInvoice">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/PayInvoice" message="tns:IBillingWCFService_PayInvoice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/PayInvoiceResponse" message="tns:IBillingWCFService_PayInvoice_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/PayInvoiceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_PayInvoice_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchBillByCustomerDetail_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SearchBillByCustomerDetail_Compress" message="tns:IBillingWCFService_SearchBillByCustomerDetail_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SearchBillByCustomerDetail_CompressResponse" message="tns:IBillingWCFService_SearchBillByCustomerDetail_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SearchBillByCustomerDetail_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SearchBillByCustomerDetail_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchBillByBillBookId_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SearchBillByBillBookId_Compress" message="tns:IBillingWCFService_SearchBillByBillBookId_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SearchBillByBillBookId_CompressResponse" message="tns:IBillingWCFService_SearchBillByBillBookId_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SearchBillByBillBookId_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SearchBillByBillBookId_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchBillByAgent_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SearchBillByAgent_Compress" message="tns:IBillingWCFService_SearchBillByAgent_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SearchBillByAgent_CompressResponse" message="tns:IBillingWCFService_SearchBillByAgent_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SearchBillByAgent_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SearchBillByAgent_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupInvoiceItem_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/GetGroupInvoiceItem_Compress" message="tns:IBillingWCFService_GetGroupInvoiceItem_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/GetGroupInvoiceItem_CompressResponse" message="tns:IBillingWCFService_GetGroupInvoiceItem_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/GetGroupInvoiceItem_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_GetGroupInvoiceItem_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBranchIdByCaId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/GetBranchIdByCaId" message="tns:IBillingWCFService_GetBranchIdByCaId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/GetBranchIdByCaIdResponse" message="tns:IBillingWCFService_GetBranchIdByCaId_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/GetBranchIdByCaIdBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_GetBranchIdByCaId_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerDetailOnPaymentHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/GetCustomerDetailOnPaymentHistory" message="tns:IBillingWCFService_GetCustomerDetailOnPaymentHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/GetCustomerDetailOnPaymentHistoryResponse" message="tns:IBillingWCFService_GetCustomerDetailOnPaymentHistory_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/GetCustomerDetailOnPaymentHistoryBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_GetCustomerDetailOnPaymentHistory_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPaymentHistory_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/GetPaymentHistory_Compress" message="tns:IBillingWCFService_GetPaymentHistory_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/GetPaymentHistory_CompressResponse" message="tns:IBillingWCFService_GetPaymentHistory_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/GetPaymentHistory_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_GetPaymentHistory_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchBillBookByDetail_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SearchBillBookByDetail_Compress" message="tns:IBillingWCFService_SearchBillBookByDetail_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SearchBillBookByDetail_CompressResponse" message="tns:IBillingWCFService_SearchBillBookByDetail_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SearchBillBookByDetail_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SearchBillBookByDetail_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillBookDetail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/GetBillBookDetail" message="tns:IBillingWCFService_GetBillBookDetail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/GetBillBookDetailResponse" message="tns:IBillingWCFService_GetBillBookDetail_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/GetBillBookDetailBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_GetBillBookDetail_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchAdvancePaymentHistory_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SearchAdvancePaymentHistory_Compress" message="tns:IBillingWCFService_SearchAdvancePaymentHistory_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SearchAdvancePaymentHistory_CompressResponse" message="tns:IBillingWCFService_SearchAdvancePaymentHistory_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SearchAdvancePaymentHistory_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SearchAdvancePaymentHistory_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchAGPayment_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SearchAGPayment_Compress" message="tns:IBillingWCFService_SearchAGPayment_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SearchAGPayment_CompressResponse" message="tns:IBillingWCFService_SearchAGPayment_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SearchAGPayment_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SearchAGPayment_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseDayPayment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/CloseDayPayment" message="tns:IBillingWCFService_CloseDayPayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/CloseDayPaymentResponse" message="tns:IBillingWCFService_CloseDayPayment_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/CloseDayPaymentBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_CloseDayPayment_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchDisconnectionStatusByDiscNo_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SearchDisconnectionStatusByDiscNo_Compress" message="tns:IBillingWCFService_SearchDisconnectionStatusByDiscNo_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SearchDisconnectionStatusByDiscNo_CompressResponse" message="tns:IBillingWCFService_SearchDisconnectionStatusByDiscNo_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SearchDisconnectionStatusByDiscNo_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SearchDisconnectionStatusByDiscNo_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistingInvoiceNo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/CheckExistingInvoiceNo" message="tns:IBillingWCFService_CheckExistingInvoiceNo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/CheckExistingInvoiceNoResponse" message="tns:IBillingWCFService_CheckExistingInvoiceNo_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/CheckExistingInvoiceNoBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_CheckExistingInvoiceNo_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerTime">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/GetServerTime" message="tns:IBillingWCFService_GetServerTime_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/GetServerTimeResponse" message="tns:IBillingWCFService_GetServerTime_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/GetServerTimeBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_GetServerTime_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastDisconnect">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/GetLastDisconnect" message="tns:IBillingWCFService_GetLastDisconnect_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/GetLastDisconnectResponse" message="tns:IBillingWCFService_GetLastDisconnect_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/GetLastDisconnectBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_GetLastDisconnect_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchPaymentNonReceipt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SearchPaymentNonReceipt" message="tns:IBillingWCFService_SearchPaymentNonReceipt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SearchPaymentNonReceiptResponse" message="tns:IBillingWCFService_SearchPaymentNonReceipt_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SearchPaymentNonReceiptBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SearchPaymentNonReceipt_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateReceiptService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/CreateReceiptService" message="tns:IBillingWCFService_CreateReceiptService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/CreateReceiptServiceResponse" message="tns:IBillingWCFService_CreateReceiptService_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/CreateReceiptServiceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_CreateReceiptService_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCaAndBpOtherBranch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/GetCaAndBpOtherBranch" message="tns:IBillingWCFService_GetCaAndBpOtherBranch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/GetCaAndBpOtherBranchResponse" message="tns:IBillingWCFService_GetCaAndBpOtherBranch_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/GetCaAndBpOtherBranchBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_GetCaAndBpOtherBranch_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveCaAndBpOtherBranch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SaveCaAndBpOtherBranch" message="tns:IBillingWCFService_SaveCaAndBpOtherBranch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SaveCaAndBpOtherBranchResponse" message="tns:IBillingWCFService_SaveCaAndBpOtherBranch_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SaveCaAndBpOtherBranchBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SaveCaAndBpOtherBranch_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPaidGAmount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/GetPaidGAmount" message="tns:IBillingWCFService_GetPaidGAmount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/GetPaidGAmountResponse" message="tns:IBillingWCFService_GetPaidGAmount_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/GetPaidGAmountBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_GetPaidGAmount_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInActiveBillBook">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/GetInActiveBillBook" message="tns:IBillingWCFService_GetInActiveBillBook_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/GetInActiveBillBookResponse" message="tns:IBillingWCFService_GetInActiveBillBook_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/GetInActiveBillBookBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_GetInActiveBillBook_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDuplicateExtReceipt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/GetDuplicateExtReceipt" message="tns:IBillingWCFService_GetDuplicateExtReceipt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/GetDuplicateExtReceiptResponse" message="tns:IBillingWCFService_GetDuplicateExtReceipt_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/GetDuplicateExtReceiptBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_GetDuplicateExtReceipt_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidatePaymentActive">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/ValidatePaymentActive" message="tns:IBillingWCFService_ValidatePaymentActive_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/ValidatePaymentActiveResponse" message="tns:IBillingWCFService_ValidatePaymentActive_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/ValidatePaymentActiveBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_ValidatePaymentActive_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetActivePayment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/GetActivePayment" message="tns:IBillingWCFService_GetActivePayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/GetActivePaymentResponse" message="tns:IBillingWCFService_GetActivePayment_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/GetActivePaymentBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_GetActivePayment_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveActivePayment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/SaveActivePayment" message="tns:IBillingWCFService_SaveActivePayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/SaveActivePaymentResponse" message="tns:IBillingWCFService_SaveActivePayment_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/SaveActivePaymentBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_SaveActivePayment_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OfflineLog">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillingWCFService/OfflineLog" message="tns:IBillingWCFService_OfflineLog_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillingWCFService/OfflineLogResponse" message="tns:IBillingWCFService_OfflineLog_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillingWCFService/OfflineLogBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillingWCFService_OfflineLog_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

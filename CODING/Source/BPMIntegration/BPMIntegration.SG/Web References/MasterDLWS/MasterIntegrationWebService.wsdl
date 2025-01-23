@@ -1,0 +1,1557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetUpdateNonWorkingDay">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateNonWorkingDayResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateNonWorkingDayResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CompressData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="OriginalSize" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="CompressSize" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Data" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AuthenInfo" type="tns:AuthenInfo" />
+      <s:complexType name="AuthenInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AuthToken" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="GetUpdateAccountClass">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateAccountClassResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateAccountClassResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateContractType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateContractTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateContractTypeResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateMeterSize">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateMeterSizeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateMeterSizeResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdatePaymentMethod">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdatePaymentMethodResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdatePaymentMethodResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateTaxCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateTaxCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateTaxCodeResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateUnitType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateUnitTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateUnitTypeResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBusinessPartnerType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBusinessPartnerTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateBusinessPartnerTypeResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateCalendar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateCalendarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateCalendarResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdatePaymentType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdatePaymentTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdatePaymentTypeResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateInterestKey">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateInterestKeyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateInterestKeyResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateAgencyBillCollectionStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateAgencyBillCollectionStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateAgencyBillCollectionStatusResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateAgencyBillOutStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateAgencyBillOutStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateAgencyBillOutStatusResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateAgencyCommissionRate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateAgencyCommissionRateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateAgencyCommissionRateResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBillBookStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBillBookStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateBillBookStatusResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateAgencyCollectArea">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateAgencyCollectAreaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateAgencyCollectAreaResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateDisconnectionStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateDisconnectionStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateDisconnectionStatusResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateCashierMoneyFlowType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateCashierMoneyFlowTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateCashierMoneyFlowTypeResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateOwnBank">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateOwnBankResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateOwnBankResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBusinessPartner">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBusinessPartnerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateBusinessPartnerResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBranch">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBranchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateBranchResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateMRU">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateMRUResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateMRUResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateMRUPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateMRUPlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateMRUPlanResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateContractAccount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateContractAccountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateContractAccountResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateEmployee">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateEmployeeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateEmployeeResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateAgencyAsset">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateAgencyAssetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateAgencyAssetResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBank">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBankResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateBankResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBankAccount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBankAccountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateBankAccountResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateDebtType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateDebtTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateDebtTypeResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdatePaymentSequence">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdatePaymentSequenceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdatePaymentSequenceResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateOldCaMapping">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateOldCaMappingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateOldCaMappingResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetUpdateNonWorkingDaySoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateNonWorkingDay" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateNonWorkingDaySoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateNonWorkingDayResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateNonWorkingDayAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAccountClassSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateAccountClass" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAccountClassSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateAccountClassResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAccountClassAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateContractTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateContractType" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateContractTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateContractTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateContractTypeAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateMeterSizeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateMeterSize" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateMeterSizeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateMeterSizeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateMeterSizeAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdatePaymentMethodSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdatePaymentMethod" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdatePaymentMethodSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdatePaymentMethodResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdatePaymentMethodAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateTaxCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateTaxCode" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateTaxCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateTaxCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateTaxCodeAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateUnitTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateUnitType" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateUnitTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateUnitTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateUnitTypeAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBusinessPartnerTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateBusinessPartnerType" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBusinessPartnerTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateBusinessPartnerTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBusinessPartnerTypeAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateCalendarSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateCalendar" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateCalendarSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateCalendarResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateCalendarAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdatePaymentTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdatePaymentType" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdatePaymentTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdatePaymentTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdatePaymentTypeAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateInterestKeySoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateInterestKey" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateInterestKeySoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateInterestKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateInterestKeyAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAgencyBillCollectionStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateAgencyBillCollectionStatus" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAgencyBillCollectionStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateAgencyBillCollectionStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAgencyBillCollectionStatusAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAgencyBillOutStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateAgencyBillOutStatus" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAgencyBillOutStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateAgencyBillOutStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAgencyBillOutStatusAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAgencyCommissionRateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateAgencyCommissionRate" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAgencyCommissionRateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateAgencyCommissionRateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAgencyCommissionRateAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBillBookStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateBillBookStatus" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBillBookStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateBillBookStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBillBookStatusAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAgencyCollectAreaSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateAgencyCollectArea" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAgencyCollectAreaSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateAgencyCollectAreaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAgencyCollectAreaAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateDisconnectionStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateDisconnectionStatus" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateDisconnectionStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateDisconnectionStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateDisconnectionStatusAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateCashierMoneyFlowTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateCashierMoneyFlowType" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateCashierMoneyFlowTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateCashierMoneyFlowTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateCashierMoneyFlowTypeAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateOwnBankSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateOwnBank" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateOwnBankSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateOwnBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateOwnBankAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBusinessPartnerSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateBusinessPartner" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBusinessPartnerSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateBusinessPartnerResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBusinessPartnerAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBranchSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateBranch" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBranchSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateBranchResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBranchAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateMRUSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateMRU" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateMRUSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateMRUResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateMRUAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateMRUPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateMRUPlan" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateMRUPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateMRUPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateMRUPlanAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateContractAccountSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateContractAccount" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateContractAccountSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateContractAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateContractAccountAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateEmployeeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateEmployee" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateEmployeeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateEmployeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateEmployeeAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAgencyAssetSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateAgencyAsset" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAgencyAssetSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateAgencyAssetResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateAgencyAssetAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBankSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateBank" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBankSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBankAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBankAccountSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateBankAccount" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBankAccountSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateBankAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBankAccountAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateDebtTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateDebtType" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateDebtTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateDebtTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateDebtTypeAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdatePaymentSequenceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdatePaymentSequence" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdatePaymentSequenceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdatePaymentSequenceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdatePaymentSequenceAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateOldCaMappingSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateOldCaMapping" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateOldCaMappingSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateOldCaMappingResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateOldCaMappingAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:portType name="MasterIntegrationWebServiceSoap">
+    <wsdl:operation name="GetUpdateNonWorkingDay">
+      <wsdl:input message="tns:GetUpdateNonWorkingDaySoapIn" />
+      <wsdl:output message="tns:GetUpdateNonWorkingDaySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAccountClass">
+      <wsdl:input message="tns:GetUpdateAccountClassSoapIn" />
+      <wsdl:output message="tns:GetUpdateAccountClassSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateContractType">
+      <wsdl:input message="tns:GetUpdateContractTypeSoapIn" />
+      <wsdl:output message="tns:GetUpdateContractTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateMeterSize">
+      <wsdl:input message="tns:GetUpdateMeterSizeSoapIn" />
+      <wsdl:output message="tns:GetUpdateMeterSizeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdatePaymentMethod">
+      <wsdl:input message="tns:GetUpdatePaymentMethodSoapIn" />
+      <wsdl:output message="tns:GetUpdatePaymentMethodSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateTaxCode">
+      <wsdl:input message="tns:GetUpdateTaxCodeSoapIn" />
+      <wsdl:output message="tns:GetUpdateTaxCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateUnitType">
+      <wsdl:input message="tns:GetUpdateUnitTypeSoapIn" />
+      <wsdl:output message="tns:GetUpdateUnitTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBusinessPartnerType">
+      <wsdl:input message="tns:GetUpdateBusinessPartnerTypeSoapIn" />
+      <wsdl:output message="tns:GetUpdateBusinessPartnerTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateCalendar">
+      <wsdl:input message="tns:GetUpdateCalendarSoapIn" />
+      <wsdl:output message="tns:GetUpdateCalendarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdatePaymentType">
+      <wsdl:input message="tns:GetUpdatePaymentTypeSoapIn" />
+      <wsdl:output message="tns:GetUpdatePaymentTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateInterestKey">
+      <wsdl:input message="tns:GetUpdateInterestKeySoapIn" />
+      <wsdl:output message="tns:GetUpdateInterestKeySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAgencyBillCollectionStatus">
+      <wsdl:input message="tns:GetUpdateAgencyBillCollectionStatusSoapIn" />
+      <wsdl:output message="tns:GetUpdateAgencyBillCollectionStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAgencyBillOutStatus">
+      <wsdl:input message="tns:GetUpdateAgencyBillOutStatusSoapIn" />
+      <wsdl:output message="tns:GetUpdateAgencyBillOutStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAgencyCommissionRate">
+      <wsdl:input message="tns:GetUpdateAgencyCommissionRateSoapIn" />
+      <wsdl:output message="tns:GetUpdateAgencyCommissionRateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBillBookStatus">
+      <wsdl:input message="tns:GetUpdateBillBookStatusSoapIn" />
+      <wsdl:output message="tns:GetUpdateBillBookStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAgencyCollectArea">
+      <wsdl:input message="tns:GetUpdateAgencyCollectAreaSoapIn" />
+      <wsdl:output message="tns:GetUpdateAgencyCollectAreaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateDisconnectionStatus">
+      <wsdl:input message="tns:GetUpdateDisconnectionStatusSoapIn" />
+      <wsdl:output message="tns:GetUpdateDisconnectionStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateCashierMoneyFlowType">
+      <wsdl:input message="tns:GetUpdateCashierMoneyFlowTypeSoapIn" />
+      <wsdl:output message="tns:GetUpdateCashierMoneyFlowTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateOwnBank">
+      <wsdl:input message="tns:GetUpdateOwnBankSoapIn" />
+      <wsdl:output message="tns:GetUpdateOwnBankSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBusinessPartner">
+      <wsdl:input message="tns:GetUpdateBusinessPartnerSoapIn" />
+      <wsdl:output message="tns:GetUpdateBusinessPartnerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBranch">
+      <wsdl:input message="tns:GetUpdateBranchSoapIn" />
+      <wsdl:output message="tns:GetUpdateBranchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateMRU">
+      <wsdl:input message="tns:GetUpdateMRUSoapIn" />
+      <wsdl:output message="tns:GetUpdateMRUSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateMRUPlan">
+      <wsdl:input message="tns:GetUpdateMRUPlanSoapIn" />
+      <wsdl:output message="tns:GetUpdateMRUPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateContractAccount">
+      <wsdl:input message="tns:GetUpdateContractAccountSoapIn" />
+      <wsdl:output message="tns:GetUpdateContractAccountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateEmployee">
+      <wsdl:input message="tns:GetUpdateEmployeeSoapIn" />
+      <wsdl:output message="tns:GetUpdateEmployeeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAgencyAsset">
+      <wsdl:input message="tns:GetUpdateAgencyAssetSoapIn" />
+      <wsdl:output message="tns:GetUpdateAgencyAssetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBank">
+      <wsdl:input message="tns:GetUpdateBankSoapIn" />
+      <wsdl:output message="tns:GetUpdateBankSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBankAccount">
+      <wsdl:input message="tns:GetUpdateBankAccountSoapIn" />
+      <wsdl:output message="tns:GetUpdateBankAccountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateDebtType">
+      <wsdl:input message="tns:GetUpdateDebtTypeSoapIn" />
+      <wsdl:output message="tns:GetUpdateDebtTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdatePaymentSequence">
+      <wsdl:input message="tns:GetUpdatePaymentSequenceSoapIn" />
+      <wsdl:output message="tns:GetUpdatePaymentSequenceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateOldCaMapping">
+      <wsdl:input message="tns:GetUpdateOldCaMappingSoapIn" />
+      <wsdl:output message="tns:GetUpdateOldCaMappingSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MasterIntegrationWebServiceSoap" type="tns:MasterIntegrationWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUpdateNonWorkingDay">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateNonWorkingDay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateNonWorkingDayAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAccountClass">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateAccountClass" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateAccountClassAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateContractType">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateContractType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateContractTypeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateMeterSize">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateMeterSize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateMeterSizeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdatePaymentMethod">
+      <soap:operation soapAction="http://tempuri.org/GetUpdatePaymentMethod" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdatePaymentMethodAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateTaxCode">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateTaxCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateTaxCodeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateUnitType">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateUnitType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateUnitTypeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBusinessPartnerType">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateBusinessPartnerType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateBusinessPartnerTypeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateCalendar">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateCalendar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateCalendarAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdatePaymentType">
+      <soap:operation soapAction="http://tempuri.org/GetUpdatePaymentType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdatePaymentTypeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateInterestKey">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateInterestKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateInterestKeyAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAgencyBillCollectionStatus">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateAgencyBillCollectionStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateAgencyBillCollectionStatusAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAgencyBillOutStatus">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateAgencyBillOutStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateAgencyBillOutStatusAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAgencyCommissionRate">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateAgencyCommissionRate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateAgencyCommissionRateAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBillBookStatus">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateBillBookStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateBillBookStatusAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAgencyCollectArea">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateAgencyCollectArea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateAgencyCollectAreaAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateDisconnectionStatus">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateDisconnectionStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateDisconnectionStatusAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateCashierMoneyFlowType">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateCashierMoneyFlowType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateCashierMoneyFlowTypeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateOwnBank">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateOwnBank" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateOwnBankAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBusinessPartner">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateBusinessPartner" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateBusinessPartnerAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBranch">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateBranch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateBranchAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateMRU">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateMRU" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateMRUAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateMRUPlan">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateMRUPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateMRUPlanAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateContractAccount">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateContractAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateContractAccountAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateEmployee">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateEmployee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateEmployeeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAgencyAsset">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateAgencyAsset" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateAgencyAssetAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBank">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateBank" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateBankAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBankAccount">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateBankAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateBankAccountAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateDebtType">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateDebtType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateDebtTypeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdatePaymentSequence">
+      <soap:operation soapAction="http://tempuri.org/GetUpdatePaymentSequence" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdatePaymentSequenceAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateOldCaMapping">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateOldCaMapping" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateOldCaMappingAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MasterIntegrationWebServiceSoap12" type="tns:MasterIntegrationWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUpdateNonWorkingDay">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateNonWorkingDay" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateNonWorkingDayAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAccountClass">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateAccountClass" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateAccountClassAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateContractType">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateContractType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateContractTypeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateMeterSize">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateMeterSize" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateMeterSizeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdatePaymentMethod">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdatePaymentMethod" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdatePaymentMethodAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateTaxCode">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateTaxCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateTaxCodeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateUnitType">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateUnitType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateUnitTypeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBusinessPartnerType">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateBusinessPartnerType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateBusinessPartnerTypeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateCalendar">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateCalendar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateCalendarAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdatePaymentType">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdatePaymentType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdatePaymentTypeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateInterestKey">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateInterestKey" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateInterestKeyAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAgencyBillCollectionStatus">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateAgencyBillCollectionStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateAgencyBillCollectionStatusAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAgencyBillOutStatus">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateAgencyBillOutStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateAgencyBillOutStatusAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAgencyCommissionRate">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateAgencyCommissionRate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateAgencyCommissionRateAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBillBookStatus">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateBillBookStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateBillBookStatusAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAgencyCollectArea">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateAgencyCollectArea" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateAgencyCollectAreaAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateDisconnectionStatus">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateDisconnectionStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateDisconnectionStatusAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateCashierMoneyFlowType">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateCashierMoneyFlowType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateCashierMoneyFlowTypeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateOwnBank">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateOwnBank" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateOwnBankAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBusinessPartner">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateBusinessPartner" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateBusinessPartnerAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBranch">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateBranch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateBranchAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateMRU">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateMRU" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateMRUAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateMRUPlan">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateMRUPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateMRUPlanAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateContractAccount">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateContractAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateContractAccountAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateEmployee">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateEmployee" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateEmployeeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAgencyAsset">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateAgencyAsset" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateAgencyAssetAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBank">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateBank" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateBankAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBankAccount">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateBankAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateBankAccountAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateDebtType">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateDebtType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateDebtTypeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdatePaymentSequence">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdatePaymentSequence" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdatePaymentSequenceAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateOldCaMapping">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateOldCaMapping" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateOldCaMappingAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MasterIntegrationWebService">
+    <wsdl:port name="MasterIntegrationWebServiceSoap" binding="tns:MasterIntegrationWebServiceSoap">
+      <soap:address location="http://localhost/BPMIntegrationDownloadedService/MasterIntegrationWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MasterIntegrationWebServiceSoap12" binding="tns:MasterIntegrationWebServiceSoap12">
+      <soap12:address location="http://localhost/BPMIntegrationDownloadedService/MasterIntegrationWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

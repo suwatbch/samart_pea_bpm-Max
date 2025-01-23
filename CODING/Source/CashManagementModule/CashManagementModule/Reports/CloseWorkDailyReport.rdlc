@@ -1,0 +1,1811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <rd:DataSourceID>c452c5db-a4c8-47f2-9912-6063c6dda58c</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>29.7cm</InteractiveHeight>
+  <ReportParameters>
+    <ReportParameter Name="parBranchName">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Report_Parameter_0</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="parCloseWorkDate">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Report_Parameter_1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="parCondition">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Report_Parameter_2</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>21cm</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>0.5cm</RightMargin>
+  <LeftMargin>0.5cm</LeftMargin>
+  <PageHeader>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+    <ReportItems>
+      <Textbox Name="textbox7">
+        <Top>0.79365cm</Top>
+        <Width>3.80952cm</Width>
+        <Style>
+          <FontFamily>Cordia New</FontFamily>
+          <FontSize>12pt</FontSize>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>4</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.31746cm</Left>
+        <Height>0.25in</Height>
+        <Value>="วันที่พิมพ์ " &amp; Now.ToString("dd/MM/yyyy HH:mm", new System.Globalization.CultureInfo("th-TH"))</Value>
+      </Textbox>
+      <Textbox Name="textbox17">
+        <Top>0.83175cm</Top>
+        <Width>1.625in</Width>
+        <Style>
+          <FontFamily>Cordia New</FontFamily>
+          <FontSize>12pt</FontSize>
+          <TextAlign>Right</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>3</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>15.2381cm</Left>
+        <Height>0.22in</Height>
+        <Value>="หน้า " &amp; Globals!PageNumber &amp; "/" &amp; Globals!TotalPages</Value>
+      </Textbox>
+      <Textbox Name="textbox19">
+        <Top>0.83175cm</Top>
+        <Width>11.11111cm</Width>
+        <Style>
+          <FontFamily>Cordia New</FontFamily>
+          <FontSize>12pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>2</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>4.12698cm</Left>
+        <Height>0.22in</Height>
+        <Value>="รายงานสรุปรายการรับ – จ่ายเงิน ประจำวันที่  "&amp; Code.ToDate(Parameters!parCloseWorkDate.Value)</Value>
+      </Textbox>
+      <Textbox Name="textbox13">
+        <Top>0.27619cm</Top>
+        <Width>6.375in</Width>
+        <Style>
+          <FontFamily>Cordia New</FontFamily>
+          <FontSize>12pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>1pt</PaddingLeft>
+          <PaddingRight>1pt</PaddingRight>
+          <PaddingTop>1pt</PaddingTop>
+          <PaddingBottom>1pt</PaddingBottom>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.90476cm</Left>
+        <Height>0.22in</Height>
+        <Value>=Parameters!parBranchName.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox40">
+        <Top>0.27619cm</Top>
+        <Width>1.26984cm</Width>
+        <Style>
+          <FontFamily>Cordia New</FontFamily>
+          <FontSize>12pt</FontSize>
+          <TextAlign>Right</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>18.09524cm</Left>
+        <Height>0.25in</Height>
+        <Value>RC 1.13</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>0.625in</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+  </PageHeader>
+  <BottomMargin>1cm</BottomMargin>
+  <rd:ReportID>bdb68e4f-57e3-4c06-a4f5-5342e1ea67e7</rd:ReportID>
+  <PageWidth>21cm</PageWidth>
+  <DataSets>
+    <DataSet Name="PEA_BPM_CashManagementModule_Interface_BusinessEntities_ReportCloseWorkSummary">
+      <Fields>
+        <Field Name="CashCancelled">
+          <DataField>CashCancelled</DataField>
+          <rd:TypeName>System.Nullable`1[[System.Decimal, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</rd:TypeName>
+        </Field>
+        <Field Name="CashierId">
+          <DataField>CashierId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CashierName">
+          <DataField>CashierName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CashIn">
+          <DataField>CashIn</DataField>
+          <rd:TypeName>System.Nullable`1[[System.Decimal, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</rd:TypeName>
+        </Field>
+        <Field Name="CashNet">
+          <DataField>CashNet</DataField>
+          <rd:TypeName>System.Nullable`1[[System.Decimal, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</rd:TypeName>
+        </Field>
+        <Field Name="CashOut">
+          <DataField>CashOut</DataField>
+          <rd:TypeName>System.Nullable`1[[System.Decimal, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</rd:TypeName>
+        </Field>
+        <Field Name="ChequeCancelled">
+          <DataField>ChequeCancelled</DataField>
+          <rd:TypeName>System.Nullable`1[[System.Decimal, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</rd:TypeName>
+        </Field>
+        <Field Name="ChequeIn">
+          <DataField>ChequeIn</DataField>
+          <rd:TypeName>System.Nullable`1[[System.Decimal, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</rd:TypeName>
+        </Field>
+        <Field Name="ChequeNet">
+          <DataField>ChequeNet</DataField>
+          <rd:TypeName>System.Nullable`1[[System.Decimal, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</rd:TypeName>
+        </Field>
+        <Field Name="ChequeOut">
+          <DataField>ChequeOut</DataField>
+          <rd:TypeName>System.Nullable`1[[System.Decimal, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</rd:TypeName>
+        </Field>
+        <Field Name="CloseWorkDate">
+          <DataField>CloseWorkDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CloseWorkDt">
+          <DataField>CloseWorkDt</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="Description">
+          <DataField>Description</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FlowId">
+          <DataField>FlowId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FlowType">
+          <DataField>FlowType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="WorkId">
+          <DataField>WorkId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DummyDataSource</DataSourceName>
+        <CommandText />
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>PEA.BPM.CashManagementModule.Interface.BusinessEntities</rd:DataSetName>
+        <rd:TableName>ReportCloseWorkSummary</rd:TableName>
+        <rd:ObjectDataSourceType>PEA.BPM.CashManagementModule.Interface.BusinessEntities.ReportCloseWorkSummary, CashManagementModule.Interface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Code>Dim _aNormal As Integer = 0
+Dim _aModify As Integer = 0
+Dim _bNormal As Integer = 0
+Dim _bModify As Integer = 0
+Dim _gNormal As Integer = 0
+Dim _gModify As Integer = 0
+Dim _totBill As Integer = 0
+Dim _tmpPrintType As String = ""
+
+Public Property TmpPrintType() As String
+Get
+  Return _tmpPrintType
+End Get
+
+Set
+ _tmpPrintType = value
+End Set
+End Property
+
+Public Property ANormal () As Integer
+  Get
+    Return _aNormal 
+  End Get
+
+  Set
+    _aNormal  = value
+  End Set
+End Property
+
+Public Property AModify () As Integer
+  Get
+    Return _aModify 
+  End Get
+
+  Set
+    _aModify  = value
+  End Set
+End Property
+
+Public Property BNormal () As Integer
+  Get
+    Return _bNormal 
+  End Get
+
+  Set
+    _bNormal  = value
+  End Set
+End Property
+
+Public Property BModify () As Integer
+  Get
+    Return _bModify 
+  End Get
+
+  Set
+    _bModify  = value
+  End Set
+End Property
+
+Public Property GNormal () As Integer
+  Get
+    Return _gNormal 
+  End Get
+
+  Set
+    _gNormal  = value
+  End Set
+End Property
+
+Public Property GModify () As Integer
+  Get
+    Return _gModify 
+  End Get
+
+  Set
+    _gModify  = value
+  End Set
+End Property
+
+Public Property TotBill () As Integer
+  Get
+    Return _totBill 
+  End Get
+
+  Set
+    _totBill  = value
+  End Set
+End Property
+
+Public Function resetParam
+  ANormal = 0	
+  AModify = 0
+  BNormal = 0	
+  BModify = 0
+  GNormal = 0	
+  GModify = 0
+  TotBill = 0
+End Function
+
+Public Function setANormal(ByVal v As Integer) As Integer
+  ANormal = v
+  return ANormal
+End Function
+
+Public Function setAModify(ByVal v As Integer) As Integer
+  AModify = v
+  return AModify
+End Function
+
+Public Function setBNormal(ByVal v As Integer) As Integer
+  BNormal = v
+  return BNormal
+End Function
+
+Public Function setBModify(ByVal v As Integer) As Integer
+  BModify = v
+  return BModify
+End Function
+
+Public Function setGNormal(ByVal v As Integer) As Integer
+  GNormal = v
+  return GNormal
+End Function
+
+Public Function setGModify(ByVal v As Integer) As Integer
+  GModify = v
+  return GModify
+End Function
+
+Public Function addTotBill(ByVal v As Integer) As Integer
+  TotBill = TotBill+v
+  return TotBill
+End Function
+
+Public Function PadZeroLeft(ByVal s As String) As String
+  Return s.PadLeft(8, "0")
+End Function
+
+Public Function SetPrintType(ByVal s As String) As String
+ TmpPrintType = s
+ return TmpPrintType
+End Function
+
+Public Function GetPrintType() As String
+return _tmpPrintType
+End Function
+
+Public Function SelectHeaderName(ByVal s As String) As String
+Dim name As String
+     Select Case s
+     Case 0
+        name = "(หนังสือแจ้งค่าไฟฟ้า)"
+     Case 1
+        name = "(ใบแจ้งหนี้สีฟ้า)"
+     Case 2
+        name = "(ใบแจ้งหนี้สีเขียว)"     
+     Case Else
+        name = ""     
+     End Select
+Return name
+End Function
+
+Public Function ToMonthName(ByVal m As Integer) As String
+Dim month As String
+     Select Case m
+     Case 1
+        month = "มกราคม"
+     Case 2
+        month = "กุมภาพันธ์"
+     Case 3
+        month = "มีนาคม"
+     Case 4
+        month = "เมษายน"
+     Case 5
+        month = "พฤษภาคม"
+     Case 6
+        month = "มิถุนายน"
+     Case 7
+        month = "กรกฎาคม"
+     Case 8
+        month = "สิงหาคม"
+     Case 9
+        month = "กันยายน"
+     Case 10
+        month = "ตุลาคม"
+     Case 11
+        month = "พฤศจิกายน"
+     Case 12
+        month = "ธันวาคม"
+     Case Else
+        month = ""     
+     End Select
+Return month
+End Function
+
+Public Function ToDate(ByVal s As String) As String
+  IF (MID(s,1,1) = 0)
+    Return MID(s,2,1) &amp;" "&amp; ToMonthName(MID(s,3,2)) &amp;" "&amp; MID(s,5,4)
+  ELSE
+    Return MID(s,1,2) &amp;" "&amp; ToMonthName(MID(s,3,2)) &amp;" "&amp; MID(s,5,4)
+  END IF
+End Function
+
+</Code>
+  <Width>19.68254cm</Width>
+  <Body>
+    <ReportItems>
+      <Table Name="table1">
+        <ZIndex>10</ZIndex>
+        <DataSetName>PEA_BPM_CashManagementModule_Interface_BusinessEntities_ReportCloseWorkSummary</DataSetName>
+        <TableGroups>
+          <TableGroup>
+            <Grouping Name="table1_Group1">
+              <GroupExpressions>
+                <GroupExpression>=Fields!CashierId.Value</GroupExpression>
+              </GroupExpressions>
+            </Grouping>
+            <Header>
+              <TableRows>
+                <TableRow>
+                  <TableCells>
+                    <TableCell>
+                      <ColSpan>3</ColSpan>
+                      <ReportItems>
+                        <Textbox Name="CashierName">
+                          <rd:DefaultName>CashierName</rd:DefaultName>
+                          <Style>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                          </Style>
+                          <ZIndex>54</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>="รหัสพนักงาน " &amp; Fields!CashierId.Value &amp; " - " &amp; Fields!CashierName.Value</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox37">
+                          <rd:DefaultName>textbox37</rd:DefaultName>
+                          <Style>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                          <ZIndex>53</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox84">
+                          <Style>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                          <ZIndex>52</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox38">
+                          <Style>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                          <ZIndex>51</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                  </TableCells>
+                  <Height>0.2in</Height>
+                </TableRow>
+                <TableRow>
+                  <TableCells>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox5">
+                          <Style>
+                            <BorderColor>
+                              <Left>Black</Left>
+                              <Right>Black</Right>
+                              <Top>Black</Top>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Left>Solid</Left>
+                              <Right>Solid</Right>
+                              <Top>Solid</Top>
+                            </BorderStyle>
+                            <BorderWidth>
+                              <Left>1pt</Left>
+                              <Right>1pt</Right>
+                              <Top>1pt</Top>
+                            </BorderWidth>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                          <ZIndex>50</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox6">
+                          <Style>
+                            <BorderColor>
+                              <Top>Black</Top>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Top>Solid</Top>
+                            </BorderStyle>
+                            <BorderWidth>
+                              <Top>1pt</Top>
+                            </BorderWidth>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                          <ZIndex>49</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ColSpan>2</ColSpan>
+                      <ReportItems>
+                        <Textbox Name="textbox8">
+                          <Style>
+                            <BorderColor>
+                              <Left>Black</Left>
+                              <Top>Black</Top>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                              <Left>Solid</Left>
+                              <Top>Solid</Top>
+                            </BorderStyle>
+                            <BorderWidth>
+                              <Left>1pt</Left>
+                              <Top>1pt</Top>
+                            </BorderWidth>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                          <ZIndex>48</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>รับ</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ColSpan>2</ColSpan>
+                      <ReportItems>
+                        <Textbox Name="textbox9">
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                          <ZIndex>47</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>จ่าย</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                  </TableCells>
+                  <Height>0.2in</Height>
+                </TableRow>
+                <TableRow>
+                  <TableCells>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox18">
+                          <Style>
+                            <BorderStyle>
+                              <Left>Solid</Left>
+                              <Right>Solid</Right>
+                              <Bottom>Solid</Bottom>
+                            </BorderStyle>
+                            <BorderWidth>
+                              <Left>1pt</Left>
+                              <Right>1pt</Right>
+                            </BorderWidth>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                          <ZIndex>46</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>ลำดับที่</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox20">
+                          <Style>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                            </BorderStyle>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                          <ZIndex>45</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>ชื่อรายการ</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox24">
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                          <ZIndex>44</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>เงินสด</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox25">
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                          <ZIndex>43</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>เช็ค</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox26">
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                          <ZIndex>42</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>เงินสด</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox28">
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                          <ZIndex>41</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>เช็ค</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                  </TableCells>
+                  <Height>0.2in</Height>
+                </TableRow>
+              </TableRows>
+              <RepeatOnNewPage>true</RepeatOnNewPage>
+            </Header>
+            <Footer>
+              <TableRows>
+                <TableRow>
+                  <TableCells>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox45">
+                          <rd:DefaultName>textbox45</rd:DefaultName>
+                          <Style>
+                            <BorderColor>
+                              <Top>Black</Top>
+                              <Bottom>Black</Bottom>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Top>Solid</Top>
+                              <Bottom>Solid</Bottom>
+                            </BorderStyle>
+                            <BorderWidth>
+                              <Top>1pt</Top>
+                              <Bottom>1pt</Bottom>
+                            </BorderWidth>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                          </Style>
+                          <ZIndex>11</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox46">
+                          <rd:DefaultName>textbox46</rd:DefaultName>
+                          <Style>
+                            <BorderColor>
+                              <Top>Black</Top>
+                              <Bottom>Black</Bottom>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Top>Solid</Top>
+                              <Bottom>Solid</Bottom>
+                            </BorderStyle>
+                            <BorderWidth>
+                              <Top>1pt</Top>
+                              <Bottom>1pt</Bottom>
+                            </BorderWidth>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                          </Style>
+                          <ZIndex>10</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>รวมรายการ</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox47">
+                          <rd:DefaultName>textbox47</rd:DefaultName>
+                          <Style>
+                            <BorderColor>
+                              <Top>Black</Top>
+                              <Bottom>Black</Bottom>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Top>Solid</Top>
+                              <Bottom>Solid</Bottom>
+                            </BorderStyle>
+                            <BorderWidth>
+                              <Top>1pt</Top>
+                              <Bottom>1pt</Bottom>
+                            </BorderWidth>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                          <ZIndex>9</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>=String.Format("{0:#,##0.00}", SUM(Fields!CashIn.Value))</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox48">
+                          <rd:DefaultName>textbox48</rd:DefaultName>
+                          <Style>
+                            <BorderColor>
+                              <Top>Black</Top>
+                              <Bottom>Black</Bottom>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Top>Solid</Top>
+                              <Bottom>Solid</Bottom>
+                            </BorderStyle>
+                            <BorderWidth>
+                              <Top>1pt</Top>
+                              <Bottom>1pt</Bottom>
+                            </BorderWidth>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                          <ZIndex>8</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>=String.Format("{0:#,##0.00}", SUM(Fields!ChequeIn.Value))</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox49">
+                          <rd:DefaultName>textbox49</rd:DefaultName>
+                          <Style>
+                            <BorderColor>
+                              <Top>Black</Top>
+                              <Bottom>Black</Bottom>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Top>Solid</Top>
+                              <Bottom>Solid</Bottom>
+                            </BorderStyle>
+                            <BorderWidth>
+                              <Top>1pt</Top>
+                              <Bottom>1pt</Bottom>
+                            </BorderWidth>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                          <ZIndex>7</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>=String.Format("{0:#,##0.00}", SUM(Fields!CashOut.Value))</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox50">
+                          <rd:DefaultName>textbox50</rd:DefaultName>
+                          <Style>
+                            <BorderColor>
+                              <Top>Black</Top>
+                              <Bottom>Black</Bottom>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Top>Solid</Top>
+                              <Bottom>Solid</Bottom>
+                            </BorderStyle>
+                            <BorderWidth>
+                              <Top>1pt</Top>
+                              <Bottom>1pt</Bottom>
+                            </BorderWidth>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                          <ZIndex>6</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>=String.Format("{0:#,##0.00}", SUM(Fields!ChequeOut.Value))</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                  </TableCells>
+                  <Height>0.2in</Height>
+                </TableRow>
+                <TableRow>
+                  <TableCells>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox61">
+                          <rd:DefaultName>textbox61</rd:DefaultName>
+                          <Style>
+                            <BorderColor>
+                              <Bottom>Black</Bottom>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                            </BorderStyle>
+                            <BorderWidth>
+                              <Bottom>1pt</Bottom>
+                            </BorderWidth>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                          </Style>
+                          <ZIndex>17</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox62">
+                          <rd:DefaultName>textbox62</rd:DefaultName>
+                          <Style>
+                            <BorderColor>
+                              <Bottom>Black</Bottom>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                            </BorderStyle>
+                            <BorderWidth>
+                              <Bottom>1pt</Bottom>
+                            </BorderWidth>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                          </Style>
+                          <ZIndex>16</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>="รวมยอดยกไป         "&amp; String.Format("{0:#,##0.00}" ,(SUM(Fields!CashIn.Value) + SUM(Fields!ChequeIn.Value)) - (SUM(Fields!CashOut.Value)+ SUM(Fields!ChequeOut.Value))) &amp; "   บาท"</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox10">
+                          <rd:DefaultName>textbox10</rd:DefaultName>
+                          <Style>
+                            <BorderColor>
+                              <Bottom>Black</Bottom>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                            </BorderStyle>
+                            <BorderWidth>
+                              <Bottom>1pt</Bottom>
+                            </BorderWidth>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                          <ZIndex>15</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox2">
+                          <rd:DefaultName>textbox2</rd:DefaultName>
+                          <Style>
+                            <BorderColor>
+                              <Bottom>Black</Bottom>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                            </BorderStyle>
+                            <BorderWidth>
+                              <Bottom>1pt</Bottom>
+                            </BorderWidth>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                          <ZIndex>14</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox1">
+                          <rd:DefaultName>textbox1</rd:DefaultName>
+                          <Style>
+                            <BorderColor>
+                              <Bottom>Black</Bottom>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                            </BorderStyle>
+                            <BorderWidth>
+                              <Bottom>1pt</Bottom>
+                            </BorderWidth>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                          <ZIndex>13</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>=String.Format("{0:#,##0.00}" ,SUM(Fields!CashIn.Value) - SUM(Fields!CashOut.Value))</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox54">
+                          <rd:DefaultName>textbox54</rd:DefaultName>
+                          <Style>
+                            <BorderColor>
+                              <Bottom>Black</Bottom>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                            </BorderStyle>
+                            <BorderWidth>
+                              <Bottom>1pt</Bottom>
+                            </BorderWidth>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                          <ZIndex>12</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>= String.Format("{0:#,##0.00}" , SUM(Fields!ChequeIn.Value) - SUM(Fields!ChequeOut.Value))</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                  </TableCells>
+                  <Height>0.2in</Height>
+                </TableRow>
+                <TableRow>
+                  <TableCells>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox58">
+                          <rd:DefaultName>textbox58</rd:DefaultName>
+                          <Style>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                          </Style>
+                          <ZIndex>23</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox59">
+                          <rd:DefaultName>textbox59</rd:DefaultName>
+                          <Style>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                          </Style>
+                          <ZIndex>22</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox60">
+                          <rd:DefaultName>textbox60</rd:DefaultName>
+                          <Style>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                          </Style>
+                          <ZIndex>21</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox67">
+                          <rd:DefaultName>textbox67</rd:DefaultName>
+                          <Style>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                          </Style>
+                          <ZIndex>20</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox68">
+                          <rd:DefaultName>textbox68</rd:DefaultName>
+                          <Style>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                          </Style>
+                          <ZIndex>19</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox69">
+                          <rd:DefaultName>textbox69</rd:DefaultName>
+                          <Style>
+                            <FontFamily>Cordia New</FontFamily>
+                            <FontSize>12pt</FontSize>
+                          </Style>
+                          <ZIndex>18</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                  </TableCells>
+                  <Height>0.375in</Height>
+                </TableRow>
+              </TableRows>
+            </Footer>
+          </TableGroup>
+        </TableGroups>
+        <Width>7.48393in</Width>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox36">
+                      <rd:DefaultName>textbox36</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <TextAlign>Center</TextAlign>
+                      </Style>
+                      <ZIndex>5</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=RowNumber("table1_Group1")</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Description">
+                      <rd:DefaultName>Description</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                      </Style>
+                      <ZIndex>4</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>="    " &amp; Fields!Description.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="CashIn">
+                      <rd:DefaultName>CashIn</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                      </Style>
+                      <ZIndex>3</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=String.Format("{0:#,##0.00}",Fields!CashIn.Value)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="ChequeIn">
+                      <rd:DefaultName>ChequeIn</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                      </Style>
+                      <ZIndex>2</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=String.Format("{0:#,##0.00}",Fields!ChequeIn.Value)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="CashOut">
+                      <rd:DefaultName>CashOut</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                      </Style>
+                      <ZIndex>1</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=String.Format("{0:#,##0.00}",Fields!CashOut.Value)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="ChequeOut">
+                      <rd:DefaultName>ChequeOut</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=String.Format("{0:#,##0.00}",Fields!ChequeOut.Value)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.2in</Height>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <Style>
+          <FontFamily>Cordia New</FontFamily>
+        </Style>
+        <TableColumns>
+          <TableColumn>
+            <Width>0.50893in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>3.375in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.9in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.9in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.9in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.9in</Width>
+          </TableColumn>
+        </TableColumns>
+        <Height>5.78306cm</Height>
+        <Footer>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox34">
+                      <rd:DefaultName>textbox34</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Top>Black</Top>
+                          <Bottom>Black</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Top>Solid</Top>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <BorderWidth>
+                          <Top>1pt</Top>
+                          <Bottom>1pt</Bottom>
+                        </BorderWidth>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                      </Style>
+                      <ZIndex>29</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox35">
+                      <rd:DefaultName>textbox35</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Top>Black</Top>
+                          <Bottom>Black</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Top>Solid</Top>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <BorderWidth>
+                          <Top>1pt</Top>
+                          <Bottom>1pt</Bottom>
+                        </BorderWidth>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                      </Style>
+                      <ZIndex>28</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>รวมทุกแคชเชียร์</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox44">
+                      <rd:DefaultName>textbox44</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Top>Black</Top>
+                          <Bottom>Black</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Top>Solid</Top>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <BorderWidth>
+                          <Top>1pt</Top>
+                          <Bottom>1pt</Bottom>
+                        </BorderWidth>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                      </Style>
+                      <ZIndex>27</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=String.Format("{0:#,##0.00}", SUM(Fields!CashIn.Value))</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox51">
+                      <rd:DefaultName>textbox51</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Top>Black</Top>
+                          <Bottom>Black</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Top>Solid</Top>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <BorderWidth>
+                          <Top>1pt</Top>
+                          <Bottom>1pt</Bottom>
+                        </BorderWidth>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                      </Style>
+                      <ZIndex>26</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=String.Format("{0:#,##0.00}", SUM(Fields!ChequeIn.Value))</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox52">
+                      <rd:DefaultName>textbox52</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Top>Black</Top>
+                          <Bottom>Black</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Top>Solid</Top>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <BorderWidth>
+                          <Top>1pt</Top>
+                          <Bottom>1pt</Bottom>
+                        </BorderWidth>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                      </Style>
+                      <ZIndex>25</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=String.Format("{0:#,##0.00}", SUM(Fields!CashOut.Value))</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox53">
+                      <rd:DefaultName>textbox53</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Top>Black</Top>
+                          <Bottom>Black</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Top>Solid</Top>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <BorderWidth>
+                          <Top>1pt</Top>
+                          <Bottom>1pt</Bottom>
+                        </BorderWidth>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                      </Style>
+                      <ZIndex>24</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=String.Format("{0:#,##0.00}", SUM(Fields!ChequeOut.Value))</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.2in</Height>
+            </TableRow>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox16">
+                      <rd:DefaultName>textbox16</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Bottom>Black</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <BorderWidth>
+                          <Bottom>2pt</Bottom>
+                        </BorderWidth>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                      </Style>
+                      <ZIndex>35</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox23">
+                      <rd:DefaultName>textbox23</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Bottom>Black</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <BorderWidth>
+                          <Bottom>2pt</Bottom>
+                        </BorderWidth>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                      </Style>
+                      <ZIndex>34</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>="รวมยอดยกไปทั้งหมด        " &amp; String.Format("{0:#,##0.00}" ,(SUM(Fields!CashIn.Value) + SUM(Fields!ChequeIn.Value)) - (SUM(Fields!CashOut.Value)+ SUM(Fields!ChequeOut.Value))) &amp; "   บาท"</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox85">
+                      <rd:DefaultName>textbox85</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Bottom>Black</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <BorderWidth>
+                          <Bottom>2pt</Bottom>
+                        </BorderWidth>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                      </Style>
+                      <ZIndex>33</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox86">
+                      <rd:DefaultName>textbox86</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Bottom>Black</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <BorderWidth>
+                          <Bottom>2pt</Bottom>
+                        </BorderWidth>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                      </Style>
+                      <ZIndex>32</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox87">
+                      <rd:DefaultName>textbox87</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Bottom>Black</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <BorderWidth>
+                          <Bottom>2pt</Bottom>
+                        </BorderWidth>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                      </Style>
+                      <ZIndex>31</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=String.Format("{0:#,##0.00}" ,SUM(Fields!CashIn.Value) - SUM(Fields!CashOut.Value))</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox39">
+                      <rd:DefaultName>textbox39</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Bottom>Black</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <BorderWidth>
+                          <Bottom>2pt</Bottom>
+                        </BorderWidth>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                      </Style>
+                      <ZIndex>30</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>= String.Format("{0:#,##0.00}" , SUM(Fields!ChequeIn.Value) - SUM(Fields!ChequeOut.Value))</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.2in</Height>
+            </TableRow>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ColSpan>2</ColSpan>
+                  <ReportItems>
+                    <Textbox Name="textbox3">
+                      <rd:DefaultName>textbox3</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <VerticalAlign>Bottom</VerticalAlign>
+                        <PaddingTop>4pt</PaddingTop>
+                      </Style>
+                      <ZIndex>40</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>="หมายเหตุ: ออกตามยอดที่ปิดกะแล้ว     เงื่อนไข: "&amp; Parameters!parCondition.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox11">
+                      <rd:DefaultName>textbox11</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <ZIndex>39</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox32">
+                      <rd:DefaultName>textbox32</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <ZIndex>38</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox33">
+                      <rd:DefaultName>textbox33</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <ZIndex>37</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox119">
+                      <rd:DefaultName>textbox119</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Cordia New</FontFamily>
+                        <FontSize>12pt</FontSize>
+                      </Style>
+                      <ZIndex>36</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.30208in</Height>
+            </TableRow>
+          </TableRows>
+        </Footer>
+        <Left>0.12054in</Left>
+      </Table>
+      <Textbox Name="textbox4">
+        <rd:DefaultName>textbox4</rd:DefaultName>
+        <Top>2.625in</Top>
+        <Width>2.125in</Width>
+        <Style>
+          <FontFamily>Cordia New</FontFamily>
+          <FontSize>12pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>9</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>2.75in</Left>
+        <Height>0.25in</Height>
+        <Value>กรรมการตรวจนับเงินถูกต้อง</Value>
+      </Textbox>
+      <Textbox Name="textbox30">
+        <Top>3.59375in</Top>
+        <Width>2.21875in</Width>
+        <Style>
+          <FontFamily>Cordia New</FontFamily>
+          <FontSize>12pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Middle</VerticalAlign>
+        </Style>
+        <ZIndex>8</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>2.75in</Left>
+        <Height>0.25in</Height>
+        <Value>______/______/______</Value>
+      </Textbox>
+      <Textbox Name="textbox29">
+        <Top>3.60417in</Top>
+        <Width>2.21875in</Width>
+        <Style>
+          <FontFamily>Cordia New</FontFamily>
+          <FontSize>12pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Middle</VerticalAlign>
+        </Style>
+        <ZIndex>7</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.25in</Height>
+        <Value>______/______/______</Value>
+      </Textbox>
+      <Textbox Name="textbox27">
+        <Top>3.39583in</Top>
+        <Width>2.21875in</Width>
+        <Style>
+          <FontFamily>Cordia New</FontFamily>
+          <FontSize>12pt</FontSize>
+          <TextAlign>Center</TextAlign>
+        </Style>
+        <ZIndex>6</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5.375in</Left>
+        <Height>0.20833in</Height>
+        <Value>(                                                             )</Value>
+      </Textbox>
+      <Textbox Name="textbox22">
+        <Top>3.39583in</Top>
+        <Width>2.21875in</Width>
+        <Style>
+          <FontFamily>Cordia New</FontFamily>
+          <FontSize>12pt</FontSize>
+          <TextAlign>Center</TextAlign>
+        </Style>
+        <ZIndex>5</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>2.75in</Left>
+        <Height>0.19792in</Height>
+        <Value>(                                                             )</Value>
+      </Textbox>
+      <Textbox Name="textbox21">
+        <Top>3.39583in</Top>
+        <Width>2.21875in</Width>
+        <Style>
+          <FontFamily>Cordia New</FontFamily>
+          <FontSize>12pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Middle</VerticalAlign>
+        </Style>
+        <ZIndex>4</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.20833in</Height>
+        <Value>(                                                             )</Value>
+      </Textbox>
+      <Textbox Name="textbox15">
+        <Top>3.14583in</Top>
+        <Width>2.21875in</Width>
+        <Style>
+          <FontFamily>Cordia New</FontFamily>
+          <FontSize>12pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>3</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5.375in</Left>
+        <Height>0.25in</Height>
+        <Value>ลงชื่อ _________________________กรรมการ</Value>
+      </Textbox>
+      <Textbox Name="textbox14">
+        <Top>3.14583in</Top>
+        <Width>2.21875in</Width>
+        <Style>
+          <FontFamily>Cordia New</FontFamily>
+          <FontSize>12pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>2</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>2.75in</Left>
+        <Height>0.25in</Height>
+        <Value>ลงชื่อ _________________________กรรมการ</Value>
+      </Textbox>
+      <Textbox Name="textbox12">
+        <Top>3.14583in</Top>
+        <Width>2.21875in</Width>
+        <Style>
+          <FontFamily>Cordia New</FontFamily>
+          <FontSize>12pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.25in</Height>
+        <Value>ลงชื่อ _________________________กรรมการ</Value>
+      </Textbox>
+      <Textbox Name="textbox31">
+        <Top>3.59375in</Top>
+        <Width>2.21875in</Width>
+        <Style>
+          <FontFamily>Cordia New</FontFamily>
+          <FontSize>12pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Middle</VerticalAlign>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>5.375in</Left>
+        <Height>0.25in</Height>
+        <Value>______/______/______</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>4in</Height>
+  </Body>
+  <Language>en-US</Language>
+  <TopMargin>0.5cm</TopMargin>
+  <PageHeight>29.7cm</PageHeight>
+</Report>

@@ -1,0 +1,6 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector\bin\Release\BPMConnector.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector\obj\Release\BPMConnector.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QManagement\BPMConnector\bin\Release\BPMConnector.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QManagement\BPMConnector\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QManagement\BPMConnector\obj\Release\BPMConnector.dll

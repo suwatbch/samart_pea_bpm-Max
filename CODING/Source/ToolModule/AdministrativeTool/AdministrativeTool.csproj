@@ -1,0 +1,516 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC601EA9-3616-407B-BABC-40E32C51D1DF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AdministrativeTool</RootNamespace>
+    <AssemblyName>AdministrativeTool</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <ApplicationIcon>1460_PaintPaletteFINAL.ico</ApplicationIcon>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>3F0E02ED82DF90BD76BB1AF1C3126C7052F6BDAC</ManifestCertificateThumbprint>
+    <ManifestKeyFile>AdministrativeTool.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignManifests>true</SignManifests>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>c:\packages\admintool\clickOnce\v1.1.9\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>true</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://172.30.245.45/AdministrativeTool/</InstallUrl>
+    <TargetCulture>th</TargetCulture>
+    <ProductName>BPM Administrative Tool</ProductName>
+    <PublisherName>Portalnet</PublisherName>
+    <MinimumRequiredVersion>1.1.9.0</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.1.9.0</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <ExcludeDeploymentUrl>true</ExcludeDeploymentUrl>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ctlDiffuseDlgLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\ctlDiffuseDlgLib.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net, Version=1.0.0.280, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CloseAccountStatus\CloseAccountStatusMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CloseAccountStatus\CloseAccountStatusMain.Designer.cs">
+      <DependentUpon>CloseAccountStatusMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\EditType.cs" />
+    <Compile Include="Common\frmProgressDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\frmProgressDialog.Designer.cs">
+      <DependentUpon>frmProgressDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\IProgressDialog.cs" />
+    <Compile Include="Common\ProgressDialog.cs" />
+    <Compile Include="ConnectionSetting\ConnectionSettingMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConnectionSetting\ConnectionSettingMain.Designer.cs">
+      <DependentUpon>ConnectionSettingMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectionSetting\frmConnectionSettingEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConnectionSetting\frmConnectionSettingEdit.Designer.cs">
+      <DependentUpon>frmConnectionSettingEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consolidate\Consolidate.cs" />
+    <Compile Include="Consolidate\ConsolidateMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Consolidate\ConsolidateMain.Designer.cs">
+      <DependentUpon>ConsolidateMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\CommonDS.cs">
+      <DependentUpon>CommonDS.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\CommonDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CommonDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MainUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainUI.Designer.cs">
+      <DependentUpon>MainUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewsBroadcastSender\InputWebServiceDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewsBroadcastSender\InputWebServiceDialog.Designer.cs">
+      <DependentUpon>InputWebServiceDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewsBroadcastSender\OperationMode.cs" />
+    <Compile Include="NewsBroadcastSender\SelectRecieverDialogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewsBroadcastSender\SelectRecieverDialogForm.Designer.cs">
+      <DependentUpon>SelectRecieverDialogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewsBroadcastSender\SenderDialogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewsBroadcastSender\SenderDialogForm.Designer.cs">
+      <DependentUpon>SenderDialogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewsBroadcastSender\SenderUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewsBroadcastSender\SenderUserControl.Designer.cs">
+      <DependentUpon>SenderUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OfflineErrorLog\OfflineErrorLogMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OfflineErrorLog\OfflineErrorLogMain.Designer.cs">
+      <DependentUpon>OfflineErrorLogMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenOfflineFile\OpenOfflineFile.cs" />
+    <Compile Include="OpenOfflineFile\OpenOfflineFileMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OpenOfflineFile\OpenOfflineFileMain.Designer.cs">
+      <DependentUpon>OpenOfflineFileMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutOfShiftList\OutOfShiftMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OutOfShiftList\OutOfShiftMain.Designer.cs">
+      <DependentUpon>OutOfShiftMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PermissionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PermissionDialog.Designer.cs">
+      <DependentUpon>PermissionDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PermissionInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CloseAccountStatus\CloseAccountStatusMain.resx">
+      <DependentUpon>CloseAccountStatusMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\frmProgressDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmProgressDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConnectionSetting\ConnectionSettingMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConnectionSettingMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConnectionSetting\frmConnectionSettingEdit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConnectionSettingEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consolidate\ConsolidateMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConsolidateMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainUI.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewsBroadcastSender\InputWebServiceDialog.resx">
+      <DependentUpon>InputWebServiceDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewsBroadcastSender\SelectRecieverDialogForm.resx">
+      <DependentUpon>SelectRecieverDialogForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewsBroadcastSender\SenderDialogForm.resx">
+      <DependentUpon>SenderDialogForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewsBroadcastSender\SenderUserControl.resx">
+      <DependentUpon>SenderUserControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfflineErrorLog\OfflineErrorLogMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OfflineErrorLogMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenOfflineFile\OpenOfflineFileMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OpenOfflineFileMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutOfShiftList\OutOfShiftMain.resx">
+      <DependentUpon>OutOfShiftMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PermissionDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PermissionDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnclarifyPayment\UnclarifyPaymentView.resx">
+      <DependentUpon>UnclarifyPaymentView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="DataSet\CommonDS.xsc">
+      <DependentUpon>CommonDS.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\CommonDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CommonDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\CommonDS.xss">
+      <DependentUpon>CommonDS.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ConnectionSettingWS\ConnectionSettingWebService.wsdl" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UnclarifyPayment\UnclarifyPaymentView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnclarifyPayment\UnclarifyPaymentView.Designer.cs">
+      <DependentUpon>UnclarifyPaymentView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\CloseAccountStatusWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ConnectionSettingWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ConsolidateWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\OfflineErrorLogWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\OutOfShiftWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\UnclarifyPaymentWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost/AdminToolService/CloseAccountStatus/CloseAccountStatusWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\CloseAccountStatusWS\</RelPath>
+      <UpdateFromURL>http://localhost/AdminToolService/CloseAccountStatus/CloseAccountStatusWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>AdministrativeTool_CloseAccountStatusWS_CloseAccountStatusWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost/AdminToolService/OfflineErrorLog/OfflineErrorLogWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\OfflineErrorLogWS\</RelPath>
+      <UpdateFromURL>http://localhost/AdminToolService/OfflineErrorLog/OfflineErrorLogWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>AdministrativeTool_OfflineErrorLogWS_OfflineErrorLogWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost/AdminToolService/OutOfShift/OutOfShiftWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\OutOfShiftWS\</RelPath>
+      <UpdateFromURL>http://localhost/AdminToolService/OutOfShift/OutOfShiftWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>AdministrativeTool_OutOfShiftWS_OutOfShiftWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost/AdminToolService/UnclarifyPayment/UnclarifyPaymentService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\UnclarifyPaymentWS\</RelPath>
+      <UpdateFromURL>http://localhost/AdminToolService/UnclarifyPayment/UnclarifyPaymentService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>AdministrativeTool_UnclarifyPaymentWS_UnclarifyPaymentService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:49898/ConnectionSetting/ConnectionSettingWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ConnectionSettingWS\</RelPath>
+      <UpdateFromURL>http://localhost:49898/ConnectionSetting/ConnectionSettingWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>AdministrativeTool_ConnectionSettingWS_ConnectionSettingWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:49898/Consolidate/ConsolidateWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ConsolidateWS\</RelPath>
+      <UpdateFromURL>http://localhost:49898/Consolidate/ConsolidateWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>AdministrativeTool_ConsolidateWS_ConsolidateWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Web References\ConnectionSettingWS\ConnectionSettingInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ConnectionSettingWS\ConnectionSettingWebService.disco" />
+    <None Include="Web References\ConnectionSettingWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\ConsolidateWS\ConsolidateWebService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Architecture\CommonUtilities\CommonUtilities.csproj">
+      <Project>{1A6B6E40-2DD5-4CB8-B766-B61AA237701B}</Project>
+      <Name>CommonUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\NewsBroadcast\NewsBroadcast.Interface\NewsBroadcast.Interface.csproj">
+      <Project>{0FA94F8C-91BA-47C5-8C2A-D8FDEB50B46A}</Project>
+      <Name>NewsBroadcast.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\NewsBroadcast\NewsBroadcast.SG\NewsBroadcast.SG.csproj">
+      <Project>{F7307FA4-CEBB-4E3E-AB32-EAA64896D403}</Project>
+      <Name>NewsBroadcast.SG</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PaymentCollectionModule\PaymentCollectionModule.Interface\PaymentCollectionModule.Interface.csproj">
+      <Project>{20245E21-61E9-4B4D-86D2-87A23FDC051F}</Project>
+      <Name>PaymentCollectionModule.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\ConsolidateWS\ConsolidateWebService.disco" />
+    <None Include="Web References\ConsolidateWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AdministrativeTool.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Web References\OfflineErrorLogWS\OfflineErrorLogWebService.disco" />
+    <None Include="Web References\CloseAccountStatusWS\CloseAccountStatusWebService.disco" />
+    <None Include="Web References\CloseAccountStatusWS\CloseAccountStatusWebService.wsdl" />
+    <None Include="Web References\CloseAccountStatusWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\OfflineErrorLogWS\OfflineErrorLogWebService.wsdl" />
+    <None Include="Web References\OfflineErrorLogWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\UnclarifyPaymentWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\UnclarifyPaymentWS\UnclarifyPaymentService.disco" />
+    <None Include="Resources\BreakpointHS.png" />
+    <None Include="Web References\UnclarifyPaymentWS\UnclarifyPaymentService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1460_PaintPaletteFINAL.ico" />
+    <Content Include="Lib\ctlDiffuseDlgLib.dll" />
+    <None Include="Properties\DataSources\PEA.BPM.NewsBroadcast.Interface.BusinessEntities.AreaInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.NewsBroadcast.Interface.BusinessEntities.NewsBroadcastUserInfo.datasource" />
+    <None Include="Web References\OutOfShiftWS\OutOfShiftWebService.disco" />
+    <None Include="Web References\OutOfShiftWS\OutOfShiftWebService.wsdl" />
+    <None Include="Web References\OutOfShiftWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

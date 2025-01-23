@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PEA.BPM.APM2Connector.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="APMConnector_ApmWs_ApmWebService" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://172.30.241.75/ApmServices/apmwebservice.asmx</Value>
+    </Setting>
+    <Setting Name="APMConnector_PosWs_POSWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMGatewayService/POSWebService.asmx</Value>
+    </Setting>
+    <Setting Name="APM2Connector_WebReference_Apm2WebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://cbsbpm00.cbsproj.pea.co.th/Apm2WCFService/Apm2WebService.asmx</Value>
+    </Setting>
+    <Setting Name="APM2Connector_Apm_CBS2_Apm2WebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://bpm.cbs2proj.pea.co.th/APM2WCFService/Apm2WebService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

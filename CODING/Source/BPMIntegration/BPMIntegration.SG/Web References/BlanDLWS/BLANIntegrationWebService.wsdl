@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetUpdatePrintPool">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="modDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdatePrintPoolResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdatePrintPoolResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CompressData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="OriginalSize" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="CompressSize" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Data" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AuthenInfo" type="tns:AuthenInfo" />
+      <s:complexType name="AuthenInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AuthToken" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="GetUpdateGrpPrintPool">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="modDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateGrpPrintPoolResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateGrpPrintPoolResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateGreenReceiptDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="modDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateGreenReceiptDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateGreenReceiptDetailResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateMaxBillSeqNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="modDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateMaxBillSeqNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateMaxBillSeqNoResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBillingDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="modDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBillingDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateBillingDetailResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdatePrintHistory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="modDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdatePrintHistoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdatePrintHistoryResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateDeliveryHistory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="modDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateDeliveryHistoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateDeliveryHistoryResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateApprover">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="modDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateApproverResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateApproverResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateDeliveryPlace">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="modDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateDeliveryPlaceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateDeliveryPlaceResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdatePWBBillStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="modDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdatePWBBillStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdatePWBBillStatusResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBillUpdate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="modDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBillUpdateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateBillUpdateResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBarcodeMRU">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="modDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBarcodeMRUResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateBarcodeMRUResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBillStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="modDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateBillStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateBillStatusResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetUpdatePrintPoolSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdatePrintPool" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdatePrintPoolSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdatePrintPoolResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdatePrintPoolAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateGrpPrintPoolSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateGrpPrintPool" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateGrpPrintPoolSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateGrpPrintPoolResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateGrpPrintPoolAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateGreenReceiptDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateGreenReceiptDetail" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateGreenReceiptDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateGreenReceiptDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateGreenReceiptDetailAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateMaxBillSeqNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateMaxBillSeqNo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateMaxBillSeqNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateMaxBillSeqNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateMaxBillSeqNoAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBillingDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateBillingDetail" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBillingDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateBillingDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBillingDetailAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdatePrintHistorySoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdatePrintHistory" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdatePrintHistorySoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdatePrintHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdatePrintHistoryAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateDeliveryHistorySoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateDeliveryHistory" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateDeliveryHistorySoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateDeliveryHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateDeliveryHistoryAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateApproverSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateApprover" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateApproverSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateApproverResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateApproverAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateDeliveryPlaceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateDeliveryPlace" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateDeliveryPlaceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateDeliveryPlaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateDeliveryPlaceAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdatePWBBillStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdatePWBBillStatus" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdatePWBBillStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdatePWBBillStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdatePWBBillStatusAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBillUpdateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateBillUpdate" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBillUpdateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateBillUpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBillUpdateAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBarcodeMRUSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateBarcodeMRU" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBarcodeMRUSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateBarcodeMRUResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBarcodeMRUAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBillStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateBillStatus" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBillStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateBillStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateBillStatusAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:portType name="BLANIntegrationWebServiceSoap">
+    <wsdl:operation name="GetUpdatePrintPool">
+      <wsdl:input message="tns:GetUpdatePrintPoolSoapIn" />
+      <wsdl:output message="tns:GetUpdatePrintPoolSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateGrpPrintPool">
+      <wsdl:input message="tns:GetUpdateGrpPrintPoolSoapIn" />
+      <wsdl:output message="tns:GetUpdateGrpPrintPoolSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateGreenReceiptDetail">
+      <wsdl:input message="tns:GetUpdateGreenReceiptDetailSoapIn" />
+      <wsdl:output message="tns:GetUpdateGreenReceiptDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateMaxBillSeqNo">
+      <wsdl:input message="tns:GetUpdateMaxBillSeqNoSoapIn" />
+      <wsdl:output message="tns:GetUpdateMaxBillSeqNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBillingDetail">
+      <wsdl:input message="tns:GetUpdateBillingDetailSoapIn" />
+      <wsdl:output message="tns:GetUpdateBillingDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdatePrintHistory">
+      <wsdl:input message="tns:GetUpdatePrintHistorySoapIn" />
+      <wsdl:output message="tns:GetUpdatePrintHistorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateDeliveryHistory">
+      <wsdl:input message="tns:GetUpdateDeliveryHistorySoapIn" />
+      <wsdl:output message="tns:GetUpdateDeliveryHistorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateApprover">
+      <wsdl:input message="tns:GetUpdateApproverSoapIn" />
+      <wsdl:output message="tns:GetUpdateApproverSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateDeliveryPlace">
+      <wsdl:input message="tns:GetUpdateDeliveryPlaceSoapIn" />
+      <wsdl:output message="tns:GetUpdateDeliveryPlaceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdatePWBBillStatus">
+      <wsdl:input message="tns:GetUpdatePWBBillStatusSoapIn" />
+      <wsdl:output message="tns:GetUpdatePWBBillStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBillUpdate">
+      <wsdl:input message="tns:GetUpdateBillUpdateSoapIn" />
+      <wsdl:output message="tns:GetUpdateBillUpdateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBarcodeMRU">
+      <wsdl:input message="tns:GetUpdateBarcodeMRUSoapIn" />
+      <wsdl:output message="tns:GetUpdateBarcodeMRUSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBillStatus">
+      <wsdl:input message="tns:GetUpdateBillStatusSoapIn" />
+      <wsdl:output message="tns:GetUpdateBillStatusSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BLANIntegrationWebServiceSoap" type="tns:BLANIntegrationWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUpdatePrintPool">
+      <soap:operation soapAction="http://tempuri.org/GetUpdatePrintPool" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdatePrintPoolAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateGrpPrintPool">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateGrpPrintPool" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateGrpPrintPoolAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateGreenReceiptDetail">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateGreenReceiptDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateGreenReceiptDetailAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateMaxBillSeqNo">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateMaxBillSeqNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateMaxBillSeqNoAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBillingDetail">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateBillingDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateBillingDetailAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdatePrintHistory">
+      <soap:operation soapAction="http://tempuri.org/GetUpdatePrintHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdatePrintHistoryAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateDeliveryHistory">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateDeliveryHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateDeliveryHistoryAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateApprover">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateApprover" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateApproverAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateDeliveryPlace">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateDeliveryPlace" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateDeliveryPlaceAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdatePWBBillStatus">
+      <soap:operation soapAction="http://tempuri.org/GetUpdatePWBBillStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdatePWBBillStatusAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBillUpdate">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateBillUpdate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateBillUpdateAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBarcodeMRU">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateBarcodeMRU" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateBarcodeMRUAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBillStatus">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateBillStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateBillStatusAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BLANIntegrationWebServiceSoap12" type="tns:BLANIntegrationWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUpdatePrintPool">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdatePrintPool" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdatePrintPoolAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateGrpPrintPool">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateGrpPrintPool" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateGrpPrintPoolAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateGreenReceiptDetail">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateGreenReceiptDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateGreenReceiptDetailAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateMaxBillSeqNo">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateMaxBillSeqNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateMaxBillSeqNoAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBillingDetail">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateBillingDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateBillingDetailAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdatePrintHistory">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdatePrintHistory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdatePrintHistoryAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateDeliveryHistory">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateDeliveryHistory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateDeliveryHistoryAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateApprover">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateApprover" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateApproverAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateDeliveryPlace">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateDeliveryPlace" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateDeliveryPlaceAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdatePWBBillStatus">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdatePWBBillStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdatePWBBillStatusAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBillUpdate">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateBillUpdate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateBillUpdateAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBarcodeMRU">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateBarcodeMRU" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateBarcodeMRUAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateBillStatus">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateBillStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateBillStatusAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BLANIntegrationWebService">
+    <wsdl:port name="BLANIntegrationWebServiceSoap" binding="tns:BLANIntegrationWebServiceSoap">
+      <soap:address location="http://localhost/BPMIntegrationDownloadedService/BLANIntegrationWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BLANIntegrationWebServiceSoap12" binding="tns:BLANIntegrationWebServiceSoap12">
+      <soap12:address location="http://localhost/BPMIntegrationDownloadedService/BLANIntegrationWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

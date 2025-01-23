@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="BillBookCheckInInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BookId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AccountClassId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BookType" type="xs:int" />
+      <xs:element minOccurs="0" name="BookOutType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillAgentId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillAgentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PaidDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ReceiveCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BillPaymentDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ContractType" type="xs:int" />
+      <xs:element minOccurs="0" name="ReturnDueDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="BookPeriod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillBookCheckInDetail" nillable="true" type="tns:ArrayOfBillBookCheckinDetailInfo" />
+      <xs:element minOccurs="0" name="BsId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Note" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModifiedDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ActiveItem" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintPreview" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BillBookCheckInInfo" nillable="true" type="tns:BillBookCheckInInfo" />
+  <xs:complexType name="ArrayOfBillBookCheckinDetailInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BillBookCheckinDetailInfo" nillable="true" type="tns:BillBookCheckinDetailInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBillBookCheckinDetailInfo" nillable="true" type="tns:ArrayOfBillBookCheckinDetailInfo" />
+  <xs:complexType name="BillBookCheckinDetailInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BookId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InvoiceNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Period" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AboId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PmId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InBook" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PaidAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Vat" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AbsId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LastPaidDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PaidType" type="xs:int" />
+      <xs:element minOccurs="0" name="ChequeList" nillable="true" type="tns:ArrayOfChequeInfo" />
+      <xs:element minOccurs="0" name="ModifiedDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsCheckIn" type="xs:boolean" />
+      <xs:element minOccurs="0" name="TotalDebtAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ARActive" type="xs:boolean" />
+      <xs:element minOccurs="0" name="InvSel" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BillBookCheckinDetailInfo" nillable="true" type="tns:BillBookCheckinDetailInfo" />
+  <xs:complexType name="ArrayOfChequeInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ChequeInfo" nillable="true" type="tns:ChequeInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfChequeInfo" nillable="true" type="tns:ArrayOfChequeInfo" />
+  <xs:complexType name="ChequeInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CaId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BookId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Period" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankKey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChequeNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChequeAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ActualAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ChequeAccountNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChequeDt" nillable="true" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ChequeInfo" nillable="true" type="tns:ChequeInfo" />
+</xs:schema>

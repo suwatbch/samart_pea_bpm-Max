@@ -1,0 +1,157 @@
+ALTER PROCEDURE [dbo].[ta_imp_PayFromSAPBulk] @ModifiedBy char(8) = 'BATCH'
+AS
+	DECLARE @TotalRecord As int;	
+	DECLARE @PayNoItemRecord As int;
+	DECLARE @InsertExistingRecord As int;
+	DECLARE @DeleteNoRecord As int;
+	DECLARE @UpdateNoRecord As int;
+	DECLARE @TempIV As char(22);
+
+	DECLARE @PaymentDocNo char(14);
+	DECLARE @CaId char(12);
+	DECLARE @CADoc char(12);
+	DECLARE @DocType char(2);
+	DECLARE @PaymentDt datetime;
+	DECLARE @ARPtId char(22);
+	DECLARE @ARPmId char(22);
+	DECLARE @InvoiceNo char(22);
+	DECLARE @ReceiptId char(16);
+	DECLARE @ExReceiptId char(16);
+	DECLARE @VatAmount money;
+	DECLARE @GAmount money;
+
+	SET NOCOUNT ON
+
+	Set @DeleteNoRecord = 0;
+
+	SELECT --top 50000
+			'ZX' + PaymentDocNo as PaymentDocNo, ReceiptNo, CaDoc, DocType,				
+			CASE WHEN PaymentDt is null Then null ELSE Convert(datetime, PaymentDt, 21) END As PaymentDt,
+			CASE WHEN VatAmount is null Then null ELSE Convert(money, VatAmount) END As VatAmount,
+			CASE WHEN GAmount is null Then null ELSE Convert(money, GAmount) END As GAmount,
+			CancelFlag,				SubString([Action],1,1) As [Action]
+		INTO #PFS_TEMP_0
+		FROM OPENROWSET ( 
+			BULK 'pfsdata.txt',
+			FORMATFILE = 'pfsformat.xml'
+			) AS A
+
+
+	SET @TotalRecord=IsNull(@@ROWCOUNT,0);
+	-- 1 Seconds => Top 100,000 Records
+
+	-- Clear Non Payment Debt Records
+	Delete from #PFS_TEMP_0	Where GAmount<=0;
+
+	---------------------------------------
+	-- Process Insert [ACTION]='1'
+	---------------------------------------
+	
+	Select distinct CaDoc, InvoiceNo into #CaDocTemp from ts.AR;
+	-- 4 Seconds
+	--CREATE INDEX IX_0 on #CaDocTemp (CaDoc); <== No need, it'll be slower
+
+	Select c.InvoiceNo, t.*
+		Into #PFS_TEMP
+		From #PFS_TEMP_0 t LEFT OUTER JOIN #CaDocTemp c
+			On t.CaDoc=c.CaDoc
+	Drop table #PFS_TEMP_0;
+	-- 11 Seconds
+
+	-- Delete no exist invoice payment item
+	Delete from #PFS_TEMP
+		Where InvoiceNo is null;
+	Select @PayNoItemRecord=@@ROWCOUNT;
+	-- 13 Seconds
+
+	SELECT PaymentId as PaymentId
+		INTO #PSAP
+		FROM ts.Payment	WHERE (PaymentId LIKE 'ZX%')
+	CREATE CLUSTERED INDEX IX_1 on #PSAP (PaymentId);
+	-- 17 Seconds
+
+	-- Delete already insert payment item
+	Delete from #PFS_TEMP
+		Where [Action]='1' and PaymentDocNo in
+			(Select PaymentID from #PSAP)
+	Select @InsertExistingRecord=@@ROWCOUNT
+	-- 20 Seconds
+
+	-- Get Running ARPtID
+	DECLARE @GenARPtId bigint;	SET @GenARPtId = dbo.get_ARPt_Imp_RunningNo()-1;
+
+	-- Gen Running ARPmID
+	DECLARE @GenARPmId bigint;	SET @GenARPmId = dbo.get_ARPm_Imp_RunningNo()-1;
+
+	-- Gen Running ReceiptID
+	DECLARE @GenReceiptId bigint;	SET @GenReceiptId = dbo.get_Receipt_Imp_RunningNo()-1;
+	-- 22 Seconds
+
+	--CREATE CLUSTERED INDEX IX_2 on #PFS_TEMP (ArIv); <=== A bit slower
+	--CREATE INDEX IX_1 on #PFS_TEMP (Action);
+
+	Select t.PaymentDocNo, t.PaymentDt, t.InvoiceNo, t.DocType,
+			t.VatAmount, t.GAmount, ar.CaId, t.ReceiptNo as ExReceiptId,
+			'ZX' + REPLACE(STR((@GenARPtId + row_number() over(order by PaymentDocNo)), 20, 0), ' ', '0') as ARPtId,		
+			'ZX' + REPLACE(STR((@GenARPmId + row_number() over(order by PaymentDocNo)), 20, 0), ' ', '0') as ARPmId,
+			'ZX' + REPLACE(STR((@GenReceiptId + row_number() over(order by PaymentDocNo)), 14, 0), ' ', '0') as ReceiptId
+		Into #PFS_TEMP_INS
+		From #PFS_TEMP t inner join ts.AR ar on t.InvoiceNo=ar.InvoiceNo
+		Where [Action]='1'
+
+	IF @@ROWCOUNT>0
+		BEGIN
+			-- Insert Data -------------------------------------------------------------------------------------
+			INSERT INTO ts.Payment 
+				(PaymentId,PaymentDt,SyncFlag,PostDt,ModifiedDt,ModifiedBy,Active)
+				Select PaymentDocNo, PaymentDt, '0', GetDate(), GetDate(), @ModifiedBy, '1' From #PFS_TEMP_INS;
+			INSERT INTO ts.ARPaymentType
+				(ARPtId,PaymentId,Amount,SyncFlag,PostDt,ModifiedDt,ModifiedBy,Active)
+				Select ARPtId, PaymentDocNo, GAmount, '0', GetDate(), GetDate(), @ModifiedBy, '1' From #PFS_TEMP_INS;
+			INSERT INTO ts.ARPayment
+				(ARPmId,InvoiceNo,DocType,VatAmount,GAmount,PaymentDt,SyncFlag,PostDt,ModifiedDt,ModifiedBy,Active)
+				Select ARPmId, InvoiceNo, DocType, VatAmount, GAmount, PaymentDt, '0', GetDate(), GetDate(), @ModifiedBy, '1' From #PFS_TEMP_INS;
+			INSERT INTO ts.RTARPaymentTypeARPayment
+				(ARPtId,ARPmId,Amount,SyncFlag,PostDt,ModifiedDt,ModifiedBy,Active)
+				Select ARPtId, ARPmId, GAmount, '0', GetDate(), GetDate(), @ModifiedBy, '1' From #PFS_TEMP_INS;
+			INSERT INTO ts.Receipt
+				(ReceiptId,PaymentId,CaId,NoOfPrinting,ReceiptType,ExtReceiptId,ExtReceiptDt,
+						SyncFlag,PostDt,ModifiedDt,ModifiedBy,Active)
+				Select ReceiptId, PaymentDocNo, CaId, '1', '0', ExReceiptId, PaymentDt,
+						'0', GetDate(), GetDate(), @ModifiedBy, '1' From #PFS_TEMP_INS;
+			INSERT INTO ts.ReceiptItem
+				(ReceiptId,ARPmId,SyncFlag,PostDt,ModifiedDt,ModifiedBy,Active)
+				Select ReceiptId, ARPmId, '0', GetDate(), GetDate(), @ModifiedBy,'1' From #PFS_TEMP_INS;
+			-- Update Calculation fields in ts.AR -------------------------------------------------------------
+			Update ts.AR
+				Set PaidQty=(Select sum(Qty) from ts.ARPayment arpm	where active='1' and arpm.InvoiceNo=ts.AR.InvoiceNo)
+				Where InvoiceNo in (Select InvoiceNo from #PFS_TEMP);
+			Update ts.AR
+				Set PaidVatAmount=(Select sum(VatAmount) from ts.ARPayment arpm	where active='1' and arpm.InvoiceNo=ts.AR.InvoiceNo)
+				Where InvoiceNo in (Select InvoiceNo from #PFS_TEMP);
+			Update ts.AR
+				Set PaidGAmount=(Select sum(GAmount) from ts.ARPayment arpm	where active='1' and arpm.InvoiceNo=ts.AR.InvoiceNo)
+				Where InvoiceNo in (Select InvoiceNo from #PFS_TEMP);
+			-- Update BillStatusInfo --------------------------------------------------------------------------
+			Update ts.BillStatusInfo
+				Set PmId=(Select Min(PmId) from ts.ARPayment arpm where active='1' and arpm.InvoiceNo=ts.BillStatusInfo.InvoiceNo)
+				Where InvoiceNo in (Select InvoiceNo from #PFS_TEMP);
+			--------------------------------------------------------------------------------------------------
+			Delete from #PFS_TEMP where [ACTION]='1'
+		END
+
+
+	-------------------------------------------------------
+	-- Process Update
+	-------------------------------------------------------
+	-- Delete already insert payment item
+	Delete from #PFS_TEMP
+		Where [Action]='2' --and PaymentDocNo not in
+			--(Select PaymentID from #PSAP)
+	Select @UpdateNoRecord=@@ROWCOUNT	
+
+
+	SELECT @TotalRecord as TotalRecord,
+		@PayNoItemRecord as PayNoItemRecord, @InsertExistingRecord as InsertExistingRecord,
+		@UpdateNoRecord as UpdateNoRecord, @DeleteNoRecord as DeleteNoRecord;
+

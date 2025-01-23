@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="381f48b7-8d5f-4a44-a9c0-9e3db870cd49" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/AGENCY/AgencyPlanningWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AgencyPlanningWCFService2.wsdl" MetadataType="Wsdl" ID="b78822f8-be89-45df-aae1-31dab5c721a5" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/AgencyPlanningWCFService.svc?wsdl" />
+    <MetadataFile FileName="AgencyPlanningWCFService1.disco" MetadataType="Disco" ID="eff1b9de-ec3b-4b9b-b0c2-64a9b456ca7e" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/AgencyPlanningWCFService.svc?disco" />
+    <MetadataFile FileName="AgencyPlanningWCFService6.xsd" MetadataType="Schema" ID="490851cc-14c2-430d-a354-babbb1b599b9" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/AgencyPlanningWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="AgencyPlanningWCFService61.xsd" MetadataType="Schema" ID="c0526ead-944a-4f7f-8b73-9b37d07c09e3" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/AgencyPlanningWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AgencyPlanningWCFService21.wsdl" MetadataType="Wsdl" ID="a6985fff-9795-4458-9d96-0b6df847e985" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/AgencyPlanningWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="AgencyPlanningWCFService62.xsd" MetadataType="Schema" ID="0c8f90b7-9300-4718-a130-0cc759dc51d0" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/AgencyPlanningWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AgencyPlanningWCFService63.xsd" MetadataType="Schema" ID="114011d0-2cb2-456f-9bcf-f4853491feba" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/AgencyPlanningWCFService.svc?xsd=xsd4" />
+    <MetadataFile FileName="AgencyPlanningWCFService64.xsd" MetadataType="Schema" ID="03934564-30a0-488f-8fdb-93d9f2497890" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/AgencyPlanningWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AgencyPlanningWCFService65.xsd" MetadataType="Schema" ID="1a554ba2-646c-4e69-83b4-57bbe4ac94ea" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/AgencyPlanningWCFService.svc?xsd=xsd5" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

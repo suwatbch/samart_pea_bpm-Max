@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PEA.BPM.ePaymentsModule.Interface.BusinessEntities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PEA.BPM.ePaymentsModule.Interface.BusinessEntities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Infrastructure.Interface.BusinessEntities" />
+  <xs:complexType name="SearchDebtParam">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CaId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InvoiceNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Period" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DebtAmount" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SearchDebtParam" nillable="true" type="tns:SearchDebtParam" />
+  <xs:complexType name="Company">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CompanyId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CompanyName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Company" nillable="true" type="tns:Company" />
+  <xs:complexType name="AgentPayment">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgentId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentAddr" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Prefix" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DtId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PmId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PosId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PtId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TranfAccNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TranfDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ReceiptType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FileId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalBillAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="DepositDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PostDt" nillable="true" type="xs:dateTime" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Infrastructure.Interface.BusinessEntities" minOccurs="0" name="Banks" nillable="true" type="q1:Bank" />
+      <xs:element minOccurs="0" name="BankKey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModifiedDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PostBranchServerId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsSysData" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AgentPayment" nillable="true" type="tns:AgentPayment" />
+  <xs:complexType name="CancelPayment">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ReceiptId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiverId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiverName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PaymentDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="GAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Reason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PosId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SyncFlag" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PostDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PostBranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModifiedDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Active" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CancelPayment" nillable="true" type="tns:CancelPayment" />
+</xs:schema>

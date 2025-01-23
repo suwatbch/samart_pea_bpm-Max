@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1ba6a7f2-5a29-4a2e-b543-a7a87f017820" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://172.16.166.131/BPMReportAppServices/POS/ReportWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ReportWCFService.xsd" MetadataType="Schema" ID="36b0118c-ca4d-4803-a5e5-205aa42a0a9f" SourceId="1" SourceUrl="http://172.16.166.131/BPMReportAppServices/POS/ReportWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ReportWCFService6.xsd" MetadataType="Schema" ID="4fb9ef3c-25f5-4f09-83d5-9eca5b2de937" SourceId="1" SourceUrl="http://172.16.166.131/BPMReportAppServices/POS/ReportWCFService.svc?xsd=xsd5" />
+    <MetadataFile FileName="ReportWCFService7.xsd" MetadataType="Schema" ID="508ef9d8-9d23-4f07-b55a-5a1ae653b1b1" SourceId="1" SourceUrl="http://172.16.166.131/BPMReportAppServices/POS/ReportWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ReportWCFService8.xsd" MetadataType="Schema" ID="f09eb9ff-b0b3-486d-9973-a42302b4a4b7" SourceId="1" SourceUrl="http://172.16.166.131/BPMReportAppServices/POS/ReportWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="ReportWCFService1.disco" MetadataType="Disco" ID="54d52c84-8e9f-446c-ac27-b6b1626140e0" SourceId="1" SourceUrl="http://172.16.166.131/BPMReportAppServices/POS/ReportWCFService.svc?disco" />
+    <MetadataFile FileName="ReportWCFService2.wsdl" MetadataType="Wsdl" ID="5903f512-8d63-4ca9-a0dc-d19bb4df56ee" SourceId="1" SourceUrl="http://172.16.166.131/BPMReportAppServices/POS/ReportWCFService.svc?wsdl" />
+    <MetadataFile FileName="ReportWCFService3.wsdl" MetadataType="Wsdl" ID="07c21319-413f-46fc-970e-cc9c3dfc8f56" SourceId="1" SourceUrl="http://172.16.166.131/BPMReportAppServices/POS/ReportWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="ReportWCFService9.xsd" MetadataType="Schema" ID="0c67bb97-88b8-4a57-9dd9-d5a6046cb2cc" SourceId="1" SourceUrl="http://172.16.166.131/BPMReportAppServices/POS/ReportWCFService.svc?xsd=xsd6" />
+    <MetadataFile FileName="ReportWCFService10.xsd" MetadataType="Schema" ID="f8860be4-06da-41ae-832d-964df058280e" SourceId="1" SourceUrl="http://172.16.166.131/BPMReportAppServices/POS/ReportWCFService.svc?xsd=xsd4" />
+    <MetadataFile FileName="ReportWCFService11.xsd" MetadataType="Schema" ID="6d749ce9-b55c-4fb8-83d4-43cc24c3e5a3" SourceId="1" SourceUrl="http://172.16.166.131/BPMReportAppServices/POS/ReportWCFService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

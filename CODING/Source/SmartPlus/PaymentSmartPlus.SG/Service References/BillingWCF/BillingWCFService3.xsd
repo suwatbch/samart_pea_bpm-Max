@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PEA.BPM.CashManagementModule.Interface.BusinessEntities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PEA.BPM.CashManagementModule.Interface.BusinessEntities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="TrayMoneyInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ChequeAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ChequePendingAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CashAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CashPendingAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ChequeList" nillable="true" type="tns:ArrayOfChequeInfo" />
+      <xs:element minOccurs="0" name="PayInList" nillable="true" type="tns:ArrayOfPayInInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TrayMoneyInfo" nillable="true" type="tns:TrayMoneyInfo" />
+  <xs:complexType name="ArrayOfChequeInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ChequeInfo" nillable="true" type="tns:ChequeInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfChequeInfo" nillable="true" type="tns:ArrayOfChequeInfo" />
+  <xs:complexType name="ChequeInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BankKey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChqNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChqAccNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChqDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Amount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TransStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReportType" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="CashAmt" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ChequeInfo" nillable="true" type="tns:ChequeInfo" />
+  <xs:complexType name="ArrayOfPayInInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PayInInfo" nillable="true" type="tns:PayInInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPayInInfo" nillable="true" type="tns:ArrayOfPayInInfo" />
+  <xs:complexType name="PayInInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BankKey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChqNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChqAccNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChqDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Amount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TransStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReportType" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="CashAmt" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PayInInfo" nillable="true" type="tns:PayInInfo" />
+</xs:schema>

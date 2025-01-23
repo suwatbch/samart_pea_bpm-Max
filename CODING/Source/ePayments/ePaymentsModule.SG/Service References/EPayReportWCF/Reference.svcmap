@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fc8b6b5f-8376-4681-a6df-cf3e3ddd6419" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/ePayment/ReportWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ReportWCFService.wsdl" MetadataType="Wsdl" ID="63c93f9f-6167-4839-940e-e5f930582a77" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReportWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="ReportWCFService.xsd" MetadataType="Schema" ID="5e480e18-7f13-461f-8204-0841661c71dd" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReportWCFService.svc?xsd=xsd5" />
+    <MetadataFile FileName="ReportWCFService1.xsd" MetadataType="Schema" ID="42dc5ace-0124-4d74-87c2-00cf2157b447" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReportWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="ReportWCFService2.xsd" MetadataType="Schema" ID="d4afd44b-182f-4db9-89aa-bb7fe1b6b77f" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReportWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ReportWCFService3.xsd" MetadataType="Schema" ID="7a2347d8-2111-432f-bdc7-f43a7ad4b195" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReportWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ReportWCFService4.xsd" MetadataType="Schema" ID="14249a38-0ea9-47d0-95f7-9a3183a94fe6" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReportWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ReportWCFService.disco" MetadataType="Disco" ID="ad4c8ecf-b258-4f72-a5de-0a84d6aac8f8" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReportWCFService.svc?disco" />
+    <MetadataFile FileName="EPayReportWCFService.wsdl" MetadataType="Wsdl" ID="a3eedf5b-6e9a-4b09-8768-e6ac403cc151" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReportWCFService.svc?wsdl" />
+    <MetadataFile FileName="ReportWCFService5.xsd" MetadataType="Schema" ID="33d29570-f2e8-4910-be34-b5ad241c491e" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReportWCFService.svc?xsd=xsd4" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

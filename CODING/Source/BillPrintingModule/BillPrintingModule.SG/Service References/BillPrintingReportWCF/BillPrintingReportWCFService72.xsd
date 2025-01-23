@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PEA.BPM.BillPrintingModule.Interface.BusinessEntities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PEA.BPM.BillPrintingModule.Interface.BusinessEntities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="ReportConditionParam">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FromTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ToTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MtNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankDueDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Save" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsReprint" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ToWhom" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FromDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ToDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DataReceiveDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ToDataReceiveDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DeliveryPlaceName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintBranch" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ListElectricId" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ListPrintType" nillable="true" type="q2:ArrayOfstring" />
+      <xs:element minOccurs="0" name="BillPeriod" nillable="true" type="xs:string" />
+      <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GroupBillPeriod" nillable="true" type="q3:ArrayOfstring" />
+      <xs:element minOccurs="0" name="InputParamList" nillable="true" type="tns:ArrayOfInputParam" />
+      <xs:element minOccurs="0" name="BillPeriodLog" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="SaveNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReportToPerson" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApprovedPerson" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillControllerId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReportType" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ElectricId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintingCondition" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Portion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PortionNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PrintType" nillable="true" type="xs:int" />
+      <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GroupPrintType" nillable="true" type="q4:ArrayOfstring" />
+      <xs:element minOccurs="0" name="DeliveryPlace" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ToMruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintedFlag" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReportConditionParam" nillable="true" type="tns:ReportConditionParam" />
+  <xs:complexType name="ArrayOfInputParam">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="InputParam" nillable="true" type="tns:InputParam" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfInputParam" nillable="true" type="tns:ArrayOfInputParam" />
+  <xs:complexType name="InputParam">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="InputStr" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintType" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="GroupBranch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GroupBranchName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="InputParam" nillable="true" type="tns:InputParam" />
+  <xs:complexType name="ArrayOfPrintableId">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PrintableId" nillable="true" type="tns:PrintableId" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPrintableId" nillable="true" type="tns:ArrayOfPrintableId" />
+  <xs:complexType name="PrintableId">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="TxtId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DueDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LotNo" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BillCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="MtNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GrvInvFlag" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsZeroRecord" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FromNumberId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ToNumberId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintingStatus" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BillPeriodLog" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BillPeriod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PrintableId" nillable="true" type="tns:PrintableId" />
+  <xs:complexType name="ArrayOfReportGroupingCrossCheck">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ReportGroupingCrossCheck" nillable="true" type="tns:ReportGroupingCrossCheck" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfReportGroupingCrossCheck" nillable="true" type="tns:ArrayOfReportGroupingCrossCheck" />
+  <xs:complexType name="ReportGroupingCrossCheck">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Flag" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankDueDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GroupingDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InvoiceNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Amount" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReportGroupingCrossCheck" nillable="true" type="tns:ReportGroupingCrossCheck" />
+</xs:schema>

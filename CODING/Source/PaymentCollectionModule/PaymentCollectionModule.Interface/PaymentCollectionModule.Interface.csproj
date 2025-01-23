@@ -1,0 +1,247 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{20245E21-61E9-4B4D-86D2-87A23FDC051F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PEA.BPM.PaymentCollectionModule.Interface</RootNamespace>
+    <AssemblyName>PaymentCollectionModule.Interface</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="protobuf-net, Version=1.0.0.280, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessEntities\ActivePayment.cs" />
+    <Compile Include="BusinessEntities\AdvancePaymentHistory.cs" />
+    <Compile Include="BusinessEntities\ARInfo.cs" />
+    <Compile Include="BusinessEntities\ARPaymentInfo.cs" />
+    <Compile Include="BusinessEntities\ARPaymentTypeInfo.cs" />
+    <Compile Include="BusinessEntities\Bill.cs" />
+    <Compile Include="BusinessEntities\BillBook.cs" />
+    <Compile Include="BusinessEntities\BookSearchDetail.cs" />
+    <Compile Include="BusinessEntities\CaIdAndBranchId.cs" />
+    <Compile Include="BusinessEntities\BusinessPartnerInfo.cs" />
+    <Compile Include="BusinessEntities\CaAndBpInfo.cs" />
+    <Compile Include="BusinessEntities\CloneBase.cs" />
+    <Compile Include="BusinessEntities\CancelledInfo.cs" />
+    <Compile Include="BusinessEntities\ContractAccountInfo.cs" />
+    <Compile Include="BusinessEntities\AgencySearchParam.cs" />
+    <Compile Include="BusinessEntities\APInfo.cs" />
+    <Compile Include="BusinessEntities\BaseParam.cs" />
+    <Compile Include="BusinessEntities\BillDetailSearchParam.cs" />
+    <Compile Include="BusinessEntities\OfflinePayment.cs" />
+    <Compile Include="BusinessEntities\OneTouchInfo.cs" />
+    <Compile Include="BusinessEntities\OneTouchLogInfo.cs" />
+    <Compile Include="BusinessEntities\OneTouchSearchParam.cs" />
+    <Compile Include="BusinessEntities\InterestLog.cs" />
+    <Compile Include="BusinessEntities\PaymentTypeSearchParam.cs" />
+    <Compile Include="BusinessEntities\QRPaymentInfo.cs" />
+    <Compile Include="BusinessEntities\QRPaymentResponse.cs" />
+    <Compile Include="BusinessEntities\QRRefundResponse.cs" />
+    <Compile Include="BusinessEntities\ReceiptGroupItems.cs" />
+    <Compile Include="BusinessEntities\ReceiptGroupMainData.cs" />
+    <Compile Include="BusinessEntities\RelatedReceipts.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC16Param.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC16Report.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC18Param.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC18Report.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC19Param.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC19QRPaymentReport.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC19Report.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC19SummaryReport.cs" />
+    <Compile Include="BusinessEntities\ResultPayInvoice.cs" />
+    <Compile Include="BusinessEntities\PayInvoice.cs" />
+    <Compile Include="BusinessEntities\InvoiceItemSearchParam.cs" />
+    <Compile Include="BusinessEntities\LastDisconnect.cs" />
+    <Compile Include="BusinessEntities\LastReceiptPayment.cs" />
+    <Compile Include="BusinessEntities\OfflineItems.cs" />
+    <Compile Include="BusinessEntities\OfflineLogInfo.cs" />
+    <Compile Include="BusinessEntities\OfflineReceipt.cs" />
+    <Compile Include="BusinessEntities\OriginalInvoiceSearchParam.cs" />
+    <Compile Include="BusinessEntities\HistoryViewParam.cs" />
+    <Compile Include="BusinessEntities\PaymentInfo.cs" />
+    <Compile Include="BusinessEntities\PaymentNonReceiptInfo.cs" />
+    <Compile Include="BusinessEntities\ReceiptInfo.cs" />
+    <Compile Include="BusinessEntities\ReceiptItemInfo.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC15Param.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC15Report.cs" />
+    <Compile Include="BusinessEntities\RPCAC19_Process.cs" />
+    <Compile Include="BusinessEntities\RTARPaymentInfo.cs" />
+    <Compile Include="BusinessEntities\RTDisconnectionDocCaDoc.cs" />
+    <Compile Include="BusinessEntities\DayClosingResult.cs" />
+    <Compile Include="BusinessEntities\DisconnectionDoc.cs" />
+    <Compile Include="BusinessEntities\GroupInvoiceSearchParam.cs" />
+    <Compile Include="BusinessEntities\GroupInvoiceItem.cs" />
+    <Compile Include="BusinessEntities\GroupInvoicingReportParam.cs" />
+    <Compile Include="BusinessEntities\PrintingInfo.cs" />
+    <Compile Include="BusinessEntities\InvoicePaymentMethod.cs" />
+    <Compile Include="BusinessEntities\InstallmentInvoice.cs" />
+    <Compile Include="BusinessEntities\PrintingInvoice.cs" />
+    <Compile Include="BusinessEntities\Invoice.cs" />
+    <Compile Include="BusinessEntities\ReceiptSearchParam.cs" />
+    <Compile Include="BusinessEntities\Customer.cs" />
+    <Compile Include="BusinessEntities\CustomerBillNo.cs" />
+    <Compile Include="BusinessEntities\CustomerDetailSearchParam.cs" />
+    <Compile Include="BusinessEntities\CustomerId.cs" />
+    <Compile Include="BusinessEntities\CustomerSearchParam.cs" />
+    <Compile Include="BusinessEntities\ExternalReceipt.cs" />
+    <Compile Include="BusinessEntities\PaidInvoice.cs" />
+    <Compile Include="BusinessEntities\PaidBillSearchParam.cs" />
+    <Compile Include="BusinessEntities\PaidItem.cs" />
+    <Compile Include="BusinessEntities\PaidMethod.cs" />
+    <Compile Include="BusinessEntities\PayingBill.cs" />
+    <Compile Include="BusinessEntities\PaymentMethod.cs" />
+    <Compile Include="BusinessEntities\PrintingBill.cs" />
+    <Compile Include="BusinessEntities\PrintingConstraint.cs" />
+    <Compile Include="BusinessEntities\PrintingReceipt.cs" />
+    <Compile Include="BusinessEntities\Receipt.cs" />
+    <Compile Include="BusinessEntities\ReceiptDetail.cs" />
+    <Compile Include="BusinessEntities\BillSearchDetail.cs" />
+    <Compile Include="BusinessEntities\ReceiptStatus.cs" />
+    <Compile Include="BusinessEntities\Repayment.cs" />
+    <Compile Include="BusinessEntities\RepaymentSearchParam.cs" />
+    <Compile Include="BusinessEntities\Reports\APParam.cs" />
+    <Compile Include="BusinessEntities\Reports\APReport.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC01Detail.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC01Param.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC01Report.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC03Report.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC04Report.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC05Report.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC06Param.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC06Report.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC09Param.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC09Report.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC11Param.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC11Report.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC12Report.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC13Report.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC14Param.cs" />
+    <Compile Include="BusinessEntities\Reports\CAC14Report.cs" />
+    <Compile Include="BusinessEntities\Reports\ReportParam.cs" />
+    <Compile Include="BusinessEntities\SAPSearchParam.cs" />
+    <Compile Include="BusinessEntities\SearchByCaIdNoInvoiceParam.cs" />
+    <Compile Include="BusinessEntities\SearchByMultiDoc.cs" />
+    <Compile Include="BusinessEntities\SearchByMultiDocParam.cs" />
+    <Compile Include="BusinessEntities\ToBeCancelledReceipt.cs" />
+    <Compile Include="BusinessEntities\ToBePaidBill.cs" />
+    <Compile Include="BusinessEntities\ToBePaidInvoice.cs" />
+    <Compile Include="BusinessEntities\VSPPInfo.cs" />
+    <Compile Include="Constants\CodeNames.cs" />
+    <Compile Include="Constants\CommandNames.cs" />
+    <Compile Include="Constants\EventTopicNames.cs" />
+    <Compile Include="Constants\LocalSettingNames.cs" />
+    <Compile Include="Constants\SecurityNames.cs" />
+    <Compile Include="Constants\UIExtensionSiteNames.cs" />
+    <Compile Include="Constants\WorkspaceNames.cs" />
+    <Compile Include="BusinessEntities\PayFromSAPInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\IBillingService.cs" />
+    <Compile Include="Services\IPaidBillService.cs" />
+    <Compile Include="Services\IReportService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Architecture\CommonUtilities\CommonUtilities.csproj">
+      <Project>{1A6B6E40-2DD5-4CB8-B766-B61AA237701B}</Project>
+      <Name>CommonUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CashManagementModule\CashManagementModule.Interface\CashManagementModule.Interface.csproj">
+      <Project>{E0AFD613-2C8A-49A8-9551-0C0222864AEC}</Project>
+      <Name>CashManagementModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Infrastructure.Interface\Infrastructure.Interface.csproj">
+      <Project>{A6E71DBF-A767-416C-9DE4-15AEFC619BAF}</Project>
+      <Name>Infrastructure.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

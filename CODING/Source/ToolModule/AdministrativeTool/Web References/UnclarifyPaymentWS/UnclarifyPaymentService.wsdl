@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetUnclarifyPayment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="importDate" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="errorType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUnclarifyPaymentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUnclarifyPaymentResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetUnclarifyPaymentSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUnclarifyPayment" />
+  </wsdl:message>
+  <wsdl:message name="GetUnclarifyPaymentSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUnclarifyPaymentResponse" />
+  </wsdl:message>
+  <wsdl:portType name="UnclarifyPaymentServiceSoap">
+    <wsdl:operation name="GetUnclarifyPayment">
+      <wsdl:input message="tns:GetUnclarifyPaymentSoapIn" />
+      <wsdl:output message="tns:GetUnclarifyPaymentSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UnclarifyPaymentServiceSoap" type="tns:UnclarifyPaymentServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUnclarifyPayment">
+      <soap:operation soapAction="http://tempuri.org/GetUnclarifyPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UnclarifyPaymentServiceSoap12" type="tns:UnclarifyPaymentServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUnclarifyPayment">
+      <soap12:operation soapAction="http://tempuri.org/GetUnclarifyPayment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UnclarifyPaymentService">
+    <wsdl:port name="UnclarifyPaymentServiceSoap" binding="tns:UnclarifyPaymentServiceSoap">
+      <soap:address location="http://localhost/AdminToolService/UnclarifyPayment/UnclarifyPaymentService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UnclarifyPaymentServiceSoap12" binding="tns:UnclarifyPaymentServiceSoap12">
+      <soap12:address location="http://localhost/AdminToolService/UnclarifyPayment/UnclarifyPaymentService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

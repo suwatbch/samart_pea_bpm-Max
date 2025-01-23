@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetElectricBillingByCaid">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="caid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetElectricBillingByCaidResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetElectricBillingByCaidResult" type="tns:ArrayOfWebBillingModel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWebBillingModel">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="WebBillingModel" nillable="true" type="tns:WebBillingModel" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WebBillingModel">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Caid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InvoiceNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Period" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="GAmount" type="s:float" />
+          <s:element minOccurs="0" maxOccurs="1" name="Active" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetElectricBillingByCaidSoapIn">
+    <wsdl:part name="parameters" element="tns:GetElectricBillingByCaid" />
+  </wsdl:message>
+  <wsdl:message name="GetElectricBillingByCaidSoapOut">
+    <wsdl:part name="parameters" element="tns:GetElectricBillingByCaidResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebBillingServicesSoap">
+    <wsdl:operation name="GetElectricBillingByCaid">
+      <wsdl:input message="tns:GetElectricBillingByCaidSoapIn" />
+      <wsdl:output message="tns:GetElectricBillingByCaidSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebBillingServicesSoap" type="tns:WebBillingServicesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetElectricBillingByCaid">
+      <soap:operation soapAction="http://tempuri.org/GetElectricBillingByCaid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebBillingServicesSoap12" type="tns:WebBillingServicesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetElectricBillingByCaid">
+      <soap12:operation soapAction="http://tempuri.org/GetElectricBillingByCaid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebBillingServices">
+    <wsdl:port name="WebBillingServicesSoap" binding="tns:WebBillingServicesSoap">
+      <soap:address location="http://bpm.cbs2proj.pea.co.th/BPMInternalServicePools/WebBillingServices.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebBillingServicesSoap12" binding="tns:WebBillingServicesSoap12">
+      <soap12:address location="http://bpm.cbs2proj.pea.co.th/BPMInternalServicePools/WebBillingServices.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

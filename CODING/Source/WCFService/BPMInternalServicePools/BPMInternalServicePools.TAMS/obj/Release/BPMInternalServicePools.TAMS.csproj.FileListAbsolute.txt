@@ -1,0 +1,12 @@
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicePools.TAMS\bin\Release\BPMInternalServicePools.TAMS.dll
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicePools.TAMS\bin\Release\BPMInternalServicePools.TAMS.pdb
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicePools.TAMS\bin\Release\BPMInternalServicePools.Model.dll
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicePools.TAMS\bin\Release\Newtonsoft.Json.dll
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicePools.TAMS\bin\Release\RestSharp.dll
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicePools.TAMS\bin\Release\BPMInternalServicePools.Model.pdb
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicePools.TAMS\bin\Release\RestSharp.xml
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicePools.TAMS\obj\Release\BPMInternalServicePools.TAMS.csprojResolveAssemblyReference.cache
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicePools.TAMS\obj\Release\Interop.WinHttp.dll
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicePools.TAMS\obj\Release\BPMInternalServicePools.TAMS.csproj.ResolveComReference.cache
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicePools.TAMS\obj\Release\BPMInternalServicePools.TAMS.dll
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\BPMInternalServicePools.TAMS\obj\Release\BPMInternalServicePools.TAMS.pdb

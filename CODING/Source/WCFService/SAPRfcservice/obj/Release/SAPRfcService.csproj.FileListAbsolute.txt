@@ -1,0 +1,10 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\SAPRfcservice\bin\SAPRfcService.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\SAPRfcservice\bin\sapnco.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\SAPRfcservice\bin\sapnco_utils.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\SAPRfcservice\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\SAPRfcservice\obj\Release\SAPRfcService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\SAPRfcservice\bin\SAPRfcService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\SAPRfcservice\bin\sapnco.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\SAPRfcservice\bin\sapnco_utils.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\SAPRfcservice\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\SAPRfcservice\obj\Release\SAPRfcService.dll

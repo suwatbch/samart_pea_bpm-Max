@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GrpInvSummaryReport" xml:space="preserve">
+    <value>5.10.7 สรุปการพิมพ์หนังสือแจ้งค่าไฟฟ้าแบบรวมศูนย์</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>5.10  รายงาน</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="PrintBranchText" xml:space="preserve">
+    <value>รหัสกฟฟ.</value>
+    <comment>Use in every View (UI)</comment>
+  </data>
+  <data name="GreenReceipt" xml:space="preserve">
+    <value>5.8  พิมพ์ใบเสร็จรับเงินหักผ่านบัญชีธนาคาร</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="DailyPrintReport" xml:space="preserve">
+    <value>5.10.3 รายงานสรุปการพิมพ์ใบแจ้งค่าไฟฟ้า</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="A4Bill" xml:space="preserve">
+    <value>5.3  พิมพ์หนังสือแจ้งค่าไฟฟ้า</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="UnlockingLogReport" xml:space="preserve">
+    <value>รายงานการปลดล็อค</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="GroupingCrossCheckReport" xml:space="preserve">
+    <value>ครอสเช๊คการกรุ๊ปใบแจ้งหนี้ผ่านธนาคาร</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="AuthorizedPerson" xml:space="preserve">
+    <value>5.12  รายการผู้อนุมัติหนังสือแจ้งค่าไฟฟ้า</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="GreenReceiptReprint" xml:space="preserve">
+    <value>5.9  พิมพ์ซ่อมใบเสร็จรับเงินหักผ่านบัญชีธนาคาร</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="RecordHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RecordHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrinterSetup" xml:space="preserve">
+    <value>กำหนดเครื่องพิมพ์</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="PrintMtNoText" xml:space="preserve">
+    <value>เลขที่ มท.</value>
+    <comment>Use in every View (UI)</comment>
+  </data>
+  <data name="StreetRouteReceiveReport" xml:space="preserve">
+    <value>5.10.2 รายงานสรุปใบแจ้งค่าไฟฟ้าจากระบบ SAP ที่ต้องพิมพ์</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="PrintTargetLocation" xml:space="preserve">
+    <value>5.15  ปลายทางการพิมพ์ใบแจ้งค่าไฟฟ้า</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\delete.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BillDeliveryReport" xml:space="preserve">
+    <value>5.10.5 บันทึกนำส่งใบแจ้งค่าไฟฟ้า</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="PrintSeperatorText" xml:space="preserve">
+    <value>-</value>
+    <comment>Use in every View (UI) {Seperator}</comment>
+  </data>
+  <data name="PrintBillSeqText" xml:space="preserve">
+    <value>เลขลำดับ Bill_Seq</value>
+    <comment>Use in every View (UI)</comment>
+  </data>
+  <data name="DualBillReprint" xml:space="preserve">
+    <value>5.2  พิมพ์ซ่อมใบแจ้งค่าไฟฟ้า</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="ManageBarcode" xml:space="preserve">
+    <value>5.14  กำหนดสายการจดหน่วยที่ไม่ต้องพิมพ์บาร์โค้ด</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="PrintUserText" xml:space="preserve">
+    <value>หมายเลขผู้ไช้ไฟ</value>
+    <comment>Use in every View (UI)</comment>
+  </data>
+  <data name="DailyUnprintReport" xml:space="preserve">
+    <value>5.10.4 รายงานสรุปสายการจดหน่วยที่ยังไม่ได้พิมพ์ใบแจ้ง</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="InputPaidByText" xml:space="preserve">
+    <value>ป้อน PaidBy</value>
+  </data>
+  <data name="CoverPageGroupInvoice" xml:space="preserve">
+    <value>พิมพ์ใบปะหน้าใบแจ้งแจ้งหนี้เก็บเงินแบบรวมศูนย์</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="DeliveryPlace" xml:space="preserve">
+    <value>5.11  กำหนดสถานที่นำส่งใบแจ้งค่าไฟฟ้า</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="InvoiceHistory" xml:space="preserve">
+    <value>5.13  สอบถามประวัติการออกใบแจ้งค่าไฟฟ้า</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="CoverPageGreenBill" xml:space="preserve">
+    <value>พิมพ์ใบปะหน้าใบแจ้งค่าไฟฟ้าตามธนาคาร</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="DualBill" xml:space="preserve">
+    <value>5.1  พิมพ์ใบแจ้งค่าไฟฟ้า</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="PrintGreenByBankReport" xml:space="preserve">
+    <value>5.10.8 สรุปการพิมพ์ใบแจ้งค่าไฟฟ้าหักบัญชีธนาคาร</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="Setup" xml:space="preserve">
+    <value>การกำหนดค่าต่างๆ</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="GroupInvoice" xml:space="preserve">
+    <value>5.4  พิมพ์หนังสือแจ้งค่าไฟฟ้าแบบรวมศูนย์</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="PrintPaidByText" xml:space="preserve">
+    <value>PaidBy</value>
+    <comment>Use in every View (UI)</comment>
+  </data>
+  <data name="CopyHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CopyHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GroupInvoiceReprint" xml:space="preserve">
+    <value>5.5  พิมพ์ซ่อมหนังสือแจ้งค่าไฟฟ้าแบบรวมศูนย์</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="DualBillMenuPic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\test.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeletePrintData3Month" xml:space="preserve">
+    <value>ย้อนหลัง 3 เดือน</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="DirectDebitStatusReport" xml:space="preserve">
+    <value>5.10.10 รายการใบเสร็จหักบัญชีธนาคารที่ยังไม่พิมพ์</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="CoverPageGreenBillReprint" xml:space="preserve">
+    <value>พิมพ์ซ่อมใบปะหน้าใบแจ้งค่าไฟฟ้าตามธนาคาร</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="GreenBill" xml:space="preserve">
+    <value>5.6  พิมพ์ใบแจ้งค่าไฟฟ้าหักบัญชีธนาคาร</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="InputMtNoText" xml:space="preserve">
+    <value>เลขที่ มท.</value>
+    <comment>Use in every View (UI)</comment>
+  </data>
+  <data name="Help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Help.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrintMruText" xml:space="preserve">
+    <value>สายการจดหน่วย</value>
+    <comment>Use in every View (UI)</comment>
+  </data>
+  <data name="F16Report" xml:space="preserve">
+    <value>5.10.6 ทะเบียนรายได้ค่าไฟฟ้า (ฟ.16)</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="GreenBillReprint" xml:space="preserve">
+    <value>5.7  พิมพ์ซ่อมใบแจ้งค่าไฟฟ้าหักบัญชีธนาคาร</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="CAUnprintReport" xml:space="preserve">
+    <value>5.10.10 รายงานรายการข้อมูลหลักผู้ใช้ไฟที่ผิดปกติ</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="StreetRouteUnreceiveReport" xml:space="preserve">
+    <value>รายงานสายการจดหน่วยที่ยังไม่ได้รับจาก SAP</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="DeletePrintData" xml:space="preserve">
+    <value>ลบข้อมูลที่พิมพ์แล้ว</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="saveHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saveHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrintReport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\PrintReport.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GroupInvoiceSpecialBill" xml:space="preserve">
+    <value>พิมพ์ใบแจ้งหนี้เก็บเงินแบบรวมศูนย์ต่างสาขา</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="StreetRouteReport" xml:space="preserve">
+    <value>5.10.1 รายงานสายการจดหน่วย และจำนวนผู้ใช้ไฟ</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="BillPrinting" xml:space="preserve">
+    <value>5. พิมพ์ใบแจ้งค่าไฟฟ้า</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="PrintAllText" xml:space="preserve">
+    <value>ทั้งหมด</value>
+    <comment>Use in every View (UI)</comment>
+  </data>
+  <data name="BillingStatusReport" xml:space="preserve">
+    <value>5.10.9 รายงานสถานะการพิมพ์ใบแจ้งค่าไฟฟ้า</value>
+    <comment>Use in module controller</comment>
+  </data>
+  <data name="pea_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\pea_logo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZoomHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

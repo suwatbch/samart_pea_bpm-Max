@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PEA.BPM.QUEUEConnector.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="APMConnector_ApmWs_ApmWebService" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://172.30.241.75/ApmServices/apmwebservice.asmx</Value>
+    </Setting>
+    <Setting Name="APMConnector_PosWs_POSWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMGatewayService/POSWebService.asmx</Value>
+    </Setting>
+    <Setting Name="APM_GATEWAY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://172.30.241.75/APMWCFService/</Value>
+    </Setting>
+    <Setting Name="QUEUEConnector_Queue_QueueWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/QueueWCFService/QueueWebService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,70 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\BPMIntegrationUploadedService.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\ACABatchService.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.ArchitectureBS.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.ArchitectureDA.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Avanade.ACA.Batch.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\BPMIntegrationDownloadedService.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\BPMIntegrationService.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.BS.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.DA.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\protobuf-net.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.SG.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.DA.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.ArchitectureBS.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Avanade.ACA.Batch.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.ArchitectureDA.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\BPMIntegrationDownloadedService.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.ArchitectureInterface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\ACABatchService.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\BPMIntegrationService.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.BS.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.CommonUtilities.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.SG.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.ArchitectureBS.XmlSerializers.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.SG.XmlSerializers.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\BPMIntegrationUploadedService\obj\Release\BPMIntegrationUploadedService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\BPMIntegrationUploadedService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\ACABatchService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.ArchitectureBS.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.ArchitectureDA.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.CommonUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Avanade.ACA.Batch.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\BPMIntegrationDownloadedService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\BPMIntegrationService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Microsoft.Practices.ObjectBuilder.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.BS.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.DA.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\protobuf-net.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.SG.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.DA.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.ArchitectureBS.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Avanade.ACA.Batch.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.ArchitectureDA.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\BPMIntegrationDownloadedService.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.ArchitectureInterface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\ACABatchService.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\BPMIntegrationService.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.BS.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.CommonUtilities.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.SG.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\Architecture.ArchitectureBS.XmlSerializers.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\bin\PEA.BPM.Integration.BPMIntegration.SG.XmlSerializers.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\BPMIntegrationUploadedService\obj\Release\BPMIntegrationUploadedService.dll

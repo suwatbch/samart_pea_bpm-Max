@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetServerTime">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetServerTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetServerTimeResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadUnlockLog">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CompressData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="OriginalSize" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="CompressSize" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Data" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UploadUnlockLogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadUnlockLogResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthenInfo" type="tns:AuthenInfo" />
+      <s:complexType name="AuthenInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AuthToken" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="UploadRoleUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadRoleUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadRoleUserResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadUserResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SignalExport">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="batchName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="modifiedBy" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SignalExportResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetServerTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetServerTime" />
+  </wsdl:message>
+  <wsdl:message name="GetServerTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetServerTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadUnlockLogSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadUnlockLog" />
+  </wsdl:message>
+  <wsdl:message name="UploadUnlockLogSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadUnlockLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadUnlockLogAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadRoleUserSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadRoleUser" />
+  </wsdl:message>
+  <wsdl:message name="UploadRoleUserSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadRoleUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadRoleUserAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadUserSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadUser" />
+  </wsdl:message>
+  <wsdl:message name="UploadUserSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadUserAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="SignalExportSoapIn">
+    <wsdl:part name="parameters" element="tns:SignalExport" />
+  </wsdl:message>
+  <wsdl:message name="SignalExportSoapOut">
+    <wsdl:part name="parameters" element="tns:SignalExportResponse" />
+  </wsdl:message>
+  <wsdl:portType name="UtilitiesIntegrationWebServiceSoap">
+    <wsdl:operation name="GetServerTime">
+      <wsdl:input message="tns:GetServerTimeSoapIn" />
+      <wsdl:output message="tns:GetServerTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadUnlockLog">
+      <wsdl:input message="tns:UploadUnlockLogSoapIn" />
+      <wsdl:output message="tns:UploadUnlockLogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadRoleUser">
+      <wsdl:input message="tns:UploadRoleUserSoapIn" />
+      <wsdl:output message="tns:UploadRoleUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadUser">
+      <wsdl:input message="tns:UploadUserSoapIn" />
+      <wsdl:output message="tns:UploadUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SignalExport">
+      <wsdl:input message="tns:SignalExportSoapIn" />
+      <wsdl:output message="tns:SignalExportSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UtilitiesIntegrationWebServiceSoap" type="tns:UtilitiesIntegrationWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetServerTime">
+      <soap:operation soapAction="http://tempuri.org/GetServerTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadUnlockLog">
+      <soap:operation soapAction="http://tempuri.org/UploadUnlockLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadUnlockLogAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadRoleUser">
+      <soap:operation soapAction="http://tempuri.org/UploadRoleUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadRoleUserAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadUser">
+      <soap:operation soapAction="http://tempuri.org/UploadUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadUserAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SignalExport">
+      <soap:operation soapAction="http://tempuri.org/SignalExport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UtilitiesIntegrationWebServiceSoap12" type="tns:UtilitiesIntegrationWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetServerTime">
+      <soap12:operation soapAction="http://tempuri.org/GetServerTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadUnlockLog">
+      <soap12:operation soapAction="http://tempuri.org/UploadUnlockLog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadUnlockLogAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadRoleUser">
+      <soap12:operation soapAction="http://tempuri.org/UploadRoleUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadRoleUserAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadUser">
+      <soap12:operation soapAction="http://tempuri.org/UploadUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadUserAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SignalExport">
+      <soap12:operation soapAction="http://tempuri.org/SignalExport" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UtilitiesIntegrationWebService">
+    <wsdl:port name="UtilitiesIntegrationWebServiceSoap" binding="tns:UtilitiesIntegrationWebServiceSoap">
+      <soap:address location="http://localhost/BPMIntegrationUploadedService/UtilitiesIntegrationWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UtilitiesIntegrationWebServiceSoap12" binding="tns:UtilitiesIntegrationWebServiceSoap12">
+      <soap12:address location="http://localhost/BPMIntegrationUploadedService/UtilitiesIntegrationWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://desktop-cvefbk7/BPMService/POS/BillingWCFService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+  <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" name="AuthInfoValue" nillable="true" type="q1:AuthInfo" />
+</xs:schema>

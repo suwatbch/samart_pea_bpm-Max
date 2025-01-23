@@ -1,0 +1,22 @@
+*** Version 1.00
+- version แรก
+- convert Double login
+- convert UpdateCurIPReqFlag
+
+*** Version 1.08
+- convert CheckToken
+- convert GetToken
+- แก้ bug เรื่อง Token not match ที่จะเกิดเมื่อ user ไป login เครื่องอื่นแล้วระบบเอา token ที่จำไว้ใน memory ไปเขียนกลับลง database
+- cache ข้อมูล user ด้วย class UserInfo แทนที่จะใช้ DataTable เพราะ DataTable เมื่อ update จะ save ข้อมูลลง database ทั้ง row
+- class UserInfo สามารถ check dirty flag ได้ แล้วเมื่อต้อง update กลับลง database จะ update เฉพาะ column ที่ dirty
+- เพิ่มการใช้ lock(this) ครอบส่วนที่มีการ assign ค่าให้ UserInfo
+- ระบบจะ logoff ถ้าไม่มีการ call มาที่ service ใน 5 นาที (สามารถปรับเปลี่ยนได้)
+- ระบบจะ load user ขึ้นมาใหม่จาก database ถ้า logoff ไปแล้ว 1 นาที (สามารถปรับเปลี่ยนได้)
+
+*** Version 1.09
+- แก้ interface cashmanagement method Transfer เอา DbTransaction ออก เพราะไม่ได้ใช้ปกติจะส่ง null ตลอดเวลา
+(method Transfer จะไปเรียก ProcessTransfer อีกที)
+
+*** Pending
+- ลง sql 2005 express ที่ authentication server เอาไว้เก็บ log ดูว่า user แต่ละคน request อะไร ด้วย parameter อะไร
+แล้วได้ผลลัพธ์เป็นอะไร

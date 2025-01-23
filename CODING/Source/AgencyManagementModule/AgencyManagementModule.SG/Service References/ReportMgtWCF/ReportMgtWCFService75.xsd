@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?xsd=xsd6" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="CheckInBillBookConditionInfoReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgentId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Period" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillBookId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintPreview" type="xs:boolean" />
+      <xs:element minOccurs="0" name="AbsId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PmId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CheckInBillBookConditionInfoReport" nillable="true" type="tns:CheckInBillBookConditionInfoReport" />
+  <xs:complexType name="ArrayOfCAB03_DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CAB03_DetailReportInfo" nillable="true" type="tns:CAB03_DetailReportInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCAB03_DetailReportInfo" nillable="true" type="tns:ArrayOfCAB03_DetailReportInfo" />
+  <xs:complexType name="CAB03_DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Period" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PmId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StrReceiveDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ReceiveDate" nillable="true" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB03_DetailReportInfo" nillable="true" type="tns:CAB03_DetailReportInfo" />
+  <xs:complexType name="CommissionVoucherConditionPrintReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IsPersonType" type="xs:boolean" />
+      <xs:element minOccurs="0" name="SeventyFiveToNighty" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="NightyUp" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Hundread" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AgencyId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PeriodBook" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CreateDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TotalBillOutResident" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalBillOutSmallBiz" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalBillOutGoverment" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="AmountBillOutResident" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountBillOutSmallBiz" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountBillOutGoverment" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalBillKeepResident" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalBillKeepSmallBiz" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalBillKeepGoverment" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="AmountBillKeepResident" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountBillKeepSmallBiz" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountBillKeepGoverment" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalBillPaste" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalBillPasteThreeMonth" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="CmdId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FineSendMoneyLate" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PrintPreview" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsBlank" type="xs:boolean" />
+      <xs:element minOccurs="0" name="TotalBillPasteCommission" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Bill75To90" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Bill90Up" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalBillOutGovPaid" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="AmountBillOutGovPaid" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalBillKeepGovPaid" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="AmountBillKeepGovPaid" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CommissionVoucherConditionPrintReport" nillable="true" type="tns:CommissionVoucherConditionPrintReport" />
+  <xs:complexType name="CAB04_03HeaderReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PrintDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Period" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegisterDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CalculateDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TimeNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintPreview" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB04_03HeaderReportInfo" nillable="true" type="tns:CAB04_03HeaderReportInfo" />
+  <xs:complexType name="CAB05_01ConditionReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartAgencyId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EndAgencyId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartPeriod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EndPeriod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintPreview" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB05_01ConditionReportInfo" nillable="true" type="tns:CAB05_01ConditionReportInfo" />
+  <xs:complexType name="ArrayOfCAB05_01DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CAB05_01DetailReportInfo" nillable="true" type="tns:CAB05_01DetailReportInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCAB05_01DetailReportInfo" nillable="true" type="tns:ArrayOfCAB05_01DetailReportInfo" />
+  <xs:complexType name="CAB05_01DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="RowNo" type="xs:int" />
+      <xs:element minOccurs="0" name="Period" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegisterDt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SecurityDeposit" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CollectValue" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BillBookId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiveCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="RecevieAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CollectCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="CollectAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ReceiveNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BookLot" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CollectArea" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PercentCount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PercentAmount" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB05_01DetailReportInfo" nillable="true" type="tns:CAB05_01DetailReportInfo" />
+  <xs:complexType name="PA_7034ConditionReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyIdFrom" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyIdTo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Period" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintPreview" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PA_7034ConditionReportInfo" nillable="true" type="tns:PA_7034ConditionReportInfo" />
+  <xs:complexType name="ArrayOfPA_7034DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PA_7034DetailReportInfo" nillable="true" type="tns:PA_7034DetailReportInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPA_7034DetailReportInfo" nillable="true" type="tns:ArrayOfPA_7034DetailReportInfo" />
+  <xs:complexType name="PA_7034DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiveNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BookLot" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillBookId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CreateDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CheckinDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillBookType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ResidentReceiveCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ResidentReceiveAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SmallBizReceiveCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="SmallBizReceiveAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GovReceiveCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="GovReceiveAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ResidentCollectCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ResidentCollectAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SmallBizCollectCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="SmallBizCollectAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GovCollectCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="GovCollectAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PastBillCount" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PA_7034DetailReportInfo" nillable="true" type="tns:PA_7034DetailReportInfo" />
+  <xs:complexType name="CAB12_01ConditionReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyIdFrom" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyIdTo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartPeriod" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="EndPeriod" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PrintPreview" type="xs:boolean" />
+      <xs:element minOccurs="0" name="CurrPeriod" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB12_01ConditionReportInfo" nillable="true" type="tns:CAB12_01ConditionReportInfo" />
+  <xs:complexType name="ArrayOfCAB12_01DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CAB12_01DetailReportInfo" nillable="true" type="tns:CAB12_01DetailReportInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCAB12_01DetailReportInfo" nillable="true" type="tns:ArrayOfCAB12_01DetailReportInfo" />
+  <xs:complexType name="CAB12_01DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartPeriod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalDiffMonth" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="YearStart" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="MonthStart" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB12_01DetailReportInfo" nillable="true" type="tns:CAB12_01DetailReportInfo" />
+  <xs:complexType name="CAB12_01HeaderReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PrintDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintPreview" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Past1_3Month" type="xs:int" />
+      <xs:element minOccurs="0" name="Past4_6Month" type="xs:int" />
+      <xs:element minOccurs="0" name="Past7_12Month" type="xs:int" />
+      <xs:element minOccurs="0" name="Past1Year" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB12_01HeaderReportInfo" nillable="true" type="tns:CAB12_01HeaderReportInfo" />
+  <xs:complexType name="CAN34_01CondtionReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Period" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintPreview" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAN34_01CondtionReportInfo" nillable="true" type="tns:CAN34_01CondtionReportInfo" />
+  <xs:complexType name="ArrayOfCAN34_01DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CAN34_01DetailReportInfo" nillable="true" type="tns:CAN34_01DetailReportInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCAN34_01DetailReportInfo" nillable="true" type="tns:ArrayOfCAN34_01DetailReportInfo" />
+  <xs:complexType name="CAN34_01DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="RowNo" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BillAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PortionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MeterReadDt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MeterReadActDt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransferDt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransferActDt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintBillDt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintBillActDt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CreateBookDt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CreateBookActDt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CheckInDt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CheckInActDt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PlanTotalDt" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ActTotalDt" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAN34_01DetailReportInfo" nillable="true" type="tns:CAN34_01DetailReportInfo" />
+  <xs:complexType name="ArrayOfCAB12_02DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CAB12_02DetailReportInfo" nillable="true" type="tns:CAB12_02DetailReportInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCAB12_02DetailReportInfo" nillable="true" type="tns:ArrayOfCAB12_02DetailReportInfo" />
+  <xs:complexType name="CAB12_02DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalCount" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB12_02DetailReportInfo" nillable="true" type="tns:CAB12_02DetailReportInfo" />
+  <xs:complexType name="CAB13_01ConditionRptInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Period" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RunningBranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintPreview" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB13_01ConditionRptInfo" nillable="true" type="tns:CAB13_01ConditionRptInfo" />
+  <xs:complexType name="ArrayOfBillBookDetailReportListInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BillBookDetailReportListInfo" nillable="true" type="tns:BillBookDetailReportListInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBillBookDetailReportListInfo" nillable="true" type="tns:ArrayOfBillBookDetailReportListInfo" />
+  <xs:complexType name="BillBookDetailReportListInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BillType" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="AbsId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MRUId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ElectricPrice" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="FtPrice" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Vat" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BillCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="PayRepeat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalNet" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BaseAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="IsAdvPaid" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BillBookDetailReportListInfo" nillable="true" type="tns:BillBookDetailReportListInfo" />
+  <xs:complexType name="ArrayOfBillBookInfoDetailReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BillBookInfoDetailReport" nillable="true" type="tns:BillBookInfoDetailReport" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBillBookInfoDetailReport" nillable="true" type="tns:ArrayOfBillBookInfoDetailReport" />
+  <xs:complexType name="BillBookInfoDetailReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BookBillId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MRUId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Period" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalAmount" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BillBookInfoDetailReport" nillable="true" type="tns:BillBookInfoDetailReport" />
+  <xs:complexType name="ArrayOfCAB02_DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CAB02_DetailReportInfo" nillable="true" type="tns:CAB02_DetailReportInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCAB02_DetailReportInfo" nillable="true" type="tns:ArrayOfCAB02_DetailReportInfo" />
+  <xs:complexType name="CAB02_DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="RowId" type="xs:int" />
+      <xs:element minOccurs="0" name="PaymentCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="SeqAgency" type="xs:int" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Bookperiod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AdvPayDueDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiveCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BookLot" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalBill" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalElective" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AdvpayAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ChqPaymentDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransPaymentDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CashPaymentDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TranfAccNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TranfAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ChqNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChqAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CashAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Balance" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SumBalance" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ReceiptId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PaymentBL" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BillbookId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB02_DetailReportInfo" nillable="true" type="tns:CAB02_DetailReportInfo" />
+  <xs:complexType name="ArrayOfAgencyBillCollectionMasterReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AgencyBillCollectionMasterReport" nillable="true" type="tns:AgencyBillCollectionMasterReport" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAgencyBillCollectionMasterReport" nillable="true" type="tns:ArrayOfAgencyBillCollectionMasterReport" />
+  <xs:complexType name="AgencyBillCollectionMasterReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PrintDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="QuarterNo" type="xs:int" />
+      <xs:element minOccurs="0" name="PeriodName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PEACode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PEAName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillCollectionDetail" nillable="true" type="tns:ArrayOfAgencyBillCollectionDetailReport" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AgencyBillCollectionMasterReport" nillable="true" type="tns:AgencyBillCollectionMasterReport" />
+  <xs:complexType name="ArrayOfAgencyBillCollectionDetailReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AgencyBillCollectionDetailReport" nillable="true" type="tns:AgencyBillCollectionDetailReport" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAgencyBillCollectionDetailReport" nillable="true" type="tns:ArrayOfAgencyBillCollectionDetailReport" />
+  <xs:complexType name="AgencyBillCollectionDetailReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="RowId" type="xs:int" />
+      <xs:element minOccurs="0" name="AgencyId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AssetType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SignContractDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TotalValue" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalAsset" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AssetValue" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AssetLimit" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalBillElective" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalCollectElective" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalBillReceive" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalBillCollect" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BillReceiveCount" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AgencyBillCollectionDetailReport" nillable="true" type="tns:AgencyBillCollectionDetailReport" />
+  <xs:complexType name="ArrayOfCommissionVoucherInfoReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CommissionVoucherInfoReport" nillable="true" type="tns:CommissionVoucherInfoReport" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCommissionVoucherInfoReport" nillable="true" type="tns:ArrayOfCommissionVoucherInfoReport" />
+  <xs:complexType name="CommissionVoucherInfoReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PEACode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PEAName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VoucherCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VoucherDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IssueCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IssueName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IssueTypeName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IssueTaxNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IssueAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalItemOfResidentType" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="RateOfResidentType" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountCommissionOfResidentType" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalItemOfSmallBizType" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="RateOfSmallBizType" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountCommissionOfSmallBizType" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalItemOfGovermentDepartmentType" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="RateOfGovermentDepartmentType" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountCommissionOfGovermentDepartmentType" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalItemOfGovermentPaidType" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="RateOfGovermentPaidType" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountCommissionOfGovermentPaidType" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalItemOfSentBillType" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="RateOfSentBillType" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountCommissionOfSentBillType" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TransportOfCarPrice" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TransportOfWaterPrice" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AllTransportPrice" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalMoneySpacialCase" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalAllCommission" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="FineSendMoneyLate" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RealCommissionPaidAgency" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalAllCommissionText" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TaxAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Vat7Percent" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="DebtAmount" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CommissionVoucherInfoReport" nillable="true" type="tns:CommissionVoucherInfoReport" />
+  <xs:complexType name="ArrayOfCommissionRegistInfoReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CommissionRegistInfoReport" nillable="true" type="tns:CommissionRegistInfoReport" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCommissionRegistInfoReport" nillable="true" type="tns:ArrayOfCommissionRegistInfoReport" />
+  <xs:complexType name="CommissionRegistInfoReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IsPersonType" type="xs:boolean" />
+      <xs:element minOccurs="0" name="PEAName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PEABranch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyTaxNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegisterDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillMonth" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TimeNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillOutToAgencyForResident" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ValueOfBillOutForResident" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CanKeepElectricForResident" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ValueOfKeepElectricForResident" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RateAgencyPersonTypeForResident" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RateAgencyCompanyTypeForResident" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountCommissionOfResident" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BillOutToAgencyForSmallBiz" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ValueOfBillOutForSmallBiz" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CanKeepElectricForSmallBiz" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ValueOfKeepElectricForSmallBiz" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RateAgencyPersonTypeForSmallBiz" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RateAgencyCompanyTypeForSmallBiz" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountCommissionOfSmallBiz" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BillOutToAgencyForGovermentDepartment" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ValueOfBillOutForGovermentDepartment" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CanKeepElectricForGovermentDepartment" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ValueOfKeepElectricForGovermentDepartment" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RateAgencyPersonTypeForGovermentDepartment" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RateAgencyCompanyTypeForGovermentDepartment" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountCommissionOfGovermentDepartment" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalItemRepeatBillOfCommissionSpecial" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ValueRepeatBillOfCommissionSpecial" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalItemRepeatBillOfCommissionSpecialFollowStandard" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ValueRepeatBillOfCommissionSpecialFollowStandard" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalBillItemOf75To90PercentForCommissionSpecial" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="RateOf75To90PercentForCommissionSpecial" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountCommission75To90PercentForCommissionSpecial" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalBillItemOfMorethan90PercentForCommissionSpecial" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="RateOfMorethan90PercentForCommissionSpecial" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountCommissionMorethan90PercentForCommissionSpecial" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalItemInclude20PercentForCommissionBase" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="AmountInclude20PercentForCommissionBase" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalItemSendBill" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="RateOfSendBill" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountOfSendBill" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalItemSendBillThreeMonth" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="RateOfSendBillThreeMonth" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountOfSendBillThreeMonth" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TransportOfCarPrice" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TransportOfWaterPrice" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountAllCommission" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="FineSendMoneyLate" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="FinalAmountCommission" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Rate100PercentForAllKeep" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PrintDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Vat7Percent" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TaxAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CalculateDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillOutToAgencyForGovermentPaid" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ValueOfBillOutForGovermentPaid" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CanKeepElectricForGovermentPaid" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ValueOfKeepElectricForGovermentPaid" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RateAgencyPersonTypeForGovermentPaid" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RateAgencyCompanyTypeForGovermentPaid" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AmountCommissionOfGovermentPaid" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CommissionRegistInfoReport" nillable="true" type="tns:CommissionRegistInfoReport" />
+  <xs:complexType name="ArrayOfCAB04_03DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CAB04_03DetailReportInfo" nillable="true" type="tns:CAB04_03DetailReportInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCAB04_03DetailReportInfo" nillable="true" type="tns:ArrayOfCAB04_03DetailReportInfo" />
+  <xs:complexType name="CAB04_03DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BillBookRef" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillOutForResident" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="AmountBillOutForResident" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BillOutForSmallBiz" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="AmountBillOutForSmallBiz" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BillOutForGoverment" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="AmountBillOutForGoverment" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CanKeepBillForResident" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="AmountCanKeepBillForResident" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CanKeepBillForSmallBiz" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="AmountCanKeepBillForSmallBiz" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CanKeepBillForGoverment" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="AmountCanKeepBillForGoverment" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ReceiveCount" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB04_03DetailReportInfo" nillable="true" type="tns:CAB04_03DetailReportInfo" />
+  <xs:complexType name="ArrayOfReturnBillBookBillPasteStatusReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ReturnBillBookBillPasteStatusReportInfo" nillable="true" type="tns:ReturnBillBookBillPasteStatusReportInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfReturnBillBookBillPasteStatusReportInfo" nillable="true" type="tns:ArrayOfReturnBillBookBillPasteStatusReportInfo" />
+  <xs:complexType name="ReturnBillBookBillPasteStatusReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PmId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CheckInDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TaxNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RefBillBookId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Period" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ElectricNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ElectricPrice" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="FTPrice" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="VatPrice" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BaseAmount" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReturnBillBookBillPasteStatusReportInfo" nillable="true" type="tns:ReturnBillBookBillPasteStatusReportInfo" />
+  <xs:complexType name="CAB03_02DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BillLineItem" nillable="true" type="tns:ArrayOfBillInfoInEachBillBookIdInfo" />
+      <xs:element minOccurs="0" name="PrePaidItem" nillable="true" type="tns:ArrayOfBillBookPrePaidInfo" />
+      <xs:element minOccurs="0" name="TotalAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CashAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ChequeAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalNetAmount" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB03_02DetailReportInfo" nillable="true" type="tns:CAB03_02DetailReportInfo" />
+  <xs:complexType name="ArrayOfBillInfoInEachBillBookIdInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BillInfoInEachBillBookIdInfo" nillable="true" type="tns:BillInfoInEachBillBookIdInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBillInfoInEachBillBookIdInfo" nillable="true" type="tns:ArrayOfBillInfoInEachBillBookIdInfo" />
+  <xs:complexType name="BillInfoInEachBillBookIdInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BillBookId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LineNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Amount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BaseAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="FT" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Vat" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AbsId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PmId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BillInfoInEachBillBookIdInfo" nillable="true" type="tns:BillInfoInEachBillBookIdInfo" />
+  <xs:complexType name="ArrayOfBillBookPrePaidInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BillBookPrePaidInfo" nillable="true" type="tns:BillBookPrePaidInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBillBookPrePaidInfo" nillable="true" type="tns:ArrayOfBillBookPrePaidInfo" />
+  <xs:complexType name="BillBookPrePaidInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BillBookId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PaymentDt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiptId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Amount" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BillBookPrePaidInfo" nillable="true" type="tns:BillBookPrePaidInfo" />
+  <xs:complexType name="KeepMoneyPlaneOfAgencyConditionInfoReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PEACode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PEAName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Period" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintPreview" type="xs:boolean" />
+      <xs:element minOccurs="0" name="BaCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchCon" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="KeepMoneyPlaneOfAgencyConditionInfoReport" nillable="true" type="tns:KeepMoneyPlaneOfAgencyConditionInfoReport" />
+  <xs:complexType name="ArrayOfCAB07_01DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CAB07_01DetailReportInfo" nillable="true" type="tns:CAB07_01DetailReportInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCAB07_01DetailReportInfo" nillable="true" type="tns:ArrayOfCAB07_01DetailReportInfo" />
+  <xs:complexType name="CAB07_01DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CollectCount" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintTime" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="MRUId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PortionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remark" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB07_01DetailReportInfo" nillable="true" type="tns:CAB07_01DetailReportInfo" />
+  <xs:complexType name="ArrayOfCAB08_01DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CAB08_01DetailReportInfo" nillable="true" type="tns:CAB08_01DetailReportInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCAB08_01DetailReportInfo" nillable="true" type="tns:ArrayOfCAB08_01DetailReportInfo" />
+  <xs:complexType name="CAB08_01DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="SeqNo" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintPeriod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PortionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BookHolderId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SecurityDeposit" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalAmount" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB08_01DetailReportInfo" nillable="true" type="tns:CAB08_01DetailReportInfo" />
+  <xs:complexType name="ArrayOfCAB08_01AgencyInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CAB08_01AgencyInfo" nillable="true" type="tns:CAB08_01AgencyInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCAB08_01AgencyInfo" nillable="true" type="tns:ArrayOfCAB08_01AgencyInfo" />
+  <xs:complexType name="CAB08_01AgencyInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgentId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB08_01AgencyInfo" nillable="true" type="tns:CAB08_01AgencyInfo" />
+  <xs:complexType name="ArrayOfCAB09_01DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CAB09_01DetailReportInfo" nillable="true" type="tns:CAB09_01DetailReportInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCAB09_01DetailReportInfo" nillable="true" type="tns:ArrayOfCAB09_01DetailReportInfo" />
+  <xs:complexType name="CAB09_01DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="SeqNo" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PortionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BookCreateDay" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="MruList" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="AgencyIdList" nillable="true" type="q2:ArrayOfstring" />
+      <xs:element minOccurs="0" name="ActCaCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ActTotalAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PlanCaCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="PlanTotalAmount" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB09_01DetailReportInfo" nillable="true" type="tns:CAB09_01DetailReportInfo" />
+  <xs:complexType name="ArrayOfCAB08_02DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CAB08_02DetailReportInfo" nillable="true" type="tns:CAB08_02DetailReportInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCAB08_02DetailReportInfo" nillable="true" type="tns:ArrayOfCAB08_02DetailReportInfo" />
+  <xs:complexType name="CAB08_02DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="RowNo" type="xs:int" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PortionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SecurityDeposit" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CaCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BookCreateDay" nillable="true" type="xs:string" />
+      <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="MruList" nillable="true" type="q3:ArrayOfstring" />
+      <xs:element minOccurs="0" name="PlanCaCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="PlanTotalAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MruCount" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB08_02DetailReportInfo" nillable="true" type="tns:CAB08_02DetailReportInfo" />
+  <xs:complexType name="ArrayOfCAB10_01DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CAB10_01DetailReportInfo" nillable="true" type="tns:CAB10_01DetailReportInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCAB10_01DetailReportInfo" nillable="true" type="tns:ArrayOfCAB10_01DetailReportInfo" />
+  <xs:complexType name="CAB10_01DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="RowId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PortionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MeterReadDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="MeterReadActDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TransferDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TransferActDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="BillPrintDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="BillPrintActDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="BookCreatedDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="BookCreatedActDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="BookCheckInDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="BookCheckInActDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="AgencyId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MinMruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MaxMruId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB10_01DetailReportInfo" nillable="true" type="tns:CAB10_01DetailReportInfo" />
+  <xs:complexType name="EvaluateAgencyReportCondition">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchType" type="xs:int" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchFrom" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchTo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PeriodFrom" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PeriodTo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintPreview" type="xs:boolean" />
+      <xs:element minOccurs="0" name="BaCode" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EvaluateAgencyReportCondition" nillable="true" type="tns:EvaluateAgencyReportCondition" />
+  <xs:complexType name="ArrayOfCAB06_01DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CAB06_01DetailReportInfo" nillable="true" type="tns:CAB06_01DetailReportInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCAB06_01DetailReportInfo" nillable="true" type="tns:ArrayOfCAB06_01DetailReportInfo" />
+  <xs:complexType name="CAB06_01DetailReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AreaName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Area" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PeaCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PeaName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentPersonType" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="AgentCompanyType" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalAgent" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="KeepMore90Percent" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BillOut" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="AmountBillOut" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CanKeepBill" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalMoney" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BaseCommission" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SpacialCommission" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SendInvoice" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ExtraMoney" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AllTotalPaid" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="AllCanKeep" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="FirstBranch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LastBranch" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchLevel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchGroup" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB06_01DetailReportInfo" nillable="true" type="tns:CAB06_01DetailReportInfo" />
+  <xs:complexType name="CAB06_01HeaderReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartBranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartBranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EndBranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EndBranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PeriodStartMonth" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PeriodEndMonth" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PeriodYear" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalBillCollected" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalCommission" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PrintPreview" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB06_01HeaderReportInfo" nillable="true" type="tns:CAB06_01HeaderReportInfo" />
+  <xs:complexType name="CAB03_HeaderReportInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PrintDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Period" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyTaxNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillBookNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgencyName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintPreview" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAB03_HeaderReportInfo" nillable="true" type="tns:CAB03_HeaderReportInfo" />
+</xs:schema>

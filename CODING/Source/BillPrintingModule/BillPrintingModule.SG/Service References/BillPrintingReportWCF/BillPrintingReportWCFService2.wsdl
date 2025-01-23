@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:i0="http://tempuri.org" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="BillPrintingReportWCFService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://tempuri.org" location="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="BasicHttpBinding_IBillPrintingReportWCFService" type="i0:IBillPrintingReportWCFService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDailyPrintReport">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingReportWCFService/GetDailyPrintReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingReportWCFService_GetDailyPrintReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetDailyUnprintReport">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingReportWCFService/GetDailyUnprintReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingReportWCFService_GetDailyUnprintReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetBillDeliveryReport">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingReportWCFService/GetBillDeliveryReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingReportWCFService_GetBillDeliveryReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetStreetRouteReport">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingReportWCFService/GetStreetRouteReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingReportWCFService_GetStreetRouteReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetStreetRouteReceiveReport">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingReportWCFService/GetStreetRouteReceiveReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingReportWCFService_GetStreetRouteReceiveReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetStreetRouteUnreceiveReport">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingReportWCFService/GetStreetRouteUnreceiveReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingReportWCFService_GetStreetRouteUnreceiveReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetF16Report">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingReportWCFService/GetF16Report" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingReportWCFService_GetF16Report_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetBranchForBillDeliveryReport">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingReportWCFService/GetBranchForBillDeliveryReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingReportWCFService_GetBranchForBillDeliveryReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetGrpInvSummaryReport">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingReportWCFService/GetGrpInvSummaryReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingReportWCFService_GetGrpInvSummaryReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetBillingStatusReport">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingReportWCFService/GetBillingStatusReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingReportWCFService_GetBillingStatusReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrintGreenByBankReport">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingReportWCFService/GetPrintGreenByBankReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingReportWCFService_GetPrintGreenByBankReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetCAUnprintReport">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingReportWCFService/GetCAUnprintReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingReportWCFService_GetCAUnprintReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetDirectDebitStatusReport">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingReportWCFService/GetDirectDebitStatusReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingReportWCFService_GetDirectDebitStatusReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupingCrossCheckReport">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingReportWCFService/GetGroupingCrossCheckReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingReportWCFService_GetGroupingCrossCheckReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BillPrintingReportWCFService">
+    <wsdl:port name="BasicHttpBinding_IBillPrintingReportWCFService" binding="tns:BasicHttpBinding_IBillPrintingReportWCFService">
+      <soap:address location="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

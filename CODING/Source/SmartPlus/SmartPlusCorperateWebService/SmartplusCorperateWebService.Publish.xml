@@ -1,0 +1,38 @@
+<publishData>
+  <publishTarget publishUrl="C:\BPMPublish\PEA_SmartplusCorperate\">
+    <file relUrl="bin/SmartplusCorperateWebService.pdb" publishTime="04/21/2022 16:15:19" />
+    <file relUrl="bin/PEA.BPM.SmartPlus.Interface.dll" publishTime="04/21/2022 16:02:02" />
+    <file relUrl="bin/PEA.BPM.SmartPlus.SG.dll" publishTime="04/21/2022 16:02:03" />
+    <file relUrl="bin/PEA.BPM.SmartPlus.BS.pdb" publishTime="04/21/2022 16:02:03" />
+    <file relUrl="bin/PEA.BPM.SmartPlus.BS.dll" publishTime="04/21/2022 16:02:03" />
+    <file relUrl="bin/PEA.BPM.SmartPlus.DA.pdb" publishTime="04/21/2022 16:02:03" />
+    <file relUrl="bin/Microsoft.Practices.ObjectBuilder2.dll" publishTime="10/19/2021 15:56:09" />
+    <file relUrl="bin/Architecture.CommonUtilities.dll" publishTime="04/21/2022 16:01:55" />
+    <file relUrl="bin/PaymentCollectionModule.BS.XmlSerializers.dll" publishTime="04/21/2022 16:02:00" />
+    <file relUrl="bin/PEA.BPM.SmartPlus.SG.XmlSerializers.dll" publishTime="04/21/2022 16:02:03" />
+    <file relUrl="bin/PaymentCollectionModule.DA.dll" publishTime="04/21/2022 16:01:58" />
+    <file relUrl="bin/Architecture.ArchitectureInterface.dll" publishTime="04/21/2022 16:01:55" />
+    <file relUrl="bin/Avanade.ACA.Batch.dll" publishTime="04/21/2022 16:01:56" />
+    <file relUrl="bin/CashManagementModule.Interface.dll" publishTime="04/21/2022 16:01:55" />
+    <file relUrl="bin/PEA.BPM.SmartPlus.DA.dll" publishTime="04/21/2022 16:02:03" />
+    <file relUrl="Web.config" publishTime="04/21/2022 16:05:31" />
+    <file relUrl="SmartplusCorperateService.asmx" publishTime="04/21/2022 15:54:18" />
+    <file relUrl="bin/PaymentCollectionModule.BS.dll" publishTime="04/21/2022 16:02:00" />
+    <file relUrl="bin/Infrastructure.Interface.dll" publishTime="04/21/2022 16:01:55" />
+    <file relUrl="bin/AgencyManagementModule.Interface.dll" publishTime="04/21/2022 16:01:57" />
+    <file relUrl="bin/Microsoft.Practices.CompositeUI.dll" publishTime="10/19/2021 15:56:09" />
+    <file relUrl="bin/protobuf-net.dll" publishTime="10/19/2021 15:56:09" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll" publishTime="10/19/2021 15:56:09" />
+    <file relUrl="bin/PEA.BPM.SmartPlus.SG.pdb" publishTime="04/21/2022 16:02:03" />
+    <file relUrl="bin/Microsoft.Practices.ObjectBuilder.dll" publishTime="10/19/2021 15:56:09" />
+    <file relUrl="bin/SmartplusCorperateService.asmx.cs" publishTime="04/21/2022 16:15:13" />
+    <file relUrl="bin/SmartplusCorperateService.asmx" publishTime="04/21/2022 15:54:18" />
+    <file relUrl="bin/SmartplusCorperateWebService.dll" publishTime="04/21/2022 16:15:19" />
+    <file relUrl="bin/AgencyManagementModule.DA.dll" publishTime="04/21/2022 16:01:58" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll" publishTime="10/19/2021 15:56:09" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Logging.dll" publishTime="10/19/2021 15:56:09" />
+    <file relUrl="bin/PEA.BPM.SmartPlus.Interface.pdb" publishTime="04/21/2022 16:02:02" />
+    <file relUrl="bin/PaymentCollectionModule.Interface.dll" publishTime="04/21/2022 16:01:57" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll" publishTime="10/19/2021 15:56:09" />
+  </publishTarget>
+</publishData>

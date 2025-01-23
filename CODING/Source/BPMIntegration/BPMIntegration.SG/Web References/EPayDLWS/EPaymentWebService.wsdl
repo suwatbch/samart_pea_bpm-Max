@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetUpdateEPayClarify">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateEPayClarifyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateEPayClarifyResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CompressData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="OriginalSize" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="CompressSize" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Data" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AuthenInfo" type="tns:AuthenInfo" />
+      <s:complexType name="AuthenInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AuthToken" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="GetUpdateEPayUpload">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateEPayUploadResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateEPayUploadResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateEPayUploadItem">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateEPayUploadItemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateEPayUploadItemResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateRTEPayUploadPayment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateRTEPayUploadPaymentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateRTEPayUploadPaymentResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetUpdateEPayClarifySoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateEPayClarify" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateEPayClarifySoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateEPayClarifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateEPayClarifyAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateEPayUploadSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateEPayUpload" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateEPayUploadSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateEPayUploadResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateEPayUploadAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateEPayUploadItemSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateEPayUploadItem" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateEPayUploadItemSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateEPayUploadItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateEPayUploadItemAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateRTEPayUploadPaymentSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateRTEPayUploadPayment" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateRTEPayUploadPaymentSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateRTEPayUploadPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateRTEPayUploadPaymentAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:portType name="EPaymentWebServiceSoap">
+    <wsdl:operation name="GetUpdateEPayClarify">
+      <wsdl:input message="tns:GetUpdateEPayClarifySoapIn" />
+      <wsdl:output message="tns:GetUpdateEPayClarifySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateEPayUpload">
+      <wsdl:input message="tns:GetUpdateEPayUploadSoapIn" />
+      <wsdl:output message="tns:GetUpdateEPayUploadSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateEPayUploadItem">
+      <wsdl:input message="tns:GetUpdateEPayUploadItemSoapIn" />
+      <wsdl:output message="tns:GetUpdateEPayUploadItemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateRTEPayUploadPayment">
+      <wsdl:input message="tns:GetUpdateRTEPayUploadPaymentSoapIn" />
+      <wsdl:output message="tns:GetUpdateRTEPayUploadPaymentSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EPaymentWebServiceSoap" type="tns:EPaymentWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUpdateEPayClarify">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateEPayClarify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateEPayClarifyAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateEPayUpload">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateEPayUpload" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateEPayUploadAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateEPayUploadItem">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateEPayUploadItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateEPayUploadItemAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateRTEPayUploadPayment">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateRTEPayUploadPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateRTEPayUploadPaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EPaymentWebServiceSoap12" type="tns:EPaymentWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUpdateEPayClarify">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateEPayClarify" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateEPayClarifyAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateEPayUpload">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateEPayUpload" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateEPayUploadAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateEPayUploadItem">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateEPayUploadItem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateEPayUploadItemAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateRTEPayUploadPayment">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateRTEPayUploadPayment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateRTEPayUploadPaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EPaymentWebService">
+    <wsdl:port name="EPaymentWebServiceSoap" binding="tns:EPaymentWebServiceSoap">
+      <soap:address location="http://localhost/BPMIntegrationDownloadedService/EPaymentWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EPaymentWebServiceSoap12" binding="tns:EPaymentWebServiceSoap12">
+      <soap12:address location="http://localhost/BPMIntegrationDownloadedService/EPaymentWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

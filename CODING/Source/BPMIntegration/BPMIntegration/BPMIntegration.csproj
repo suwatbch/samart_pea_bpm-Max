@@ -1,0 +1,232 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B3C154F0-30C4-45E6-895F-E3BE31817ACE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PEA.BPM.Integration.BPMIntegration</RootNamespace>
+    <AssemblyName>PEA.BPM.Integration.BPMIntegration</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BPMSAPConnector, Version=1.0.3180.21389, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\BPMSAPConnector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.75.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=4.1.7.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="SAP.Connector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=50436dca5c7f7d23">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\SAP.Connector.dll</HintPath>
+    </Reference>
+    <Reference Include="SAP.Connector.Rfc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=50436dca5c7f7d23">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\SAP.Connector.Rfc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BPMServerBatch\BPMServerBatchHelper.cs" />
+    <Compile Include="BPMServerBatch\DL004_TRANSACTION_JOB.cs" />
+    <Compile Include="BPMServerBatch\DL001_ISOLATE_JOB.cs" />
+    <Compile Include="BPMServerBatch\DL002_MASTER_JOB.cs" />
+    <Compile Include="BPMServerBatch\DL003_BILLING_JOB.cs" />
+    <Compile Include="BPMServerBatch\DL005_PAYFROMSAP_JOB.cs" />
+    <Compile Include="BPMServerBatch\DL006_DIRECTDEBIT_JOB.cs" />
+    <Compile Include="BPMServerBatch\DL007_EXPORT_TO_SAP_JOB.cs" />
+    <Compile Include="BPMServerBatch\DL008_EXPORT_AG_TO_SAP_JOB.cs" />
+    <Compile Include="BPMServerBatch\DL009_EXPORT_RECON_JOB.cs" />
+    <Compile Include="BPMServerBatch\DL010_EXPORT_BILLBOOK_INVOICE_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL021_MASTER2_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL101_UPLOAD_EPAYMENT_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL061_EPAYMENT_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL071_UPLOAD_MASTER_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL120_UPLOAD_BILLING_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL091_UPLOAD_CASH_MANAGEMENT_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL080_UPLOAD_AP_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL051_CASH_MANAGEMENT_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL130_UPLOAD_AG_COMPENSATION_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL140_EXPORT_RECON_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL200_UPLOAD_EXPORT_TABLE_JOB.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IntegrationFileNames.cs" />
+    <Compile Include="SAPFile.cs" />
+    <Compile Include="SAPPort.cs" />
+    <Compile Include="BranchServerBatch\DL010_ISOLATE_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL020_MASTER_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL030_BILLING_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL040_AR_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL050_PAYMENT_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL060_AGENCY_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL090_UPLOAD_PAYMENT_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL070_TECHNICAL_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL100_UPLOAD_AGENCY_JOB.cs" />
+    <Compile Include="BranchServerBatch\DL110_UPLOAD_TECHNICAL_JOB.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AcaBatch\Avanade.ACA.Batch\Avanade.ACA.Batch.csproj">
+      <Project>{44CBE5C3-8E12-4155-83DB-9DD2CB38454F}</Project>
+      <Name>Avanade.ACA.Batch</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\ArchitectureBS\ArchitectureBS.csproj">
+      <Project>{D4B68335-4ADF-4034-9C18-31373DFD2F09}</Project>
+      <Name>ArchitectureBS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\ArchitectureInterface\ArchitectureInterface.csproj">
+      <Project>{7939F32D-01C5-45B5-A545-3EEE99017A7E}</Project>
+      <Name>ArchitectureInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\ArchitectureTool\ArchitectureTool.csproj">
+      <Project>{CD6283A4-2D09-4DB4-9354-7AC912A8C9D5}</Project>
+      <Name>ArchitectureTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\CommonUtilities\CommonUtilities.csproj">
+      <Project>{1A6B6E40-2DD5-4CB8-B766-B61AA237701B}</Project>
+      <Name>CommonUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ACABatchService\ACABatchService.csproj">
+      <Project>{67620024-46C8-48D1-AB35-2B55F72519CB}</Project>
+      <Name>ACABatchService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BPMIntegration.BS\BPMIntegration.BS.csproj">
+      <Project>{9936F7A9-49BC-45AD-9B6C-C5963DEE0938}</Project>
+      <Name>BPMIntegration.BS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BPMIntegration.Interface\BPMIntegration.Interface.csproj">
+      <Project>{43400EDC-9B10-4F64-B7C8-3BC6413F89A8}</Project>
+      <Name>BPMIntegration.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BPMIntegration.SG\BPMIntegration.SG.csproj">
+      <Project>{DFB60576-E1F9-45D8-8E0F-D2FBE3213EE1}</Project>
+      <Name>BPMIntegration.SG</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

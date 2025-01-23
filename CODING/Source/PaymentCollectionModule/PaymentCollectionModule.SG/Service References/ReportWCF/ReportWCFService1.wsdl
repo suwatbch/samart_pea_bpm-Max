@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/POS/ReportWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/POS/ReportWCFService.svc?xsd=xsd4" />
+      <xsd:import schemaLocation="http://localhost/BPMService/POS/ReportWCFService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/POS/ReportWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/POS/ReportWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports" />
+      <xsd:import schemaLocation="http://localhost/BPMService/POS/ReportWCFService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IReportWCFService_GetReportCAC01_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC01_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC01_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC01_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC01_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC01_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC03_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC03_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC03_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC03_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC03_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC03_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC04_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC04_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC04_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC04_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC04_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC04_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC05_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC05_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC05_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC05_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC05_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC05_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC06_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC06_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC06_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC06_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC06_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC06_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC07_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC07_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC07_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC07_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC07_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC07_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC09_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC09_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC09_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC09_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC09_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC09_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC11_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC11_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC11_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC11_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC11_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC11_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q8:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC12_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC12_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC12_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC12_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC12_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC12_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q9:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC13_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC13_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC13_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC13_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC13_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC13_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q10:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC14_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC14_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC14_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC14_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportCAC14_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportWCFService_GetReportCAC14_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q11:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="IReportWCFService">
+    <wsdl:operation name="GetReportCAC01_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC01_Compress" message="tns:IReportWCFService_GetReportCAC01_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC01_CompressResponse" message="tns:IReportWCFService_GetReportCAC01_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC01_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportWCFService_GetReportCAC01_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC03_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC03_Compress" message="tns:IReportWCFService_GetReportCAC03_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC03_CompressResponse" message="tns:IReportWCFService_GetReportCAC03_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC03_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportWCFService_GetReportCAC03_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC04_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC04_Compress" message="tns:IReportWCFService_GetReportCAC04_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC04_CompressResponse" message="tns:IReportWCFService_GetReportCAC04_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC04_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportWCFService_GetReportCAC04_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC05_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC05_Compress" message="tns:IReportWCFService_GetReportCAC05_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC05_CompressResponse" message="tns:IReportWCFService_GetReportCAC05_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC05_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportWCFService_GetReportCAC05_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC06_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC06_Compress" message="tns:IReportWCFService_GetReportCAC06_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC06_CompressResponse" message="tns:IReportWCFService_GetReportCAC06_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC06_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportWCFService_GetReportCAC06_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC07_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC07_Compress" message="tns:IReportWCFService_GetReportCAC07_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC07_CompressResponse" message="tns:IReportWCFService_GetReportCAC07_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC07_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportWCFService_GetReportCAC07_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC09_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC09_Compress" message="tns:IReportWCFService_GetReportCAC09_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC09_CompressResponse" message="tns:IReportWCFService_GetReportCAC09_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC09_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportWCFService_GetReportCAC09_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC11_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC11_Compress" message="tns:IReportWCFService_GetReportCAC11_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC11_CompressResponse" message="tns:IReportWCFService_GetReportCAC11_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC11_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportWCFService_GetReportCAC11_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC12_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC12_Compress" message="tns:IReportWCFService_GetReportCAC12_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC12_CompressResponse" message="tns:IReportWCFService_GetReportCAC12_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC12_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportWCFService_GetReportCAC12_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC13_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC13_Compress" message="tns:IReportWCFService_GetReportCAC13_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC13_CompressResponse" message="tns:IReportWCFService_GetReportCAC13_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC13_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportWCFService_GetReportCAC13_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportCAC14_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC14_Compress" message="tns:IReportWCFService_GetReportCAC14_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC14_CompressResponse" message="tns:IReportWCFService_GetReportCAC14_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportWCFService/GetReportCAC14_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportWCFService_GetReportCAC14_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?xsd=xsd5" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.BillPrintingModule.Interface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/BillPrintingReportWCFService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IBillPrintingReportWCFService_GetDailyPrintReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDailyPrintReport" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetDailyPrintReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetDailyPrintReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDailyPrintReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetDailyPrintReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetDailyUnprintReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDailyUnprintReport" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetDailyUnprintReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetDailyUnprintReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDailyUnprintReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetDailyUnprintReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetBillDeliveryReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillDeliveryReport" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetBillDeliveryReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetBillDeliveryReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillDeliveryReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetBillDeliveryReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetStreetRouteReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStreetRouteReport" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetStreetRouteReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetStreetRouteReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStreetRouteReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetStreetRouteReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetStreetRouteReceiveReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStreetRouteReceiveReport" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetStreetRouteReceiveReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetStreetRouteReceiveReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStreetRouteReceiveReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetStreetRouteReceiveReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetStreetRouteUnreceiveReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStreetRouteUnreceiveReport" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetStreetRouteUnreceiveReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetStreetRouteUnreceiveReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStreetRouteUnreceiveReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetStreetRouteUnreceiveReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetF16Report_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetF16Report" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetF16Report_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetF16Report_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetF16ReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetF16Report_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetBranchForBillDeliveryReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBranchForBillDeliveryReport" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetBranchForBillDeliveryReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetBranchForBillDeliveryReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBranchForBillDeliveryReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetBranchForBillDeliveryReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q8:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetGrpInvSummaryReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGrpInvSummaryReport" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetGrpInvSummaryReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetGrpInvSummaryReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGrpInvSummaryReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetGrpInvSummaryReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q9:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetBillingStatusReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillingStatusReport" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetBillingStatusReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetBillingStatusReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillingStatusReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetBillingStatusReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q10:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetPrintGreenByBankReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrintGreenByBankReport" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetPrintGreenByBankReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetPrintGreenByBankReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrintGreenByBankReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetPrintGreenByBankReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q11:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetCAUnprintReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCAUnprintReport" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetCAUnprintReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetCAUnprintReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCAUnprintReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetCAUnprintReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q12:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetDirectDebitStatusReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDirectDebitStatusReport" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetDirectDebitStatusReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetDirectDebitStatusReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDirectDebitStatusReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetDirectDebitStatusReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q13="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q13:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetGroupingCrossCheckReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupingCrossCheckReport" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetGroupingCrossCheckReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetGroupingCrossCheckReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupingCrossCheckReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingReportWCFService_GetGroupingCrossCheckReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q14:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="IBillPrintingReportWCFService">
+    <wsdl:operation name="GetDailyPrintReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetDailyPrintReport" message="tns:IBillPrintingReportWCFService_GetDailyPrintReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetDailyPrintReportResponse" message="tns:IBillPrintingReportWCFService_GetDailyPrintReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetDailyPrintReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingReportWCFService_GetDailyPrintReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDailyUnprintReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetDailyUnprintReport" message="tns:IBillPrintingReportWCFService_GetDailyUnprintReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetDailyUnprintReportResponse" message="tns:IBillPrintingReportWCFService_GetDailyUnprintReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetDailyUnprintReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingReportWCFService_GetDailyUnprintReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillDeliveryReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetBillDeliveryReport" message="tns:IBillPrintingReportWCFService_GetBillDeliveryReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetBillDeliveryReportResponse" message="tns:IBillPrintingReportWCFService_GetBillDeliveryReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetBillDeliveryReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingReportWCFService_GetBillDeliveryReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStreetRouteReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetStreetRouteReport" message="tns:IBillPrintingReportWCFService_GetStreetRouteReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetStreetRouteReportResponse" message="tns:IBillPrintingReportWCFService_GetStreetRouteReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetStreetRouteReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingReportWCFService_GetStreetRouteReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStreetRouteReceiveReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetStreetRouteReceiveReport" message="tns:IBillPrintingReportWCFService_GetStreetRouteReceiveReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetStreetRouteReceiveReportResponse" message="tns:IBillPrintingReportWCFService_GetStreetRouteReceiveReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetStreetRouteReceiveReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingReportWCFService_GetStreetRouteReceiveReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStreetRouteUnreceiveReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetStreetRouteUnreceiveReport" message="tns:IBillPrintingReportWCFService_GetStreetRouteUnreceiveReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetStreetRouteUnreceiveReportResponse" message="tns:IBillPrintingReportWCFService_GetStreetRouteUnreceiveReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetStreetRouteUnreceiveReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingReportWCFService_GetStreetRouteUnreceiveReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetF16Report">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetF16Report" message="tns:IBillPrintingReportWCFService_GetF16Report_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetF16ReportResponse" message="tns:IBillPrintingReportWCFService_GetF16Report_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetF16ReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingReportWCFService_GetF16Report_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBranchForBillDeliveryReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetBranchForBillDeliveryReport" message="tns:IBillPrintingReportWCFService_GetBranchForBillDeliveryReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetBranchForBillDeliveryReportResponse" message="tns:IBillPrintingReportWCFService_GetBranchForBillDeliveryReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetBranchForBillDeliveryReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingReportWCFService_GetBranchForBillDeliveryReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGrpInvSummaryReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetGrpInvSummaryReport" message="tns:IBillPrintingReportWCFService_GetGrpInvSummaryReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetGrpInvSummaryReportResponse" message="tns:IBillPrintingReportWCFService_GetGrpInvSummaryReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetGrpInvSummaryReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingReportWCFService_GetGrpInvSummaryReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillingStatusReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetBillingStatusReport" message="tns:IBillPrintingReportWCFService_GetBillingStatusReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetBillingStatusReportResponse" message="tns:IBillPrintingReportWCFService_GetBillingStatusReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetBillingStatusReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingReportWCFService_GetBillingStatusReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPrintGreenByBankReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetPrintGreenByBankReport" message="tns:IBillPrintingReportWCFService_GetPrintGreenByBankReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetPrintGreenByBankReportResponse" message="tns:IBillPrintingReportWCFService_GetPrintGreenByBankReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetPrintGreenByBankReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingReportWCFService_GetPrintGreenByBankReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCAUnprintReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetCAUnprintReport" message="tns:IBillPrintingReportWCFService_GetCAUnprintReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetCAUnprintReportResponse" message="tns:IBillPrintingReportWCFService_GetCAUnprintReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetCAUnprintReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingReportWCFService_GetCAUnprintReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDirectDebitStatusReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetDirectDebitStatusReport" message="tns:IBillPrintingReportWCFService_GetDirectDebitStatusReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetDirectDebitStatusReportResponse" message="tns:IBillPrintingReportWCFService_GetDirectDebitStatusReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetDirectDebitStatusReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingReportWCFService_GetDirectDebitStatusReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupingCrossCheckReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetGroupingCrossCheckReport" message="tns:IBillPrintingReportWCFService_GetGroupingCrossCheckReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetGroupingCrossCheckReportResponse" message="tns:IBillPrintingReportWCFService_GetGroupingCrossCheckReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingReportWCFService/GetGroupingCrossCheckReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingReportWCFService_GetGroupingCrossCheckReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

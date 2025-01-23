@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="UploadEPayClarify">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CompressData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="OriginalSize" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="CompressSize" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Data" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UploadEPayClarifyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadEPayClarifyResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthenInfo" type="tns:AuthenInfo" />
+      <s:complexType name="AuthenInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AuthToken" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="UploadEPayClarifySoapIn">
+    <wsdl:part name="parameters" element="tns:UploadEPayClarify" />
+  </wsdl:message>
+  <wsdl:message name="UploadEPayClarifySoapOut">
+    <wsdl:part name="parameters" element="tns:UploadEPayClarifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadEPayClarifyAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:portType name="EPaymentWebServiceSoap">
+    <wsdl:operation name="UploadEPayClarify">
+      <wsdl:input message="tns:UploadEPayClarifySoapIn" />
+      <wsdl:output message="tns:UploadEPayClarifySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EPaymentWebServiceSoap" type="tns:EPaymentWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadEPayClarify">
+      <soap:operation soapAction="http://tempuri.org/UploadEPayClarify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadEPayClarifyAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EPaymentWebServiceSoap12" type="tns:EPaymentWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadEPayClarify">
+      <soap12:operation soapAction="http://tempuri.org/UploadEPayClarify" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadEPayClarifyAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EPaymentWebService">
+    <wsdl:port name="EPaymentWebServiceSoap" binding="tns:EPaymentWebServiceSoap">
+      <soap:address location="http://localhost/BPMIntegrationUploadedService/EPaymentWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EPaymentWebServiceSoap12" binding="tns:EPaymentWebServiceSoap12">
+      <soap12:address location="http://localhost/BPMIntegrationUploadedService/EPaymentWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

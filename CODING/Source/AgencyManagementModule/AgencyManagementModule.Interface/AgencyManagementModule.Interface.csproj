@@ -1,0 +1,273 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{068B2144-9978-458D-AE79-92935C846C71}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PEA.BPM.AgencyManagementModule.Interface</RootNamespace>
+    <AssemblyName>AgencyManagementModule.Interface</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="protobuf-net, Version=1.0.0.280, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessEntities\AccountReceiveInfo.cs" />
+    <Compile Include="BusinessEntities\AgencyBillCollectionDetailReport.cs" />
+    <Compile Include="BusinessEntities\AgencyBillCollectionMasterReport.cs" />
+    <Compile Include="BusinessEntities\AgencyBookDepositAmountInfo.cs" />
+    <Compile Include="BusinessEntities\BillBookCheckInDetailSummaryInfo.cs" />
+    <Compile Include="BusinessEntities\BillBookLineSummaryInfo.cs" />
+    <Compile Include="BusinessEntities\BillBookPaymentSummaryInfo.cs" />
+    <Compile Include="BusinessEntities\CAB02_DetailReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB02_HederReportInfo.cs" />
+    <Compile Include="BusinessEntities\AgentInfo.cs" />
+    <Compile Include="BusinessEntities\AgentId.cs" />
+    <Compile Include="BusinessEntities\BillBookCommissionBranchInfo.cs" />
+    <Compile Include="BusinessEntities\BillBookPrePaidInfo.cs" />
+    <Compile Include="BusinessEntities\BranchIdInfoItem.cs" />
+    <Compile Include="BusinessEntities\CAB03_02DetailReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB03_02ReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB03_03ReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB03_04ReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB03_DetailReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB04_03HeaderReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB05_01ConditionReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB05_01DetailReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB05_01HeaderReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB12_01ConditionReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB12_01DetailReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB12_01HeaderReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB12_02DetailReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB13_01ConditionRptInfo.cs.cs" />
+    <Compile Include="BusinessEntities\CAN34_01CondtionReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAN34_01DetailReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAN34_01HeaderReportInfo.cs" />
+    <Compile Include="BusinessEntities\CBillBookBatchInfo.cs" />
+    <Compile Include="BusinessEntities\CBillStatusBatchInfo.cs" />
+    <Compile Include="BusinessEntities\CCommissionCalBatchInfo.cs" />
+    <Compile Include="BusinessEntities\CContractAccountBatchInfo.cs" />
+    <Compile Include="BusinessEntities\CMruBatchInfo.cs" />
+    <Compile Include="BusinessEntities\CommissionHistoryInfo.cs" />
+    <Compile Include="BusinessEntities\CommissionInfo.cs" />
+    <Compile Include="BusinessEntities\CAB03_HeaderReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB08_01DetailReportInfo.cs" />
+    <Compile Include="BusinessEntities\AgentSearchInfo.cs" />
+    <Compile Include="BusinessEntities\ARPaymentInfo.cs" />
+    <Compile Include="BusinessEntities\ARPaymentTypeInfo.cs" />
+    <Compile Include="BusinessEntities\BillBookAmountSumInfo.cs" />
+    <Compile Include="BusinessEntities\BillBookCheckinDetailInfo.cs" />
+    <Compile Include="BusinessEntities\BillBookCreationExtraInfo.cs" />
+    <Compile Include="BusinessEntities\BillBookCreationInfo.cs" />
+    <Compile Include="BusinessEntities\BillBookHeaderInfo.cs" />
+    <Compile Include="BusinessEntities\BillBookInfoDetailReport.cs" />
+    <Compile Include="BusinessEntities\BillBookCheckInInfo.cs" />
+    <Compile Include="BusinessEntities\BillBookInfoMasterReport.cs" />
+    <Compile Include="BusinessEntities\BillbookInfoReprint.cs" />
+    <Compile Include="BusinessEntities\BillBookItemListInputInfo.cs" />
+    <Compile Include="BusinessEntities\BillBookLineCheckInInfo.cs" />
+    <Compile Include="BusinessEntities\BillBookDetailReportListInfo.cs" />
+    <Compile Include="BusinessEntities\BillBookPaymentStatusInfo.cs" />
+    <Compile Include="BusinessEntities\BillBookSearchDetail.cs" />
+    <Compile Include="BusinessEntities\BillBookSearchSavedDetail.cs" />
+    <Compile Include="BusinessEntities\BillDetailOfKeepMoneyPlanInfo.cs" />
+    <Compile Include="BusinessEntities\BillInfoForPrint.cs" />
+    <Compile Include="BusinessEntities\BillInfoInEachBillBookIdInfo.cs" />
+    <Compile Include="BusinessEntities\BillPasteReportInfo.cs" />
+    <Compile Include="BusinessEntities\BillStatusInfo.cs" />
+    <Compile Include="BusinessEntities\BookSearchInfo.cs" />
+    <Compile Include="BusinessEntities\BooniesCommissionInfo.cs" />
+    <Compile Include="BusinessEntities\CalculatedCommissionInfo.cs" />
+    <Compile Include="BusinessEntities\CallingBillInfo.cs" />
+    <Compile Include="BusinessEntities\CallingBillViewSummaryFooterInfo.cs" />
+    <Compile Include="BusinessEntities\CallingOtherBillInfo.cs" />
+    <Compile Include="BusinessEntities\CheckInBillBookConditionInfoReport.cs" />
+    <Compile Include="BusinessEntities\ChequeInfo.cs" />
+    <Compile Include="BusinessEntities\DepositBillBookAmountInfo.cs" />
+    <Compile Include="BusinessEntities\EvaluateAgencyCounter.cs" />
+    <Compile Include="BusinessEntities\EvaluateAgencyInfo.cs" />
+    <Compile Include="BusinessEntities\EvaluateAgencyReportCondition.cs" />
+    <Compile Include="BusinessEntities\CAB06_01HeaderReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB06_01DetailReportInfo.cs" />
+    <Compile Include="BusinessEntities\EvaluateTotalBillInfo.cs" />
+    <Compile Include="BusinessEntities\FineBookInfo.cs" />
+    <Compile Include="BusinessEntities\FineInBookInfo.cs" />
+    <Compile Include="BusinessEntities\GroupInvoiceListInfo.cs" />
+    <Compile Include="BusinessEntities\HashInfo.cs" />
+    <Compile Include="BusinessEntities\HashInfoCollection.cs" />
+    <Compile Include="BusinessEntities\FineSummaryInfo.cs" />
+    <Compile Include="BusinessEntities\KeepMoneyPlaneHeaderInfoReport.cs" />
+    <Compile Include="BusinessEntities\KeepMoneyPlaneOfAgencyConditionInfoReport.cs" />
+    <Compile Include="BusinessEntities\CAB07_01DetailReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB09_01DetailReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB08_02DetailReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB10_01DetailReportInfo.cs" />
+    <Compile Include="BusinessEntities\CAB08_01AgencyInfo.cs" />
+    <Compile Include="BusinessEntities\LineSearchBoxInfo.cs" />
+    <Compile Include="BusinessEntities\CollectionLocation.cs" />
+    <Compile Include="BusinessEntities\CommissionBaseInfo.cs" />
+    <Compile Include="BusinessEntities\CommissionBaseTotalInfo.cs" />
+    <Compile Include="BusinessEntities\CommissionRateInfo.cs" />
+    <Compile Include="BusinessEntities\CommissionRegistInfoReport.cs" />
+    <Compile Include="BusinessEntities\CAB04_03DetailReportInfo.cs" />
+    <Compile Include="BusinessEntities\CommissionReportDetailInfo.cs" />
+    <Compile Include="BusinessEntities\CommissionSubReportDetailInfo.cs" />
+    <Compile Include="BusinessEntities\CommissionVoucherInfoReport.cs" />
+    <Compile Include="BusinessEntities\CustomerSearchInfo.cs" />
+    <Compile Include="BusinessEntities\FineDetailInfo.cs" />
+    <Compile Include="BusinessEntities\FineInfo.cs" />
+    <Compile Include="BusinessEntities\HelpOfferInfo.cs" />
+    <Compile Include="BusinessEntities\InBoundCollectionInfo.cs" />
+    <Compile Include="BusinessEntities\LineSearchInfo.cs" />
+    <Compile Include="BusinessEntities\PA_7034ConditionReportInfo.cs" />
+    <Compile Include="BusinessEntities\PA_7034DetailReportInfo.cs" />
+    <Compile Include="BusinessEntities\PA_7034HeaderReportInfo.cs" />
+    <Compile Include="BusinessEntities\ReportParameterInfo.cs" />
+    <Compile Include="BusinessEntities\PaymentInfo.cs" />
+    <Compile Include="BusinessEntities\PeaInfo.cs" />
+    <Compile Include="BusinessEntities\LineInfo.cs" />
+    <Compile Include="BusinessEntities\CollectionPortionID.cs" />
+    <Compile Include="BusinessEntities\CustomerDetail.cs" />
+    <Compile Include="BusinessEntities\CustomerType.cs" />
+    <Compile Include="BusinessEntities\FeeBaseElement.cs" />
+    <Compile Include="BusinessEntities\CallingBillSummaryInfo.cs" />
+    <Compile Include="BusinessEntities\InvoiceCommissionInfo.cs" />
+    <Compile Include="BusinessEntities\RTARPaymentTypeARPaymentInfo.cs" />
+    <Compile Include="BusinessEntities\RTBillBookARInfo.cs" />
+    <Compile Include="BusinessEntities\SaveCommissionInfo.cs" />
+    <Compile Include="BusinessEntities\TravelHelpRate.cs" />
+    <Compile Include="BusinessEntities\SpecialCommissionCalInfo.cs" />
+    <Compile Include="BusinessEntities\SpecialCommissionInfo.cs" />
+    <Compile Include="BusinessEntities\CommissionVoucherConditionPrintReport.cs" />
+    <Compile Include="BusinessEntities\ReturnBillBookBillPasteStatusReportInfo.cs" />
+    <Compile Include="BusinessEntities\TravelHelpRateConditionInfo.cs" />
+    <Compile Include="BusinessEntities\TaxCalculationInfo.cs" />
+    <Compile Include="BusinessEntities\TaxInfo.cs" />
+    <Compile Include="BusinessEntities\TotBillItemAndAmountGroupByBillBookInfo.cs" />
+    <Compile Include="BusinessEntities\CAB13_01RptInfo.cs" />
+    <Compile Include="Constants\AgencyEnum.cs" />
+    <Compile Include="Constants\CodeName.cs" />
+    <Compile Include="Constants\CommandNames.cs" />
+    <Compile Include="Constants\EventTopicNames.cs" />
+    <Compile Include="Constants\ModuleConfigurationNames.cs" />
+    <Compile Include="Constants\SecurityNames.cs" />
+    <Compile Include="Constants\UIExtensionSiteNames.cs" />
+    <Compile Include="Constants\WorkspaceNames.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\IAgencyRepository.cs" />
+    <Compile Include="Services\IAgencyModuleConfigService.cs" />
+    <Compile Include="Services\IAgencyCommonService.cs" />
+    <Compile Include="Services\IAgencyPlanningService.cs" />
+    <Compile Include="Services\IBillBookCheckInService.cs" />
+    <Compile Include="Services\IBillBookRepository.cs" />
+    <Compile Include="Services\ICommissionRepository.cs" />
+    <Compile Include="Services\ICommissionMgtService.cs" />
+    <Compile Include="Services\ICreateBillbookService.cs" />
+    <Compile Include="Services\IReportMgtService.cs" />
+    <Compile Include="BusinessEntities\SummaryBillViewSummaryFooterInfo.cs" />
+    <Compile Include="Services\IReportRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Architecture\ArchitectureInterface\ArchitectureInterface.csproj">
+      <Project>{7939F32D-01C5-45B5-A545-3EEE99017A7E}</Project>
+      <Name>ArchitectureInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\CommonUtilities\CommonUtilities.csproj">
+      <Project>{1A6B6E40-2DD5-4CB8-B766-B61AA237701B}</Project>
+      <Name>CommonUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Infrastructure.Interface\Infrastructure.Interface.csproj">
+      <Project>{A6E71DBF-A767-416C-9DE4-15AEFC619BAF}</Project>
+      <Name>Infrastructure.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

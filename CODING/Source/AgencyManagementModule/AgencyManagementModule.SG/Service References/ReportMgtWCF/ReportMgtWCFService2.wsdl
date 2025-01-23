@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?xsd=xsd3" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?xsd=xsd6" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_Header_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB03_Header_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_Header_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_Header_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB03_Header_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_Header_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_Detail_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB03_Detail" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_Detail_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_Detail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB03_DetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_Detail_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_Detail_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB03_Detail_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_Detail_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_Detail_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB03_Detail_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_Detail_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB04_03Header_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB04_03Header" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB04_03Header_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB04_03Header_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB04_03HeaderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB04_03Header_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB04_03Header_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB04_03Header_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB04_03Header_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB04_03Header_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB04_03Header_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB04_03Header_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB05_01Detail_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB05_01Detail" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB05_01Detail_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB05_01Detail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB05_01DetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB05_01Detail_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB05_01Detail_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB05_01Detail_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB05_01Detail_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB05_01Detail_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB05_01Detail_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB05_01Detail_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayPA_7034Detail_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayPA_7034Detail" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayPA_7034Detail_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayPA_7034Detail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayPA_7034DetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayPA_7034Detail_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q8:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayPA_7034Detail_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayPA_7034Detail_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayPA_7034Detail_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayPA_7034Detail_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayPA_7034Detail_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayPA_7034Detail_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q9:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_01Detail_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB12_01Detail" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_01Detail_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_01Detail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB12_01DetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_01Detail_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q10:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_01Detail_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB12_01Detail_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_01Detail_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_01Detail_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB12_01Detail_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_01Detail_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q11:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_01Header_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB12_01Header" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_01Header_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_01Header_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB12_01HeaderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_01Header_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q12:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_01Header_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB12_01Header_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_01Header_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_01Header_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB12_01Header_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_01Header_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q13="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q13:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAN34_01Detail_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAN34_01Detail" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAN34_01Detail_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAN34_01Detail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAN34_01DetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAN34_01Detail_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q14:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAN34_01Detail_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAN34_01Detail_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAN34_01Detail_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAN34_01Detail_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAN34_01Detail_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAN34_01Detail_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q15="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q15:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillKeeperNameByBillBook_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillKeeperNameByBillBook" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillKeeperNameByBillBook_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillKeeperNameByBillBook_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillKeeperNameByBillBookResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillKeeperNameByBillBook_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q16="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q16:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetIntownReceive_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIntownReceive" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetIntownReceive_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetIntownReceive_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIntownReceiveResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetIntownReceive_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q17="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q17:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_02Detail_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB12_02Detail" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_02Detail_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_02Detail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB12_02DetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_02Detail_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q18="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q18:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_02Detail_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB12_02Detail_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_02Detail_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_02Detail_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB12_02Detail_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB12_02Detail_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q19="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q19:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_02Report_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB03_02Report_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_02Report_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_02Report_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB03_02Report_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_02Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q20="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q20:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_03Report_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB03_03Report_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_03Report_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_03Report_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB03_03Report_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_03Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q21="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q21:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_04Report_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB03_04Report_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_04Report_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_04Report_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB03_04Report_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_04Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q22="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q22:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookInfoReport_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookInfoReport_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookInfoReport_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookInfoReport_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookInfoReport_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookInfoReport_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q23="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q23:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetRptCAB13_01RptInfo_Commpress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRptCAB13_01RptInfo_Commpress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetRptCAB13_01RptInfo_Commpress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetRptCAB13_01RptInfo_Commpress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRptCAB13_01RptInfo_CommpressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetRptCAB13_01RptInfo_Commpress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q24="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q24:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookDetailReportList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookDetailReportList" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookDetailReportList_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookDetailReportList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookDetailReportListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookDetailReportList_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q25="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q25:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookDetailReportList_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookDetailReportList_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookDetailReportList_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookDetailReportList_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookDetailReportList_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookDetailReportList_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q26="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q26:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookInfoDetailReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookInfoDetailReport" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookInfoDetailReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookInfoDetailReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookInfoDetailReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookInfoDetailReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q27="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q27:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookInfoDetailReport_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookInfoDetailReport_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookInfoDetailReport_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookInfoDetailReport_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookInfoDetailReport_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetBillBookInfoDetailReport_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q28="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q28:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAgencyMoneyReturnReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgencyMoneyReturnReport" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAgencyMoneyReturnReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAgencyMoneyReturnReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgencyMoneyReturnReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAgencyMoneyReturnReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q29="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q29:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAgencyMoneyReturnReport_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgencyMoneyReturnReport_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAgencyMoneyReturnReport_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAgencyMoneyReturnReport_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgencyMoneyReturnReport_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAgencyMoneyReturnReport_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q30="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q30:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAgencyBillCollectionReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgencyBillCollectionReport" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAgencyBillCollectionReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAgencyBillCollectionReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgencyBillCollectionReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAgencyBillCollectionReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q31="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q31:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAgencyBillCollectionReport_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgencyBillCollectionReport_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAgencyBillCollectionReport_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAgencyBillCollectionReport_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgencyBillCollectionReport_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAgencyBillCollectionReport_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q32="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q32:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAdvPaidByBillBookId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdvPaidByBillBookId" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAdvPaidByBillBookId_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAdvPaidByBillBookId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdvPaidByBillBookIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_GetAdvPaidByBillBookId_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q33="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q33:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayAgencyCommissionReportInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayAgencyCommissionReportInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayAgencyCommissionReportInfo_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayAgencyCommissionReportInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayAgencyCommissionReportInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayAgencyCommissionReportInfo_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q34="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q34:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayAgencyCommissionReportInfo_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayAgencyCommissionReportInfo_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayAgencyCommissionReportInfo_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayAgencyCommissionReportInfo_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayAgencyCommissionReportInfo_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayAgencyCommissionReportInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q35="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q35:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayAgencyCommissionRegistryReportInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayAgencyCommissionRegistryReportInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayAgencyCommissionRegistryReportInfo_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayAgencyCommissionRegistryReportInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayAgencyCommissionRegistryReportInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayAgencyCommissionRegistryReportInfo_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q36="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q36:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayAgencyCommissionRegistryReportInfo_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayAgencyCommissionRegistryReportInfo_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayAgencyCommissionRegistryReportInfo_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayAgencyCommissionRegistryReportInfo_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayAgencyCommissionRegistryReportInfo_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayAgencyCommissionRegistryReportInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q37="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q37:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindCommissionRegistryDetailReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindCommissionRegistryDetailReport" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindCommissionRegistryDetailReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindCommissionRegistryDetailReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindCommissionRegistryDetailReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindCommissionRegistryDetailReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q38="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q38:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindCommissionRegistryDetailReport_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindCommissionRegistryDetailReport_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindCommissionRegistryDetailReport_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindCommissionRegistryDetailReport_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindCommissionRegistryDetailReport_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindCommissionRegistryDetailReport_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q39="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q39:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayPasteBillStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayPasteBillStatus" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayPasteBillStatus_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayPasteBillStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayPasteBillStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayPasteBillStatus_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q40="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q40:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayPasteBillStatus_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayPasteBillStatus_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayPasteBillStatus_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayPasteBillStatus_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayPasteBillStatus_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayPasteBillStatus_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q41="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q41:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDisplayIssueBillARInfoDetail_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindDisplayIssueBillARInfoDetail" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDisplayIssueBillARInfoDetail_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDisplayIssueBillARInfoDetail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindDisplayIssueBillARInfoDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDisplayIssueBillARInfoDetail_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q42="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q42:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDisplayIssueBillARInfoDetail_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindDisplayIssueBillARInfoDetail_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDisplayIssueBillARInfoDetail_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDisplayIssueBillARInfoDetail_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindDisplayIssueBillARInfoDetail_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDisplayIssueBillARInfoDetail_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q43="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q43:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701460Report_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701460Report" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701460Report_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701460Report_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701460ReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701460Report_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q44="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q44:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701460Report_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701460Report_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701460Report_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701460Report_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701460Report_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701460Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q45="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q45:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701461Report_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701461Report" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701461Report_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701461Report_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701461ReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701461Report_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q46="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q46:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701461Report_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701461Report_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701461Report_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701461Report_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701461Report_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701461Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q47="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q47:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAgentListIntoRev701461Report_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAgentListIntoRev701461Report" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAgentListIntoRev701461Report_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAgentListIntoRev701461Report_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAgentListIntoRev701461ReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAgentListIntoRev701461Report_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q48="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q48:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAgentListIntoRev701461Report_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAgentListIntoRev701461Report_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAgentListIntoRev701461Report_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAgentListIntoRev701461Report_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAgentListIntoRev701461Report_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAgentListIntoRev701461Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q49="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q49:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701462Report_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701462Report" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701462Report_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701462Report_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701462ReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701462Report_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q50="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q50:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701462Report_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701462Report_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701462Report_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701462Report_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701462Report_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701462Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q51="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q51:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701463Report_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701463Report" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701463Report_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701463Report_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701463ReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701463Report_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q52="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q52:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701463Report_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701463Report_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701463Report_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701463Report_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701463Report_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701463Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q53="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q53:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701464Report_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701464Report" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701464Report_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701464Report_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701464ReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701464Report_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q54="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q54:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701464Report_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701464Report_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701464Report_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701464Report_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindDetailOfDataIntoRev701464Report_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindDetailOfDataIntoRev701464Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q55="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q55:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB06_01Header_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB06_01Header" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB06_01Header_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB06_01Header_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB06_01HeaderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB06_01Header_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q56="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q56:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB06_01Header_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB06_01Header_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB06_01Header_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB06_01Header_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB06_01Header_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB06_01Header_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q57="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q57:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB06_01Detail_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB06_01Detail" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB06_01Detail_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB06_01Detail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB06_01DetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB06_01Detail_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q58="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q58:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB06_01Detail_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB06_01Detail_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB06_01Detail_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB06_01Detail_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB06_01Detail_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB06_01Detail_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q59="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q59:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_Header_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB03_Header" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_Header_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_Header_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindAndDisplayCAB03_HeaderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportMgtWCFService_FindAndDisplayCAB03_Header_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q60="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q60:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="IReportMgtWCFService">
+    <wsdl:operation name="FindAndDisplayCAB03_Header_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_Header_Compress" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_Header_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_Header_CompressResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_Header_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_Header_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_Header_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB03_Detail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_Detail" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_Detail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_DetailResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_Detail_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_DetailBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_Detail_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB03_Detail_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_Detail_Compress" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_Detail_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_Detail_CompressResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_Detail_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_Detail_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_Detail_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB04_03Header">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB04_03Header" message="tns:IReportMgtWCFService_FindAndDisplayCAB04_03Header_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB04_03HeaderResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB04_03Header_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB04_03HeaderBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB04_03Header_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB04_03Header_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB04_03Header_Compress" message="tns:IReportMgtWCFService_FindAndDisplayCAB04_03Header_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB04_03Header_CompressResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB04_03Header_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB04_03Header_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB04_03Header_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB05_01Detail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB05_01Detail" message="tns:IReportMgtWCFService_FindAndDisplayCAB05_01Detail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB05_01DetailResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB05_01Detail_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB05_01DetailBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB05_01Detail_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB05_01Detail_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB05_01Detail_Compress" message="tns:IReportMgtWCFService_FindAndDisplayCAB05_01Detail_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB05_01Detail_CompressResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB05_01Detail_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB05_01Detail_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB05_01Detail_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayPA_7034Detail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayPA_7034Detail" message="tns:IReportMgtWCFService_FindAndDisplayPA_7034Detail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayPA_7034DetailResponse" message="tns:IReportMgtWCFService_FindAndDisplayPA_7034Detail_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayPA_7034DetailBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayPA_7034Detail_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayPA_7034Detail_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayPA_7034Detail_Compress" message="tns:IReportMgtWCFService_FindAndDisplayPA_7034Detail_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayPA_7034Detail_CompressResponse" message="tns:IReportMgtWCFService_FindAndDisplayPA_7034Detail_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayPA_7034Detail_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayPA_7034Detail_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB12_01Detail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_01Detail" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_01Detail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_01DetailResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_01Detail_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_01DetailBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_01Detail_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB12_01Detail_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_01Detail_Compress" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_01Detail_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_01Detail_CompressResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_01Detail_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_01Detail_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_01Detail_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB12_01Header">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_01Header" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_01Header_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_01HeaderResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_01Header_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_01HeaderBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_01Header_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB12_01Header_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_01Header_Compress" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_01Header_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_01Header_CompressResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_01Header_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_01Header_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_01Header_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAN34_01Detail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAN34_01Detail" message="tns:IReportMgtWCFService_FindAndDisplayCAN34_01Detail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAN34_01DetailResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAN34_01Detail_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAN34_01DetailBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAN34_01Detail_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAN34_01Detail_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAN34_01Detail_Compress" message="tns:IReportMgtWCFService_FindAndDisplayCAN34_01Detail_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAN34_01Detail_CompressResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAN34_01Detail_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAN34_01Detail_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAN34_01Detail_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillKeeperNameByBillBook">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillKeeperNameByBillBook" message="tns:IReportMgtWCFService_GetBillKeeperNameByBillBook_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillKeeperNameByBillBookResponse" message="tns:IReportMgtWCFService_GetBillKeeperNameByBillBook_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillKeeperNameByBillBookBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_GetBillKeeperNameByBillBook_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIntownReceive">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetIntownReceive" message="tns:IReportMgtWCFService_GetIntownReceive_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetIntownReceiveResponse" message="tns:IReportMgtWCFService_GetIntownReceive_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetIntownReceiveBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_GetIntownReceive_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB12_02Detail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_02Detail" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_02Detail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_02DetailResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_02Detail_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_02DetailBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_02Detail_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB12_02Detail_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_02Detail_Compress" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_02Detail_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_02Detail_CompressResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_02Detail_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB12_02Detail_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB12_02Detail_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB03_02Report_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_02Report_Compress" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_02Report_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_02Report_CompressResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_02Report_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_02Report_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_02Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB03_03Report_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_03Report_Compress" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_03Report_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_03Report_CompressResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_03Report_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_03Report_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_03Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB03_04Report_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_04Report_Compress" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_04Report_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_04Report_CompressResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_04Report_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_04Report_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_04Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillBookInfoReport_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillBookInfoReport_Compress" message="tns:IReportMgtWCFService_GetBillBookInfoReport_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillBookInfoReport_CompressResponse" message="tns:IReportMgtWCFService_GetBillBookInfoReport_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillBookInfoReport_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_GetBillBookInfoReport_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRptCAB13_01RptInfo_Commpress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetRptCAB13_01RptInfo_Commpress" message="tns:IReportMgtWCFService_GetRptCAB13_01RptInfo_Commpress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetRptCAB13_01RptInfo_CommpressResponse" message="tns:IReportMgtWCFService_GetRptCAB13_01RptInfo_Commpress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetRptCAB13_01RptInfo_CommpressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_GetRptCAB13_01RptInfo_Commpress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillBookDetailReportList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillBookDetailReportList" message="tns:IReportMgtWCFService_GetBillBookDetailReportList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillBookDetailReportListResponse" message="tns:IReportMgtWCFService_GetBillBookDetailReportList_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillBookDetailReportListBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_GetBillBookDetailReportList_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillBookDetailReportList_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillBookDetailReportList_Compress" message="tns:IReportMgtWCFService_GetBillBookDetailReportList_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillBookDetailReportList_CompressResponse" message="tns:IReportMgtWCFService_GetBillBookDetailReportList_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillBookDetailReportList_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_GetBillBookDetailReportList_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillBookInfoDetailReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillBookInfoDetailReport" message="tns:IReportMgtWCFService_GetBillBookInfoDetailReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillBookInfoDetailReportResponse" message="tns:IReportMgtWCFService_GetBillBookInfoDetailReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillBookInfoDetailReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_GetBillBookInfoDetailReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillBookInfoDetailReport_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillBookInfoDetailReport_Compress" message="tns:IReportMgtWCFService_GetBillBookInfoDetailReport_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillBookInfoDetailReport_CompressResponse" message="tns:IReportMgtWCFService_GetBillBookInfoDetailReport_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetBillBookInfoDetailReport_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_GetBillBookInfoDetailReport_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAgencyMoneyReturnReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetAgencyMoneyReturnReport" message="tns:IReportMgtWCFService_GetAgencyMoneyReturnReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetAgencyMoneyReturnReportResponse" message="tns:IReportMgtWCFService_GetAgencyMoneyReturnReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetAgencyMoneyReturnReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_GetAgencyMoneyReturnReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAgencyMoneyReturnReport_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetAgencyMoneyReturnReport_Compress" message="tns:IReportMgtWCFService_GetAgencyMoneyReturnReport_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetAgencyMoneyReturnReport_CompressResponse" message="tns:IReportMgtWCFService_GetAgencyMoneyReturnReport_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetAgencyMoneyReturnReport_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_GetAgencyMoneyReturnReport_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAgencyBillCollectionReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetAgencyBillCollectionReport" message="tns:IReportMgtWCFService_GetAgencyBillCollectionReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetAgencyBillCollectionReportResponse" message="tns:IReportMgtWCFService_GetAgencyBillCollectionReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetAgencyBillCollectionReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_GetAgencyBillCollectionReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAgencyBillCollectionReport_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetAgencyBillCollectionReport_Compress" message="tns:IReportMgtWCFService_GetAgencyBillCollectionReport_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetAgencyBillCollectionReport_CompressResponse" message="tns:IReportMgtWCFService_GetAgencyBillCollectionReport_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetAgencyBillCollectionReport_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_GetAgencyBillCollectionReport_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdvPaidByBillBookId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetAdvPaidByBillBookId" message="tns:IReportMgtWCFService_GetAdvPaidByBillBookId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetAdvPaidByBillBookIdResponse" message="tns:IReportMgtWCFService_GetAdvPaidByBillBookId_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/GetAdvPaidByBillBookIdBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_GetAdvPaidByBillBookId_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayAgencyCommissionReportInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayAgencyCommissionReportInfo" message="tns:IReportMgtWCFService_FindAndDisplayAgencyCommissionReportInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayAgencyCommissionReportInfoResponse" message="tns:IReportMgtWCFService_FindAndDisplayAgencyCommissionReportInfo_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayAgencyCommissionReportInfoBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayAgencyCommissionReportInfo_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayAgencyCommissionReportInfo_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayAgencyCommissionReportInfo_Compress" message="tns:IReportMgtWCFService_FindAndDisplayAgencyCommissionReportInfo_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayAgencyCommissionReportInfo_CompressResponse" message="tns:IReportMgtWCFService_FindAndDisplayAgencyCommissionReportInfo_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayAgencyCommissionReportInfo_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayAgencyCommissionReportInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayAgencyCommissionRegistryReportInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayAgencyCommissionRegistryReportInfo" message="tns:IReportMgtWCFService_FindAndDisplayAgencyCommissionRegistryReportInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayAgencyCommissionRegistryReportInfoResponse" message="tns:IReportMgtWCFService_FindAndDisplayAgencyCommissionRegistryReportInfo_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayAgencyCommissionRegistryReportInfoBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayAgencyCommissionRegistryReportInfo_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayAgencyCommissionRegistryReportInfo_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayAgencyCommissionRegistryReportInfo_Compress" message="tns:IReportMgtWCFService_FindAndDisplayAgencyCommissionRegistryReportInfo_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayAgencyCommissionRegistryReportInfo_CompressResponse" message="tns:IReportMgtWCFService_FindAndDisplayAgencyCommissionRegistryReportInfo_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayAgencyCommissionRegistryReportInfo_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayAgencyCommissionRegistryReportInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindCommissionRegistryDetailReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindCommissionRegistryDetailReport" message="tns:IReportMgtWCFService_FindCommissionRegistryDetailReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindCommissionRegistryDetailReportResponse" message="tns:IReportMgtWCFService_FindCommissionRegistryDetailReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindCommissionRegistryDetailReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindCommissionRegistryDetailReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindCommissionRegistryDetailReport_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindCommissionRegistryDetailReport_Compress" message="tns:IReportMgtWCFService_FindCommissionRegistryDetailReport_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindCommissionRegistryDetailReport_CompressResponse" message="tns:IReportMgtWCFService_FindCommissionRegistryDetailReport_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindCommissionRegistryDetailReport_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindCommissionRegistryDetailReport_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayPasteBillStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayPasteBillStatus" message="tns:IReportMgtWCFService_FindAndDisplayPasteBillStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayPasteBillStatusResponse" message="tns:IReportMgtWCFService_FindAndDisplayPasteBillStatus_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayPasteBillStatusBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayPasteBillStatus_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayPasteBillStatus_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayPasteBillStatus_Compress" message="tns:IReportMgtWCFService_FindAndDisplayPasteBillStatus_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayPasteBillStatus_CompressResponse" message="tns:IReportMgtWCFService_FindAndDisplayPasteBillStatus_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayPasteBillStatus_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayPasteBillStatus_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindDisplayIssueBillARInfoDetail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDisplayIssueBillARInfoDetail" message="tns:IReportMgtWCFService_FindDisplayIssueBillARInfoDetail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDisplayIssueBillARInfoDetailResponse" message="tns:IReportMgtWCFService_FindDisplayIssueBillARInfoDetail_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDisplayIssueBillARInfoDetailBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindDisplayIssueBillARInfoDetail_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindDisplayIssueBillARInfoDetail_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDisplayIssueBillARInfoDetail_Compress" message="tns:IReportMgtWCFService_FindDisplayIssueBillARInfoDetail_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDisplayIssueBillARInfoDetail_CompressResponse" message="tns:IReportMgtWCFService_FindDisplayIssueBillARInfoDetail_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDisplayIssueBillARInfoDetail_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindDisplayIssueBillARInfoDetail_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindDetailOfDataIntoRev701460Report">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701460Report" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701460Report_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701460ReportResponse" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701460Report_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701460ReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701460Report_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindDetailOfDataIntoRev701460Report_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701460Report_Compress" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701460Report_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701460Report_CompressResponse" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701460Report_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701460Report_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701460Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindDetailOfDataIntoRev701461Report">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701461Report" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701461Report_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701461ReportResponse" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701461Report_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701461ReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701461Report_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindDetailOfDataIntoRev701461Report_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701461Report_Compress" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701461Report_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701461Report_CompressResponse" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701461Report_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701461Report_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701461Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAgentListIntoRev701461Report">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAgentListIntoRev701461Report" message="tns:IReportMgtWCFService_FindAgentListIntoRev701461Report_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAgentListIntoRev701461ReportResponse" message="tns:IReportMgtWCFService_FindAgentListIntoRev701461Report_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAgentListIntoRev701461ReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAgentListIntoRev701461Report_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAgentListIntoRev701461Report_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAgentListIntoRev701461Report_Compress" message="tns:IReportMgtWCFService_FindAgentListIntoRev701461Report_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAgentListIntoRev701461Report_CompressResponse" message="tns:IReportMgtWCFService_FindAgentListIntoRev701461Report_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAgentListIntoRev701461Report_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAgentListIntoRev701461Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindDetailOfDataIntoRev701462Report">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701462Report" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701462Report_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701462ReportResponse" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701462Report_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701462ReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701462Report_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindDetailOfDataIntoRev701462Report_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701462Report_Compress" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701462Report_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701462Report_CompressResponse" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701462Report_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701462Report_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701462Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindDetailOfDataIntoRev701463Report">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701463Report" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701463Report_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701463ReportResponse" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701463Report_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701463ReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701463Report_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindDetailOfDataIntoRev701463Report_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701463Report_Compress" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701463Report_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701463Report_CompressResponse" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701463Report_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701463Report_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701463Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindDetailOfDataIntoRev701464Report">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701464Report" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701464Report_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701464ReportResponse" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701464Report_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701464ReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701464Report_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindDetailOfDataIntoRev701464Report_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701464Report_Compress" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701464Report_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701464Report_CompressResponse" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701464Report_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindDetailOfDataIntoRev701464Report_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindDetailOfDataIntoRev701464Report_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB06_01Header">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB06_01Header" message="tns:IReportMgtWCFService_FindAndDisplayCAB06_01Header_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB06_01HeaderResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB06_01Header_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB06_01HeaderBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB06_01Header_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB06_01Header_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB06_01Header_Compress" message="tns:IReportMgtWCFService_FindAndDisplayCAB06_01Header_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB06_01Header_CompressResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB06_01Header_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB06_01Header_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB06_01Header_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB06_01Detail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB06_01Detail" message="tns:IReportMgtWCFService_FindAndDisplayCAB06_01Detail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB06_01DetailResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB06_01Detail_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB06_01DetailBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB06_01Detail_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB06_01Detail_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB06_01Detail_Compress" message="tns:IReportMgtWCFService_FindAndDisplayCAB06_01Detail_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB06_01Detail_CompressResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB06_01Detail_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB06_01Detail_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB06_01Detail_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayCAB03_Header">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_Header" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_Header_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_HeaderResponse" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_Header_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReportMgtWCFService/FindAndDisplayCAB03_HeaderBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReportMgtWCFService_FindAndDisplayCAB03_Header_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

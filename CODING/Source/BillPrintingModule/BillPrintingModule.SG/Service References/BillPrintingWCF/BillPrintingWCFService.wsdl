@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:i0="http://tempuri.org" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="BillPrintingWCFService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://tempuri.org" location="http://localhost/BPMService/BLAN/BillPrintingWCFService.svc?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="BasicHttpBinding_IBillPrintingWCFService" type="i0:IBillPrintingWCFService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PrintBlueBill_NoCompress">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/PrintBlueBill_NoCompress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_PrintBlueBill_NoCompress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PrintBlueBill">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/PrintBlueBill" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_PrintBlueBill_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PrintGreenBill">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/PrintGreenBill" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_PrintGreenBill_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PrintA4Bill_NoCompress">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/PrintA4Bill_NoCompress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_PrintA4Bill_NoCompress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PrintA4Bill">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/PrintA4Bill" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_PrintA4Bill_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ReprintBlueBill">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/ReprintBlueBill" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_ReprintBlueBill_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ReprintGreenBill">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/ReprintGreenBill" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_ReprintGreenBill_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PrintGroupInvoiceA4Bill">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/PrintGroupInvoiceA4Bill" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_PrintGroupInvoiceA4Bill_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ReprintGroupInvoiceA4Bill">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/ReprintGroupInvoiceA4Bill" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_ReprintGroupInvoiceA4Bill_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PrintGreenBillByBank">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/PrintGreenBillByBank" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_PrintGreenBillByBank_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ReprintGreenBillByBank">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/ReprintGreenBillByBank" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_ReprintGreenBillByBank_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PrintBlueBillByBank">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/PrintBlueBillByBank" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_PrintBlueBillByBank_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ReprintBlueBillByBank">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/ReprintBlueBillByBank" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_ReprintBlueBillByBank_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistRecord_NoCompress">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/CheckExistRecord_NoCompress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_CheckExistRecord_NoCompress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistRecord">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/CheckExistRecord" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_CheckExistRecord_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistReprintRecord">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/CheckExistReprintRecord" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_CheckExistReprintRecord_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistGroupInvoiceRecord">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/CheckExistGroupInvoiceRecord" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_CheckExistGroupInvoiceRecord_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistReprintGroupInvoiceRecord">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/CheckExistReprintGroupInvoiceRecord" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_CheckExistReprintGroupInvoiceRecord_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistByBank">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/CheckExistByBank" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_CheckExistByBank_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistReprintByBank">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/CheckExistReprintByBank" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_CheckExistReprintByBank_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistGreenReceipt">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/CheckExistGreenReceipt" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_CheckExistGreenReceipt_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistReprintGreenReceipt">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/CheckExistReprintGreenReceipt" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_CheckExistReprintGreenReceipt_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PrintGreenReceipt">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/PrintGreenReceipt" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_PrintGreenReceipt_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ReprintGreenReceipt">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/ReprintGreenReceipt" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_ReprintGreenReceipt_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PrintSpotBill">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/PrintSpotBill" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_PrintSpotBill_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ReprintSpotBill">
+      <soap:operation soapAction="http://tempuri.org/IBillPrintingWCFService/ReprintSpotBill" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillPrintingWCFService_ReprintSpotBill_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BillPrintingWCFService">
+    <wsdl:port name="BasicHttpBinding_IBillPrintingWCFService" binding="tns:BasicHttpBinding_IBillPrintingWCFService">
+      <soap:address location="http://localhost/BPMService/BLAN/BillPrintingWCFService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

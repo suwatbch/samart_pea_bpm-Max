@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:i0="http://tempuri.org" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="EPayReportWCFService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://tempuri.org" location="http://localhost/BPMService/ePayment/ReportWCFService.svc?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="BasicHttpBinding_IEPayReportWCFService" type="i0:IEPayReportWCFService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetRe01ReportService">
+      <soap:operation soapAction="http://tempuri.org/IEPayReportWCFService/GetRe01ReportService" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayReportWCFService_GetRe01ReportService_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetRe02ReportService">
+      <soap:operation soapAction="http://tempuri.org/IEPayReportWCFService/GetRe02ReportService" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayReportWCFService_GetRe02ReportService_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetRe03ReportService">
+      <soap:operation soapAction="http://tempuri.org/IEPayReportWCFService/GetRe03ReportService" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayReportWCFService_GetRe03ReportService_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetRe04ReportService">
+      <soap:operation soapAction="http://tempuri.org/IEPayReportWCFService/GetRe04ReportService" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayReportWCFService_GetRe04ReportService_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetRe05ReportService">
+      <soap:operation soapAction="http://tempuri.org/IEPayReportWCFService/GetRe05ReportService" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayReportWCFService_GetRe05ReportService_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetRe06ReportInfo">
+      <soap:operation soapAction="http://tempuri.org/IEPayReportWCFService/GetRe06ReportInfo" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayReportWCFService_GetRe06ReportInfo_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetRe07ReportInfo">
+      <soap:operation soapAction="http://tempuri.org/IEPayReportWCFService/GetRe07ReportInfo" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayReportWCFService_GetRe07ReportInfo_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetRe08ReportInfo">
+      <soap:operation soapAction="http://tempuri.org/IEPayReportWCFService/GetRe08ReportInfo" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayReportWCFService_GetRe08ReportInfo_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetRe09ReportInfo">
+      <soap:operation soapAction="http://tempuri.org/IEPayReportWCFService/GetRe09ReportInfo" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayReportWCFService_GetRe09ReportInfo_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EPayReportWCFService">
+    <wsdl:port name="BasicHttpBinding_IEPayReportWCFService" binding="tns:BasicHttpBinding_IEPayReportWCFService">
+      <soap:address location="http://localhost/BPMService/ePayment/ReportWCFService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

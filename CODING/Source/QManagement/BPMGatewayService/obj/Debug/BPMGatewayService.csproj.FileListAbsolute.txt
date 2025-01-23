@@ -1,0 +1,12 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QManagement\BPMGatewayService\bin\BPMGatewayService.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QManagement\BPMGatewayService\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QManagement\BPMGatewayService\obj\Debug\BPMGatewayService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QManagement\BPMGatewayService\bin\BPMGatewayService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QManagement\BPMGatewayService\obj\Debug\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QManagement\BPMGatewayService\obj\Debug\BPMGatewayService.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\QManagement\BPMGatewayService\bin\BPMGatewayService.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\QManagement\BPMGatewayService\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM2023\BPM_CBS2\CODING\Source\QManagement\BPMGatewayService\obj\Debug\BPMGatewayService.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\QManagement\BPMGatewayService\bin\BPMGatewayService.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\QManagement\BPMGatewayService\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\QManagement\BPMGatewayService\obj\Debug\BPMGatewayService.dll

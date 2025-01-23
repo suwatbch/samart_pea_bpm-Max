@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="localIP" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginResult" type="tns:Credential" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Credential">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Token" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SearchInvoiceByCaId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="caId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TerminalId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchInvoiceByCaIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearchInvoiceByCaIdResult" type="tns:ArrayOfSearchInvoiceInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfSearchInvoiceInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="SearchInvoiceInfo" nillable="true" type="tns:SearchInvoiceInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="SearchInvoiceInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InvoiceNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Period" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DueDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DebtType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Amount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Remark" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AuthInfo" type="tns:AuthInfo" />
+      <s:complexType name="AuthInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AuthToken" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="Credential" nillable="true" type="tns:Credential" />
+      <s:element name="ArrayOfSearchInvoiceInfo" nillable="true" type="tns:ArrayOfSearchInvoiceInfo" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="LoginSoapIn">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="LoginSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearchInvoiceByCaIdSoapIn">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceByCaId" />
+  </wsdl:message>
+  <wsdl:message name="SearchInvoiceByCaIdSoapOut">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceByCaIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearchInvoiceByCaIdAuthInfo">
+    <wsdl:part name="AuthInfo" element="tns:AuthInfo" />
+  </wsdl:message>
+  <wsdl:message name="LoginHttpGetIn">
+    <wsdl:part name="userId" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="localIP" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LoginHttpGetOut">
+    <wsdl:part name="Body" element="tns:Credential" />
+  </wsdl:message>
+  <wsdl:message name="SearchInvoiceByCaIdHttpGetIn">
+    <wsdl:part name="caId" type="s:string" />
+    <wsdl:part name="TerminalId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearchInvoiceByCaIdHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfSearchInvoiceInfo" />
+  </wsdl:message>
+  <wsdl:message name="LoginHttpPostIn">
+    <wsdl:part name="userId" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="localIP" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LoginHttpPostOut">
+    <wsdl:part name="Body" element="tns:Credential" />
+  </wsdl:message>
+  <wsdl:message name="SearchInvoiceByCaIdHttpPostIn">
+    <wsdl:part name="caId" type="s:string" />
+    <wsdl:part name="TerminalId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SearchInvoiceByCaIdHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfSearchInvoiceInfo" />
+  </wsdl:message>
+  <wsdl:portType name="QueueWebServiceSoap">
+    <wsdl:operation name="Login">
+      <wsdl:input message="tns:LoginSoapIn" />
+      <wsdl:output message="tns:LoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceByCaId">
+      <wsdl:input message="tns:SearchInvoiceByCaIdSoapIn" />
+      <wsdl:output message="tns:SearchInvoiceByCaIdSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="QueueWebServiceHttpGet">
+    <wsdl:operation name="Login">
+      <wsdl:input message="tns:LoginHttpGetIn" />
+      <wsdl:output message="tns:LoginHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceByCaId">
+      <wsdl:input message="tns:SearchInvoiceByCaIdHttpGetIn" />
+      <wsdl:output message="tns:SearchInvoiceByCaIdHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="QueueWebServiceHttpPost">
+    <wsdl:operation name="Login">
+      <wsdl:input message="tns:LoginHttpPostIn" />
+      <wsdl:output message="tns:LoginHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceByCaId">
+      <wsdl:input message="tns:SearchInvoiceByCaIdHttpPostIn" />
+      <wsdl:output message="tns:SearchInvoiceByCaIdHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="QueueWebServiceSoap" type="tns:QueueWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceByCaId">
+      <soap:operation soapAction="http://tempuri.org/SearchInvoiceByCaId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SearchInvoiceByCaIdAuthInfo" part="AuthInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="QueueWebServiceSoap12" type="tns:QueueWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap12:operation soapAction="http://tempuri.org/Login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceByCaId">
+      <soap12:operation soapAction="http://tempuri.org/SearchInvoiceByCaId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:SearchInvoiceByCaIdAuthInfo" part="AuthInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="QueueWebServiceHttpGet" type="tns:QueueWebServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="Login">
+      <http:operation location="/Login" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceByCaId">
+      <http:operation location="/SearchInvoiceByCaId" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="QueueWebServiceHttpPost" type="tns:QueueWebServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="Login">
+      <http:operation location="/Login" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceByCaId">
+      <http:operation location="/SearchInvoiceByCaId" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="QueueWebService">
+    <wsdl:port name="QueueWebServiceSoap" binding="tns:QueueWebServiceSoap">
+      <soap:address location="http://localhost/QueueWCFService/QueueWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="QueueWebServiceSoap12" binding="tns:QueueWebServiceSoap12">
+      <soap12:address location="http://localhost/QueueWCFService/QueueWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="QueueWebServiceHttpGet" binding="tns:QueueWebServiceHttpGet">
+      <http:address location="http://localhost/QueueWCFService/QueueWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="QueueWebServiceHttpPost" binding="tns:QueueWebServiceHttpPost">
+      <http:address location="http://localhost/QueueWCFService/QueueWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

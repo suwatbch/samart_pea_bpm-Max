@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:i0="http://tempuri.org" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="CommissionMgtWCFService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://tempuri.org" location="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="BasicHttpBinding_ICommissionMgtWCFService" type="i0:ICommissionMgtWCFService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CalculateCommissionAndFine">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/CalculateCommissionAndFine" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_CalculateCommissionAndFine_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CalculateCommissionAndFine_Compress">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/CalculateCommissionAndFine_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_CalculateCommissionAndFine_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetAndDisplayAdvPaymentAmount">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/GetAndDisplayAdvPaymentAmount" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_GetAndDisplayAdvPaymentAmount_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetAgentHelpInformation">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/GetAgentHelpInformation" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_GetAgentHelpInformation_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetAgentHelpInformation_Compress">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/GetAgentHelpInformation_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_GetAgentHelpInformation_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SaveCommission">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/SaveCommission" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_SaveCommission_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetListOfCreatedDate">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/GetListOfCreatedDate" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_GetListOfCreatedDate_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetListOfCreatedDate_Compress">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/GetListOfCreatedDate_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_GetListOfCreatedDate_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="BookListByCreateDate">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/BookListByCreateDate" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_BookListByCreateDate_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="BookListByCreateDate_Compress">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/BookListByCreateDate_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_BookListByCreateDate_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="IsBookAvailable">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/IsBookAvailable" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_IsBookAvailable_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="IsBookAlreadyPaid">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/IsBookAlreadyPaid" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_IsBookAlreadyPaid_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LoadCommissionRate">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/LoadCommissionRate" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_LoadCommissionRate_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LoadCommissionRate_Compress">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/LoadCommissionRate_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_LoadCommissionRate_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="IsCommissionCalculated">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/IsCommissionCalculated" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_IsCommissionCalculated_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetCalCountOfPeriodByAgentId">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/GetCalCountOfPeriodByAgentId" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_GetCalCountOfPeriodByAgentId_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetCalCountOfPeriodByAgentId_Compress">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/GetCalCountOfPeriodByAgentId_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_GetCalCountOfPeriodByAgentId_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetCommissionCountOfPeriod">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/GetCommissionCountOfPeriod" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_GetCommissionCountOfPeriod_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetTravelHelpRate">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/GetTravelHelpRate" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_GetTravelHelpRate_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetTravelHelpRate_Compress">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/GetTravelHelpRate_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_GetTravelHelpRate_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetFeeBase">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/GetFeeBase" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_GetFeeBase_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetFeeBase_Compress">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/GetFeeBase_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_GetFeeBase_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="IsBillBookCalculated">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/IsBillBookCalculated" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_IsBillBookCalculated_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetCommissionHistory">
+      <soap:operation soapAction="http://tempuri.org/ICommissionMgtWCFService/GetCommissionHistory" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICommissionMgtWCFService_GetCommissionHistory_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CommissionMgtWCFService">
+    <wsdl:port name="BasicHttpBinding_ICommissionMgtWCFService" binding="tns:BasicHttpBinding_ICommissionMgtWCFService">
+      <soap:address location="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,17 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\BPMPublish\BPMPackage V2.0.5\BPMDelivery\|C:\BPMPublish\BPMPackage V2.0.4\BPMDelivery\|C:\BPMPublish\BPMPackage V2.0.3\BPMDelivery\|C:\BPMPublish\BPMPackage V2.0.2.1\BPMDelivery\|C:\BPMPublish\BPMPackage V2.0.2_TEST_NEW\BPMDelivery\</PublishUrlHistory>
+    <InstallUrlHistory>http://bpmdeploy.cbs2proj.pea.co.th/BPMDelivery/publish.htm/|http://bpmdeploy.cbs2proj.pea.co.th/BPMDelivery/|http://172.16.166.131/BPMDelivery/|http://172.16.161.147/BPMDelivery/|http://localhost/</InstallUrlHistory>
+    <SupportUrlHistory>http://172.30.50.20/BPMknowledgeCenter/index.aspx</SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <ErrorReportUrlHistory>
+    </ErrorReportUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+</Project>

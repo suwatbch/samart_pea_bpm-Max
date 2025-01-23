@@ -1,0 +1,19 @@
+diff a/CODING/Source/Infrastructure/Infrastructure.Layout/ShellLayoutView.cs b/CODING/Source/Infrastructure/Infrastructure.Layout/ShellLayoutView.cs	(rejected hunks)
+@@ -35,14 +35,14 @@
+         private void t_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+         {
+             
+-            _dateStatusLabel.Text = Session.BpmDateTime.Now.ToString("dd/MM/yyyy");
+-            _timeStatusLabel.Text = Session.BpmDateTime.Now.ToString("HH:mm:ss");
++            //_dateStatusLabel.Text = Session.BpmDateTime.Now.ToString("dd/MM/yyyy");
++            //_timeStatusLabel.Text = Session.BpmDateTime.Now.ToString("HH:mm:ss");
+ 
+             //DF#112 2021-DEC-07 Uthen.P 
+             //�ʴ���ͤ�����ҧ���� Ready --> Ready (Rev.1) ���ͧ�ҡ�ա����� BPM V204
+ 
+             // Rev.2  1. ��䢡�õѴ Group invoice. // 2. ��������Ἱ��͹ ��¡�������稷�� TaxRate �繤����ҧ
+-            _statusLabel.Text = "Ready (Rev.2)";
++            _statusLabel.Text = "Ready (Rev.X)";
+             
+ 
+             //check after logging in

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:i0="http://tempuri.org" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="ReceiptPrintingWCFService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://tempuri.org" location="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="BasicHttpBinding_IReceiptPrintingWCFService" type="i0:IReceiptPrintingWCFService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PrintGreenBill">
+      <soap:operation soapAction="http://tempuri.org/IReceiptPrintingWCFService/PrintGreenBill" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReceiptPrintingWCFService_PrintGreenBill_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetPPrintedService">
+      <soap:operation soapAction="http://tempuri.org/IReceiptPrintingWCFService/GetPPrintedService" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReceiptPrintingWCFService_GetPPrintedService_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetAgentAllService">
+      <soap:operation soapAction="http://tempuri.org/IReceiptPrintingWCFService/GetAgentAllService" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReceiptPrintingWCFService_GetAgentAllService_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchAgentPaymentNumber">
+      <soap:operation soapAction="http://tempuri.org/IReceiptPrintingWCFService/SearchAgentPaymentNumber" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReceiptPrintingWCFService_SearchAgentPaymentNumber_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchDebtClearify">
+      <soap:operation soapAction="http://tempuri.org/IReceiptPrintingWCFService/SearchDebtClearify" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReceiptPrintingWCFService_SearchDebtClearify_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetCADepositPPrinted">
+      <soap:operation soapAction="http://tempuri.org/IReceiptPrintingWCFService/GetCADepositPPrinted" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReceiptPrintingWCFService_GetCADepositPPrinted_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetAgentDepositPPrinted">
+      <soap:operation soapAction="http://tempuri.org/IReceiptPrintingWCFService/GetAgentDepositPPrinted" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IReceiptPrintingWCFService_GetAgentDepositPPrinted_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ReceiptPrintingWCFService">
+    <wsdl:port name="BasicHttpBinding_IReceiptPrintingWCFService" binding="tns:BasicHttpBinding_IReceiptPrintingWCFService">
+      <soap:address location="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

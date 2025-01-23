@@ -1,0 +1,296 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CD6283A4-2D09-4DB4-9354-7AC912A8C9D5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PEA.BPM.Architecture.ArchitectureTool</RootNamespace>
+    <AssemblyName>Architecture.ArchitectureTool</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Calendar\CalenderHelper.cs" />
+    <Compile Include="CaOffline\CaOffline.cs" />
+    <Compile Include="CodeTable\CodeTable.cs" />
+    <Compile Include="Control\AutoCompleteTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ErrorHandling\ClientExceptionController.cs" />
+    <Compile Include="ErrorHandling\CompleteExceptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorHandling\CompleteExceptionForm.Designer.cs">
+      <DependentUpon>CompleteExceptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorHandling\ShowStackTraceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorHandling\ShowStackTraceForm.Designer.cs">
+      <DependentUpon>ShowStackTraceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorHandling\SimpleExceptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorHandling\SimpleExceptionForm.Designer.cs">
+      <DependentUpon>SimpleExceptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewsBroadcastConnectionMonitor.cs" />
+    <Compile Include="NewsBroadcast\ReceiverController.cs" />
+    <Compile Include="NewsBroadcast\ReceiverDialogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewsBroadcast\ReceiverDialogForm.Designer.cs">
+      <DependentUpon>ReceiverDialogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\CAOffline.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CAOffline.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Security\Authorization.cs" />
+    <Compile Include="Security\ChangePwdForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security\ChangePwdForm.Designer.cs">
+      <DependentUpon>ChangePwdForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Security\ResetPwForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security\ResetPwForm.Designer.cs">
+      <DependentUpon>ResetPwForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Security\PasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security\PasswordForm.Designer.cs">
+      <DependentUpon>PasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Security\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Security\UnlockForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security\UnlockForm.Designer.cs">
+      <DependentUpon>UnlockForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Security\UnlockLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security\UnlockLoginForm.Designer.cs">
+      <DependentUpon>UnlockLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Security\UnlockRemarkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security\UnlockRemarkForm.Designer.cs">
+      <DependentUpon>UnlockRemarkForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerConnectionMonitor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Infrastructure.Interface\Infrastructure.Interface.csproj">
+      <Project>{A6E71DBF-A767-416C-9DE4-15AEFC619BAF}</Project>
+      <Name>Infrastructure.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\NewsBroadcast\NewsBroadcast.Interface\NewsBroadcast.Interface.csproj">
+      <Project>{0FA94F8C-91BA-47C5-8C2A-D8FDEB50B46A}</Project>
+      <Name>NewsBroadcast.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\NewsBroadcast\NewsBroadcast.SG\NewsBroadcast.SG.csproj">
+      <Project>{F7307FA4-CEBB-4E3E-AB32-EAA64896D403}</Project>
+      <Name>NewsBroadcast.SG</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ArchitectureInterface\ArchitectureInterface.csproj">
+      <Project>{7939F32D-01C5-45B5-A545-3EEE99017A7E}</Project>
+      <Name>ArchitectureInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ArchitectureSG\ArchitectureSG.csproj">
+      <Project>{9AB4B985-1311-4889-A0AC-01D77C0FF409}</Project>
+      <Name>ArchitectureSG</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonUtilities\CommonUtilities.csproj">
+      <Project>{1A6B6E40-2DD5-4CB8-B766-B61AA237701B}</Project>
+      <Name>CommonUtilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ErrorHandling\CompleteExceptionForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CompleteExceptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorHandling\ShowStackTraceForm.resx">
+      <DependentUpon>ShowStackTraceForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorHandling\SimpleExceptionForm.resx">
+      <DependentUpon>SimpleExceptionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewsBroadcast\ReceiverDialogForm.resx">
+      <DependentUpon>ReceiverDialogForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security\ChangePwdForm.resx">
+      <DependentUpon>ChangePwdForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security\ResetPwForm.resx">
+      <DependentUpon>ResetPwForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security\PasswordForm.resx">
+      <DependentUpon>PasswordForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security\LoginForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security\UnlockForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UnlockForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security\UnlockLoginForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UnlockLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security\UnlockRemarkForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UnlockRemarkForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Key.png" />
+    <Content Include="Login.gif" />
+    <Content Include="Unlock.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CAOffline.xsc">
+      <DependentUpon>CAOffline.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\CAOffline.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CAOffline.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\CAOffline.xss">
+      <DependentUpon>CAOffline.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

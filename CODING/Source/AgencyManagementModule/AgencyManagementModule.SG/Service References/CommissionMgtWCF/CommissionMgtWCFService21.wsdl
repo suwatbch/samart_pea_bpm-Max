@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?xsd=xsd4" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?xsd=xsd5" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICommissionMgtWCFService_CalculateCommissionAndFine_InputMessage">
+    <wsdl:part name="parameters" element="tns:CalculateCommissionAndFine" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_CalculateCommissionAndFine_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_CalculateCommissionAndFine_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CalculateCommissionAndFineResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_CalculateCommissionAndFine_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_CalculateCommissionAndFine_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:CalculateCommissionAndFine_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_CalculateCommissionAndFine_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_CalculateCommissionAndFine_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CalculateCommissionAndFine_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_CalculateCommissionAndFine_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetAndDisplayAdvPaymentAmount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAndDisplayAdvPaymentAmount" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetAndDisplayAdvPaymentAmount_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetAndDisplayAdvPaymentAmount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAndDisplayAdvPaymentAmountResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetAndDisplayAdvPaymentAmount_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetAgentHelpInformation_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgentHelpInformation" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetAgentHelpInformation_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetAgentHelpInformation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgentHelpInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetAgentHelpInformation_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetAgentHelpInformation_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgentHelpInformation_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetAgentHelpInformation_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetAgentHelpInformation_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgentHelpInformation_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetAgentHelpInformation_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_SaveCommission_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveCommission" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_SaveCommission_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_SaveCommission_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveCommissionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_SaveCommission_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetListOfCreatedDate_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetListOfCreatedDate" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetListOfCreatedDate_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetListOfCreatedDate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetListOfCreatedDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetListOfCreatedDate_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetListOfCreatedDate_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetListOfCreatedDate_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetListOfCreatedDate_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetListOfCreatedDate_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetListOfCreatedDate_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetListOfCreatedDate_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q8:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_BookListByCreateDate_InputMessage">
+    <wsdl:part name="parameters" element="tns:BookListByCreateDate" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_BookListByCreateDate_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_BookListByCreateDate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BookListByCreateDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_BookListByCreateDate_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q9:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_BookListByCreateDate_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:BookListByCreateDate_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_BookListByCreateDate_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_BookListByCreateDate_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BookListByCreateDate_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_BookListByCreateDate_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q10:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_IsBookAvailable_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsBookAvailable" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_IsBookAvailable_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_IsBookAvailable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsBookAvailableResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_IsBookAvailable_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q11:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_IsBookAlreadyPaid_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsBookAlreadyPaid" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_IsBookAlreadyPaid_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_IsBookAlreadyPaid_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsBookAlreadyPaidResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_IsBookAlreadyPaid_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q12:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_LoadCommissionRate_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCommissionRate" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_LoadCommissionRate_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_LoadCommissionRate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCommissionRateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_LoadCommissionRate_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q13="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q13:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_LoadCommissionRate_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCommissionRate_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_LoadCommissionRate_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_LoadCommissionRate_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCommissionRate_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_LoadCommissionRate_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q14:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_IsCommissionCalculated_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsCommissionCalculated" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_IsCommissionCalculated_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_IsCommissionCalculated_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsCommissionCalculatedResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_IsCommissionCalculated_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q15="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q15:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetCalCountOfPeriodByAgentId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCalCountOfPeriodByAgentId" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetCalCountOfPeriodByAgentId_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetCalCountOfPeriodByAgentId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCalCountOfPeriodByAgentIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetCalCountOfPeriodByAgentId_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q16="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q16:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetCalCountOfPeriodByAgentId_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCalCountOfPeriodByAgentId_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetCalCountOfPeriodByAgentId_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetCalCountOfPeriodByAgentId_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCalCountOfPeriodByAgentId_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetCalCountOfPeriodByAgentId_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q17="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q17:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetCommissionCountOfPeriod_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCommissionCountOfPeriod" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetCommissionCountOfPeriod_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetCommissionCountOfPeriod_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCommissionCountOfPeriodResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetCommissionCountOfPeriod_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q18="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q18:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetTravelHelpRate_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTravelHelpRate" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetTravelHelpRate_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetTravelHelpRate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTravelHelpRateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetTravelHelpRate_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q19="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q19:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetTravelHelpRate_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTravelHelpRate_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetTravelHelpRate_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetTravelHelpRate_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTravelHelpRate_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetTravelHelpRate_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q20="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q20:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetFeeBase_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFeeBase" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetFeeBase_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetFeeBase_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFeeBaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetFeeBase_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q21="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q21:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetFeeBase_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFeeBase_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetFeeBase_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetFeeBase_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFeeBase_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetFeeBase_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q22="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q22:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_IsBillBookCalculated_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsBillBookCalculated" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_IsBillBookCalculated_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_IsBillBookCalculated_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsBillBookCalculatedResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_IsBillBookCalculated_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q23="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q23:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetCommissionHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCommissionHistory" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetCommissionHistory_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetCommissionHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCommissionHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommissionMgtWCFService_GetCommissionHistory_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q24="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q24:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="ICommissionMgtWCFService">
+    <wsdl:operation name="CalculateCommissionAndFine">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/CalculateCommissionAndFine" message="tns:ICommissionMgtWCFService_CalculateCommissionAndFine_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/CalculateCommissionAndFineResponse" message="tns:ICommissionMgtWCFService_CalculateCommissionAndFine_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/CalculateCommissionAndFineBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_CalculateCommissionAndFine_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CalculateCommissionAndFine_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/CalculateCommissionAndFine_Compress" message="tns:ICommissionMgtWCFService_CalculateCommissionAndFine_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/CalculateCommissionAndFine_CompressResponse" message="tns:ICommissionMgtWCFService_CalculateCommissionAndFine_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/CalculateCommissionAndFine_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_CalculateCommissionAndFine_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAndDisplayAdvPaymentAmount">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetAndDisplayAdvPaymentAmount" message="tns:ICommissionMgtWCFService_GetAndDisplayAdvPaymentAmount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetAndDisplayAdvPaymentAmountResponse" message="tns:ICommissionMgtWCFService_GetAndDisplayAdvPaymentAmount_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetAndDisplayAdvPaymentAmountBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_GetAndDisplayAdvPaymentAmount_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAgentHelpInformation">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetAgentHelpInformation" message="tns:ICommissionMgtWCFService_GetAgentHelpInformation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetAgentHelpInformationResponse" message="tns:ICommissionMgtWCFService_GetAgentHelpInformation_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetAgentHelpInformationBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_GetAgentHelpInformation_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAgentHelpInformation_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetAgentHelpInformation_Compress" message="tns:ICommissionMgtWCFService_GetAgentHelpInformation_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetAgentHelpInformation_CompressResponse" message="tns:ICommissionMgtWCFService_GetAgentHelpInformation_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetAgentHelpInformation_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_GetAgentHelpInformation_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveCommission">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/SaveCommission" message="tns:ICommissionMgtWCFService_SaveCommission_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/SaveCommissionResponse" message="tns:ICommissionMgtWCFService_SaveCommission_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/SaveCommissionBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_SaveCommission_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetListOfCreatedDate">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetListOfCreatedDate" message="tns:ICommissionMgtWCFService_GetListOfCreatedDate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetListOfCreatedDateResponse" message="tns:ICommissionMgtWCFService_GetListOfCreatedDate_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetListOfCreatedDateBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_GetListOfCreatedDate_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetListOfCreatedDate_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetListOfCreatedDate_Compress" message="tns:ICommissionMgtWCFService_GetListOfCreatedDate_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetListOfCreatedDate_CompressResponse" message="tns:ICommissionMgtWCFService_GetListOfCreatedDate_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetListOfCreatedDate_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_GetListOfCreatedDate_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BookListByCreateDate">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/BookListByCreateDate" message="tns:ICommissionMgtWCFService_BookListByCreateDate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/BookListByCreateDateResponse" message="tns:ICommissionMgtWCFService_BookListByCreateDate_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/BookListByCreateDateBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_BookListByCreateDate_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BookListByCreateDate_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/BookListByCreateDate_Compress" message="tns:ICommissionMgtWCFService_BookListByCreateDate_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/BookListByCreateDate_CompressResponse" message="tns:ICommissionMgtWCFService_BookListByCreateDate_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/BookListByCreateDate_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_BookListByCreateDate_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsBookAvailable">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/IsBookAvailable" message="tns:ICommissionMgtWCFService_IsBookAvailable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/IsBookAvailableResponse" message="tns:ICommissionMgtWCFService_IsBookAvailable_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/IsBookAvailableBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_IsBookAvailable_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsBookAlreadyPaid">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/IsBookAlreadyPaid" message="tns:ICommissionMgtWCFService_IsBookAlreadyPaid_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/IsBookAlreadyPaidResponse" message="tns:ICommissionMgtWCFService_IsBookAlreadyPaid_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/IsBookAlreadyPaidBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_IsBookAlreadyPaid_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadCommissionRate">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/LoadCommissionRate" message="tns:ICommissionMgtWCFService_LoadCommissionRate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/LoadCommissionRateResponse" message="tns:ICommissionMgtWCFService_LoadCommissionRate_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/LoadCommissionRateBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_LoadCommissionRate_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadCommissionRate_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/LoadCommissionRate_Compress" message="tns:ICommissionMgtWCFService_LoadCommissionRate_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/LoadCommissionRate_CompressResponse" message="tns:ICommissionMgtWCFService_LoadCommissionRate_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/LoadCommissionRate_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_LoadCommissionRate_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsCommissionCalculated">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/IsCommissionCalculated" message="tns:ICommissionMgtWCFService_IsCommissionCalculated_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/IsCommissionCalculatedResponse" message="tns:ICommissionMgtWCFService_IsCommissionCalculated_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/IsCommissionCalculatedBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_IsCommissionCalculated_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCalCountOfPeriodByAgentId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetCalCountOfPeriodByAgentId" message="tns:ICommissionMgtWCFService_GetCalCountOfPeriodByAgentId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetCalCountOfPeriodByAgentIdResponse" message="tns:ICommissionMgtWCFService_GetCalCountOfPeriodByAgentId_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetCalCountOfPeriodByAgentIdBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_GetCalCountOfPeriodByAgentId_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCalCountOfPeriodByAgentId_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetCalCountOfPeriodByAgentId_Compress" message="tns:ICommissionMgtWCFService_GetCalCountOfPeriodByAgentId_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetCalCountOfPeriodByAgentId_CompressResponse" message="tns:ICommissionMgtWCFService_GetCalCountOfPeriodByAgentId_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetCalCountOfPeriodByAgentId_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_GetCalCountOfPeriodByAgentId_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCommissionCountOfPeriod">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetCommissionCountOfPeriod" message="tns:ICommissionMgtWCFService_GetCommissionCountOfPeriod_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetCommissionCountOfPeriodResponse" message="tns:ICommissionMgtWCFService_GetCommissionCountOfPeriod_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetCommissionCountOfPeriodBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_GetCommissionCountOfPeriod_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTravelHelpRate">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetTravelHelpRate" message="tns:ICommissionMgtWCFService_GetTravelHelpRate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetTravelHelpRateResponse" message="tns:ICommissionMgtWCFService_GetTravelHelpRate_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetTravelHelpRateBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_GetTravelHelpRate_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTravelHelpRate_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetTravelHelpRate_Compress" message="tns:ICommissionMgtWCFService_GetTravelHelpRate_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetTravelHelpRate_CompressResponse" message="tns:ICommissionMgtWCFService_GetTravelHelpRate_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetTravelHelpRate_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_GetTravelHelpRate_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFeeBase">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetFeeBase" message="tns:ICommissionMgtWCFService_GetFeeBase_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetFeeBaseResponse" message="tns:ICommissionMgtWCFService_GetFeeBase_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetFeeBaseBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_GetFeeBase_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFeeBase_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetFeeBase_Compress" message="tns:ICommissionMgtWCFService_GetFeeBase_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetFeeBase_CompressResponse" message="tns:ICommissionMgtWCFService_GetFeeBase_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetFeeBase_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_GetFeeBase_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsBillBookCalculated">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/IsBillBookCalculated" message="tns:ICommissionMgtWCFService_IsBillBookCalculated_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/IsBillBookCalculatedResponse" message="tns:ICommissionMgtWCFService_IsBillBookCalculated_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/IsBillBookCalculatedBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_IsBillBookCalculated_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCommissionHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetCommissionHistory" message="tns:ICommissionMgtWCFService_GetCommissionHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetCommissionHistoryResponse" message="tns:ICommissionMgtWCFService_GetCommissionHistory_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommissionMgtWCFService/GetCommissionHistoryBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommissionMgtWCFService_GetCommissionHistory_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

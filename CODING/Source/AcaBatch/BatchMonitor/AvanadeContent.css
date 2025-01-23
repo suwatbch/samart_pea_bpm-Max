@@ -1,0 +1,129 @@
+BODY {
+	FONT-SIZE: x-small; COLOR: black; FONT-FAMILY: Arial, Helvetica; BACKGROUND-COLOR: white
+}
+P {
+	FONT-SIZE: x-small; COLOR: black; FONT-FAMILY: Arial, Helvetica
+}
+TD {
+	FONT-SIZE: x-small; COLOR: black; FONT-FAMILY: Arial, Helvetica
+}
+HR {
+	COLOR: #ff9900; HEIGHT: 1px
+}
+A:visited {
+	FONT-WEIGHT: bold; COLOR: #ff9900
+}
+A:link {
+	FONT-WEIGHT: bold; COLOR: #ff9900
+}
+A:hover {
+	FONT-WEIGHT: bold; COLOR: gray
+}
+.ContentBG {
+	BACKGROUND-IMAGE: url(/intranet/images/back.gif); MARGIN: 0px; BACKGROUND-COLOR: white
+}
+.Head1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; COLOR: black
+}
+.Body1 {
+	FONT-SIZE: medium; COLOR: black; FONT-FAMILY: Arial
+}
+.Head2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 20px; COLOR: black; FONT-FAMILY: Arial, Helvetica
+}
+.Body2 {
+	FONT-SIZE: small; COLOR: black; FONT-FAMILY: Arial
+}
+.Head3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: black; FONT-FAMILY: Arial, Helvetica
+}
+.Body3 {
+	FONT-SIZE: x-small; COLOR: black; FONT-FAMILY: Arial
+}
+.SubSectionTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: red; LINE-HEIGHT: 12pt; FONT-FAMILY: arial, Helvetica
+}
+.MetaLinkSummary {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: arial, Helvetica
+}
+.MetaLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: arial, Helvetica; TEXT-DECORATION: none
+}
+.MetaLink A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.MetaLink A:hover {
+	
+}
+.MetaLink A:active {
+	
+}
+.StdButton {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; BACKGROUND-COLOR: #ffcc66
+}
+.Outline {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+.Up1 {
+	FONT-SIZE: 12pt; COLOR: black; FONT-FAMILY: Arial, Helvetica; TEXT-ALIGN: left
+}
+.Down1 {
+	FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial
+}
+.SideHeading {
+	FONT-SIZE: 24pt; COLOR: #ffcc66; FONT-STYLE: italic; FONT-FAMILY: Arial, Helvetica; BACKGROUND-COLOR: red
+}
+.Down2 {
+	FONT-SIZE: 8pt; FONT-FAMILY: Arial
+}
+.Margin1 {
+	MARGIN-LEFT: 0.25in
+}
+.LSColNoSort {
+	FONT-WEIGHT: 600; COLOR: white
+}
+.LSColSort {
+	FONT-WEIGHT: 600; CURSOR: hand; COLOR: white; TEXT-DECORATION: underline
+}
+.LSCursorHand {
+	CURSOR: hand; TEXT-DECORATION: underline
+}
+.LSRequired {
+	FONT-SIZE: 10pt; COLOR: red; FONT-FAMILY: Arial, Helvetica
+}
+.LSSearchTable1 {
+	BORDER-RIGHT: gray thin solid; BORDER-TOP: gray thin solid; MARGIN-LEFT: 15px; OVERFLOW: auto; BORDER-LEFT: gray thin solid; WIDTH: 500px; BORDER-BOTTOM: gray thin solid; HEIGHT: 252px
+}
+.LSSearchTable2 {
+	BORDER-RIGHT: gray thin solid; BORDER-TOP: gray thin solid; MARGIN-BOTTOM: 10px; OVERFLOW: auto; BORDER-LEFT: gray thin solid; BORDER-BOTTOM: gray thin solid; HEIGHT: 100px
+}
+.LSEvenRow {
+	BACKGROUND-COLOR: white
+}
+.LSOddRow {
+	BACKGROUND-COLOR: #eeeeee
+}
+.LSTableHead {
+	BACKGROUND-COLOR: black
+}
+.LSLabel {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; PADDING-BOTTOM: 1px; COLOR: #ff9900; PADDING-TOP: 1px; FONT-FAMILY: Arial, Helvetica; BACKGROUND-COLOR: black; TEXT-ALIGN: center
+}
+B {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: Arial, Helvetica
+}
+A.SectionButton {
+	PADDING-BOTTOM: 2px; COLOR: black
+}
+A.SectionButton:visited {
+	PADDING-BOTTOM: 2px; COLOR: black
+}
+.clsSearchText {
+	COLOR: black
+}
+.LSLabelPrint {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; PADDING-BOTTOM: 1px; COLOR: black; PADDING-TOP: 1px; FONT-FAMILY: Arial, Helvetica; BACKGROUND-COLOR: #eeeeee; TEXT-ALIGN: center
+}
+.LSTableHeadPrint {
+	BACKGROUND-COLOR: #eeeeee
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="PPIMService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://172.16.166.131/PPIMService/PPIMService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://172.16.166.131/PPIMService/PPIMService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://172.16.166.131/PPIMService/PPIMService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PPIMWcfService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPPIMService_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IPPIMService_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPPIMService_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IPPIMService_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPPIMService_SearchPayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPayment" />
+  </wsdl:message>
+  <wsdl:message name="IPPIMService_SearchPayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPPIMService_UpdatePayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePayment" />
+  </wsdl:message>
+  <wsdl:message name="IPPIMService_UpdatePayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePaymentResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPPIMService">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPPIMService/GetData" message="tns:IPPIMService_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPPIMService/GetDataResponse" message="tns:IPPIMService_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPPIMService/GetDataUsingDataContract" message="tns:IPPIMService_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPPIMService/GetDataUsingDataContractResponse" message="tns:IPPIMService_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchPayment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPPIMService/SearchPayment" message="tns:IPPIMService_SearchPayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPPIMService/SearchPaymentResponse" message="tns:IPPIMService_SearchPayment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePayment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPPIMService/UpdatePayment" message="tns:IPPIMService_UpdatePayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPPIMService/UpdatePaymentResponse" message="tns:IPPIMService_UpdatePayment_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IPPIMService" type="tns:IPPIMService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IPPIMService/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IPPIMService/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchPayment">
+      <soap:operation soapAction="http://tempuri.org/IPPIMService/SearchPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePayment">
+      <soap:operation soapAction="http://tempuri.org/IPPIMService/UpdatePayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PPIMService">
+    <wsdl:port name="BasicHttpBinding_IPPIMService" binding="tns:BasicHttpBinding_IPPIMService">
+      <soap:address location="http://172.16.166.131/PPIMService/PPIMService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

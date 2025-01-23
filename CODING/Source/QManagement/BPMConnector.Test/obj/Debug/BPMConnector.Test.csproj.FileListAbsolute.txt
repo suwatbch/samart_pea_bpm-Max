@@ -1,0 +1,40 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\bin\Debug\BPMConnector.Test.exe.config
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\bin\Debug\BPMConnector.Test.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\bin\Debug\BPMConnector.Test.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\bin\Debug\BPMConnector.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\PEA.BPM.BPMConnector.Test.Form1.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\PEA.BPM.BPMConnector.Test.Properties.Resources.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\BPMConnector.Test.csproj.GenerateResource.Cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\BPMConnector.Test.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\BPMConnector.Test.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QManagement\BPMConnector.Test\bin\Debug\BPMConnector.Test.exe.config
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QManagement\BPMConnector.Test\bin\Debug\BPMConnector.Test.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QManagement\BPMConnector.Test\bin\Debug\BPMConnector.Test.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QManagement\BPMConnector.Test\bin\Debug\BPMConnector.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\PEA.BPM.BPMConnector.Test.Form1.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\PEA.BPM.BPMConnector.Test.Properties.Resources.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\BPMConnector.Test.csproj.GenerateResource.Cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\BPMConnector.Test.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\BPMConnector.Test.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\QManagement\BPMConnector.Test\bin\Debug\BPMConnector.Test.exe.config
+D:\BPM2023\BPM_CBS2\CODING\Source\QManagement\BPMConnector.Test\bin\Debug\BPMConnector.Test.exe
+D:\BPM2023\BPM_CBS2\CODING\Source\QManagement\BPMConnector.Test\bin\Debug\BPMConnector.Test.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\QManagement\BPMConnector.Test\bin\Debug\BPMConnector.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM2023\BPM_CBS2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\PEA.BPM.BPMConnector.Test.Form1.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\PEA.BPM.BPMConnector.Test.Properties.Resources.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\BPMConnector.Test.csproj.GenerateResource.Cache
+D:\BPM2023\BPM_CBS2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\BPMConnector.Test.exe
+D:\BPM2023\BPM_CBS2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\BPMConnector.Test.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\bin\Debug\BPMConnector.Test.exe.config
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\bin\Debug\BPMConnector.Test.exe
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\bin\Debug\BPMConnector.Test.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\bin\Debug\BPMConnector.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\PEA.BPM.BPMConnector.Test.Form1.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\PEA.BPM.BPMConnector.Test.Properties.Resources.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\BPMConnector.Test.csproj.GenerateResource.Cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\BPMConnector.Test.exe
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\QManagement\BPMConnector.Test\obj\Debug\BPMConnector.Test.pdb

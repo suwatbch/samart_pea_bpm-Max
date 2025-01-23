@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="083541fe-ae62-4ae9-9bc5-d458f4ab9f15" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ReceiptPrintingWCFService.xsd" MetadataType="Schema" ID="cb339b3c-8a1a-4ea4-8727-6f7fb6296782" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?xsd=xsd5" />
+    <MetadataFile FileName="ReceiptPrintingWCFService1.xsd" MetadataType="Schema" ID="5c6a9ec7-a0b1-45a5-a74a-f8688487ca88" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ReceiptPrintingWCFService2.xsd" MetadataType="Schema" ID="ef98dd55-488c-40ad-a624-9c7548b73de9" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ReceiptPrintingWCFService3.xsd" MetadataType="Schema" ID="56f81498-59a3-4e2f-9130-d648d7da06c6" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ReceiptPrintingWCFService.wsdl" MetadataType="Wsdl" ID="8d26b653-2344-4fe1-845c-98114853cc6d" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="ReceiptPrintingWCFService1.wsdl" MetadataType="Wsdl" ID="0e323b1f-4a50-4fc2-96cf-1e63d7b19df0" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?wsdl" />
+    <MetadataFile FileName="ReceiptPrintingWCFService.disco" MetadataType="Disco" ID="a3afcdb4-ac65-40cf-9bef-12cbcb239906" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?disco" />
+    <MetadataFile FileName="ReceiptPrintingWCFService4.xsd" MetadataType="Schema" ID="b5f2d35d-0236-45b7-918c-226bf00de176" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="ReceiptPrintingWCFService5.xsd" MetadataType="Schema" ID="c05f914c-7eda-42f5-877f-18db6d762f56" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?xsd=xsd6" />
+    <MetadataFile FileName="ReceiptPrintingWCFService6.xsd" MetadataType="Schema" ID="bc61ec49-c0dc-436e-81c5-bb7efcd2b634" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?xsd=xsd4" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

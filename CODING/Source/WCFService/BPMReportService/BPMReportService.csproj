@@ -1,0 +1,207 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7A846F49-FED9-4F94-96C1-FD0AC2824578}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BPMReportService</RootNamespace>
+    <AssemblyName>BPMReportService</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.7.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=4.1.7.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AGENCY\ReportMgtWCFService.svc" />
+    <Content Include="BLAN\BillPrintingReportWCFService.svc" />
+    <Content Include="Cashier\CashierWCFService.svc" />
+    <Content Include="ePayment\ReportWCFService.svc" />
+    <Content Include="PaymentMnt\APReportWCFService.svc" />
+    <Content Include="POS\ReportWCFService.svc" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AGENCY\IReportMgtWCFService.cs" />
+    <Compile Include="AGENCY\ReportMgtWCFService.svc.cs">
+      <DependentUpon>ReportMgtWCFService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="BLAN\BillPrintingReportWCFService.svc.cs">
+      <DependentUpon>BillPrintingReportWCFService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="BLAN\IBillPrintingReportWCFService.cs" />
+    <Compile Include="Cashier\CashierWCFService.svc.cs">
+      <DependentUpon>CashierWCFService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier\ICashierWCFService.cs" />
+    <Compile Include="ePayment\IEPayReportWCFService.cs" />
+    <Compile Include="ePayment\ReportWCFService.svc.cs">
+      <DependentUpon>ReportWCFService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentMnt\APReportWCFService.svc.cs">
+      <DependentUpon>APReportWCFService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentMnt\IAPReportWCFService.cs" />
+    <Compile Include="POS\IReportWCFService.cs" />
+    <Compile Include="POS\ReportWCFService.svc.cs">
+      <DependentUpon>ReportWCFService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebServiceSecurity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AgencyManagementModule\AgencyManagementModule.BS\AgencyManagementModule.BS.csproj">
+      <Project>{6D638C72-CD02-4A14-8A5F-E77EB7D778C7}</Project>
+      <Name>AgencyManagementModule.BS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AgencyManagementModule\AgencyManagementModule.Interface\AgencyManagementModule.Interface.csproj">
+      <Project>{068B2144-9978-458D-AE79-92935C846C71}</Project>
+      <Name>AgencyManagementModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\ArchitectureBS\ArchitectureBS.csproj">
+      <Project>{D4B68335-4ADF-4034-9C18-31373DFD2F09}</Project>
+      <Name>ArchitectureBS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\ArchitectureInterface\ArchitectureInterface.csproj">
+      <Project>{7939F32D-01C5-45B5-A545-3EEE99017A7E}</Project>
+      <Name>ArchitectureInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\CommonUtilities\CommonUtilities.csproj">
+      <Project>{1A6B6E40-2DD5-4CB8-B766-B61AA237701B}</Project>
+      <Name>CommonUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\BillPrintingModule\BillPrintingModule.Interface\BillPrintingModule.Interface.csproj">
+      <Project>{CCC7E63C-530C-454A-9DDA-553AB3A1EEE9}</Project>
+      <Name>BillPrintingModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CashManagementModule\CashManagementModule.BS\CashManagementModule.BS.csproj">
+      <Project>{D2E3FA63-A938-4834-A47F-6989A93C1FA9}</Project>
+      <Name>CashManagementModule.BS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CashManagementModule\CashManagementModule.Interface\CashManagementModule.Interface.csproj">
+      <Project>{E0AFD613-2C8A-49A8-9551-0C0222864AEC}</Project>
+      <Name>CashManagementModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ePayments\ePaymentsModule.BS\ePaymentsModule.BS.csproj">
+      <Project>{FC7DFFE9-1427-4769-A556-A672D8DCA668}</Project>
+      <Name>ePaymentsModule.BS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ePayments\ePaymentsModule.Interface\ePaymentsModule.Interface.csproj">
+      <Project>{3446FDF7-C967-490E-9BF7-C05377652A74}</Project>
+      <Name>ePaymentsModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Infrastructure.Interface\Infrastructure.Interface.csproj">
+      <Project>{A6E71DBF-A767-416C-9DE4-15AEFC619BAF}</Project>
+      <Name>Infrastructure.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PaymentCollectionModule\PaymentCollectionModule.Interface\PaymentCollectionModule.Interface.csproj">
+      <Project>{20245E21-61E9-4B4D-86D2-87A23FDC051F}</Project>
+      <Name>PaymentCollectionModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PaymentManagementModule\PaymentManagementModule.Interface\PaymentManagementModule.Interface.csproj">
+      <Project>{68B5A8D9-AEF5-4EBF-85CE-AA88FC4320C9}</Project>
+      <Name>PaymentManagementModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LINQReport\BPMLINQReport.csproj">
+      <Project>{AE5E75C9-3538-4E83-B231-9821BE498264}</Project>
+      <Name>BPMLINQReport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WCFExtras\WCFExtras.csproj">
+      <Project>{22037EAC-02C0-4A99-8A4F-8172590E64ED}</Project>
+      <Name>WCFExtras</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1149</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/BpmReportAppServices</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

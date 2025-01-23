@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetDataFromSAP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="caId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataFromSAPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataFromSAPResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetDataFromSAPSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataFromSAP" />
+  </wsdl:message>
+  <wsdl:message name="GetDataFromSAPSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataFromSAPResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SAPRfcServiceSoap">
+    <wsdl:operation name="GetDataFromSAP">
+      <wsdl:input message="tns:GetDataFromSAPSoapIn" />
+      <wsdl:output message="tns:GetDataFromSAPSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SAPRfcServiceSoap" type="tns:SAPRfcServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDataFromSAP">
+      <soap:operation soapAction="http://tempuri.org/GetDataFromSAP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SAPRfcServiceSoap12" type="tns:SAPRfcServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDataFromSAP">
+      <soap12:operation soapAction="http://tempuri.org/GetDataFromSAP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SAPRfcService">
+    <wsdl:port name="SAPRfcServiceSoap" binding="tns:SAPRfcServiceSoap">
+      <soap:address location="http://localhost/SAPRfcService/SAPRfcService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SAPRfcServiceSoap12" binding="tns:SAPRfcServiceSoap12">
+      <soap12:address location="http://localhost/SAPRfcService/SAPRfcService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

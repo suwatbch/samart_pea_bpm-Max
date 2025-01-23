@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="DownloadAR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadARResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadARResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CompressData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="OriginalSize" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="CompressSize" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Data" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AuthenInfo" type="tns:AuthenInfo" />
+      <s:complexType name="AuthenInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AuthToken" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="DownloadARPayment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadARPaymentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadARPaymentResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadPayment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadPaymentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadPaymentResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadARPaymentType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadARPaymentTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadARPaymentTypeResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadRTARPaymentTypeARPayment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadRTARPaymentTypeARPaymentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadRTARPaymentTypeARPaymentResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadReceipt">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadReceiptResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadReceiptResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadReceiptItem">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadReceiptItemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadReceiptItemResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadDisconnectionDoc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadDisconnectionDocResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadDisconnectionDocResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadRTDisconnectionDocCaDoc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadRTDisconnectionDocCaDocResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadRTDisconnectionDocCaDocResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadAP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadAPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadAPResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadAPChequePayment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadAPChequePaymentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadAPChequePaymentResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="DownloadARSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadAR" />
+  </wsdl:message>
+  <wsdl:message name="DownloadARSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadARResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadARAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadARPaymentSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadARPayment" />
+  </wsdl:message>
+  <wsdl:message name="DownloadARPaymentSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadARPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadARPaymentAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadPaymentSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadPayment" />
+  </wsdl:message>
+  <wsdl:message name="DownloadPaymentSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadPaymentAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadARPaymentTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadARPaymentType" />
+  </wsdl:message>
+  <wsdl:message name="DownloadARPaymentTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadARPaymentTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadARPaymentTypeAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRTARPaymentTypeARPaymentSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadRTARPaymentTypeARPayment" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRTARPaymentTypeARPaymentSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadRTARPaymentTypeARPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRTARPaymentTypeARPaymentAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadReceiptSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadReceipt" />
+  </wsdl:message>
+  <wsdl:message name="DownloadReceiptSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadReceiptResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadReceiptAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadReceiptItemSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadReceiptItem" />
+  </wsdl:message>
+  <wsdl:message name="DownloadReceiptItemSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadReceiptItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadReceiptItemAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadDisconnectionDocSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadDisconnectionDoc" />
+  </wsdl:message>
+  <wsdl:message name="DownloadDisconnectionDocSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadDisconnectionDocResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadDisconnectionDocAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRTDisconnectionDocCaDocSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadRTDisconnectionDocCaDoc" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRTDisconnectionDocCaDocSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadRTDisconnectionDocCaDocResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRTDisconnectionDocCaDocAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadAPSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadAP" />
+  </wsdl:message>
+  <wsdl:message name="DownloadAPSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadAPResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadAPAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadAPChequePaymentSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadAPChequePayment" />
+  </wsdl:message>
+  <wsdl:message name="DownloadAPChequePaymentSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadAPChequePaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadAPChequePaymentAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:portType name="ARWebServiceSoap">
+    <wsdl:operation name="DownloadAR">
+      <wsdl:input message="tns:DownloadARSoapIn" />
+      <wsdl:output message="tns:DownloadARSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadARPayment">
+      <wsdl:input message="tns:DownloadARPaymentSoapIn" />
+      <wsdl:output message="tns:DownloadARPaymentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadPayment">
+      <wsdl:input message="tns:DownloadPaymentSoapIn" />
+      <wsdl:output message="tns:DownloadPaymentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadARPaymentType">
+      <wsdl:input message="tns:DownloadARPaymentTypeSoapIn" />
+      <wsdl:output message="tns:DownloadARPaymentTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRTARPaymentTypeARPayment">
+      <wsdl:input message="tns:DownloadRTARPaymentTypeARPaymentSoapIn" />
+      <wsdl:output message="tns:DownloadRTARPaymentTypeARPaymentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadReceipt">
+      <wsdl:input message="tns:DownloadReceiptSoapIn" />
+      <wsdl:output message="tns:DownloadReceiptSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadReceiptItem">
+      <wsdl:input message="tns:DownloadReceiptItemSoapIn" />
+      <wsdl:output message="tns:DownloadReceiptItemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadDisconnectionDoc">
+      <wsdl:input message="tns:DownloadDisconnectionDocSoapIn" />
+      <wsdl:output message="tns:DownloadDisconnectionDocSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRTDisconnectionDocCaDoc">
+      <wsdl:input message="tns:DownloadRTDisconnectionDocCaDocSoapIn" />
+      <wsdl:output message="tns:DownloadRTDisconnectionDocCaDocSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadAP">
+      <wsdl:input message="tns:DownloadAPSoapIn" />
+      <wsdl:output message="tns:DownloadAPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadAPChequePayment">
+      <wsdl:input message="tns:DownloadAPChequePaymentSoapIn" />
+      <wsdl:output message="tns:DownloadAPChequePaymentSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ARWebServiceSoap" type="tns:ARWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DownloadAR">
+      <soap:operation soapAction="http://tempuri.org/DownloadAR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadARAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadARPayment">
+      <soap:operation soapAction="http://tempuri.org/DownloadARPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadARPaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadPayment">
+      <soap:operation soapAction="http://tempuri.org/DownloadPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadPaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadARPaymentType">
+      <soap:operation soapAction="http://tempuri.org/DownloadARPaymentType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadARPaymentTypeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRTARPaymentTypeARPayment">
+      <soap:operation soapAction="http://tempuri.org/DownloadRTARPaymentTypeARPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadRTARPaymentTypeARPaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadReceipt">
+      <soap:operation soapAction="http://tempuri.org/DownloadReceipt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadReceiptAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadReceiptItem">
+      <soap:operation soapAction="http://tempuri.org/DownloadReceiptItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadReceiptItemAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadDisconnectionDoc">
+      <soap:operation soapAction="http://tempuri.org/DownloadDisconnectionDoc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadDisconnectionDocAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRTDisconnectionDocCaDoc">
+      <soap:operation soapAction="http://tempuri.org/DownloadRTDisconnectionDocCaDoc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadRTDisconnectionDocCaDocAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadAP">
+      <soap:operation soapAction="http://tempuri.org/DownloadAP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadAPAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadAPChequePayment">
+      <soap:operation soapAction="http://tempuri.org/DownloadAPChequePayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadAPChequePaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ARWebServiceSoap12" type="tns:ARWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DownloadAR">
+      <soap12:operation soapAction="http://tempuri.org/DownloadAR" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadARAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadARPayment">
+      <soap12:operation soapAction="http://tempuri.org/DownloadARPayment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadARPaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadPayment">
+      <soap12:operation soapAction="http://tempuri.org/DownloadPayment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadPaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadARPaymentType">
+      <soap12:operation soapAction="http://tempuri.org/DownloadARPaymentType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadARPaymentTypeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRTARPaymentTypeARPayment">
+      <soap12:operation soapAction="http://tempuri.org/DownloadRTARPaymentTypeARPayment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadRTARPaymentTypeARPaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadReceipt">
+      <soap12:operation soapAction="http://tempuri.org/DownloadReceipt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadReceiptAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadReceiptItem">
+      <soap12:operation soapAction="http://tempuri.org/DownloadReceiptItem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadReceiptItemAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadDisconnectionDoc">
+      <soap12:operation soapAction="http://tempuri.org/DownloadDisconnectionDoc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadDisconnectionDocAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRTDisconnectionDocCaDoc">
+      <soap12:operation soapAction="http://tempuri.org/DownloadRTDisconnectionDocCaDoc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadRTDisconnectionDocCaDocAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadAP">
+      <soap12:operation soapAction="http://tempuri.org/DownloadAP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadAPAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadAPChequePayment">
+      <soap12:operation soapAction="http://tempuri.org/DownloadAPChequePayment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadAPChequePaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ARWebService">
+    <wsdl:port name="ARWebServiceSoap" binding="tns:ARWebServiceSoap">
+      <soap:address location="http://localhost/BPMIntegrationDownloadedService/ARWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ARWebServiceSoap12" binding="tns:ARWebServiceSoap12">
+      <soap12:address location="http://localhost/BPMIntegrationDownloadedService/ARWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

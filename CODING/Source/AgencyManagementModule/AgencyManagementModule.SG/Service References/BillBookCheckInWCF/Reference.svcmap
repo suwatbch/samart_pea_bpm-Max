@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b4c7b4b0-3148-4d5b-805c-14eecf0e299e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/AGENCY/BillbookCheckInWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BillbookCheckInWCFService.disco" MetadataType="Disco" ID="e59f946f-0369-4c77-83ec-e5844d085087" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/BillbookCheckInWCFService.svc?disco" />
+    <MetadataFile FileName="BillbookCheckInWCFService.xsd" MetadataType="Schema" ID="5a1159cb-f6c4-418c-8573-93ac87a39139" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/BillbookCheckInWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="BillbookCheckInWCFService1.xsd" MetadataType="Schema" ID="fbb557ce-1925-4c1f-9f9d-7231c6bbe52c" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/BillbookCheckInWCFService.svc?xsd=xsd5" />
+    <MetadataFile FileName="BillbookCheckInWCFService2.xsd" MetadataType="Schema" ID="5b18bf5e-9782-466d-b6ba-1c3cc394bf48" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/BillbookCheckInWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="BillbookCheckInWCFService.wsdl" MetadataType="Wsdl" ID="b247e70a-f805-476a-af68-51cb3de0f3b5" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/BillbookCheckInWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="BillbookCheckInWCFService3.xsd" MetadataType="Schema" ID="3c60af44-2517-421e-be4c-ca275092c637" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/BillbookCheckInWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="BillbookCheckInWCFService1.wsdl" MetadataType="Wsdl" ID="afbd4c52-dd52-4a99-b973-b9ed67da60a9" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/BillbookCheckInWCFService.svc?wsdl" />
+    <MetadataFile FileName="BillbookCheckInWCFService4.xsd" MetadataType="Schema" ID="03f0139b-12d3-406a-b02f-dedca1ab663f" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/BillbookCheckInWCFService.svc?xsd=xsd4" />
+    <MetadataFile FileName="BillbookCheckInWCFService5.xsd" MetadataType="Schema" ID="4507299f-f0b2-4798-bc25-f6b81a778030" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/BillbookCheckInWCFService.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

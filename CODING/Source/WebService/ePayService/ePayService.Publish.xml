@@ -1,0 +1,36 @@
+<publishData>
+  <publishTarget publishUrl="http://localhost/epaymentservice1/">
+    <file relUrl="bin/Architecture.ArchitectureBS.XmlSerializers.dll" publishTime="05/12/2011 14:51:45" />
+    <file relUrl="CommonWebService.asmx" publishTime="09/22/2010 11:01:13" />
+    <file relUrl="bin/Avanade.ACA.Batch.pdb" publishTime="05/12/2011 10:46:52" />
+    <file relUrl="bin/Infrastructure.Interface.dll" publishTime="05/12/2011 14:51:43" />
+    <file relUrl="bin/Architecture.CommonUtilities.dll" publishTime="05/12/2011 14:51:43" />
+    <file relUrl="bin/ePaymentsModule.DA.dll" publishTime="05/12/2011 14:51:44" />
+    <file relUrl="Web.config" publishTime="09/22/2010 11:01:13" />
+    <file relUrl="bin/ePaymentsModule.BS.pdb" publishTime="05/12/2011 11:21:37" />
+    <file relUrl="bin/Architecture.CommonUtilities.pdb" publishTime="05/12/2011 11:21:32" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll" publishTime="09/22/2010 11:00:10" />
+    <file relUrl="bin/ePaymentsModule.BS.dll" publishTime="05/12/2011 14:51:45" />
+    <file relUrl="bin/Architecture.ArchitectureInterface.dll" publishTime="05/12/2011 14:51:42" />
+    <file relUrl="bin/Architecture.ArchitectureInterface.pdb" publishTime="05/12/2011 10:46:49" />
+    <file relUrl="bin/Architecture.ArchitectureDA.dll" publishTime="05/12/2011 14:51:44" />
+    <file relUrl="bin/Architecture.ArchitectureDA.pdb" publishTime="05/12/2011 11:21:35" />
+    <file relUrl="bin/Avanade.ACA.Batch.dll" publishTime="05/12/2011 14:51:44" />
+    <file relUrl="bin/ePaymentsModule.DA.pdb" publishTime="05/12/2011 11:21:35" />
+    <file relUrl="bin/Architecture.ArchitectureBS.dll" publishTime="05/12/2011 14:51:45" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll" publishTime="09/22/2010 11:00:10" />
+    <file relUrl="bin/ePayService.pdb" publishTime="05/12/2011 14:51:46" />
+    <file relUrl="ePaymentWebService.asmx" publishTime="09/22/2010 11:01:13" />
+    <file relUrl="bin/Architecture.ArchitectureBS.pdb" publishTime="05/12/2011 11:21:40" />
+    <file relUrl="bin/Microsoft.Practices.ObjectBuilder.dll" publishTime="11/25/2010 14:18:19" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Logging.dll" publishTime="09/22/2010 11:00:10" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll" publishTime="09/22/2010 11:00:10" />
+    <file relUrl="bin/Microsoft.Practices.ObjectBuilder2.dll" publishTime="11/25/2010 14:18:19" />
+    <file relUrl="bin/Infrastructure.Interface.pdb" publishTime="05/12/2011 10:46:50" />
+    <file relUrl="bin/Microsoft.Practices.CompositeUI.dll" publishTime="09/22/2010 11:00:10" />
+    <file relUrl="bin/ePaymentsModule.Interface.pdb" publishTime="05/12/2011 11:21:33" />
+    <file relUrl="bin/ePaymentsModule.Interface.dll" publishTime="05/12/2011 14:51:43" />
+    <file relUrl="bin/protobuf-net.dll" publishTime="09/22/2010 11:00:10" />
+    <file relUrl="bin/ePayService.dll" publishTime="05/12/2011 14:51:46" />
+  </publishTarget>
+</publishData>

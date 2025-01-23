@@ -1,0 +1,66 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\BPMReportService.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\AgencyManagementModule.BS.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\AgencyManagementModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\Architecture.ArchitectureBS.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\BillPrintingModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\CashManagementModule.BS.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\CashManagementModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\ePaymentsModule.BS.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\ePaymentsModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\Infrastructure.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\LINQReport.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\PaymentCollectionModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\PaymentManagementModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\WCFExtras.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\AgencyManagementModule.DA.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\CashManagementModule.DA.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\Avanade.ACA.Batch.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\protobuf-net.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\Architecture.ArchitectureDA.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\Microsoft.Practices.CompositeUI.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\ePaymentsModule.DA.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\Architecture.ArchitectureBS.XmlSerializers.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\bin\CashManagementModule.BS.XmlSerializers.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\BPMReportService\obj\Release\BPMReportService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\BPMReportService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\AgencyManagementModule.BS.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\AgencyManagementModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\Architecture.ArchitectureBS.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\Architecture.CommonUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\BillPrintingModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\CashManagementModule.BS.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\CashManagementModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\ePaymentsModule.BS.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\ePaymentsModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\Infrastructure.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\LINQReport.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\PaymentCollectionModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\PaymentManagementModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\WCFExtras.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\Avanade.ACA.Batch.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\AgencyManagementModule.DA.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\CashManagementModule.DA.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\protobuf-net.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\Architecture.ArchitectureDA.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\Microsoft.Practices.CompositeUI.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\ePaymentsModule.DA.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\Microsoft.Practices.ObjectBuilder.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\Architecture.ArchitectureBS.XmlSerializers.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\bin\CashManagementModule.BS.XmlSerializers.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\BPMReportService\obj\Release\BPMReportService.dll

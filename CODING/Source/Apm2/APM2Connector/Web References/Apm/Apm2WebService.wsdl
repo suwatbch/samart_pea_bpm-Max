@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="localIP" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginResult" type="tns:Credential" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Credential">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Token" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SearchInvoiceByCaId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="caId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TerminalId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchInvoiceByCaIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearchInvoiceByCaIdResult" type="tns:ArrayOfSearchInvoiceInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfSearchInvoiceInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="SearchInvoiceInfo" nillable="true" type="tns:SearchInvoiceInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="SearchInvoiceInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DtId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DtName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InvoiceNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Period" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DueDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Amount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Remark" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PmId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RateTypeId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AuthInfo" type="tns:AuthInfo" />
+      <s:complexType name="AuthInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AuthToken" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="UpdatePaymentStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="caId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="InvoiceNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TerminalId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdatePaymentStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdatePaymentStatusResult" type="tns:ArrayOfPrintInvoiceInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfPrintInvoiceInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PrintInvoiceInfo" nillable="true" type="tns:PrintInvoiceInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PrintInvoiceInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="BranchId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BranchName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BranchAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MeterId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RateTypeId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaBranchId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaBranchName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Period" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MeterReadDt" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="LastUnit" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="ReadUnit" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="Qty" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="BaseAmount" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FTUnitPrice" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="FTAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Amount" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TaxCode" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="VatAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PaymentDt" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ControllerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InvoiceNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InvoiceDt" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BusinessArea" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DtId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DtName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaDoc" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="LoginSoapIn">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="LoginSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearchInvoiceByCaIdSoapIn">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceByCaId" />
+  </wsdl:message>
+  <wsdl:message name="SearchInvoiceByCaIdSoapOut">
+    <wsdl:part name="parameters" element="tns:SearchInvoiceByCaIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearchInvoiceByCaIdAuthInfo">
+    <wsdl:part name="AuthInfo" element="tns:AuthInfo" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePaymentStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdatePaymentStatus" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePaymentStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdatePaymentStatusResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Apm2WebServiceSoap">
+    <wsdl:operation name="Login">
+      <wsdl:input message="tns:LoginSoapIn" />
+      <wsdl:output message="tns:LoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceByCaId">
+      <wsdl:input message="tns:SearchInvoiceByCaIdSoapIn" />
+      <wsdl:output message="tns:SearchInvoiceByCaIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePaymentStatus">
+      <wsdl:input message="tns:UpdatePaymentStatusSoapIn" />
+      <wsdl:output message="tns:UpdatePaymentStatusSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Apm2WebServiceSoap" type="tns:Apm2WebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceByCaId">
+      <soap:operation soapAction="http://tempuri.org/SearchInvoiceByCaId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SearchInvoiceByCaIdAuthInfo" part="AuthInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePaymentStatus">
+      <soap:operation soapAction="http://tempuri.org/UpdatePaymentStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Apm2WebServiceSoap12" type="tns:Apm2WebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap12:operation soapAction="http://tempuri.org/Login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceByCaId">
+      <soap12:operation soapAction="http://tempuri.org/SearchInvoiceByCaId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:SearchInvoiceByCaIdAuthInfo" part="AuthInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePaymentStatus">
+      <soap12:operation soapAction="http://tempuri.org/UpdatePaymentStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Apm2WebService">
+    <wsdl:port name="Apm2WebServiceSoap" binding="tns:Apm2WebServiceSoap">
+      <soap:address location="http://bpm.cbs2proj.pea.co.th/APM2WCFService/Apm2WebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Apm2WebServiceSoap12" binding="tns:Apm2WebServiceSoap12">
+      <soap12:address location="http://bpm.cbs2proj.pea.co.th/APM2WCFService/Apm2WebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

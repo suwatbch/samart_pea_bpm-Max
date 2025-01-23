@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AdminToolService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CommandTimeout" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="OutOfShiftDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">POSDatabase</Value>
+    </Setting>
+    <Setting Name="CloseAccountStatusDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ReportDatabase</Value>
+    </Setting>
+    <Setting Name="ConnectionSettingDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">POSDatabase</Value>
+    </Setting>
+    <Setting Name="ConsolidateDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">POSDatabase</Value>
+    </Setting>
+    <Setting Name="OfflineErrorLogDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">POSDatabase</Value>
+    </Setting>
+    <Setting Name="UnclarifyPaymentDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">POSDatabase</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

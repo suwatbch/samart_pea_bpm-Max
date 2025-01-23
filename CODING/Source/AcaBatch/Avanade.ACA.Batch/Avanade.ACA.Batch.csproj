@@ -1,0 +1,632 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{44CBE5C3-8E12-4155-83DB-9DD2CB38454F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Avanade.ACA.Batch</AssemblyName>
+    <AssemblyOriginatorKeyFile>..\Avanade.ACA.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Avanade.ACA.Batch</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>false</SignAssembly>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugUnitTests|AnyCPU' ">
+    <OutputPath>bin\DebugTests\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE;UNIT_TESTS</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseFinal|AnyCPU' ">
+    <OutputPath>bin\ReleaseFinal\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;FINAL</DefineConstants>
+    <DocumentationFile>doc\Avanade.ACA.Batch.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.75.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Configuration.Design, Version=4.1.75.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=4.1.75.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder2, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.ObjectBuilder2.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install">
+      <Name>System.Configuration.Install</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <Name>System.EnterpriseServices</Name>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.ServiceProcess">
+      <Name>System.ServiceProcess</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BatchClientSettingsData.cs" />
+    <Compile Include="Configuration\BatchDatabaseSettingsData.cs" />
+    <Compile Include="Configuration\BatchDefinitionCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BatchDefinitionData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BatchExecutionSettingsData.cs" />
+    <Compile Include="Configuration\BatchInterfaces.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BatchServerSettingsData.cs" />
+    <Compile Include="Configuration\BatchSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BatchTypeCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BatchTypeData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\DestinationCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\DestinationData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\IO\CharacterSeparatedFileParameterData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\IO\FileParameterArrayData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\IO\FileParameterData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\IO\FileSetParameterData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\IO\FixedWidthFileParameterData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\IO\XmlFileParameterData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\JobDefinitionCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\JobDefinitionData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\JobReferenceCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\JobReferenceData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\JobTypeCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\JobTypeData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\ParameterCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\ParameterData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\RequestCommandCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\RequestCommandData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchExecutionServerSwitcher.cs" />
+    <Compile Include="Runtime\CustomSerializer.cs" />
+    <Compile Include="Instrumentation\BatchInstrumentationListener.cs" />
+    <Compile Include="Instrumentation\BatchInstrumentationProvider.cs" />
+    <Compile Include="Instrumentation\BatchArchitectureConfigFailureEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchArchitectureEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchArchitectureFailureEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchExecutionHostStartedEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchJobCommittedEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchJobCompletedEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchJobEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchJobFailedEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchJobStartedEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchJobWorkUnitCompletedEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchRequestCommittedEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchRequestCompletedEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchRequestDequeuedEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchRequestEnqueuedEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchRequestEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchRequestEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchRequestFailedEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchRequestInQueueTimeTracker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchRequestPausedEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchRequestResumedEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchRequestResumedEventArgs.cs" />
+    <Compile Include="Instrumentation\BatchRequestStartedEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchServerHostEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchServerThrottledEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\BatchJobEventArgs.cs" />
+    <Compile Include="Instrumentation\BatchRequestCompletedEventArgs.cs" />
+    <Compile Include="Instrumentation\BatchJobCompletedEventArgs.cs" />
+    <Compile Include="Instrumentation\BatchJobFailedEventArgs.cs" />
+    <Compile Include="Instrumentation\BatchRequestPausedEventArgs.cs" />
+    <Compile Include="Instrumentation\BatchJobCommittedEventArgs.cs" />
+    <Compile Include="Instrumentation\BatchJobWorkUnitCompletedEventArgs.cs" />
+    <Compile Include="Instrumentation\BatchServerHostEventArgs.cs" />
+    <Compile Include="Instrumentation\BatchArchitectureFailureEventArgs.cs" />
+    <Compile Include="Instrumentation\ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IO\CharacterSeparatedFileDataReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\FileDataReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\FileSetSearchHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\FixedWidthFileDataReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\FixedWidthFileDataWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\FlatFileDataReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\IDataWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\XmlFileDataReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\ACABatchConfigurationException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\ACABatchException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\ACABatchFatalException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\AppDomainIsolation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\Batch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchDatabaseFatalException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchDbConstants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchExecutionContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchExecutionContextData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchExecutionData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchExecutionException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchExecutionManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchExecutionRequest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchExecutionRequestAsyncResult.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchExecutionRequestQueue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchExecutionResponse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchExecutionTimedOutEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchExecutionTimedOutEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchProcessStatusCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchRequestNotFoundException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchServer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchServerService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Runtime\BatchServerState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\DbTransactionState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\DefaultBatchManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\DefaultProcessExitCodeStrategy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\DequeuedBatchExecutionRequest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\ExceptionCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\ExceptionData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\ExecutionIsolationLevel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\ExecutionPriorityLevel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\IBatch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\IBatchExecutionIsolation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\IBatchExecutionManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\IBatchQueue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\IExceptionHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\IJob.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\ILoadBalancedBatch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\IProcessExitCodeStrategy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\Job.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\JobExecutionContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\JobExecutionContextCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\JobExecutionContextData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\JobRestartBehavior.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\JobStatusCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\LoadBalancedBatch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\ParameterExecutionContextCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\ParameterTypeNotSupportedException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\ParamterCategory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\PriorityConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\ProcessIsolation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\QueuePriorityLevel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\RelativeExpirationTimer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\RemoteBatchExecutor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\RequestCommitHandle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\RequestEnqueueHandle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\Requester.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\RestartBehavior.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\Snapshot.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\SnapshotCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\ThreadIsolation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\UnhandledExceptionHandlerCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\UnitizedJob.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime\WorkUnitsTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TypeConverters\LifetimeAttributeConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TypeConverters\SynchronizedXmlSerialization.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TypeConverters\XmlSerializableTypeConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TypeConverters\XmlSerializableTypeDescriptorContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Instrumentation\ProjectInstaller.resx">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Runtime\BatchServerService.resx">
+      <DependentUpon>BatchServerService.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

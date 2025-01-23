@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetConnectionSettingDisplay">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="active" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetConnectionSettingDisplayResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetConnectionSettingDisplayResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetConnectionSettingInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetConnectionSettingInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetConnectionSettingInfoResult" type="tns:ConnectionSettingInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ConnectionSettingInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="BranchId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Online" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Branch" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Heartbeat" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ModifiedDt" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="ModifiedBy" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Active" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AddConnectionSetting">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="connectionSettingInfo" type="tns:ConnectionSettingInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddConnectionSettingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AddConnectionSettingResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateConnectionSetting">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="targetBranchId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="connectionSettingInfo" type="tns:ConnectionSettingInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateConnectionSettingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateConnectionSettingResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteConnectionSettingByBranchIdList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchIdList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteConnectionSettingByBranchIdListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteConnectionSettingByBranchIdListResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetConnectionSettingDisplaySoapIn">
+    <wsdl:part name="parameters" element="tns:GetConnectionSettingDisplay" />
+  </wsdl:message>
+  <wsdl:message name="GetConnectionSettingDisplaySoapOut">
+    <wsdl:part name="parameters" element="tns:GetConnectionSettingDisplayResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetConnectionSettingInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetConnectionSettingInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetConnectionSettingInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetConnectionSettingInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddConnectionSettingSoapIn">
+    <wsdl:part name="parameters" element="tns:AddConnectionSetting" />
+  </wsdl:message>
+  <wsdl:message name="AddConnectionSettingSoapOut">
+    <wsdl:part name="parameters" element="tns:AddConnectionSettingResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateConnectionSettingSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateConnectionSetting" />
+  </wsdl:message>
+  <wsdl:message name="UpdateConnectionSettingSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateConnectionSettingResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteConnectionSettingByBranchIdListSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteConnectionSettingByBranchIdList" />
+  </wsdl:message>
+  <wsdl:message name="DeleteConnectionSettingByBranchIdListSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteConnectionSettingByBranchIdListResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ConnectionSettingWebServiceSoap">
+    <wsdl:operation name="GetConnectionSettingDisplay">
+      <wsdl:input message="tns:GetConnectionSettingDisplaySoapIn" />
+      <wsdl:output message="tns:GetConnectionSettingDisplaySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetConnectionSettingInfo">
+      <wsdl:input message="tns:GetConnectionSettingInfoSoapIn" />
+      <wsdl:output message="tns:GetConnectionSettingInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddConnectionSetting">
+      <wsdl:input message="tns:AddConnectionSettingSoapIn" />
+      <wsdl:output message="tns:AddConnectionSettingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConnectionSetting">
+      <wsdl:input message="tns:UpdateConnectionSettingSoapIn" />
+      <wsdl:output message="tns:UpdateConnectionSettingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteConnectionSettingByBranchIdList">
+      <wsdl:input message="tns:DeleteConnectionSettingByBranchIdListSoapIn" />
+      <wsdl:output message="tns:DeleteConnectionSettingByBranchIdListSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ConnectionSettingWebServiceSoap" type="tns:ConnectionSettingWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetConnectionSettingDisplay">
+      <soap:operation soapAction="http://tempuri.org/GetConnectionSettingDisplay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConnectionSettingInfo">
+      <soap:operation soapAction="http://tempuri.org/GetConnectionSettingInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddConnectionSetting">
+      <soap:operation soapAction="http://tempuri.org/AddConnectionSetting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConnectionSetting">
+      <soap:operation soapAction="http://tempuri.org/UpdateConnectionSetting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteConnectionSettingByBranchIdList">
+      <soap:operation soapAction="http://tempuri.org/DeleteConnectionSettingByBranchIdList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ConnectionSettingWebServiceSoap12" type="tns:ConnectionSettingWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetConnectionSettingDisplay">
+      <soap12:operation soapAction="http://tempuri.org/GetConnectionSettingDisplay" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConnectionSettingInfo">
+      <soap12:operation soapAction="http://tempuri.org/GetConnectionSettingInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddConnectionSetting">
+      <soap12:operation soapAction="http://tempuri.org/AddConnectionSetting" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConnectionSetting">
+      <soap12:operation soapAction="http://tempuri.org/UpdateConnectionSetting" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteConnectionSettingByBranchIdList">
+      <soap12:operation soapAction="http://tempuri.org/DeleteConnectionSettingByBranchIdList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ConnectionSettingWebService">
+    <wsdl:port name="ConnectionSettingWebServiceSoap" binding="tns:ConnectionSettingWebServiceSoap">
+      <soap:address location="http://localhost:49898/ConnectionSetting/ConnectionSettingWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ConnectionSettingWebServiceSoap12" binding="tns:ConnectionSettingWebServiceSoap12">
+      <soap12:address location="http://localhost:49898/ConnectionSetting/ConnectionSettingWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

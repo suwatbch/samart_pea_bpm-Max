@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PPIMWcfService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PPIMWcfService_VSPPPro_App_Http_WebServices_BpmWebServiceService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://vsppdb-dev.pea.co.th:4443/web-services/bpm/services.wsdl</Value>
+    </Setting>
+    <Setting Name="PEA_PPIMServiceURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://vsppdb-dev.pea.co.th:4433/web-services/bpm/services.wsdl</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

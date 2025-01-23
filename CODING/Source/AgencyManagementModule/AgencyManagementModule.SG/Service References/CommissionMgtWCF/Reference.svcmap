@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="882ad824-0f89-42e3-99a0-d22602c13c90" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CommissionMgtWCFService7.xsd" MetadataType="Schema" ID="83a8b610-8c97-4ca8-8b02-20cbc9ea056f" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?xsd=xsd5" />
+    <MetadataFile FileName="CommissionMgtWCFService71.xsd" MetadataType="Schema" ID="27e6c476-2a6a-458f-9eec-584350fd5929" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?xsd=xsd6" />
+    <MetadataFile FileName="CommissionMgtWCFService1.disco" MetadataType="Disco" ID="ccfb8ed3-9418-4ac2-b536-b30eb405f54e" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?disco" />
+    <MetadataFile FileName="CommissionMgtWCFService2.wsdl" MetadataType="Wsdl" ID="a99e8e8b-32c9-4b50-8939-a1e4a4f0fb5a" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?wsdl" />
+    <MetadataFile FileName="CommissionMgtWCFService72.xsd" MetadataType="Schema" ID="df59cf5a-d7ec-4852-95c5-e940fc766d04" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="CommissionMgtWCFService73.xsd" MetadataType="Schema" ID="ee75581e-6d0a-4820-8d66-317ef97c0b7b" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?xsd=xsd4" />
+    <MetadataFile FileName="CommissionMgtWCFService74.xsd" MetadataType="Schema" ID="0d1da5f0-afe7-4e9b-a205-e05a62d5e97e" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CommissionMgtWCFService21.wsdl" MetadataType="Wsdl" ID="43ce7610-866e-49c1-9bbc-d5bf936e027a" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="CommissionMgtWCFService75.xsd" MetadataType="Schema" ID="dbaee227-0c02-4cee-85f0-308449080541" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CommissionMgtWCFService76.xsd" MetadataType="Schema" ID="523fcfe7-81e2-4467-a981-b11181bc02c7" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/CommissionMgtWCFService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

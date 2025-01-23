@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="76ebdd5a-b20a-447c-adc0-06d0ccd3a722" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/TOOL/AzManWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AzManWCFService7.xsd" MetadataType="Schema" ID="e74ff8c8-a8c6-43da-8ea1-504fd67fbb18" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/AzManWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="AzManWCFService1.disco" MetadataType="Disco" ID="ad3a89f3-fd42-496d-923d-700ca89ed2fe" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/AzManWCFService.svc?disco" />
+    <MetadataFile FileName="AzManWCFService71.xsd" MetadataType="Schema" ID="29b2b3a9-7b98-4b5e-bc41-582d9d1d8718" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/AzManWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AzManWCFService2.wsdl" MetadataType="Wsdl" ID="d39d0b44-7912-4267-86ba-a208008b2bb1" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/AzManWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="AzManWCFService72.xsd" MetadataType="Schema" ID="715622df-dbaf-44be-bcf3-00e50875da28" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/AzManWCFService.svc?xsd=xsd5" />
+    <MetadataFile FileName="AzManWCFService21.wsdl" MetadataType="Wsdl" ID="5c04532a-fa50-4ff2-810f-b82959775b67" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/AzManWCFService.svc?wsdl" />
+    <MetadataFile FileName="AzManWCFService73.xsd" MetadataType="Schema" ID="e5e3e8f6-defc-4895-b006-143856d93f56" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/AzManWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AzManWCFService74.xsd" MetadataType="Schema" ID="6bcc2589-2b0b-44a4-910c-6fd385c60c84" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/AzManWCFService.svc?xsd=xsd4" />
+    <MetadataFile FileName="AzManWCFService75.xsd" MetadataType="Schema" ID="f0d9b2d4-e0e5-48a8-b2f5-06bb1ed2ed2c" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/AzManWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AzManWCFService76.xsd" MetadataType="Schema" ID="5080036f-f8d1-4863-b1d0-a9e730ff3ce5" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/AzManWCFService.svc?xsd=xsd6" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

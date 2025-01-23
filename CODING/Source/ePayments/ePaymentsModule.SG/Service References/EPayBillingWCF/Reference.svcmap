@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f09879bf-9920-492f-ae7f-10e54026e156" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EPayBillingWCFService.xsd" MetadataType="Schema" ID="2469014d-b939-4f08-8e47-2246682cf15b" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?xsd=xsd7" />
+    <MetadataFile FileName="EPayBillingWCFService.disco" MetadataType="Disco" ID="38b85f69-a5a6-430c-a10b-70a4998a9995" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?disco" />
+    <MetadataFile FileName="EPayBillingWCFService1.xsd" MetadataType="Schema" ID="025c08ca-a1a5-4d57-84ce-7273eee87004" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?xsd=xsd4" />
+    <MetadataFile FileName="EPayBillingWCFService2.xsd" MetadataType="Schema" ID="a087292b-dc90-4d81-8488-05c0f8b00bc2" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="EPayBillingWCFService3.xsd" MetadataType="Schema" ID="37348a76-4152-45dd-8e61-41668de31a83" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?xsd=xsd5" />
+    <MetadataFile FileName="EPayBillingWCFService4.xsd" MetadataType="Schema" ID="1c131354-fd3b-4d08-81e9-01a0452a7572" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?xsd=xsd6" />
+    <MetadataFile FileName="EPayBillingWCFService5.xsd" MetadataType="Schema" ID="493c660e-d850-47da-8942-3346c90739d3" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="EPayBillingWCFService6.xsd" MetadataType="Schema" ID="4e8915cb-0e21-4aee-9228-66d16bc2a2ca" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="EPayBillingWCFService.wsdl" MetadataType="Wsdl" ID="99d036af-699c-49a0-a383-ebccbf982118" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="EPayBillingWCFService1.wsdl" MetadataType="Wsdl" ID="42dab395-104e-460d-b2a5-194aeba8c514" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?wsdl" />
+    <MetadataFile FileName="EPayBillingWCFService7.xsd" MetadataType="Schema" ID="563506bd-b526-4a41-8b7a-60347306fec6" SourceId="1" SourceUrl="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/TOOL/BroadcastWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/TOOL/BroadcastWCFService.svc?xsd=xsd3" />
+      <xsd:import schemaLocation="http://localhost/BPMService/TOOL/BroadcastWCFService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/TOOL/BroadcastWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/TOOL/BroadcastWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastNow_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewsBroadcastNow" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastNow_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastNow_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewsBroadcastNowResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastNow_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewsBroadcastHistory" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastHistory_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewsBroadcastHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastHistory_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastSent_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewsBroadcastSent" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastSent_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastSent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewsBroadcastSentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastSent_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastNowForSender_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewsBroadcastNowForSender" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastNowForSender_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastNowForSender_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewsBroadcastNowForSenderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastNowForSender_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastScheduled_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewsBroadcastScheduled" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastScheduled_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastScheduled_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewsBroadcastScheduledResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastScheduled_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastSentMonthYears_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewsBroadcastSentMonthYears" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastSentMonthYears_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastSentMonthYears_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewsBroadcastSentMonthYearsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastSentMonthYears_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewsBroadcastUser" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastUser_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewsBroadcastUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetNewsBroadcastUser_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_UpdateNewsBroadcastUserOpened_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateNewsBroadcastUserOpened" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_UpdateNewsBroadcastUserOpened_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_UpdateNewsBroadcastUserOpened_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateNewsBroadcastUserOpenedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_UpdateNewsBroadcastUserOpened_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q8:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_UpdateNewsBroadcastUserRead_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateNewsBroadcastUserRead" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_UpdateNewsBroadcastUserRead_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_UpdateNewsBroadcastUserRead_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateNewsBroadcastUserReadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_UpdateNewsBroadcastUserRead_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q9:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetArea_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetArea" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetArea_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetArea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAreaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetArea_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q10:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetBranch_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBranch" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetBranch_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetBranch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBranchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetBranch_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q11:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUser" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetUser_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetUser_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q12:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetRole_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRole" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetRole_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetRole_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetRole_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q13="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q13:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_InsertNewsBroadcast_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewsBroadcast" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_InsertNewsBroadcast_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_InsertNewsBroadcast_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewsBroadcastResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_InsertNewsBroadcast_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q14:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_InsertNewsBroadcastUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewsBroadcastUser" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_InsertNewsBroadcastUser_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_InsertNewsBroadcastUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewsBroadcastUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_InsertNewsBroadcastUser_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q15="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q15:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetLastNewsBroadcastId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastNewsBroadcastId" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetLastNewsBroadcastId_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetLastNewsBroadcastId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastNewsBroadcastIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_GetLastNewsBroadcastId_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q16="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q16:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_IsDuplicateUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsDuplicateUser" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_IsDuplicateUser_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_IsDuplicateUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsDuplicateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroadcastWCFService_IsDuplicateUser_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q17="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q17:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="IBroadcastWCFService">
+    <wsdl:operation name="GetNewsBroadcastNow">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastNow" message="tns:IBroadcastWCFService_GetNewsBroadcastNow_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastNowResponse" message="tns:IBroadcastWCFService_GetNewsBroadcastNow_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastNowBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBroadcastWCFService_GetNewsBroadcastNow_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewsBroadcastHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastHistory" message="tns:IBroadcastWCFService_GetNewsBroadcastHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastHistoryResponse" message="tns:IBroadcastWCFService_GetNewsBroadcastHistory_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastHistoryBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBroadcastWCFService_GetNewsBroadcastHistory_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewsBroadcastSent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastSent" message="tns:IBroadcastWCFService_GetNewsBroadcastSent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastSentResponse" message="tns:IBroadcastWCFService_GetNewsBroadcastSent_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastSentBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBroadcastWCFService_GetNewsBroadcastSent_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewsBroadcastNowForSender">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastNowForSender" message="tns:IBroadcastWCFService_GetNewsBroadcastNowForSender_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastNowForSenderResponse" message="tns:IBroadcastWCFService_GetNewsBroadcastNowForSender_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastNowForSenderBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBroadcastWCFService_GetNewsBroadcastNowForSender_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewsBroadcastScheduled">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastScheduled" message="tns:IBroadcastWCFService_GetNewsBroadcastScheduled_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastScheduledResponse" message="tns:IBroadcastWCFService_GetNewsBroadcastScheduled_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastScheduledBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBroadcastWCFService_GetNewsBroadcastScheduled_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewsBroadcastSentMonthYears">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastSentMonthYears" message="tns:IBroadcastWCFService_GetNewsBroadcastSentMonthYears_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastSentMonthYearsResponse" message="tns:IBroadcastWCFService_GetNewsBroadcastSentMonthYears_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastSentMonthYearsBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBroadcastWCFService_GetNewsBroadcastSentMonthYears_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewsBroadcastUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastUser" message="tns:IBroadcastWCFService_GetNewsBroadcastUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastUserResponse" message="tns:IBroadcastWCFService_GetNewsBroadcastUser_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastUserBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBroadcastWCFService_GetNewsBroadcastUser_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNewsBroadcastUserOpened">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroadcastWCFService/UpdateNewsBroadcastUserOpened" message="tns:IBroadcastWCFService_UpdateNewsBroadcastUserOpened_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroadcastWCFService/UpdateNewsBroadcastUserOpenedResponse" message="tns:IBroadcastWCFService_UpdateNewsBroadcastUserOpened_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBroadcastWCFService/UpdateNewsBroadcastUserOpenedBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBroadcastWCFService_UpdateNewsBroadcastUserOpened_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNewsBroadcastUserRead">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroadcastWCFService/UpdateNewsBroadcastUserRead" message="tns:IBroadcastWCFService_UpdateNewsBroadcastUserRead_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroadcastWCFService/UpdateNewsBroadcastUserReadResponse" message="tns:IBroadcastWCFService_UpdateNewsBroadcastUserRead_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBroadcastWCFService/UpdateNewsBroadcastUserReadBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBroadcastWCFService_UpdateNewsBroadcastUserRead_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetArea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetArea" message="tns:IBroadcastWCFService_GetArea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetAreaResponse" message="tns:IBroadcastWCFService_GetArea_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetAreaBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBroadcastWCFService_GetArea_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBranch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetBranch" message="tns:IBroadcastWCFService_GetBranch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetBranchResponse" message="tns:IBroadcastWCFService_GetBranch_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetBranchBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBroadcastWCFService_GetBranch_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetUser" message="tns:IBroadcastWCFService_GetUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetUserResponse" message="tns:IBroadcastWCFService_GetUser_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetUserBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBroadcastWCFService_GetUser_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRole">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetRole" message="tns:IBroadcastWCFService_GetRole_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetRoleResponse" message="tns:IBroadcastWCFService_GetRole_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetRoleBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBroadcastWCFService_GetRole_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewsBroadcast">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroadcastWCFService/InsertNewsBroadcast" message="tns:IBroadcastWCFService_InsertNewsBroadcast_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroadcastWCFService/InsertNewsBroadcastResponse" message="tns:IBroadcastWCFService_InsertNewsBroadcast_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBroadcastWCFService/InsertNewsBroadcastBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBroadcastWCFService_InsertNewsBroadcast_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewsBroadcastUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroadcastWCFService/InsertNewsBroadcastUser" message="tns:IBroadcastWCFService_InsertNewsBroadcastUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroadcastWCFService/InsertNewsBroadcastUserResponse" message="tns:IBroadcastWCFService_InsertNewsBroadcastUser_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBroadcastWCFService/InsertNewsBroadcastUserBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBroadcastWCFService_InsertNewsBroadcastUser_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastNewsBroadcastId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetLastNewsBroadcastId" message="tns:IBroadcastWCFService_GetLastNewsBroadcastId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetLastNewsBroadcastIdResponse" message="tns:IBroadcastWCFService_GetLastNewsBroadcastId_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBroadcastWCFService/GetLastNewsBroadcastIdBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBroadcastWCFService_GetLastNewsBroadcastId_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsDuplicateUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroadcastWCFService/IsDuplicateUser" message="tns:IBroadcastWCFService_IsDuplicateUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroadcastWCFService/IsDuplicateUserResponse" message="tns:IBroadcastWCFService_IsDuplicateUser_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBroadcastWCFService/IsDuplicateUserBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBroadcastWCFService_IsDuplicateUser_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

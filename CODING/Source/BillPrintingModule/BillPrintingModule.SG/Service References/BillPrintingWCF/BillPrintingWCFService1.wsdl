@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/BillPrintingWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/BillPrintingWCFService.svc?xsd=xsd5" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/BillPrintingWCFService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/BillPrintingWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/BillPrintingWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.BillPrintingModule.Interface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/BillPrintingWCFService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/BillPrintingWCFService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IBillPrintingWCFService_PrintBlueBill_NoCompress_InputMessage">
+    <wsdl:part name="parameters" element="tns:PrintBlueBill_NoCompress" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintBlueBill_NoCompress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintBlueBill_NoCompress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PrintBlueBill_NoCompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintBlueBill_NoCompress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintBlueBill_InputMessage">
+    <wsdl:part name="parameters" element="tns:PrintBlueBill" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintBlueBill_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintBlueBill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PrintBlueBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintBlueBill_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintGreenBill_InputMessage">
+    <wsdl:part name="parameters" element="tns:PrintGreenBill" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintGreenBill_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintGreenBill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PrintGreenBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintGreenBill_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintA4Bill_NoCompress_InputMessage">
+    <wsdl:part name="parameters" element="tns:PrintA4Bill_NoCompress" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintA4Bill_NoCompress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintA4Bill_NoCompress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PrintA4Bill_NoCompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintA4Bill_NoCompress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintA4Bill_InputMessage">
+    <wsdl:part name="parameters" element="tns:PrintA4Bill" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintA4Bill_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintA4Bill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PrintA4BillResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintA4Bill_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintBlueBill_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReprintBlueBill" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintBlueBill_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintBlueBill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReprintBlueBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintBlueBill_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintGreenBill_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReprintGreenBill" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintGreenBill_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintGreenBill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReprintGreenBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintGreenBill_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintGroupInvoiceA4Bill_InputMessage">
+    <wsdl:part name="parameters" element="tns:PrintGroupInvoiceA4Bill" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintGroupInvoiceA4Bill_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintGroupInvoiceA4Bill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PrintGroupInvoiceA4BillResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintGroupInvoiceA4Bill_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q8:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintGroupInvoiceA4Bill_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReprintGroupInvoiceA4Bill" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintGroupInvoiceA4Bill_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintGroupInvoiceA4Bill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReprintGroupInvoiceA4BillResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintGroupInvoiceA4Bill_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q9:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintGreenBillByBank_InputMessage">
+    <wsdl:part name="parameters" element="tns:PrintGreenBillByBank" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintGreenBillByBank_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintGreenBillByBank_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PrintGreenBillByBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintGreenBillByBank_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q10:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintGreenBillByBank_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReprintGreenBillByBank" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintGreenBillByBank_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintGreenBillByBank_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReprintGreenBillByBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintGreenBillByBank_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q11:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintBlueBillByBank_InputMessage">
+    <wsdl:part name="parameters" element="tns:PrintBlueBillByBank" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintBlueBillByBank_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintBlueBillByBank_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PrintBlueBillByBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintBlueBillByBank_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q12:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintBlueBillByBank_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReprintBlueBillByBank" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintBlueBillByBank_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintBlueBillByBank_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReprintBlueBillByBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintBlueBillByBank_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q13="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q13:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistRecord_NoCompress_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistRecord_NoCompress" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistRecord_NoCompress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistRecord_NoCompress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistRecord_NoCompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistRecord_NoCompress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q14:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistRecord_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistRecord" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistRecord_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistRecord_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistRecord_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q15="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q15:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistReprintRecord_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistReprintRecord" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistReprintRecord_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistReprintRecord_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistReprintRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistReprintRecord_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q16="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q16:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistGroupInvoiceRecord_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistGroupInvoiceRecord" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistGroupInvoiceRecord_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistGroupInvoiceRecord_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistGroupInvoiceRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistGroupInvoiceRecord_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q17="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q17:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistReprintGroupInvoiceRecord_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistReprintGroupInvoiceRecord" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistReprintGroupInvoiceRecord_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistReprintGroupInvoiceRecord_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistReprintGroupInvoiceRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistReprintGroupInvoiceRecord_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q18="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q18:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistByBank_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistByBank" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistByBank_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistByBank_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistByBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistByBank_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q19="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q19:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistReprintByBank_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistReprintByBank" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistReprintByBank_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistReprintByBank_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistReprintByBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistReprintByBank_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q20="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q20:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistGreenReceipt_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistGreenReceipt" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistGreenReceipt_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistGreenReceipt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistGreenReceiptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistGreenReceipt_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q21="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q21:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistReprintGreenReceipt_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistReprintGreenReceipt" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistReprintGreenReceipt_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistReprintGreenReceipt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistReprintGreenReceiptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_CheckExistReprintGreenReceipt_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q22="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q22:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintGreenReceipt_InputMessage">
+    <wsdl:part name="parameters" element="tns:PrintGreenReceipt" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintGreenReceipt_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintGreenReceipt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PrintGreenReceiptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintGreenReceipt_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q23="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q23:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintGreenReceipt_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReprintGreenReceipt" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintGreenReceipt_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintGreenReceipt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReprintGreenReceiptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintGreenReceipt_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q24="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q24:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintSpotBill_InputMessage">
+    <wsdl:part name="parameters" element="tns:PrintSpotBill" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintSpotBill_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintSpotBill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PrintSpotBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_PrintSpotBill_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q25="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q25:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintSpotBill_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReprintSpotBill" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintSpotBill_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintSpotBill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReprintSpotBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillPrintingWCFService_ReprintSpotBill_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q26="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q26:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="IBillPrintingWCFService">
+    <wsdl:operation name="PrintBlueBill_NoCompress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintBlueBill_NoCompress" message="tns:IBillPrintingWCFService_PrintBlueBill_NoCompress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintBlueBill_NoCompressResponse" message="tns:IBillPrintingWCFService_PrintBlueBill_NoCompress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintBlueBill_NoCompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_PrintBlueBill_NoCompress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintBlueBill">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintBlueBill" message="tns:IBillPrintingWCFService_PrintBlueBill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintBlueBillResponse" message="tns:IBillPrintingWCFService_PrintBlueBill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintBlueBillBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_PrintBlueBill_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintGreenBill">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintGreenBill" message="tns:IBillPrintingWCFService_PrintGreenBill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintGreenBillResponse" message="tns:IBillPrintingWCFService_PrintGreenBill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintGreenBillBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_PrintGreenBill_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintA4Bill_NoCompress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintA4Bill_NoCompress" message="tns:IBillPrintingWCFService_PrintA4Bill_NoCompress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintA4Bill_NoCompressResponse" message="tns:IBillPrintingWCFService_PrintA4Bill_NoCompress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintA4Bill_NoCompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_PrintA4Bill_NoCompress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintA4Bill">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintA4Bill" message="tns:IBillPrintingWCFService_PrintA4Bill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintA4BillResponse" message="tns:IBillPrintingWCFService_PrintA4Bill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintA4BillBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_PrintA4Bill_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReprintBlueBill">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintBlueBill" message="tns:IBillPrintingWCFService_ReprintBlueBill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintBlueBillResponse" message="tns:IBillPrintingWCFService_ReprintBlueBill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintBlueBillBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_ReprintBlueBill_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReprintGreenBill">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintGreenBill" message="tns:IBillPrintingWCFService_ReprintGreenBill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintGreenBillResponse" message="tns:IBillPrintingWCFService_ReprintGreenBill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintGreenBillBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_ReprintGreenBill_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintGroupInvoiceA4Bill">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintGroupInvoiceA4Bill" message="tns:IBillPrintingWCFService_PrintGroupInvoiceA4Bill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintGroupInvoiceA4BillResponse" message="tns:IBillPrintingWCFService_PrintGroupInvoiceA4Bill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintGroupInvoiceA4BillBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_PrintGroupInvoiceA4Bill_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReprintGroupInvoiceA4Bill">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintGroupInvoiceA4Bill" message="tns:IBillPrintingWCFService_ReprintGroupInvoiceA4Bill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintGroupInvoiceA4BillResponse" message="tns:IBillPrintingWCFService_ReprintGroupInvoiceA4Bill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintGroupInvoiceA4BillBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_ReprintGroupInvoiceA4Bill_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintGreenBillByBank">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintGreenBillByBank" message="tns:IBillPrintingWCFService_PrintGreenBillByBank_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintGreenBillByBankResponse" message="tns:IBillPrintingWCFService_PrintGreenBillByBank_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintGreenBillByBankBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_PrintGreenBillByBank_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReprintGreenBillByBank">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintGreenBillByBank" message="tns:IBillPrintingWCFService_ReprintGreenBillByBank_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintGreenBillByBankResponse" message="tns:IBillPrintingWCFService_ReprintGreenBillByBank_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintGreenBillByBankBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_ReprintGreenBillByBank_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintBlueBillByBank">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintBlueBillByBank" message="tns:IBillPrintingWCFService_PrintBlueBillByBank_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintBlueBillByBankResponse" message="tns:IBillPrintingWCFService_PrintBlueBillByBank_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintBlueBillByBankBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_PrintBlueBillByBank_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReprintBlueBillByBank">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintBlueBillByBank" message="tns:IBillPrintingWCFService_ReprintBlueBillByBank_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintBlueBillByBankResponse" message="tns:IBillPrintingWCFService_ReprintBlueBillByBank_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintBlueBillByBankBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_ReprintBlueBillByBank_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistRecord_NoCompress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistRecord_NoCompress" message="tns:IBillPrintingWCFService_CheckExistRecord_NoCompress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistRecord_NoCompressResponse" message="tns:IBillPrintingWCFService_CheckExistRecord_NoCompress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistRecord_NoCompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_CheckExistRecord_NoCompress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistRecord">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistRecord" message="tns:IBillPrintingWCFService_CheckExistRecord_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistRecordResponse" message="tns:IBillPrintingWCFService_CheckExistRecord_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistRecordBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_CheckExistRecord_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistReprintRecord">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistReprintRecord" message="tns:IBillPrintingWCFService_CheckExistReprintRecord_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistReprintRecordResponse" message="tns:IBillPrintingWCFService_CheckExistReprintRecord_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistReprintRecordBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_CheckExistReprintRecord_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistGroupInvoiceRecord">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistGroupInvoiceRecord" message="tns:IBillPrintingWCFService_CheckExistGroupInvoiceRecord_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistGroupInvoiceRecordResponse" message="tns:IBillPrintingWCFService_CheckExistGroupInvoiceRecord_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistGroupInvoiceRecordBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_CheckExistGroupInvoiceRecord_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistReprintGroupInvoiceRecord">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistReprintGroupInvoiceRecord" message="tns:IBillPrintingWCFService_CheckExistReprintGroupInvoiceRecord_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistReprintGroupInvoiceRecordResponse" message="tns:IBillPrintingWCFService_CheckExistReprintGroupInvoiceRecord_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistReprintGroupInvoiceRecordBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_CheckExistReprintGroupInvoiceRecord_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistByBank">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistByBank" message="tns:IBillPrintingWCFService_CheckExistByBank_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistByBankResponse" message="tns:IBillPrintingWCFService_CheckExistByBank_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistByBankBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_CheckExistByBank_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistReprintByBank">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistReprintByBank" message="tns:IBillPrintingWCFService_CheckExistReprintByBank_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistReprintByBankResponse" message="tns:IBillPrintingWCFService_CheckExistReprintByBank_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistReprintByBankBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_CheckExistReprintByBank_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistGreenReceipt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistGreenReceipt" message="tns:IBillPrintingWCFService_CheckExistGreenReceipt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistGreenReceiptResponse" message="tns:IBillPrintingWCFService_CheckExistGreenReceipt_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistGreenReceiptBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_CheckExistGreenReceipt_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistReprintGreenReceipt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistReprintGreenReceipt" message="tns:IBillPrintingWCFService_CheckExistReprintGreenReceipt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistReprintGreenReceiptResponse" message="tns:IBillPrintingWCFService_CheckExistReprintGreenReceipt_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/CheckExistReprintGreenReceiptBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_CheckExistReprintGreenReceipt_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintGreenReceipt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintGreenReceipt" message="tns:IBillPrintingWCFService_PrintGreenReceipt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintGreenReceiptResponse" message="tns:IBillPrintingWCFService_PrintGreenReceipt_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintGreenReceiptBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_PrintGreenReceipt_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReprintGreenReceipt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintGreenReceipt" message="tns:IBillPrintingWCFService_ReprintGreenReceipt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintGreenReceiptResponse" message="tns:IBillPrintingWCFService_ReprintGreenReceipt_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintGreenReceiptBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_ReprintGreenReceipt_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintSpotBill">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintSpotBill" message="tns:IBillPrintingWCFService_PrintSpotBill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintSpotBillResponse" message="tns:IBillPrintingWCFService_PrintSpotBill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/PrintSpotBillBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_PrintSpotBill_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReprintSpotBill">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintSpotBill" message="tns:IBillPrintingWCFService_ReprintSpotBill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintSpotBillResponse" message="tns:IBillPrintingWCFService_ReprintSpotBill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillPrintingWCFService/ReprintSpotBillBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillPrintingWCFService_ReprintSpotBill_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

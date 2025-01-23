@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/ReportWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/ReportWCFService.svc?xsd=xsd4" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/ReportWCFService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/ReportWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/ReportWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.ePaymentsModule.Interface.BusinessEntities.Reports" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/ReportWCFService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IEPayReportWCFService_GetRe01ReportService_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe01ReportService" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe01ReportService_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe01ReportService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe01ReportServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe01ReportService_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe02ReportService_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe02ReportService" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe02ReportService_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe02ReportService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe02ReportServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe02ReportService_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe03ReportService_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe03ReportService" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe03ReportService_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe03ReportService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe03ReportServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe03ReportService_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe04ReportService_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe04ReportService" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe04ReportService_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe04ReportService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe04ReportServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe04ReportService_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe05ReportService_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe05ReportService" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe05ReportService_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe05ReportService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe05ReportServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe05ReportService_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe06ReportInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe06ReportInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe06ReportInfo_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe06ReportInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe06ReportInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe06ReportInfo_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe07ReportInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe07ReportInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe07ReportInfo_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe07ReportInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe07ReportInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe07ReportInfo_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe08ReportInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe08ReportInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe08ReportInfo_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe08ReportInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe08ReportInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe08ReportInfo_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q8:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe09ReportInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe09ReportInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe09ReportInfo_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe09ReportInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRe09ReportInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayReportWCFService_GetRe09ReportInfo_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q9:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="IEPayReportWCFService">
+    <wsdl:operation name="GetRe01ReportService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe01ReportService" message="tns:IEPayReportWCFService_GetRe01ReportService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe01ReportServiceResponse" message="tns:IEPayReportWCFService_GetRe01ReportService_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe01ReportServiceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayReportWCFService_GetRe01ReportService_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRe02ReportService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe02ReportService" message="tns:IEPayReportWCFService_GetRe02ReportService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe02ReportServiceResponse" message="tns:IEPayReportWCFService_GetRe02ReportService_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe02ReportServiceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayReportWCFService_GetRe02ReportService_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRe03ReportService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe03ReportService" message="tns:IEPayReportWCFService_GetRe03ReportService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe03ReportServiceResponse" message="tns:IEPayReportWCFService_GetRe03ReportService_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe03ReportServiceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayReportWCFService_GetRe03ReportService_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRe04ReportService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe04ReportService" message="tns:IEPayReportWCFService_GetRe04ReportService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe04ReportServiceResponse" message="tns:IEPayReportWCFService_GetRe04ReportService_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe04ReportServiceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayReportWCFService_GetRe04ReportService_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRe05ReportService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe05ReportService" message="tns:IEPayReportWCFService_GetRe05ReportService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe05ReportServiceResponse" message="tns:IEPayReportWCFService_GetRe05ReportService_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe05ReportServiceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayReportWCFService_GetRe05ReportService_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRe06ReportInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe06ReportInfo" message="tns:IEPayReportWCFService_GetRe06ReportInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe06ReportInfoResponse" message="tns:IEPayReportWCFService_GetRe06ReportInfo_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe06ReportInfoBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayReportWCFService_GetRe06ReportInfo_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRe07ReportInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe07ReportInfo" message="tns:IEPayReportWCFService_GetRe07ReportInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe07ReportInfoResponse" message="tns:IEPayReportWCFService_GetRe07ReportInfo_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe07ReportInfoBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayReportWCFService_GetRe07ReportInfo_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRe08ReportInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe08ReportInfo" message="tns:IEPayReportWCFService_GetRe08ReportInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe08ReportInfoResponse" message="tns:IEPayReportWCFService_GetRe08ReportInfo_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe08ReportInfoBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayReportWCFService_GetRe08ReportInfo_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRe09ReportInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe09ReportInfo" message="tns:IEPayReportWCFService_GetRe09ReportInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe09ReportInfoResponse" message="tns:IEPayReportWCFService_GetRe09ReportInfo_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayReportWCFService/GetRe09ReportInfoBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayReportWCFService_GetRe09ReportInfo_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

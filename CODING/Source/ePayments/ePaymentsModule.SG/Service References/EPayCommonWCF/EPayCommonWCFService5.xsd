@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PEA.BPM.ePaymentsModule.Interface.BusinessEntities.Reports" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PEA.BPM.ePaymentsModule.Interface.BusinessEntities.Reports" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="CompanyParamInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CompanyId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AccountClassId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TargetReport" type="tns:ReportName" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CompanyParamInfo" nillable="true" type="tns:CompanyParamInfo" />
+  <xs:simpleType name="ReportName">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="RE_01" />
+      <xs:enumeration value="RE_02" />
+      <xs:enumeration value="RE_03" />
+      <xs:enumeration value="RE_04" />
+      <xs:enumeration value="RE_05" />
+      <xs:enumeration value="RE_06" />
+      <xs:enumeration value="RE_07" />
+      <xs:enumeration value="RE_08" />
+      <xs:enumeration value="RE_09" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ReportName" nillable="true" type="tns:ReportName" />
+</xs:schema>

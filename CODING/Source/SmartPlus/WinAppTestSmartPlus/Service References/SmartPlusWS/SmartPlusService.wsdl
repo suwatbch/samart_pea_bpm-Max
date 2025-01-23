@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SearchConAccountService">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CaId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchConAccountServiceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearchConAccountServiceResult" type="tns:ContractorAccountDetailModel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ContractorAccountDetailModel">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="BranchId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BranchName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountClassId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MeterSizeName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MeterInstallDt" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Remark" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SearchContractorServiceWithBillFlag">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CaId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BillFlag" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchContractorServiceWithBillFlagResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearchContractorServiceWithBillFlagResult" type="tns:ArrayOfARInformationInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfARInformationInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ARInformationInfo" nillable="true" type="tns:ARInformationInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ARInformationInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="BranchId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BranchName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CAPmId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountClassId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountClassName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MainSub" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DtName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InvoiceNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaDoc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MeterReadDt" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillingDt" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DueDt" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DueDt2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DunningDt" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Period" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Qty" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="FTAmount" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="VatRate" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="VatAmount" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="GAmount" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="InvestigateFlag" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DisconnectionFlag" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GroupInvoiceFlag" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InstallmentFlag" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PaymentOrderFlag" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiveStatus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiptId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiptDt" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiptCh" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiptBranchId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiptBranchName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TaxId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TaxBranch" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Remark" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RefInvoiceNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RefWSKey" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SearchContractorServiceWithInterestDate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CaId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="InterestDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchContractorServiceWithInterestDateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearchContractorServiceWithInterestDateResult" type="tns:ArrayOfARInformationInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateBillMarkFlagService">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CaId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="InvoiceNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateBillMarkFlagServiceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateBillMarkFlagServiceResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelPaymentService">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CaId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="InvoiceNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelPaymentServiceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CancelPaymentServiceResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SearchConAccountServiceSoapIn">
+    <wsdl:part name="parameters" element="tns:SearchConAccountService" />
+  </wsdl:message>
+  <wsdl:message name="SearchConAccountServiceSoapOut">
+    <wsdl:part name="parameters" element="tns:SearchConAccountServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearchContractorServiceWithBillFlagSoapIn">
+    <wsdl:part name="parameters" element="tns:SearchContractorServiceWithBillFlag" />
+  </wsdl:message>
+  <wsdl:message name="SearchContractorServiceWithBillFlagSoapOut">
+    <wsdl:part name="parameters" element="tns:SearchContractorServiceWithBillFlagResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearchContractorServiceWithInterestDateSoapIn">
+    <wsdl:part name="parameters" element="tns:SearchContractorServiceWithInterestDate" />
+  </wsdl:message>
+  <wsdl:message name="SearchContractorServiceWithInterestDateSoapOut">
+    <wsdl:part name="parameters" element="tns:SearchContractorServiceWithInterestDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateBillMarkFlagServiceSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateBillMarkFlagService" />
+  </wsdl:message>
+  <wsdl:message name="UpdateBillMarkFlagServiceSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateBillMarkFlagServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="CancelPaymentServiceSoapIn">
+    <wsdl:part name="parameters" element="tns:CancelPaymentService" />
+  </wsdl:message>
+  <wsdl:message name="CancelPaymentServiceSoapOut">
+    <wsdl:part name="parameters" element="tns:CancelPaymentServiceResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SmartPlusServiceSoap">
+    <wsdl:operation name="SearchConAccountService">
+      <wsdl:input message="tns:SearchConAccountServiceSoapIn" />
+      <wsdl:output message="tns:SearchConAccountServiceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchContractorServiceWithBillFlag">
+      <wsdl:input message="tns:SearchContractorServiceWithBillFlagSoapIn" />
+      <wsdl:output message="tns:SearchContractorServiceWithBillFlagSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchContractorServiceWithInterestDate">
+      <wsdl:input message="tns:SearchContractorServiceWithInterestDateSoapIn" />
+      <wsdl:output message="tns:SearchContractorServiceWithInterestDateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBillMarkFlagService">
+      <wsdl:input message="tns:UpdateBillMarkFlagServiceSoapIn" />
+      <wsdl:output message="tns:UpdateBillMarkFlagServiceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelPaymentService">
+      <wsdl:input message="tns:CancelPaymentServiceSoapIn" />
+      <wsdl:output message="tns:CancelPaymentServiceSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SmartPlusServiceSoap" type="tns:SmartPlusServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SearchConAccountService">
+      <soap:operation soapAction="http://tempuri.org/SearchConAccountService" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchContractorServiceWithBillFlag">
+      <soap:operation soapAction="http://tempuri.org/SearchContractorServiceWithBillFlag" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchContractorServiceWithInterestDate">
+      <soap:operation soapAction="http://tempuri.org/SearchContractorServiceWithInterestDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBillMarkFlagService">
+      <soap:operation soapAction="http://tempuri.org/UpdateBillMarkFlagService" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelPaymentService">
+      <soap:operation soapAction="http://tempuri.org/CancelPaymentService" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SmartPlusServiceSoap12" type="tns:SmartPlusServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SearchConAccountService">
+      <soap12:operation soapAction="http://tempuri.org/SearchConAccountService" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchContractorServiceWithBillFlag">
+      <soap12:operation soapAction="http://tempuri.org/SearchContractorServiceWithBillFlag" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchContractorServiceWithInterestDate">
+      <soap12:operation soapAction="http://tempuri.org/SearchContractorServiceWithInterestDate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBillMarkFlagService">
+      <soap12:operation soapAction="http://tempuri.org/UpdateBillMarkFlagService" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelPaymentService">
+      <soap12:operation soapAction="http://tempuri.org/CancelPaymentService" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SmartPlusService">
+    <wsdl:port name="SmartPlusServiceSoap" binding="tns:SmartPlusServiceSoap">
+      <soap:address location="http://172.16.166.131/Smartplus/SmartPlusService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SmartPlusServiceSoap12" binding="tns:SmartPlusServiceSoap12">
+      <soap12:address location="http://172.16.166.131/Smartplus/SmartPlusService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

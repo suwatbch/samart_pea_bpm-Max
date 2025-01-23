@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="UploadPrintPool">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CompressData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="OriginalSize" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="CompressSize" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Data" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UploadPrintPoolResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadPrintPoolResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthenInfo" type="tns:AuthenInfo" />
+      <s:complexType name="AuthenInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AuthToken" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="UploadGrpPrintPool">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadGrpPrintPoolResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadGrpPrintPoolResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadGreenReceiptDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadGreenReceiptDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadGreenReceiptDetailResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadMaxBillSeqNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadMaxBillSeqNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadMaxBillSeqNoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadPrintHistory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadPrintHistoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadPrintHistoryResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadDeliveryHistory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadDeliveryHistoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadDeliveryHistoryResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadApprover">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadApproverResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadApproverResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadDeliveryPlace">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadDeliveryPlaceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadDeliveryPlaceResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadBarcodeMRU">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadBarcodeMRUResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadBarcodeMRUResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadBillStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadBillStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadBillStatusResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="UploadPrintPoolSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadPrintPool" />
+  </wsdl:message>
+  <wsdl:message name="UploadPrintPoolSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadPrintPoolResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadPrintPoolAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadGrpPrintPoolSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadGrpPrintPool" />
+  </wsdl:message>
+  <wsdl:message name="UploadGrpPrintPoolSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadGrpPrintPoolResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadGrpPrintPoolAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadGreenReceiptDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadGreenReceiptDetail" />
+  </wsdl:message>
+  <wsdl:message name="UploadGreenReceiptDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadGreenReceiptDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadGreenReceiptDetailAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadMaxBillSeqNoSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadMaxBillSeqNo" />
+  </wsdl:message>
+  <wsdl:message name="UploadMaxBillSeqNoSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadMaxBillSeqNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadMaxBillSeqNoAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadPrintHistorySoapIn">
+    <wsdl:part name="parameters" element="tns:UploadPrintHistory" />
+  </wsdl:message>
+  <wsdl:message name="UploadPrintHistorySoapOut">
+    <wsdl:part name="parameters" element="tns:UploadPrintHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadPrintHistoryAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadDeliveryHistorySoapIn">
+    <wsdl:part name="parameters" element="tns:UploadDeliveryHistory" />
+  </wsdl:message>
+  <wsdl:message name="UploadDeliveryHistorySoapOut">
+    <wsdl:part name="parameters" element="tns:UploadDeliveryHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadDeliveryHistoryAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadApproverSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadApprover" />
+  </wsdl:message>
+  <wsdl:message name="UploadApproverSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadApproverResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadApproverAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadDeliveryPlaceSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadDeliveryPlace" />
+  </wsdl:message>
+  <wsdl:message name="UploadDeliveryPlaceSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadDeliveryPlaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadDeliveryPlaceAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadBarcodeMRUSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadBarcodeMRU" />
+  </wsdl:message>
+  <wsdl:message name="UploadBarcodeMRUSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadBarcodeMRUResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadBarcodeMRUAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadBillStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadBillStatus" />
+  </wsdl:message>
+  <wsdl:message name="UploadBillStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadBillStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadBillStatusAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:portType name="BLANIntegrationWebServiceSoap">
+    <wsdl:operation name="UploadPrintPool">
+      <wsdl:input message="tns:UploadPrintPoolSoapIn" />
+      <wsdl:output message="tns:UploadPrintPoolSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadGrpPrintPool">
+      <wsdl:input message="tns:UploadGrpPrintPoolSoapIn" />
+      <wsdl:output message="tns:UploadGrpPrintPoolSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadGreenReceiptDetail">
+      <wsdl:input message="tns:UploadGreenReceiptDetailSoapIn" />
+      <wsdl:output message="tns:UploadGreenReceiptDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadMaxBillSeqNo">
+      <wsdl:input message="tns:UploadMaxBillSeqNoSoapIn" />
+      <wsdl:output message="tns:UploadMaxBillSeqNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadPrintHistory">
+      <wsdl:input message="tns:UploadPrintHistorySoapIn" />
+      <wsdl:output message="tns:UploadPrintHistorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadDeliveryHistory">
+      <wsdl:input message="tns:UploadDeliveryHistorySoapIn" />
+      <wsdl:output message="tns:UploadDeliveryHistorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadApprover">
+      <wsdl:input message="tns:UploadApproverSoapIn" />
+      <wsdl:output message="tns:UploadApproverSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadDeliveryPlace">
+      <wsdl:input message="tns:UploadDeliveryPlaceSoapIn" />
+      <wsdl:output message="tns:UploadDeliveryPlaceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadBarcodeMRU">
+      <wsdl:input message="tns:UploadBarcodeMRUSoapIn" />
+      <wsdl:output message="tns:UploadBarcodeMRUSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadBillStatus">
+      <wsdl:input message="tns:UploadBillStatusSoapIn" />
+      <wsdl:output message="tns:UploadBillStatusSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BLANIntegrationWebServiceSoap" type="tns:BLANIntegrationWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadPrintPool">
+      <soap:operation soapAction="http://tempuri.org/UploadPrintPool" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadPrintPoolAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadGrpPrintPool">
+      <soap:operation soapAction="http://tempuri.org/UploadGrpPrintPool" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadGrpPrintPoolAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadGreenReceiptDetail">
+      <soap:operation soapAction="http://tempuri.org/UploadGreenReceiptDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadGreenReceiptDetailAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadMaxBillSeqNo">
+      <soap:operation soapAction="http://tempuri.org/UploadMaxBillSeqNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadMaxBillSeqNoAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadPrintHistory">
+      <soap:operation soapAction="http://tempuri.org/UploadPrintHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadPrintHistoryAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadDeliveryHistory">
+      <soap:operation soapAction="http://tempuri.org/UploadDeliveryHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadDeliveryHistoryAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadApprover">
+      <soap:operation soapAction="http://tempuri.org/UploadApprover" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadApproverAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadDeliveryPlace">
+      <soap:operation soapAction="http://tempuri.org/UploadDeliveryPlace" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadDeliveryPlaceAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadBarcodeMRU">
+      <soap:operation soapAction="http://tempuri.org/UploadBarcodeMRU" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadBarcodeMRUAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadBillStatus">
+      <soap:operation soapAction="http://tempuri.org/UploadBillStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadBillStatusAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BLANIntegrationWebServiceSoap12" type="tns:BLANIntegrationWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadPrintPool">
+      <soap12:operation soapAction="http://tempuri.org/UploadPrintPool" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadPrintPoolAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadGrpPrintPool">
+      <soap12:operation soapAction="http://tempuri.org/UploadGrpPrintPool" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadGrpPrintPoolAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadGreenReceiptDetail">
+      <soap12:operation soapAction="http://tempuri.org/UploadGreenReceiptDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadGreenReceiptDetailAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadMaxBillSeqNo">
+      <soap12:operation soapAction="http://tempuri.org/UploadMaxBillSeqNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadMaxBillSeqNoAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadPrintHistory">
+      <soap12:operation soapAction="http://tempuri.org/UploadPrintHistory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadPrintHistoryAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadDeliveryHistory">
+      <soap12:operation soapAction="http://tempuri.org/UploadDeliveryHistory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadDeliveryHistoryAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadApprover">
+      <soap12:operation soapAction="http://tempuri.org/UploadApprover" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadApproverAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadDeliveryPlace">
+      <soap12:operation soapAction="http://tempuri.org/UploadDeliveryPlace" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadDeliveryPlaceAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadBarcodeMRU">
+      <soap12:operation soapAction="http://tempuri.org/UploadBarcodeMRU" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadBarcodeMRUAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadBillStatus">
+      <soap12:operation soapAction="http://tempuri.org/UploadBillStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadBillStatusAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BLANIntegrationWebService">
+    <wsdl:port name="BLANIntegrationWebServiceSoap" binding="tns:BLANIntegrationWebServiceSoap">
+      <soap:address location="http://localhost/BPMIntegrationUploadedService/BLANIntegrationWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BLANIntegrationWebServiceSoap12" binding="tns:BLANIntegrationWebServiceSoap12">
+      <soap12:address location="http://localhost/BPMIntegrationUploadedService/BLANIntegrationWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

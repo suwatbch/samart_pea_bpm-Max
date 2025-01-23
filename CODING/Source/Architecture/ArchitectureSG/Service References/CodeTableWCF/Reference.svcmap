@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e7a2c200-c9c0-4f09-81a5-ffcd4315f465" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/ARCH/CodeTableWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CodeTableWCFService.xsd" MetadataType="Schema" ID="66973009-e7b9-4f7d-8bca-7e2ba06e4007" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/CodeTableWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CodeTableWCFService.disco" MetadataType="Disco" ID="bfff9523-c499-4a31-b1e9-8dd88a5bf812" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/CodeTableWCFService.svc?disco" />
+    <MetadataFile FileName="CodeTableWCFService1.xsd" MetadataType="Schema" ID="243d8906-c74a-45d3-98a6-e0410b098ae8" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/CodeTableWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CodeTableWCFService2.xsd" MetadataType="Schema" ID="67d34328-7019-4976-8744-0813f416d1b0" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/CodeTableWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CodeTableWCFService.wsdl" MetadataType="Wsdl" ID="f9eb3146-6bdf-4079-81ae-355cf121867c" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/CodeTableWCFService.svc?wsdl" />
+    <MetadataFile FileName="CodeTableWCFService3.xsd" MetadataType="Schema" ID="0c76e506-0913-42a0-a0dd-dd1d769f27c5" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/CodeTableWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="CodeTableWCFService1.wsdl" MetadataType="Wsdl" ID="b4c6d5a8-b035-47e2-a564-115ac7592f4e" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/CodeTableWCFService.svc?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

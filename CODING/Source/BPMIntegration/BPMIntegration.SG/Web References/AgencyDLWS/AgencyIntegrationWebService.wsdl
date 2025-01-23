@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="DownloadBillBook">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadBillBookResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadBillBookResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CompressData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="OriginalSize" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="CompressSize" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Data" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AuthenInfo" type="tns:AuthenInfo" />
+      <s:complexType name="AuthenInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AuthToken" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="DownloadBillStatusInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadBillStatusInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadBillStatusInfoResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadBillBookDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadBillBookDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadBillBookDetailResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadBillBookInputItem">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadBillBookInputItemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadBillBookInputItemResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadBillBookInputSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadBillBookInputSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadBillBookInputSetResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadAgencyCommission">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadAgencyCommissionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadAgencyCommissionResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadRTAgencyContractMru">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadRTAgencyContractMruResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadRTAgencyContractMruResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadRTAgencyCommissionBillBook">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadRTAgencyCommissionBillBookResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadRTAgencyCommissionBillBookResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="DownloadBillBookSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadBillBook" />
+  </wsdl:message>
+  <wsdl:message name="DownloadBillBookSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadBillBookResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadBillBookAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadBillStatusInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadBillStatusInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadBillStatusInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadBillStatusInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadBillStatusInfoAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadBillBookDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadBillBookDetail" />
+  </wsdl:message>
+  <wsdl:message name="DownloadBillBookDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadBillBookDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadBillBookDetailAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadBillBookInputItemSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadBillBookInputItem" />
+  </wsdl:message>
+  <wsdl:message name="DownloadBillBookInputItemSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadBillBookInputItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadBillBookInputItemAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadBillBookInputSetSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadBillBookInputSet" />
+  </wsdl:message>
+  <wsdl:message name="DownloadBillBookInputSetSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadBillBookInputSetResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadBillBookInputSetAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadAgencyCommissionSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadAgencyCommission" />
+  </wsdl:message>
+  <wsdl:message name="DownloadAgencyCommissionSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadAgencyCommissionResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadAgencyCommissionAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRTAgencyContractMruSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadRTAgencyContractMru" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRTAgencyContractMruSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadRTAgencyContractMruResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRTAgencyContractMruAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRTAgencyCommissionBillBookSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadRTAgencyCommissionBillBook" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRTAgencyCommissionBillBookSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadRTAgencyCommissionBillBookResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRTAgencyCommissionBillBookAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:portType name="AgencyIntegrationWebServiceSoap">
+    <wsdl:operation name="DownloadBillBook">
+      <wsdl:input message="tns:DownloadBillBookSoapIn" />
+      <wsdl:output message="tns:DownloadBillBookSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadBillStatusInfo">
+      <wsdl:input message="tns:DownloadBillStatusInfoSoapIn" />
+      <wsdl:output message="tns:DownloadBillStatusInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadBillBookDetail">
+      <wsdl:input message="tns:DownloadBillBookDetailSoapIn" />
+      <wsdl:output message="tns:DownloadBillBookDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadBillBookInputItem">
+      <wsdl:input message="tns:DownloadBillBookInputItemSoapIn" />
+      <wsdl:output message="tns:DownloadBillBookInputItemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadBillBookInputSet">
+      <wsdl:input message="tns:DownloadBillBookInputSetSoapIn" />
+      <wsdl:output message="tns:DownloadBillBookInputSetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadAgencyCommission">
+      <wsdl:input message="tns:DownloadAgencyCommissionSoapIn" />
+      <wsdl:output message="tns:DownloadAgencyCommissionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRTAgencyContractMru">
+      <wsdl:input message="tns:DownloadRTAgencyContractMruSoapIn" />
+      <wsdl:output message="tns:DownloadRTAgencyContractMruSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRTAgencyCommissionBillBook">
+      <wsdl:input message="tns:DownloadRTAgencyCommissionBillBookSoapIn" />
+      <wsdl:output message="tns:DownloadRTAgencyCommissionBillBookSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AgencyIntegrationWebServiceSoap" type="tns:AgencyIntegrationWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DownloadBillBook">
+      <soap:operation soapAction="http://tempuri.org/DownloadBillBook" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadBillBookAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadBillStatusInfo">
+      <soap:operation soapAction="http://tempuri.org/DownloadBillStatusInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadBillStatusInfoAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadBillBookDetail">
+      <soap:operation soapAction="http://tempuri.org/DownloadBillBookDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadBillBookDetailAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadBillBookInputItem">
+      <soap:operation soapAction="http://tempuri.org/DownloadBillBookInputItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadBillBookInputItemAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadBillBookInputSet">
+      <soap:operation soapAction="http://tempuri.org/DownloadBillBookInputSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadBillBookInputSetAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadAgencyCommission">
+      <soap:operation soapAction="http://tempuri.org/DownloadAgencyCommission" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadAgencyCommissionAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRTAgencyContractMru">
+      <soap:operation soapAction="http://tempuri.org/DownloadRTAgencyContractMru" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadRTAgencyContractMruAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRTAgencyCommissionBillBook">
+      <soap:operation soapAction="http://tempuri.org/DownloadRTAgencyCommissionBillBook" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadRTAgencyCommissionBillBookAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AgencyIntegrationWebServiceSoap12" type="tns:AgencyIntegrationWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DownloadBillBook">
+      <soap12:operation soapAction="http://tempuri.org/DownloadBillBook" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadBillBookAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadBillStatusInfo">
+      <soap12:operation soapAction="http://tempuri.org/DownloadBillStatusInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadBillStatusInfoAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadBillBookDetail">
+      <soap12:operation soapAction="http://tempuri.org/DownloadBillBookDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadBillBookDetailAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadBillBookInputItem">
+      <soap12:operation soapAction="http://tempuri.org/DownloadBillBookInputItem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadBillBookInputItemAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadBillBookInputSet">
+      <soap12:operation soapAction="http://tempuri.org/DownloadBillBookInputSet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadBillBookInputSetAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadAgencyCommission">
+      <soap12:operation soapAction="http://tempuri.org/DownloadAgencyCommission" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadAgencyCommissionAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRTAgencyContractMru">
+      <soap12:operation soapAction="http://tempuri.org/DownloadRTAgencyContractMru" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadRTAgencyContractMruAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRTAgencyCommissionBillBook">
+      <soap12:operation soapAction="http://tempuri.org/DownloadRTAgencyCommissionBillBook" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadRTAgencyCommissionBillBookAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AgencyIntegrationWebService">
+    <wsdl:port name="AgencyIntegrationWebServiceSoap" binding="tns:AgencyIntegrationWebServiceSoap">
+      <soap:address location="http://localhost/BPMIntegrationDownloadedService/AgencyIntegrationWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AgencyIntegrationWebServiceSoap12" binding="tns:AgencyIntegrationWebServiceSoap12">
+      <soap12:address location="http://localhost/BPMIntegrationDownloadedService/AgencyIntegrationWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

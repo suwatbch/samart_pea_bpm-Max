@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPMInternalServicePools.SG", "BPMInternalServicePools.TAMS\BPMInternalServicePools.SG.csproj", "{D428981A-B182-4C06-B07C-715942E1548D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPMInternalServicePools.Model", "BPMInternalServicesPools.Model\BPMInternalServicePools.Model.csproj", "{5241E376-5F96-45BD-AC2A-F4D964D5784A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPMInternalServicePools", "BPMInternalServicePools\BPMInternalServicePools.csproj", "{5D66B12E-E842-4D92-B4BB-BC247590FBC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCallApi", "TestCallApi\TestCallApi.csproj", "{78809279-685A-4F8A-87DD-B22801C41C30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{60250FB6-B134-45F9-B2C7-F7317C6A7AB4}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Microsoft.Practices.CompositeUI.dll = Lib\Microsoft.Practices.CompositeUI.dll
+		Lib\Microsoft.Practices.CompositeUI.WinForms.dll = Lib\Microsoft.Practices.CompositeUI.WinForms.dll
+		Lib\Microsoft.Practices.EnterpriseLibrary.Common.dll = Lib\Microsoft.Practices.EnterpriseLibrary.Common.dll
+		Lib\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll = Lib\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+		Lib\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.dll = Lib\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.dll
+		Lib\Microsoft.Practices.EnterpriseLibrary.Data.dll = Lib\Microsoft.Practices.EnterpriseLibrary.Data.dll
+		Lib\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll = Lib\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+		Lib\Microsoft.Practices.EnterpriseLibrary.Logging.dll = Lib\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+		Lib\Microsoft.Practices.ObjectBuilder.dll = Lib\Microsoft.Practices.ObjectBuilder.dll
+		Lib\Microsoft.Practices.ObjectBuilder2.dll = Lib\Microsoft.Practices.ObjectBuilder2.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPMInternalServicePools.DA", "BPMInternalServicePools.DA\BPMInternalServicePools.DA.csproj", "{579D4141-3B7A-45DF-9811-EC5A41478B53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPMInternalServicePools.BS", "BPMInternalServicePools.BS\BPMInternalServicePools.BS.csproj", "{F843E6D8-6209-4B50-8066-687B3361E970}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D428981A-B182-4C06-B07C-715942E1548D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D428981A-B182-4C06-B07C-715942E1548D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D428981A-B182-4C06-B07C-715942E1548D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D428981A-B182-4C06-B07C-715942E1548D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5241E376-5F96-45BD-AC2A-F4D964D5784A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5241E376-5F96-45BD-AC2A-F4D964D5784A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5241E376-5F96-45BD-AC2A-F4D964D5784A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5241E376-5F96-45BD-AC2A-F4D964D5784A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D66B12E-E842-4D92-B4BB-BC247590FBC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D66B12E-E842-4D92-B4BB-BC247590FBC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D66B12E-E842-4D92-B4BB-BC247590FBC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D66B12E-E842-4D92-B4BB-BC247590FBC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78809279-685A-4F8A-87DD-B22801C41C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78809279-685A-4F8A-87DD-B22801C41C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78809279-685A-4F8A-87DD-B22801C41C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78809279-685A-4F8A-87DD-B22801C41C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579D4141-3B7A-45DF-9811-EC5A41478B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579D4141-3B7A-45DF-9811-EC5A41478B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579D4141-3B7A-45DF-9811-EC5A41478B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579D4141-3B7A-45DF-9811-EC5A41478B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F843E6D8-6209-4B50-8066-687B3361E970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F843E6D8-6209-4B50-8066-687B3361E970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F843E6D8-6209-4B50-8066-687B3361E970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F843E6D8-6209-4B50-8066-687B3361E970}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

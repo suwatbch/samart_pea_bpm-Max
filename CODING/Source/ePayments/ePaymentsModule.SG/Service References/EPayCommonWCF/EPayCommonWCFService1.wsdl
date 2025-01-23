@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/EPayCommonWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/EPayCommonWCFService.svc?xsd=xsd4" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/EPayCommonWCFService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/EPayCommonWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/EPayCommonWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.ePaymentsModule.Interface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/EPayCommonWCFService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/EPayCommonWCFService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.ePaymentsModule.Interface.BusinessEntities.Reports" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IEPayCommonWCFService_GetAgencyAllService_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgencyAllService_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IEPayCommonWCFService_GetAgencyAllService_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayCommonWCFService_GetAgencyAllService_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgencyAllService_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayCommonWCFService_GetAgencyAllService_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayCommonWCFService_GetAccountClassList_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountClassList_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IEPayCommonWCFService_GetAccountClassList_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayCommonWCFService_GetAccountClassList_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountClassList_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayCommonWCFService_GetAccountClassList_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayCommonWCFService_GetCompanyList_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCompanyList_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IEPayCommonWCFService_GetCompanyList_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayCommonWCFService_GetCompanyList_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCompanyList_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayCommonWCFService_GetCompanyList_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayCommonWCFService_GetCompanyByUploadDtList_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCompanyByUploadDtList_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IEPayCommonWCFService_GetCompanyByUploadDtList_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayCommonWCFService_GetCompanyByUploadDtList_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCompanyByUploadDtList_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayCommonWCFService_GetCompanyByUploadDtList_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="IEPayCommonWCFService">
+    <wsdl:operation name="GetAgencyAllService_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayCommonWCFService/GetAgencyAllService_Compress" message="tns:IEPayCommonWCFService_GetAgencyAllService_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayCommonWCFService/GetAgencyAllService_CompressResponse" message="tns:IEPayCommonWCFService_GetAgencyAllService_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayCommonWCFService/GetAgencyAllService_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayCommonWCFService_GetAgencyAllService_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountClassList_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayCommonWCFService/GetAccountClassList_Compress" message="tns:IEPayCommonWCFService_GetAccountClassList_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayCommonWCFService/GetAccountClassList_CompressResponse" message="tns:IEPayCommonWCFService_GetAccountClassList_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayCommonWCFService/GetAccountClassList_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayCommonWCFService_GetAccountClassList_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCompanyList_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayCommonWCFService/GetCompanyList_Compress" message="tns:IEPayCommonWCFService_GetCompanyList_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayCommonWCFService/GetCompanyList_CompressResponse" message="tns:IEPayCommonWCFService_GetCompanyList_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayCommonWCFService/GetCompanyList_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayCommonWCFService_GetCompanyList_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCompanyByUploadDtList_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayCommonWCFService/GetCompanyByUploadDtList_Compress" message="tns:IEPayCommonWCFService_GetCompanyByUploadDtList_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayCommonWCFService/GetCompanyByUploadDtList_CompressResponse" message="tns:IEPayCommonWCFService_GetCompanyByUploadDtList_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayCommonWCFService/GetCompanyByUploadDtList_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayCommonWCFService_GetCompanyByUploadDtList_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

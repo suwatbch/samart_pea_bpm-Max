@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAR" targetNamespace="http://tempuri.org/dsAR.xsd" xmlns:mstns="http://tempuri.org/dsAR.xsd" xmlns="http://tempuri.org/dsAR.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAR" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAR" msprop:Generator_DataSetName="dsAR">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblARNotPaidByItem" msprop:Generator_UserTableName="tblARNotPaidByItem" msprop:Generator_RowDeletedName="tblARNotPaidByItemRowDeleted" msprop:Generator_RowChangedName="tblARNotPaidByItemRowChanged" msprop:Generator_RowClassName="tblARNotPaidByItemRow" msprop:Generator_RowChangingName="tblARNotPaidByItemRowChanging" msprop:Generator_RowEvArgName="tblARNotPaidByItemRowChangeEvent" msprop:Generator_RowEvHandlerName="tblARNotPaidByItemRowChangeEventHandler" msprop:Generator_TableClassName="tblARNotPaidByItemDataTable" msprop:Generator_TableVarName="tabletblARNotPaidByItem" msprop:Generator_RowDeletingName="tblARNotPaidByItemRowDeleting" msprop:Generator_TablePropName="tblARNotPaidByItem">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PEACode" msprop:Generator_UserColumnName="PEACode" msprop:Generator_ColumnVarNameInTable="columnPEACode" msprop:Generator_ColumnPropNameInRow="PEACode" msprop:Generator_ColumnPropNameInTable="PEACodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PEAName" msprop:Generator_UserColumnName="PEAName" msprop:Generator_ColumnVarNameInTable="columnPEAName" msprop:Generator_ColumnPropNameInRow="PEAName" msprop:Generator_ColumnPropNameInTable="PEANameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AgencyCode" msprop:Generator_UserColumnName="AgencyCode" msprop:Generator_ColumnVarNameInTable="columnAgencyCode" msprop:Generator_ColumnPropNameInRow="AgencyCode" msprop:Generator_ColumnPropNameInTable="AgencyCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AgencyName" msprop:Generator_UserColumnName="AgencyName" msprop:Generator_ColumnVarNameInTable="columnAgencyName" msprop:Generator_ColumnPropNameInRow="AgencyName" msprop:Generator_ColumnPropNameInTable="AgencyNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AgencyTaxNo" msprop:Generator_UserColumnName="AgencyTaxNo" msprop:Generator_ColumnVarNameInTable="columnAgencyTaxNo" msprop:Generator_ColumnPropNameInRow="AgencyTaxNo" msprop:Generator_ColumnPropNameInTable="AgencyTaxNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PEA12FlCode" msprop:Generator_UserColumnName="PEA12FlCode" msprop:Generator_ColumnVarNameInTable="columnPEA12FlCode" msprop:Generator_ColumnPropNameInRow="PEA12FlCode" msprop:Generator_ColumnPropNameInTable="PEA12FlCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PEA12FlName" msprop:Generator_UserColumnName="PEA12FlName" msprop:Generator_ColumnVarNameInTable="columnPEA12FlName" msprop:Generator_ColumnPropNameInRow="PEA12FlName" msprop:Generator_ColumnPropNameInTable="PEA12FlNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BillPrintDate" msprop:Generator_UserColumnName="BillPrintDate" msprop:Generator_ColumnVarNameInTable="columnBillPrintDate" msprop:Generator_ColumnPropNameInRow="BillPrintDate" msprop:Generator_ColumnPropNameInTable="BillPrintDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BillBookRef" msprop:Generator_UserColumnName="BillBookRef" msprop:Generator_ColumnVarNameInTable="columnBillBookRef" msprop:Generator_ColumnPropNameInRow="BillBookRef" msprop:Generator_ColumnPropNameInTable="BillBookRefColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UserNo" msprop:Generator_UserColumnName="UserNo" msprop:Generator_ColumnVarNameInTable="columnUserNo" msprop:Generator_ColumnPropNameInRow="UserNo" msprop:Generator_ColumnPropNameInTable="UserNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BillMonth" msprop:Generator_UserColumnName="BillMonth" msprop:Generator_ColumnVarNameInTable="columnBillMonth" msprop:Generator_ColumnPropNameInRow="BillMonth" msprop:Generator_ColumnPropNameInTable="BillMonthColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FTPrice" msprop:Generator_UserColumnName="FTPrice" msprop:Generator_ColumnVarNameInTable="columnFTPrice" msprop:Generator_ColumnPropNameInRow="FTPrice" msprop:Generator_ColumnPropNameInTable="FTPriceColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BaseAmount" msdata:Caption="VatValue" msprop:Generator_UserColumnName="BaseAmount" msprop:Generator_ColumnPropNameInRow="BaseAmount" msprop:Generator_ColumnVarNameInTable="columnBaseAmount" msprop:Generator_ColumnPropNameInTable="BaseAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="VatValue" msprop:Generator_UserColumnName="VatValue" msprop:Generator_ColumnVarNameInTable="columnVatValue" msprop:Generator_ColumnPropNameInRow="VatValue" msprop:Generator_ColumnPropNameInTable="VatValueColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblARNotPaidByGroup" msprop:Generator_UserTableName="tblARNotPaidByGroup" msprop:Generator_RowDeletedName="tblARNotPaidByGroupRowDeleted" msprop:Generator_RowChangedName="tblARNotPaidByGroupRowChanged" msprop:Generator_RowClassName="tblARNotPaidByGroupRow" msprop:Generator_RowChangingName="tblARNotPaidByGroupRowChanging" msprop:Generator_RowEvArgName="tblARNotPaidByGroupRowChangeEvent" msprop:Generator_RowEvHandlerName="tblARNotPaidByGroupRowChangeEventHandler" msprop:Generator_TableClassName="tblARNotPaidByGroupDataTable" msprop:Generator_TableVarName="tabletblARNotPaidByGroup" msprop:Generator_RowDeletingName="tblARNotPaidByGroupRowDeleting" msprop:Generator_TablePropName="tblARNotPaidByGroup">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PEACode" msprop:Generator_UserColumnName="PEACode" msprop:Generator_ColumnVarNameInTable="columnPEACode" msprop:Generator_ColumnPropNameInRow="PEACode" msprop:Generator_ColumnPropNameInTable="PEACodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PEASectionName" msprop:Generator_UserColumnName="PEASectionName" msprop:Generator_ColumnVarNameInTable="columnPEASectionName" msprop:Generator_ColumnPropNameInRow="PEASectionName" msprop:Generator_ColumnPropNameInTable="PEASectionNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AgencyCode" msprop:Generator_UserColumnName="AgencyCode" msprop:Generator_ColumnVarNameInTable="columnAgencyCode" msprop:Generator_ColumnPropNameInRow="AgencyCode" msprop:Generator_ColumnPropNameInTable="AgencyCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AgencyName" msprop:Generator_UserColumnName="AgencyName" msprop:Generator_ColumnVarNameInTable="columnAgencyName" msprop:Generator_ColumnPropNameInRow="AgencyName" msprop:Generator_ColumnPropNameInTable="AgencyNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BillPrintDate" msprop:Generator_UserColumnName="BillPrintDate" msprop:Generator_ColumnVarNameInTable="columnBillPrintDate" msprop:Generator_ColumnPropNameInRow="BillPrintDate" msprop:Generator_ColumnPropNameInTable="BillPrintDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BillBookRef" msprop:Generator_UserColumnName="BillBookRef" msprop:Generator_ColumnVarNameInTable="columnBillBookRef" msprop:Generator_ColumnPropNameInRow="BillBookRef" msprop:Generator_ColumnPropNameInTable="BillBookRefColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalAmount" msprop:Generator_UserColumnName="TotalAmount" msprop:Generator_ColumnVarNameInTable="columnTotalAmount" msprop:Generator_ColumnPropNameInRow="TotalAmount" msprop:Generator_ColumnPropNameInTable="TotalAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalAmountTxt" msprop:Generator_UserColumnName="TotalAmountTxt" msprop:Generator_ColumnVarNameInTable="columnTotalAmountTxt" msprop:Generator_ColumnPropNameInRow="TotalAmountTxt" msprop:Generator_ColumnPropNameInTable="TotalAmountTxtColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AgentTaxNo" msprop:Generator_UserColumnName="AgentTaxNo" msprop:Generator_ColumnVarNameInTable="columnAgentTaxNo" msprop:Generator_ColumnPropNameInRow="AgentTaxNo" msprop:Generator_ColumnPropNameInTable="AgentTaxNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PrePaid" msprop:Generator_UserColumnName="PrePaid" msprop:Generator_ColumnVarNameInTable="columnPrePaid" msprop:Generator_ColumnPropNameInRow="PrePaid" msprop:Generator_ColumnPropNameInTable="PrePaidColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CashPaid" msprop:Generator_UserColumnName="CashPaid" msprop:Generator_ColumnVarNameInTable="columnCashPaid" msprop:Generator_ColumnPropNameInRow="CashPaid" msprop:Generator_ColumnPropNameInTable="CashPaidColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ChequePaid" msprop:Generator_UserColumnName="ChequePaid" msprop:Generator_ColumnVarNameInTable="columnChequePaid" msprop:Generator_ColumnPropNameInRow="ChequePaid" msprop:Generator_ColumnPropNameInTable="ChequePaidColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ReportDate" msprop:Generator_UserColumnName="ReportDate" msprop:Generator_ColumnPropNameInRow="ReportDate" msprop:Generator_ColumnVarNameInTable="columnReportDate" msprop:Generator_ColumnPropNameInTable="ReportDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblARNotPaidByDetailGroup" msprop:Generator_UserTableName="tblARNotPaidByDetailGroup" msprop:Generator_RowDeletedName="tblARNotPaidByDetailGroupRowDeleted" msprop:Generator_RowChangedName="tblARNotPaidByDetailGroupRowChanged" msprop:Generator_RowClassName="tblARNotPaidByDetailGroupRow" msprop:Generator_RowChangingName="tblARNotPaidByDetailGroupRowChanging" msprop:Generator_RowEvArgName="tblARNotPaidByDetailGroupRowChangeEvent" msprop:Generator_RowEvHandlerName="tblARNotPaidByDetailGroupRowChangeEventHandler" msprop:Generator_TableClassName="tblARNotPaidByDetailGroupDataTable" msprop:Generator_TableVarName="tabletblARNotPaidByDetailGroup" msprop:Generator_RowDeletingName="tblARNotPaidByDetailGroupRowDeleting" msprop:Generator_TablePropName="tblARNotPaidByDetailGroup">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LineNo" msprop:Generator_UserColumnName="LineNo" msprop:Generator_ColumnVarNameInTable="columnLineNo" msprop:Generator_ColumnPropNameInRow="LineNo" msprop:Generator_ColumnPropNameInTable="LineNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="InvoiceNo" msprop:Generator_UserColumnName="InvoiceNo" msprop:Generator_ColumnVarNameInTable="columnInvoiceNo" msprop:Generator_ColumnPropNameInRow="InvoiceNo" msprop:Generator_ColumnPropNameInTable="InvoiceNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FTPrice" msprop:Generator_UserColumnName="FTPrice" msprop:Generator_ColumnVarNameInTable="columnFTPrice" msprop:Generator_ColumnPropNameInRow="FTPrice" msprop:Generator_ColumnPropNameInTable="FTPriceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="VatPrice" msprop:Generator_UserColumnName="VatPrice" msprop:Generator_ColumnVarNameInTable="columnVatPrice" msprop:Generator_ColumnPropNameInRow="VatPrice" msprop:Generator_ColumnPropNameInTable="VatPriceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BillBookRef" msprop:Generator_UserColumnName="BillBookRef" msprop:Generator_ColumnVarNameInTable="columnBillBookRef" msprop:Generator_ColumnPropNameInRow="BillBookRef" msprop:Generator_ColumnPropNameInTable="BillBookRefColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemType" msprop:Generator_UserColumnName="ItemType" msprop:Generator_ColumnVarNameInTable="columnItemType" msprop:Generator_ColumnPropNameInRow="ItemType" msprop:Generator_ColumnPropNameInTable="ItemTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BaseAmount" msprop:Generator_UserColumnName="BaseAmount" msprop:Generator_ColumnPropNameInRow="BaseAmount" msprop:Generator_ColumnVarNameInTable="columnBaseAmount" msprop:Generator_ColumnPropNameInTable="BaseAmountColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="tblARNotPaidByDetailGroup_tblARNotPaidByGroup" msdata:parent="tblARNotPaidByDetailGroup" msdata:child="tblARNotPaidByGroup" msdata:parentkey="BillBookRef" msdata:childkey="BillBookRef" msprop:Generator_UserRelationName="tblARNotPaidByDetailGroup_tblARNotPaidByGroup" msprop:Generator_RelationVarName="relationtblARNotPaidByDetailGroup_tblARNotPaidByGroup" msprop:Generator_UserChildTable="tblARNotPaidByGroup" msprop:Generator_UserParentTable="tblARNotPaidByDetailGroup" msprop:Generator_ParentPropName="tblARNotPaidByDetailGroupRow" msprop:Generator_ChildPropName="GettblARNotPaidByGroupRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

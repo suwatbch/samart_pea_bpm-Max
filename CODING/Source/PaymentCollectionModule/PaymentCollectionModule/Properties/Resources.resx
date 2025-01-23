@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GeneralPaymentCollection" xml:space="preserve">
+    <value>2.1  รับชำระเงิน - สำหรับผู้ใช้ไฟฟ้า/ลูกหนี้อื่นๆ</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Transparent.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HistoryIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HistoryIcon.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SearchFormIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SearchFormIcon.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exclamation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exclamation.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Old_Bank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bank.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Electric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Electric.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edit.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaymentOffline" xml:space="preserve">
+    <value>โหลดข้อมูลที่ทำการชำระแล้ว  ขณะที่ระบบขัดข้องหรือออฟไลน์</value>
+  </data>
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaymentOfflineIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\offline.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BillBookPaymentCollection" xml:space="preserve">
+    <value>2.2  รับชำระเงิน - สำหรับสมุดจ่ายบิล</value>
+  </data>
+  <data name="RpCAC01" xml:space="preserve">
+    <value>2.7  รายงานการรับชำระเงินค่าไฟฟ้าแยกตามรหัสพบช.คุมใบเสร็จ</value>
+  </data>
+  <data name="RpCAC03" xml:space="preserve">
+    <value>2.9  รายงานการรับชำระเงินด้วยเช็ค</value>
+  </data>
+  <data name="RpCAC04" xml:space="preserve">
+    <value>2.10 รายงานการรับชำระเงินด้วยใบนำฝากธนาคาร</value>
+  </data>
+  <data name="RpCAC05" xml:space="preserve">
+    <value>2.8  รายงานการรับชำระเงินของผู้รับเงิน</value>
+  </data>
+  <data name="RpCAC06" xml:space="preserve">
+    <value>2.11 รายงานรายละเอียดการรับเงินที่สำนักงานและการรับเงินแทนการไฟฟ้าอื่น</value>
+  </data>
+  <data name="RpCAC09" xml:space="preserve">
+    <value>2.13 รายงานการรับชำระเงิน และภาษีขายแยกตามเครื่องรับเงิน</value>
+  </data>
+  <data name="RpCAC10" xml:space="preserve">
+    <value>รายงานสรุปล้างยอดภาษีขายจากการใช้เครื่อง POS รับชำระเงินค่าไฟฟ้า</value>
+  </data>
+  <data name="RpCAC12" xml:space="preserve">
+    <value>2.15 รายงานสรุปการรับชำระเงินค่าไฟฟ้าแยกประเภทการใช้ไฟฟ้า</value>
+  </data>
+  <data name="RpCAC07" xml:space="preserve">
+    <value>2.12 รายงานรายละเอียดการรับเงินแทนโดยการไฟฟ้าอื่น</value>
+  </data>
+  <data name="RpCAC20" xml:space="preserve">
+    <value>รายงานสรุปยอดใบสำคัญรับเงิน</value>
+  </data>
+  <data name="UpArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UpArrow.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DownArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DownArrow.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Search.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReceiptReprinting" xml:space="preserve">
+    <value>2.4  พิมพ์ซ่อมใบเสร็จรับเงิน</value>
+  </data>
+  <data name="RpCAC11" xml:space="preserve">
+    <value>2.14 รายงานการยกเลิกการรับชำระเงินแยกตามรหัสผู้รับเงิน</value>
+  </data>
+  <data name="RpCAC13" xml:space="preserve">
+    <value>2.16 รายงานสรุปการรับชำระเงินประจำเดือน</value>
+  </data>
+  <data name="DEL_POS_TRANSACTION" xml:space="preserve">
+    <value>ลบข้อมูลที่ชำระเงินทั้งหมด</value>
+  </data>
+  <data name="SAP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SAP.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InterestInquiry" xml:space="preserve">
+    <value>2.5  ประมาณการดอกเบี้ยที่ต้องชำระล่วงหน้า</value>
+  </data>
+  <data name="logo_pea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\logo_pea.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pea_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pea_logo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaymentCancellation" xml:space="preserve">
+    <value>2.3  ยกเลิกการรับชำระเงิน</value>
+  </data>
+  <data name="Bank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wait.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="peaLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\peaLogo.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QueueRequest" xml:space="preserve">
+    <value>2.6  เรียกผู้รอรับบริการหมายเลขต่อไป</value>
+  </data>
+  <data name="Baht" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baht-sign.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Generate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cbarn_Electricity_tcm8-123.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Propose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crossPrecollege.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaymentCollectionIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PaymentCollectionIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GenerateReceipt" xml:space="preserve">
+    <value>2.18 สร้างใบเสร็จรับเงินที่พิมพ์ใบเสร็จไม่ออก</value>
+  </data>
+  <data name="RpCAC15" xml:space="preserve">
+    <value>2.17 รายงานการรับชำระเงินทั้งหมดในเครื่องรับเงิน</value>
+  </data>
+  <data name="EPayment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EPayment.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DebitNote" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DebitNote.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SubGroup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SubGroup.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ForcedOfflineOffIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\forcedofflineofficon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ForcedOfflineOnIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\forcedofflineonicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Remove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\electric_hazard.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MultiRemindForDiscElec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MultiRemindForDiscElec.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MultiRemindForRemoveMeter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MultiRemindForRemoveMeter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RpCAC18" xml:space="preserve">
+    <value>2.18 รายงานการรับชำระเงินด้วย QR Payment</value>
+  </data>
+  <data name="RpCAC19" xml:space="preserve">
+    <value>2.19 รายงานตรวจสอบการรับชำระเงินด้วย QR Payment เทียบกับรายงานของธนาคาร</value>
+  </data>
+</root>

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="UploadBillBook">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CompressData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="OriginalSize" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="CompressSize" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Data" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UploadBillBookResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadBillBookResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthenInfo" type="tns:AuthenInfo" />
+      <s:complexType name="AuthenInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AuthToken" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="UploadBillStatusInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadBillStatusInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadBillStatusInfoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadBillBookDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadBillBookDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadBillBookDetailResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadBillBookInputItem">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadBillBookInputItemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadBillBookInputItemResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadBillBookInputSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadBillBookInputSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadBillBookInputSetResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadAgencyCommission">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadAgencyCommissionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadAgencyCommissionResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadRTAgencyContractMru">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadRTAgencyContractMruResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadRTAgencyContractMruResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadRTAgencyCommissionBillBook">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadRTAgencyCommissionBillBookResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadRTAgencyCommissionBillBookResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="UploadBillBookSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadBillBook" />
+  </wsdl:message>
+  <wsdl:message name="UploadBillBookSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadBillBookResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadBillBookAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadBillStatusInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadBillStatusInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadBillStatusInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadBillStatusInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadBillStatusInfoAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadBillBookDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadBillBookDetail" />
+  </wsdl:message>
+  <wsdl:message name="UploadBillBookDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadBillBookDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadBillBookDetailAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadBillBookInputItemSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadBillBookInputItem" />
+  </wsdl:message>
+  <wsdl:message name="UploadBillBookInputItemSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadBillBookInputItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadBillBookInputItemAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadBillBookInputSetSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadBillBookInputSet" />
+  </wsdl:message>
+  <wsdl:message name="UploadBillBookInputSetSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadBillBookInputSetResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadBillBookInputSetAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadAgencyCommissionSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadAgencyCommission" />
+  </wsdl:message>
+  <wsdl:message name="UploadAgencyCommissionSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadAgencyCommissionResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadAgencyCommissionAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadRTAgencyContractMruSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadRTAgencyContractMru" />
+  </wsdl:message>
+  <wsdl:message name="UploadRTAgencyContractMruSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadRTAgencyContractMruResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadRTAgencyContractMruAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadRTAgencyCommissionBillBookSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadRTAgencyCommissionBillBook" />
+  </wsdl:message>
+  <wsdl:message name="UploadRTAgencyCommissionBillBookSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadRTAgencyCommissionBillBookResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadRTAgencyCommissionBillBookAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:portType name="AgencyIntegrationWebServiceSoap">
+    <wsdl:operation name="UploadBillBook">
+      <wsdl:input message="tns:UploadBillBookSoapIn" />
+      <wsdl:output message="tns:UploadBillBookSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadBillStatusInfo">
+      <wsdl:input message="tns:UploadBillStatusInfoSoapIn" />
+      <wsdl:output message="tns:UploadBillStatusInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadBillBookDetail">
+      <wsdl:input message="tns:UploadBillBookDetailSoapIn" />
+      <wsdl:output message="tns:UploadBillBookDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadBillBookInputItem">
+      <wsdl:input message="tns:UploadBillBookInputItemSoapIn" />
+      <wsdl:output message="tns:UploadBillBookInputItemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadBillBookInputSet">
+      <wsdl:input message="tns:UploadBillBookInputSetSoapIn" />
+      <wsdl:output message="tns:UploadBillBookInputSetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadAgencyCommission">
+      <wsdl:input message="tns:UploadAgencyCommissionSoapIn" />
+      <wsdl:output message="tns:UploadAgencyCommissionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadRTAgencyContractMru">
+      <wsdl:input message="tns:UploadRTAgencyContractMruSoapIn" />
+      <wsdl:output message="tns:UploadRTAgencyContractMruSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadRTAgencyCommissionBillBook">
+      <wsdl:input message="tns:UploadRTAgencyCommissionBillBookSoapIn" />
+      <wsdl:output message="tns:UploadRTAgencyCommissionBillBookSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AgencyIntegrationWebServiceSoap" type="tns:AgencyIntegrationWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadBillBook">
+      <soap:operation soapAction="http://tempuri.org/UploadBillBook" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadBillBookAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadBillStatusInfo">
+      <soap:operation soapAction="http://tempuri.org/UploadBillStatusInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadBillStatusInfoAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadBillBookDetail">
+      <soap:operation soapAction="http://tempuri.org/UploadBillBookDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadBillBookDetailAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadBillBookInputItem">
+      <soap:operation soapAction="http://tempuri.org/UploadBillBookInputItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadBillBookInputItemAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadBillBookInputSet">
+      <soap:operation soapAction="http://tempuri.org/UploadBillBookInputSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadBillBookInputSetAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadAgencyCommission">
+      <soap:operation soapAction="http://tempuri.org/UploadAgencyCommission" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadAgencyCommissionAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadRTAgencyContractMru">
+      <soap:operation soapAction="http://tempuri.org/UploadRTAgencyContractMru" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadRTAgencyContractMruAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadRTAgencyCommissionBillBook">
+      <soap:operation soapAction="http://tempuri.org/UploadRTAgencyCommissionBillBook" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadRTAgencyCommissionBillBookAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AgencyIntegrationWebServiceSoap12" type="tns:AgencyIntegrationWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadBillBook">
+      <soap12:operation soapAction="http://tempuri.org/UploadBillBook" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadBillBookAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadBillStatusInfo">
+      <soap12:operation soapAction="http://tempuri.org/UploadBillStatusInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadBillStatusInfoAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadBillBookDetail">
+      <soap12:operation soapAction="http://tempuri.org/UploadBillBookDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadBillBookDetailAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadBillBookInputItem">
+      <soap12:operation soapAction="http://tempuri.org/UploadBillBookInputItem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadBillBookInputItemAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadBillBookInputSet">
+      <soap12:operation soapAction="http://tempuri.org/UploadBillBookInputSet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadBillBookInputSetAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadAgencyCommission">
+      <soap12:operation soapAction="http://tempuri.org/UploadAgencyCommission" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadAgencyCommissionAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadRTAgencyContractMru">
+      <soap12:operation soapAction="http://tempuri.org/UploadRTAgencyContractMru" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadRTAgencyContractMruAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadRTAgencyCommissionBillBook">
+      <soap12:operation soapAction="http://tempuri.org/UploadRTAgencyCommissionBillBook" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadRTAgencyCommissionBillBookAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AgencyIntegrationWebService">
+    <wsdl:port name="AgencyIntegrationWebServiceSoap" binding="tns:AgencyIntegrationWebServiceSoap">
+      <soap:address location="http://localhost/BPMIntegrationUploadedService/AgencyIntegrationWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AgencyIntegrationWebServiceSoap12" binding="tns:AgencyIntegrationWebServiceSoap12">
+      <soap12:address location="http://localhost/BPMIntegrationUploadedService/AgencyIntegrationWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

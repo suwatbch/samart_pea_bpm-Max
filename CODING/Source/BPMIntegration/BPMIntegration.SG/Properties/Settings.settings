@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PEA.BPM.Integration.BPMIntegration.SG.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PEA_BPM_Integration_BPMIntegration_SG_AgencyDLWS_AgencyIntegrationWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMIntegrationDownloadedService/AgencyIntegrationWebService.asmx</Value>
+    </Setting>
+    <Setting Name="PEA_BPM_Integration_BPMIntegration_SG_ARDLWS_ARWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMIntegrationDownloadedService/ARWebService.asmx</Value>
+    </Setting>
+    <Setting Name="PEA_BPM_Integration_BPMIntegration_SG_BlanDLWS_BLANIntegrationWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMIntegrationDownloadedService/BLANIntegrationWebService.asmx</Value>
+    </Setting>
+    <Setting Name="PEA_BPM_Integration_BPMIntegration_SG_CashDLWS_CashManagementWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMIntegrationDownloadedService/CashManagementWebService.asmx</Value>
+    </Setting>
+    <Setting Name="PEA_BPM_Integration_BPMIntegration_SG_EPayDLWS_EPaymentWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMIntegrationDownloadedService/EPaymentWebService.asmx</Value>
+    </Setting>
+    <Setting Name="PEA_BPM_Integration_BPMIntegration_SG_MasterDLWS_MasterIntegrationWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMIntegrationDownloadedService/MasterIntegrationWebService.asmx</Value>
+    </Setting>
+    <Setting Name="PEA_BPM_Integration_BPMIntegration_SG_UtilDLWS_UtilitiesIntegrationWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMIntegrationDownloadedService/UtilitiesIntegrationWebService.asmx</Value>
+    </Setting>
+    <Setting Name="PEA_BPM_Integration_BPMIntegration_SG_AgencyULWS_AgencyIntegrationWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMIntegrationUploadedService/AgencyIntegrationWebService.asmx</Value>
+    </Setting>
+    <Setting Name="PEA_BPM_Integration_BPMIntegration_SG_ARULWS_ARWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMIntegrationUploadedService/ARWebService.asmx</Value>
+    </Setting>
+    <Setting Name="PEA_BPM_Integration_BPMIntegration_SG_BlanULWS_BLANIntegrationWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMIntegrationUploadedService/BLANIntegrationWebService.asmx</Value>
+    </Setting>
+    <Setting Name="PEA_BPM_Integration_BPMIntegration_SG_CashULWS_CashManagementWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMIntegrationUploadedService/CashManagementWebService.asmx</Value>
+    </Setting>
+    <Setting Name="PEA_BPM_Integration_BPMIntegration_SG_EPayULWS_EPaymentWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMIntegrationUploadedService/EPaymentWebService.asmx</Value>
+    </Setting>
+    <Setting Name="PEA_BPM_Integration_BPMIntegration_SG_MasterULWS_MasterIntegrationWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMIntegrationUploadedService/MasterIntegrationWebService.asmx</Value>
+    </Setting>
+    <Setting Name="PEA_BPM_Integration_BPMIntegration_SG_UtilULWS_UtilitiesIntegrationWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMIntegrationUploadedService/UtilitiesIntegrationWebService.asmx</Value>
+    </Setting>
+    <Setting Name="PEA_BPM_Integration_BPMIntegration_SG_ExportTabULWS_ExportTableIntegrationWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/BPMIntegrationService/ExportTableIntegrationWebService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

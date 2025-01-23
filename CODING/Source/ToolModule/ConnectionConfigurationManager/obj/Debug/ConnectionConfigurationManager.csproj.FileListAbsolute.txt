@@ -1,0 +1,102 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.exe.config
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\protobuf-net.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.CommonUtilities.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\Tool.ConnectionConfigurationManager.SettingForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\Tool.ConnectionConfigurationManager.Properties.Resources.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.csproj.GenerateResource.Cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.exe.config
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.exe
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.CommonUtilities.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\protobuf-net.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.CommonUtilities.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ResolveAssemblyReference.cache
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\Tool.ConnectionConfigurationManager.SettingForm.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\Tool.ConnectionConfigurationManager.Properties.Resources.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.csproj.GenerateResource.Cache
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.exe
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.exe.config
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.CommonUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\protobuf-net.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.CommonUtilities.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\Tool.ConnectionConfigurationManager.SettingForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\Tool.ConnectionConfigurationManager.Properties.Resources.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.csproj.GenerateResource.Cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.exe.config
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.exe
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.CommonUtilities.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\protobuf-net.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.CommonUtilities.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\Tool.ConnectionConfigurationManager.SettingForm.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\Tool.ConnectionConfigurationManager.Properties.Resources.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.csproj.GenerateResource.Cache
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.exe
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.exe.config
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.exe
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.CommonUtilities.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\protobuf-net.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ResolveAssemblyReference.cache
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\Tool.ConnectionConfigurationManager.SettingForm.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\Tool.ConnectionConfigurationManager.Properties.Resources.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.csproj.GenerateResource.Cache
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.exe
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.exe.config
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.exe
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\ConnectionConfigurationManager.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\protobuf-net.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.CommonUtilities.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\Tool.ConnectionConfigurationManager.SettingForm.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\Tool.ConnectionConfigurationManager.Properties.Resources.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.csproj.GenerateResource.Cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.exe
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Debug\ConnectionConfigurationManager.pdb

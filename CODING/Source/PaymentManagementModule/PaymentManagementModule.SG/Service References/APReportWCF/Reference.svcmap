@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="98e12e50-ac72-4f73-9770-cc7ea18cfc7f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/PaymentMnt/APReportWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="APReportWCFService6.xsd" MetadataType="Schema" ID="bc7a0a1c-acaf-4255-ae31-a158f585d299" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/APReportWCFService.svc?xsd=xsd4" />
+    <MetadataFile FileName="APReportWCFService1.disco" MetadataType="Disco" ID="fa192aaf-73bb-410b-b482-6bbab7147e3d" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/APReportWCFService.svc?disco" />
+    <MetadataFile FileName="APReportWCFService61.xsd" MetadataType="Schema" ID="7ac089c6-57c7-437b-9ba0-2bd893ab67e4" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/APReportWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="APReportWCFService62.xsd" MetadataType="Schema" ID="570b2afa-3c45-4370-b42f-52f9cfbecec3" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/APReportWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="APReportWCFService63.xsd" MetadataType="Schema" ID="07f329e1-28c0-4045-8fef-03ded0ab566d" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/APReportWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="APReportWCFService64.xsd" MetadataType="Schema" ID="312d740d-cec8-4701-81f7-b2cf66da3ceb" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/APReportWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="APReportWCFService2.wsdl" MetadataType="Wsdl" ID="6b016883-dcf8-4d45-9f53-5e00a5047f09" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/APReportWCFService.svc?wsdl" />
+    <MetadataFile FileName="APReportWCFService21.wsdl" MetadataType="Wsdl" ID="df69f56c-f502-4b35-b73d-0cc716332042" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/APReportWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="APReportWCFService65.xsd" MetadataType="Schema" ID="5d39b60a-a73a-4af2-ab45-b82791f4535a" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/APReportWCFService.svc?xsd=xsd5" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

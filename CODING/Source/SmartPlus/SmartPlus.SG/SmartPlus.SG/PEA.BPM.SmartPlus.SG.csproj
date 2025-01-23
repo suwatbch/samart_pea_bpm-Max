@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{85C12BBA-BB04-47FC-ACD1-DCC4AC855C6F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PEA.BPM.SmartPlus.SG</RootNamespace>
+    <AssemblyName>PEA.BPM.SmartPlus.SG</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BPMBillingSG.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\POSService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SmartPlusServiceGateway.cs" />
+    <Compile Include="Web References\BPMSecurityService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Architecture\ArchitectureInterface\ArchitectureInterface.csproj">
+      <Project>{7939F32D-01C5-45B5-A545-3EEE99017A7E}</Project>
+      <Name>ArchitectureInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Architecture\ArchitectureTool\ArchitectureTool.csproj">
+      <Project>{CD6283A4-2D09-4DB4-9354-7AC912A8C9D5}</Project>
+      <Name>ArchitectureTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Architecture\CommonUtilities\CommonUtilities.csproj">
+      <Project>{1A6B6E40-2DD5-4CB8-B766-B61AA237701B}</Project>
+      <Name>CommonUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\CashManagementModule\CashManagementModule.Interface\CashManagementModule.Interface.csproj">
+      <Project>{E0AFD613-2C8A-49A8-9551-0C0222864AEC}</Project>
+      <Name>CashManagementModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Infrastructure\Infrastructure.Interface\Infrastructure.Interface.csproj">
+      <Project>{A6E71DBF-A767-416C-9DE4-15AEFC619BAF}</Project>
+      <Name>Infrastructure.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\PaymentCollectionModule\PaymentCollectionModule.Interface\PaymentCollectionModule.Interface.csproj">
+      <Project>{20245E21-61E9-4B4D-86D2-87A23FDC051F}</Project>
+      <Name>PaymentCollectionModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\WCFService\WCFExtras\WCFExtras.csproj">
+      <Project>{22037EAC-02C0-4A99-8A4F-8172590E64ED}</Project>
+      <Name>WCFExtras</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SmartPlus.DA\PEA.BPM.SmartPlus.DA.csproj">
+      <Project>{8435F9F3-5D15-43F1-8237-560A7C8CCBE7}</Project>
+      <Name>PEA.BPM.SmartPlus.DA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SmartPlus.Interface\PEA.BPM.SmartPlus.Interface.csproj">
+      <Project>{1E002CA4-35EA-4FCB-91D2-D81FB86CAEA6}</Project>
+      <Name>PEA.BPM.SmartPlus.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\PEA.BPM.Architecture.CommonUtilities.CompressData.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.CashManagementModule.Interface.BusinessEntities.TrayMoneyInfo.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.BillBook.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.CaIdAndBranchId.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Customer.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.DayClosingResult.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Invoice.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost/BPMSecurityService/AuthenticationWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\BPMSecurityService\</RelPath>
+      <UpdateFromURL>http://localhost/BPMSecurityService/AuthenticationWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>SmartPlus_SG_BPMSecurityService_AuthenticationWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\POSService\BillingWCFService.wsdl" />
+    <None Include="Service References\POSService\BillingWCFService.xsd" />
+    <None Include="Service References\POSService\BillingWCFService1.wsdl" />
+    <None Include="Service References\POSService\BillingWCFService1.xsd" />
+    <None Include="Service References\POSService\BillingWCFService2.xsd" />
+    <None Include="Service References\POSService\BillingWCFService3.xsd" />
+    <None Include="Service References\POSService\BillingWCFService4.xsd" />
+    <None Include="Service References\POSService\BillingWCFService5.xsd" />
+    <None Include="Service References\POSService\BillingWCFService6.xsd" />
+    <None Include="Service References\POSService\BillingWCFService7.xsd" />
+    <None Include="Web References\BPMSecurityService\AuthenticationWebService.disco" />
+    <None Include="Web References\BPMSecurityService\AuthenticationWebService.wsdl" />
+    <None Include="Web References\BPMSecurityService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\POSService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\POSService\BillingWCFService.disco" />
+    <None Include="Service References\POSService\BillingWCFService8.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\POSService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\POSService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\POSService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\BPMSecurityService\UserProfile1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

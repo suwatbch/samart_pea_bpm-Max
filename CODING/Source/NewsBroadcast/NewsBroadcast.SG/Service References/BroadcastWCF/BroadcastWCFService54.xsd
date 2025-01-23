@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org" elementFormDefault="qualified" targetNamespace="http://tempuri.org" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/BPMService/TOOL/BroadcastWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+  <xs:element name="GetNewsBroadcastNow">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_nowDt" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="_userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="_cmdId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewsBroadcastNowResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetNewsBroadcastNowResult" nillable="true" type="q1:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewsBroadcastHistory">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_nowDt" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="_userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="_cmdId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewsBroadcastHistoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetNewsBroadcastHistoryResult" nillable="true" type="q2:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewsBroadcastSent">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_sentDt" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewsBroadcastSentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetNewsBroadcastSentResult" nillable="true" type="q3:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewsBroadcastNowForSender">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_nowDt" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="_cmdId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewsBroadcastNowForSenderResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetNewsBroadcastNowForSenderResult" nillable="true" type="q4:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewsBroadcastScheduled">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_nowDt" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="_cmdId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewsBroadcastScheduledResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetNewsBroadcastScheduledResult" nillable="true" type="q5:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewsBroadcastSentMonthYears">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_sentDt" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewsBroadcastSentMonthYearsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetNewsBroadcastSentMonthYearsResult" nillable="true" type="q6:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewsBroadcastUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_broadcastId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewsBroadcastUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetNewsBroadcastUserResult" nillable="true" type="q7:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateNewsBroadcastUserOpened">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_broadcastId" type="xs:int" />
+        <xs:element minOccurs="0" name="_userId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateNewsBroadcastUserOpenedResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateNewsBroadcastUserRead">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_broadcastId" type="xs:int" />
+        <xs:element minOccurs="0" name="_userId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateNewsBroadcastUserReadResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArea">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAreaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetAreaResult" nillable="true" type="q8:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBranch">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_areaId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBranchResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetBranchResult" nillable="true" type="q9:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_roleId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetUserResult" nillable="true" type="q10:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRole">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRoleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" minOccurs="0" name="GetRoleResult" nillable="true" type="q11:CompressData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertNewsBroadcast">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_broadcastTopic" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="_detail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="_sentDt" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="_expireDt" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="_cmdId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertNewsBroadcastResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertNewsBroadcastUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_broadcastId" type="xs:int" />
+        <xs:element minOccurs="0" name="_userId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="_areaId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="_branchId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="_branchName2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="_roleId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="_roleName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertNewsBroadcastUserResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLastNewsBroadcastId">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLastNewsBroadcastIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetLastNewsBroadcastIdResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsDuplicateUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_broadcastId" type="xs:int" />
+        <xs:element minOccurs="0" name="_userId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsDuplicateUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsDuplicateUserResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

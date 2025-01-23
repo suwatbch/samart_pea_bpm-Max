@@ -1,0 +1,22 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Release\Avanade.ACA.Batch.BatchCenterServerHost.exe.config
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Release\Avanade.ACA.Batch.BatchCenterServerHost.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Release\Avanade.ACA.Batch.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Release\Avanade.ACA.Batch.BatchCenterServerHost.ProjectInstaller.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Release\Avanade.ACA.Batch.BatchCenterServerHost.Properties.Resources.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Release\Avanade.ACA.Batch.BatchCenterServerHost.csproj.GenerateResource.Cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Release\Avanade.ACA.Batch.BatchCenterServerHost.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Release\Avanade.ACA.Batch.BatchCenterServerHost.exe.config
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Release\Avanade.ACA.Batch.BatchCenterServerHost.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Release\Avanade.ACA.Batch.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Release\Avanade.ACA.Batch.BatchCenterServerHost.ProjectInstaller.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Release\Avanade.ACA.Batch.BatchCenterServerHost.Properties.Resources.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Release\Avanade.ACA.Batch.BatchCenterServerHost.csproj.GenerateResource.Cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.Batch.BatchCenterServerHost\obj\Release\Avanade.ACA.Batch.BatchCenterServerHost.exe

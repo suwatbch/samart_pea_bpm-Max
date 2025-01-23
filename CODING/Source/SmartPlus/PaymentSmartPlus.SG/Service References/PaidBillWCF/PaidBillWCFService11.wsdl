@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://scp30064/BPMService/POS/PaidBillWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://scp30064/BPMService/POS/PaidBillWCFService.svc?xsd=xsd4" />
+      <xsd:import schemaLocation="http://scp30064/BPMService/POS/PaidBillWCFService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://scp30064/BPMService/POS/PaidBillWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://scp30064/BPMService/POS/PaidBillWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities" />
+      <xsd:import schemaLocation="http://scp30064/BPMService/POS/PaidBillWCFService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+      <xsd:import schemaLocation="http://scp30064/BPMService/POS/PaidBillWCFService.svc?xsd=xsd6" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPaidBillWCFService_SearchPaidBill_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPaidBill" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_SearchPaidBill_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_SearchPaidBill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPaidBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_SearchPaidBill_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_SearchReceipt_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchReceipt" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_SearchReceipt_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_SearchReceipt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchReceiptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_SearchReceipt_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_GetReceiptDetail_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReceiptDetail" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_GetReceiptDetail_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_GetReceiptDetail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReceiptDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_GetReceiptDetail_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_CancelReceipt_InputMessage">
+    <wsdl:part name="parameters" element="tns:CancelReceipt" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_CancelReceipt_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_CancelReceipt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelReceiptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_CancelReceipt_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_GetReceiptsForPrint_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReceiptsForPrint" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_GetReceiptsForPrint_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_GetReceiptsForPrint_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReceiptsForPrintResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_GetReceiptsForPrint_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_IncreaseNoOfReprint_InputMessage">
+    <wsdl:part name="parameters" element="tns:IncreaseNoOfReprint" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_IncreaseNoOfReprint_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_IncreaseNoOfReprint_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IncreaseNoOfReprintResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_IncreaseNoOfReprint_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_SearchOneTouchPayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchOneTouchPayment" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_SearchOneTouchPayment_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_SearchOneTouchPayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchOneTouchPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaidBillWCFService_SearchOneTouchPayment_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="IPaidBillWCFService">
+    <wsdl:operation name="SearchPaidBill">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaidBillWCFService/SearchPaidBill" message="tns:IPaidBillWCFService_SearchPaidBill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaidBillWCFService/SearchPaidBillResponse" message="tns:IPaidBillWCFService_SearchPaidBill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IPaidBillWCFService/SearchPaidBillBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IPaidBillWCFService_SearchPaidBill_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchReceipt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaidBillWCFService/SearchReceipt" message="tns:IPaidBillWCFService_SearchReceipt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaidBillWCFService/SearchReceiptResponse" message="tns:IPaidBillWCFService_SearchReceipt_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IPaidBillWCFService/SearchReceiptBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IPaidBillWCFService_SearchReceipt_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReceiptDetail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaidBillWCFService/GetReceiptDetail" message="tns:IPaidBillWCFService_GetReceiptDetail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaidBillWCFService/GetReceiptDetailResponse" message="tns:IPaidBillWCFService_GetReceiptDetail_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IPaidBillWCFService/GetReceiptDetailBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IPaidBillWCFService_GetReceiptDetail_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelReceipt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaidBillWCFService/CancelReceipt" message="tns:IPaidBillWCFService_CancelReceipt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaidBillWCFService/CancelReceiptResponse" message="tns:IPaidBillWCFService_CancelReceipt_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IPaidBillWCFService/CancelReceiptBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IPaidBillWCFService_CancelReceipt_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReceiptsForPrint">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaidBillWCFService/GetReceiptsForPrint" message="tns:IPaidBillWCFService_GetReceiptsForPrint_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaidBillWCFService/GetReceiptsForPrintResponse" message="tns:IPaidBillWCFService_GetReceiptsForPrint_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IPaidBillWCFService/GetReceiptsForPrintBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IPaidBillWCFService_GetReceiptsForPrint_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IncreaseNoOfReprint">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaidBillWCFService/IncreaseNoOfReprint" message="tns:IPaidBillWCFService_IncreaseNoOfReprint_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaidBillWCFService/IncreaseNoOfReprintResponse" message="tns:IPaidBillWCFService_IncreaseNoOfReprint_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IPaidBillWCFService/IncreaseNoOfReprintBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IPaidBillWCFService_IncreaseNoOfReprint_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchOneTouchPayment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaidBillWCFService/SearchOneTouchPayment" message="tns:IPaidBillWCFService_SearchOneTouchPayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaidBillWCFService/SearchOneTouchPaymentResponse" message="tns:IPaidBillWCFService_SearchOneTouchPayment_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IPaidBillWCFService/SearchOneTouchPaymentBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IPaidBillWCFService_SearchOneTouchPayment_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/Cashier/CashierWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/Cashier/CashierWCFService.svc?xsd=xsd5" />
+      <xsd:import schemaLocation="http://localhost/BPMService/Cashier/CashierWCFService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/Cashier/CashierWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/Cashier/CashierWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.CashManagementModule.Interface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/Cashier/CashierWCFService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost/BPMService/Cashier/CashierWCFService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/Cashier/CashierWCFService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Infrastructure.Interface.BusinessEntities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICashierWCFService_GetBankPayInDailyForReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBankPayInDailyForReport" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetBankPayInDailyForReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetBankPayInDailyForReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBankPayInDailyForReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetBankPayInDailyForReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetCloseWorkSummaryReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCloseWorkSummaryReport" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetCloseWorkSummaryReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetCloseWorkSummaryReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCloseWorkSummaryReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetCloseWorkSummaryReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetChequeDailyRemainReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetChequeDailyRemainReport" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetChequeDailyRemainReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetChequeDailyRemainReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetChequeDailyRemainReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetChequeDailyRemainReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetPayInOfDate_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPayInOfDate" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetPayInOfDate_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetPayInOfDate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPayInOfDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetPayInOfDate_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetCloseWorkOfDate_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCloseWorkOfDate" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetCloseWorkOfDate_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetCloseWorkOfDate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCloseWorkOfDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetCloseWorkOfDate_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_SaveStartOpenBalance_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveStartOpenBalance" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_SaveStartOpenBalance_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_SaveStartOpenBalance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveStartOpenBalanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_SaveStartOpenBalance_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadSystemInitial_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadSystemInitial" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadSystemInitial_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadSystemInitial_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadSystemInitialResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadSystemInitial_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_SaveAdjustOpenBalance_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAdjustOpenBalance" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_SaveAdjustOpenBalance_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_SaveAdjustOpenBalance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAdjustOpenBalanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_SaveAdjustOpenBalance_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q8:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadAdjustOpenBalance_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadAdjustOpenBalance" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadAdjustOpenBalance_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadAdjustOpenBalance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadAdjustOpenBalanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadAdjustOpenBalance_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q9:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetOpenWorkCashierOfBranch_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOpenWorkCashierOfBranch" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetOpenWorkCashierOfBranch_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetOpenWorkCashierOfBranch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOpenWorkCashierOfBranchResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetOpenWorkCashierOfBranch_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q10:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetCashierWorkStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCashierWorkStatus" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetCashierWorkStatus_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetCashierWorkStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCashierWorkStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetCashierWorkStatus_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q11:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_IsOpenedWork_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsOpenedWork" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_IsOpenedWork_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_IsOpenedWork_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsOpenedWorkResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_IsOpenedWork_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q12:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_IsSystemInitial_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsSystemInitial" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_IsSystemInitial_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_IsSystemInitial_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsSystemInitialResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_IsSystemInitial_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q13="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q13:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_OpenWork_InputMessage">
+    <wsdl:part name="parameters" element="tns:OpenWork" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_OpenWork_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_OpenWork_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OpenWorkResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_OpenWork_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q14:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadOpeningBalance_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadOpeningBalance" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadOpeningBalance_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadOpeningBalance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadOpeningBalanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadOpeningBalance_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q15="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q15:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListCashier_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListCashier" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListCashier_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListCashier_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListCashierResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListCashier_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q16="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q16:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListGLBank_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListGLBank" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListGLBank_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListGLBank_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListGLBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListGLBank_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q17="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q17:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListGLBankAccount_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListGLBankAccount" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListGLBankAccount_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListGLBankAccount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListGLBankAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListGLBankAccount_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q18="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q18:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetMoneyInTray_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMoneyInTray" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetMoneyInTray_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetMoneyInTray_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMoneyInTrayResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetMoneyInTray_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q19="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q19:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_Transfer_InputMessage">
+    <wsdl:part name="parameters" element="tns:Transfer" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_Transfer_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_Transfer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TransferResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_Transfer_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q20="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q20:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetBankPayInDetailForReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBankPayInDetailForReport" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetBankPayInDetailForReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetBankPayInDetailForReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBankPayInDetailForReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetBankPayInDetailForReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q21="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q21:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadTransferedRequestItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadTransferedRequestItem" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadTransferedRequestItem_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadTransferedRequestItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadTransferedRequestItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadTransferedRequestItem_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q22="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q22:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ResponseTransferedItems_InputMessage">
+    <wsdl:part name="parameters" element="tns:ResponseTransferedItems" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ResponseTransferedItems_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ResponseTransferedItems_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ResponseTransferedItemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ResponseTransferedItems_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q23="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q23:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CancelTransferItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:CancelTransferItem" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CancelTransferItem_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CancelTransferItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelTransferItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CancelTransferItem_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q24="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q24:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadTransferStatusItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadTransferStatusItem" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadTransferStatusItem_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadTransferStatusItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadTransferStatusItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadTransferStatusItem_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q25="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q25:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetCloseWorkFlowItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCloseWorkFlowItem" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetCloseWorkFlowItem_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetCloseWorkFlowItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCloseWorkFlowItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetCloseWorkFlowItem_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q26="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q26:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CloseWork_InputMessage">
+    <wsdl:part name="parameters" element="tns:CloseWork" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CloseWork_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CloseWork_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CloseWorkResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CloseWork_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q27="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q27:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetWorkFlowReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWorkFlowReport" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetWorkFlowReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetWorkFlowReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWorkFlowReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetWorkFlowReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q28="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q28:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetWorkFlowDelayedReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWorkFlowDelayedReport" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetWorkFlowDelayedReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetWorkFlowDelayedReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWorkFlowDelayedReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetWorkFlowDelayedReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q29="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q29:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CheckInMoney_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckInMoney" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CheckInMoney_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CheckInMoney_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckInMoneyResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CheckInMoney_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q30="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q30:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadMoneyCheckedIn_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadMoneyCheckedIn" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadMoneyCheckedIn_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadMoneyCheckedIn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadMoneyCheckedInResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadMoneyCheckedIn_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q31="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q31:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CancelMoneyCheckedIn_InputMessage">
+    <wsdl:part name="parameters" element="tns:CancelMoneyCheckedIn" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CancelMoneyCheckedIn_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CancelMoneyCheckedIn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelMoneyCheckedInResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CancelMoneyCheckedIn_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q32="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q32:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ExistSAPRefNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExistSAPRefNo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ExistSAPRefNo_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ExistSAPRefNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExistSAPRefNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ExistSAPRefNo_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q33="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q33:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetHistDailyRemainReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHistDailyRemainReport" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetHistDailyRemainReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetHistDailyRemainReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHistDailyRemainReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetHistDailyRemainReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q34="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q34:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetHistBankPayInDetailReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHistBankPayInDetailReport" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetHistBankPayInDetailReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetHistBankPayInDetailReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHistBankPayInDetailReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetHistBankPayInDetailReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q35="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q35:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetHistWorkFlowReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHistWorkFlowReport" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetHistWorkFlowReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetHistWorkFlowReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHistWorkFlowReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetHistWorkFlowReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q36="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q36:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetWorkBetweenDate_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWorkBetweenDate" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetWorkBetweenDate_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetWorkBetweenDate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWorkBetweenDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetWorkBetweenDate_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q37="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q37:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListBankDelivery_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListBankDelivery" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListBankDelivery_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListBankDelivery_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListBankDeliveryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListBankDelivery_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q38="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q38:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CancelBankDelivery_InputMessage">
+    <wsdl:part name="parameters" element="tns:CancelBankDelivery" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CancelBankDelivery_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CancelBankDelivery_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelBankDeliveryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_CancelBankDelivery_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q39="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q39:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListAllOpenWork_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListAllOpenWork" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListAllOpenWork_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListAllOpenWork_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListAllOpenWorkResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ListAllOpenWork_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q40="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q40:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ForceCloseWork_InputMessage">
+    <wsdl:part name="parameters" element="tns:ForceCloseWork" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ForceCloseWork_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ForceCloseWork_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ForceCloseWorkResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_ForceCloseWork_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q41="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q41:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadCashierPosId_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCashierPosId" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadCashierPosId_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadCashierPosId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCashierPosIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadCashierPosId_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q42="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q42:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_IsAllWorkClosed_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsAllWorkClosed" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_IsAllWorkClosed_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_IsAllWorkClosed_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsAllWorkClosedResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_IsAllWorkClosed_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q43="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q43:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_SetBaseline_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetBaseline" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_SetBaseline_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_SetBaseline_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetBaselineResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_SetBaseline_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q44="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q44:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetBaseline_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBaseline" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetBaseline_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetBaseline_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBaselineResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetBaseline_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q45="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q45:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetWorkPosId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWorkPosId" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetWorkPosId_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetWorkPosId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWorkPosIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_GetWorkPosId_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q46="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q46:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadSAPReference_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadSAPReference" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadSAPReference_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadSAPReference_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadSAPReferenceResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICashierWCFService_LoadSAPReference_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q47="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q47:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="ICashierWCFService">
+    <wsdl:operation name="GetBankPayInDailyForReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetBankPayInDailyForReport" message="tns:ICashierWCFService_GetBankPayInDailyForReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetBankPayInDailyForReportResponse" message="tns:ICashierWCFService_GetBankPayInDailyForReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetBankPayInDailyForReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetBankPayInDailyForReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCloseWorkSummaryReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetCloseWorkSummaryReport" message="tns:ICashierWCFService_GetCloseWorkSummaryReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetCloseWorkSummaryReportResponse" message="tns:ICashierWCFService_GetCloseWorkSummaryReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetCloseWorkSummaryReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetCloseWorkSummaryReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetChequeDailyRemainReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetChequeDailyRemainReport" message="tns:ICashierWCFService_GetChequeDailyRemainReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetChequeDailyRemainReportResponse" message="tns:ICashierWCFService_GetChequeDailyRemainReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetChequeDailyRemainReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetChequeDailyRemainReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPayInOfDate">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetPayInOfDate" message="tns:ICashierWCFService_GetPayInOfDate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetPayInOfDateResponse" message="tns:ICashierWCFService_GetPayInOfDate_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetPayInOfDateBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetPayInOfDate_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCloseWorkOfDate">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetCloseWorkOfDate" message="tns:ICashierWCFService_GetCloseWorkOfDate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetCloseWorkOfDateResponse" message="tns:ICashierWCFService_GetCloseWorkOfDate_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetCloseWorkOfDateBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetCloseWorkOfDate_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveStartOpenBalance">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/SaveStartOpenBalance" message="tns:ICashierWCFService_SaveStartOpenBalance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/SaveStartOpenBalanceResponse" message="tns:ICashierWCFService_SaveStartOpenBalance_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/SaveStartOpenBalanceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_SaveStartOpenBalance_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadSystemInitial">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/LoadSystemInitial" message="tns:ICashierWCFService_LoadSystemInitial_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/LoadSystemInitialResponse" message="tns:ICashierWCFService_LoadSystemInitial_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/LoadSystemInitialBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_LoadSystemInitial_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAdjustOpenBalance">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/SaveAdjustOpenBalance" message="tns:ICashierWCFService_SaveAdjustOpenBalance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/SaveAdjustOpenBalanceResponse" message="tns:ICashierWCFService_SaveAdjustOpenBalance_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/SaveAdjustOpenBalanceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_SaveAdjustOpenBalance_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadAdjustOpenBalance">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/LoadAdjustOpenBalance" message="tns:ICashierWCFService_LoadAdjustOpenBalance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/LoadAdjustOpenBalanceResponse" message="tns:ICashierWCFService_LoadAdjustOpenBalance_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/LoadAdjustOpenBalanceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_LoadAdjustOpenBalance_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOpenWorkCashierOfBranch">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetOpenWorkCashierOfBranch" message="tns:ICashierWCFService_GetOpenWorkCashierOfBranch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetOpenWorkCashierOfBranchResponse" message="tns:ICashierWCFService_GetOpenWorkCashierOfBranch_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetOpenWorkCashierOfBranchBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetOpenWorkCashierOfBranch_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCashierWorkStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetCashierWorkStatus" message="tns:ICashierWCFService_GetCashierWorkStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetCashierWorkStatusResponse" message="tns:ICashierWCFService_GetCashierWorkStatus_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetCashierWorkStatusBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetCashierWorkStatus_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsOpenedWork">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/IsOpenedWork" message="tns:ICashierWCFService_IsOpenedWork_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/IsOpenedWorkResponse" message="tns:ICashierWCFService_IsOpenedWork_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/IsOpenedWorkBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_IsOpenedWork_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsSystemInitial">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/IsSystemInitial" message="tns:ICashierWCFService_IsSystemInitial_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/IsSystemInitialResponse" message="tns:ICashierWCFService_IsSystemInitial_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/IsSystemInitialBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_IsSystemInitial_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OpenWork">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/OpenWork" message="tns:ICashierWCFService_OpenWork_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/OpenWorkResponse" message="tns:ICashierWCFService_OpenWork_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/OpenWorkBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_OpenWork_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadOpeningBalance">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/LoadOpeningBalance" message="tns:ICashierWCFService_LoadOpeningBalance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/LoadOpeningBalanceResponse" message="tns:ICashierWCFService_LoadOpeningBalance_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/LoadOpeningBalanceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_LoadOpeningBalance_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListCashier">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/ListCashier" message="tns:ICashierWCFService_ListCashier_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/ListCashierResponse" message="tns:ICashierWCFService_ListCashier_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/ListCashierBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_ListCashier_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListGLBank">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/ListGLBank" message="tns:ICashierWCFService_ListGLBank_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/ListGLBankResponse" message="tns:ICashierWCFService_ListGLBank_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/ListGLBankBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_ListGLBank_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListGLBankAccount">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/ListGLBankAccount" message="tns:ICashierWCFService_ListGLBankAccount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/ListGLBankAccountResponse" message="tns:ICashierWCFService_ListGLBankAccount_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/ListGLBankAccountBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_ListGLBankAccount_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMoneyInTray">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetMoneyInTray" message="tns:ICashierWCFService_GetMoneyInTray_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetMoneyInTrayResponse" message="tns:ICashierWCFService_GetMoneyInTray_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetMoneyInTrayBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetMoneyInTray_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Transfer">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/Transfer" message="tns:ICashierWCFService_Transfer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/TransferResponse" message="tns:ICashierWCFService_Transfer_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/TransferBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_Transfer_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBankPayInDetailForReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetBankPayInDetailForReport" message="tns:ICashierWCFService_GetBankPayInDetailForReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetBankPayInDetailForReportResponse" message="tns:ICashierWCFService_GetBankPayInDetailForReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetBankPayInDetailForReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetBankPayInDetailForReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadTransferedRequestItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/LoadTransferedRequestItem" message="tns:ICashierWCFService_LoadTransferedRequestItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/LoadTransferedRequestItemResponse" message="tns:ICashierWCFService_LoadTransferedRequestItem_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/LoadTransferedRequestItemBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_LoadTransferedRequestItem_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ResponseTransferedItems">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/ResponseTransferedItems" message="tns:ICashierWCFService_ResponseTransferedItems_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/ResponseTransferedItemsResponse" message="tns:ICashierWCFService_ResponseTransferedItems_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/ResponseTransferedItemsBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_ResponseTransferedItems_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelTransferItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/CancelTransferItem" message="tns:ICashierWCFService_CancelTransferItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/CancelTransferItemResponse" message="tns:ICashierWCFService_CancelTransferItem_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/CancelTransferItemBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_CancelTransferItem_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadTransferStatusItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/LoadTransferStatusItem" message="tns:ICashierWCFService_LoadTransferStatusItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/LoadTransferStatusItemResponse" message="tns:ICashierWCFService_LoadTransferStatusItem_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/LoadTransferStatusItemBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_LoadTransferStatusItem_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCloseWorkFlowItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetCloseWorkFlowItem" message="tns:ICashierWCFService_GetCloseWorkFlowItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetCloseWorkFlowItemResponse" message="tns:ICashierWCFService_GetCloseWorkFlowItem_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetCloseWorkFlowItemBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetCloseWorkFlowItem_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseWork">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/CloseWork" message="tns:ICashierWCFService_CloseWork_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/CloseWorkResponse" message="tns:ICashierWCFService_CloseWork_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/CloseWorkBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_CloseWork_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkFlowReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetWorkFlowReport" message="tns:ICashierWCFService_GetWorkFlowReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetWorkFlowReportResponse" message="tns:ICashierWCFService_GetWorkFlowReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetWorkFlowReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetWorkFlowReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkFlowDelayedReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetWorkFlowDelayedReport" message="tns:ICashierWCFService_GetWorkFlowDelayedReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetWorkFlowDelayedReportResponse" message="tns:ICashierWCFService_GetWorkFlowDelayedReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetWorkFlowDelayedReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetWorkFlowDelayedReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckInMoney">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/CheckInMoney" message="tns:ICashierWCFService_CheckInMoney_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/CheckInMoneyResponse" message="tns:ICashierWCFService_CheckInMoney_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/CheckInMoneyBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_CheckInMoney_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadMoneyCheckedIn">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/LoadMoneyCheckedIn" message="tns:ICashierWCFService_LoadMoneyCheckedIn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/LoadMoneyCheckedInResponse" message="tns:ICashierWCFService_LoadMoneyCheckedIn_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/LoadMoneyCheckedInBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_LoadMoneyCheckedIn_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelMoneyCheckedIn">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/CancelMoneyCheckedIn" message="tns:ICashierWCFService_CancelMoneyCheckedIn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/CancelMoneyCheckedInResponse" message="tns:ICashierWCFService_CancelMoneyCheckedIn_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/CancelMoneyCheckedInBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_CancelMoneyCheckedIn_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExistSAPRefNo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/ExistSAPRefNo" message="tns:ICashierWCFService_ExistSAPRefNo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/ExistSAPRefNoResponse" message="tns:ICashierWCFService_ExistSAPRefNo_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/ExistSAPRefNoBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_ExistSAPRefNo_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHistDailyRemainReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetHistDailyRemainReport" message="tns:ICashierWCFService_GetHistDailyRemainReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetHistDailyRemainReportResponse" message="tns:ICashierWCFService_GetHistDailyRemainReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetHistDailyRemainReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetHistDailyRemainReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHistBankPayInDetailReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetHistBankPayInDetailReport" message="tns:ICashierWCFService_GetHistBankPayInDetailReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetHistBankPayInDetailReportResponse" message="tns:ICashierWCFService_GetHistBankPayInDetailReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetHistBankPayInDetailReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetHistBankPayInDetailReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHistWorkFlowReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetHistWorkFlowReport" message="tns:ICashierWCFService_GetHistWorkFlowReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetHistWorkFlowReportResponse" message="tns:ICashierWCFService_GetHistWorkFlowReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetHistWorkFlowReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetHistWorkFlowReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkBetweenDate">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetWorkBetweenDate" message="tns:ICashierWCFService_GetWorkBetweenDate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetWorkBetweenDateResponse" message="tns:ICashierWCFService_GetWorkBetweenDate_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetWorkBetweenDateBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetWorkBetweenDate_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListBankDelivery">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/ListBankDelivery" message="tns:ICashierWCFService_ListBankDelivery_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/ListBankDeliveryResponse" message="tns:ICashierWCFService_ListBankDelivery_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/ListBankDeliveryBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_ListBankDelivery_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelBankDelivery">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/CancelBankDelivery" message="tns:ICashierWCFService_CancelBankDelivery_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/CancelBankDeliveryResponse" message="tns:ICashierWCFService_CancelBankDelivery_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/CancelBankDeliveryBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_CancelBankDelivery_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListAllOpenWork">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/ListAllOpenWork" message="tns:ICashierWCFService_ListAllOpenWork_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/ListAllOpenWorkResponse" message="tns:ICashierWCFService_ListAllOpenWork_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/ListAllOpenWorkBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_ListAllOpenWork_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ForceCloseWork">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/ForceCloseWork" message="tns:ICashierWCFService_ForceCloseWork_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/ForceCloseWorkResponse" message="tns:ICashierWCFService_ForceCloseWork_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/ForceCloseWorkBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_ForceCloseWork_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadCashierPosId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/LoadCashierPosId" message="tns:ICashierWCFService_LoadCashierPosId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/LoadCashierPosIdResponse" message="tns:ICashierWCFService_LoadCashierPosId_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/LoadCashierPosIdBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_LoadCashierPosId_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsAllWorkClosed">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/IsAllWorkClosed" message="tns:ICashierWCFService_IsAllWorkClosed_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/IsAllWorkClosedResponse" message="tns:ICashierWCFService_IsAllWorkClosed_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/IsAllWorkClosedBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_IsAllWorkClosed_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetBaseline">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/SetBaseline" message="tns:ICashierWCFService_SetBaseline_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/SetBaselineResponse" message="tns:ICashierWCFService_SetBaseline_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/SetBaselineBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_SetBaseline_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBaseline">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetBaseline" message="tns:ICashierWCFService_GetBaseline_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetBaselineResponse" message="tns:ICashierWCFService_GetBaseline_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetBaselineBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetBaseline_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkPosId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/GetWorkPosId" message="tns:ICashierWCFService_GetWorkPosId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/GetWorkPosIdResponse" message="tns:ICashierWCFService_GetWorkPosId_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/GetWorkPosIdBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_GetWorkPosId_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadSAPReference">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICashierWCFService/LoadSAPReference" message="tns:ICashierWCFService_LoadSAPReference_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICashierWCFService/LoadSAPReferenceResponse" message="tns:ICashierWCFService_LoadSAPReference_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICashierWCFService/LoadSAPReferenceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICashierWCFService_LoadSAPReference_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

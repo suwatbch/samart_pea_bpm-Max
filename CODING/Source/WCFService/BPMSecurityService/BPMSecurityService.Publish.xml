@@ -1,0 +1,38 @@
+<publishData>
+  <publishTarget publishUrl="\\172.30.241.72\WebApp\BPMSecurityService\">
+    <file relUrl="bin/Infrastructure.Interface.pdb" publishTime="07/02/2010 11:57:26" />
+    <file relUrl="Report/index.aspx" publishTime="06/10/2010 17:39:42" />
+    <file relUrl="Report/UserSummary.aspx" publishTime="06/10/2010 17:39:42" />
+    <file relUrl="Report/NetworkSummary.aspx" publishTime="06/10/2010 17:39:42" />
+    <file relUrl="bin/CashManagementModule.Interface.pdb" publishTime="07/02/2010 11:57:27" />
+    <file relUrl="Admin/CashierMonitoring.aspx" publishTime="06/10/2010 17:39:42" />
+    <file relUrl="bin/Microsoft.Practices.CompositeUI.WinForms.dll" publishTime="06/10/2010 17:38:08" />
+    <file relUrl="Admin/UserMonitoring.aspx" publishTime="06/10/2010 17:39:42" />
+    <file relUrl="NewsWebService.asmx" publishTime="06/10/2010 17:39:41" />
+    <file relUrl="bin/Microsoft.Practices.ObjectBuilder2.dll" publishTime="06/10/2010 17:38:08" />
+    <file relUrl="bin/BPMSecurityService.pdb" publishTime="07/02/2010 11:58:54" />
+    <file relUrl="bin/Infrastructure.Interface.dll" publishTime="07/02/2010 11:57:26" />
+    <file relUrl="bin/BPMSecurityService.dll" publishTime="07/02/2010 11:58:54" />
+    <file relUrl="bin/Architecture.ArchitectureInterface.dll" publishTime="07/02/2010 11:57:26" />
+    <file relUrl="bin/CashManagementModule.Interface.dll" publishTime="07/02/2010 11:57:27" />
+    <file relUrl="Admin/LogMonitoring.aspx" publishTime="06/10/2010 17:39:42" />
+    <file relUrl="bin/Architecture.ArchitectureInterface.pdb" publishTime="07/02/2010 11:57:26" />
+    <file relUrl="Report/Report.Master" publishTime="06/10/2010 17:39:42" />
+    <file relUrl="readme.txt" publishTime="06/10/2010 17:39:41" />
+    <file relUrl="bin/Microsoft.Practices.ObjectBuilder.dll" publishTime="06/10/2010 17:38:08" />
+    <file relUrl="MonitoringWebService.asmx" publishTime="06/10/2010 17:39:41" />
+    <file relUrl="Global.asax" publishTime="06/10/2010 17:39:41" />
+    <file relUrl="bin/Microsoft.Practices.CompositeUI.dll" publishTime="06/10/2010 17:38:08" />
+    <file relUrl="bin/protobuf-net.dll" publishTime="04/14/2010 17:02:48" />
+    <file relUrl="Admin/index.aspx" publishTime="06/10/2010 17:39:42" />
+    <file relUrl="CashierCachingService.svc" publishTime="06/30/2010 14:59:51" />
+    <file relUrl="Web.config" publishTime="06/30/2010 15:21:55" />
+    <file relUrl="AuthenticationWebService.asmx" publishTime="06/10/2010 17:39:41" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll" publishTime="06/16/2010 17:43:57" />
+    <file relUrl="Admin/SystemMonitoring.aspx" publishTime="06/10/2010 17:39:42" />
+    <file relUrl="CashierCachingWebService.asmx" publishTime="06/10/2010 17:39:41" />
+    <file relUrl="releaselog.txt" publishTime="06/10/2010 17:39:41" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll" publishTime="06/16/2010 17:43:57" />
+    <file relUrl="Admin/Admin.Master" publishTime="06/10/2010 17:39:42" />
+  </publishTarget>
+</publishData>

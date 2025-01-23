@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?xsd=xsd4" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.ePaymentsModule.Interface.BusinessEntities.ReceiptPrinting" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/ReceiptPrintingWCFService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.ePaymentsModule.Interface.BusinessEntities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IReceiptPrintingWCFService_PrintGreenBill_InputMessage">
+    <wsdl:part name="parameters" element="tns:PrintGreenBill" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_PrintGreenBill_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_PrintGreenBill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PrintGreenBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_PrintGreenBill_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_GetPPrintedService_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPPrintedService" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_GetPPrintedService_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_GetPPrintedService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPPrintedServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_GetPPrintedService_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_GetAgentAllService_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgentAllService" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_GetAgentAllService_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_GetAgentAllService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgentAllServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_GetAgentAllService_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_SearchAgentPaymentNumber_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchAgentPaymentNumber" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_SearchAgentPaymentNumber_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_SearchAgentPaymentNumber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchAgentPaymentNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_SearchAgentPaymentNumber_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_SearchDebtClearify_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchDebtClearify" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_SearchDebtClearify_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_SearchDebtClearify_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchDebtClearifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_SearchDebtClearify_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_GetCADepositPPrinted_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCADepositPPrinted" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_GetCADepositPPrinted_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_GetCADepositPPrinted_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCADepositPPrintedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_GetCADepositPPrinted_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_GetAgentDepositPPrinted_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgentDepositPPrinted" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_GetAgentDepositPPrinted_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_GetAgentDepositPPrinted_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgentDepositPPrintedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReceiptPrintingWCFService_GetAgentDepositPPrinted_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="IReceiptPrintingWCFService">
+    <wsdl:operation name="PrintGreenBill">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/PrintGreenBill" message="tns:IReceiptPrintingWCFService_PrintGreenBill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/PrintGreenBillResponse" message="tns:IReceiptPrintingWCFService_PrintGreenBill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/PrintGreenBillBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReceiptPrintingWCFService_PrintGreenBill_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPPrintedService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/GetPPrintedService" message="tns:IReceiptPrintingWCFService_GetPPrintedService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/GetPPrintedServiceResponse" message="tns:IReceiptPrintingWCFService_GetPPrintedService_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/GetPPrintedServiceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReceiptPrintingWCFService_GetPPrintedService_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAgentAllService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/GetAgentAllService" message="tns:IReceiptPrintingWCFService_GetAgentAllService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/GetAgentAllServiceResponse" message="tns:IReceiptPrintingWCFService_GetAgentAllService_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/GetAgentAllServiceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReceiptPrintingWCFService_GetAgentAllService_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchAgentPaymentNumber">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/SearchAgentPaymentNumber" message="tns:IReceiptPrintingWCFService_SearchAgentPaymentNumber_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/SearchAgentPaymentNumberResponse" message="tns:IReceiptPrintingWCFService_SearchAgentPaymentNumber_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/SearchAgentPaymentNumberBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReceiptPrintingWCFService_SearchAgentPaymentNumber_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchDebtClearify">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/SearchDebtClearify" message="tns:IReceiptPrintingWCFService_SearchDebtClearify_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/SearchDebtClearifyResponse" message="tns:IReceiptPrintingWCFService_SearchDebtClearify_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/SearchDebtClearifyBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReceiptPrintingWCFService_SearchDebtClearify_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCADepositPPrinted">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/GetCADepositPPrinted" message="tns:IReceiptPrintingWCFService_GetCADepositPPrinted_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/GetCADepositPPrintedResponse" message="tns:IReceiptPrintingWCFService_GetCADepositPPrinted_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/GetCADepositPPrintedBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReceiptPrintingWCFService_GetCADepositPPrinted_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAgentDepositPPrinted">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/GetAgentDepositPPrinted" message="tns:IReceiptPrintingWCFService_GetAgentDepositPPrinted_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/GetAgentDepositPPrintedResponse" message="tns:IReceiptPrintingWCFService_GetAgentDepositPPrinted_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IReceiptPrintingWCFService/GetAgentDepositPPrintedBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IReceiptPrintingWCFService_GetAgentDepositPPrinted_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

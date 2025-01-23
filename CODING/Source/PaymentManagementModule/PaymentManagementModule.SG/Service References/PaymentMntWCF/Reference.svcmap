@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0a6a5934-f753-4835-827d-4da66d1a4c61" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/PaymentMnt/PaymentMntWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PaymentMntWCFService6.xsd" MetadataType="Schema" ID="26aa57c8-4ac6-4a95-8d4d-946399664729" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/PaymentMntWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="PaymentMntWCFService61.xsd" MetadataType="Schema" ID="cc4d4782-76be-4453-86f2-3a5d1b4bcab2" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/PaymentMntWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PaymentMntWCFService2.wsdl" MetadataType="Wsdl" ID="5d7ffa40-3a5d-44cb-8663-a5bf9658d8f7" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/PaymentMntWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="PaymentMntWCFService62.xsd" MetadataType="Schema" ID="5e3e2238-83e7-4cce-a0a3-5cb55809ce1f" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/PaymentMntWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PaymentMntWCFService1.disco" MetadataType="Disco" ID="6e742574-2d65-45b1-bf39-4256ee4d09a2" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/PaymentMntWCFService.svc?disco" />
+    <MetadataFile FileName="PaymentMntWCFService21.wsdl" MetadataType="Wsdl" ID="e9f175f1-df8a-471d-b342-9b80a742f39b" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/PaymentMntWCFService.svc?wsdl" />
+    <MetadataFile FileName="PaymentMntWCFService63.xsd" MetadataType="Schema" ID="ec2da762-7238-4feb-9a90-b3a61d8b8d86" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/PaymentMntWCFService.svc?xsd=xsd4" />
+    <MetadataFile FileName="PaymentMntWCFService64.xsd" MetadataType="Schema" ID="90d677c9-1f32-4ec0-9451-b5c136ee8795" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/PaymentMntWCFService.svc?xsd=xsd5" />
+    <MetadataFile FileName="PaymentMntWCFService65.xsd" MetadataType="Schema" ID="858213f0-c26d-4494-960f-a3c428b8797f" SourceId="1" SourceUrl="http://localhost/BPMService/PaymentMnt/PaymentMntWCFService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

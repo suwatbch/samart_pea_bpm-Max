@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="FeeBaseElement">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VatRate" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TaxRate" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="FineRatePerBill" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="HouseRegRate" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="HouseGrpRate" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CorpRegRate" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CorpGrpRate" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GovRegRate" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GovGrpRate" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MaxInvoicePercent" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="InvoiceRate" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="InvoicePastThreeMonthRate" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BillingNinetyPercent" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BillingNinetyNinePercent" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BillingHundredPercent" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="HasCommissionCalLimit" type="xs:boolean" />
+      <xs:element minOccurs="0" name="PenaltyWaive" type="xs:boolean" />
+      <xs:element minOccurs="0" name="MaxCommissionCalCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="CollectedPercent" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CaCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="UpperRate" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="LowerRate" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FeeBaseElement" nillable="true" type="tns:FeeBaseElement" />
+</xs:schema>

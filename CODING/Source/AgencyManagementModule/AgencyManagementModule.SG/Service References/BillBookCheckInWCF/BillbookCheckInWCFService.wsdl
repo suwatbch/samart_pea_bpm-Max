@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/BillbookCheckInWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/BillbookCheckInWCFService.svc?xsd=xsd3" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/BillbookCheckInWCFService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/BillbookCheckInWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/BillbookCheckInWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/BillbookCheckInWCFService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookCheckInInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInInfo_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookCheckInInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInInfo_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInInfo_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookCheckInInfo_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInInfo_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInInfo_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookCheckInInfo_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetGroupInvoiceCheckInInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupInvoiceCheckInInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetGroupInvoiceCheckInInfo_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetGroupInvoiceCheckInInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupInvoiceCheckInInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetGroupInvoiceCheckInInfo_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetGroupInvoiceCheckInInfo_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupInvoiceCheckInInfo_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetGroupInvoiceCheckInInfo_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetGroupInvoiceCheckInInfo_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupInvoiceCheckInInfo_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetGroupInvoiceCheckInInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInCancel_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookCheckInCancel" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInCancel_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInCancel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookCheckInCancelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInCancel_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInCancel_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookCheckInCancel_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInCancel_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInCancel_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookCheckInCancel_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInCancel_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_CreateBillBookCheckIn_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateBillBookCheckIn" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_CreateBillBookCheckIn_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_CreateBillBookCheckIn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateBillBookCheckInResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_CreateBillBookCheckIn_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_CancelBillBookCheckIn_InputMessage">
+    <wsdl:part name="parameters" element="tns:CancelBillBookCheckIn" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_CancelBillBookCheckIn_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_CancelBillBookCheckIn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelBillBookCheckInResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_CancelBillBookCheckIn_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q8:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookCheckInHistory" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInHistory_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookCheckInHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInHistory_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q9:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInHistory_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookCheckInHistory_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInHistory_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInHistory_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillBookCheckInHistory_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBillBookCheckInHistory_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q10:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetGroupInvoiceCheckInHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupInvoiceCheckInHistory" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetGroupInvoiceCheckInHistory_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetGroupInvoiceCheckInHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupInvoiceCheckInHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetGroupInvoiceCheckInHistory_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q11:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetGroupInvoiceCheckInHistory_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupInvoiceCheckInHistory_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetGroupInvoiceCheckInHistory_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetGroupInvoiceCheckInHistory_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupInvoiceCheckInHistory_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetGroupInvoiceCheckInHistory_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q12:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetChequeList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetChequeList" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetChequeList_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetChequeList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetChequeListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetChequeList_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q13="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q13:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetChequeList_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetChequeList_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetChequeList_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetChequeList_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetChequeList_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetChequeList_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q14:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetAdvPaidFromPOS_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdvPaidFromPOS" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetAdvPaidFromPOS_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetAdvPaidFromPOS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdvPaidFromPOSResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetAdvPaidFromPOS_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q15="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q15:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBookCheckInHistory_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBookCheckInHistory_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBookCheckInHistory_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBookCheckInHistory_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBookCheckInHistory_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_GetBookCheckInHistory_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q16="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q16:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_BillBookSaveState_InputMessage">
+    <wsdl:part name="parameters" element="tns:BillBookSaveState" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_BillBookSaveState_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_BillBookSaveState_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BillBookSaveStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBillbookCheckInWCFService_BillBookSaveState_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q17="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q17:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="IBillbookCheckInWCFService">
+    <wsdl:operation name="GetBillBookCheckInInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInInfo" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInInfoResponse" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInInfo_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInInfoBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInInfo_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillBookCheckInInfo_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInInfo_Compress" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInInfo_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInInfo_CompressResponse" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInInfo_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInInfo_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupInvoiceCheckInInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetGroupInvoiceCheckInInfo" message="tns:IBillbookCheckInWCFService_GetGroupInvoiceCheckInInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetGroupInvoiceCheckInInfoResponse" message="tns:IBillbookCheckInWCFService_GetGroupInvoiceCheckInInfo_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetGroupInvoiceCheckInInfoBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillbookCheckInWCFService_GetGroupInvoiceCheckInInfo_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupInvoiceCheckInInfo_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetGroupInvoiceCheckInInfo_Compress" message="tns:IBillbookCheckInWCFService_GetGroupInvoiceCheckInInfo_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetGroupInvoiceCheckInInfo_CompressResponse" message="tns:IBillbookCheckInWCFService_GetGroupInvoiceCheckInInfo_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetGroupInvoiceCheckInInfo_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillbookCheckInWCFService_GetGroupInvoiceCheckInInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillBookCheckInCancel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInCancel" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInCancel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInCancelResponse" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInCancel_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInCancelBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInCancel_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillBookCheckInCancel_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInCancel_Compress" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInCancel_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInCancel_CompressResponse" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInCancel_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInCancel_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInCancel_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateBillBookCheckIn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/CreateBillBookCheckIn" message="tns:IBillbookCheckInWCFService_CreateBillBookCheckIn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/CreateBillBookCheckInResponse" message="tns:IBillbookCheckInWCFService_CreateBillBookCheckIn_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/CreateBillBookCheckInBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillbookCheckInWCFService_CreateBillBookCheckIn_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelBillBookCheckIn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/CancelBillBookCheckIn" message="tns:IBillbookCheckInWCFService_CancelBillBookCheckIn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/CancelBillBookCheckInResponse" message="tns:IBillbookCheckInWCFService_CancelBillBookCheckIn_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/CancelBillBookCheckInBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillbookCheckInWCFService_CancelBillBookCheckIn_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillBookCheckInHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInHistory" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInHistoryResponse" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInHistory_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInHistoryBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInHistory_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillBookCheckInHistory_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInHistory_Compress" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInHistory_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInHistory_CompressResponse" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInHistory_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBillBookCheckInHistory_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillbookCheckInWCFService_GetBillBookCheckInHistory_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupInvoiceCheckInHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetGroupInvoiceCheckInHistory" message="tns:IBillbookCheckInWCFService_GetGroupInvoiceCheckInHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetGroupInvoiceCheckInHistoryResponse" message="tns:IBillbookCheckInWCFService_GetGroupInvoiceCheckInHistory_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetGroupInvoiceCheckInHistoryBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillbookCheckInWCFService_GetGroupInvoiceCheckInHistory_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupInvoiceCheckInHistory_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetGroupInvoiceCheckInHistory_Compress" message="tns:IBillbookCheckInWCFService_GetGroupInvoiceCheckInHistory_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetGroupInvoiceCheckInHistory_CompressResponse" message="tns:IBillbookCheckInWCFService_GetGroupInvoiceCheckInHistory_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetGroupInvoiceCheckInHistory_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillbookCheckInWCFService_GetGroupInvoiceCheckInHistory_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetChequeList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetChequeList" message="tns:IBillbookCheckInWCFService_GetChequeList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetChequeListResponse" message="tns:IBillbookCheckInWCFService_GetChequeList_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetChequeListBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillbookCheckInWCFService_GetChequeList_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetChequeList_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetChequeList_Compress" message="tns:IBillbookCheckInWCFService_GetChequeList_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetChequeList_CompressResponse" message="tns:IBillbookCheckInWCFService_GetChequeList_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetChequeList_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillbookCheckInWCFService_GetChequeList_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdvPaidFromPOS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetAdvPaidFromPOS" message="tns:IBillbookCheckInWCFService_GetAdvPaidFromPOS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetAdvPaidFromPOSResponse" message="tns:IBillbookCheckInWCFService_GetAdvPaidFromPOS_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetAdvPaidFromPOSBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillbookCheckInWCFService_GetAdvPaidFromPOS_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBookCheckInHistory_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBookCheckInHistory_Compress" message="tns:IBillbookCheckInWCFService_GetBookCheckInHistory_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBookCheckInHistory_CompressResponse" message="tns:IBillbookCheckInWCFService_GetBookCheckInHistory_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/GetBookCheckInHistory_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillbookCheckInWCFService_GetBookCheckInHistory_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BillBookSaveState">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/BillBookSaveState" message="tns:IBillbookCheckInWCFService_BillBookSaveState_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/BillBookSaveStateResponse" message="tns:IBillbookCheckInWCFService_BillBookSaveState_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IBillbookCheckInWCFService/BillBookSaveStateBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IBillbookCheckInWCFService_BillBookSaveState_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

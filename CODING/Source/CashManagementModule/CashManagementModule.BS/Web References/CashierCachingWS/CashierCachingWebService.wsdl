@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="CacheOpenWork">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="workid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cashierid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CacheOpenWorkResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CacheOpenWorkResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CacheCloseWork">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="workid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cashierid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CacheCloseWorkResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CacheCloseWorkResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsOpenedWork">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="param" type="tns:OpenWorkParam" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="OpenWorkParam">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CashierId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BranchId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PosId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FlowId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FlowType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ModifiedBy" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Input" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PostedBranchId" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsSystemInit" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="PaymentDt" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="IsOpenedWorkResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IsOpenedWorkResult" type="tns:ArrayOfCashierWorkStatusInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfCashierWorkStatusInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CashierWorkStatusInfo" nillable="true" type="tns:CashierWorkStatusInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CashierWorkStatusInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="WorkId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CashierId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PosId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="OpenWorkDt" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="CloseWorkDt" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="BranchId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SyncFlag" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ModifiedDt" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="ModifiedBy" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Active" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DayCount" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsStartOpenBalance" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="TestIsOpenedWork">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BranchId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CashierId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PosId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestIsOpenedWorkResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestIsOpenedWorkResult" type="tns:CashierWorkStatusInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CacheOpenWorkSoapIn">
+    <wsdl:part name="parameters" element="tns:CacheOpenWork" />
+  </wsdl:message>
+  <wsdl:message name="CacheOpenWorkSoapOut">
+    <wsdl:part name="parameters" element="tns:CacheOpenWorkResponse" />
+  </wsdl:message>
+  <wsdl:message name="CacheCloseWorkSoapIn">
+    <wsdl:part name="parameters" element="tns:CacheCloseWork" />
+  </wsdl:message>
+  <wsdl:message name="CacheCloseWorkSoapOut">
+    <wsdl:part name="parameters" element="tns:CacheCloseWorkResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsOpenedWorkSoapIn">
+    <wsdl:part name="parameters" element="tns:IsOpenedWork" />
+  </wsdl:message>
+  <wsdl:message name="IsOpenedWorkSoapOut">
+    <wsdl:part name="parameters" element="tns:IsOpenedWorkResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestIsOpenedWorkSoapIn">
+    <wsdl:part name="parameters" element="tns:TestIsOpenedWork" />
+  </wsdl:message>
+  <wsdl:message name="TestIsOpenedWorkSoapOut">
+    <wsdl:part name="parameters" element="tns:TestIsOpenedWorkResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CashierCachingWebServiceSoap">
+    <wsdl:operation name="CacheOpenWork">
+      <wsdl:input message="tns:CacheOpenWorkSoapIn" />
+      <wsdl:output message="tns:CacheOpenWorkSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CacheCloseWork">
+      <wsdl:input message="tns:CacheCloseWorkSoapIn" />
+      <wsdl:output message="tns:CacheCloseWorkSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsOpenedWork">
+      <wsdl:input message="tns:IsOpenedWorkSoapIn" />
+      <wsdl:output message="tns:IsOpenedWorkSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestIsOpenedWork">
+      <wsdl:input message="tns:TestIsOpenedWorkSoapIn" />
+      <wsdl:output message="tns:TestIsOpenedWorkSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CashierCachingWebServiceSoap" type="tns:CashierCachingWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CacheOpenWork">
+      <soap:operation soapAction="http://tempuri.org/CacheOpenWork" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CacheCloseWork">
+      <soap:operation soapAction="http://tempuri.org/CacheCloseWork" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsOpenedWork">
+      <soap:operation soapAction="http://tempuri.org/IsOpenedWork" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestIsOpenedWork">
+      <soap:operation soapAction="http://tempuri.org/TestIsOpenedWork" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CashierCachingWebServiceSoap12" type="tns:CashierCachingWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CacheOpenWork">
+      <soap12:operation soapAction="http://tempuri.org/CacheOpenWork" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CacheCloseWork">
+      <soap12:operation soapAction="http://tempuri.org/CacheCloseWork" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsOpenedWork">
+      <soap12:operation soapAction="http://tempuri.org/IsOpenedWork" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestIsOpenedWork">
+      <soap12:operation soapAction="http://tempuri.org/TestIsOpenedWork" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CashierCachingWebService">
+    <wsdl:port name="CashierCachingWebServiceSoap" binding="tns:CashierCachingWebServiceSoap">
+      <soap:address location="http://localhost/BPMSecurityService/CashierCachingWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CashierCachingWebServiceSoap12" binding="tns:CashierCachingWebServiceSoap12">
+      <soap12:address location="http://localhost/BPMSecurityService/CashierCachingWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

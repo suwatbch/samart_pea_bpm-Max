@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c949301a-7c35-4f4b-8ab6-36887c0b4dbe" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/ARCH/ErrorHandlingWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ErrorHandlingWCFService5.xsd" MetadataType="Schema" ID="d1497828-32fe-4c31-a634-628d2c7bd7b1" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/ErrorHandlingWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ErrorHandlingWCFService2.wsdl" MetadataType="Wsdl" ID="2afac17f-dfb3-4738-8796-13b18d46e29c" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/ErrorHandlingWCFService.svc?wsdl" />
+    <MetadataFile FileName="ErrorHandlingWCFService51.xsd" MetadataType="Schema" ID="485ad593-809b-48f8-9a04-d2957f8e460c" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/ErrorHandlingWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ErrorHandlingWCFService21.wsdl" MetadataType="Wsdl" ID="0fa66d7d-c65e-4155-b0a8-d751813fb955" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/ErrorHandlingWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="ErrorHandlingWCFService1.disco" MetadataType="Disco" ID="6c86f8bc-8b38-4610-8e7b-5ecb30237c2f" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/ErrorHandlingWCFService.svc?disco" />
+    <MetadataFile FileName="ErrorHandlingWCFService52.xsd" MetadataType="Schema" ID="5dd903dd-5d27-4a7f-bb05-57a673c3d6ad" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/ErrorHandlingWCFService.svc?xsd=xsd4" />
+    <MetadataFile FileName="ErrorHandlingWCFService53.xsd" MetadataType="Schema" ID="75ff1708-2747-4818-b671-68a2855dd358" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/ErrorHandlingWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ErrorHandlingWCFService54.xsd" MetadataType="Schema" ID="92fa244c-9149-44aa-9296-7bce1c4f26f1" SourceId="1" SourceUrl="http://localhost/BPMService/ARCH/ErrorHandlingWCFService.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,83 @@
+<?xml version="1.0"?>		
+<BCPFORMAT xmlns="http://schemas.microsoft.com/sqlserver/2004/bulkload/format" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">		
+	<RECORD>
+		<FIELD ID="1" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="22" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="2" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="12" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="3" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="9" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="4" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="50" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="5" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="22" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="6" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="23" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="7" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="35" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="8" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="6" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="9" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="22" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="10" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="10" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="11" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="23" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="12" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="22" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="13" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="22" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="14" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="30" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="15" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="22" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="16" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="22" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="17" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="22" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="18" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="22" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="19" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="22" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="20" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="3" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="21" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="2" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="22" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="22" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="23" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="22" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="24" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="23" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="25" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="23" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="26" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="1" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="27" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="2" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="28" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="22" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="29" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="50" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="30" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="12" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="31" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="12" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="32" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="12" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="33" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="22" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="34" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="1" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="35" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="1" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="36" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="23" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="37" xsi:type="CharTerm" TERMINATOR="|" MAX_LENGTH="1" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+		<FIELD ID="38" xsi:type="CharTerm" TERMINATOR="\n" MAX_LENGTH="2" COLLATION="SQL_Latin1_General_CP1_CI_AS"/>
+	</RECORD>
+	<ROW>
+		<COLUMN SOURCE="1" NAME="ItemId" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="2" NAME="CaId" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="3" NAME="DtId" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="4" NAME="Description" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="5" NAME="InvoiceNo" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="6" NAME="InvoiceDt" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="7" NAME="GroupInvoiceNo" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="8" NAME="Period" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="9" NAME="MeterId" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="10" NAME="RateTypeId" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="11" NAME="MeterReadDt" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="12" NAME="ReadUnit" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="13" NAME="LastUnit" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="14" NAME="BaseAmount" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="15" NAME="FTUnitPrice" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="16" NAME="FTAmount" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="17" NAME="UnitPrice" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="18" NAME="Qty" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="19" NAME="Amount" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="20" NAME="UnitTypeId" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="21" NAME="TaxCode" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="22" NAME="VatAmount" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="23" NAME="GAmount" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="24" NAME="DueDt" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="25" NAME="DueDt2" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="26" NAME="InterestLockFlag" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="27" NAME="InterestKey" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="28" NAME="DisconnectDt" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="29" NAME="DisconnectDoc" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="30" NAME="SubstDocNo" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="31" NAME="InstallmentPeriod" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="32" NAME="InstallmentTotalPeriod" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="33" NAME="SpotBillInvoiceNo" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="34" NAME="CancelFlag" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="35" NAME="PaymentOrderFlag" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="36" NAME="PaymentOrderDt" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="37" NAME="ModifiedFlag" xsi:type="SQLVARYCHAR"/>
+		<COLUMN SOURCE="38" NAME="Action" xsi:type="SQLVARYCHAR"/>
+	</ROW>
+</BCPFORMAT>		

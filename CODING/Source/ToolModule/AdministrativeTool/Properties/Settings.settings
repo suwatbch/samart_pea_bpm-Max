@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AdministrativeTool.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AdministrativeTool_ConnectionSettingWS_ConnectionSettingWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://cbsbpm00.cbsproj.pea.co.th/AdminToolService/ConnectionSetting/ConnectionSettingWebService.asmx</Value>
+    </Setting>
+    <Setting Name="AdministrativeTool_ConsolidateWS_ConsolidateWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://cbsbpm00.cbsproj.pea.co.th/AdminToolService/Consolidate/ConsolidateWebService.asmx</Value>
+    </Setting>
+    <Setting Name="AdministrativeTool_UnclarifyPaymentWS_UnclarifyPaymentService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://cbsbpm00.cbsproj.pea.co.th/AdminToolService/UnclarifyPayment/UnclarifyPaymentService.asmx</Value>
+    </Setting>
+    <Setting Name="AdministrativeTool_CloseAccountStatusWS_CloseAccountStatusWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/AdminToolService/CloseAccountStatus/CloseAccountStatusWebService.asmx</Value>
+    </Setting>
+    <Setting Name="AdministrativeTool_OfflineErrorLogWS_OfflineErrorLogWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://cbsbpm00.cbsproj.pea.co.th/AdminToolService/OfflineErrorLog/OfflineErrorLogWebService.asmx</Value>
+    </Setting>
+    <Setting Name="AdministrativeTool_OutOfShiftWS_OutOfShiftWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/AdminToolService/OutOfShift/OutOfShiftWebService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,20 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Infrastructure.Module\bin\Release\Infrastructure.Module.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Infrastructure.Module\bin\Release\Infrastructure.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Infrastructure.Module\bin\Release\Microsoft.Practices.CompositeUI.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Infrastructure.Module\bin\Release\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Infrastructure.Module\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Infrastructure.Module\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Infrastructure.Module\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Infrastructure.Module\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Infrastructure.Module\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Infrastructure.Module\obj\Release\Infrastructure.Module.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Infrastructure.Module\bin\Release\Infrastructure.Module.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Infrastructure.Module\bin\Release\Infrastructure.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Infrastructure.Module\bin\Release\Microsoft.Practices.CompositeUI.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Infrastructure.Module\bin\Release\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Infrastructure.Module\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Infrastructure.Module\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Infrastructure.Module\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Infrastructure.Module\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Infrastructure.Module\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Infrastructure.Module\obj\Release\Infrastructure.Module.dll

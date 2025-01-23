@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PEA.BPM.BillPrintingModule.Interface.BusinessEntities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PEA.BPM.BillPrintingModule.Interface.BusinessEntities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfDeliveryPlace">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DeliveryPlace" nillable="true" type="tns:DeliveryPlace" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDeliveryPlace" nillable="true" type="tns:ArrayOfDeliveryPlace" />
+  <xs:complexType name="DeliveryPlace">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DeliveryBranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CreateBranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PlaceName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IdPrefix" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DeliveryPlace" nillable="true" type="tns:DeliveryPlace" />
+  <xs:complexType name="ArrayOfPortion">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Portion" nillable="true" type="tns:Portion" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPortion" nillable="true" type="tns:ArrayOfPortion" />
+  <xs:complexType name="Portion">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PortionKey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PortionNo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Portion" nillable="true" type="tns:Portion" />
+  <xs:complexType name="ArrayOfAuthorizedPerson">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AuthorizedPerson" nillable="true" type="tns:AuthorizedPerson" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAuthorizedPerson" nillable="true" type="tns:ArrayOfAuthorizedPerson" />
+  <xs:complexType name="AuthorizedPerson">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Position" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApproverName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApproverId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IdPrefix" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CreateBranchId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AuthorizedPerson" nillable="true" type="tns:AuthorizedPerson" />
+  <xs:complexType name="ArrayOfInvoice">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Invoice" nillable="true" type="tns:Invoice" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfInvoice" nillable="true" type="tns:ArrayOfInvoice" />
+  <xs:complexType name="Invoice">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="InvoiceNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiptNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintLog" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="PrintDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="BpmPrintDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_01_print_doc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_40_sname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_130_period" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_150_cont_acct" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_1510_total_amnt_txt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_1830_payment_method" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_1860_trsg" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_1861_crsg" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_1971_print_time" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PrintDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_800_mr_kw_12_2_txt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_790_mr_kw_12_1_txt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_190_multi_n" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_171_ettat_code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_160_device" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_180_voltage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_200_mr_date" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_1960_acct_class" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_1980_spotbill" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_1990_addition" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_2000_dispctrl" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_2010_noprnt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReverseCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="W_1910_org_doc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Active" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="W_10_doc_date" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Invoice" nillable="true" type="tns:Invoice" />
+  <xs:complexType name="ManageBarcodeParam">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ToMruId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ManageBarcodeParam" nillable="true" type="tns:ManageBarcodeParam" />
+  <xs:complexType name="ArrayOfBarcodeMRU">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BarcodeMRU" nillable="true" type="tns:BarcodeMRU" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBarcodeMRU" nillable="true" type="tns:ArrayOfBarcodeMRU" />
+  <xs:complexType name="BarcodeMRU">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BillPred" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsPrinted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="List" nillable="true" type="tns:ArrayOfBarcodeMRU" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BarcodeMRU" nillable="true" type="tns:BarcodeMRU" />
+</xs:schema>

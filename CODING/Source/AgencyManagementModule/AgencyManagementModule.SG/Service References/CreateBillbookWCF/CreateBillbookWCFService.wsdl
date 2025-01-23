@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/CreateBillbookWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/CreateBillbookWCFService.svc?xsd=xsd3" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/CreateBillbookWCFService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/CreateBillbookWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/CreateBillbookWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/CreateBillbookWCFService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/CreateBillbookWCFService.svc?xsd=xsd6" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost/BPMService/AGENCY/CreateBillbookWCFService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.Constants" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookSummary_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetreiveBookSummary_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookSummary_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookSummary_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetreiveBookSummary_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookSummary_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_EmployeeSearchInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:EmployeeSearchInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_EmployeeSearchInfo_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_EmployeeSearchInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EmployeeSearchInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_EmployeeSearchInfo_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_EmployeeSearchInfo_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:EmployeeSearchInfo_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_EmployeeSearchInfo_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_EmployeeSearchInfo_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EmployeeSearchInfo_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_EmployeeSearchInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBookItemValidationData_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadBookItemValidationData" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBookItemValidationData_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBookItemValidationData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadBookItemValidationDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBookItemValidationData_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBookItemValidationData_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadBookItemValidationData_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBookItemValidationData_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBookItemValidationData_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadBookItemValidationData_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBookItemValidationData_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsReadyToCancelBillBook_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsReadyToCancelBillBook" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsReadyToCancelBillBook_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsReadyToCancelBillBook_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsReadyToCancelBillBookResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsReadyToCancelBillBook_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetNewBillBookId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewBillBookId" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetNewBillBookId_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetNewBillBookId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewBillBookIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetNewBillBookId_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_BookSearchAgenctInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:BookSearchAgenctInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_BookSearchAgenctInfo_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_BookSearchAgenctInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BookSearchAgenctInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_BookSearchAgenctInfo_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q8:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_BookSearchAgenctInfo_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:BookSearchAgenctInfo_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_BookSearchAgenctInfo_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_BookSearchAgenctInfo_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BookSearchAgenctInfo_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_BookSearchAgenctInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q9:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookSummarizeCallingBill_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookSummarizeCallingBill" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookSummarizeCallingBill_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookSummarizeCallingBill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookSummarizeCallingBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookSummarizeCallingBill_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q10:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookSummarizeCallingBill_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookSummarizeCallingBill_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookSummarizeCallingBill_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookSummarizeCallingBill_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookSummarizeCallingBill_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookSummarizeCallingBill_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q11:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookCallingBill_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookCallingBill" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookCallingBill_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookCallingBill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookCallingBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookCallingBill_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q12:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookCallingBill_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookCallingBill_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookCallingBill_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookCallingBill_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookCallingBill_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookCallingBill_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q13="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q13:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookNoneCallingBill_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookNoneCallingBill" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookNoneCallingBill_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookNoneCallingBill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookNoneCallingBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookNoneCallingBill_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q14:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookNoneCallingBill_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookNoneCallingBill_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookNoneCallingBill_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookNoneCallingBill_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookNoneCallingBill_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookNoneCallingBill_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q15="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q15:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookLineBill_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookLineBill" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookLineBill_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookLineBill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookLineBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookLineBill_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q16="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q16:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookLineBill_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookLineBill_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookLineBill_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookLineBill_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookLineBill_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookLineBill_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q17="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q17:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookLineNoBill_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookLineNoBill" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookLineNoBill_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookLineNoBill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookLineNoBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookLineNoBill_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q18="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q18:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookLineNoBill_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookLineNoBill_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookLineNoBill_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookLineNoBill_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBillBookLineNoBill_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_DisplayBillBookLineNoBill_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q19="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q19:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_CreateBillBookAndSendPrintEvent_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateBillBookAndSendPrintEvent" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_CreateBillBookAndSendPrintEvent_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_CreateBillBookAndSendPrintEvent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateBillBookAndSendPrintEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_CreateBillBookAndSendPrintEvent_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q20="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q20:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_CreateBillBookAndSendPrintEvent_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateBillBookAndSendPrintEvent_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_CreateBillBookAndSendPrintEvent_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_CreateBillBookAndSendPrintEvent_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateBillBookAndSendPrintEvent_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_CreateBillBookAndSendPrintEvent_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q21="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q21:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadPastBillBookInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadPastBillBookInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadPastBillBookInfo_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadPastBillBookInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadPastBillBookInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadPastBillBookInfo_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q22="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q22:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadPastBillBookInfo_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadPastBillBookInfo_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadPastBillBookInfo_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadPastBillBookInfo_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadPastBillBookInfo_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadPastBillBookInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q23="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q23:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_CheckExistingReceiveCount_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistingReceiveCount" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_CheckExistingReceiveCount_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_CheckExistingReceiveCount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistingReceiveCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_CheckExistingReceiveCount_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q24="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q24:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsBillBookAlreadyCheckedIn_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsBillBookAlreadyCheckedIn" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsBillBookAlreadyCheckedIn_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsBillBookAlreadyCheckedIn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsBillBookAlreadyCheckedInResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsBillBookAlreadyCheckedIn_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q25="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q25:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetAgencyBookDepositInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgencyBookDepositInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetAgencyBookDepositInfo_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetAgencyBookDepositInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgencyBookDepositInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetAgencyBookDepositInfo_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q26="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q26:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetAgencyBookDepositInfo_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgencyBookDepositInfo_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetAgencyBookDepositInfo_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetAgencyBookDepositInfo_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgencyBookDepositInfo_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetAgencyBookDepositInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q27="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q27:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetMruByCaId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMruByCaId" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetMruByCaId_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetMruByCaId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMruByCaIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetMruByCaId_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q28="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q28:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetAgentBACode_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgentBACode" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetAgentBACode_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetAgentBACode_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgentBACodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetAgentBACode_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q29="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q29:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBillBookList_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadBillBookList" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBillBookList_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBillBookList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadBillBookListResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBillBookList_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q30="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q30:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBillBookList_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadBillBookList_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBillBookList_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBillBookList_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadBillBookList_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBillBookList_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q31="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q31:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBillBookByIdKeyword_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadBillBookByIdKeyword" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBillBookByIdKeyword_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBillBookByIdKeyword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadBillBookByIdKeywordResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBillBookByIdKeyword_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q32="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q32:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBillBookByIdKeyword_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadBillBookByIdKeyword_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBillBookByIdKeyword_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBillBookByIdKeyword_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadBillBookByIdKeyword_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_LoadBillBookByIdKeyword_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q33="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q33:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsOverLimitAgentDeposit_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsOverLimitAgentDeposit" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsOverLimitAgentDeposit_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsOverLimitAgentDeposit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsOverLimitAgentDepositResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsOverLimitAgentDeposit_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q34="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q34:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsOverLimitAgentDeposit_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsOverLimitAgentDeposit_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsOverLimitAgentDeposit_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsOverLimitAgentDeposit_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsOverLimitAgentDeposit_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsOverLimitAgentDeposit_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q35="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q35:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_CancelBillBook_InputMessage">
+    <wsdl:part name="parameters" element="tns:CancelBillBook" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_CancelBillBook_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_CancelBillBook_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelBillBookResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_CancelBillBook_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q36="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q36:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetUsedDeposit_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsedDeposit" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetUsedDeposit_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetUsedDeposit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsedDepositResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_GetUsedDeposit_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q37="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q37:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsAlreadyAdvPaid_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsAlreadyAdvPaid" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsAlreadyAdvPaid_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsAlreadyAdvPaid_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsAlreadyAdvPaidResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_IsAlreadyAdvPaid_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q38="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q38:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookDetail_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetreiveBookDetail" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookDetail_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookDetail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetreiveBookDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookDetail_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q39="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q39:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookDetail_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetreiveBookDetail_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookDetail_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookDetail_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetreiveBookDetail_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookDetail_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q40="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q40:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookLineDetail_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetreiveBookLineDetail" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookLineDetail_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookLineDetail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetreiveBookLineDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookLineDetail_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q41="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q41:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookLineDetail_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetreiveBookLineDetail_Compress" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookLineDetail_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookLineDetail_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetreiveBookLineDetail_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookLineDetail_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q42="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q42:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookSummary_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetreiveBookSummary" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookSummary_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookSummary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetreiveBookSummaryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreateBillbookWCFService_RetreiveBookSummary_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q43="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q43:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="ICreateBillbookWCFService">
+    <wsdl:operation name="RetreiveBookSummary_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookSummary_Compress" message="tns:ICreateBillbookWCFService_RetreiveBookSummary_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookSummary_CompressResponse" message="tns:ICreateBillbookWCFService_RetreiveBookSummary_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookSummary_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_RetreiveBookSummary_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EmployeeSearchInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/EmployeeSearchInfo" message="tns:ICreateBillbookWCFService_EmployeeSearchInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/EmployeeSearchInfoResponse" message="tns:ICreateBillbookWCFService_EmployeeSearchInfo_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/EmployeeSearchInfoBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_EmployeeSearchInfo_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EmployeeSearchInfo_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/EmployeeSearchInfo_Compress" message="tns:ICreateBillbookWCFService_EmployeeSearchInfo_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/EmployeeSearchInfo_CompressResponse" message="tns:ICreateBillbookWCFService_EmployeeSearchInfo_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/EmployeeSearchInfo_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_EmployeeSearchInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadBookItemValidationData">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBookItemValidationData" message="tns:ICreateBillbookWCFService_LoadBookItemValidationData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBookItemValidationDataResponse" message="tns:ICreateBillbookWCFService_LoadBookItemValidationData_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBookItemValidationDataBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_LoadBookItemValidationData_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadBookItemValidationData_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBookItemValidationData_Compress" message="tns:ICreateBillbookWCFService_LoadBookItemValidationData_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBookItemValidationData_CompressResponse" message="tns:ICreateBillbookWCFService_LoadBookItemValidationData_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBookItemValidationData_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_LoadBookItemValidationData_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsReadyToCancelBillBook">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/IsReadyToCancelBillBook" message="tns:ICreateBillbookWCFService_IsReadyToCancelBillBook_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/IsReadyToCancelBillBookResponse" message="tns:ICreateBillbookWCFService_IsReadyToCancelBillBook_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/IsReadyToCancelBillBookBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_IsReadyToCancelBillBook_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewBillBookId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetNewBillBookId" message="tns:ICreateBillbookWCFService_GetNewBillBookId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetNewBillBookIdResponse" message="tns:ICreateBillbookWCFService_GetNewBillBookId_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetNewBillBookIdBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_GetNewBillBookId_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BookSearchAgenctInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/BookSearchAgenctInfo" message="tns:ICreateBillbookWCFService_BookSearchAgenctInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/BookSearchAgenctInfoResponse" message="tns:ICreateBillbookWCFService_BookSearchAgenctInfo_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/BookSearchAgenctInfoBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_BookSearchAgenctInfo_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BookSearchAgenctInfo_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/BookSearchAgenctInfo_Compress" message="tns:ICreateBillbookWCFService_BookSearchAgenctInfo_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/BookSearchAgenctInfo_CompressResponse" message="tns:ICreateBillbookWCFService_BookSearchAgenctInfo_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/BookSearchAgenctInfo_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_BookSearchAgenctInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayBillBookSummarizeCallingBill">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookSummarizeCallingBill" message="tns:ICreateBillbookWCFService_DisplayBillBookSummarizeCallingBill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookSummarizeCallingBillResponse" message="tns:ICreateBillbookWCFService_DisplayBillBookSummarizeCallingBill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookSummarizeCallingBillBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_DisplayBillBookSummarizeCallingBill_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayBillBookSummarizeCallingBill_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookSummarizeCallingBill_Compress" message="tns:ICreateBillbookWCFService_DisplayBillBookSummarizeCallingBill_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookSummarizeCallingBill_CompressResponse" message="tns:ICreateBillbookWCFService_DisplayBillBookSummarizeCallingBill_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookSummarizeCallingBill_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_DisplayBillBookSummarizeCallingBill_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayBillBookCallingBill">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookCallingBill" message="tns:ICreateBillbookWCFService_DisplayBillBookCallingBill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookCallingBillResponse" message="tns:ICreateBillbookWCFService_DisplayBillBookCallingBill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookCallingBillBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_DisplayBillBookCallingBill_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayBillBookCallingBill_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookCallingBill_Compress" message="tns:ICreateBillbookWCFService_DisplayBillBookCallingBill_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookCallingBill_CompressResponse" message="tns:ICreateBillbookWCFService_DisplayBillBookCallingBill_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookCallingBill_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_DisplayBillBookCallingBill_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayBillBookNoneCallingBill">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookNoneCallingBill" message="tns:ICreateBillbookWCFService_DisplayBillBookNoneCallingBill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookNoneCallingBillResponse" message="tns:ICreateBillbookWCFService_DisplayBillBookNoneCallingBill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookNoneCallingBillBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_DisplayBillBookNoneCallingBill_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayBillBookNoneCallingBill_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookNoneCallingBill_Compress" message="tns:ICreateBillbookWCFService_DisplayBillBookNoneCallingBill_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookNoneCallingBill_CompressResponse" message="tns:ICreateBillbookWCFService_DisplayBillBookNoneCallingBill_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookNoneCallingBill_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_DisplayBillBookNoneCallingBill_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayBillBookLineBill">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookLineBill" message="tns:ICreateBillbookWCFService_DisplayBillBookLineBill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookLineBillResponse" message="tns:ICreateBillbookWCFService_DisplayBillBookLineBill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookLineBillBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_DisplayBillBookLineBill_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayBillBookLineBill_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookLineBill_Compress" message="tns:ICreateBillbookWCFService_DisplayBillBookLineBill_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookLineBill_CompressResponse" message="tns:ICreateBillbookWCFService_DisplayBillBookLineBill_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookLineBill_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_DisplayBillBookLineBill_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayBillBookLineNoBill">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookLineNoBill" message="tns:ICreateBillbookWCFService_DisplayBillBookLineNoBill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookLineNoBillResponse" message="tns:ICreateBillbookWCFService_DisplayBillBookLineNoBill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookLineNoBillBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_DisplayBillBookLineNoBill_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayBillBookLineNoBill_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookLineNoBill_Compress" message="tns:ICreateBillbookWCFService_DisplayBillBookLineNoBill_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookLineNoBill_CompressResponse" message="tns:ICreateBillbookWCFService_DisplayBillBookLineNoBill_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/DisplayBillBookLineNoBill_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_DisplayBillBookLineNoBill_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateBillBookAndSendPrintEvent">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/CreateBillBookAndSendPrintEvent" message="tns:ICreateBillbookWCFService_CreateBillBookAndSendPrintEvent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/CreateBillBookAndSendPrintEventResponse" message="tns:ICreateBillbookWCFService_CreateBillBookAndSendPrintEvent_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/CreateBillBookAndSendPrintEventBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_CreateBillBookAndSendPrintEvent_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateBillBookAndSendPrintEvent_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/CreateBillBookAndSendPrintEvent_Compress" message="tns:ICreateBillbookWCFService_CreateBillBookAndSendPrintEvent_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/CreateBillBookAndSendPrintEvent_CompressResponse" message="tns:ICreateBillbookWCFService_CreateBillBookAndSendPrintEvent_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/CreateBillBookAndSendPrintEvent_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_CreateBillBookAndSendPrintEvent_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadPastBillBookInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadPastBillBookInfo" message="tns:ICreateBillbookWCFService_LoadPastBillBookInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadPastBillBookInfoResponse" message="tns:ICreateBillbookWCFService_LoadPastBillBookInfo_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadPastBillBookInfoBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_LoadPastBillBookInfo_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadPastBillBookInfo_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadPastBillBookInfo_Compress" message="tns:ICreateBillbookWCFService_LoadPastBillBookInfo_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadPastBillBookInfo_CompressResponse" message="tns:ICreateBillbookWCFService_LoadPastBillBookInfo_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadPastBillBookInfo_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_LoadPastBillBookInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistingReceiveCount">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/CheckExistingReceiveCount" message="tns:ICreateBillbookWCFService_CheckExistingReceiveCount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/CheckExistingReceiveCountResponse" message="tns:ICreateBillbookWCFService_CheckExistingReceiveCount_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/CheckExistingReceiveCountBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_CheckExistingReceiveCount_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsBillBookAlreadyCheckedIn">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/IsBillBookAlreadyCheckedIn" message="tns:ICreateBillbookWCFService_IsBillBookAlreadyCheckedIn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/IsBillBookAlreadyCheckedInResponse" message="tns:ICreateBillbookWCFService_IsBillBookAlreadyCheckedIn_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/IsBillBookAlreadyCheckedInBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_IsBillBookAlreadyCheckedIn_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAgencyBookDepositInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetAgencyBookDepositInfo" message="tns:ICreateBillbookWCFService_GetAgencyBookDepositInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetAgencyBookDepositInfoResponse" message="tns:ICreateBillbookWCFService_GetAgencyBookDepositInfo_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetAgencyBookDepositInfoBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_GetAgencyBookDepositInfo_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAgencyBookDepositInfo_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetAgencyBookDepositInfo_Compress" message="tns:ICreateBillbookWCFService_GetAgencyBookDepositInfo_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetAgencyBookDepositInfo_CompressResponse" message="tns:ICreateBillbookWCFService_GetAgencyBookDepositInfo_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetAgencyBookDepositInfo_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_GetAgencyBookDepositInfo_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMruByCaId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetMruByCaId" message="tns:ICreateBillbookWCFService_GetMruByCaId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetMruByCaIdResponse" message="tns:ICreateBillbookWCFService_GetMruByCaId_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetMruByCaIdBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_GetMruByCaId_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAgentBACode">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetAgentBACode" message="tns:ICreateBillbookWCFService_GetAgentBACode_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetAgentBACodeResponse" message="tns:ICreateBillbookWCFService_GetAgentBACode_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetAgentBACodeBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_GetAgentBACode_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadBillBookList">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBillBookList" message="tns:ICreateBillbookWCFService_LoadBillBookList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBillBookListResponse" message="tns:ICreateBillbookWCFService_LoadBillBookList_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBillBookListBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_LoadBillBookList_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadBillBookList_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBillBookList_Compress" message="tns:ICreateBillbookWCFService_LoadBillBookList_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBillBookList_CompressResponse" message="tns:ICreateBillbookWCFService_LoadBillBookList_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBillBookList_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_LoadBillBookList_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadBillBookByIdKeyword">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBillBookByIdKeyword" message="tns:ICreateBillbookWCFService_LoadBillBookByIdKeyword_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBillBookByIdKeywordResponse" message="tns:ICreateBillbookWCFService_LoadBillBookByIdKeyword_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBillBookByIdKeywordBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_LoadBillBookByIdKeyword_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadBillBookByIdKeyword_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBillBookByIdKeyword_Compress" message="tns:ICreateBillbookWCFService_LoadBillBookByIdKeyword_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBillBookByIdKeyword_CompressResponse" message="tns:ICreateBillbookWCFService_LoadBillBookByIdKeyword_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/LoadBillBookByIdKeyword_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_LoadBillBookByIdKeyword_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsOverLimitAgentDeposit">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/IsOverLimitAgentDeposit" message="tns:ICreateBillbookWCFService_IsOverLimitAgentDeposit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/IsOverLimitAgentDepositResponse" message="tns:ICreateBillbookWCFService_IsOverLimitAgentDeposit_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/IsOverLimitAgentDepositBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_IsOverLimitAgentDeposit_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsOverLimitAgentDeposit_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/IsOverLimitAgentDeposit_Compress" message="tns:ICreateBillbookWCFService_IsOverLimitAgentDeposit_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/IsOverLimitAgentDeposit_CompressResponse" message="tns:ICreateBillbookWCFService_IsOverLimitAgentDeposit_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/IsOverLimitAgentDeposit_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_IsOverLimitAgentDeposit_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelBillBook">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/CancelBillBook" message="tns:ICreateBillbookWCFService_CancelBillBook_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/CancelBillBookResponse" message="tns:ICreateBillbookWCFService_CancelBillBook_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/CancelBillBookBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_CancelBillBook_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsedDeposit">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetUsedDeposit" message="tns:ICreateBillbookWCFService_GetUsedDeposit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetUsedDepositResponse" message="tns:ICreateBillbookWCFService_GetUsedDeposit_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/GetUsedDepositBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_GetUsedDeposit_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsAlreadyAdvPaid">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/IsAlreadyAdvPaid" message="tns:ICreateBillbookWCFService_IsAlreadyAdvPaid_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/IsAlreadyAdvPaidResponse" message="tns:ICreateBillbookWCFService_IsAlreadyAdvPaid_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/IsAlreadyAdvPaidBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_IsAlreadyAdvPaid_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetreiveBookDetail">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookDetail" message="tns:ICreateBillbookWCFService_RetreiveBookDetail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookDetailResponse" message="tns:ICreateBillbookWCFService_RetreiveBookDetail_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookDetailBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_RetreiveBookDetail_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetreiveBookDetail_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookDetail_Compress" message="tns:ICreateBillbookWCFService_RetreiveBookDetail_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookDetail_CompressResponse" message="tns:ICreateBillbookWCFService_RetreiveBookDetail_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookDetail_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_RetreiveBookDetail_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetreiveBookLineDetail">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookLineDetail" message="tns:ICreateBillbookWCFService_RetreiveBookLineDetail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookLineDetailResponse" message="tns:ICreateBillbookWCFService_RetreiveBookLineDetail_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookLineDetailBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_RetreiveBookLineDetail_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetreiveBookLineDetail_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookLineDetail_Compress" message="tns:ICreateBillbookWCFService_RetreiveBookLineDetail_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookLineDetail_CompressResponse" message="tns:ICreateBillbookWCFService_RetreiveBookLineDetail_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookLineDetail_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_RetreiveBookLineDetail_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetreiveBookSummary">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookSummary" message="tns:ICreateBillbookWCFService_RetreiveBookSummary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookSummaryResponse" message="tns:ICreateBillbookWCFService_RetreiveBookSummary_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICreateBillbookWCFService/RetreiveBookSummaryBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICreateBillbookWCFService_RetreiveBookSummary_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

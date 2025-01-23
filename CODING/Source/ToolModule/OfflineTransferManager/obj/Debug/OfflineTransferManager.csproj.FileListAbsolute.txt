@@ -1,0 +1,60 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\OfflineTransferManager.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\OfflineTransferManager.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.ExportingForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\Tool.OfflineTransferManager.Properties.Resources.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.csproj.GenerateResource.Cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\OfflineTransferManager.exe
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\OfflineTransferManager.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\ResolveAssemblyReference.cache
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.ExportingForm.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\Tool.OfflineTransferManager.Properties.Resources.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.csproj.GenerateResource.Cache
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.exe
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\OfflineTransferManager.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\OfflineTransferManager.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.ExportingForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\Tool.OfflineTransferManager.Properties.Resources.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.csproj.GenerateResource.Cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\OfflineTransferManager.exe
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\OfflineTransferManager.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.ExportingForm.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\Tool.OfflineTransferManager.Properties.Resources.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.csproj.GenerateResource.Cache
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.exe
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\OfflineTransferManager.exe
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\OfflineTransferManager.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\ResolveAssemblyReference.cache
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.ExportingForm.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\Tool.OfflineTransferManager.Properties.Resources.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.csproj.GenerateResource.Cache
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.exe
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\OfflineTransferManager.exe
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\OfflineTransferManager.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.ExportingForm.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\Tool.OfflineTransferManager.Properties.Resources.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.csproj.GenerateResource.Cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.exe
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\OfflineTransferManager\obj\Debug\OfflineTransferManager.pdb

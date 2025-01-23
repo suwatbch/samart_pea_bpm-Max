@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="BPMService.ePayment.ReceiptPrintingWCFService" CodeBehind="ReceiptPrintingWCFService.svc.cs" %>

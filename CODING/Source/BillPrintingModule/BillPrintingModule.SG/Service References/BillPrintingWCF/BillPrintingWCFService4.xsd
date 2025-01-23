@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PEA.BPM.BillPrintingModule.Interface.BusinessEntities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PEA.BPM.BillPrintingModule.Interface.BusinessEntities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/BPMService/BLAN/BillPrintingWCFService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="BillPrintingConditionParam">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CommBranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="A4Reprint" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="HasOrgDoc" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ApproverName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApproverPosition" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DueDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MtNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LotNo" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BankId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Comment" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ToMruId" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GroupMruId" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element minOccurs="0" name="IsReprintBill" type="xs:boolean" />
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GroupFromToElectricId" nillable="true" type="q2:ArrayOfstring" />
+      <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GroupFromToNumberId" nillable="true" type="q3:ArrayOfstring" />
+      <xs:element minOccurs="0" name="FromNumberId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ToNumberId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillType" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BillPeriod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillPrintingCondition" nillable="true" type="xs:int" />
+      <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GroupElectricId" nillable="true" type="q4:ArrayOfstring" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CommBranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApproverId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrinterChoice" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BillPrintingConditionParam" nillable="true" type="tns:BillPrintingConditionParam" />
+  <xs:complexType name="ArrayOfBills">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Bills" nillable="true" type="tns:Bills" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBills" nillable="true" type="tns:ArrayOfBills" />
+  <xs:complexType name="Bills">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BillId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillTxt" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Bills" nillable="true" type="tns:Bills" />
+  <xs:complexType name="ArrayOfPrintableId">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PrintableId" nillable="true" type="tns:PrintableId" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPrintableId" nillable="true" type="tns:ArrayOfPrintableId" />
+  <xs:complexType name="PrintableId">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="TxtId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DueDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LotNo" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BillCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="MtNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GrvInvFlag" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsZeroRecord" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FromNumberId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ToNumberId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintingStatus" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BillPeriodLog" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BillPeriod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PrintableId" nillable="true" type="tns:PrintableId" />
+  <xs:complexType name="GroupInvoiceParam">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BillType" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="FromCaId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ToCaId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CommBranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApproverName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApproverPosition" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MtNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PaidById" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ToMruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MruId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PaymentDueDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintingCondition" nillable="true" type="xs:int" />
+      <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Id" nillable="true" type="q5:ArrayOfstring" />
+      <xs:element minOccurs="0" name="ApproverId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GroupInvoiceParam" nillable="true" type="tns:GroupInvoiceParam" />
+  <xs:complexType name="GreenBillParam">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CommBranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillType" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BankDueDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillPred" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GreenBillParam" nillable="true" type="tns:GreenBillParam" />
+  <xs:complexType name="GreenBillReprintParam">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PrintCondition" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="CommBranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrintedBy" nillable="true" type="xs:string" />
+      <xs:element xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FromCaId" nillable="true" type="q6:ArrayOfstring" />
+      <xs:element xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ToCaId" nillable="true" type="q7:ArrayOfstring" />
+      <xs:element minOccurs="0" name="BillPeriod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DueDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BillType" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GreenBillReprintParam" nillable="true" type="tns:GreenBillReprintParam" />
+</xs:schema>

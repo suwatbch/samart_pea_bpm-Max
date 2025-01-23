@@ -1,0 +1,11 @@
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\TestCallApi\bin\Debug\TestCallApi.exe.config
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\TestCallApi\bin\Debug\TestCallApi.exe
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\TestCallApi\bin\Debug\TestCallApi.pdb
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\TestCallApi\bin\Debug\RestSharp.dll
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\TestCallApi\bin\Debug\RestSharp.xml
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\TestCallApi\obj\Debug\TestCallApi.csprojResolveAssemblyReference.cache
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\TestCallApi\obj\Debug\TestCallApi.exe
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\TestCallApi\obj\Debug\TestCallApi.pdb
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\TestCallApi\bin\Debug\Newtonsoft.Json.dll
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\TestCallApi\bin\Debug\BPMInternalServicePools.SG.dll
+D:\OneDrive\SAMART\PTNGitLabCBS2\Source\WCFService\BPMInternalServicePools\TestCallApi\bin\Debug\BPMInternalServicePools.SG.pdb

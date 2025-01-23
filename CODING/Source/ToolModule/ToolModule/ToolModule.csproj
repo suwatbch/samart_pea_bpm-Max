@@ -1,0 +1,541 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A975AD8F-D752-4915-93DD-CA043DF24EDA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PEA.BPM.ToolModule</RootNamespace>
+    <AssemblyName>ToolModule</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CashManagementModule, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CashManagementModule\CashManagementModule\obj\Debug\CashManagementModule.dll</HintPath>
+    </Reference>
+    <Reference Include="CashManagementModule.Interface, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CashManagementModule\CashManagementModule.Interface\bin\Debug\CashManagementModule.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.CompositeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI.WinForms, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51206.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AzManController.cs" />
+    <Compile Include="ChangePasswordController.cs" />
+    <Compile Include="ConfigurationController.cs" />
+    <Compile Include="NewsController.cs" />
+    <Compile Include="QueueConnSetupController.cs" />
+    <Compile Include="RemarkController.cs" />
+    <Compile Include="DBSetUpController.cs" />
+    <Compile Include="ModuleController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Constants\CommandNames.cs" />
+    <Compile Include="Constants\EventTopicNames.cs" />
+    <Compile Include="Constants\UIExtensionSiteNames.cs" />
+    <Compile Include="Constants\WorkspaceNames.cs" />
+    <Compile Include="Module.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="EnviSetupController.cs" />
+    <Compile Include="ReportUnlockingLogController.cs" />
+    <Compile Include="Services\AzManService.cs" />
+    <Compile Include="Views\ChangePwdView\ChangePwdView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ChangePwdView\ChangePwdView.designer.cs">
+      <DependentUpon>ChangePwdView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChangePwdView\ChangePwdViewPresenter.cs" />
+    <Compile Include="Views\ChangePwdView\IChangePwdView.cs" />
+    <Compile Include="Views\UserPermissionView\AddRoleUserView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\AddRoleUserView.Designer.cs">
+      <DependentUpon>AddRoleUserView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\AddUserView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\AddUserView.Designer.cs">
+      <DependentUpon>AddUserView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\ChangeScopeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\ChangeScopeView.Designer.cs">
+      <DependentUpon>ChangeScopeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\CreateRoleView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\CreateRoleView.Designer.cs">
+      <DependentUpon>CreateRoleView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\CreateUserView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\CreateUserView.Designer.cs">
+      <DependentUpon>CreateUserView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\EditRoleView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\EditRoleView.Designer.cs">
+      <DependentUpon>EditRoleView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\EditUserView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\EditUserView.Designer.cs">
+      <DependentUpon>EditUserView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\IRoleUserSwitchView.cs" />
+    <Compile Include="Views\UserPermissionView\RoleFunctionView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\RoleFunctionView.Designer.cs">
+      <DependentUpon>RoleFunctionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\RoleUserSwitchView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\RoleUserSwitchView.Designer.cs">
+      <DependentUpon>RoleUserSwitchView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\RoleUserSwitchViewPresenter.cs" />
+    <Compile Include="Views\EmployeeSearchView\EmployeeSearchView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\EmployeeSearchView\EmployeeSearchView.Designer.cs">
+      <DependentUpon>EmployeeSearchView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EmployeeSearchView\EmployeeSearchViewPresenter.cs" />
+    <Compile Include="Views\EmployeeSearchView\IEmployeeSearchView.cs" />
+    <Compile Include="Views\EnviSetupView\EnviSetupView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\EnviSetupView\EnviSetupView.Designer.cs">
+      <DependentUpon>EnviSetupView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EnviSetupView\EnviSetupViewPresenter.cs" />
+    <Compile Include="Views\EnviSetupView\IEnviSetupView.cs" />
+    <Compile Include="Views\FunctionRemarkView\FunctionRemarkView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\FunctionRemarkView\FunctionRemarkView.Designer.cs">
+      <DependentUpon>FunctionRemarkView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FunctionRemarkView\FunctionRemarkViewPresenter.cs" />
+    <Compile Include="Views\FunctionRemarkView\IFunctionRemarkView.cs" />
+    <Compile Include="Views\NewsView\INewsView.cs" />
+    <Compile Include="Views\NewsView\NewsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\NewsView\NewsView.Designer.cs">
+      <DependentUpon>NewsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewsView\NewsViewPresenter.cs" />
+    <Compile Include="Views\OptionView\BarcodesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\OptionView\BarcodesForm.Designer.cs">
+      <DependentUpon>BarcodesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PEACodeSearchView\IPEACodeSearchView.cs" />
+    <Compile Include="Views\PEACodeSearchView\PEACodeSearchView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\PEACodeSearchView\PEACodeSearchView.Designer.cs">
+      <DependentUpon>PEACodeSearchView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PEACodeSearchView\PEACodeSearchViewPresenter.cs" />
+    <Compile Include="Views\QueueSetupView\IQueueSetupView.cs" />
+    <Compile Include="Views\QueueSetupView\QueueSetupView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\QueueSetupView\QueueSetupView.Designer.cs">
+      <DependentUpon>QueueSetupView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QueueSetupView\QueueSetupViewPresenter.cs" />
+    <Compile Include="Views\RemarkAddView\IRemarkAddView.cs" />
+    <Compile Include="Views\RemarkAddView\RemarkAddView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\RemarkAddView\RemarkAddView.Designer.cs">
+      <DependentUpon>RemarkAddView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RemarkAddView\RemarkAddViewPresenter.cs" />
+    <Compile Include="Views\RemarkEditView\IRemarkEditView.cs" />
+    <Compile Include="Views\RemarkEditView\RemarkEditView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\RemarkEditView\RemarkEditView.Designer.cs">
+      <DependentUpon>RemarkEditView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RemarkEditView\RemarkEditViewPresenter.cs" />
+    <Compile Include="Views\RemarkListView\IRemarkListView.cs" />
+    <Compile Include="Views\RemarkListView\RemarkListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\RemarkListView\RemarkListView.Designer.cs">
+      <DependentUpon>RemarkListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RemarkListView\RemarkListViewPresenter.cs" />
+    <Compile Include="Views\ReportContainerView\IReportContainerView.cs" />
+    <Compile Include="Views\ReportContainerView\ReportContainerView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ReportContainerView\ReportContainerView.Designer.cs">
+      <DependentUpon>ReportContainerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReportContainerView\ReportContainerViewPresenter.cs" />
+    <Compile Include="Views\ReportUnlockingLogView\IReportUnlockingLogView.cs" />
+    <Compile Include="Views\ReportUnlockingLogView\ReportUnlockingLogView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ReportUnlockingLogView\ReportUnlockingLogView.Designer.cs">
+      <DependentUpon>ReportUnlockingLogView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReportUnlockingLogView\ReportUnlockingLogViewPresenter.cs" />
+    <Compile Include="Views\OptionView\IOptionView.cs" />
+    <Compile Include="Views\OptionView\OptionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\OptionView\OptionView.Designer.cs">
+      <DependentUpon>OptionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OptionView\OptionViewPresenter.cs" />
+    <Compile Include="Views\RegisterView\IRegisterView.cs" />
+    <Compile Include="Views\RegisterView\RegisterView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\RegisterView\RegisterView.Designer.cs">
+      <DependentUpon>RegisterView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RegisterView\RegisterViewPresenter.cs" />
+    <Compile Include="Views\ServerConfigView\IServerConfigView.cs" />
+    <Compile Include="Views\ServerConfigView\ServerConfigView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ServerConfigView\ServerConfigView.Designer.cs">
+      <DependentUpon>ServerConfigView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ServerConfigView\ServerConfigViewPresenter.cs" />
+    <Compile Include="Views\UserPermissionView\UserExeedLimitWarningView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\UserExeedLimitWarningView.Designer.cs">
+      <DependentUpon>UserExeedLimitWarningView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\UserProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\UserProperties.Designer.cs">
+      <DependentUpon>UserProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\UserPwdChangeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\UserPermissionView\UserPwdChangeView.Designer.cs">
+      <DependentUpon>UserPwdChangeView.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(SolutionDir)\Source\Infrastructure\Infrastructure.Interface\Infrastructure.Interface.csproj">
+      <Project>{a6e71dbf-a767-416c-9de4-15aefc619baf}</Project>
+      <Name>Infrastructure.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AgencyManagementModule\AgencyManagementModule.Interface\AgencyManagementModule.Interface.csproj">
+      <Project>{068B2144-9978-458D-AE79-92935C846C71}</Project>
+      <Name>AgencyManagementModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\ArchitectureInterface\ArchitectureInterface.csproj">
+      <Project>{7939F32D-01C5-45B5-A545-3EEE99017A7E}</Project>
+      <Name>ArchitectureInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\ArchitectureTool\ArchitectureTool.csproj">
+      <Project>{CD6283A4-2D09-4DB4-9354-7AC912A8C9D5}</Project>
+      <Name>ArchitectureTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\CommonUtilities\CommonUtilities.csproj">
+      <Project>{1A6B6E40-2DD5-4CB8-B766-B61AA237701B}</Project>
+      <Name>CommonUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\PrintUtilities\PrintUtilities.csproj">
+      <Project>{535EF6D0-B698-4FB9-A387-7E8215AAC36B}</Project>
+      <Name>PrintUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\BillPrintingModule\BillPrintingModule.Interface\BillPrintingModule.Interface.csproj">
+      <Project>{CCC7E63C-530C-454A-9DDA-553AB3A1EEE9}</Project>
+      <Name>BillPrintingModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\BillPrintingModule\BillPrintingModule\BillPrintingModule.csproj">
+      <Project>{B070FE89-1DA1-47FC-A3F9-AF9598C82467}</Project>
+      <Name>BillPrintingModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Infrastructure.Library\Infrastructure.Library.csproj">
+      <Project>{FCC7759A-96EB-4549-B0EB-D4905323E736}</Project>
+      <Name>Infrastructure.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\NewsBroadcast\NewsBroadcast.Interface\NewsBroadcast.Interface.csproj">
+      <Project>{0FA94F8C-91BA-47C5-8C2A-D8FDEB50B46A}</Project>
+      <Name>NewsBroadcast.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\NewsBroadcast\NewsBroadcast.SG\NewsBroadcast.SG.csproj">
+      <Project>{F7307FA4-CEBB-4E3E-AB32-EAA64896D403}</Project>
+      <Name>NewsBroadcast.SG</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PaymentCollectionModule\PaymentCollectionModule.Interface\PaymentCollectionModule.Interface.csproj">
+      <Project>{20245E21-61E9-4B4D-86D2-87A23FDC051F}</Project>
+      <Name>PaymentCollectionModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ToolModule.Interface\ToolModule.Interface.csproj">
+      <Project>{93DB143A-D7A6-4AEA-B601-72FC0F2B4792}</Project>
+      <Name>ToolModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ToolModule.SG\ToolModule.SG.csproj">
+      <Project>{7A362C6E-90FC-4E1D-8306-B3500C7021E0}</Project>
+      <Name>ToolModule.SG</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CAB01_02.rdlc" />
+    <EmbeddedResource Include="Reports\CAC05_1Report.rdlc" />
+    <EmbeddedResource Include="Reports\ReportF16.rdlc" />
+    <EmbeddedResource Include="Reports\ReportUnlockingLog.rdlc" />
+    <EmbeddedResource Include="Reports\SyncCrossCheckA2B.rdlc" />
+    <EmbeddedResource Include="Reports\SyncCrossCheckB2A.rdlc" />
+    <EmbeddedResource Include="Views\ChangePwdView\ChangePwdView.resx">
+      <DependentUpon>ChangePwdView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserPermissionView\AddRoleUserView.resx">
+      <DependentUpon>AddRoleUserView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserPermissionView\AddUserView.resx">
+      <DependentUpon>AddUserView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserPermissionView\ChangeScopeView.resx">
+      <DependentUpon>ChangeScopeView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserPermissionView\CreateRoleView.resx">
+      <DependentUpon>CreateRoleView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserPermissionView\CreateUserView.resx">
+      <DependentUpon>CreateUserView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserPermissionView\EditRoleView.resx">
+      <DependentUpon>EditRoleView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserPermissionView\EditUserView.resx">
+      <DependentUpon>EditUserView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserPermissionView\RoleFunctionView.resx">
+      <DependentUpon>RoleFunctionView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserPermissionView\RoleUserSwitchView.resx">
+      <DependentUpon>RoleUserSwitchView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\EmployeeSearchView\EmployeeSearchView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EmployeeSearchView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\EnviSetupView\EnviSetupView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EnviSetupView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FunctionRemarkView\FunctionRemarkView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FunctionRemarkView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\NewsView\NewsView.resx">
+      <DependentUpon>NewsView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\OptionView\BarcodesForm.resx">
+      <DependentUpon>BarcodesForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PEACodeSearchView\PEACodeSearchView.resx">
+      <DependentUpon>PEACodeSearchView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\QueueSetupView\QueueSetupView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>QueueSetupView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\RemarkAddView\RemarkAddView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RemarkAddView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\RemarkEditView\RemarkEditView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RemarkEditView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\RemarkListView\RemarkListView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RemarkListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReportContainerView\ReportContainerView.resx">
+      <DependentUpon>ReportContainerView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReportUnlockingLogView\ReportUnlockingLogView.resx">
+      <DependentUpon>ReportUnlockingLogView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\OptionView\OptionView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OptionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\RegisterView\RegisterView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RegisterView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ServerConfigView\ServerConfigView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ServerConfigView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserPermissionView\UserExeedLimitWarningView.resx">
+      <DependentUpon>UserExeedLimitWarningView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserPermissionView\UserProperties.resx">
+      <DependentUpon>UserProperties.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserPermissionView\UserPwdChangeView.resx">
+      <DependentUpon>UserPwdChangeView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\PEA.BPM.ToolModule.Interface.BusinessEntities.ReportUnlockingLog.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.ToolModule.Interface.BusinessEntities.SyncCrossCheckInfo.datasource" />
+    <None Include="Resources\ZoomHS.png" />
+    <None Include="Resources\DeleteHS.png" />
+    <Content Include="Resources\RepeatHSR.png" />
+    <Content Include="Resources\warningIcon.png" />
+    <Content Include="TestPrint.dat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

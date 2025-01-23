@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:i0="http://tempuri.org" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="AgencyCommonWCFService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://tempuri.org" location="http://localhost/BPMService/AGENCY/AgencyCommonWCFService.svc?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="BasicHttpBinding_IAgencyCommonWCFService" type="i0:IAgencyCommonWCFService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="FindAndDisplayAgentSearchInfo">
+      <soap:operation soapAction="http://tempuri.org/IAgencyCommonWCFService/FindAndDisplayAgentSearchInfo" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IAgencyCommonWCFService_FindAndDisplayAgentSearchInfo_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayAgentSearchInfo_Compress">
+      <soap:operation soapAction="http://tempuri.org/IAgencyCommonWCFService/FindAndDisplayAgentSearchInfo_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IAgencyCommonWCFService_FindAndDisplayAgentSearchInfo_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayBranchSearchInfo">
+      <soap:operation soapAction="http://tempuri.org/IAgencyCommonWCFService/FindAndDisplayBranchSearchInfo" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IAgencyCommonWCFService_FindAndDisplayBranchSearchInfo_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayBranchSearchInfo_Compress">
+      <soap:operation soapAction="http://tempuri.org/IAgencyCommonWCFService/FindAndDisplayBranchSearchInfo_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IAgencyCommonWCFService_FindAndDisplayBranchSearchInfo_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayLineSearchInfo">
+      <soap:operation soapAction="http://tempuri.org/IAgencyCommonWCFService/FindAndDisplayLineSearchInfo" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IAgencyCommonWCFService_FindAndDisplayLineSearchInfo_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="FindAndDisplayLineSearchInfo_Compress">
+      <soap:operation soapAction="http://tempuri.org/IAgencyCommonWCFService/FindAndDisplayLineSearchInfo_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IAgencyCommonWCFService_FindAndDisplayLineSearchInfo_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetPmList">
+      <soap:operation soapAction="http://tempuri.org/IAgencyCommonWCFService/GetPmList" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IAgencyCommonWCFService_GetPmList_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetPmList_Compress">
+      <soap:operation soapAction="http://tempuri.org/IAgencyCommonWCFService/GetPmList_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IAgencyCommonWCFService_GetPmList_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetAbsList">
+      <soap:operation soapAction="http://tempuri.org/IAgencyCommonWCFService/GetAbsList" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IAgencyCommonWCFService_GetAbsList_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetAbsList_Compress">
+      <soap:operation soapAction="http://tempuri.org/IAgencyCommonWCFService/GetAbsList_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IAgencyCommonWCFService_GetAbsList_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetContractTypeList">
+      <soap:operation soapAction="http://tempuri.org/IAgencyCommonWCFService/GetContractTypeList" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IAgencyCommonWCFService_GetContractTypeList_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetBillStatusList">
+      <soap:operation soapAction="http://tempuri.org/IAgencyCommonWCFService/GetBillStatusList" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IAgencyCommonWCFService_GetBillStatusList_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetBillStatusList_Compress">
+      <soap:operation soapAction="http://tempuri.org/IAgencyCommonWCFService/GetBillStatusList_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IAgencyCommonWCFService_GetBillStatusList_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetBranches">
+      <soap:operation soapAction="http://tempuri.org/IAgencyCommonWCFService/GetBranches" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IAgencyCommonWCFService_GetBranches_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetBranches_Compress">
+      <soap:operation soapAction="http://tempuri.org/IAgencyCommonWCFService/GetBranches_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IAgencyCommonWCFService_GetBranches_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AgencyCommonWCFService">
+    <wsdl:port name="BasicHttpBinding_IAgencyCommonWCFService" binding="tns:BasicHttpBinding_IAgencyCommonWCFService">
+      <soap:address location="http://localhost/BPMService/AGENCY/AgencyCommonWCFService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

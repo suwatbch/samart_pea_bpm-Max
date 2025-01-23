@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PEA.BPM.ToolModule.Interface.BusinessEntities" xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PEA.BPM.ToolModule.Interface.BusinessEntities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/BPMService/TOOL/AzManWCFService.svc?xsd=xsd6" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="http://localhost/BPMService/TOOL/AzManWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="UnlockingLogParam">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="BranchId" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element minOccurs="0" name="BillPred" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FunctionId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UnlockingLogParam" nillable="true" type="tns:UnlockingLogParam" />
+  <xs:complexType name="ArrayOfRole">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Role" nillable="true" type="tns:Role" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRole" nillable="true" type="tns:ArrayOfRole" />
+  <xs:complexType name="Role">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FncList" nillable="true" type="tns:ArrayOfFunction" />
+      <xs:element minOccurs="0" name="ModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RoleId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RoleName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InitModule" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModifiedDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="UserCount" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Role" nillable="true" type="tns:Role" />
+  <xs:complexType name="ArrayOfFunction">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Function" nillable="true" type="tns:Function" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFunction" nillable="true" type="tns:ArrayOfFunction" />
+  <xs:complexType name="Function">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FunctionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FunctionName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SubFunctionName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModuleName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModifiedDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Check" type="xs:boolean" />
+      <xs:element minOccurs="0" name="RoleId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Internal" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Function" nillable="true" type="tns:Function" />
+  <xs:complexType name="User">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ChangerPwd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChangerId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RTId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RoleId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NewRoleId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NewPassword" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Department" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModifiedDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="GCheck" type="xs:boolean" />
+      <xs:element minOccurs="0" name="PwdState" type="xs:int" />
+      <xs:element minOccurs="0" name="UserFlag" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ScopeId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ScopeText" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="User" nillable="true" type="tns:User" />
+  <xs:complexType name="ArrayOfUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="User" nillable="true" type="tns:User" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUser" nillable="true" type="tns:ArrayOfUser" />
+  <xs:complexType name="ArrayOfPeaInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PeaInfo" nillable="true" type="tns:PeaInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPeaInfo" nillable="true" type="tns:ArrayOfPeaInfo" />
+  <xs:complexType name="PeaInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchLevel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BACode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName2" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PeaInfo" nillable="true" type="tns:PeaInfo" />
+  <xs:complexType name="Terminal">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="TerminalId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TerminalCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchLevel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TaxCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModifiedDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Active" type="ser:char" />
+      <xs:element minOccurs="0" name="IP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BACode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName2" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Terminal" nillable="true" type="tns:Terminal" />
+</xs:schema>

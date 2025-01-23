@@ -1,0 +1,66 @@
+.BannerL {
+	BACKGROUND-IMAGE: url(./icons/bgl.gif)
+}
+.BannerC {
+	BACKGROUND-IMAGE: url(./icons/bgc.gif); VERTICAL-ALIGN: baseline
+}
+.BannerR {
+	BACKGROUND-IMAGE: url(./icons/bgr.gif)
+}
+.HdrBanner {
+	FONT-WEIGHT: normal; FONT-SIZE: 14pt; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica; HEIGHT: 29px
+}
+.SectionBar {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; PADDING-BOTTOM: 0px; BORDER-LEFT: #cccccc 1px solid; CURSOR: hand; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Arial, Helvetica; BACKGROUND-COLOR: #eeeeee
+}
+.NestedSectionBar {
+	BACKGROUND-POSITION: left bottom; FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND-IMAGE: url(./icons/NestedSectionBg.gif); PADDING-BOTTOM: 1px; CURSOR: hand; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Arial, Helvetica
+}
+.SectionContent {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cccccc 0px solid; PADDING-LEFT: 5px; FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Arial, Helvetica
+}
+.NestedSectionContent {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: normal; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; FONT-FAMILY: Arial, Helvetica
+}
+.Section {
+	MARGIN-TOP: 6px; WIDTH: 100%
+}
+.NestedSection {
+	MARGIN-TOP: 6px; MARGIN-LEFT: 20px; MARGIN-RIGHT: 5px
+}
+.Footer {
+	CLEAR: both; BACKGROUND-IMAGE: url(./icons/foot.gif); PADDING-TOP: 6px; HEIGHT: 27px
+}
+.FooterText {
+	FONT-SIZE: xx-small; FONT-FAMILY: Arial, Helvetica
+}
+.DialogHeader {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 5px
+}
+.HdrNav {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; CURSOR: default; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica; TEXT-DECORATION: none
+}
+.HdrNavHL {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; CURSOR: default; COLOR: #ff9a00; FONT-FAMILY: Arial, Helvetica; TEXT-DECORATION: none
+}
+.HdrNavMenuLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; CURSOR: hand; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica; TEXT-DECORATION: none
+}
+.HdrNavMenuLinkHL {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; CURSOR: hand; COLOR: #ff9a00; FONT-FAMILY: Arial, Helvetica; TEXT-DECORATION: none
+}
+.HdrNavLink {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; CURSOR: hand; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica; TEXT-DECORATION: none
+}
+.HdrNavLinkHL {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; CURSOR: hand; COLOR: #ff9a00; FONT-FAMILY: Arial, Helvetica; TEXT-DECORATION: none
+}
+.HdrLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; CURSOR: hand; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica; TEXT-DECORATION: underline
+}
+.HdrLinkHL {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; CURSOR: hand; COLOR: #ff9a00; FONT-FAMILY: Arial, Helvetica; TEXT-DECORATION: underline
+}
+.HdrText {
+	FONT-SIZE: 8pt; FONT-FAMILY: Arial, Helvetica
+}

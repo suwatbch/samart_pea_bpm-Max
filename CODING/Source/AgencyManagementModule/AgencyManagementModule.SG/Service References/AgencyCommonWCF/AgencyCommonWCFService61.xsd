@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PEA.BPM.AgencyManagementModule.Interface.BusinessEntities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="AgentInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="SendType" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsAgency" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Deposit" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="UseDeposit" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Contact" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TechBranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TravelHelp" type="xs:int" />
+      <xs:element minOccurs="0" name="BookHolder" type="xs:int" />
+      <xs:element minOccurs="0" name="PenaltyWaiveFlag" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ContractValidTo" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ContractValidFrom" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ReceiveCount" type="xs:int" />
+      <xs:element minOccurs="0" name="BookLot" type="xs:int" />
+      <xs:element minOccurs="0" name="IsPersonalBpType" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AgentInfo" nillable="true" type="tns:AgentInfo" />
+  <xs:complexType name="PeaInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchLevel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumOfLines" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PeaInfo" nillable="true" type="tns:PeaInfo" />
+  <xs:complexType name="ArrayOfLineInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LineInfo" nillable="true" type="tns:LineInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLineInfo" nillable="true" type="tns:ArrayOfLineInfo" />
+  <xs:complexType name="LineInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LineId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PortionDesc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumOfCustomer" type="xs:int" />
+      <xs:element minOccurs="0" name="AdvPayment" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ControllerId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModifiedDt" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentNeedUpdate" type="xs:boolean" />
+      <xs:element minOccurs="0" name="AdvNeedUpdate" type="xs:boolean" />
+      <xs:element minOccurs="0" name="TravelHelp" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="CollectCount" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="AgencyName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LineInfo" nillable="true" type="tns:LineInfo" />
+  <xs:complexType name="HashInfoCollection">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="HashList" nillable="true" type="tns:ArrayOfHashInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="HashInfoCollection" nillable="true" type="tns:HashInfoCollection" />
+  <xs:complexType name="ArrayOfHashInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="HashInfo" nillable="true" type="tns:HashInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfHashInfo" nillable="true" type="tns:ArrayOfHashInfo" />
+  <xs:complexType name="HashInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="HashInfo" nillable="true" type="tns:HashInfo" />
+  <xs:complexType name="ArrayOfPeaInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PeaInfo" nillable="true" type="tns:PeaInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPeaInfo" nillable="true" type="tns:ArrayOfPeaInfo" />
+</xs:schema>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b5b09e51-8707-4ee8-8216-44541727c246" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/BLAN/ControlWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ControlWCFService9.xsd" MetadataType="Schema" ID="60f38ec7-7edc-47b6-a178-e9ccfbf8ebf4" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/ControlWCFService.svc?xsd=xsd6" />
+    <MetadataFile FileName="ControlWCFService10.xsd" MetadataType="Schema" ID="efb49b04-8174-43bc-b894-4901ab4bf1f8" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/ControlWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="ControlWCFService2.disco" MetadataType="Disco" ID="fd15e340-20d8-4285-b396-4cf87677bbc2" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/ControlWCFService.svc?disco" />
+    <MetadataFile FileName="ControlWCFService11.xsd" MetadataType="Schema" ID="3ad6ec07-0ee4-4f46-a158-172afa9f3515" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/ControlWCFService.svc?xsd=xsd5" />
+    <MetadataFile FileName="ControlWCFService12.xsd" MetadataType="Schema" ID="b99682b5-b411-4835-9008-4e19cd37c4a7" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/ControlWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ControlWCFService3.wsdl" MetadataType="Wsdl" ID="af2a733f-a449-443a-8ea7-76d0c9cc596f" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/ControlWCFService.svc?wsdl" />
+    <MetadataFile FileName="ControlWCFService4.wsdl" MetadataType="Wsdl" ID="3068d50b-777a-4a11-b6c9-b3459feb7d9d" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/ControlWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="ControlWCFService13.xsd" MetadataType="Schema" ID="9192c999-d3b0-4227-af6c-082d46db4f08" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/ControlWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ControlWCFService14.xsd" MetadataType="Schema" ID="1594f9a9-7ce6-47c0-98fd-94c900cf22d8" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/ControlWCFService.svc?xsd=xsd7" />
+    <MetadataFile FileName="ControlWCFService15.xsd" MetadataType="Schema" ID="c3386e7d-f578-4820-bec1-b0db09cff061" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/ControlWCFService.svc?xsd=xsd4" />
+    <MetadataFile FileName="ControlWCFService16.xsd" MetadataType="Schema" ID="65ab85ce-d12b-4e9c-a9b8-c357e2708276" SourceId="1" SourceUrl="http://localhost/BPMService/BLAN/ControlWCFService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

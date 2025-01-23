@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/TOOL/AzManWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/TOOL/AzManWCFService.svc?xsd=xsd3" />
+      <xsd:import schemaLocation="http://localhost/BPMService/TOOL/AzManWCFService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/TOOL/AzManWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/TOOL/AzManWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/TOOL/AzManWCFService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.ToolModule.Interface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/TOOL/AzManWCFService.svc?xsd=xsd6" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAzManWCFService_ListRemarkFunctions_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListRemarkFunctions" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRemarkFunctions_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRemarkFunctions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListRemarkFunctionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRemarkFunctions_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRemark_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListRemark" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRemark_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRemark_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListRemarkResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRemark_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_AddRemark_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddRemark_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_AddRemark_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_AddRemark_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddRemark_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_AddRemark_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_EditRemark_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditRemark_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_EditRemark_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_EditRemark_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditRemark_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_EditRemark_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_DeleteRemark_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRemark_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_DeleteRemark_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_DeleteRemark_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRemark_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_DeleteRemark_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUnlockableFunctions_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListUnlockableFunctions" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUnlockableFunctions_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUnlockableFunctions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListUnlockableFunctionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUnlockableFunctions_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_GetUnlockingLogReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUnlockingLogReport" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_GetUnlockingLogReport_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_GetUnlockingLogReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUnlockingLogReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_GetUnlockingLogReport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_GetWSServerTime_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWSServerTime" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_GetWSServerTime_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_GetWSServerTime_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWSServerTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_GetWSServerTime_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q8:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_GetDBServerTime_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDBServerTime" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_GetDBServerTime_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_GetDBServerTime_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDBServerTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_GetDBServerTime_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q9:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRoles_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListRoles" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRoles_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRoles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListRolesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRoles_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q10:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRoles_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListRoles_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRoles_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRoles_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListRoles_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRoles_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q11:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListExpRoles_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListExpRoles" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListExpRoles_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListExpRoles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListExpRolesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListExpRoles_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q12:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListExpRoles_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListExpRoles_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListExpRoles_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListExpRoles_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListExpRoles_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListExpRoles_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q13="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q13:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRolesByUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListRolesByUser" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRolesByUser_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRolesByUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListRolesByUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRolesByUser_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q14:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRolesByUser_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListRolesByUser_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRolesByUser_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRolesByUser_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListRolesByUser_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListRolesByUser_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q15="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q15:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUsers_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListUsers" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUsers_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUsers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUsers_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q16="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q16:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUsers_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListUsers_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUsers_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUsers_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListUsers_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUsers_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q17="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q17:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUsersByRole_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListUsersByRole" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUsersByRole_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUsersByRole_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListUsersByRoleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUsersByRole_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q18="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q18:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUsersByRole_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListUsersByRole_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUsersByRole_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUsersByRole_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListUsersByRole_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListUsersByRole_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q19="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q19:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListFunctions_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListFunctions" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListFunctions_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListFunctions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListFunctionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListFunctions_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q20="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q20:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListFunctions_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListFunctions_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListFunctions_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListFunctions_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListFunctions_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListFunctions_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q21="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q21:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_SearchUsers_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchUsers" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_SearchUsers_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_SearchUsers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_SearchUsers_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q22="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q22:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_SearchUsers_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchUsers_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_SearchUsers_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_SearchUsers_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchUsers_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_SearchUsers_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q23="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q23:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_CreateUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateUser" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_CreateUser_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_CreateUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_CreateUser_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q24="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q24:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_EditUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditUser" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_EditUser_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_EditUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_EditUser_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q25="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q25:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_DeleteUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUser" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_DeleteUser_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_DeleteUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_DeleteUser_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q26="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q26:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_CreateRole_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateRole" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_CreateRole_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_CreateRole_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateRoleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_CreateRole_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q27="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q27:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_EditRole_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditRole" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_EditRole_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_EditRole_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditRoleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_EditRole_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q28="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q28:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_DeleteRole_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRole" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_DeleteRole_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_DeleteRole_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRoleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_DeleteRole_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q29="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q29:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_AddRoleUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddRoleUser" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_AddRoleUser_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_AddRoleUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddRoleUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_AddRoleUser_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q30="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q30:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_RemoveRoleUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveRoleUser" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_RemoveRoleUser_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_RemoveRoleUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveRoleUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_RemoveRoleUser_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q31="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q31:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListEmployee_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListEmployee" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListEmployee_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListEmployee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListEmployeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListEmployee_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q32="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q32:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListEmployee_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListEmployee_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListEmployee_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListEmployee_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListEmployee_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListEmployee_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q33="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q33:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListAllFunctions_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListAllFunctions" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListAllFunctions_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListAllFunctions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListAllFunctionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListAllFunctions_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q34="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q34:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListAllFunctions_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListAllFunctions_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListAllFunctions_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListAllFunctions_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListAllFunctions_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ListAllFunctions_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q35="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q35:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ValidateUserScopeByUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateUserScopeByUser" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ValidateUserScopeByUser_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ValidateUserScopeByUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateUserScopeByUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ValidateUserScopeByUser_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q36="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q36:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ValidateUserScopeByRole_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateUserScopeByRole" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ValidateUserScopeByRole_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ValidateUserScopeByRole_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateUserScopeByRoleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ValidateUserScopeByRole_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q37="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q37:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ValidateUserScope_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateUserScope" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ValidateUserScope_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ValidateUserScope_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateUserScopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_ValidateUserScope_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q38="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q38:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_UpdateUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUser" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_UpdateUser_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_UpdateUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_UpdateUser_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q39="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q39:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_UpdateUser_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUser_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_UpdateUser_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_UpdateUser_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUser_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_UpdateUser_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q40="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q40:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_SearchBranchByKeyword_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchBranchByKeyword" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_SearchBranchByKeyword_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_SearchBranchByKeyword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchBranchByKeywordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_SearchBranchByKeyword_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q41="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q41:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_SearchBranchByKeyword_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchBranchByKeyword_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_SearchBranchByKeyword_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_SearchBranchByKeyword_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchBranchByKeyword_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_SearchBranchByKeyword_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q42="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q42:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_RegisterTerminal_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterTerminal" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_RegisterTerminal_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_RegisterTerminal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterTerminalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_RegisterTerminal_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q43="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q43:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_RegisterTerminal_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterTerminal_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_RegisterTerminal_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_RegisterTerminal_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterTerminal_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_RegisterTerminal_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q44="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q44:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_UpdateTerminal_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTerminal" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_UpdateTerminal_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_UpdateTerminal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTerminalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAzManWCFService_UpdateTerminal_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q45="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q45:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="IAzManWCFService">
+    <wsdl:operation name="ListRemarkFunctions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListRemarkFunctions" message="tns:IAzManWCFService_ListRemarkFunctions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListRemarkFunctionsResponse" message="tns:IAzManWCFService_ListRemarkFunctions_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListRemarkFunctionsBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListRemarkFunctions_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListRemark">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListRemark" message="tns:IAzManWCFService_ListRemark_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListRemarkResponse" message="tns:IAzManWCFService_ListRemark_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListRemarkBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListRemark_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddRemark_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/AddRemark_Compress" message="tns:IAzManWCFService_AddRemark_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/AddRemark_CompressResponse" message="tns:IAzManWCFService_AddRemark_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/AddRemark_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_AddRemark_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditRemark_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/EditRemark_Compress" message="tns:IAzManWCFService_EditRemark_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/EditRemark_CompressResponse" message="tns:IAzManWCFService_EditRemark_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/EditRemark_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_EditRemark_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRemark_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/DeleteRemark_Compress" message="tns:IAzManWCFService_DeleteRemark_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/DeleteRemark_CompressResponse" message="tns:IAzManWCFService_DeleteRemark_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/DeleteRemark_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_DeleteRemark_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListUnlockableFunctions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListUnlockableFunctions" message="tns:IAzManWCFService_ListUnlockableFunctions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListUnlockableFunctionsResponse" message="tns:IAzManWCFService_ListUnlockableFunctions_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListUnlockableFunctionsBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListUnlockableFunctions_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUnlockingLogReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/GetUnlockingLogReport" message="tns:IAzManWCFService_GetUnlockingLogReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/GetUnlockingLogReportResponse" message="tns:IAzManWCFService_GetUnlockingLogReport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/GetUnlockingLogReportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_GetUnlockingLogReport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWSServerTime">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/GetWSServerTime" message="tns:IAzManWCFService_GetWSServerTime_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/GetWSServerTimeResponse" message="tns:IAzManWCFService_GetWSServerTime_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/GetWSServerTimeBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_GetWSServerTime_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDBServerTime">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/GetDBServerTime" message="tns:IAzManWCFService_GetDBServerTime_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/GetDBServerTimeResponse" message="tns:IAzManWCFService_GetDBServerTime_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/GetDBServerTimeBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_GetDBServerTime_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListRoles">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListRoles" message="tns:IAzManWCFService_ListRoles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListRolesResponse" message="tns:IAzManWCFService_ListRoles_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListRolesBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListRoles_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListRoles_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListRoles_Compress" message="tns:IAzManWCFService_ListRoles_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListRoles_CompressResponse" message="tns:IAzManWCFService_ListRoles_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListRoles_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListRoles_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListExpRoles">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListExpRoles" message="tns:IAzManWCFService_ListExpRoles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListExpRolesResponse" message="tns:IAzManWCFService_ListExpRoles_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListExpRolesBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListExpRoles_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListExpRoles_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListExpRoles_Compress" message="tns:IAzManWCFService_ListExpRoles_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListExpRoles_CompressResponse" message="tns:IAzManWCFService_ListExpRoles_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListExpRoles_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListExpRoles_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListRolesByUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListRolesByUser" message="tns:IAzManWCFService_ListRolesByUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListRolesByUserResponse" message="tns:IAzManWCFService_ListRolesByUser_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListRolesByUserBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListRolesByUser_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListRolesByUser_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListRolesByUser_Compress" message="tns:IAzManWCFService_ListRolesByUser_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListRolesByUser_CompressResponse" message="tns:IAzManWCFService_ListRolesByUser_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListRolesByUser_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListRolesByUser_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListUsers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListUsers" message="tns:IAzManWCFService_ListUsers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListUsersResponse" message="tns:IAzManWCFService_ListUsers_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListUsersBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListUsers_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListUsers_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListUsers_Compress" message="tns:IAzManWCFService_ListUsers_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListUsers_CompressResponse" message="tns:IAzManWCFService_ListUsers_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListUsers_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListUsers_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListUsersByRole">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListUsersByRole" message="tns:IAzManWCFService_ListUsersByRole_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListUsersByRoleResponse" message="tns:IAzManWCFService_ListUsersByRole_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListUsersByRoleBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListUsersByRole_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListUsersByRole_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListUsersByRole_Compress" message="tns:IAzManWCFService_ListUsersByRole_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListUsersByRole_CompressResponse" message="tns:IAzManWCFService_ListUsersByRole_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListUsersByRole_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListUsersByRole_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListFunctions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListFunctions" message="tns:IAzManWCFService_ListFunctions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListFunctionsResponse" message="tns:IAzManWCFService_ListFunctions_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListFunctionsBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListFunctions_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListFunctions_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListFunctions_Compress" message="tns:IAzManWCFService_ListFunctions_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListFunctions_CompressResponse" message="tns:IAzManWCFService_ListFunctions_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListFunctions_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListFunctions_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchUsers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/SearchUsers" message="tns:IAzManWCFService_SearchUsers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/SearchUsersResponse" message="tns:IAzManWCFService_SearchUsers_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/SearchUsersBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_SearchUsers_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchUsers_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/SearchUsers_Compress" message="tns:IAzManWCFService_SearchUsers_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/SearchUsers_CompressResponse" message="tns:IAzManWCFService_SearchUsers_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/SearchUsers_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_SearchUsers_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/CreateUser" message="tns:IAzManWCFService_CreateUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/CreateUserResponse" message="tns:IAzManWCFService_CreateUser_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/CreateUserBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_CreateUser_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/EditUser" message="tns:IAzManWCFService_EditUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/EditUserResponse" message="tns:IAzManWCFService_EditUser_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/EditUserBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_EditUser_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/DeleteUser" message="tns:IAzManWCFService_DeleteUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/DeleteUserResponse" message="tns:IAzManWCFService_DeleteUser_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/DeleteUserBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_DeleteUser_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateRole">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/CreateRole" message="tns:IAzManWCFService_CreateRole_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/CreateRoleResponse" message="tns:IAzManWCFService_CreateRole_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/CreateRoleBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_CreateRole_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditRole">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/EditRole" message="tns:IAzManWCFService_EditRole_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/EditRoleResponse" message="tns:IAzManWCFService_EditRole_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/EditRoleBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_EditRole_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRole">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/DeleteRole" message="tns:IAzManWCFService_DeleteRole_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/DeleteRoleResponse" message="tns:IAzManWCFService_DeleteRole_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/DeleteRoleBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_DeleteRole_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddRoleUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/AddRoleUser" message="tns:IAzManWCFService_AddRoleUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/AddRoleUserResponse" message="tns:IAzManWCFService_AddRoleUser_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/AddRoleUserBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_AddRoleUser_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveRoleUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/RemoveRoleUser" message="tns:IAzManWCFService_RemoveRoleUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/RemoveRoleUserResponse" message="tns:IAzManWCFService_RemoveRoleUser_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/RemoveRoleUserBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_RemoveRoleUser_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListEmployee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListEmployee" message="tns:IAzManWCFService_ListEmployee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListEmployeeResponse" message="tns:IAzManWCFService_ListEmployee_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListEmployeeBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListEmployee_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListEmployee_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListEmployee_Compress" message="tns:IAzManWCFService_ListEmployee_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListEmployee_CompressResponse" message="tns:IAzManWCFService_ListEmployee_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListEmployee_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListEmployee_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListAllFunctions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListAllFunctions" message="tns:IAzManWCFService_ListAllFunctions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListAllFunctionsResponse" message="tns:IAzManWCFService_ListAllFunctions_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListAllFunctionsBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListAllFunctions_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListAllFunctions_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ListAllFunctions_Compress" message="tns:IAzManWCFService_ListAllFunctions_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ListAllFunctions_CompressResponse" message="tns:IAzManWCFService_ListAllFunctions_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ListAllFunctions_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ListAllFunctions_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateUserScopeByUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ValidateUserScopeByUser" message="tns:IAzManWCFService_ValidateUserScopeByUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ValidateUserScopeByUserResponse" message="tns:IAzManWCFService_ValidateUserScopeByUser_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ValidateUserScopeByUserBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ValidateUserScopeByUser_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateUserScopeByRole">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ValidateUserScopeByRole" message="tns:IAzManWCFService_ValidateUserScopeByRole_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ValidateUserScopeByRoleResponse" message="tns:IAzManWCFService_ValidateUserScopeByRole_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ValidateUserScopeByRoleBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ValidateUserScopeByRole_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateUserScope">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/ValidateUserScope" message="tns:IAzManWCFService_ValidateUserScope_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/ValidateUserScopeResponse" message="tns:IAzManWCFService_ValidateUserScope_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/ValidateUserScopeBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_ValidateUserScope_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/UpdateUser" message="tns:IAzManWCFService_UpdateUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/UpdateUserResponse" message="tns:IAzManWCFService_UpdateUser_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/UpdateUserBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_UpdateUser_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/UpdateUser_Compress" message="tns:IAzManWCFService_UpdateUser_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/UpdateUser_CompressResponse" message="tns:IAzManWCFService_UpdateUser_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/UpdateUser_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_UpdateUser_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchBranchByKeyword">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/SearchBranchByKeyword" message="tns:IAzManWCFService_SearchBranchByKeyword_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/SearchBranchByKeywordResponse" message="tns:IAzManWCFService_SearchBranchByKeyword_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/SearchBranchByKeywordBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_SearchBranchByKeyword_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchBranchByKeyword_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/SearchBranchByKeyword_Compress" message="tns:IAzManWCFService_SearchBranchByKeyword_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/SearchBranchByKeyword_CompressResponse" message="tns:IAzManWCFService_SearchBranchByKeyword_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/SearchBranchByKeyword_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_SearchBranchByKeyword_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterTerminal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/RegisterTerminal" message="tns:IAzManWCFService_RegisterTerminal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/RegisterTerminalResponse" message="tns:IAzManWCFService_RegisterTerminal_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/RegisterTerminalBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_RegisterTerminal_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterTerminal_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/RegisterTerminal_Compress" message="tns:IAzManWCFService_RegisterTerminal_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/RegisterTerminal_CompressResponse" message="tns:IAzManWCFService_RegisterTerminal_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/RegisterTerminal_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_RegisterTerminal_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTerminal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAzManWCFService/UpdateTerminal" message="tns:IAzManWCFService_UpdateTerminal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAzManWCFService/UpdateTerminalResponse" message="tns:IAzManWCFService_UpdateTerminal_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAzManWCFService/UpdateTerminalBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IAzManWCFService_UpdateTerminal_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?xsd=xsd3" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.ePaymentsModule.Interface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Infrastructure.Interface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.ePaymentsModule.Interface.BusinessEntities.ReceiptPrinting" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IEPayBillingWCFService_UpdateBillMarkFlagService_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBillMarkFlagService" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_UpdateBillMarkFlagService_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_UpdateBillMarkFlagService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBillMarkFlagServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_UpdateBillMarkFlagService_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_DelBillMarkFlagService_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelBillMarkFlagService" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_DelBillMarkFlagService_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_DelBillMarkFlagService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelBillMarkFlagServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_DelBillMarkFlagService_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SearchDebtService_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchDebtService" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SearchDebtService_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SearchDebtService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchDebtServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SearchDebtService_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SearchBPMDebtClearify_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchBPMDebtClearify" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SearchBPMDebtClearify_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SearchBPMDebtClearify_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchBPMDebtClearifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SearchBPMDebtClearify_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_GetDebtComparableService_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDebtComparableService" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_GetDebtComparableService_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_GetDebtComparableService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDebtComparableServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_GetDebtComparableService_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SearchCompany_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchCompany" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SearchCompany_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SearchCompany_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchCompanyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SearchCompany_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_InsertEPayUploadService_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertEPayUploadService" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_InsertEPayUploadService_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_InsertEPayUploadService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertEPayUploadServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_InsertEPayUploadService_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_IsUploadFileNameExist_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsUploadFileNameExist" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_IsUploadFileNameExist_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_IsUploadFileNameExist_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsUploadFileNameExistResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_IsUploadFileNameExist_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q8:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_GetAgentPaymentService_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgentPaymentService" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_GetAgentPaymentService_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_GetAgentPaymentService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgentPaymentServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_GetAgentPaymentService_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q9:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_InsertAgentPaymentService_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertAgentPaymentService" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_InsertAgentPaymentService_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_InsertAgentPaymentService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertAgentPaymentServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_InsertAgentPaymentService_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q10:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_PrintGreenBill_InputMessage">
+    <wsdl:part name="parameters" element="tns:PrintGreenBill" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_PrintGreenBill_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_PrintGreenBill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PrintGreenBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_PrintGreenBill_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q11:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SaveClearify_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveClearify" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SaveClearify_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SaveClearify_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveClearifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SaveClearify_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q12:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SearchAgentPayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchAgentPayment" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SearchAgentPayment_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SearchAgentPayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchAgentPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_SearchAgentPayment_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q13="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q13:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_InsertCancelPayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertCancelPayment" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_InsertCancelPayment_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_InsertCancelPayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertCancelPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEPayBillingWCFService_InsertCancelPayment_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q14:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="IEPayBillingWCFService">
+    <wsdl:operation name="UpdateBillMarkFlagService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayBillingWCFService/UpdateBillMarkFlagService" message="tns:IEPayBillingWCFService_UpdateBillMarkFlagService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayBillingWCFService/UpdateBillMarkFlagServiceResponse" message="tns:IEPayBillingWCFService_UpdateBillMarkFlagService_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayBillingWCFService/UpdateBillMarkFlagServiceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayBillingWCFService_UpdateBillMarkFlagService_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelBillMarkFlagService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayBillingWCFService/DelBillMarkFlagService" message="tns:IEPayBillingWCFService_DelBillMarkFlagService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayBillingWCFService/DelBillMarkFlagServiceResponse" message="tns:IEPayBillingWCFService_DelBillMarkFlagService_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayBillingWCFService/DelBillMarkFlagServiceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayBillingWCFService_DelBillMarkFlagService_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchDebtService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayBillingWCFService/SearchDebtService" message="tns:IEPayBillingWCFService_SearchDebtService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayBillingWCFService/SearchDebtServiceResponse" message="tns:IEPayBillingWCFService_SearchDebtService_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayBillingWCFService/SearchDebtServiceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayBillingWCFService_SearchDebtService_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchBPMDebtClearify">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayBillingWCFService/SearchBPMDebtClearify" message="tns:IEPayBillingWCFService_SearchBPMDebtClearify_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayBillingWCFService/SearchBPMDebtClearifyResponse" message="tns:IEPayBillingWCFService_SearchBPMDebtClearify_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayBillingWCFService/SearchBPMDebtClearifyBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayBillingWCFService_SearchBPMDebtClearify_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDebtComparableService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayBillingWCFService/GetDebtComparableService" message="tns:IEPayBillingWCFService_GetDebtComparableService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayBillingWCFService/GetDebtComparableServiceResponse" message="tns:IEPayBillingWCFService_GetDebtComparableService_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayBillingWCFService/GetDebtComparableServiceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayBillingWCFService_GetDebtComparableService_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchCompany">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayBillingWCFService/SearchCompany" message="tns:IEPayBillingWCFService_SearchCompany_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayBillingWCFService/SearchCompanyResponse" message="tns:IEPayBillingWCFService_SearchCompany_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayBillingWCFService/SearchCompanyBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayBillingWCFService_SearchCompany_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertEPayUploadService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayBillingWCFService/InsertEPayUploadService" message="tns:IEPayBillingWCFService_InsertEPayUploadService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayBillingWCFService/InsertEPayUploadServiceResponse" message="tns:IEPayBillingWCFService_InsertEPayUploadService_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayBillingWCFService/InsertEPayUploadServiceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayBillingWCFService_InsertEPayUploadService_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsUploadFileNameExist">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayBillingWCFService/IsUploadFileNameExist" message="tns:IEPayBillingWCFService_IsUploadFileNameExist_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayBillingWCFService/IsUploadFileNameExistResponse" message="tns:IEPayBillingWCFService_IsUploadFileNameExist_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayBillingWCFService/IsUploadFileNameExistBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayBillingWCFService_IsUploadFileNameExist_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAgentPaymentService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayBillingWCFService/GetAgentPaymentService" message="tns:IEPayBillingWCFService_GetAgentPaymentService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayBillingWCFService/GetAgentPaymentServiceResponse" message="tns:IEPayBillingWCFService_GetAgentPaymentService_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayBillingWCFService/GetAgentPaymentServiceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayBillingWCFService_GetAgentPaymentService_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertAgentPaymentService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayBillingWCFService/InsertAgentPaymentService" message="tns:IEPayBillingWCFService_InsertAgentPaymentService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayBillingWCFService/InsertAgentPaymentServiceResponse" message="tns:IEPayBillingWCFService_InsertAgentPaymentService_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayBillingWCFService/InsertAgentPaymentServiceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayBillingWCFService_InsertAgentPaymentService_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PrintGreenBill">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayBillingWCFService/PrintGreenBill" message="tns:IEPayBillingWCFService_PrintGreenBill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayBillingWCFService/PrintGreenBillResponse" message="tns:IEPayBillingWCFService_PrintGreenBill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayBillingWCFService/PrintGreenBillBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayBillingWCFService_PrintGreenBill_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveClearify">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayBillingWCFService/SaveClearify" message="tns:IEPayBillingWCFService_SaveClearify_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayBillingWCFService/SaveClearifyResponse" message="tns:IEPayBillingWCFService_SaveClearify_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayBillingWCFService/SaveClearifyBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayBillingWCFService_SaveClearify_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchAgentPayment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayBillingWCFService/SearchAgentPayment" message="tns:IEPayBillingWCFService_SearchAgentPayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayBillingWCFService/SearchAgentPaymentResponse" message="tns:IEPayBillingWCFService_SearchAgentPayment_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayBillingWCFService/SearchAgentPaymentBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayBillingWCFService_SearchAgentPayment_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertCancelPayment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEPayBillingWCFService/InsertCancelPayment" message="tns:IEPayBillingWCFService_InsertCancelPayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEPayBillingWCFService/InsertCancelPaymentResponse" message="tns:IEPayBillingWCFService_InsertCancelPayment_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IEPayBillingWCFService/InsertCancelPaymentBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IEPayBillingWCFService_InsertCancelPayment_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

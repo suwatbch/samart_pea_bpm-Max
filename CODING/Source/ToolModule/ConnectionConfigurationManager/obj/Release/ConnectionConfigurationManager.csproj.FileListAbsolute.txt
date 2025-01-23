@@ -1,0 +1,30 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\ConnectionConfigurationManager.exe.config
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\ConnectionConfigurationManager.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\ConnectionConfigurationManager.XmlSerializers.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\protobuf-net.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Release\Tool.ConnectionConfigurationManager.SettingForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Release\Tool.ConnectionConfigurationManager.Properties.Resources.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Release\ConnectionConfigurationManager.csproj.GenerateResource.Cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Release\ConnectionConfigurationManager.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Release\ConnectionConfigurationManager.XmlSerializers.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\ConnectionConfigurationManager.exe.config
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\ConnectionConfigurationManager.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\ConnectionConfigurationManager.XmlSerializers.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\Architecture.CommonUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\bin\Release\protobuf-net.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Release\Tool.ConnectionConfigurationManager.SettingForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Release\Tool.ConnectionConfigurationManager.Properties.Resources.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Release\ConnectionConfigurationManager.csproj.GenerateResource.Cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Release\ConnectionConfigurationManager.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ConnectionConfigurationManager\obj\Release\ConnectionConfigurationManager.XmlSerializers.dll

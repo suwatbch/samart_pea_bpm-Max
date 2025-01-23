@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/PaymentMnt/PaymentMntWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/PaymentMnt/PaymentMntWCFService.svc?xsd=xsd3" />
+      <xsd:import schemaLocation="http://localhost/BPMService/PaymentMnt/PaymentMntWCFService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/PaymentMnt/PaymentMntWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/PaymentMnt/PaymentMntWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/PaymentMnt/PaymentMntWCFService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.PaymentManagementModule.Interface.BusinessEntities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPaymentMntWCFService_GetMoneyInTray_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMoneyInTray_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_GetMoneyInTray_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_GetMoneyInTray_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMoneyInTray_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_GetMoneyInTray_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_GetCaNameByPaymentVoucher_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCaNameByPaymentVoucher_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_GetCaNameByPaymentVoucher_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_GetCaNameByPaymentVoucher_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCaNameByPaymentVoucher_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_GetCaNameByPaymentVoucher_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_SearchPaidPaymentVoucher_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPaidPaymentVoucher_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_SearchPaidPaymentVoucher_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_SearchPaidPaymentVoucher_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPaidPaymentVoucher_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_SearchPaidPaymentVoucher_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_PayAP_Compress_InputMessage">
+    <wsdl:part name="parameters" element="tns:PayAP_Compress" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_PayAP_Compress_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_PayAP_Compress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PayAP_CompressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_PayAP_Compress_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_SearchPaymentVoucher_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPaymentVoucher" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_SearchPaymentVoucher_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_SearchPaymentVoucher_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPaymentVoucherResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_SearchPaymentVoucher_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_UpdateAPByStrLineAPId_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAPByStrLineAPId" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_UpdateAPByStrLineAPId_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_UpdateAPByStrLineAPId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAPByStrLineAPIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentMntWCFService_UpdateAPByStrLineAPId_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="IPaymentMntWCFService">
+    <wsdl:operation name="GetMoneyInTray_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentMntWCFService/GetMoneyInTray_Compress" message="tns:IPaymentMntWCFService_GetMoneyInTray_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentMntWCFService/GetMoneyInTray_CompressResponse" message="tns:IPaymentMntWCFService_GetMoneyInTray_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IPaymentMntWCFService/GetMoneyInTray_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IPaymentMntWCFService_GetMoneyInTray_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCaNameByPaymentVoucher_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentMntWCFService/GetCaNameByPaymentVoucher_Compress" message="tns:IPaymentMntWCFService_GetCaNameByPaymentVoucher_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentMntWCFService/GetCaNameByPaymentVoucher_CompressResponse" message="tns:IPaymentMntWCFService_GetCaNameByPaymentVoucher_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IPaymentMntWCFService/GetCaNameByPaymentVoucher_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IPaymentMntWCFService_GetCaNameByPaymentVoucher_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchPaidPaymentVoucher_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentMntWCFService/SearchPaidPaymentVoucher_Compress" message="tns:IPaymentMntWCFService_SearchPaidPaymentVoucher_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentMntWCFService/SearchPaidPaymentVoucher_CompressResponse" message="tns:IPaymentMntWCFService_SearchPaidPaymentVoucher_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IPaymentMntWCFService/SearchPaidPaymentVoucher_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IPaymentMntWCFService_SearchPaidPaymentVoucher_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PayAP_Compress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentMntWCFService/PayAP_Compress" message="tns:IPaymentMntWCFService_PayAP_Compress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentMntWCFService/PayAP_CompressResponse" message="tns:IPaymentMntWCFService_PayAP_Compress_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IPaymentMntWCFService/PayAP_CompressBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IPaymentMntWCFService_PayAP_Compress_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchPaymentVoucher">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentMntWCFService/SearchPaymentVoucher" message="tns:IPaymentMntWCFService_SearchPaymentVoucher_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentMntWCFService/SearchPaymentVoucherResponse" message="tns:IPaymentMntWCFService_SearchPaymentVoucher_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IPaymentMntWCFService/SearchPaymentVoucherBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IPaymentMntWCFService_SearchPaymentVoucher_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAPByStrLineAPId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentMntWCFService/UpdateAPByStrLineAPId" message="tns:IPaymentMntWCFService_UpdateAPByStrLineAPId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentMntWCFService/UpdateAPByStrLineAPIdResponse" message="tns:IPaymentMntWCFService_UpdateAPByStrLineAPId_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IPaymentMntWCFService/UpdateAPByStrLineAPIdBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IPaymentMntWCFService_UpdateAPByStrLineAPId_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

@@ -1,0 +1,1082 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{90BDD57C-CC42-4D47-A975-63F315C61F78}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PEA.BPM.PaymentCollectionModule</RootNamespace>
+    <AssemblyName>PaymentCollectionModule</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BPMSAPConnector, Version=1.0.3182.20251, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\BPMSAPConnector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.CompositeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI.WinForms, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.75.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=4.1.75.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51206.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder2, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.ObjectBuilder2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="protobuf-net, Version=1.0.0.280, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="SAP.Connector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=50436dca5c7f7d23">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\SAP.Connector.dll</HintPath>
+    </Reference>
+    <Reference Include="SAP.Connector.Rfc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=50436dca5c7f7d23">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\SAP.Connector.Rfc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BillSearchResultController.cs" />
+    <Compile Include="BranchDayClosingController.cs" />
+    <Compile Include="NewPaymentItemController.cs" />
+    <Compile Include="ElectricPaymentController.cs" />
+    <Compile Include="InterestInquiryController.cs" />
+    <Compile Include="ModuleHelper.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="QueueRequestController.cs" />
+    <Compile Include="ReceiptReprintingController.cs" />
+    <Compile Include="RemeterController.cs" />
+    <Compile Include="ReportBankQRPaymentController.cs" />
+    <Compile Include="ReportController.cs" />
+    <Compile Include="PaymentCancellationController.cs" />
+    <Compile Include="PaymentCollectionController.cs" />
+    <Compile Include="ModuleController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Constants\CommandNames.cs" />
+    <Compile Include="Constants\EventTopicNames.cs" />
+    <Compile Include="Constants\UIExtensionSiteNames.cs" />
+    <Compile Include="Constants\WorkspaceNames.cs" />
+    <Compile Include="Module.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\APCriteriaView\APCriteriaView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\APCriteriaView\APCriteriaView.Designer.cs">
+      <DependentUpon>APCriteriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\APCriteriaView\APCriteriaViewPresenter.cs" />
+    <Compile Include="ReportViews\APCriteriaView\IAPCriteriaView.cs" />
+    <Compile Include="ReportViews\CAC01CriteriaView\CAC01CriteriaView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\CAC01CriteriaView\CAC01CriteriaView.Designer.cs">
+      <DependentUpon>CAC01CriteriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\CAC01CriteriaView\CAC01CriteriaViewPresenter.cs" />
+    <Compile Include="ReportViews\CAC01CriteriaView\ICAC01CriteriaView.cs" />
+    <Compile Include="ReportViews\CAC03CriteriaView\CAC03CriteriaView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\CAC03CriteriaView\CAC03CriteriaView.Designer.cs">
+      <DependentUpon>CAC03CriteriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\CAC03CriteriaView\CAC03CriteriaViewPresenter.cs" />
+    <Compile Include="ReportViews\CAC03CriteriaView\ICAC03CriteriaView.cs" />
+    <Compile Include="ReportViews\CAC04CriteriaView\CAC04CriteriaView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\CAC04CriteriaView\CAC04CriteriaView.Designer.cs">
+      <DependentUpon>CAC04CriteriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\CAC04CriteriaView\CAC04CriteriaViewPresenter.cs" />
+    <Compile Include="ReportViews\CAC04CriteriaView\ICAC04CriteriaView.cs" />
+    <Compile Include="ReportViews\CAC05CriteriaView\CAC05CriteriaView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\CAC05CriteriaView\CAC05CriteriaView.Designer.cs">
+      <DependentUpon>CAC05CriteriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\CAC05CriteriaView\CAC05CriteriaViewPresenter.cs" />
+    <Compile Include="ReportViews\CAC05CriteriaView\ICAC05CriteriaView.cs" />
+    <Compile Include="ReportViews\CAC06CriteriaView\CAC06CriteriaView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\CAC06CriteriaView\CAC06CriteriaView.Designer.cs">
+      <DependentUpon>CAC06CriteriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\CAC06CriteriaView\CAC06CriteriaViewPresenter.cs" />
+    <Compile Include="ReportViews\CAC06CriteriaView\ICAC06CriteriaView.cs" />
+    <Compile Include="ReportViews\CAC07CriteriaView\CAC07CriteriaView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\CAC07CriteriaView\CAC07CriteriaView.Designer.cs">
+      <DependentUpon>CAC07CriteriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\CAC07CriteriaView\CAC07CriteriaViewPresenter.cs" />
+    <Compile Include="ReportViews\CAC07CriteriaView\ICAC07CriteriaView.cs" />
+    <Compile Include="ReportViews\CAC09CriteriaView\CAC09CriteriaView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\CAC09CriteriaView\CAC09CriteriaView.Designer.cs">
+      <DependentUpon>CAC09CriteriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\CAC09CriteriaView\CAC09CriteriaViewPresenter.cs" />
+    <Compile Include="ReportViews\CAC09CriteriaView\ICAC09CriteriaView.cs" />
+    <Compile Include="ReportViews\CAC11CriteriaView\CAC11CriteriaView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\CAC11CriteriaView\CAC11CriteriaView.Designer.cs">
+      <DependentUpon>CAC11CriteriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\CAC11CriteriaView\CAC11CriteriaViewPresenter.cs" />
+    <Compile Include="ReportViews\CAC11CriteriaView\ICAC11CriteriaView.cs" />
+    <Compile Include="ReportViews\CAC12CriteriaView\CAC12CriteriaView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\CAC12CriteriaView\CAC12CriteriaView.Designer.cs">
+      <DependentUpon>CAC12CriteriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\CAC12CriteriaView\CAC12CriteriaViewPresenter.cs" />
+    <Compile Include="ReportViews\CAC12CriteriaView\ICAC12CriteriaView.cs" />
+    <Compile Include="ReportViews\CAC13CriteriaView\CAC13CriteriaView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\CAC13CriteriaView\CAC13CriteriaView.Designer.cs">
+      <DependentUpon>CAC13CriteriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\CAC13CriteriaView\CAC13CriteriaViewPresenter.cs" />
+    <Compile Include="ReportViews\CAC13CriteriaView\ICAC13CriteriaView.cs" />
+    <Compile Include="ReportViews\CAC14CriteriaView\CAC14CriteriaView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\CAC14CriteriaView\CAC14CriteriaView.Designer.cs">
+      <DependentUpon>CAC14CriteriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\CAC14CriteriaView\CAC14CriteriaViewPresenter.cs" />
+    <Compile Include="ReportViews\CAC14CriteriaView\ICAC14CriteriaView.cs" />
+    <Compile Include="ReportViews\CAC15CriteriaView\CAC15CriteriaView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\CAC15CriteriaView\CAC15CriteriaView.Designer.cs">
+      <DependentUpon>CAC15CriteriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\CAC15CriteriaView\CAC15CriteriaViewPresenter.cs" />
+    <Compile Include="ReportViews\CAC15CriteriaView\ICAC15CriteriaView.cs" />
+    <Compile Include="ReportViews\CAC16CriteriaView\CAC16CriteriaView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\CAC16CriteriaView\CAC16CriteriaView.Designer.cs">
+      <DependentUpon>CAC16CriteriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\CAC16CriteriaView\CAC16CriteriaViewPresenter.cs" />
+    <Compile Include="ReportViews\CAC16CriteriaView\ICAC16CriteriaView.cs" />
+    <Compile Include="ReportViews\CAC18CriteriaView\CAC18CriteriaView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\CAC18CriteriaView\CAC18CriteriaView.Designer.cs">
+      <DependentUpon>CAC18CriteriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\CAC18CriteriaView\CAC18CriteriaViewPresenter.cs" />
+    <Compile Include="ReportViews\CAC18CriteriaView\ICAC18CriteriaView.cs" />
+    <Compile Include="ReportViews\CAC19CriteriaView\CAC19CriteriaViewPresenter.cs" />
+    <Compile Include="ReportViews\CAC19CriteriaView\ICAC19CriteriaView.cs" />
+    <Compile Include="ReportViews\CAC19CriteriaView\CAC19CriteriaView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\CAC19CriteriaView\CAC19CriteriaView.Designer.cs">
+      <DependentUpon>CAC19CriteriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\ResultViewCenter\IReportContainerView.cs" />
+    <Compile Include="ReportViews\ResultViewCenter\ReportContainerView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\ResultViewCenter\ReportContainerView.Designer.cs">
+      <DependentUpon>ReportContainerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\ResultViewCenter\ReportContainerViewPresenter.cs" />
+    <Compile Include="ReportViews\ResultView\IResultView.cs" />
+    <Compile Include="ReportViews\ResultView\ResultView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViews\ResultView\ResultView.Designer.cs">
+      <DependentUpon>ResultView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViews\ResultView\ResultViewPresenter.cs" />
+    <Compile Include="Services\BillingService.cs" />
+    <Compile Include="Services\PaidBillService.cs" />
+    <Compile Include="Services\ReportService.cs" />
+    <Compile Include="Views\AdvancedPaymentView\AdvancedPaymentView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\AdvancedPaymentView\AdvancedPaymentView.Designer.cs">
+      <DependentUpon>AdvancedPaymentView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AdvancedPaymentView\AdvancedPaymentViewPresenter.cs" />
+    <Compile Include="Views\AdvancedPaymentView\BillBookSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AdvancedPaymentView\BillBookSearchForm.Designer.cs">
+      <DependentUpon>BillBookSearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AdvancedPaymentView\IAdvancedPaymentView.cs" />
+    <Compile Include="Views\BillDetailView\BillDetailView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\BillDetailView\BillDetailView.Designer.cs">
+      <DependentUpon>BillDetailView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BillDetailView\BillDetailViewPresenter.cs" />
+    <Compile Include="Views\BillDetailView\IBillDetailView.cs" />
+    <Compile Include="Views\BillSearchResultView\BillSearchResultView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\BillSearchResultView\BillSearchResultView.Designer.cs">
+      <DependentUpon>BillSearchResultView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BillSearchResultView\BillSearchResultViewPresenter.cs" />
+    <Compile Include="Views\BillSearchResultView\IBillSearchResultView.cs" />
+    <Compile Include="Views\BillSearchView\BillSearchView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\BillSearchView\BillSearchView.Designer.cs">
+      <DependentUpon>BillSearchView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BillSearchView\BillSearchViewPresenter.cs" />
+    <Compile Include="Views\BillSearchView\OneTouchSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\BillSearchView\OneTouchSearchForm.Designer.cs">
+      <DependentUpon>OneTouchSearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BillSearchView\IBillSearchView.cs" />
+    <Compile Include="Views\BillSearchView\SAPSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\BillSearchView\SAPSearchForm.Designer.cs">
+      <DependentUpon>SAPSearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BookSearchResultView\BookSearchResultView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\BookSearchResultView\BookSearchResultView.Designer.cs">
+      <DependentUpon>BookSearchResultView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BookSearchResultView\BookSearchResultViewPresenter.cs" />
+    <Compile Include="Views\BookSearchResultView\IBookSearchResultView.cs" />
+    <Compile Include="Views\BookSearchView\BookSearchView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\BookSearchView\BookSearchView.Designer.cs">
+      <DependentUpon>BookSearchView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BookSearchView\BookSearchViewPresenter.cs" />
+    <Compile Include="Views\BookSearchView\IBookSearchView.cs" />
+    <Compile Include="Views\PaymentMethodSelectionView\PaymentOfflineInterface.cs" />
+    <Compile Include="Views\PaymentMethodSelectionView\PaymentOfflineMonitor.cs" />
+    <Compile Include="Views\QRPaymentView\IQRPaymentView.cs" />
+    <Compile Include="Views\QRPaymentView\QRPaymentView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\QRPaymentView\QRPaymentView.Designer.cs">
+      <DependentUpon>QRPaymentView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QRPaymentView\QRPaymentViewPresenter.cs" />
+    <Compile Include="Views\ReceiptGenerateResultView\ReceiptGenerateResultView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ReceiptGenerateResultView\ReceiptGenerateResultView.Designer.cs">
+      <DependentUpon>ReceiptGenerateResultView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReceiptGenerateResultView\ReceiptGenerateResultViewPresenter.cs">
+    </Compile>
+    <Compile Include="Views\ReceiptGenerateResultView\IReceiptGenerateResultView.cs" />
+    <Compile Include="Views\ReceiptGeneratetSearchView\ReceiptGeneratetSearchView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ReceiptGeneratetSearchView\ReceiptGeneratetSearchView.Designer.cs">
+      <DependentUpon>ReceiptGeneratetSearchView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReceiptGeneratetSearchView\ReceiptGeneratetSearchViewPresenter.cs" />
+    <Compile Include="Views\ReceiptGeneratetSearchView\IReceiptGeneratetSearchView.cs" />
+    <Compile Include="Views\CustomerSearchView\CustomerSearchView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CustomerSearchView\CustomerSearchView.Designer.cs">
+      <DependentUpon>CustomerSearchView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CustomerSearchView\CustomerSearchViewPresenter.cs" />
+    <Compile Include="Views\CustomerSearchView\ICustomerSearchView.cs" />
+    <Compile Include="Views\DayClosingView\DayClosingView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\DayClosingView\DayClosingView.Designer.cs">
+      <DependentUpon>DayClosingView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DayClosingView\DayClosingViewPresenter.cs" />
+    <Compile Include="Views\DayClosingView\IDayClosingView.cs" />
+    <Compile Include="Views\ElectricPaymentView\ElectricPaymentView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ElectricPaymentView\ElectricPaymentView.Designer.cs">
+      <DependentUpon>ElectricPaymentView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ElectricPaymentView\ElectricPaymentViewPresenter.cs" />
+    <Compile Include="Views\ElectricPaymentView\IElectricPaymentView.cs" />
+    <Compile Include="Views\InterestInquiryResultView\IInterestInquiryResultView.cs" />
+    <Compile Include="Views\InterestInquiryResultView\InterestInquiryResultView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\InterestInquiryResultView\InterestInquiryResultView.Designer.cs">
+      <DependentUpon>InterestInquiryResultView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InterestInquiryResultView\InterestInquiryResultViewPresenter.cs" />
+    <Compile Include="Views\InterestInquiryResultView\TargetDateSelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\InterestInquiryResultView\TargetDateSelectionForm.Designer.cs">
+      <DependentUpon>TargetDateSelectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InvoiceDetailView\IInvoiceDetailView.cs" />
+    <Compile Include="Views\InvoiceDetailView\InvoiceDetailView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\InvoiceDetailView\InvoiceDetailView.Designer.cs">
+      <DependentUpon>InvoiceDetailView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InvoiceDetailView\InvoiceDetailViewPresenter.cs" />
+    <Compile Include="Views\NewPaymentItemView\INewPaymentItemView.cs" />
+    <Compile Include="Views\NewPaymentItemView\NewPaymentItemView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\NewPaymentItemView\NewPaymentItemView.Designer.cs">
+      <DependentUpon>NewPaymentItemView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewPaymentItemView\NewPaymentItemViewPresenter.cs" />
+    <Compile Include="Views\PaymentHistoryView\DebtDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\PaymentHistoryView\DebtDetailForm.Designer.cs">
+      <DependentUpon>DebtDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PaymentHistoryView\IPaymentHistoryView.cs" />
+    <Compile Include="Views\PaymentHistoryView\PaymentHistoryView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\PaymentHistoryView\PaymentHistoryView.Designer.cs">
+      <DependentUpon>PaymentHistoryView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PaymentHistoryView\PaymentHistoryViewPresenter.cs" />
+    <Compile Include="Views\PaymentItemLinkView\IPaymentItemLinkView.cs" />
+    <Compile Include="Views\PaymentItemLinkView\PaymentItemLinkView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\PaymentItemLinkView\PaymentItemLinkView.Designer.cs">
+      <DependentUpon>PaymentItemLinkView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PaymentItemLinkView\PaymentItemLinkViewPresenter.cs" />
+    <Compile Include="Views\PaymentMethodSelectionView\AllocationDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\PaymentMethodSelectionView\AllocationDetailForm.Designer.cs">
+      <DependentUpon>AllocationDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PaymentMethodSelectionView\BankSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\PaymentMethodSelectionView\BankSearchForm.Designer.cs">
+      <DependentUpon>BankSearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PaymentMethodSelectionView\ChequeAllocationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\PaymentMethodSelectionView\ChequeAllocationForm.Designer.cs">
+      <DependentUpon>ChequeAllocationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PaymentMethodSelectionView\IPaymentMethodSelectionView.cs" />
+    <Compile Include="Views\PaymentMethodSelectionView\PaymentMethodSelectionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\PaymentMethodSelectionView\PaymentMethodSelectionView.Designer.cs">
+      <DependentUpon>PaymentMethodSelectionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PaymentMethodSelectionView\PaymentMethodSelectionViewPresenter.cs" />
+    <Compile Include="Views\PaymentMethodSelectionView\ScreenType.cs" />
+    <Compile Include="Views\ReceiptSearchResultView\IReceiptSearchResultView.cs" />
+    <Compile Include="Views\ReceiptSearchResultView\ReceiptSearchResultView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ReceiptSearchResultView\ReceiptSearchResultView.Designer.cs">
+      <DependentUpon>ReceiptSearchResultView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReceiptSearchResultView\ReceiptSearchResultViewPresenter.cs" />
+    <Compile Include="Views\ReceiptSearchView\IReceiptSearchView.cs" />
+    <Compile Include="Views\ReceiptSearchView\ReceiptSearchView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ReceiptSearchView\ReceiptSearchView.Designer.cs">
+      <DependentUpon>ReceiptSearchView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReceiptSearchView\ReceiptSearchViewPresenter.cs" />
+    <Compile Include="Views\RemeterView\IRemeterView.cs" />
+    <Compile Include="Views\RemeterView\RemeterView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\RemeterView\RemeterView.Designer.cs">
+      <DependentUpon>RemeterView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RemeterView\RemeterViewPresenter.cs" />
+    <Compile Include="Views\SearchMultiDocView\ISearchMultiDataView.cs" />
+    <Compile Include="Views\SearchMultiDocView\SearchMultiDataView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\SearchMultiDocView\SearchMultiDataView.Designer.cs">
+      <DependentUpon>SearchMultiDataView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SearchMultiDocView\SearchMultiDataViewPresenter.cs" />
+    <Compile Include="Views\SlipHeaderUpdatingView\ISlipHeaderUpdatingView.cs" />
+    <Compile Include="Views\SlipHeaderUpdatingView\SlipHeaderUpdatingView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\SlipHeaderUpdatingView\SlipHeaderUpdatingView.Designer.cs">
+      <DependentUpon>SlipHeaderUpdatingView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SlipHeaderUpdatingView\SlipHeaderUpdatingViewPresenter.cs" />
+    <Compile Include="Views\SlipPrePrintingView\Running.cs" />
+    <Compile Include="Views\SlipPrePrintingView\ReceiptNoPrefix.cs" />
+    <Compile Include="Views\SlipPrePrintingView\ISlipPrePrintingView.cs" />
+    <Compile Include="Views\SlipPrePrintingView\SlipPrePrintingView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\SlipPrePrintingView\SlipPrePrintingView.Designer.cs">
+      <DependentUpon>SlipPrePrintingView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SlipPrePrintingView\SlipPrePrintingViewPresenter.cs" />
+    <Compile Include="Views\SlipPrintingView\Fp410Printer.cs" />
+    <Compile Include="Views\SlipPrintingView\Fp410Receipt\AGAdvanceReceipt.cs" />
+    <Compile Include="Views\SlipPrintingView\Fp410Receipt\AGSubmitReceipt.cs" />
+    <Compile Include="Views\SlipPrintingView\Fp410Receipt\Printer.cs" />
+    <Compile Include="Views\SlipPrintingView\Fp410Receipt\Receipt.cs" />
+    <Compile Include="Views\SlipPrintingView\Fp410Receipt\SlipPOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SlipPrintingView\Fp410Receipt\SlipPOS.Designer.cs">
+      <DependentUpon>SlipPOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SlipPrintingView\Fp410Receipt\TaxReceipt.cs" />
+    <Compile Include="Views\SlipPrintingView\Fp410Receipt\ElectricReceipt.cs" />
+    <Compile Include="Views\SlipPrintingView\Fp410Receipt\NonTaxReceipt.cs" />
+    <Compile Include="Views\SlipPrintingView\Fp410Receipt\ReceiptBase.cs" />
+    <Compile Include="Views\SlipPrintingView\GroupInvoicingReport\GroupInvoicingReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\SlipPrintingView\GroupInvoicingReport\GroupInvoicingReport.Designer.cs">
+      <DependentUpon>GroupInvoicingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SlipPrintingView\GroupInvoicingReport\GroupInvoicingReportPresenter.cs" />
+    <Compile Include="Views\SlipPrintingView\GroupInvoicingReport\IGroupInvoicingReport.cs" />
+    <Compile Include="Views\SlipPrintingView\PeaLogo.cs" />
+    <Compile Include="Views\SlipPrintingView\ISlipPrintingView.cs" />
+    <Compile Include="Views\SlipPrintingView\PreprintedReceipt\Detail.cs" />
+    <Compile Include="Views\SlipPrintingView\PreprintedReceipt\ElectricReceipt.cs" />
+    <Compile Include="Views\SlipPrintingView\PreprintedReceipt\GroupInvoiceReport.cs" />
+    <Compile Include="Views\SlipPrintingView\PreprintedReceipt\Header.cs" />
+    <Compile Include="Views\SlipPrintingView\PreprintedReceipt\Preview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SlipPrintingView\PreprintedReceipt\Preview.Designer.cs">
+      <DependentUpon>Preview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SlipPrintingView\PreprintedReceipt\ReceiptPaymentMethod.cs" />
+    <Compile Include="Views\SlipPrintingView\PreprintedReceipt\ReportPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SlipPrintingView\PreprintedReceipt\ReportPreview.Designer.cs">
+      <DependentUpon>ReportPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SlipPrintingView\PrinterSelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SlipPrintingView\PrinterSelectionForm.Designer.cs">
+      <DependentUpon>PrinterSelectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SlipPrintingView\SlipPrinting.cs" />
+    <Compile Include="Views\SlipPrintingView\SlipPrintingMonitor.cs" />
+    <Compile Include="Views\SlipPrintingView\SlipPrintingView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\SlipPrintingView\SlipPrintingView.Designer.cs">
+      <DependentUpon>SlipPrintingView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SlipPrintingView\SlipPrintingViewPresenter.cs" />
+    <Compile Include="Views\ToBeCancelledPaymentView\IToBeCancelledPaymentView.cs" />
+    <Compile Include="Views\ToBeCancelledPaymentView\ToBeCancelledPaymentView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ToBeCancelledPaymentView\ToBeCancelledPaymentView.Designer.cs">
+      <DependentUpon>ToBeCancelledPaymentView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ToBeCancelledPaymentView\ToBeCancelledPaymentViewPresenter.cs" />
+    <Compile Include="Views\ToBeCancelledReceiptView\CancelSummaryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ToBeCancelledReceiptView\CancelSummaryForm.Designer.cs">
+      <DependentUpon>CancelSummaryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ToBeCancelledReceiptView\IToBeCancelledReceiptView.cs" />
+    <Compile Include="Views\ToBeCancelledReceiptView\ToBeCancelledReceiptView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ToBeCancelledReceiptView\ToBeCancelledReceiptView.Designer.cs">
+      <DependentUpon>ToBeCancelledReceiptView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ToBeCancelledReceiptView\ToBeCancelledReceiptViewPresenter.cs" />
+    <Compile Include="Views\ToBePaidBillBookView\IToBePaidBillBookView.cs" />
+    <Compile Include="Views\ToBePaidBillBookView\ToBePaidBillBookView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ToBePaidBillBookView\ToBePaidBillBookView.Designer.cs">
+      <DependentUpon>ToBePaidBillBookView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ToBePaidBillBookView\ToBePaidBillBookViewPresenter.cs" />
+    <Compile Include="Views\ToBePaidInvoiceView\DisconnectionStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ToBePaidInvoiceView\DisconnectionStatus.Designer.cs">
+      <DependentUpon>DisconnectionStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ToBePaidInvoiceView\IToBePaidInvoiceView.cs" />
+    <Compile Include="Views\ToBePaidInvoiceView\ToBePaidInvoiceView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ToBePaidInvoiceView\ToBePaidInvoiceView.Designer.cs">
+      <DependentUpon>ToBePaidInvoiceView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ToBePaidInvoiceView\ToBePaidInvoiceViewPresenter.cs" />
+    <Compile Include="Views\ToBePaidInvoiceView\ValidatePaymentActive.cs" />
+    <Compile Include="Views\ToBeReprintedView\IToBeReprintedView.cs" />
+    <Compile Include="Views\ToBeReprintedView\ToBeReprintedView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ToBeReprintedView\ToBeReprintedView.Designer.cs">
+      <DependentUpon>ToBeReprintedView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ToBeReprintedView\ToBeReprintedViewPresenter.cs" />
+    <Compile Include="Views\ToBeReprintedView\ToBeReprintedReceipt.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(SolutionDir)\Source\Infrastructure\Infrastructure.Interface\Infrastructure.Interface.csproj">
+      <Project>{a6e71dbf-a767-416c-9de4-15aefc619baf}</Project>
+      <Name>Infrastructure.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\ArchitectureInterface\ArchitectureInterface.csproj">
+      <Project>{7939F32D-01C5-45B5-A545-3EEE99017A7E}</Project>
+      <Name>ArchitectureInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\ArchitectureTool\ArchitectureTool.csproj">
+      <Project>{CD6283A4-2D09-4DB4-9354-7AC912A8C9D5}</Project>
+      <Name>ArchitectureTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\CommonUtilities\CommonUtilities.csproj">
+      <Project>{1A6B6E40-2DD5-4CB8-B766-B61AA237701B}</Project>
+      <Name>CommonUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\PrintUtilities\PrintUtilities.csproj">
+      <Project>{535EF6D0-B698-4FB9-A387-7E8215AAC36B}</Project>
+      <Name>PrintUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CashManagementModule\CashManagementModule.Interface\CashManagementModule.Interface.csproj">
+      <Project>{E0AFD613-2C8A-49A8-9551-0C0222864AEC}</Project>
+      <Name>CashManagementModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Infrastructure.Layout\Infrastructure.Layout.csproj">
+      <Project>{DB6A190D-3643-451A-8F70-D00C47376164}</Project>
+      <Name>Infrastructure.Layout</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Infrastructure.Library\Infrastructure.Library.csproj">
+      <Project>{FCC7759A-96EB-4549-B0EB-D4905323E736}</Project>
+      <Name>Infrastructure.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PaymentCollectionModule.Interface\PaymentCollectionModule.Interface.csproj">
+      <Project>{20245E21-61E9-4B4D-86D2-87A23FDC051F}</Project>
+      <Name>PaymentCollectionModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PaymentCollectionModule.SG\PaymentCollectionModule.SG.csproj">
+      <Project>{932A4AEB-5D62-4514-9A07-D9A8C2CC5276}</Project>
+      <Name>PaymentCollectionModule.SG</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CAC01_1Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC01_2Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC03_1Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC03_2Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC03_3Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC03_4Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC04_1Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC04_2Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC04_3Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC04_4Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC05_1Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC06_1Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC06_3Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC06_2Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC07_1Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC07_2Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC09_1Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC09_2Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC11Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC12Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC13Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC14Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC05_2Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC15Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC16Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC18Report.rdlc" />
+    <EmbeddedResource Include="Reports\CAC19Report.rdlc" />
+    <EmbeddedResource Include="ReportViews\APCriteriaView\APCriteriaView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>APCriteriaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViews\CAC01CriteriaView\CAC01CriteriaView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CAC01CriteriaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViews\CAC03CriteriaView\CAC03CriteriaView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CAC03CriteriaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViews\CAC04CriteriaView\CAC04CriteriaView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CAC04CriteriaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViews\CAC05CriteriaView\CAC05CriteriaView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CAC05CriteriaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViews\CAC06CriteriaView\CAC06CriteriaView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CAC06CriteriaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViews\CAC07CriteriaView\CAC07CriteriaView.resx">
+      <DependentUpon>CAC07CriteriaView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViews\CAC09CriteriaView\CAC09CriteriaView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CAC09CriteriaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViews\CAC11CriteriaView\CAC11CriteriaView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CAC11CriteriaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViews\CAC12CriteriaView\CAC12CriteriaView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CAC12CriteriaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViews\CAC13CriteriaView\CAC13CriteriaView.resx">
+      <DependentUpon>CAC13CriteriaView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViews\CAC14CriteriaView\CAC14CriteriaView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CAC14CriteriaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViews\CAC15CriteriaView\CAC15CriteriaView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CAC15CriteriaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViews\CAC16CriteriaView\CAC16CriteriaView.resx">
+      <DependentUpon>CAC16CriteriaView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViews\CAC18CriteriaView\CAC18CriteriaView.resx">
+      <DependentUpon>CAC18CriteriaView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViews\CAC19CriteriaView\CAC19CriteriaView.resx">
+      <DependentUpon>CAC19CriteriaView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViews\ResultViewCenter\ReportContainerView.resx">
+      <DependentUpon>ReportContainerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViews\ResultView\ResultView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ResultView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AdvancedPaymentView\AdvancedPaymentView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AdvancedPaymentView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AdvancedPaymentView\BillBookSearchForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BillBookSearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BillDetailView\BillDetailView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BillDetailView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BillSearchResultView\BillSearchResultView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BillSearchResultView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BillSearchView\BillSearchView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BillSearchView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BillSearchView\OneTouchSearchForm.resx">
+      <DependentUpon>OneTouchSearchForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BillSearchView\SAPSearchForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SAPSearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BookSearchResultView\BookSearchResultView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BookSearchResultView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BookSearchView\BookSearchView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BookSearchView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\QRPaymentView\QRPaymentView.resx">
+      <DependentUpon>QRPaymentView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReceiptGenerateResultView\ReceiptGenerateResultView.resx">
+      <DependentUpon>ReceiptGenerateResultView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReceiptGeneratetSearchView\ReceiptGeneratetSearchView.resx">
+      <DependentUpon>ReceiptGeneratetSearchView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CustomerSearchView\CustomerSearchView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CustomerSearchView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DayClosingView\DayClosingView.resx">
+      <DependentUpon>DayClosingView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ElectricPaymentView\ElectricPaymentView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ElectricPaymentView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\InterestInquiryResultView\InterestInquiryResultView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InterestInquiryResultView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\InterestInquiryResultView\TargetDateSelectionForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TargetDateSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\InvoiceDetailView\InvoiceDetailView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InvoiceDetailView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\NewPaymentItemView\NewPaymentItemView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewPaymentItemView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PaymentHistoryView\DebtDetailForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DebtDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PaymentHistoryView\PaymentHistoryView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PaymentHistoryView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PaymentItemLinkView\PaymentItemLinkView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PaymentItemLinkView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PaymentMethodSelectionView\AllocationDetailForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AllocationDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PaymentMethodSelectionView\BankSearchForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BankSearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PaymentMethodSelectionView\ChequeAllocationForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChequeAllocationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PaymentMethodSelectionView\PaymentMethodSelectionView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PaymentMethodSelectionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReceiptSearchResultView\ReceiptSearchResultView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReceiptSearchResultView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReceiptSearchView\ReceiptSearchView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReceiptSearchView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\RemeterView\RemeterView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RemeterView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SearchMultiDocView\SearchMultiDataView.resx">
+      <DependentUpon>SearchMultiDataView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SlipHeaderUpdatingView\SlipHeaderUpdatingView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SlipHeaderUpdatingView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SlipPrePrintingView\SlipPrePrintingView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SlipPrePrintingView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SlipPrintingView\Fp410Receipt\Receipt.rdlc" />
+    <EmbeddedResource Include="Views\SlipPrintingView\Fp410Receipt\SlipPOS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SlipPOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SlipPrintingView\GroupInvoicingReport\GroupInvoicingReport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GroupInvoicingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SlipPrintingView\PreprintedReceipt\Preprinted.rdlc" />
+    <EmbeddedResource Include="Views\SlipPrintingView\PreprintedReceipt\Preview.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Preview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SlipPrintingView\PreprintedReceipt\ReportPreview.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SlipPrintingView\PreprintedReceipt\Temp.rdlc" />
+    <EmbeddedResource Include="Views\SlipPrintingView\PrinterSelectionForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrinterSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SlipPrintingView\SlipPrintingView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SlipPrintingView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ToBeCancelledPaymentView\ToBeCancelledPaymentView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToBeCancelledPaymentView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ToBeCancelledReceiptView\CancelSummaryForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CancelSummaryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ToBeCancelledReceiptView\ToBeCancelledReceiptView.resx">
+      <DependentUpon>ToBeCancelledReceiptView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ToBePaidBillBookView\ToBePaidBillBookView.resx">
+      <DependentUpon>ToBePaidBillBookView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ToBePaidInvoiceView\DisconnectionStatus.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DisconnectionStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ToBePaidInvoiceView\ToBePaidInvoiceView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToBePaidInvoiceView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ToBeReprintedView\ToBeReprintedView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToBeReprintedView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transparent.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SearchFormIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exclamation.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HistoryIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports.CAC01Report.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports.CAC03Report.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports.CAC04Report.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports.CAC06Report.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports.CAC09Report.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports.CAC12Report.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.Detail.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.Header.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\delete.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports.CAC05Report.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports.CAC15Report.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports.CAC16Report.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports.CAC18Report.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports.CAC18Report1.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports.CAC19Report.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports.CAC19SummaryReport.datasource" />
+    <None Include="Resources\baht-sign.gif" />
+    <Content Include="Resources\Bank.gif" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports.APReport.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports.CAC11Report.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports.CAC13Report.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities.Reports.CAC14Report.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.Fp410Receipt.Receipt.datasource" />
+    <None Include="Properties\DataSources\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.ReceiptPaymentMethod.datasource" />
+    <None Include="Resources\DownArrow.gif" />
+    <None Include="Resources\Edit.gif" />
+    <None Include="Resources\crossPrecollege.gif" />
+    <None Include="Resources\cbarn_Electricity_tcm8-123.gif" />
+    <Content Include="Resources\DebitNote.jpg" />
+    <Content Include="Resources\Electric.jpg" />
+    <None Include="Resources\electric_hazard.gif" />
+    <Content Include="Resources\EPayment.gif" />
+    <Content Include="Resources\ForcedOfflineOffIcon.png" />
+    <Content Include="Resources\ForcedOfflineOnIcon.png" />
+    <Content Include="Resources\Group.gif" />
+    <None Include="Resources\Search.gif" />
+    <Content Include="Resources\logo_pea.gif" />
+    <Content Include="Resources\offline.png" />
+    <None Include="Resources\SAP.jpg" />
+    <None Include="Resources\pea_logo.png" />
+    <None Include="Resources\peaLogo.bmp" />
+    <None Include="Resources\PaymentCollectionIcon.png" />
+    <Content Include="Resources\Stop.png" />
+    <None Include="Resources\SubGroup.png" />
+    <Content Include="Resources\wait.PNG" />
+    <None Include="Resources\UpArrow.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

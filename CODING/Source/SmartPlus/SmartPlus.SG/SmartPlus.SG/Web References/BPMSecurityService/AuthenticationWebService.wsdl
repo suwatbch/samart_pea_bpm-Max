@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="TestFunction">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestFunctionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestFunctionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckLogInDouble">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="terminalip" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="latency" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="retrycount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckLogInDoubleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckLogInDoubleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateCurIPReqFlag">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="terminalip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="reqflag" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateCurIPReqFlagResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateCurIPReqFlagResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckToken">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckTokenResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckTokenResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetToken">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hashpwd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTokenResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTokenResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoadUserProfile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoadUserProfileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoadUserProfileResult" type="tns:UserProfile" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="UserProfile">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Department" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="LoginTime" nillable="true" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="TestFunctionSoapIn">
+    <wsdl:part name="parameters" element="tns:TestFunction" />
+  </wsdl:message>
+  <wsdl:message name="TestFunctionSoapOut">
+    <wsdl:part name="parameters" element="tns:TestFunctionResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckLogInDoubleSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckLogInDouble" />
+  </wsdl:message>
+  <wsdl:message name="CheckLogInDoubleSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckLogInDoubleResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCurIPReqFlagSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateCurIPReqFlag" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCurIPReqFlagSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateCurIPReqFlagResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckTokenSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckToken" />
+  </wsdl:message>
+  <wsdl:message name="CheckTokenSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTokenSoapIn">
+    <wsdl:part name="parameters" element="tns:GetToken" />
+  </wsdl:message>
+  <wsdl:message name="GetTokenSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoadUserProfileSoapIn">
+    <wsdl:part name="parameters" element="tns:LoadUserProfile" />
+  </wsdl:message>
+  <wsdl:message name="LoadUserProfileSoapOut">
+    <wsdl:part name="parameters" element="tns:LoadUserProfileResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AuthenticationWebServiceSoap">
+    <wsdl:operation name="TestFunction">
+      <wsdl:input message="tns:TestFunctionSoapIn" />
+      <wsdl:output message="tns:TestFunctionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckLogInDouble">
+      <wsdl:input message="tns:CheckLogInDoubleSoapIn" />
+      <wsdl:output message="tns:CheckLogInDoubleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCurIPReqFlag">
+      <wsdl:input message="tns:UpdateCurIPReqFlagSoapIn" />
+      <wsdl:output message="tns:UpdateCurIPReqFlagSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckToken">
+      <wsdl:input message="tns:CheckTokenSoapIn" />
+      <wsdl:output message="tns:CheckTokenSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetToken">
+      <wsdl:input message="tns:GetTokenSoapIn" />
+      <wsdl:output message="tns:GetTokenSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadUserProfile">
+      <wsdl:input message="tns:LoadUserProfileSoapIn" />
+      <wsdl:output message="tns:LoadUserProfileSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AuthenticationWebServiceSoap" type="tns:AuthenticationWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TestFunction">
+      <soap:operation soapAction="http://tempuri.org/TestFunction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckLogInDouble">
+      <soap:operation soapAction="http://tempuri.org/CheckLogInDouble" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCurIPReqFlag">
+      <soap:operation soapAction="http://tempuri.org/UpdateCurIPReqFlag" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckToken">
+      <soap:operation soapAction="http://tempuri.org/CheckToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetToken">
+      <soap:operation soapAction="http://tempuri.org/GetToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadUserProfile">
+      <soap:operation soapAction="http://tempuri.org/LoadUserProfile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AuthenticationWebServiceSoap12" type="tns:AuthenticationWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TestFunction">
+      <soap12:operation soapAction="http://tempuri.org/TestFunction" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckLogInDouble">
+      <soap12:operation soapAction="http://tempuri.org/CheckLogInDouble" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCurIPReqFlag">
+      <soap12:operation soapAction="http://tempuri.org/UpdateCurIPReqFlag" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckToken">
+      <soap12:operation soapAction="http://tempuri.org/CheckToken" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetToken">
+      <soap12:operation soapAction="http://tempuri.org/GetToken" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadUserProfile">
+      <soap12:operation soapAction="http://tempuri.org/LoadUserProfile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AuthenticationWebService">
+    <wsdl:port name="AuthenticationWebServiceSoap" binding="tns:AuthenticationWebServiceSoap">
+      <soap:address location="http://localhost/BPMSecurityService/AuthenticationWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AuthenticationWebServiceSoap12" binding="tns:AuthenticationWebServiceSoap12">
+      <soap12:address location="http://localhost/BPMSecurityService/AuthenticationWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

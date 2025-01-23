@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:i0="http://tempuri.org" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="BillingWCFService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://tempuri.org" location="http://altpea0ptn0042/BPMService/POS/BillingWCFService.svc?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="BasicHttpBinding_IBillingWCFService" type="i0:IBillingWCFService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CheckWorkStatus">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/CheckWorkStatus" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_CheckWorkStatus_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetMoneyInTray">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/GetMoneyInTray" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_GetMoneyInTray_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetRepayLastReceiptData">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/GetRepayLastReceiptData" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_GetRepayLastReceiptData_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SaveOneTouchLog">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SaveOneTouchLog" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SaveOneTouchLog_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceFromOneTouch">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SearchInvoiceFromOneTouch" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SearchInvoiceFromOneTouch_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceFromOneTouch_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SearchInvoiceFromOneTouch_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SearchInvoiceFromOneTouch_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetOfflinePayment_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/GetOfflinePayment_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_GetOfflinePayment_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOfflinePayment">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/UpdateOfflinePayment" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_UpdateOfflinePayment_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CheckSettingGroupReceiptEnableStatus">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/CheckSettingGroupReceiptEnableStatus" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_CheckSettingGroupReceiptEnableStatus_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceByCustomerId">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SearchInvoiceByCustomerId" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SearchInvoiceByCustomerId_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceByCustomerId_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SearchInvoiceByCustomerId_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SearchInvoiceByCustomerId_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceFromSAP_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SearchInvoiceFromSAP_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SearchInvoiceFromSAP_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchOriginalInvoiceByInstallmentItemCaDoc_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SearchOriginalInvoiceByInstallmentItemCaDoc_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SearchOriginalInvoiceByInstallmentItemCaDoc_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchInstallmentInvoice_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SearchInstallmentInvoice_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SearchInstallmentInvoice_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceByGroupInvoiceNo_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SearchInvoiceByGroupInvoiceNo_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SearchInvoiceByGroupInvoiceNo_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchInvoiceItemByGroupInvoiceNo_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SearchInvoiceItemByGroupInvoiceNo_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SearchInvoiceItemByGroupInvoiceNo_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PayInvoice_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/PayInvoice_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_PayInvoice_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PayInvoice">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/PayInvoice" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_PayInvoice_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchBillByCustomerDetail_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SearchBillByCustomerDetail_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SearchBillByCustomerDetail_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchBillByBillBookId_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SearchBillByBillBookId_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SearchBillByBillBookId_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchBillByAgent_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SearchBillByAgent_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SearchBillByAgent_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupInvoiceItem_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/GetGroupInvoiceItem_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_GetGroupInvoiceItem_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetBranchIdByCaId">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/GetBranchIdByCaId" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_GetBranchIdByCaId_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerDetailOnPaymentHistory">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/GetCustomerDetailOnPaymentHistory" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_GetCustomerDetailOnPaymentHistory_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetPaymentHistory_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/GetPaymentHistory_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_GetPaymentHistory_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchBillBookByDetail_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SearchBillBookByDetail_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SearchBillBookByDetail_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetBillBookDetail">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/GetBillBookDetail" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_GetBillBookDetail_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchAdvancePaymentHistory_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SearchAdvancePaymentHistory_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SearchAdvancePaymentHistory_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchAGPayment_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SearchAGPayment_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SearchAGPayment_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CloseDayPayment">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/CloseDayPayment" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_CloseDayPayment_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchDisconnectionStatusByDiscNo_Compress">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SearchDisconnectionStatusByDiscNo_Compress" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SearchDisconnectionStatusByDiscNo_Compress_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistingInvoiceNo">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/CheckExistingInvoiceNo" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_CheckExistingInvoiceNo_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerTime">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/GetServerTime" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_GetServerTime_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastDisconnect">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/GetLastDisconnect" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_GetLastDisconnect_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchPaymentNonReceipt">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SearchPaymentNonReceipt" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SearchPaymentNonReceipt_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CreateReceiptService">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/CreateReceiptService" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_CreateReceiptService_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetCaAndBpOtherBranch">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/GetCaAndBpOtherBranch" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_GetCaAndBpOtherBranch_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SaveCaAndBpOtherBranch">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SaveCaAndBpOtherBranch" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SaveCaAndBpOtherBranch_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetPaidGAmount">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/GetPaidGAmount" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_GetPaidGAmount_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetInActiveBillBook">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/GetInActiveBillBook" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_GetInActiveBillBook_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetDuplicateExtReceipt">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/GetDuplicateExtReceipt" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_GetDuplicateExtReceipt_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ValidatePaymentActive">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/ValidatePaymentActive" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_ValidatePaymentActive_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetActivePayment">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/GetActivePayment" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_GetActivePayment_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SaveActivePayment">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/SaveActivePayment" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_SaveActivePayment_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="OfflineLog">
+      <soap:operation soapAction="http://tempuri.org/IBillingWCFService/OfflineLog" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBillingWCFService_OfflineLog_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BillingWCFService">
+    <wsdl:port name="BasicHttpBinding_IBillingWCFService" binding="tns:BasicHttpBinding_IBillingWCFService">
+      <soap:address location="http://altpea0ptn0042/BPMService/POS/BillingWCFService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

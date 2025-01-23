@@ -1,0 +1,580 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6DA9808-D031-486C-9524-9C6927E02EB8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PEA.BPM.CashManagementModule</RootNamespace>
+    <AssemblyName>CashManagementModule</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.CompositeUI, Version=4.1.75.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.CompositeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI.WinForms, Version=4.1.75.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=4.1.75.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CancelBankDeliveryController.cs" />
+    <Compile Include="CashCheckInController.cs" />
+    <Compile Include="CashManagementUtilities\CashManagementValidation.cs" />
+    <Compile Include="CashManagementUtilities\NotifyMsg.cs" />
+    <Compile Include="CashManagementUtilities\Printer.cs" />
+    <Compile Include="CloseWorkSummaryController.cs" />
+    <Compile Include="Constants\CommandNames.cs" />
+    <Compile Include="Constants\EventTopicNames.cs" />
+    <Compile Include="Constants\UIExtensionSiteNames.cs" />
+    <Compile Include="Constants\WorkspaceNames.cs" />
+    <Compile Include="CancelCashCheckInController.cs" />
+    <Compile Include="AdjustOpenBalanceController.cs" />
+    <Compile Include="CustomControls\MoneyGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControls\PerfectGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ForceCloseWorkController.cs" />
+    <Compile Include="ReportDailyPayInController.cs" />
+    <Compile Include="ReportDailyRemainController.cs" />
+    <Compile Include="ReportMoneyFlowController.cs" />
+    <Compile Include="ReportSumCloseWorkController.cs" />
+    <Compile Include="StartOpenBalanceController.cs" />
+    <Compile Include="Views\AdjustOpenBalance\AutoCompleteTextBoxExtended.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\AdjustOpenBalance\ChequeItemView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AdjustOpenBalance\ChequeItemView.Designer.cs">
+      <DependentUpon>ChequeItemView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CancelMoneyCheckIn\ICancelMoneyCheckInView.cs" />
+    <Compile Include="Views\CancelMoneyCheckIn\CancelMoneyCheckInViewPresenter.cs" />
+    <Compile Include="Views\CancelMoneyCheckIn\CancelMoneyCheckInView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CancelMoneyCheckIn\CancelMoneyCheckInView.Designer.cs">
+      <DependentUpon>CancelMoneyCheckInView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CancelBankDelivery\CancelBankDeliveryView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CancelBankDelivery\CancelBankDeliveryView.Designer.cs">
+      <DependentUpon>CancelBankDeliveryView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CancelBankDelivery\CancelBankDeliveryViewPresenter.cs" />
+    <Compile Include="Views\CancelBankDelivery\ICancelBankDeliveryView.cs" />
+    <Compile Include="Views\CloseWorkSummary\BaselineConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\CloseWorkSummary\BaselineConfirm.Designer.cs">
+      <DependentUpon>BaselineConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CloseWorkSummary\TickerErrorBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\CloseWorkSummary\TickerErrorBox.Designer.cs">
+      <DependentUpon>TickerErrorBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AdjustOpenBalance\IAdjustOpenBalanceView.cs" />
+    <Compile Include="Views\AdjustOpenBalance\AdjustOpenBalanceView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\AdjustOpenBalance\AdjustOpenBalanceView.Designer.cs">
+      <DependentUpon>AdjustOpenBalanceView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AdjustOpenBalance\AdjustOpenBalanceViewPresenter.cs" />
+    <Compile Include="Views\ReportContainerView\ReportContainerView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ReportContainerView\ReportContainerView.Designer.cs">
+      <DependentUpon>ReportContainerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StartOpenBalance\IStartOpenBalanceView.cs" />
+    <Compile Include="Views\StartOpenBalance\StartOpenBalanceView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\StartOpenBalance\StartOpenBalanceView.Designer.cs">
+      <DependentUpon>StartOpenBalanceView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StartOpenBalance\StartOpenBalanceViewPresenter.cs" />
+    <Compile Include="Views\ReportDailyRemainView\FillMoneyTypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ReportDailyRemainView\FillMoneyTypeForm.Designer.cs">
+      <DependentUpon>FillMoneyTypeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReportPayInDaily\AvailableDayPayIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ReportPayInDaily\AvailableDayPayIn.Designer.cs">
+      <DependentUpon>AvailableDayPayIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReportSummaryCloseWork\AvailableCashierList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ReportSummaryCloseWork\AvailableCashierList.Designer.cs">
+      <DependentUpon>AvailableCashierList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReportSummaryCloseWork\IReportSummaryCloseWorkView.cs" />
+    <Compile Include="Views\ReportSummaryCloseWork\ReportSummaryCloseWorkView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ReportSummaryCloseWork\ReportSummaryCloseWorkView.Designer.cs">
+      <DependentUpon>ReportSummaryCloseWorkView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReportSummaryCloseWork\ReportSummaryCloseWorkViewPresenter.cs" />
+    <Compile Include="Views\ReportPayInDaily\IReportPayInDailyView.cs" />
+    <Compile Include="Views\ReportPayInDaily\ReportPayInDailyView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ReportPayInDaily\ReportPayInDailyView.Designer.cs">
+      <DependentUpon>ReportPayInDailyView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReportPayInDaily\ReportPayInDailyViewPresenter.cs" />
+    <Compile Include="Views\ReportMoneyFlowView\IReportMoneyFlowView.cs" />
+    <Compile Include="Views\ReportMoneyFlowView\ReportMoneyFlowView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ReportMoneyFlowView\ReportMoneyFlowView.Designer.cs">
+      <DependentUpon>ReportMoneyFlowView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReportMoneyFlowView\ReportMoneyFlowViewPresenter.cs" />
+    <Compile Include="Views\ReportDailyRemainView\IReportDailyRemainView.cs" />
+    <Compile Include="Views\ReportDailyRemainView\ReportDailyRemainView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ReportDailyRemainView\ReportDailyRemainView.Designer.cs">
+      <DependentUpon>ReportDailyRemainView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReportDailyRemainView\ReportDailyRemainViewPresenter.cs" />
+    <Compile Include="Views\ForceCloseWork\ForceCloseWorkView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ForceCloseWork\ForceCloseWorkView.Designer.cs">
+      <DependentUpon>ForceCloseWorkView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ForceCloseWork\ForceCloseWorkViewPresenter.cs" />
+    <Compile Include="Views\ForceCloseWork\IForceCloseWorkView.cs" />
+    <Compile Include="Views\MoneyCheckIn\BankSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MoneyCheckIn\BankSearchForm.Designer.cs">
+      <DependentUpon>BankSearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MoneyTransferManagement\ConfirmBankDelivering.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MoneyTransferManagement\ConfirmBankDelivering.Designer.cs">
+      <DependentUpon>ConfirmBankDelivering.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MoneyTransferManagement\ConfirmCashierTransfering.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MoneyTransferManagement\ConfirmCashierTransfering.Designer.cs">
+      <DependentUpon>ConfirmCashierTransfering.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReportContainerView\AvailableListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ReportContainerView\AvailableListForm.Designer.cs">
+      <DependentUpon>AvailableListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReportContainerView\IReportContainerView.cs" />
+    <Compile Include="Views\ReportContainerView\ReportContainerViewPresenter.cs" />
+    <Compile Include="ReportController.cs" />
+    <Compile Include="Services\CashManagementServices.cs" />
+    <Compile Include="TransferStatusController.cs" />
+    <Compile Include="TransferResponseController.cs" />
+    <Compile Include="OpenWorkItemController.cs" />
+    <Compile Include="MoneyTransferManagementController.cs" />
+    <Compile Include="Module.cs" />
+    <Compile Include="ModuleController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CustomControls\MoneyGridView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MoneyGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ChequeDailyRemain.rdlc" />
+    <EmbeddedResource Include="Reports\CloseWorkDailyReport.rdlc" />
+    <EmbeddedResource Include="Reports\PayInDailyReport.rdlc" />
+    <EmbeddedResource Include="Reports\DailyRemainReport.rdlc" />
+    <EmbeddedResource Include="Reports\PayInDetailReport.rdlc" />
+    <EmbeddedResource Include="Reports\MoneyFlowSummaryReport.rdlc" />
+    <EmbeddedResource Include="Views\AdjustOpenBalance\ChequeItemView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChequeItemView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CancelMoneyCheckIn\CancelMoneyCheckInView.resx">
+      <DependentUpon>CancelMoneyCheckInView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CashierSearchBox\CashierSearchBoxView.resx">
+      <DependentUpon>CashierSearchBoxView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CancelBankDelivery\CancelBankDeliveryView.resx">
+      <DependentUpon>CancelBankDeliveryView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CloseWorkSummary\BaselineConfirm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BaselineConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CloseWorkSummary\TickerErrorBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TickerErrorBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AdjustOpenBalance\AdjustOpenBalanceView.resx">
+      <DependentUpon>AdjustOpenBalanceView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\StartOpenBalance\StartOpenBalanceView.resx">
+      <DependentUpon>StartOpenBalanceView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReportDailyRemainView\FillMoneyTypeForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FillMoneyTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReportPayInDaily\AvailableDayPayIn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AvailableDayPayIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReportSummaryCloseWork\AvailableCashierList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AvailableCashierList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReportSummaryCloseWork\ReportSummaryCloseWorkView.resx">
+      <DependentUpon>ReportSummaryCloseWorkView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReportPayInDaily\ReportPayInDailyView.resx">
+      <DependentUpon>ReportPayInDailyView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReportMoneyFlowView\ReportMoneyFlowView.resx">
+      <DependentUpon>ReportMoneyFlowView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReportDailyRemainView\ReportDailyRemainView.resx">
+      <DependentUpon>ReportDailyRemainView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ForceCloseWork\ForceCloseWorkView.resx">
+      <DependentUpon>ForceCloseWorkView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MoneyCheckIn\BankSearchForm.resx">
+      <DependentUpon>BankSearchForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MoneyCheckIn\MoneyCheckInView.resx">
+      <DependentUpon>MoneyCheckInView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CloseWorkSummary\CloseWorkSummaryView.resx">
+      <DependentUpon>CloseWorkSummaryView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MoneyTransferManagement\ConfirmBankDelivering.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConfirmBankDelivering.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MoneyTransferManagement\ConfirmCashierTransfering.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConfirmCashierTransfering.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReportContainerView\AvailableListForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AvailableListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\OpenWorkItem\OpenWorkItemView.resx">
+      <DependentUpon>OpenWorkItemView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MoneyTransferManagement\MoneyTransferManagementView.resx">
+      <DependentUpon>MoneyTransferManagementView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\TransferStatus\TransferStatusView.resx">
+      <DependentUpon>TransferStatusView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\TransferResponse\TransferResponseView.resx">
+      <DependentUpon>TransferResponseView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Views\CashierSearchBox\ICashierSearchBoxView.cs" />
+    <Compile Include="Views\CashierSearchBox\CashierSearchBoxView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CashierSearchBox\CashierSearchBoxView.Designer.cs">
+      <DependentUpon>CashierSearchBoxView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CashierSearchBox\CashierSearchBoxViewPresenter.cs" />
+    <Compile Include="Views\MoneyCheckIn\IMoneyCheckInView.cs" />
+    <Compile Include="Views\MoneyCheckIn\MoneyCheckInView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\MoneyCheckIn\MoneyCheckInView.Designer.cs">
+      <DependentUpon>MoneyCheckInView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MoneyCheckIn\MoneyCheckInViewPresenter.cs" />
+    <Compile Include="Views\CloseWorkSummary\CloseWorkSummaryView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CloseWorkSummary\CloseWorkSummaryView.Designer.cs">
+      <DependentUpon>CloseWorkSummaryView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CloseWorkSummary\CloseWorkSummaryViewPresenter.cs" />
+    <Compile Include="Views\CloseWorkSummary\ICloseWorkSummaryView.cs" />
+    <Compile Include="Views\OpenWorkItem\OpenWorkItemView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\OpenWorkItem\OpenWorkItemView.Designer.cs">
+      <DependentUpon>OpenWorkItemView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OpenWorkItem\OpenWorkItemViewPresenter.cs" />
+    <Compile Include="Views\OpenWorkItem\IOpenWorkItemView.cs" />
+    <Compile Include="Views\MoneyTransferManagement\IMoneyTransferManagementView.cs" />
+    <Compile Include="Views\MoneyTransferManagement\MoneyTransferManagementView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\MoneyTransferManagement\MoneyTransferManagementView.Designer.cs">
+      <DependentUpon>MoneyTransferManagementView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MoneyTransferManagement\MoneyTransferManagementViewPresenter.cs" />
+    <Compile Include="Views\TransferStatus\ITransferStatusView.cs" />
+    <Compile Include="Views\TransferStatus\TransferStatusView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\TransferStatus\TransferStatusView.Designer.cs">
+      <DependentUpon>TransferStatusView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TransferStatus\TransferStatusViewPresenter.cs" />
+    <Compile Include="Views\TransferResponse\TransferResponseView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\TransferResponse\TransferResponseView.Designer.cs">
+      <DependentUpon>TransferResponseView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TransferResponse\TransferResponseViewPresenter.cs" />
+    <Compile Include="Views\TransferResponse\ITransferResponseView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Architecture\ArchitectureInterface\ArchitectureInterface.csproj">
+      <Project>{7939F32D-01C5-45B5-A545-3EEE99017A7E}</Project>
+      <Name>ArchitectureInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\ArchitectureTool\ArchitectureTool.csproj">
+      <Project>{CD6283A4-2D09-4DB4-9354-7AC912A8C9D5}</Project>
+      <Name>ArchitectureTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Architecture\CommonUtilities\CommonUtilities.csproj">
+      <Project>{1A6B6E40-2DD5-4CB8-B766-B61AA237701B}</Project>
+      <Name>CommonUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Infrastructure.Interface\Infrastructure.Interface.csproj">
+      <Project>{A6E71DBF-A767-416C-9DE4-15AEFC619BAF}</Project>
+      <Name>Infrastructure.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Infrastructure.Library\Infrastructure.Library.csproj">
+      <Project>{FCC7759A-96EB-4549-B0EB-D4905323E736}</Project>
+      <Name>Infrastructure.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PaymentCollectionModule\PaymentCollectionModule.Interface\PaymentCollectionModule.Interface.csproj">
+      <Project>{20245E21-61E9-4B4D-86D2-87A23FDC051F}</Project>
+      <Name>PaymentCollectionModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PaymentCollectionModule\PaymentCollectionModule\PaymentCollectionModule.csproj">
+      <Project>{90BDD57C-CC42-4D47-A975-63F315C61F78}</Project>
+      <Name>PaymentCollectionModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PaymentManagementModule\PaymentManagementModule.Interface\PaymentManagementModule.Interface.csproj">
+      <Project>{68B5A8D9-AEF5-4EBF-85CE-AA88FC4320C9}</Project>
+      <Name>PaymentManagementModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CashManagementModule.Interface\CashManagementModule.Interface.csproj">
+      <Project>{E0AFD613-2C8A-49A8-9551-0C0222864AEC}</Project>
+      <Name>CashManagementModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CashManagementModule.SG\CashManagementModule.SG.csproj">
+      <Project>{DB8ED9F9-9657-4F86-B015-38F0A9E967F9}</Project>
+      <Name>CashManagementModule.SG</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\PEA.BPM.CashManagementModule.Interface.BusinessEntities.ChequeInfo.datasource" />
+    <None Include="Resources\Delete.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\PEA.BPM.CashManagementModule.Interface.BusinessEntities.FlowSummaryInfo.datasource" />
+    <None Include="Resources\pea_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrintHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StopHS_Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\PEA.BPM.CashManagementModule.Interface.BusinessEntities.ReportDailyPayInInfo.datasource" />
+    <None Include="Resources\PlayHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RefreshDocViewHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\PEA.BPM.CashManagementModule.Interface.BusinessEntities.ReportCloseWorkSummary.datasource" />
+    <None Include="Resources\RepeatHSR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SAP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RecordHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoLtrHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\PEA.BPM.CashManagementModule.Interface.BusinessEntities.ReportDailyRemainInfo.datasource" />
+    <None Include="Resources\EditTableHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\pea_logo2.png" />
+    <EmbeddedResource Include="Views\ReportContainerView\ReportContainerView.resx">
+      <DependentUpon>ReportContainerView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

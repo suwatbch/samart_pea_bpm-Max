@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="UploadAR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CompressData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="OriginalSize" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="CompressSize" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Data" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UploadARResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadARResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthenInfo" type="tns:AuthenInfo" />
+      <s:complexType name="AuthenInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AuthToken" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="UploadARPayment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadARPaymentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadARPaymentResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadPayment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadPaymentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadPaymentResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadARPaymentType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadARPaymentTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadARPaymentTypeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadRTARPaymentTypeARPayment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadRTARPaymentTypeARPaymentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadRTARPaymentTypeARPaymentResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadReceipt">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadReceiptResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadReceiptResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadReceiptItem">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadReceiptItemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadReceiptItemResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadPaymentLog">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadPaymentLogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadPaymentLogResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadAP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadAPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadAPResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadAPChequePayment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cds" type="tns:CompressData" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadAPChequePaymentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadAPChequePaymentResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="UploadARSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadAR" />
+  </wsdl:message>
+  <wsdl:message name="UploadARSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadARResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadARAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadARPaymentSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadARPayment" />
+  </wsdl:message>
+  <wsdl:message name="UploadARPaymentSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadARPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadARPaymentAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadPaymentSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadPayment" />
+  </wsdl:message>
+  <wsdl:message name="UploadPaymentSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadPaymentAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadARPaymentTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadARPaymentType" />
+  </wsdl:message>
+  <wsdl:message name="UploadARPaymentTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadARPaymentTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadARPaymentTypeAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadRTARPaymentTypeARPaymentSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadRTARPaymentTypeARPayment" />
+  </wsdl:message>
+  <wsdl:message name="UploadRTARPaymentTypeARPaymentSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadRTARPaymentTypeARPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadRTARPaymentTypeARPaymentAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadReceiptSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadReceipt" />
+  </wsdl:message>
+  <wsdl:message name="UploadReceiptSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadReceiptResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadReceiptAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadReceiptItemSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadReceiptItem" />
+  </wsdl:message>
+  <wsdl:message name="UploadReceiptItemSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadReceiptItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadReceiptItemAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadPaymentLogSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadPaymentLog" />
+  </wsdl:message>
+  <wsdl:message name="UploadPaymentLogSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadPaymentLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadPaymentLogAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadAPSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadAP" />
+  </wsdl:message>
+  <wsdl:message name="UploadAPSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadAPResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadAPAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="UploadAPChequePaymentSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadAPChequePayment" />
+  </wsdl:message>
+  <wsdl:message name="UploadAPChequePaymentSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadAPChequePaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadAPChequePaymentAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:portType name="ARWebServiceSoap">
+    <wsdl:operation name="UploadAR">
+      <wsdl:input message="tns:UploadARSoapIn" />
+      <wsdl:output message="tns:UploadARSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadARPayment">
+      <wsdl:input message="tns:UploadARPaymentSoapIn" />
+      <wsdl:output message="tns:UploadARPaymentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadPayment">
+      <wsdl:input message="tns:UploadPaymentSoapIn" />
+      <wsdl:output message="tns:UploadPaymentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadARPaymentType">
+      <wsdl:input message="tns:UploadARPaymentTypeSoapIn" />
+      <wsdl:output message="tns:UploadARPaymentTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadRTARPaymentTypeARPayment">
+      <wsdl:input message="tns:UploadRTARPaymentTypeARPaymentSoapIn" />
+      <wsdl:output message="tns:UploadRTARPaymentTypeARPaymentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadReceipt">
+      <wsdl:input message="tns:UploadReceiptSoapIn" />
+      <wsdl:output message="tns:UploadReceiptSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadReceiptItem">
+      <wsdl:input message="tns:UploadReceiptItemSoapIn" />
+      <wsdl:output message="tns:UploadReceiptItemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadPaymentLog">
+      <wsdl:input message="tns:UploadPaymentLogSoapIn" />
+      <wsdl:output message="tns:UploadPaymentLogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadAP">
+      <wsdl:input message="tns:UploadAPSoapIn" />
+      <wsdl:output message="tns:UploadAPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadAPChequePayment">
+      <wsdl:input message="tns:UploadAPChequePaymentSoapIn" />
+      <wsdl:output message="tns:UploadAPChequePaymentSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ARWebServiceSoap" type="tns:ARWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadAR">
+      <soap:operation soapAction="http://tempuri.org/UploadAR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadARAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadARPayment">
+      <soap:operation soapAction="http://tempuri.org/UploadARPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadARPaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadPayment">
+      <soap:operation soapAction="http://tempuri.org/UploadPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadPaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadARPaymentType">
+      <soap:operation soapAction="http://tempuri.org/UploadARPaymentType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadARPaymentTypeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadRTARPaymentTypeARPayment">
+      <soap:operation soapAction="http://tempuri.org/UploadRTARPaymentTypeARPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadRTARPaymentTypeARPaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadReceipt">
+      <soap:operation soapAction="http://tempuri.org/UploadReceipt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadReceiptAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadReceiptItem">
+      <soap:operation soapAction="http://tempuri.org/UploadReceiptItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadReceiptItemAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadPaymentLog">
+      <soap:operation soapAction="http://tempuri.org/UploadPaymentLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadPaymentLogAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadAP">
+      <soap:operation soapAction="http://tempuri.org/UploadAP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadAPAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadAPChequePayment">
+      <soap:operation soapAction="http://tempuri.org/UploadAPChequePayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UploadAPChequePaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ARWebServiceSoap12" type="tns:ARWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadAR">
+      <soap12:operation soapAction="http://tempuri.org/UploadAR" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadARAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadARPayment">
+      <soap12:operation soapAction="http://tempuri.org/UploadARPayment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadARPaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadPayment">
+      <soap12:operation soapAction="http://tempuri.org/UploadPayment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadPaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadARPaymentType">
+      <soap12:operation soapAction="http://tempuri.org/UploadARPaymentType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadARPaymentTypeAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadRTARPaymentTypeARPayment">
+      <soap12:operation soapAction="http://tempuri.org/UploadRTARPaymentTypeARPayment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadRTARPaymentTypeARPaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadReceipt">
+      <soap12:operation soapAction="http://tempuri.org/UploadReceipt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadReceiptAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadReceiptItem">
+      <soap12:operation soapAction="http://tempuri.org/UploadReceiptItem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadReceiptItemAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadPaymentLog">
+      <soap12:operation soapAction="http://tempuri.org/UploadPaymentLog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadPaymentLogAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadAP">
+      <soap12:operation soapAction="http://tempuri.org/UploadAP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadAPAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadAPChequePayment">
+      <soap12:operation soapAction="http://tempuri.org/UploadAPChequePayment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UploadAPChequePaymentAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ARWebService">
+    <wsdl:port name="ARWebServiceSoap" binding="tns:ARWebServiceSoap">
+      <soap:address location="http://localhost/BPMIntegrationUploadedService/ARWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ARWebServiceSoap12" binding="tns:ARWebServiceSoap12">
+      <soap12:address location="http://localhost/BPMIntegrationUploadedService/ARWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

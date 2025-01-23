@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6906195b-0aa7-4c32-874b-efcd263b545a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/POS/PaidBillWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PaidBillWCFService1.wsdl" MetadataType="Wsdl" ID="eb823ecc-fa86-4d77-a334-18b47448ff47" SourceId="1" SourceUrl="http://scp30064/BPMService/POS/PaidBillWCFService.svc?wsdl" />
+    <MetadataFile FileName="PaidBillWCFService1.xsd" MetadataType="Schema" ID="39d048a7-aff5-4db9-a67d-6ac6cef54734" SourceId="1" SourceUrl="http://scp30064/BPMService/POS/PaidBillWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PaidBillWCFService11.xsd" MetadataType="Schema" ID="db69d144-512b-480b-9449-afd1753b85c0" SourceId="1" SourceUrl="http://scp30064/BPMService/POS/PaidBillWCFService.svc?xsd=xsd4" />
+    <MetadataFile FileName="PaidBillWCFService12.xsd" MetadataType="Schema" ID="e46bfc84-3b43-466a-88a1-5538cd5f7120" SourceId="1" SourceUrl="http://scp30064/BPMService/POS/PaidBillWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PaidBillWCFService13.xsd" MetadataType="Schema" ID="e5867ebd-7883-406c-9d8b-f160736345f2" SourceId="1" SourceUrl="http://scp30064/BPMService/POS/PaidBillWCFService.svc?xsd=xsd6" />
+    <MetadataFile FileName="PaidBillWCFService1.disco" MetadataType="Disco" ID="a5683658-375f-4d62-b991-9d4e99b0a942" SourceId="1" SourceUrl="http://scp30064/BPMService/POS/PaidBillWCFService.svc?disco" />
+    <MetadataFile FileName="PaidBillWCFService14.xsd" MetadataType="Schema" ID="b9ed3004-a13f-4f71-9a52-12c9279dfb04" SourceId="1" SourceUrl="http://scp30064/BPMService/POS/PaidBillWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="PaidBillWCFService11.wsdl" MetadataType="Wsdl" ID="8368c274-512a-4eb4-b934-3ccf5594a65f" SourceId="1" SourceUrl="http://scp30064/BPMService/POS/PaidBillWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="PaidBillWCFService15.xsd" MetadataType="Schema" ID="80adad34-7d6d-46b6-bc67-8609ff3e8225" SourceId="1" SourceUrl="http://scp30064/BPMService/POS/PaidBillWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PaidBillWCFService16.xsd" MetadataType="Schema" ID="f1a61c7b-ee4e-4772-a96c-4a4452bf260a" SourceId="1" SourceUrl="http://scp30064/BPMService/POS/PaidBillWCFService.svc?xsd=xsd5" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

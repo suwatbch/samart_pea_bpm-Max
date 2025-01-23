@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:i0="http://tempuri.org" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="EPayBillingWCFService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://tempuri.org" location="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="BasicHttpBinding_IEPayBillingWCFService" type="i0:IEPayBillingWCFService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UpdateBillMarkFlagService">
+      <soap:operation soapAction="http://tempuri.org/IEPayBillingWCFService/UpdateBillMarkFlagService" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayBillingWCFService_UpdateBillMarkFlagService_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DelBillMarkFlagService">
+      <soap:operation soapAction="http://tempuri.org/IEPayBillingWCFService/DelBillMarkFlagService" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayBillingWCFService_DelBillMarkFlagService_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchDebtService">
+      <soap:operation soapAction="http://tempuri.org/IEPayBillingWCFService/SearchDebtService" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayBillingWCFService_SearchDebtService_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchBPMDebtClearify">
+      <soap:operation soapAction="http://tempuri.org/IEPayBillingWCFService/SearchBPMDebtClearify" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayBillingWCFService_SearchBPMDebtClearify_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetDebtComparableService">
+      <soap:operation soapAction="http://tempuri.org/IEPayBillingWCFService/GetDebtComparableService" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayBillingWCFService_GetDebtComparableService_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchCompany">
+      <soap:operation soapAction="http://tempuri.org/IEPayBillingWCFService/SearchCompany" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayBillingWCFService_SearchCompany_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="InsertEPayUploadService">
+      <soap:operation soapAction="http://tempuri.org/IEPayBillingWCFService/InsertEPayUploadService" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayBillingWCFService_InsertEPayUploadService_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="IsUploadFileNameExist">
+      <soap:operation soapAction="http://tempuri.org/IEPayBillingWCFService/IsUploadFileNameExist" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayBillingWCFService_IsUploadFileNameExist_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetAgentPaymentService">
+      <soap:operation soapAction="http://tempuri.org/IEPayBillingWCFService/GetAgentPaymentService" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayBillingWCFService_GetAgentPaymentService_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="InsertAgentPaymentService">
+      <soap:operation soapAction="http://tempuri.org/IEPayBillingWCFService/InsertAgentPaymentService" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayBillingWCFService_InsertAgentPaymentService_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PrintGreenBill">
+      <soap:operation soapAction="http://tempuri.org/IEPayBillingWCFService/PrintGreenBill" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayBillingWCFService_PrintGreenBill_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SaveClearify">
+      <soap:operation soapAction="http://tempuri.org/IEPayBillingWCFService/SaveClearify" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayBillingWCFService_SaveClearify_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchAgentPayment">
+      <soap:operation soapAction="http://tempuri.org/IEPayBillingWCFService/SearchAgentPayment" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayBillingWCFService_SearchAgentPayment_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="InsertCancelPayment">
+      <soap:operation soapAction="http://tempuri.org/IEPayBillingWCFService/InsertCancelPayment" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IEPayBillingWCFService_InsertCancelPayment_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EPayBillingWCFService">
+    <wsdl:port name="BasicHttpBinding_IEPayBillingWCFService" binding="tns:BasicHttpBinding_IEPayBillingWCFService">
+      <soap:address location="http://localhost/BPMService/ePayment/EPayBillingWCFService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

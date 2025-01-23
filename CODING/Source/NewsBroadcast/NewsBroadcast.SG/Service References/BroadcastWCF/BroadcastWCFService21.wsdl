@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:i0="http://tempuri.org" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="BroadcastWCFService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://tempuri.org" location="http://localhost/BPMService/TOOL/BroadcastWCFService.svc?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="BasicHttpBinding_IBroadcastWCFService" type="i0:IBroadcastWCFService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetNewsBroadcastNow">
+      <soap:operation soapAction="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastNow" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBroadcastWCFService_GetNewsBroadcastNow_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetNewsBroadcastHistory">
+      <soap:operation soapAction="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastHistory" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBroadcastWCFService_GetNewsBroadcastHistory_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetNewsBroadcastSent">
+      <soap:operation soapAction="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastSent" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBroadcastWCFService_GetNewsBroadcastSent_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetNewsBroadcastNowForSender">
+      <soap:operation soapAction="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastNowForSender" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBroadcastWCFService_GetNewsBroadcastNowForSender_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetNewsBroadcastScheduled">
+      <soap:operation soapAction="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastScheduled" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBroadcastWCFService_GetNewsBroadcastScheduled_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetNewsBroadcastSentMonthYears">
+      <soap:operation soapAction="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastSentMonthYears" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBroadcastWCFService_GetNewsBroadcastSentMonthYears_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetNewsBroadcastUser">
+      <soap:operation soapAction="http://tempuri.org/IBroadcastWCFService/GetNewsBroadcastUser" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBroadcastWCFService_GetNewsBroadcastUser_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNewsBroadcastUserOpened">
+      <soap:operation soapAction="http://tempuri.org/IBroadcastWCFService/UpdateNewsBroadcastUserOpened" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBroadcastWCFService_UpdateNewsBroadcastUserOpened_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNewsBroadcastUserRead">
+      <soap:operation soapAction="http://tempuri.org/IBroadcastWCFService/UpdateNewsBroadcastUserRead" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBroadcastWCFService_UpdateNewsBroadcastUserRead_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetArea">
+      <soap:operation soapAction="http://tempuri.org/IBroadcastWCFService/GetArea" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBroadcastWCFService_GetArea_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetBranch">
+      <soap:operation soapAction="http://tempuri.org/IBroadcastWCFService/GetBranch" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBroadcastWCFService_GetBranch_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetUser">
+      <soap:operation soapAction="http://tempuri.org/IBroadcastWCFService/GetUser" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBroadcastWCFService_GetUser_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetRole">
+      <soap:operation soapAction="http://tempuri.org/IBroadcastWCFService/GetRole" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBroadcastWCFService_GetRole_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewsBroadcast">
+      <soap:operation soapAction="http://tempuri.org/IBroadcastWCFService/InsertNewsBroadcast" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBroadcastWCFService_InsertNewsBroadcast_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewsBroadcastUser">
+      <soap:operation soapAction="http://tempuri.org/IBroadcastWCFService/InsertNewsBroadcastUser" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBroadcastWCFService_InsertNewsBroadcastUser_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastNewsBroadcastId">
+      <soap:operation soapAction="http://tempuri.org/IBroadcastWCFService/GetLastNewsBroadcastId" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBroadcastWCFService_GetLastNewsBroadcastId_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="IsDuplicateUser">
+      <soap:operation soapAction="http://tempuri.org/IBroadcastWCFService/IsDuplicateUser" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IBroadcastWCFService_IsDuplicateUser_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BroadcastWCFService">
+    <wsdl:port name="BasicHttpBinding_IBroadcastWCFService" binding="tns:BasicHttpBinding_IBroadcastWCFService">
+      <soap:address location="http://localhost/BPMService/TOOL/BroadcastWCFService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

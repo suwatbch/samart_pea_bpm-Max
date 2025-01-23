@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:i0="http://tempuri.org" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="CashierWCFService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://tempuri.org" location="http://localhost/BPMService/Cashier/CashierWCFService.svc?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="BasicHttpBinding_ICashierWCFService" type="i0:ICashierWCFService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetBankPayInDailyForReport">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetBankPayInDailyForReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetBankPayInDailyForReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetCloseWorkSummaryReport">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetCloseWorkSummaryReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetCloseWorkSummaryReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetChequeDailyRemainReport">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetChequeDailyRemainReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetChequeDailyRemainReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetPayInOfDate">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetPayInOfDate" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetPayInOfDate_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetCloseWorkOfDate">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetCloseWorkOfDate" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetCloseWorkOfDate_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SaveStartOpenBalance">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/SaveStartOpenBalance" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_SaveStartOpenBalance_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LoadSystemInitial">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/LoadSystemInitial" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_LoadSystemInitial_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAdjustOpenBalance">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/SaveAdjustOpenBalance" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_SaveAdjustOpenBalance_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LoadAdjustOpenBalance">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/LoadAdjustOpenBalance" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_LoadAdjustOpenBalance_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetOpenWorkCashierOfBranch">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetOpenWorkCashierOfBranch" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetOpenWorkCashierOfBranch_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetCashierWorkStatus">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetCashierWorkStatus" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetCashierWorkStatus_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="IsOpenedWork">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/IsOpenedWork" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_IsOpenedWork_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="IsSystemInitial">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/IsSystemInitial" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_IsSystemInitial_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="OpenWork">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/OpenWork" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_OpenWork_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LoadOpeningBalance">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/LoadOpeningBalance" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_LoadOpeningBalance_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ListCashier">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/ListCashier" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_ListCashier_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ListGLBank">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/ListGLBank" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_ListGLBank_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ListGLBankAccount">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/ListGLBankAccount" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_ListGLBankAccount_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetMoneyInTray">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetMoneyInTray" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetMoneyInTray_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Transfer">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/Transfer" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_Transfer_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetBankPayInDetailForReport">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetBankPayInDetailForReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetBankPayInDetailForReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LoadTransferedRequestItem">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/LoadTransferedRequestItem" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_LoadTransferedRequestItem_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ResponseTransferedItems">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/ResponseTransferedItems" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_ResponseTransferedItems_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CancelTransferItem">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/CancelTransferItem" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_CancelTransferItem_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LoadTransferStatusItem">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/LoadTransferStatusItem" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_LoadTransferStatusItem_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetCloseWorkFlowItem">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetCloseWorkFlowItem" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetCloseWorkFlowItem_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CloseWork">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/CloseWork" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_CloseWork_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkFlowReport">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetWorkFlowReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetWorkFlowReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkFlowDelayedReport">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetWorkFlowDelayedReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetWorkFlowDelayedReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CheckInMoney">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/CheckInMoney" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_CheckInMoney_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LoadMoneyCheckedIn">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/LoadMoneyCheckedIn" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_LoadMoneyCheckedIn_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CancelMoneyCheckedIn">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/CancelMoneyCheckedIn" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_CancelMoneyCheckedIn_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ExistSAPRefNo">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/ExistSAPRefNo" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_ExistSAPRefNo_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetHistDailyRemainReport">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetHistDailyRemainReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetHistDailyRemainReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetHistBankPayInDetailReport">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetHistBankPayInDetailReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetHistBankPayInDetailReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetHistWorkFlowReport">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetHistWorkFlowReport" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetHistWorkFlowReport_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkBetweenDate">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetWorkBetweenDate" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetWorkBetweenDate_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ListBankDelivery">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/ListBankDelivery" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_ListBankDelivery_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CancelBankDelivery">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/CancelBankDelivery" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_CancelBankDelivery_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ListAllOpenWork">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/ListAllOpenWork" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_ListAllOpenWork_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ForceCloseWork">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/ForceCloseWork" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_ForceCloseWork_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LoadCashierPosId">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/LoadCashierPosId" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_LoadCashierPosId_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="IsAllWorkClosed">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/IsAllWorkClosed" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_IsAllWorkClosed_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SetBaseline">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/SetBaseline" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_SetBaseline_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetBaseline">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetBaseline" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetBaseline_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkPosId">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/GetWorkPosId" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_GetWorkPosId_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LoadSAPReference">
+      <soap:operation soapAction="http://tempuri.org/ICashierWCFService/LoadSAPReference" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:ICashierWCFService_LoadSAPReference_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CashierWCFService">
+    <wsdl:port name="BasicHttpBinding_ICashierWCFService" binding="tns:BasicHttpBinding_ICashierWCFService">
+      <soap:address location="http://localhost/BPMService/Cashier/CashierWCFService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

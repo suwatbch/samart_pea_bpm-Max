@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/ControlWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/ControlWCFService.svc?xsd=xsd3" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/ControlWCFService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/ControlWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/ControlWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.CommonUtilities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/ControlWCFService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.BillPrintingModule.Interface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/ControlWCFService.svc?xsd=xsd6" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost/BPMService/BLAN/ControlWCFService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Infrastructure.Interface.BusinessEntities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IControlWCFService_GetDeliveryPlace_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeliveryPlace" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetDeliveryPlace_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetDeliveryPlace_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeliveryPlaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetDeliveryPlace_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_InsertDeliveryPlace_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertDeliveryPlace" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_InsertDeliveryPlace_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_InsertDeliveryPlace_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertDeliveryPlaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_InsertDeliveryPlace_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_UpdateDeliveryPlace_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDeliveryPlace" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_UpdateDeliveryPlace_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_UpdateDeliveryPlace_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDeliveryPlaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_UpdateDeliveryPlace_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_DeleteDeliveryPlace_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteDeliveryPlace" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_DeleteDeliveryPlace_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_DeleteDeliveryPlace_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteDeliveryPlaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_DeleteDeliveryPlace_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetChildBranch_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetChildBranch" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetChildBranch_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetChildBranch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetChildBranchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetChildBranch_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetBank_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBank" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetBank_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetBank_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetBank_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetPortion_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPortion" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetPortion_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetPortion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPortionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetPortion_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetApprover_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetApprover" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetApprover_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetApprover_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetApproverResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetApprover_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q8:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_InsertApprover_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertApprover" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_InsertApprover_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_InsertApprover_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertApproverResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_InsertApprover_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q9:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_UpdateApprover_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprover" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_UpdateApprover_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_UpdateApprover_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApproverResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_UpdateApprover_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q10:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_DeleteApprover_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteApprover" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_DeleteApprover_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_DeleteApprover_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteApproverResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_DeleteApprover_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q11:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetContractAccountHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetContractAccountHistory" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetContractAccountHistory_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetContractAccountHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetContractAccountHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetContractAccountHistory_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q12:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetBarcodeMRU_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBarcodeMRU" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetBarcodeMRU_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetBarcodeMRU_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBarcodeMRUResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_GetBarcodeMRU_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q13="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q13:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_UpdateBarcodeMRU_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBarcodeMRU" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_UpdateBarcodeMRU_InputMessage_Headers">
+    <wsdl:part name="AuthInfoValue" element="AuthInfoValue" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_UpdateBarcodeMRU_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBarcodeMRUResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlWCFService_UpdateBarcodeMRU_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q14:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="IControlWCFService">
+    <wsdl:operation name="GetDeliveryPlace">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlWCFService/GetDeliveryPlace" message="tns:IControlWCFService_GetDeliveryPlace_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlWCFService/GetDeliveryPlaceResponse" message="tns:IControlWCFService_GetDeliveryPlace_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IControlWCFService/GetDeliveryPlaceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IControlWCFService_GetDeliveryPlace_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertDeliveryPlace">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlWCFService/InsertDeliveryPlace" message="tns:IControlWCFService_InsertDeliveryPlace_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlWCFService/InsertDeliveryPlaceResponse" message="tns:IControlWCFService_InsertDeliveryPlace_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IControlWCFService/InsertDeliveryPlaceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IControlWCFService_InsertDeliveryPlace_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeliveryPlace">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlWCFService/UpdateDeliveryPlace" message="tns:IControlWCFService_UpdateDeliveryPlace_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlWCFService/UpdateDeliveryPlaceResponse" message="tns:IControlWCFService_UpdateDeliveryPlace_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IControlWCFService/UpdateDeliveryPlaceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IControlWCFService_UpdateDeliveryPlace_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDeliveryPlace">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlWCFService/DeleteDeliveryPlace" message="tns:IControlWCFService_DeleteDeliveryPlace_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlWCFService/DeleteDeliveryPlaceResponse" message="tns:IControlWCFService_DeleteDeliveryPlace_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IControlWCFService/DeleteDeliveryPlaceBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IControlWCFService_DeleteDeliveryPlace_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetChildBranch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlWCFService/GetChildBranch" message="tns:IControlWCFService_GetChildBranch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlWCFService/GetChildBranchResponse" message="tns:IControlWCFService_GetChildBranch_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IControlWCFService/GetChildBranchBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IControlWCFService_GetChildBranch_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBank">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlWCFService/GetBank" message="tns:IControlWCFService_GetBank_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlWCFService/GetBankResponse" message="tns:IControlWCFService_GetBank_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IControlWCFService/GetBankBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IControlWCFService_GetBank_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPortion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlWCFService/GetPortion" message="tns:IControlWCFService_GetPortion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlWCFService/GetPortionResponse" message="tns:IControlWCFService_GetPortion_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IControlWCFService/GetPortionBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IControlWCFService_GetPortion_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetApprover">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlWCFService/GetApprover" message="tns:IControlWCFService_GetApprover_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlWCFService/GetApproverResponse" message="tns:IControlWCFService_GetApprover_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IControlWCFService/GetApproverBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IControlWCFService_GetApprover_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertApprover">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlWCFService/InsertApprover" message="tns:IControlWCFService_InsertApprover_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlWCFService/InsertApproverResponse" message="tns:IControlWCFService_InsertApprover_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IControlWCFService/InsertApproverBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IControlWCFService_InsertApprover_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprover">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlWCFService/UpdateApprover" message="tns:IControlWCFService_UpdateApprover_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlWCFService/UpdateApproverResponse" message="tns:IControlWCFService_UpdateApprover_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IControlWCFService/UpdateApproverBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IControlWCFService_UpdateApprover_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteApprover">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlWCFService/DeleteApprover" message="tns:IControlWCFService_DeleteApprover_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlWCFService/DeleteApproverResponse" message="tns:IControlWCFService_DeleteApprover_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IControlWCFService/DeleteApproverBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IControlWCFService_DeleteApprover_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetContractAccountHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlWCFService/GetContractAccountHistory" message="tns:IControlWCFService_GetContractAccountHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlWCFService/GetContractAccountHistoryResponse" message="tns:IControlWCFService_GetContractAccountHistory_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IControlWCFService/GetContractAccountHistoryBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IControlWCFService_GetContractAccountHistory_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBarcodeMRU">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlWCFService/GetBarcodeMRU" message="tns:IControlWCFService_GetBarcodeMRU_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlWCFService/GetBarcodeMRUResponse" message="tns:IControlWCFService_GetBarcodeMRU_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IControlWCFService/GetBarcodeMRUBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IControlWCFService_GetBarcodeMRU_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBarcodeMRU">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlWCFService/UpdateBarcodeMRU" message="tns:IControlWCFService_UpdateBarcodeMRU_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlWCFService/UpdateBarcodeMRUResponse" message="tns:IControlWCFService_UpdateBarcodeMRU_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IControlWCFService/UpdateBarcodeMRUBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:IControlWCFService_UpdateBarcodeMRU_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

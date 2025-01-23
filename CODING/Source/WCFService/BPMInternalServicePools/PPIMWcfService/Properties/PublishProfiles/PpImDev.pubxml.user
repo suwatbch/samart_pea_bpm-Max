@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\BPM TEMP\PPIMDeploy</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/PPIMWcfService.dll">
+      <publishTime>09/18/2019 14:20:00</publishTime>
+    </File>
+    <File Include="bin/PPIMWcfService.XmlSerializers.dll">
+      <publishTime>09/18/2019 14:20:00</publishTime>
+    </File>
+    <File Include="PPIMService.svc">
+      <publishTime>09/17/2019 14:09:57</publishTime>
+    </File>
+    <File Include="Web References/VSPPDev/AppHttpWebServicesPayment1.datasource">
+      <publishTime>09/18/2019 10:32:17</publishTime>
+    </File>
+    <File Include="Web References/VSPPDev/Reference.map">
+      <publishTime>09/17/2019 15:27:28</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/18/2019 14:20:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

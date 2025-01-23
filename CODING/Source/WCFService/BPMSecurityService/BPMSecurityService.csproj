@@ -1,0 +1,309 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2A43A9D0-85E1-424B-9CCB-252F959D8931}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PEA.BPM.WebService.Security</RootNamespace>
+    <AssemblyName>BPMSecurityService</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="protobuf-net, Version=1.0.0.280, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AuthenticationWebService.asmx" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CashierMonitoring.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>CashierMonitoring.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CashierMonitoring.aspx.designer.cs">
+      <DependentUpon>CashierMonitoring.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\index.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\LogMonitoring.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>LogMonitoring.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\LogMonitoring.aspx.designer.cs">
+      <DependentUpon>LogMonitoring.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SystemMonitoring.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>SystemMonitoring.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SystemMonitoring.aspx.designer.cs">
+      <DependentUpon>SystemMonitoring.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserMonitoring.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>UserMonitoring.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserMonitoring.aspx.designer.cs">
+      <DependentUpon>UserMonitoring.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\AuthenticationController.cs" />
+    <Compile Include="AuthenticationWebService.asmx.cs">
+      <DependentUpon>AuthenticationWebService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BPMAuthenticationDS.cs">
+      <DependentUpon>BPMAuthenticationDS.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BPMAuthenticationDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BPMAuthenticationDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BPMLogDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BPMLogDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BPMNewsDS.cs">
+      <DependentUpon>BPMNewsDS.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BPMNewsDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BPMNewsDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CashierCachingService.svc.cs">
+      <DependentUpon>CashierCachingService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier\CashierCachingController.cs" />
+    <Compile Include="CashierCachingWebService.asmx.cs">
+      <DependentUpon>CashierCachingWebService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cashier\CachingCashierWorkStatus.cs" />
+    <Compile Include="Core\SystemActivity.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Features.cs" />
+    <Compile Include="Core\SystemInfo.cs" />
+    <Compile Include="ICashierCachingService.cs" />
+    <Compile Include="MonitoringController.cs" />
+    <Compile Include="MonitoringWebService.asmx.cs">
+      <DependentUpon>MonitoringWebService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NewsWebService.asmx.cs">
+      <DependentUpon>NewsWebService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="News\NewsController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\index.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\NetworkSummary.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>NetworkSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\NetworkSummary.aspx.designer.cs">
+      <DependentUpon>NetworkSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Report.Master.cs">
+      <DependentUpon>Report.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\Report.Master.designer.cs">
+      <DependentUpon>Report.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Report\UserSummary.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>UserSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\UserSummary.aspx.designer.cs">
+      <DependentUpon>UserSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceLog.cs" />
+    <Compile Include="Authentication\UserAuthenInfo.cs" />
+    <Compile Include="Authentication\CachingUser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Admin.Master" />
+    <Content Include="Admin\CashierMonitoring.aspx" />
+    <Content Include="Admin\index.aspx" />
+    <Content Include="Admin\LogMonitoring.aspx" />
+    <Content Include="Admin\SystemMonitoring.aspx" />
+    <Content Include="Admin\UserMonitoring.aspx" />
+    <Content Include="CashierCachingService.svc" />
+    <Content Include="CashierCachingWebService.asmx" />
+    <Content Include="MonitoringWebService.asmx" />
+    <Content Include="NewsWebService.asmx" />
+    <Content Include="readme.txt" />
+    <Content Include="releaselog.txt" />
+    <None Include="BPMAuthenticationDS.xsc">
+      <DependentUpon>BPMAuthenticationDS.xsd</DependentUpon>
+    </None>
+    <None Include="BPMAuthenticationDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BPMAuthenticationDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BPMAuthenticationDS.xss">
+      <DependentUpon>BPMAuthenticationDS.xsd</DependentUpon>
+    </None>
+    <None Include="BPMLogDS.xsc">
+      <DependentUpon>BPMLogDS.xsd</DependentUpon>
+    </None>
+    <None Include="BPMLogDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BPMLogDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BPMLogDS.xss">
+      <DependentUpon>BPMLogDS.xsd</DependentUpon>
+    </None>
+    <None Include="BPMNewsDS.xsc">
+      <DependentUpon>BPMNewsDS.xsd</DependentUpon>
+    </None>
+    <None Include="BPMNewsDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BPMNewsDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BPMNewsDS.xss">
+      <DependentUpon>BPMNewsDS.xsd</DependentUpon>
+    </None>
+    <Content Include="Report\index.aspx" />
+    <Content Include="Report\NetworkSummary.aspx" />
+    <Content Include="Report\Report.Master" />
+    <Content Include="Report\UserSummary.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Architecture\ArchitectureInterface\ArchitectureInterface.csproj">
+      <Project>{7939F32D-01C5-45B5-A545-3EEE99017A7E}</Project>
+      <Name>ArchitectureInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CashManagementModule\CashManagementModule.Interface\CashManagementModule.Interface.csproj">
+      <Project>{E0AFD613-2C8A-49A8-9551-0C0222864AEC}</Project>
+      <Name>CashManagementModule.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Infrastructure.Interface\Infrastructure.Interface.csproj">
+      <Project>{A6E71DBF-A767-416C-9DE4-15AEFC619BAF}</Project>
+      <Name>Infrastructure.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Network\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" Condition="" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54650</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/BPMSecurityService</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

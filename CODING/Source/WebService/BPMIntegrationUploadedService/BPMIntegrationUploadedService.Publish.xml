@@ -1,0 +1,45 @@
+<publishData>
+  <publishTarget publishUrl="C:\BPMPublish\BPMPackage V2.0.4\BPMIntegrationUploadService\">
+    <file relUrl="MasterIntegrationWebService.asmx" publishTime="10/19/2021 15:56:11" />
+    <file relUrl="bin/Microsoft.Practices.ObjectBuilder2.dll" publishTime="10/19/2021 15:56:09" />
+    <file relUrl="bin/PEA.BPM.Integration.BPMIntegration.DA.pdb" publishTime="11/08/2021 11:14:42" />
+    <file relUrl="ExportTableIntegrationWebService.asmx" publishTime="10/19/2021 15:56:11" />
+    <file relUrl="bin/PEA.BPM.Integration.BPMIntegration.Interface.dll" publishTime="11/08/2021 11:14:37" />
+    <file relUrl="UtilitiesIntegrationWebService.asmx" publishTime="10/19/2021 15:56:11" />
+    <file relUrl="bin/PEA.BPM.Integration.BPMIntegration.SG.dll" publishTime="11/08/2021 11:14:37" />
+    <file relUrl="bin/ACABatchService.dll" publishTime="11/08/2021 11:14:38" />
+    <file relUrl="bin/Architecture.ArchitectureInterface.dll" publishTime="10/26/2021 11:31:50" />
+    <file relUrl="bin/BPMIntegrationService.dll" publishTime="11/08/2021 11:14:47" />
+    <file relUrl="bin/Architecture.CommonUtilities.dll" publishTime="11/08/2021 11:14:30" />
+    <file relUrl="bin/Architecture.ArchitectureDA.dll" publishTime="11/08/2021 11:14:32" />
+    <file relUrl="EPaymentWebService.asmx" publishTime="10/19/2021 15:56:11" />
+    <file relUrl="AgencyIntegrationWebService.asmx" publishTime="10/19/2021 15:56:11" />
+    <file relUrl="bin/ACABatchService.pdb" publishTime="11/08/2021 11:14:38" />
+    <file relUrl="bin/Architecture.ArchitectureDA.pdb" publishTime="11/08/2021 11:14:32" />
+    <file relUrl="BLANIntegrationWebService.asmx" publishTime="10/19/2021 15:56:11" />
+    <file relUrl="bin/Avanade.ACA.Batch.dll" publishTime="10/26/2021 11:31:53" />
+    <file relUrl="bin/BPMIntegrationUploadedService.dll" publishTime="11/08/2021 11:14:51" />
+    <file relUrl="bin/BPMIntegrationService.pdb" publishTime="11/08/2021 11:14:47" />
+    <file relUrl="bin/Architecture.ArchitectureInterface.pdb" publishTime="10/26/2021 11:31:50" />
+    <file relUrl="Web.config" publishTime="10/19/2021 15:56:11" />
+    <file relUrl="bin/Microsoft.Practices.ObjectBuilder.dll" publishTime="10/19/2021 15:56:09" />
+    <file relUrl="bin/PEA.BPM.Integration.BPMIntegration.BS.dll" publishTime="11/08/2021 11:14:43" />
+    <file relUrl="bin/PEA.BPM.Integration.BPMIntegration.Interface.pdb" publishTime="11/08/2021 11:14:37" />
+    <file relUrl="bin/BPMIntegrationUploadedService.pdb" publishTime="11/08/2021 11:14:51" />
+    <file relUrl="bin/protobuf-net.dll" publishTime="10/19/2021 15:56:09" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll" publishTime="10/19/2021 15:56:09" />
+    <file relUrl="bin/Architecture.ArchitectureBS.dll" publishTime="11/08/2021 11:14:35" />
+    <file relUrl="bin/Avanade.ACA.Batch.pdb" publishTime="10/26/2021 11:31:53" />
+    <file relUrl="bin/PEA.BPM.Integration.BPMIntegration.BS.pdb" publishTime="11/08/2021 11:14:43" />
+    <file relUrl="bin/Architecture.CommonUtilities.pdb" publishTime="11/08/2021 11:14:30" />
+    <file relUrl="CashManagementWebService.asmx" publishTime="10/19/2021 15:56:11" />
+    <file relUrl="bin/PEA.BPM.Integration.BPMIntegration.DA.dll" publishTime="11/08/2021 11:14:42" />
+    <file relUrl="bin/Architecture.ArchitectureBS.pdb" publishTime="11/08/2021 11:14:35" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Logging.dll" publishTime="10/19/2021 15:56:09" />
+    <file relUrl="bin/BPMIntegrationDownloadedService.dll" publishTime="11/08/2021 11:14:51" />
+    <file relUrl="ARWebService.asmx" publishTime="10/19/2021 15:56:11" />
+    <file relUrl="bin/BPMIntegrationDownloadedService.pdb" publishTime="11/08/2021 11:14:51" />
+    <file relUrl="bin/PEA.BPM.Integration.BPMIntegration.SG.pdb" publishTime="11/08/2021 11:14:37" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll" publishTime="10/19/2021 15:56:09" />
+  </publishTarget>
+</publishData>

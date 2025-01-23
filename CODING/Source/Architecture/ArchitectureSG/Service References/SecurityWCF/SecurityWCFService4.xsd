@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="BPMApplicationExceptionInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ErrorCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OriginalType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OccurWhen" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Module" type="xs:int" />
+      <xs:element minOccurs="0" name="Layer" type="xs:int" />
+      <xs:element minOccurs="0" name="DebuggingId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StackTrace" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CanContinue" type="xs:boolean" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AuthToken" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AdditionalInfo" nillable="true" type="tns:ArrayOfSimpleExceptionInfo" />
+      <xs:element minOccurs="0" name="THMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Cause" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Resolve" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HelpURL" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BPMApplicationExceptionInfo" nillable="true" type="tns:BPMApplicationExceptionInfo" />
+  <xs:complexType name="ArrayOfSimpleExceptionInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SimpleExceptionInfo" nillable="true" type="tns:SimpleExceptionInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSimpleExceptionInfo" nillable="true" type="tns:ArrayOfSimpleExceptionInfo" />
+  <xs:complexType name="SimpleExceptionInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StackTrace" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Additional" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TypeName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SimpleExceptionInfo" nillable="true" type="tns:SimpleExceptionInfo" />
+  <xs:complexType name="UnlockLog">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FunctionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CurrentUserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnlockUserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remark" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UnlockLog" nillable="true" type="tns:UnlockLog" />
+  <xs:complexType name="UserProfileExt">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ScopeId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserProfile" nillable="true" type="tns:UserProfile" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserProfileExt" nillable="true" type="tns:UserProfileExt" />
+  <xs:complexType name="UserProfile">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Department" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LoginTime" nillable="true" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserProfile" nillable="true" type="tns:UserProfile" />
+</xs:schema>

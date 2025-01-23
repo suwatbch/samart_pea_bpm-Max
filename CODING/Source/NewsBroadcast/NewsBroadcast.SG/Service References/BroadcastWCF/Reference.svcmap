@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1773488d-d72f-4d0b-8db1-276afc7319e7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/TOOL/BroadcastWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BroadcastWCFService5.xsd" MetadataType="Schema" ID="3a5c0501-a8a4-4d89-b96a-9e3da10bab91" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/BroadcastWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="BroadcastWCFService51.xsd" MetadataType="Schema" ID="a8ee8e15-594d-4c2f-8fdc-6fc4d22e1adf" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/BroadcastWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="BroadcastWCFService2.wsdl" MetadataType="Wsdl" ID="c6e6b891-a7bf-4ced-83f1-749aa6e95d4f" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/BroadcastWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="BroadcastWCFService1.disco" MetadataType="Disco" ID="304acc00-439e-458f-8ad5-ee1eec997b3c" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/BroadcastWCFService.svc?disco" />
+    <MetadataFile FileName="BroadcastWCFService52.xsd" MetadataType="Schema" ID="7878fb48-6135-4fad-a9eb-413c4c5b1ce5" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/BroadcastWCFService.svc?xsd=xsd4" />
+    <MetadataFile FileName="BroadcastWCFService53.xsd" MetadataType="Schema" ID="fa5e7bd9-94db-4483-a421-f4521a6359a7" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/BroadcastWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="BroadcastWCFService21.wsdl" MetadataType="Wsdl" ID="b93541f8-8e3a-4e60-9348-c4834e7993eb" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/BroadcastWCFService.svc?wsdl" />
+    <MetadataFile FileName="BroadcastWCFService54.xsd" MetadataType="Schema" ID="f0983dea-2cb1-4d9c-a6c8-db435a564425" SourceId="1" SourceUrl="http://localhost/BPMService/TOOL/BroadcastWCFService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

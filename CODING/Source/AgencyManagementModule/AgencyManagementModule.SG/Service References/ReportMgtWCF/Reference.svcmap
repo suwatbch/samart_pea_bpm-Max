@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="818c2417-1634-4974-96bb-8994f449b241" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ReportMgtWCFService1.disco" MetadataType="Disco" ID="ebc3f1e9-0bae-4b4b-b575-8c3d3114d240" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?disco" />
+    <MetadataFile FileName="ReportMgtWCFService7.xsd" MetadataType="Schema" ID="d7886faf-350a-44ec-8fe5-7e74157d196c" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?xsd=xsd4" />
+    <MetadataFile FileName="ReportMgtWCFService71.xsd" MetadataType="Schema" ID="346228a3-5d56-45ec-8bbb-7269ffd272e2" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ReportMgtWCFService72.xsd" MetadataType="Schema" ID="6c62f78b-2313-435b-a944-bfd04cfbb563" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?xsd=xsd6" />
+    <MetadataFile FileName="ReportMgtWCFService73.xsd" MetadataType="Schema" ID="72e8db82-2e2c-4e10-88b1-640df5ece717" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="ReportMgtWCFService2.wsdl" MetadataType="Wsdl" ID="46af6087-9d62-4d14-9a4e-f281d1003754" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="ReportMgtWCFService21.wsdl" MetadataType="Wsdl" ID="fc03048e-9cb9-4592-b739-44188789467c" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?wsdl" />
+    <MetadataFile FileName="ReportMgtWCFService74.xsd" MetadataType="Schema" ID="06502f75-a3ed-4b11-a9f3-f129c2ed948c" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ReportMgtWCFService75.xsd" MetadataType="Schema" ID="4d53866f-5ecb-42ae-b586-fa4557f9f70e" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?xsd=xsd5" />
+    <MetadataFile FileName="ReportMgtWCFService76.xsd" MetadataType="Schema" ID="72989f9c-a084-4591-844f-c505c99d085d" SourceId="1" SourceUrl="http://localhost/BPMService/AGENCY/ReportMgtWCFService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

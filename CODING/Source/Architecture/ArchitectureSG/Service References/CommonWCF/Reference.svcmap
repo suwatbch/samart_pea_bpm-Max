@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b4109e23-c86a-4e51-9f80-abc8939b7543" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMCenterAppServices/ARCH/CommonWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CommonWCFService2.wsdl" MetadataType="Wsdl" ID="083b8bfe-57e2-4ca3-a05f-c672b15c38be" SourceId="1" SourceUrl="http://altpeajptn0018/BpmCenterAppServices/ARCH/CommonWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="CommonWCFService3.xsd" MetadataType="Schema" ID="748293b2-92af-436d-a05c-5fb0174bac8b" SourceId="1" SourceUrl="http://altpeajptn0018/BpmCenterAppServices/ARCH/CommonWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CommonWCFService4.xsd" MetadataType="Schema" ID="a3ed5033-f2fc-4186-a139-dcb45978c30f" SourceId="1" SourceUrl="http://altpeajptn0018/BpmCenterAppServices/ARCH/CommonWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CommonWCFService5.xsd" MetadataType="Schema" ID="34fa684d-bd41-438a-9fcf-defd8c5f3729" SourceId="1" SourceUrl="http://altpeajptn0018/BpmCenterAppServices/ARCH/CommonWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CommonWCFService1.disco" MetadataType="Disco" ID="d4d97810-4858-469e-934f-aa3fe5cab833" SourceId="1" SourceUrl="http://altpeajptn0018/BpmCenterAppServices/ARCH/CommonWCFService.svc?disco" />
+    <MetadataFile FileName="CommonWCFService3.wsdl" MetadataType="Wsdl" ID="cdcda580-1cb2-4788-85b1-1346be5a66f7" SourceId="1" SourceUrl="http://altpeajptn0018/BpmCenterAppServices/ARCH/CommonWCFService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetServerTime">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetServerTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetServerTimeResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadAppSetting">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadAppSettingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadAppSettingResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CompressData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="OriginalSize" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="CompressSize" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Data" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AuthenInfo" type="tns:AuthenInfo" />
+      <s:complexType name="AuthenInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AuthToken" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="DownloadTerminal">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadTerminalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadTerminalResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadUnlockLog">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadUnlockLogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadUnlockLogResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadUserResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadRole">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadRoleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadRoleResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadFunction">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadFunctionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadFunctionResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadService">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadServiceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadServiceResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadRoleUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadRoleUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadRoleUserResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadRoleFunction">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadRoleFunctionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadRoleFunctionResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadFunctionService">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadFunctionServiceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadFunctionServiceResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadUnlockRemark">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDt" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadUnlockRemarkResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadUnlockRemarkResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetServerTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetServerTime" />
+  </wsdl:message>
+  <wsdl:message name="GetServerTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetServerTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadAppSettingSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadAppSetting" />
+  </wsdl:message>
+  <wsdl:message name="DownloadAppSettingSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadAppSettingResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadAppSettingAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadTerminalSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadTerminal" />
+  </wsdl:message>
+  <wsdl:message name="DownloadTerminalSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadTerminalResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadTerminalAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadUnlockLogSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadUnlockLog" />
+  </wsdl:message>
+  <wsdl:message name="DownloadUnlockLogSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadUnlockLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadUnlockLogAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadUserSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadUser" />
+  </wsdl:message>
+  <wsdl:message name="DownloadUserSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadUserAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRoleSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadRole" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRoleSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadRoleResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRoleAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadFunctionSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadFunction" />
+  </wsdl:message>
+  <wsdl:message name="DownloadFunctionSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadFunctionResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadFunctionAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadServiceSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadService" />
+  </wsdl:message>
+  <wsdl:message name="DownloadServiceSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadServiceAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRoleUserSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadRoleUser" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRoleUserSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadRoleUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRoleUserAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRoleFunctionSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadRoleFunction" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRoleFunctionSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadRoleFunctionResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadRoleFunctionAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadFunctionServiceSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadFunctionService" />
+  </wsdl:message>
+  <wsdl:message name="DownloadFunctionServiceSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadFunctionServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadFunctionServiceAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="DownloadUnlockRemarkSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadUnlockRemark" />
+  </wsdl:message>
+  <wsdl:message name="DownloadUnlockRemarkSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadUnlockRemarkResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadUnlockRemarkAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:portType name="UtilitiesIntegrationWebServiceSoap">
+    <wsdl:operation name="GetServerTime">
+      <wsdl:input message="tns:GetServerTimeSoapIn" />
+      <wsdl:output message="tns:GetServerTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadAppSetting">
+      <wsdl:input message="tns:DownloadAppSettingSoapIn" />
+      <wsdl:output message="tns:DownloadAppSettingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadTerminal">
+      <wsdl:input message="tns:DownloadTerminalSoapIn" />
+      <wsdl:output message="tns:DownloadTerminalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadUnlockLog">
+      <wsdl:input message="tns:DownloadUnlockLogSoapIn" />
+      <wsdl:output message="tns:DownloadUnlockLogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadUser">
+      <wsdl:input message="tns:DownloadUserSoapIn" />
+      <wsdl:output message="tns:DownloadUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRole">
+      <wsdl:input message="tns:DownloadRoleSoapIn" />
+      <wsdl:output message="tns:DownloadRoleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadFunction">
+      <wsdl:input message="tns:DownloadFunctionSoapIn" />
+      <wsdl:output message="tns:DownloadFunctionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadService">
+      <wsdl:input message="tns:DownloadServiceSoapIn" />
+      <wsdl:output message="tns:DownloadServiceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRoleUser">
+      <wsdl:input message="tns:DownloadRoleUserSoapIn" />
+      <wsdl:output message="tns:DownloadRoleUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRoleFunction">
+      <wsdl:input message="tns:DownloadRoleFunctionSoapIn" />
+      <wsdl:output message="tns:DownloadRoleFunctionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadFunctionService">
+      <wsdl:input message="tns:DownloadFunctionServiceSoapIn" />
+      <wsdl:output message="tns:DownloadFunctionServiceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadUnlockRemark">
+      <wsdl:input message="tns:DownloadUnlockRemarkSoapIn" />
+      <wsdl:output message="tns:DownloadUnlockRemarkSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UtilitiesIntegrationWebServiceSoap" type="tns:UtilitiesIntegrationWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetServerTime">
+      <soap:operation soapAction="http://tempuri.org/GetServerTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadAppSetting">
+      <soap:operation soapAction="http://tempuri.org/DownloadAppSetting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadAppSettingAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadTerminal">
+      <soap:operation soapAction="http://tempuri.org/DownloadTerminal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadTerminalAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadUnlockLog">
+      <soap:operation soapAction="http://tempuri.org/DownloadUnlockLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadUnlockLogAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadUser">
+      <soap:operation soapAction="http://tempuri.org/DownloadUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadUserAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRole">
+      <soap:operation soapAction="http://tempuri.org/DownloadRole" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadRoleAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadFunction">
+      <soap:operation soapAction="http://tempuri.org/DownloadFunction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadFunctionAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadService">
+      <soap:operation soapAction="http://tempuri.org/DownloadService" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadServiceAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRoleUser">
+      <soap:operation soapAction="http://tempuri.org/DownloadRoleUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadRoleUserAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRoleFunction">
+      <soap:operation soapAction="http://tempuri.org/DownloadRoleFunction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadRoleFunctionAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadFunctionService">
+      <soap:operation soapAction="http://tempuri.org/DownloadFunctionService" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadFunctionServiceAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadUnlockRemark">
+      <soap:operation soapAction="http://tempuri.org/DownloadUnlockRemark" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DownloadUnlockRemarkAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UtilitiesIntegrationWebServiceSoap12" type="tns:UtilitiesIntegrationWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetServerTime">
+      <soap12:operation soapAction="http://tempuri.org/GetServerTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadAppSetting">
+      <soap12:operation soapAction="http://tempuri.org/DownloadAppSetting" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadAppSettingAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadTerminal">
+      <soap12:operation soapAction="http://tempuri.org/DownloadTerminal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadTerminalAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadUnlockLog">
+      <soap12:operation soapAction="http://tempuri.org/DownloadUnlockLog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadUnlockLogAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadUser">
+      <soap12:operation soapAction="http://tempuri.org/DownloadUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadUserAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRole">
+      <soap12:operation soapAction="http://tempuri.org/DownloadRole" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadRoleAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadFunction">
+      <soap12:operation soapAction="http://tempuri.org/DownloadFunction" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadFunctionAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadService">
+      <soap12:operation soapAction="http://tempuri.org/DownloadService" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadServiceAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRoleUser">
+      <soap12:operation soapAction="http://tempuri.org/DownloadRoleUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadRoleUserAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadRoleFunction">
+      <soap12:operation soapAction="http://tempuri.org/DownloadRoleFunction" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadRoleFunctionAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadFunctionService">
+      <soap12:operation soapAction="http://tempuri.org/DownloadFunctionService" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadFunctionServiceAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadUnlockRemark">
+      <soap12:operation soapAction="http://tempuri.org/DownloadUnlockRemark" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DownloadUnlockRemarkAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UtilitiesIntegrationWebService">
+    <wsdl:port name="UtilitiesIntegrationWebServiceSoap" binding="tns:UtilitiesIntegrationWebServiceSoap">
+      <soap:address location="http://localhost/BPMIntegrationDownloadedService/UtilitiesIntegrationWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UtilitiesIntegrationWebServiceSoap12" binding="tns:UtilitiesIntegrationWebServiceSoap12">
+      <soap12:address location="http://localhost/BPMIntegrationDownloadedService/UtilitiesIntegrationWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

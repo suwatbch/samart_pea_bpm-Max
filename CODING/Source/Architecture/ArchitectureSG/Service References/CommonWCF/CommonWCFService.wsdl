@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/BPMService/ARCH/CommonWCFService.svc?xsd=xsd0" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ARCH/CommonWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" />
+      <xsd:import schemaLocation="http://localhost/BPMService/ARCH/CommonWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICommonWCFService_IsAuthenticated_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsAuthenticated" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_IsAuthenticated_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsAuthenticatedResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_IsAuthenticated_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q1:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_IsAuthenticatedInBranch_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsAuthenticatedInBranch" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_IsAuthenticatedInBranch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsAuthenticatedInBranchResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_IsAuthenticatedInBranch_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q2:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_GetToken_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetToken" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_GetToken_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_GetToken_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q3:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_GetServerTime_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerTime" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_GetServerTime_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_GetServerTime_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q4:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_GetVersion_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVersion" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_GetVersion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_GetVersion_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q5:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_SignalExport_InputMessage">
+    <wsdl:part name="parameters" element="tns:SignalExport" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_SignalExport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SignalExportResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_SignalExport_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q6:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_SignalExportBillBook_InputMessage">
+    <wsdl:part name="parameters" element="tns:SignalExportBillBook" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_SignalExportBillBook_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SignalExportBillBookResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_SignalExportBillBook_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q7:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_SignalSyncup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SignalSyncup" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_SignalSyncup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SignalSyncupResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_SignalSyncup_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q8:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_IsForcedToCloseWork_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsForcedToCloseWork" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_IsForcedToCloseWork_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsForcedToCloseWorkResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_IsForcedToCloseWork_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q9:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_LoadRegisterationInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadRegisterationInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_LoadRegisterationInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadRegisterationInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommonWCFService_LoadRegisterationInfo_BPMApplicationExceptionInfoFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/PEA.BPM.Architecture.ArchitectureInterface.BusinessEntities" name="detail" element="q10:BPMApplicationExceptionInfo" />
+  </wsdl:message>
+  <wsdl:portType name="ICommonWCFService">
+    <wsdl:operation name="IsAuthenticated">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommonWCFService/IsAuthenticated" message="tns:ICommonWCFService_IsAuthenticated_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommonWCFService/IsAuthenticatedResponse" message="tns:ICommonWCFService_IsAuthenticated_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommonWCFService/IsAuthenticatedBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommonWCFService_IsAuthenticated_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsAuthenticatedInBranch">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommonWCFService/IsAuthenticatedInBranch" message="tns:ICommonWCFService_IsAuthenticatedInBranch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommonWCFService/IsAuthenticatedInBranchResponse" message="tns:ICommonWCFService_IsAuthenticatedInBranch_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommonWCFService/IsAuthenticatedInBranchBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommonWCFService_IsAuthenticatedInBranch_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetToken">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommonWCFService/GetToken" message="tns:ICommonWCFService_GetToken_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommonWCFService/GetTokenResponse" message="tns:ICommonWCFService_GetToken_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommonWCFService/GetTokenBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommonWCFService_GetToken_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerTime">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommonWCFService/GetServerTime" message="tns:ICommonWCFService_GetServerTime_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommonWCFService/GetServerTimeResponse" message="tns:ICommonWCFService_GetServerTime_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommonWCFService/GetServerTimeBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommonWCFService_GetServerTime_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVersion">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommonWCFService/GetVersion" message="tns:ICommonWCFService_GetVersion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommonWCFService/GetVersionResponse" message="tns:ICommonWCFService_GetVersion_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommonWCFService/GetVersionBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommonWCFService_GetVersion_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SignalExport">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommonWCFService/SignalExport" message="tns:ICommonWCFService_SignalExport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommonWCFService/SignalExportResponse" message="tns:ICommonWCFService_SignalExport_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommonWCFService/SignalExportBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommonWCFService_SignalExport_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SignalExportBillBook">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommonWCFService/SignalExportBillBook" message="tns:ICommonWCFService_SignalExportBillBook_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommonWCFService/SignalExportBillBookResponse" message="tns:ICommonWCFService_SignalExportBillBook_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommonWCFService/SignalExportBillBookBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommonWCFService_SignalExportBillBook_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SignalSyncup">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommonWCFService/SignalSyncup" message="tns:ICommonWCFService_SignalSyncup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommonWCFService/SignalSyncupResponse" message="tns:ICommonWCFService_SignalSyncup_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommonWCFService/SignalSyncupBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommonWCFService_SignalSyncup_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsForcedToCloseWork">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommonWCFService/IsForcedToCloseWork" message="tns:ICommonWCFService_IsForcedToCloseWork_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommonWCFService/IsForcedToCloseWorkResponse" message="tns:ICommonWCFService_IsForcedToCloseWork_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommonWCFService/IsForcedToCloseWorkBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommonWCFService_IsForcedToCloseWork_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadRegisterationInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommonWCFService/LoadRegisterationInfo" message="tns:ICommonWCFService_LoadRegisterationInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommonWCFService/LoadRegisterationInfoResponse" message="tns:ICommonWCFService_LoadRegisterationInfo_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICommonWCFService/LoadRegisterationInfoBPMApplicationExceptionInfoFault" name="BPMApplicationExceptionInfoFault" message="tns:ICommonWCFService_LoadRegisterationInfo_BPMApplicationExceptionInfoFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

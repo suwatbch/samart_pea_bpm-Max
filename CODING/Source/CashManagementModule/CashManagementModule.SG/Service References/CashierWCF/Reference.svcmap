@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="918b3bf2-8482-4b4e-adc6-3a97d9b25158" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BPMService/Cashier/CashierWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CashierWCFService1.disco" MetadataType="Disco" ID="14deb9af-bff7-4a8e-900d-052c8566d37f" SourceId="1" SourceUrl="http://localhost/BPMService/Cashier/CashierWCFService.svc?disco" />
+    <MetadataFile FileName="CashierWCFService85.xsd" MetadataType="Schema" ID="b43e4b57-e367-47af-b9a5-83e4d242372a" SourceId="1" SourceUrl="http://localhost/BPMService/Cashier/CashierWCFService.svc?xsd=xsd3" />
+    <MetadataFile FileName="CashierWCFService84.xsd" MetadataType="Schema" ID="218d572a-99de-4f1a-b70e-9936bd25014a" SourceId="1" SourceUrl="http://localhost/BPMService/Cashier/CashierWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CashierWCFService8.xsd" MetadataType="Schema" ID="881bf86e-00ed-4e5f-8010-65372e54b202" SourceId="1" SourceUrl="http://localhost/BPMService/Cashier/CashierWCFService.svc?xsd=xsd5" />
+    <MetadataFile FileName="CashierWCFService86.xsd" MetadataType="Schema" ID="f8737170-a4fc-49c5-b810-fae876f909e1" SourceId="1" SourceUrl="http://localhost/BPMService/Cashier/CashierWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CashierWCFService2.wsdl" MetadataType="Wsdl" ID="7c690bcd-1a03-4968-9804-51c4490378d2" SourceId="1" SourceUrl="http://localhost/BPMService/Cashier/CashierWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="CashierWCFService21.wsdl" MetadataType="Wsdl" ID="3ebf1231-36cf-454e-8d40-2954260a6665" SourceId="1" SourceUrl="http://localhost/BPMService/Cashier/CashierWCFService.svc?wsdl" />
+    <MetadataFile FileName="CashierWCFService82.xsd" MetadataType="Schema" ID="33b0494d-5f5e-4aa0-a6ce-d6cc7463b8d8" SourceId="1" SourceUrl="http://localhost/BPMService/Cashier/CashierWCFService.svc?xsd=xsd6" />
+    <MetadataFile FileName="CashierWCFService87.xsd" MetadataType="Schema" ID="c700e4f1-0e85-4579-9372-7422426597e7" SourceId="1" SourceUrl="http://localhost/BPMService/Cashier/CashierWCFService.svc?xsd=xsd7" />
+    <MetadataFile FileName="CashierWCFService81.xsd" MetadataType="Schema" ID="cc705512-edcb-48e8-905b-2d89a5c36337" SourceId="1" SourceUrl="http://localhost/BPMService/Cashier/CashierWCFService.svc?xsd=xsd4" />
+    <MetadataFile FileName="CashierWCFService83.xsd" MetadataType="Schema" ID="eba29dd6-0da3-4bc5-8a43-00db2b6b1723" SourceId="1" SourceUrl="http://localhost/BPMService/Cashier/CashierWCFService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

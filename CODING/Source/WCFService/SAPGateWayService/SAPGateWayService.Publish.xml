@@ -1,0 +1,22 @@
+<publishData>
+  <publishTarget publishUrl="\\172.30.241.72\shared\SAPGATWAY\">
+    <file relUrl="bin/SAP.Connector.dll" publishTime="06/10/2010 17:38:08" />
+    <file relUrl="bin/Architecture.CommonUtilities.pdb" publishTime="06/24/2010 09:44:34" />
+    <file relUrl="SAPGateWayService.asmx" publishTime="06/10/2010 17:39:43" />
+    <file relUrl="bin/BPMSAPConnector.dll" publishTime="06/10/2010 17:38:08" />
+    <file relUrl="bin/Microsoft.Practices.ObjectBuilder2.dll" publishTime="06/10/2010 17:38:08" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Logging.dll" publishTime="06/10/2010 18:48:54" />
+    <file relUrl="Web.config" publishTime="06/10/2010 17:39:44" />
+    <file relUrl="bin/protobuf-net.dll" publishTime="04/14/2010 17:02:48" />
+    <file relUrl="bin/Architecture.ArchitectureInterface.dll" publishTime="06/24/2010 09:44:33" />
+    <file relUrl="bin/SAPGateWayService.dll" publishTime="06/24/2010 09:44:35" />
+    <file relUrl="librfc32.dll" publishTime="06/10/2010 17:39:45" />
+    <file relUrl="bin/Architecture.CommonUtilities.dll" publishTime="06/24/2010 09:44:34" />
+    <file relUrl="bin/SAP.Connector.Rfc.dll" publishTime="06/10/2010 17:38:08" />
+    <file relUrl="bin/SAPGateWayService.pdb" publishTime="06/24/2010 09:44:34" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll" publishTime="06/16/2010 17:43:57" />
+    <file relUrl="bin/Architecture.ArchitectureInterface.pdb" publishTime="06/24/2010 09:44:33" />
+  </publishTarget>
+  <publishTarget publishUrl="Y:\" />
+  <publishTarget publishUrl="\\172.30.241.72\Avanade\SAPGatwayService\" />
+</publishData>

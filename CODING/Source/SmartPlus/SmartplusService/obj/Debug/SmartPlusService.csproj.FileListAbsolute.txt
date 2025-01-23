@@ -1,0 +1,246 @@
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\SmartPlusService.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\SmartPlusService.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.BS.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.Interface.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.DA.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Avanade.ACA.Batch.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.Interface.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\protobuf-net.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.BS.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.ArchitectureInterface.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.CompositeUI.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.DA.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Infrastructure.Interface.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.Interface.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\CashManagementModule.Interface.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.SG.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.CommonUtilities.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.ObjectBuilder.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.DA.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.DA.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.BS.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Avanade.ACA.Batch.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.Interface.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.BS.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.ArchitectureInterface.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.DA.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Infrastructure.Interface.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.Interface.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\CashManagementModule.Interface.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.SG.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.CommonUtilities.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.Interface.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.DA.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\obj\Debug\ResolveAssemblyReference.cache
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\obj\Debug\SmartPlusService.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\obj\Debug\SmartPlusService.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\SmartPlusService.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\SmartPlusService.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.BS.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.DA.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Avanade.ACA.Batch.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\protobuf-net.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.BS.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.CompositeUI.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.DA.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Infrastructure.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\CashManagementModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.SG.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.DA.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.DA.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.BS.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Avanade.ACA.Batch.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.BS.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.ArchitectureInterface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.DA.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Infrastructure.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\CashManagementModule.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.SG.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.CommonUtilities.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.DA.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\obj\Debug\SmartPlusService.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\obj\Debug\SmartPlusService.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\SmartPlusService.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\SmartPlusService.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.BS.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.DA.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Avanade.ACA.Batch.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\protobuf-net.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.BS.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.ArchitectureInterface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.CompositeUI.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.DA.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Infrastructure.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\CashManagementModule.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.SG.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.CommonUtilities.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.ObjectBuilder.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.DA.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.DA.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.BS.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Avanade.ACA.Batch.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.BS.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.ArchitectureInterface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.DA.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Infrastructure.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\CashManagementModule.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.SG.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.CommonUtilities.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.DA.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\obj\Debug\ResolveAssemblyReference.cache
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\obj\Debug\SmartPlusService.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\obj\Debug\SmartPlusService.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\SmartPlusService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\SmartPlusService.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.BS.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.DA.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\Avanade.ACA.Batch.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\protobuf-net.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.BS.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.CompositeUI.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.DA.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\Infrastructure.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\CashManagementModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.SG.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.CommonUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.ObjectBuilder.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.DA.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.DA.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.BS.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\Avanade.ACA.Batch.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.BS.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.ArchitectureInterface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.DA.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\Infrastructure.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\CashManagementModule.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.SG.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.CommonUtilities.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.DA.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\obj\Debug\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\obj\Debug\SmartPlusService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartplusService\obj\Debug\SmartPlusService.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\SmartPlusService.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\SmartPlusService.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.BS.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.DA.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Avanade.ACA.Batch.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\protobuf-net.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.BS.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.ArchitectureInterface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.CompositeUI.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.DA.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Infrastructure.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\CashManagementModule.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.SG.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.CommonUtilities.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.DA.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.DA.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.BS.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Avanade.ACA.Batch.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.BS.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.ArchitectureInterface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.DA.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Infrastructure.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\CashManagementModule.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.SG.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.CommonUtilities.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.DA.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\obj\Debug\SmartPlusService.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\SmartPlus\SmartplusService\obj\Debug\SmartPlusService.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\SmartPlusService.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\SmartPlusService.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.BS.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.DA.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Avanade.ACA.Batch.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\protobuf-net.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.BS.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.CompositeUI.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.DA.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Infrastructure.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\CashManagementModule.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.SG.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.DA.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.DA.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.BS.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Avanade.ACA.Batch.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.BS.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.ArchitectureInterface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.DA.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Infrastructure.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\AgencyManagementModule.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\CashManagementModule.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.SG.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\Architecture.CommonUtilities.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PEA.BPM.SmartPlus.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\bin\PaymentCollectionModule.DA.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\obj\Debug\SmartPlusService.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\SmartPlus\SmartplusService\obj\Debug\SmartPlusService.pdb

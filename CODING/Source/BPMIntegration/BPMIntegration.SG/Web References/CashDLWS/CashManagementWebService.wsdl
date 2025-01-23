@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetUpdateCashierWorkStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateCashierWorkStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateCashierWorkStatusResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CompressData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="OriginalSize" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="CompressSize" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Data" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AuthenInfo" type="tns:AuthenInfo" />
+      <s:complexType name="AuthenInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AuthToken" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="GetUpdateCashierMoneyTransfer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateCashierMoneyTransferResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateCashierMoneyTransferResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateCashierMoneyFlow">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateCashierMoneyFlowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateCashierMoneyFlowResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateCashierMoneyFlowItem">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastModifiedDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="serverDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUpdateCashierMoneyFlowItemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUpdateCashierMoneyFlowItemResult" type="tns:CompressData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetUpdateCashierWorkStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateCashierWorkStatus" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateCashierWorkStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateCashierWorkStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateCashierWorkStatusAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateCashierMoneyTransferSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateCashierMoneyTransfer" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateCashierMoneyTransferSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateCashierMoneyTransferResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateCashierMoneyTransferAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateCashierMoneyFlowSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateCashierMoneyFlow" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateCashierMoneyFlowSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateCashierMoneyFlowResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateCashierMoneyFlowAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateCashierMoneyFlowItemSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUpdateCashierMoneyFlowItem" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateCashierMoneyFlowItemSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUpdateCashierMoneyFlowItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUpdateCashierMoneyFlowItemAuthenInfo">
+    <wsdl:part name="AuthenInfo" element="tns:AuthenInfo" />
+  </wsdl:message>
+  <wsdl:portType name="CashManagementWebServiceSoap">
+    <wsdl:operation name="GetUpdateCashierWorkStatus">
+      <wsdl:input message="tns:GetUpdateCashierWorkStatusSoapIn" />
+      <wsdl:output message="tns:GetUpdateCashierWorkStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateCashierMoneyTransfer">
+      <wsdl:input message="tns:GetUpdateCashierMoneyTransferSoapIn" />
+      <wsdl:output message="tns:GetUpdateCashierMoneyTransferSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateCashierMoneyFlow">
+      <wsdl:input message="tns:GetUpdateCashierMoneyFlowSoapIn" />
+      <wsdl:output message="tns:GetUpdateCashierMoneyFlowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateCashierMoneyFlowItem">
+      <wsdl:input message="tns:GetUpdateCashierMoneyFlowItemSoapIn" />
+      <wsdl:output message="tns:GetUpdateCashierMoneyFlowItemSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CashManagementWebServiceSoap" type="tns:CashManagementWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUpdateCashierWorkStatus">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateCashierWorkStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateCashierWorkStatusAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateCashierMoneyTransfer">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateCashierMoneyTransfer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateCashierMoneyTransferAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateCashierMoneyFlow">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateCashierMoneyFlow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateCashierMoneyFlowAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateCashierMoneyFlowItem">
+      <soap:operation soapAction="http://tempuri.org/GetUpdateCashierMoneyFlowItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetUpdateCashierMoneyFlowItemAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CashManagementWebServiceSoap12" type="tns:CashManagementWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUpdateCashierWorkStatus">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateCashierWorkStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateCashierWorkStatusAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateCashierMoneyTransfer">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateCashierMoneyTransfer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateCashierMoneyTransferAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateCashierMoneyFlow">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateCashierMoneyFlow" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateCashierMoneyFlowAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateCashierMoneyFlowItem">
+      <soap12:operation soapAction="http://tempuri.org/GetUpdateCashierMoneyFlowItem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetUpdateCashierMoneyFlowItemAuthenInfo" part="AuthenInfo" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CashManagementWebService">
+    <wsdl:port name="CashManagementWebServiceSoap" binding="tns:CashManagementWebServiceSoap">
+      <soap:address location="http://localhost/BPMIntegrationDownloadedService/CashManagementWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CashManagementWebServiceSoap12" binding="tns:CashManagementWebServiceSoap12">
+      <soap12:address location="http://localhost/BPMIntegrationDownloadedService/CashManagementWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

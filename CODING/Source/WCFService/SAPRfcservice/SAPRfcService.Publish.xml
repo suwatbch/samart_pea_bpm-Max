@@ -1,0 +1,18 @@
+<publishData>
+  <publishTarget publishUrl="c:\Services\SAPRfcService\">
+    <file relUrl="bin/sapnco_utils.dll" publishTime="08/22/2012 16:12:34" />
+    <file relUrl="Web.config" publishTime="04/29/2013 23:36:05" />
+    <file relUrl="SAPRfcService.asmx" publishTime="08/22/2012 16:13:12" />
+    <file relUrl="bin/sapnco.dll" publishTime="08/22/2012 16:12:32" />
+    <file relUrl="bin/SAPRfcService.pdb" publishTime="04/30/2013 12:15:26" />
+    <file relUrl="bin/SAPRfcService.dll" publishTime="04/30/2013 12:15:27" />
+  </publishTarget>
+  <publishTarget publishUrl="c:\Services\BPMWCFService\">
+    <file relUrl="bin/sapnco_utils.dll" publishTime="08/22/2012 16:12:34" />
+    <file relUrl="Web.config" publishTime="08/22/2012 16:13:12" />
+    <file relUrl="SAPRfcService.asmx" publishTime="08/22/2012 16:13:12" />
+    <file relUrl="bin/sapnco.dll" publishTime="08/22/2012 16:12:32" />
+    <file relUrl="bin/SAPRfcService.pdb" publishTime="04/26/2013 17:34:16" />
+    <file relUrl="bin/SAPRfcService.dll" publishTime="04/26/2013 17:34:16" />
+  </publishTarget>
+</publishData>

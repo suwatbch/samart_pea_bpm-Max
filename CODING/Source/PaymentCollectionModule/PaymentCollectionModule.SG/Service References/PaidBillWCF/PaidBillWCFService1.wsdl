@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:i0="http://tempuri.org" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="PaidBillWCFService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://tempuri.org" location="http://altpeagptn0009/BPMCenterAppServices/POS/PaidBillWCFService.svc?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="BasicHttpBinding_IPaidBillWCFService" type="i0:IPaidBillWCFService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SearchPaidBill">
+      <soap:operation soapAction="http://tempuri.org/IPaidBillWCFService/SearchPaidBill" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IPaidBillWCFService_SearchPaidBill_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchReceipt">
+      <soap:operation soapAction="http://tempuri.org/IPaidBillWCFService/SearchReceipt" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IPaidBillWCFService_SearchReceipt_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetReceiptDetail">
+      <soap:operation soapAction="http://tempuri.org/IPaidBillWCFService/GetReceiptDetail" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IPaidBillWCFService_GetReceiptDetail_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CancelReceipt">
+      <soap:operation soapAction="http://tempuri.org/IPaidBillWCFService/CancelReceipt" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IPaidBillWCFService_CancelReceipt_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetReceiptsForPrint">
+      <soap:operation soapAction="http://tempuri.org/IPaidBillWCFService/GetReceiptsForPrint" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IPaidBillWCFService_GetReceiptsForPrint_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="IncreaseNoOfReprint">
+      <soap:operation soapAction="http://tempuri.org/IPaidBillWCFService/IncreaseNoOfReprint" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IPaidBillWCFService_IncreaseNoOfReprint_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchOneTouchPayment">
+      <soap:operation soapAction="http://tempuri.org/IPaidBillWCFService/SearchOneTouchPayment" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IPaidBillWCFService_SearchOneTouchPayment_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchOneSearchPaymentTypeQR">
+      <soap:operation soapAction="http://tempuri.org/IPaidBillWCFService/SearchOneSearchPaymentTypeQR" style="document" />
+      <wsdl:input>
+        <soap:header message="i0:IPaidBillWCFService_SearchOneSearchPaymentTypeQR_InputMessage_Headers" part="AuthInfoValue" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BPMApplicationExceptionInfoFault">
+        <soap:fault use="literal" name="BPMApplicationExceptionInfoFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PaidBillWCFService">
+    <wsdl:port name="BasicHttpBinding_IPaidBillWCFService" binding="tns:BasicHttpBinding_IPaidBillWCFService">
+      <soap:address location="http://altpeagptn0009/BPMCenterAppServices/POS/PaidBillWCFService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
