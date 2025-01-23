@@ -1,0 +1,29 @@
+﻿<SolutionProfile xmlns="http://schemas.microsoft.com/pag/cab-profile/2.0">
+  <Section Name="Layout">
+    <Modules>
+      <ModuleInfo AssemblyFile="Infrastructure.Layout.dll" />
+    </Modules>
+  </Section>
+  <Section Name="Services">
+    <Dependencies>
+      <Dependency Name="Layout" />
+    </Dependencies>
+    <Modules>
+		<ModuleInfo AssemblyFile="Infrastructure.Module.dll" />
+		<ModuleInfo AssemblyFile="ToolModule.dll" />
+		<ModuleInfo AssemblyFile="ePaymentsModule.dll" /> 
+		<ModuleInfo AssemblyFile="BillPrintingModule.dll" />
+		<ModuleInfo AssemblyFile="AgencyManagementModule.dll" />
+		<ModuleInfo AssemblyFile="PaymentManagementModule.dll" />
+		<ModuleInfo AssemblyFile="PaymentCollectionModule.dll" />
+		<ModuleInfo AssemblyFile="CashManagementModule.dll" />
+    </Modules>
+  </Section>
+  <Section Name="Apps">
+    <Dependencies>
+      <Dependency Name="Layout" />
+      <Dependency Name="Services" />
+    </Dependencies>
+    <Modules></Modules>
+  </Section>
+</SolutionProfile>
