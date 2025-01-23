@@ -3,6 +3,7 @@ bin/
 obj/
 *.dll
 *.pdb
+*.suo
 
 # Ignore เฉพาะในโฟลเดอร์ CODING
 CODING/bin/Debug/
