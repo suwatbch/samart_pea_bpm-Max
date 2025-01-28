@@ -3,7 +3,7 @@ bin/
 obj/
 *.dll
 *.pdb
-*.suo
+# *.suo
 bin/
 obj/
 
@@ -11,4 +11,4 @@ obj/
 CODING/bin/Debug/
 CODING/Source/**/bin/Debug/
 CODING/Source/**/obj/
-CODECOM/PeaBpm.suo
+# CODECOM/PeaBpm.suo
