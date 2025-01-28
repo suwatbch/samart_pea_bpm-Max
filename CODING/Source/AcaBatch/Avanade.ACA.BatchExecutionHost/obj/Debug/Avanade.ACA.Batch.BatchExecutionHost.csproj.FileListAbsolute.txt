@@ -1,0 +1,120 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.config
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.manifest
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.application
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.manifest
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.application
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.config
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.manifest
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.application
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\ResolveAssemblyReference.cache
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.manifest
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.application
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.config
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.manifest
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.application
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.manifest
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.application
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.config
+D:\BPM2023\BPM_CBS2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.manifest
+D:\BPM2023\BPM_CBS2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.application
+D:\BPM2023\BPM_CBS2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe
+D:\BPM2023\BPM_CBS2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM2023\BPM_CBS2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.manifest
+D:\BPM2023\BPM_CBS2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.application
+D:\BPM2023\BPM_CBS2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe
+D:\BPM2023\BPM_CBS2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.config
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.manifest
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.application
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.manifest
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.application
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.manifest
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.application
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.manifest
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.application
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.manifest
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.application
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.manifest
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.application
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.config
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.manifest
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.application
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.BatchExecutionHost.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\bin\Debug\Avanade.ACA.Batch.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe.manifest
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.application
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.exe
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\AcaBatch\Avanade.ACA.BatchExecutionHost\obj\Debug\Avanade.ACA.Batch.BatchExecutionHost.pdb

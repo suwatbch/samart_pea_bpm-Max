@@ -2,7 +2,7 @@
 *.dll
 *.pdb
 bin/
-obj/
+# obj/
 
 # Ignore เฉพาะในโฟลเดอร์ CODING
 CODING/bin/Debug/*.dll

@@ -1,0 +1,147 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\bin\Debug\TestPrint.dat
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\bin\Debug\ProfileCatalog.xml
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\bin\Debug\Shell.exe.config
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\bin\Debug\Shell.exe.manifest
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\bin\Debug\Shell.application
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\bin\Debug\Shell.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\bin\Debug\Shell.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.Properties.Resources.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.ShellForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.csproj.GenerateResource.Cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.TrustInfo.xml
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe.manifest
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.application
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\bin\Debug\Shell.exe.config
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\bin\Debug\TestPrint.dat
+D:\Temp\smart_pea_bpm_cbs2\CODING\bin\Debug\ProfileCatalog.xml
+D:\Temp\smart_pea_bpm_cbs2\CODING\bin\Debug\Shell.exe.manifest
+D:\Temp\smart_pea_bpm_cbs2\CODING\bin\Debug\Shell.application
+D:\Temp\smart_pea_bpm_cbs2\CODING\bin\Debug\Shell.exe
+D:\Temp\smart_pea_bpm_cbs2\CODING\bin\Debug\Shell.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\ResolveAssemblyReference.cache
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.Properties.Resources.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.ShellForm.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.csproj.GenerateResource.Cache
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.TrustInfo.xml
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe.manifest
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.application
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\bin\Debug\TestPrint.dat
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\bin\Debug\ProfileCatalog.xml
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\bin\Debug\Shell.exe.config
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\bin\Debug\Shell.exe.manifest
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\bin\Debug\Shell.application
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\bin\Debug\Shell.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\bin\Debug\Shell.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Shell\obj\Debug\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.Properties.Resources.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.ShellForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.csproj.GenerateResource.Cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.TrustInfo.xml
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe.manifest
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.application
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.pdb
+D:\BPM2023\BPM_CBS2\CODING\bin\Debug\Shell.exe
+D:\BPM2023\BPM_CBS2\CODING\bin\Debug\TestPrint.dat
+D:\BPM2023\BPM_CBS2\CODING\bin\Debug\ProfileCatalog.xml
+D:\BPM2023\BPM_CBS2\CODING\bin\Debug\Shell.exe.config
+D:\BPM2023\BPM_CBS2\CODING\bin\Debug\Shell.exe.manifest
+D:\BPM2023\BPM_CBS2\CODING\bin\Debug\Shell.application
+D:\BPM2023\BPM_CBS2\CODING\bin\Debug\Shell.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM2023\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.Properties.Resources.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.ShellForm.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.csproj.GenerateResource.Cache
+D:\BPM2023\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.TrustInfo.xml
+D:\BPM2023\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe.manifest
+D:\BPM2023\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.application
+D:\BPM2023\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe
+D:\BPM2023\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\bin\Debug\Shell.exe.config
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\bin\Debug\TestPrint.dat
+D:\2023 PROJECT\BPM_CBS2\CODING\bin\Debug\ProfileCatalog.xml
+D:\2023 PROJECT\BPM_CBS2\CODING\bin\Debug\Shell.exe.manifest
+D:\2023 PROJECT\BPM_CBS2\CODING\bin\Debug\Shell.application
+D:\2023 PROJECT\BPM_CBS2\CODING\bin\Debug\Shell.exe
+D:\2023 PROJECT\BPM_CBS2\CODING\bin\Debug\Shell.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\ResolveAssemblyReference.cache
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.Properties.Resources.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.ShellForm.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.csproj.GenerateResource.Cache
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.TrustInfo.xml
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe.manifest
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.application
+D:\Temp\BPM_CBS2_20230822\BPM_CBS2\CODING\bin\Debug\Shell.exe.config
+D:\Temp\BPM_CBS2_20230822\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe
+D:\Temp\BPM_CBS2_20230822\BPM_CBS2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\bin\Debug\TestPrint.dat
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\bin\Debug\ProfileCatalog.xml
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\bin\Debug\Shell.exe.config
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\bin\Debug\Shell.exe.manifest
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\bin\Debug\Shell.application
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\bin\Debug\Shell.exe
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\bin\Debug\Shell.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.Properties.Resources.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.ShellForm.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.csproj.GenerateResource.Cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.TrustInfo.xml
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe.manifest
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.application
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\bin\Debug\TestPrint.dat
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\bin\Debug\ProfileCatalog.xml
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\bin\Debug\Shell.exe.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\bin\Debug\Shell.exe.manifest
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\bin\Debug\Shell.application
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\bin\Debug\Shell.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\bin\Debug\Shell.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.ShellForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.TrustInfo.xml
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe.manifest
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.application
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\TestPrint.dat
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\ProfileCatalog.xml
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\Shell.exe.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\Shell.exe.manifest
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\Shell.application
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\Shell.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\Shell.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.ShellForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.TrustInfo.xml
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe.manifest
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.application
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\TestPrint.dat
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\ProfileCatalog.xml
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\Shell.exe.config
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\Shell.exe.manifest
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\Shell.application
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\Shell.exe
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\bin\Debug\Shell.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.Properties.Resources.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\PEA.BPM.Infrastructure.Shell.ShellForm.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.csproj.GenerateResource.Cache
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.TrustInfo.xml
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe.manifest
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.application
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.exe
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\Infrastructure\Shell\obj\Debug\Shell.pdb

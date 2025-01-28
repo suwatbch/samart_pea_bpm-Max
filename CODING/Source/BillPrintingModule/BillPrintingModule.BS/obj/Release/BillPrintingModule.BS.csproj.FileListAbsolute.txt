@@ -1,0 +1,32 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\BillPrintingModule.BS.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\BillPrintingModule.DA.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\BillPrintingModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Infrastructure.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Microsoft.Practices.CompositeUI.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\protobuf-net.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BillPrintingModule\BillPrintingModule.BS\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BillPrintingModule\BillPrintingModule.BS\obj\Release\BillPrintingModule.BS.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\BillPrintingModule.BS.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Architecture.CommonUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\BillPrintingModule.DA.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\BillPrintingModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Infrastructure.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Microsoft.Practices.CompositeUI.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BillPrintingModule\BillPrintingModule.BS\bin\Release\protobuf-net.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BillPrintingModule\BillPrintingModule.BS\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BillPrintingModule\BillPrintingModule.BS\obj\Release\BillPrintingModule.BS.dll

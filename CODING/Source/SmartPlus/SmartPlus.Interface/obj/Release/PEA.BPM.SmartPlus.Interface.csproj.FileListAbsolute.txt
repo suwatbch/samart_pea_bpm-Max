@@ -1,0 +1,47 @@
+D:\SAMART\BPM CBS2\Source\SmartPlus\SmartPlus.Interface\bin\Release\PEA.BPM.SmartPlus.Interface.dll
+D:\SAMART\BPM CBS2\Source\SmartPlus\SmartPlus.Interface\bin\Release\PEA.BPM.SmartPlus.Interface.pdb
+D:\SAMART\BPM CBS2\Source\SmartPlus\SmartPlus.Interface\bin\Release\Architecture.CommonUtilities.dll
+D:\SAMART\BPM CBS2\Source\SmartPlus\SmartPlus.Interface\bin\Release\Infrastructure.Interface.dll
+D:\SAMART\BPM CBS2\Source\SmartPlus\SmartPlus.Interface\bin\Release\Architecture.ArchitectureInterface.dll
+D:\SAMART\BPM CBS2\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\SAMART\BPM CBS2\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\SAMART\BPM CBS2\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\SAMART\BPM CBS2\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\SAMART\BPM CBS2\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\SAMART\BPM CBS2\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.CompositeUI.dll
+D:\SAMART\BPM CBS2\Source\SmartPlus\SmartPlus.Interface\bin\Release\protobuf-net.dll
+D:\SAMART\BPM CBS2\Source\SmartPlus\SmartPlus.Interface\obj\Release\ResolveAssemblyReference.cache
+D:\SAMART\BPM CBS2\Source\SmartPlus\SmartPlus.Interface\obj\Release\PEA.BPM.SmartPlus.Interface.dll
+D:\SAMART\BPM CBS2\Source\SmartPlus\SmartPlus.Interface\obj\Release\PEA.BPM.SmartPlus.Interface.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\PEA.BPM.SmartPlus.Interface.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\PEA.BPM.SmartPlus.Interface.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Architecture.CommonUtilities.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Infrastructure.Interface.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Architecture.ArchitectureInterface.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.CompositeUI.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\protobuf-net.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartPlus.Interface\obj\Release\ResolveAssemblyReference.cache
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartPlus.Interface\obj\Release\PEA.BPM.SmartPlus.Interface.dll
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartPlus.Interface\obj\Release\PEA.BPM.SmartPlus.Interface.pdb
+D:\SAMART\PEA_BPM_CBS2\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\PaymentManagementModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\PEA.BPM.SmartPlus.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\PEA.BPM.SmartPlus.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Architecture.CommonUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Infrastructure.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\PaymentManagementModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\Microsoft.Practices.CompositeUI.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartPlus.Interface\bin\Release\protobuf-net.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartPlus.Interface\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartPlus.Interface\obj\Release\PEA.BPM.SmartPlus.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\SmartPlus\SmartPlus.Interface\obj\Release\PEA.BPM.SmartPlus.Interface.pdb

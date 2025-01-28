@@ -1,0 +1,56 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\bin\Release\Architecture.ArchitectureTool.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\bin\Release\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\bin\Release\Architecture.ArchitectureSG.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\bin\Release\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\bin\Release\Infrastructure.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\bin\Release\NewsBroadcast.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\bin\Release\NewsBroadcast.SG.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\bin\Release\WCFExtras.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\bin\Release\protobuf-net.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\bin\Release\Microsoft.Practices.CompositeUI.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.ErrorHandling.CompleteExceptionForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.ErrorHandling.ShowStackTraceForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.ErrorHandling.SimpleExceptionForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.NewsBroadcast.RecieverDialogForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.Properties.Resources.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.Security.PasswordForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.Security.LoginForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.Security.UnlockForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.Security.UnlockLoginForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.Security.UnlockRemarkForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\obj\Release\ArchitectureTool.csproj.GenerateResource.Cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureTool\obj\Release\Architecture.ArchitectureTool.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\bin\Release\Architecture.ArchitectureTool.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\bin\Release\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\bin\Release\Architecture.ArchitectureSG.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\bin\Release\Architecture.CommonUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\bin\Release\Infrastructure.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\bin\Release\NewsBroadcast.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\bin\Release\NewsBroadcast.SG.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\bin\Release\WCFExtras.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\bin\Release\protobuf-net.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\bin\Release\Microsoft.Practices.CompositeUI.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.ErrorHandling.CompleteExceptionForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.ErrorHandling.ShowStackTraceForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.ErrorHandling.SimpleExceptionForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.NewsBroadcast.RecieverDialogForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.Properties.Resources.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.Security.PasswordForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.Security.LoginForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.Security.UnlockForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.Security.UnlockLoginForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\obj\Release\PEA.BPM.Architecture.ArchitectureTool.Security.UnlockRemarkForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\obj\Release\ArchitectureTool.csproj.GenerateResource.Cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureTool\obj\Release\Architecture.ArchitectureTool.dll

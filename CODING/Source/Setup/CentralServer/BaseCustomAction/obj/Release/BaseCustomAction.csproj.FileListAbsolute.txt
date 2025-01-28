@@ -1,0 +1,12 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Setup\CentralServer\BaseCustomAction\bin\Release\BaseCustomAction.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Setup\CentralServer\BaseCustomAction\bin\Release\BaseCustomAction.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Setup\CentralServer\BaseCustomAction\bin\Release\TaskScheduler.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Setup\CentralServer\BaseCustomAction\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Setup\CentralServer\BaseCustomAction\obj\Release\BaseCustomAction.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Setup\CentralServer\BaseCustomAction\obj\Release\BaseCustomAction.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Setup\CentralServer\BaseCustomAction\bin\Release\BaseCustomAction.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Setup\CentralServer\BaseCustomAction\bin\Release\BaseCustomAction.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Setup\CentralServer\BaseCustomAction\bin\Release\TaskScheduler.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Setup\CentralServer\BaseCustomAction\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Setup\CentralServer\BaseCustomAction\obj\Release\BaseCustomAction.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Setup\CentralServer\BaseCustomAction\obj\Release\BaseCustomAction.pdb

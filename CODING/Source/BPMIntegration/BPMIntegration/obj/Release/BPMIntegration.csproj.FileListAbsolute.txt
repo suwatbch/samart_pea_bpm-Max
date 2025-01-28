@@ -1,0 +1,68 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\PEA.BPM.Integration.BPMIntegration.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\ACABatchService.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Architecture.ArchitectureBS.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Architecture.ArchitectureTool.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Avanade.ACA.Batch.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\BPMSAPConnector.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\PEA.BPM.Integration.BPMIntegration.BS.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\PEA.BPM.Integration.BPMIntegration.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\PEA.BPM.Integration.BPMIntegration.SG.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\SAP.Connector.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\SAP.Connector.Rfc.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\PEA.BPM.Integration.BPMIntegration.DA.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\WCFExtras.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\NewsBroadcast.SG.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\NewsBroadcast.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\protobuf-net.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Architecture.ArchitectureDA.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Microsoft.Practices.CompositeUI.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Infrastructure.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Architecture.ArchitectureSG.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Architecture.ArchitectureBS.XmlSerializers.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\PEA.BPM.Integration.BPMIntegration.SG.XmlSerializers.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\obj\Release\PEA.BPM.Integration.BPMIntegration.Properties.Resources.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\obj\Release\BPMIntegration.csproj.GenerateResource.Cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration\obj\Release\PEA.BPM.Integration.BPMIntegration.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\PEA.BPM.Integration.BPMIntegration.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\ACABatchService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Architecture.ArchitectureBS.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Architecture.ArchitectureTool.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Architecture.CommonUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Avanade.ACA.Batch.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\BPMSAPConnector.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\PEA.BPM.Integration.BPMIntegration.BS.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\PEA.BPM.Integration.BPMIntegration.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\PEA.BPM.Integration.BPMIntegration.SG.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\SAP.Connector.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\SAP.Connector.Rfc.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\PEA.BPM.Integration.BPMIntegration.DA.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\WCFExtras.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\NewsBroadcast.SG.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\NewsBroadcast.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\protobuf-net.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Architecture.ArchitectureDA.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Microsoft.Practices.CompositeUI.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Infrastructure.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Architecture.ArchitectureSG.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\Architecture.ArchitectureBS.XmlSerializers.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\bin\Release\PEA.BPM.Integration.BPMIntegration.SG.XmlSerializers.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\obj\Release\PEA.BPM.Integration.BPMIntegration.Properties.Resources.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\obj\Release\BPMIntegration.csproj.GenerateResource.Cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration\obj\Release\PEA.BPM.Integration.BPMIntegration.dll

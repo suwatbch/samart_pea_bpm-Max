@@ -1,0 +1,20 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\ThirdPartySecurityService\bin\AuthenticationWebService.asmx
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\ThirdPartySecurityService\bin\AuthenticationWebService.asmx.cs
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\ThirdPartySecurityService\bin\ThirdPartySecurityService.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\ThirdPartySecurityService\bin\ThirdPartySecurityService.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\ThirdPartySecurityService\bin\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\ThirdPartySecurityService\bin\protobuf-net.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\ThirdPartySecurityService\bin\Architecture.ArchitectureInterface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\ThirdPartySecurityService\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\ThirdPartySecurityService\obj\Release\ThirdPartySecurityService.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\ThirdPartySecurityService\obj\Release\ThirdPartySecurityService.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\ThirdPartySecurityService\bin\AuthenticationWebService.asmx
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\ThirdPartySecurityService\bin\AuthenticationWebService.asmx.cs
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\ThirdPartySecurityService\bin\ThirdPartySecurityService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\ThirdPartySecurityService\bin\ThirdPartySecurityService.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\ThirdPartySecurityService\bin\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\ThirdPartySecurityService\bin\protobuf-net.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\ThirdPartySecurityService\bin\Architecture.ArchitectureInterface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\ThirdPartySecurityService\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\ThirdPartySecurityService\obj\Release\ThirdPartySecurityService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\ThirdPartySecurityService\obj\Release\ThirdPartySecurityService.pdb

@@ -1,0 +1,20 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Apm2\APM2Connector.Test\bin\Release\BPMConnector.Test.exe.config
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Apm2\APM2Connector.Test\bin\Release\BPMConnector.Test.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Apm2\APM2Connector.Test\bin\Release\BPMConnector.Test.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Apm2\APM2Connector.Test\bin\Release\APM2Connector.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Apm2\APM2Connector.Test\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Apm2\APM2Connector.Test\obj\Release\PEA.BPM.APM2Connector.Test.Form1.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Apm2\APM2Connector.Test\obj\Release\PEA.BPM.BPMConnector.Test.Properties.Resources.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Apm2\APM2Connector.Test\obj\Release\APM2Connector.Test.csproj.GenerateResource.Cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Apm2\APM2Connector.Test\obj\Release\BPMConnector.Test.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Apm2\APM2Connector.Test\obj\Release\BPMConnector.Test.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Apm2\APM2Connector.Test\bin\Release\BPMConnector.Test.exe.config
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Apm2\APM2Connector.Test\bin\Release\BPMConnector.Test.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Apm2\APM2Connector.Test\bin\Release\BPMConnector.Test.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Apm2\APM2Connector.Test\bin\Release\APM2Connector.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Apm2\APM2Connector.Test\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Apm2\APM2Connector.Test\obj\Release\PEA.BPM.APM2Connector.Test.Form1.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Apm2\APM2Connector.Test\obj\Release\PEA.BPM.BPMConnector.Test.Properties.Resources.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Apm2\APM2Connector.Test\obj\Release\APM2Connector.Test.csproj.GenerateResource.Cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Apm2\APM2Connector.Test\obj\Release\BPMConnector.Test.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Apm2\APM2Connector.Test\obj\Release\BPMConnector.Test.pdb

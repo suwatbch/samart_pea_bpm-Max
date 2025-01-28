@@ -1,0 +1,756 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\TestPrint.dat
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\protobuf-net.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Properties.Resources.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangePwdView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddRoleUserView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddUserView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangeScopeView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateRoleView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateUserView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditRoleView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditUserView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleFunctionView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleUserSwitchView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EmployeeSearchView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EnviSetupView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.FunctionRemarkView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.NewsView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Views.OptionView.BarcodesForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.PEACodeSearchView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.QueueSetupView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkAddView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkEditView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkListView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportContainerView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportUnlockingLogView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.OptionView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RegisterView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ServerConfigView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserExeedLimitWarningView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserProperties.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserPwdChangeView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.csproj.GenerateResource.Cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.compiled
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\TestPrint.dat
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\protobuf-net.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\ResolveAssemblyReference.cache
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Properties.Resources.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangePwdView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddRoleUserView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddUserView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangeScopeView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateRoleView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateUserView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditRoleView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditUserView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleFunctionView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleUserSwitchView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EmployeeSearchView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EnviSetupView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.FunctionRemarkView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.NewsView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Views.OptionView.BarcodesForm.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.PEACodeSearchView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.QueueSetupView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkAddView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkEditView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkListView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportContainerView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportUnlockingLogView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.OptionView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RegisterView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ServerConfigView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserExeedLimitWarningView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserProperties.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserPwdChangeView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.csproj.GenerateResource.Cache
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.cache
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.compiled
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\TestPrint.dat
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\protobuf-net.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Properties.Resources.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangePwdView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddRoleUserView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddUserView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangeScopeView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateRoleView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateUserView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditRoleView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditUserView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleFunctionView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleUserSwitchView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EmployeeSearchView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EnviSetupView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.FunctionRemarkView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.NewsView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Views.OptionView.BarcodesForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.PEACodeSearchView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.QueueSetupView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkAddView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkEditView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkListView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportContainerView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportUnlockingLogView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.OptionView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RegisterView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ServerConfigView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserExeedLimitWarningView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserProperties.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserPwdChangeView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.csproj.GenerateResource.Cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.compiled
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\TestPrint.dat
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\protobuf-net.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Properties.Resources.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangePwdView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddRoleUserView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddUserView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangeScopeView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateRoleView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateUserView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditRoleView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditUserView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleFunctionView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleUserSwitchView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EmployeeSearchView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EnviSetupView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.FunctionRemarkView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.NewsView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Views.OptionView.BarcodesForm.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.PEACodeSearchView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.QueueSetupView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkAddView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkEditView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkListView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportContainerView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportUnlockingLogView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.OptionView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RegisterView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ServerConfigView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserExeedLimitWarningView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserProperties.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserPwdChangeView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.csproj.GenerateResource.Cache
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.cache
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.compiled
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\TestPrint.dat
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\protobuf-net.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\ResolveAssemblyReference.cache
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Properties.Resources.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangePwdView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddRoleUserView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddUserView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangeScopeView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateRoleView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateUserView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditRoleView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditUserView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleFunctionView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleUserSwitchView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EmployeeSearchView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EnviSetupView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.FunctionRemarkView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.NewsView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Views.OptionView.BarcodesForm.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.PEACodeSearchView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.QueueSetupView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkAddView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkEditView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkListView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportContainerView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportUnlockingLogView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.OptionView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RegisterView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ServerConfigView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserExeedLimitWarningView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserProperties.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserPwdChangeView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.csproj.GenerateResource.Cache
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.cache
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.compiled
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\TestPrint.dat
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\protobuf-net.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Properties.Resources.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangePwdView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddRoleUserView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddUserView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangeScopeView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateRoleView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateUserView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditRoleView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditUserView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleFunctionView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleUserSwitchView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EmployeeSearchView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EnviSetupView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.FunctionRemarkView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.NewsView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Views.OptionView.BarcodesForm.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.PEACodeSearchView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.QueueSetupView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkAddView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkEditView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkListView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportContainerView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportUnlockingLogView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.OptionView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RegisterView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ServerConfigView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserExeedLimitWarningView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserProperties.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserPwdChangeView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.csproj.GenerateResource.Cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.compiled
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\TestPrint.dat
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangePwdView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddRoleUserView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddUserView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangeScopeView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateRoleView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateUserView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditRoleView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditUserView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleFunctionView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleUserSwitchView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EmployeeSearchView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EnviSetupView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.FunctionRemarkView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.NewsView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Views.OptionView.BarcodesForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.PEACodeSearchView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.QueueSetupView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkAddView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkEditView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkListView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportContainerView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportUnlockingLogView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.OptionView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RegisterView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ServerConfigView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserExeedLimitWarningView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserProperties.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserPwdChangeView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.compiled
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\TestPrint.dat
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangePwdView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddRoleUserView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddUserView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangeScopeView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateRoleView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateUserView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditRoleView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditUserView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleFunctionView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleUserSwitchView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EmployeeSearchView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EnviSetupView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.FunctionRemarkView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.NewsView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Views.OptionView.BarcodesForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.PEACodeSearchView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.QueueSetupView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkAddView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkEditView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkListView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportContainerView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportUnlockingLogView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.OptionView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RegisterView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ServerConfigView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserExeedLimitWarningView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserProperties.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserPwdChangeView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.compiled
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\TestPrint.dat
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\protobuf-net.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\AgencyManagementModule.Interface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.Interface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Properties.Resources.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangePwdView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddRoleUserView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.AddUserView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ChangeScopeView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateRoleView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.CreateUserView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditRoleView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EditUserView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleFunctionView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RoleUserSwitchView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EmployeeSearchView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.EnviSetupView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.FunctionRemarkView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.NewsView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.Views.OptionView.BarcodesForm.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.PEACodeSearchView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.QueueSetupView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkAddView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkEditView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RemarkListView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportContainerView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ReportUnlockingLogView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.OptionView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.RegisterView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.ServerConfigView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserExeedLimitWarningView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserProperties.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\PEA.BPM.ToolModule.UserPwdChangeView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.csproj.GenerateResource.Cache
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.cache
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\RdlCompile.compiled
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\obj\Debug\ToolModule.pdb

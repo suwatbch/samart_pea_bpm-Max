@@ -1,0 +1,28 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\bin\Release\Shell.exe.config
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\bin\Release\TestPrint.dat
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\bin\Release\ProfileCatalog.xml
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\bin\Release\Shell.exe.manifest
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\bin\Release\Shell.application
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\bin\Release\Shell.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Release\PEA.BPM.Infrastructure.Shell.Properties.Resources.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Release\PEA.BPM.Infrastructure.Shell.ShellForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Release\Shell.csproj.GenerateResource.Cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Release\Shell.TrustInfo.xml
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Release\Shell.exe.manifest
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Release\Shell.application
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Infrastructure\Shell\obj\Release\Shell.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\bin\Release\Shell.exe.config
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Shell\obj\Release\Shell.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\bin\Release\TestPrint.dat
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\bin\Release\ProfileCatalog.xml
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\bin\Release\Shell.exe.manifest
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\bin\Release\Shell.application
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\bin\Release\Shell.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Shell\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Shell\obj\Release\PEA.BPM.Infrastructure.Shell.Properties.Resources.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Shell\obj\Release\PEA.BPM.Infrastructure.Shell.ShellForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Shell\obj\Release\Shell.csproj.GenerateResource.Cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Shell\obj\Release\Shell.TrustInfo.xml
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Shell\obj\Release\Shell.exe.manifest
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Infrastructure\Shell\obj\Release\Shell.application

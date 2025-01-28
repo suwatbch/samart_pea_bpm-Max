@@ -1,0 +1,24 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\SAPGateWayService\bin\SAPGateWayService.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\SAPGateWayService\bin\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\SAPGateWayService\bin\BPMSAPConnector.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\SAPGateWayService\bin\SAP.Connector.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\SAPGateWayService\bin\SAP.Connector.Rfc.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\SAPGateWayService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\SAPGateWayService\bin\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\SAPGateWayService\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\SAPGateWayService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\SAPGateWayService\bin\protobuf-net.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\SAPGateWayService\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\SAPGateWayService\obj\Release\SAPGateWayService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\SAPGateWayService\bin\SAPGateWayService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\SAPGateWayService\bin\Architecture.CommonUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\SAPGateWayService\bin\BPMSAPConnector.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\SAPGateWayService\bin\SAP.Connector.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\SAPGateWayService\bin\SAP.Connector.Rfc.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\SAPGateWayService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\SAPGateWayService\bin\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\SAPGateWayService\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\SAPGateWayService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\SAPGateWayService\bin\protobuf-net.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\SAPGateWayService\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\SAPGateWayService\obj\Release\SAPGateWayService.dll

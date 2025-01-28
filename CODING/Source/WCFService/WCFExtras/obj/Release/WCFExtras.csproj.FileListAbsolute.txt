@@ -1,0 +1,6 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\WCFExtras\bin\Release\WCFExtras.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\WCFExtras\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\WCFExtras\obj\Release\WCFExtras.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\WCFExtras\bin\Release\WCFExtras.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\WCFExtras\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\WCFExtras\obj\Release\WCFExtras.dll

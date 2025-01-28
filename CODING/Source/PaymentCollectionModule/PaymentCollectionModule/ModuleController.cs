@@ -63,7 +63,9 @@ namespace PEA.BPM.PaymentCollectionModule
 
         private void ExtendMenu()
         {
-            paymentCollectionMenuItem = new ToolStripMenuItem("2. ÃÑºªÓÃÐà§Ô¹");
+            paymentCollectionMenuItem = new ToolStripMenuItem("2. ï¿½Ñºï¿½ï¿½ï¿½ï¿½ï¿½Ô¹");
+
+            
 
             WorkItem.UIExtensionSites[UIExtensionSiteNames.MainMenu].Add(paymentCollectionMenuItem);
 
@@ -106,7 +108,7 @@ namespace PEA.BPM.PaymentCollectionModule
 
             //AddMenuSeparator(paymentCollectionMenuItem);
 
-            //AddMenuItem(paymentCollectionMenuItem, "»Ô´¡ÒÃÃÑºªÓÃÐà§Ô¹»ÃÐ¨ÓÇÑ¹ (Êè§¢éÍÁÙÅ¡ÅÑºä»ÂÑ§ SAP)", CommandNames.BranchDayClosing, 0);
+            //AddMenuItem(paymentCollectionMenuItem, "ï¿½Ô´ï¿½ï¿½ï¿½ï¿½Ñºï¿½ï¿½ï¿½ï¿½ï¿½Ô¹ï¿½ï¿½Ð¨ï¿½ï¿½Ñ¹ (ï¿½è§¢ï¿½ï¿½ï¿½ï¿½Å¡ï¿½Ñºï¿½ï¿½Ñ§ SAP)", CommandNames.BranchDayClosing, 0);
 
             if (Session.Branch.Id == null)
             {
@@ -118,7 +120,7 @@ namespace PEA.BPM.PaymentCollectionModule
         {
             //bool enable = Session.Branch.Id != null;
 
-            string paymentMenuText = "ÃÑºªÓÃÐà§Ô¹ - ÊÓËÃÑº¼Ùéãªéä¿¿éÒ/ÅÙ¡Ë¹ÕéÍ×è¹æ";
+            string paymentMenuText = "ï¿½Ñºï¿½ï¿½ï¿½ï¿½ï¿½Ô¹ - ï¿½ï¿½ï¿½ï¿½Ñºï¿½ï¿½ï¿½ï¿½ï¿½ä¿¿ï¿½ï¿½/ï¿½Ù¡Ë¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
             UIExtensionSite toolstrip = WorkItem.UIExtensionSites[UIExtensionSiteNames.MainToolbar];
             posTSButton = AddToolStripButton(toolstrip, paymentMenuText, Properties.Resources.PaymentCollectionIcon,
                             paymentMenuText, CommandNames.ElectricalUserPaymentCollection, false);
@@ -131,7 +133,7 @@ namespace PEA.BPM.PaymentCollectionModule
 
             //Offline by User ,Begin
 
-            string offlineMenuText = "Offline â´Â¼Ùéãªé";
+            string offlineMenuText = "Offline ï¿½Â¼ï¿½ï¿½ï¿½ï¿½";
             UIExtensionSite offlineToolstrip = WorkItem.UIExtensionSites[UIExtensionSiteNames.MainToolbar];
             posOfflineButton = AddToolStripButton(offlineToolstrip, offlineMenuText, Properties.Resources.ForcedOfflineOffIcon,
                             offlineMenuText, CommandNames.ForcedOffline, true);
@@ -179,7 +181,7 @@ namespace PEA.BPM.PaymentCollectionModule
         public void ViewReceiptReprintingHandler(object sender, EventArgs e)
         {
             if (Authorization.IsAuthorized(SecurityNames.POSObserver, false) ||
-                Authorization.IsAuthorized(SecurityNames.ReceiptReprinting, "»Å´ÅçÍ¤àÁ¹Ù 2.4", true))
+                Authorization.IsAuthorized(SecurityNames.ReceiptReprinting, "ï¿½Å´ï¿½ï¿½Í¤ï¿½ï¿½ï¿½ï¿½ 2.4", true))
             {
                 this.LoadUseCase<ReceiptReprintingController>().Controller.Run();
             }
@@ -328,7 +330,7 @@ namespace PEA.BPM.PaymentCollectionModule
         {
             this.LoadUseCase<ReportController>().Controller.Run(ReportName.CAC18);
 
-            // Authorized ãªéàËÁ×Í¹¡Ñ¹ÃÒÂ§Ò¹ 2.8 
+            // Authorized ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¹ï¿½Ñ¹ï¿½ï¿½Â§Ò¹ 2.8 
             if (Authorization.IsAuthorized(SecurityNames.CAC05, true))
             {
                 this.LoadUseCase<ReportController>().Controller.Run(ReportName.CAC18);
@@ -339,7 +341,7 @@ namespace PEA.BPM.PaymentCollectionModule
         [CommandHandler("CAC19")]
         public void ViewReportCAC19Handler(object sender, EventArgs e)
         {
-            // Authorized ãªéàËÁ×Í¹¡Ñ¹ÃÒÂ§Ò¹ 2.8 
+            // Authorized ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¹ï¿½Ñ¹ï¿½ï¿½Â§Ò¹ 2.8 
             if (Authorization.IsAuthorized(SecurityNames.CAC05, true))
             {
                 this.LoadUseCase<ReportBankQRPaymentController>().Controller.Run();
@@ -390,7 +392,7 @@ namespace PEA.BPM.PaymentCollectionModule
         getservertimeandcheckonline:
             try
             {
-                //-- ÍèÒ¹¤èÒàÇÅÒ¨Ò¡ server ÁÒãªéã¹â»Ãá¡ÃÁ ã¹¢³Ðà´ÕÂÇ¡Ñ¹¡ç¨ÑºàÇÅÒ´Ù response àÍÒÁÒà»ç¹¤èÒ latency ¢Í§ network áºº¤ÃèÒÇæ
+                //-- ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò¨Ò¡ server ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ã¹¢ï¿½ï¿½ï¿½ï¿½ï¿½Ç¡Ñ¹ï¿½ï¿½Ñºï¿½ï¿½ï¿½Ò´ï¿½ response ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç¹¤ï¿½ï¿½ latency ï¿½Í§ network áººï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
                 Stopwatch sw = Stopwatch.StartNew();
                 DateTime dt = commonservice.GetServerTime();
                 sw.Stop();
@@ -410,17 +412,17 @@ namespace PEA.BPM.PaymentCollectionModule
         }
 
         [CommandHandler(CommandNames.ForcedOffline)]
-        public void ViewForcedOfflineHandler(object sender, EventArgs e)  //¡´»ØèÁ Offline â´Â¼Ùéãªé
+        public void ViewForcedOfflineHandler(object sender, EventArgs e)  //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Offline ï¿½Â¼ï¿½ï¿½ï¿½ï¿½
         {
             posOfflineButton.Enabled = false;
 
             if (forcedOfflineStatus == true) //switch on/off 
-                forcedOfflineStatus = false; //off  äÁèºÑ§¤Ñº  Offline
+                forcedOfflineStatus = false; //off  ï¿½ï¿½ï¿½Ñ§ï¿½Ñº  Offline
             else
-                forcedOfflineStatus = true;  //on ºÑ§¤Ñº Offline
+                forcedOfflineStatus = true;  //on ï¿½Ñ§ï¿½Ñº Offline
 
 
-            if (forcedOfflineStatus == true)  //on ºÑ§¤Ñº Offline 
+            if (forcedOfflineStatus == true)  //on ï¿½Ñ§ï¿½Ñº Offline 
             {
                 //Change Icon
                 posOfflineButton.Image = Properties.Resources.ForcedOfflineOnIcon;
@@ -428,12 +430,12 @@ namespace PEA.BPM.PaymentCollectionModule
                 Session.IsNetworkConnectionAvailable = false;
                 Session.IsForcedOffline = true;
             }
-            else  //off  äÁèºÑ§¤Ñº  Offline
+            else  //off  ï¿½ï¿½ï¿½Ñ§ï¿½Ñº  Offline
             {
                 //Change Icon
                 posOfflineButton.Image = Properties.Resources.ForcedOfflineOffIcon;
 
-                //µéÍ§à¾ÔèÁ Code àªç¤ Network ÍÕ¡ÃÍº
+                //ï¿½ï¿½Í§ï¿½ï¿½ï¿½ï¿½ Code ï¿½ï¿½ Network ï¿½Õ¡ï¿½Íº
                 if (GetTimeAndCheckIsNetworkOnline())
                     Session.IsNetworkConnectionAvailable = true;
 
@@ -548,7 +550,7 @@ namespace PEA.BPM.PaymentCollectionModule
             catch (Exception ex)
             {
                 ClientExceptionController.ShowExceptionDialog(EErrorInModule.POS, ex);
-                //MessageBox.Show(ex.ToString(), "¼Ô´¾ÅÒ´", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //MessageBox.Show(ex.ToString(), "ï¿½Ô´ï¿½ï¿½Ò´", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

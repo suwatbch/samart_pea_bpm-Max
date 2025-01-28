@@ -1,0 +1,38 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\bin\OneTouchService.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\bin\OneTouchService.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\bin\Architecture.ArchitectureBS.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\bin\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\bin\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\bin\ePaymentsModule.BS.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\bin\ePaymentsModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\bin\Avanade.ACA.Batch.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\bin\protobuf-net.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\bin\Architecture.ArchitectureDA.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\bin\ePaymentsModule.DA.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\bin\Architecture.ArchitectureBS.XmlSerializers.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\obj\Release\OneTouchService.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WCFService\OneTouchService\obj\Release\OneTouchService.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\bin\OneTouchService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\bin\OneTouchService.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\bin\Architecture.ArchitectureBS.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\bin\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\bin\Architecture.CommonUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\bin\ePaymentsModule.BS.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\bin\ePaymentsModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\bin\Avanade.ACA.Batch.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\bin\protobuf-net.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\bin\Architecture.ArchitectureDA.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\bin\ePaymentsModule.DA.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\bin\Architecture.ArchitectureBS.XmlSerializers.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\obj\Release\OneTouchService.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WCFService\OneTouchService\obj\Release\OneTouchService.pdb

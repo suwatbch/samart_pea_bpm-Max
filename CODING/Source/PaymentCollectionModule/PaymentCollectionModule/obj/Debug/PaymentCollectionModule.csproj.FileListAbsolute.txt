@@ -1,0 +1,1008 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll.config
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\BPMSAPConnector.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\protobuf-net.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.Rfc.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Properties.Resources.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.APCriteriaView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC01CriteriaView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC03CriteriaView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC04CriteriaView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC05CriteriaView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC06CriteriaView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC07CriteriaView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC09CriteriaView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC11CriteriaView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC12CriteriaView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC13CriteriaView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC14CriteriaView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC15CriteriaView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC16CriteriaView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC18CriteriaView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ResultView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.AdvancedPaymentView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.AdvancedPaymentView.BillBookSearchForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillDetailView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchResultView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.OneTouchSearchForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.SAPSearchForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchResultView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.QRPaymentView.QRPaymentView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGenerateResultView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGeneratetSearchView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CustomerSearchView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.DayClosingView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ElectricPaymentView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InterestInquiryResultView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.InterestInquiryResultView.TargetDateSelectionForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InvoiceDetailView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.NewPaymentItemView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentHistoryView.DebtDetailForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentHistoryView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentItemLinkView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.AllocationDetailForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.BankSearchForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.ChequeAllocationForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentMethodSelectionView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchResultView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.RemeterView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipHeaderUpdatingView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrePrintingView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.Fp410Receipt.SlipPOS.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.GroupInvoicingReport.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.Preview.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.ReportPreview.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PrinterSelectionForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrintingView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledPaymentView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBeCancelledReceiptView.CancelSummaryForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledReceiptView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidBillBookView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBePaidInvoiceView.DisconnectionStatus.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidInvoiceView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeReprintedView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.csproj.GenerateResource.Cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.compiled
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReportViews.CAC19CriteriaView.ReportValidateQRPayment.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll.config
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\BPMSAPConnector.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\protobuf-net.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.Rfc.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\ResolveAssemblyReference.cache
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Properties.Resources.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.APCriteriaView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC01CriteriaView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC03CriteriaView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC04CriteriaView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC05CriteriaView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC06CriteriaView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC07CriteriaView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC09CriteriaView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC11CriteriaView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC12CriteriaView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC13CriteriaView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC14CriteriaView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC15CriteriaView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC16CriteriaView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC18CriteriaView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReportViews.CAC19CriteriaView.ReportValidateQRPayment.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ResultView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.AdvancedPaymentView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.AdvancedPaymentView.BillBookSearchForm.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillDetailView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchResultView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.OneTouchSearchForm.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.SAPSearchForm.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchResultView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.QRPaymentView.QRPaymentView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGenerateResultView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGeneratetSearchView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CustomerSearchView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.DayClosingView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ElectricPaymentView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InterestInquiryResultView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.InterestInquiryResultView.TargetDateSelectionForm.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InvoiceDetailView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.NewPaymentItemView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentHistoryView.DebtDetailForm.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentHistoryView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentItemLinkView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.AllocationDetailForm.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.BankSearchForm.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.ChequeAllocationForm.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentMethodSelectionView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchResultView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.RemeterView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipHeaderUpdatingView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrePrintingView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.Fp410Receipt.SlipPOS.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.GroupInvoicingReport.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.Preview.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.ReportPreview.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PrinterSelectionForm.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrintingView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledPaymentView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBeCancelledReceiptView.CancelSummaryForm.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledReceiptView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidBillBookView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBePaidInvoiceView.DisconnectionStatus.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidInvoiceView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeReprintedView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.csproj.GenerateResource.Cache
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.cache
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.compiled
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll.config
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\BPMSAPConnector.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\protobuf-net.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.Rfc.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Properties.Resources.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.APCriteriaView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC01CriteriaView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC03CriteriaView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC04CriteriaView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC05CriteriaView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC06CriteriaView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC07CriteriaView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC09CriteriaView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC11CriteriaView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC12CriteriaView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC13CriteriaView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC14CriteriaView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC15CriteriaView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC16CriteriaView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC18CriteriaView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ResultView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.AdvancedPaymentView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.AdvancedPaymentView.BillBookSearchForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillDetailView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchResultView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.OneTouchSearchForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.SAPSearchForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchResultView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.QRPaymentView.QRPaymentView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGenerateResultView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGeneratetSearchView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CustomerSearchView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.DayClosingView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ElectricPaymentView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InterestInquiryResultView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.InterestInquiryResultView.TargetDateSelectionForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InvoiceDetailView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.NewPaymentItemView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentHistoryView.DebtDetailForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentHistoryView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentItemLinkView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.AllocationDetailForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.BankSearchForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.ChequeAllocationForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentMethodSelectionView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchResultView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.RemeterView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipHeaderUpdatingView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrePrintingView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.Fp410Receipt.SlipPOS.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.GroupInvoicingReport.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.Preview.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.ReportPreview.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PrinterSelectionForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrintingView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledPaymentView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBeCancelledReceiptView.CancelSummaryForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledReceiptView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidBillBookView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBePaidInvoiceView.DisconnectionStatus.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidInvoiceView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeReprintedView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.csproj.GenerateResource.Cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.compiled
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReportViews.CAC19CriteriaView.CAC19CriteriaView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll.config
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\BPMSAPConnector.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\protobuf-net.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.Rfc.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Properties.Resources.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.APCriteriaView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC01CriteriaView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC03CriteriaView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC04CriteriaView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC05CriteriaView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC06CriteriaView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC07CriteriaView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC09CriteriaView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC11CriteriaView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC12CriteriaView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC13CriteriaView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC14CriteriaView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC15CriteriaView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC16CriteriaView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC18CriteriaView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReportViews.CAC19CriteriaView.CAC19CriteriaView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ResultView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.AdvancedPaymentView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.AdvancedPaymentView.BillBookSearchForm.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillDetailView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchResultView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.OneTouchSearchForm.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.SAPSearchForm.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchResultView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.QRPaymentView.QRPaymentView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGenerateResultView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGeneratetSearchView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CustomerSearchView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.DayClosingView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ElectricPaymentView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InterestInquiryResultView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.InterestInquiryResultView.TargetDateSelectionForm.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InvoiceDetailView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.NewPaymentItemView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentHistoryView.DebtDetailForm.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentHistoryView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentItemLinkView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.AllocationDetailForm.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.BankSearchForm.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.ChequeAllocationForm.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentMethodSelectionView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchResultView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.RemeterView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipHeaderUpdatingView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrePrintingView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.Fp410Receipt.SlipPOS.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.GroupInvoicingReport.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.Preview.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.ReportPreview.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PrinterSelectionForm.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrintingView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledPaymentView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBeCancelledReceiptView.CancelSummaryForm.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledReceiptView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidBillBookView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBePaidInvoiceView.DisconnectionStatus.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidInvoiceView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeReprintedView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.csproj.GenerateResource.Cache
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.cache
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.compiled
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll.config
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\BPMSAPConnector.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\protobuf-net.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.Rfc.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\ResolveAssemblyReference.cache
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Properties.Resources.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.APCriteriaView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC01CriteriaView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC03CriteriaView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC04CriteriaView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC05CriteriaView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC06CriteriaView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC07CriteriaView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC09CriteriaView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC11CriteriaView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC12CriteriaView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC13CriteriaView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC14CriteriaView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC15CriteriaView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC16CriteriaView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC18CriteriaView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReportViews.CAC19CriteriaView.CAC19CriteriaView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ResultView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.AdvancedPaymentView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.AdvancedPaymentView.BillBookSearchForm.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillDetailView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchResultView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.OneTouchSearchForm.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.SAPSearchForm.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchResultView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.QRPaymentView.QRPaymentView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGenerateResultView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGeneratetSearchView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CustomerSearchView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.DayClosingView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ElectricPaymentView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InterestInquiryResultView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.InterestInquiryResultView.TargetDateSelectionForm.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InvoiceDetailView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.NewPaymentItemView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentHistoryView.DebtDetailForm.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentHistoryView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentItemLinkView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.AllocationDetailForm.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.BankSearchForm.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.ChequeAllocationForm.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentMethodSelectionView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchResultView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.RemeterView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipHeaderUpdatingView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrePrintingView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.Fp410Receipt.SlipPOS.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.GroupInvoicingReport.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.Preview.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.ReportPreview.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PrinterSelectionForm.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrintingView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledPaymentView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBeCancelledReceiptView.CancelSummaryForm.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledReceiptView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidBillBookView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBePaidInvoiceView.DisconnectionStatus.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidInvoiceView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeReprintedView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.csproj.GenerateResource.Cache
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.cache
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.compiled
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReportContainerView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReportContainerView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll.config
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\BPMSAPConnector.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\protobuf-net.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.Rfc.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Properties.Resources.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.APCriteriaView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC01CriteriaView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC03CriteriaView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC04CriteriaView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC05CriteriaView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC06CriteriaView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC07CriteriaView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC09CriteriaView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC11CriteriaView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC12CriteriaView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC13CriteriaView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC14CriteriaView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC15CriteriaView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC16CriteriaView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC18CriteriaView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReportViews.CAC19CriteriaView.CAC19CriteriaView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReportContainerView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ResultView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.AdvancedPaymentView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.AdvancedPaymentView.BillBookSearchForm.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillDetailView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchResultView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.OneTouchSearchForm.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.SAPSearchForm.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchResultView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.QRPaymentView.QRPaymentView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGenerateResultView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGeneratetSearchView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CustomerSearchView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.DayClosingView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ElectricPaymentView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InterestInquiryResultView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.InterestInquiryResultView.TargetDateSelectionForm.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InvoiceDetailView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.NewPaymentItemView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentHistoryView.DebtDetailForm.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentHistoryView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentItemLinkView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.AllocationDetailForm.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.BankSearchForm.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.ChequeAllocationForm.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentMethodSelectionView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchResultView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.RemeterView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipHeaderUpdatingView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrePrintingView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.Fp410Receipt.SlipPOS.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.GroupInvoicingReport.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.Preview.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.ReportPreview.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PrinterSelectionForm.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrintingView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledPaymentView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBeCancelledReceiptView.CancelSummaryForm.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledReceiptView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidBillBookView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBePaidInvoiceView.DisconnectionStatus.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidInvoiceView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeReprintedView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.csproj.GenerateResource.Cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.compiled
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\BPMSAPConnector.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.Rfc.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.APCriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC01CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC03CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC04CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC05CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC06CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC07CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC09CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC11CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC12CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC13CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC14CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC15CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC16CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC18CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReportViews.CAC19CriteriaView.CAC19CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReportContainerView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ResultView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.AdvancedPaymentView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.AdvancedPaymentView.BillBookSearchForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillDetailView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchResultView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.OneTouchSearchForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.SAPSearchForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchResultView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.QRPaymentView.QRPaymentView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGenerateResultView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGeneratetSearchView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CustomerSearchView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.DayClosingView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ElectricPaymentView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InterestInquiryResultView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.InterestInquiryResultView.TargetDateSelectionForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InvoiceDetailView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.NewPaymentItemView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentHistoryView.DebtDetailForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentHistoryView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentItemLinkView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.AllocationDetailForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.BankSearchForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.ChequeAllocationForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentMethodSelectionView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchResultView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.RemeterView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SearchMultiDocView.SearchMultiDataView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipHeaderUpdatingView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrePrintingView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.Fp410Receipt.SlipPOS.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.GroupInvoicingReport.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.Preview.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.ReportPreview.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PrinterSelectionForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrintingView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledPaymentView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBeCancelledReceiptView.CancelSummaryForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledReceiptView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidBillBookView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBePaidInvoiceView.DisconnectionStatus.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidInvoiceView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeReprintedView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.compiled
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\BPMSAPConnector.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.Rfc.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.APCriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC01CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC03CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC04CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC05CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC06CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC07CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC09CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC11CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC12CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC13CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC14CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC15CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC16CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC18CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReportViews.CAC19CriteriaView.CAC19CriteriaView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReportContainerView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ResultView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.AdvancedPaymentView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.AdvancedPaymentView.BillBookSearchForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillDetailView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchResultView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.OneTouchSearchForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.SAPSearchForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchResultView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.QRPaymentView.QRPaymentView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGenerateResultView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGeneratetSearchView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CustomerSearchView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.DayClosingView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ElectricPaymentView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InterestInquiryResultView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.InterestInquiryResultView.TargetDateSelectionForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InvoiceDetailView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.NewPaymentItemView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentHistoryView.DebtDetailForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentHistoryView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentItemLinkView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.AllocationDetailForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.BankSearchForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.ChequeAllocationForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentMethodSelectionView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchResultView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.RemeterView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SearchMultiDocView.SearchMultiDataView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipHeaderUpdatingView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrePrintingView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.Fp410Receipt.SlipPOS.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.GroupInvoicingReport.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.Preview.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.ReportPreview.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PrinterSelectionForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrintingView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledPaymentView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBeCancelledReceiptView.CancelSummaryForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledReceiptView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidBillBookView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBePaidInvoiceView.DisconnectionStatus.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidInvoiceView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeReprintedView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.compiled
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll.config
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\BPMSAPConnector.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\protobuf-net.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\SAP.Connector.Rfc.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Layout.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.SG.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\WCFExtras.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.PrintUtilities.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.Interface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureTool.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\CashManagementModule.Interface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Interface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.ArchitectureSG.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Architecture.CommonUtilities.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\NewsBroadcast.SG.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\bin\Debug\Infrastructure.Library.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Properties.Resources.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.APCriteriaView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC01CriteriaView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC03CriteriaView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC04CriteriaView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC05CriteriaView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC06CriteriaView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC07CriteriaView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC09CriteriaView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC11CriteriaView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC12CriteriaView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC13CriteriaView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC14CriteriaView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC15CriteriaView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC16CriteriaView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CAC18CriteriaView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReportViews.CAC19CriteriaView.CAC19CriteriaView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReportContainerView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ResultView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.AdvancedPaymentView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.AdvancedPaymentView.BillBookSearchForm.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillDetailView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchResultView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BillSearchView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.OneTouchSearchForm.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.BillSearchView.SAPSearchForm.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchResultView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.BookSearchView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.QRPaymentView.QRPaymentView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGenerateResultView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptGeneratetSearchView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.CustomerSearchView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.DayClosingView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ElectricPaymentView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InterestInquiryResultView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.InterestInquiryResultView.TargetDateSelectionForm.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.InvoiceDetailView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.NewPaymentItemView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentHistoryView.DebtDetailForm.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentHistoryView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentItemLinkView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.AllocationDetailForm.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.BankSearchForm.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.PaymentMethodSelectionView.ChequeAllocationForm.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.PaymentMethodSelectionView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchResultView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ReceiptSearchView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.RemeterView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SearchMultiDocView.SearchMultiDataView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipHeaderUpdatingView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrePrintingView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.Fp410Receipt.SlipPOS.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.GroupInvoicingReport.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.Preview.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PreprintedReceipt.ReportPreview.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.SlipPrintingView.PrinterSelectionForm.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.SlipPrintingView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledPaymentView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBeCancelledReceiptView.CancelSummaryForm.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeCancelledReceiptView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidBillBookView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.Views.ToBePaidInvoiceView.DisconnectionStatus.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBePaidInvoiceView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PEA.BPM.PaymentCollectionModule.ToBeReprintedView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.csproj.GenerateResource.Cache
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.cache
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\RdlCompile.compiled
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\PaymentCollectionModule\PaymentCollectionModule\obj\Debug\PaymentCollectionModule.pdb

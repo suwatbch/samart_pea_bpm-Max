@@ -1,0 +1,18 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration.Interface\bin\Release\PEA.BPM.Integration.BPMIntegration.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration.Interface\bin\Release\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration.Interface\bin\Release\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration.Interface\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration.Interface\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration.Interface\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration.Interface\bin\Release\protobuf-net.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration.Interface\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\BPMIntegration\BPMIntegration.Interface\obj\Release\PEA.BPM.Integration.BPMIntegration.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration.Interface\bin\Release\PEA.BPM.Integration.BPMIntegration.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration.Interface\bin\Release\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration.Interface\bin\Release\Architecture.CommonUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration.Interface\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration.Interface\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration.Interface\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration.Interface\bin\Release\protobuf-net.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration.Interface\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\BPMIntegration\BPMIntegration.Interface\obj\Release\PEA.BPM.Integration.BPMIntegration.Interface.dll

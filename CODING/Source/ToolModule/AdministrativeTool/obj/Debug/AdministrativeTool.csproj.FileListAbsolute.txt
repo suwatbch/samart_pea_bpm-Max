@@ -1,0 +1,468 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.config
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.manifest
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.application
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\ctlDiffuseDlgLib.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\protobuf-net.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.pdb
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.CloseAccountStatus.CloseAccountStatusMain.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Common.frmProgressDialog.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.ConnectionSettingMain.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.frmConnectionSettingEdit.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Consolidate.ConsolidateMain.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.MainUI.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.InputWebServiceDialog.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SelectRecieverDialogForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderDialogForm.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderUserControl.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OfflineErrorLog.OfflineErrorLogMain.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OpenOfflineFile.OpenOfflineFileMain.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OutOfShiftList.OutOfShiftMain.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.PermissionDialog.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Properties.Resources.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.UnclarifyPayment.UnclarifyPaymentView.resources
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.csproj.GenerateResource.Cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.TrustInfo.xml
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe.manifest
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.application
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.config
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.manifest
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.application
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\ctlDiffuseDlgLib.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\protobuf-net.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.pdb
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\ResolveAssemblyReference.cache
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.CloseAccountStatus.CloseAccountStatusMain.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Common.frmProgressDialog.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.ConnectionSettingMain.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.frmConnectionSettingEdit.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Consolidate.ConsolidateMain.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.MainUI.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.InputWebServiceDialog.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SelectRecieverDialogForm.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderDialogForm.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderUserControl.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OfflineErrorLog.OfflineErrorLogMain.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OpenOfflineFile.OpenOfflineFileMain.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OutOfShiftList.OutOfShiftMain.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.PermissionDialog.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Properties.Resources.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.UnclarifyPayment.UnclarifyPaymentView.resources
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.csproj.GenerateResource.Cache
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.TrustInfo.xml
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe.manifest
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.application
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe
+D:\Temp\smart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.config
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.manifest
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.application
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\ctlDiffuseDlgLib.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\protobuf-net.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.pdb
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.CloseAccountStatus.CloseAccountStatusMain.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Common.frmProgressDialog.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.ConnectionSettingMain.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.frmConnectionSettingEdit.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Consolidate.ConsolidateMain.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.MainUI.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.InputWebServiceDialog.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SelectRecieverDialogForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderDialogForm.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderUserControl.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OfflineErrorLog.OfflineErrorLogMain.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OpenOfflineFile.OpenOfflineFileMain.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OutOfShiftList.OutOfShiftMain.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.PermissionDialog.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Properties.Resources.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.UnclarifyPayment.UnclarifyPaymentView.resources
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.csproj.GenerateResource.Cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.TrustInfo.xml
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe.manifest
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.application
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.config
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.manifest
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.application
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\ctlDiffuseDlgLib.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\protobuf-net.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.pdb
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.CloseAccountStatus.CloseAccountStatusMain.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Common.frmProgressDialog.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.ConnectionSettingMain.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.frmConnectionSettingEdit.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Consolidate.ConsolidateMain.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.MainUI.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.InputWebServiceDialog.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SelectRecieverDialogForm.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderDialogForm.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderUserControl.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OfflineErrorLog.OfflineErrorLogMain.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OpenOfflineFile.OpenOfflineFileMain.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OutOfShiftList.OutOfShiftMain.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.PermissionDialog.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Properties.Resources.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.UnclarifyPayment.UnclarifyPaymentView.resources
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.csproj.GenerateResource.Cache
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.TrustInfo.xml
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe.manifest
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.application
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe
+D:\BPM2023\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.config
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.manifest
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.application
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\ctlDiffuseDlgLib.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\protobuf-net.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\ResolveAssemblyReference.cache
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.CloseAccountStatus.CloseAccountStatusMain.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Common.frmProgressDialog.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.ConnectionSettingMain.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.frmConnectionSettingEdit.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Consolidate.ConsolidateMain.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.MainUI.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.InputWebServiceDialog.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SelectRecieverDialogForm.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderDialogForm.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderUserControl.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OfflineErrorLog.OfflineErrorLogMain.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OpenOfflineFile.OpenOfflineFileMain.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OutOfShiftList.OutOfShiftMain.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.PermissionDialog.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Properties.Resources.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.UnclarifyPayment.UnclarifyPaymentView.resources
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.csproj.GenerateResource.Cache
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.TrustInfo.xml
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe.manifest
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.application
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe
+D:\2023 PROJECT\BPM_CBS2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.config
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.manifest
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.application
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\ctlDiffuseDlgLib.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\protobuf-net.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.pdb
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.CloseAccountStatus.CloseAccountStatusMain.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Common.frmProgressDialog.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.ConnectionSettingMain.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.frmConnectionSettingEdit.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Consolidate.ConsolidateMain.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.MainUI.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.InputWebServiceDialog.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SelectRecieverDialogForm.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderDialogForm.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderUserControl.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OfflineErrorLog.OfflineErrorLogMain.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OpenOfflineFile.OpenOfflineFileMain.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OutOfShiftList.OutOfShiftMain.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.PermissionDialog.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Properties.Resources.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.UnclarifyPayment.UnclarifyPaymentView.resources
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.csproj.GenerateResource.Cache
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.TrustInfo.xml
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe.manifest
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.application
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe
+D:\BPM PROJECT\samart_pea_bpm_cbs2\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.manifest
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.application
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\ctlDiffuseDlgLib.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.CloseAccountStatus.CloseAccountStatusMain.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Common.frmProgressDialog.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.ConnectionSettingMain.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.frmConnectionSettingEdit.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Consolidate.ConsolidateMain.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.MainUI.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.InputWebServiceDialog.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SelectRecieverDialogForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderDialogForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderUserControl.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OfflineErrorLog.OfflineErrorLogMain.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OpenOfflineFile.OpenOfflineFileMain.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OutOfShiftList.OutOfShiftMain.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.PermissionDialog.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.UnclarifyPayment.UnclarifyPaymentView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.TrustInfo.xml
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe.manifest
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.application
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.config
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.manifest
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.application
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\ctlDiffuseDlgLib.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\protobuf-net.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.pdb
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\ResolveAssemblyReference.cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.CloseAccountStatus.CloseAccountStatusMain.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Common.frmProgressDialog.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.ConnectionSettingMain.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.frmConnectionSettingEdit.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Consolidate.ConsolidateMain.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.MainUI.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.InputWebServiceDialog.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SelectRecieverDialogForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderDialogForm.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderUserControl.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OfflineErrorLog.OfflineErrorLogMain.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OpenOfflineFile.OpenOfflineFileMain.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OutOfShiftList.OutOfShiftMain.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.PermissionDialog.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Properties.Resources.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.UnclarifyPayment.UnclarifyPaymentView.resources
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.csproj.GenerateResource.Cache
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.TrustInfo.xml
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe.manifest
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.application
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe
+D:\2-WorkOther\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.config
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe.manifest
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.application
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.exe
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\AdministrativeTool.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\ctlDiffuseDlgLib.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\protobuf-net.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\WCFExtras.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.SG.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\NewsBroadcast.Interface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.ArchitectureInterface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\PaymentCollectionModule.Interface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Infrastructure.Interface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\CashManagementModule.Interface.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\bin\Debug\Architecture.CommonUtilities.pdb
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\ResolveAssemblyReference.cache
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.CloseAccountStatus.CloseAccountStatusMain.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Common.frmProgressDialog.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.ConnectionSettingMain.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.ConnectionSetting.frmConnectionSettingEdit.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Consolidate.ConsolidateMain.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.MainUI.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.InputWebServiceDialog.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SelectRecieverDialogForm.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderDialogForm.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.NewsBroadcastSender.SenderUserControl.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OfflineErrorLog.OfflineErrorLogMain.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OpenOfflineFile.OpenOfflineFileMain.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.OutOfShiftList.OutOfShiftMain.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.PermissionDialog.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.Properties.Resources.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.UnclarifyPayment.UnclarifyPaymentView.resources
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.csproj.GenerateResource.Cache
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.TrustInfo.xml
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe.manifest
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.application
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.exe
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\AdministrativeTool\obj\Debug\AdministrativeTool.pdb

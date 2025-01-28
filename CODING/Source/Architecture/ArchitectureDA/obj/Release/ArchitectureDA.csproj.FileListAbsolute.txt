@@ -1,0 +1,22 @@
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureDA\bin\Release\Architecture.ArchitectureDA.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureDA\bin\Release\Architecture.ArchitectureInterface.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureDA\bin\Release\Architecture.CommonUtilities.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureDA\bin\Release\Avanade.ACA.Batch.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureDA\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureDA\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureDA\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureDA\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureDA\bin\Release\protobuf-net.dll
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureDA\obj\Release\ResolveAssemblyReference.cache
+D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureDA\obj\Release\Architecture.ArchitectureDA.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureDA\bin\Release\Architecture.ArchitectureDA.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureDA\bin\Release\Architecture.ArchitectureInterface.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureDA\bin\Release\Architecture.CommonUtilities.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureDA\bin\Release\Avanade.ACA.Batch.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureDA\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureDA\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureDA\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureDA\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureDA\bin\Release\protobuf-net.dll
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureDA\obj\Release\ResolveAssemblyReference.cache
+D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureDA\obj\Release\Architecture.ArchitectureDA.dll
