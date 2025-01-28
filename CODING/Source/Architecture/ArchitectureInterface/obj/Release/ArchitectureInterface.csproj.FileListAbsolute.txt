@@ -1,6 +1,0 @@
-D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureInterface\bin\Release\Architecture.ArchitectureInterface.dll
-D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureInterface\obj\Release\ResolveAssemblyReference.cache
-D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\Architecture\ArchitectureInterface\obj\Release\Architecture.ArchitectureInterface.dll
-D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureInterface\bin\Release\Architecture.ArchitectureInterface.dll
-D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureInterface\obj\Release\ResolveAssemblyReference.cache
-D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\Architecture\ArchitectureInterface\obj\Release\Architecture.ArchitectureInterface.dll

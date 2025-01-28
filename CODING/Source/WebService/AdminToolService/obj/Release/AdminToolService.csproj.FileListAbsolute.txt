@@ -1,6 +1,0 @@
-D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\AdminToolService\bin\AdminToolService.dll
-D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\AdminToolService\obj\Release\ResolveAssemblyReference.cache
-D:\BPM PROJECT\smart_pea_bpm_cbs2\CODING\Source\WebService\AdminToolService\obj\Release\AdminToolService.dll
-D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\AdminToolService\bin\AdminToolService.dll
-D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\AdminToolService\obj\Release\ResolveAssemblyReference.cache
-D:\smart_pea_bpm_cbs2_QRPayment\CODING\Source\WebService\AdminToolService\obj\Release\AdminToolService.dll
