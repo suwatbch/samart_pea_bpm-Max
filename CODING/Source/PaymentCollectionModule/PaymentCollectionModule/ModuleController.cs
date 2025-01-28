@@ -65,7 +65,6 @@ namespace PEA.BPM.PaymentCollectionModule
         {
             paymentCollectionMenuItem = new ToolStripMenuItem("2. �Ѻ�����Թ");
 
-
             WorkItem.UIExtensionSites[UIExtensionSiteNames.MainMenu].Add(paymentCollectionMenuItem);
 
             AddMenuItem(paymentCollectionMenuItem, Properties.Resources.GeneralPaymentCollection, CommandNames.ElectricalUserPaymentCollection, Keys.Control | Keys.P);
