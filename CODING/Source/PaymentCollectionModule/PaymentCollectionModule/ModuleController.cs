@@ -63,7 +63,7 @@ namespace PEA.BPM.PaymentCollectionModule
 
         private void ExtendMenu()
         {
-            paymentCollectionMenuItem = new ToolStripMenuItem("2. �Ѻ�����Թ");
+            paymentCollectionMenuItem = new ToolStripMenuItem("2. รับชำระเงิน");
 
             WorkItem.UIExtensionSites[UIExtensionSiteNames.MainMenu].Add(paymentCollectionMenuItem);
 
@@ -106,7 +106,7 @@ namespace PEA.BPM.PaymentCollectionModule
 
             //AddMenuSeparator(paymentCollectionMenuItem);
 
-            //AddMenuItem(paymentCollectionMenuItem, "�Դ����Ѻ�����Թ��Ш��ѹ (�觢����š�Ѻ��ѧ SAP)", CommandNames.BranchDayClosing, 0);
+            //AddMenuItem(paymentCollectionMenuItem, "ปิดการรับชำระเงินประจำวัน (ส่งข้อมูลกลับไปยัง SAP)", CommandNames.BranchDayClosing, 0);
 
             if (Session.Branch.Id == null)
             {
@@ -118,7 +118,7 @@ namespace PEA.BPM.PaymentCollectionModule
         {
             //bool enable = Session.Branch.Id != null;
 
-            string paymentMenuText = "�Ѻ�����Թ - ����Ѻ�����俿��/�١˹������";
+            string paymentMenuText = "รับชำระเงิน - สำหรับผู้ใช้ไฟฟ้า/ลูกหนี้อื่นๆ";
             UIExtensionSite toolstrip = WorkItem.UIExtensionSites[UIExtensionSiteNames.MainToolbar];
             posTSButton = AddToolStripButton(toolstrip, paymentMenuText, Properties.Resources.PaymentCollectionIcon,
                             paymentMenuText, CommandNames.ElectricalUserPaymentCollection, false);
@@ -131,7 +131,7 @@ namespace PEA.BPM.PaymentCollectionModule
 
             //Offline by User ,Begin
 
-            string offlineMenuText = "Offline �¼����";
+            string offlineMenuText = "Offline โดยผู้ใช้";
             UIExtensionSite offlineToolstrip = WorkItem.UIExtensionSites[UIExtensionSiteNames.MainToolbar];
             posOfflineButton = AddToolStripButton(offlineToolstrip, offlineMenuText, Properties.Resources.ForcedOfflineOffIcon,
                             offlineMenuText, CommandNames.ForcedOffline, true);
