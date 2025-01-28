@@ -680,7 +680,6 @@ D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\A
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.PrintUtilities.dll
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.dll
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.Interface.dll
-D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.dll
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.Interface.dll
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.dll
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Library.dll
@@ -694,9 +693,9 @@ D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\T
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.dll
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\WCFExtras.dll
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
-D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\BillPrintingModule.SG.dll
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\protobuf-net.dll
+D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureSG.dll
@@ -708,7 +707,6 @@ D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\B
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\ToolModule.SG.pdb
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\NewsBroadcast.Interface.pdb
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureInterface.pdb
-D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\CashManagementModule.pdb
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Architecture.ArchitectureTool.pdb
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\PaymentCollectionModule.Interface.pdb
 D:\BPM\GitBPM\samart_pea_bpm-Max\CODING\Source\ToolModule\ToolModule\bin\Debug\Infrastructure.Interface.pdb

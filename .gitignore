@@ -1,7 +1,7 @@
 # Ignore Debug และ obj ทั่วไป
-*.dll
-*.pdb
-bin/
+# *.dll
+# *.pdb
+# bin/
 # obj/
 
 # Ignore เฉพาะในโฟลเดอร์ CODING
