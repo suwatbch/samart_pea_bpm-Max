@@ -179,7 +179,7 @@ namespace PEA.BPM.PaymentCollectionModule
         public void ViewReceiptReprintingHandler(object sender, EventArgs e)
         {
             if (Authorization.IsAuthorized(SecurityNames.POSObserver, false) ||
-                Authorization.IsAuthorized(SecurityNames.ReceiptReprinting, "�Ŵ��ͤ���� 2.4", true))
+                Authorization.IsAuthorized(SecurityNames.ReceiptReprinting, "ปลดล็อคเมนู 2.4", true))
             {
                 this.LoadUseCase<ReceiptReprintingController>().Controller.Run();
             }
