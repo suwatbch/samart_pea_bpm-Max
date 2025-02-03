@@ -56,6 +56,7 @@ namespace PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities
             this.AmountExVat = invoice.AmountExVat;
             this.VatAmount = invoice.VatAmount;
             this.GAmount = invoice.GAmount;
+            this.Amount = invoice.Amount;
             this.PaidQty = invoice.PaidQty;
             this.PaidVatAmount = invoice.PaidVatAmount;
             this.PaidGAmount = invoice.PaidGAmount;

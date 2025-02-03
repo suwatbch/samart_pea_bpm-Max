@@ -50,7 +50,7 @@ namespace PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities
             get { return _invoiceNo; }
             set { _invoiceNo = value; }
         }
-
+        
         /// <summary>
         /// เลขที่ Invoice จริงๆ ที่ใช้อ้างอิงใน SAP
         /// </summary>
@@ -380,6 +380,15 @@ namespace PEA.BPM.PaymentCollectionModule.Interface.BusinessEntities
         {
             get { return _amountExVat; }
             set { _amountExVat = value; }
+        }
+
+        private decimal? _amount;
+
+        [DataMember(Order = 79)]
+        public decimal? Amount
+        {
+            get { return _amount; }
+            set { _amount = value; }
         }
 
         private decimal? _vatAmount;

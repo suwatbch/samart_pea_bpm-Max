@@ -341,7 +341,7 @@ namespace PEA.BPM.PaymentCollectionModule.DA
         public List<Invoice> SearchInvoiceByCustomerId(string caId, bool isSearchByBP)
         {
             Database db = DatabaseFactory.CreateDatabase("POSDatabase");
-            DbCommand cmd = db.GetStoredProcCommand("pc_sel_ARInvoiceByCaId");
+            DbCommand cmd = db.GetStoredProcCommand("pc_sel_ARInvoiceByCaId_byMax");
             cmd.CommandTimeout = timeout;
             db.AddInParameter(cmd, "CaId", DbType.String, caId);
             db.AddInParameter(cmd, "IsSearchByBP", DbType.Boolean, isSearchByBP);
@@ -1740,6 +1740,7 @@ namespace PEA.BPM.PaymentCollectionModule.DA
                 inv.Qty = DaHelper.GetDecimal(dr, "Qty");
                 inv.AmountExVat = DaHelper.GetDecimal(dr, "ExVatAmount");
                 inv.VatAmount = DaHelper.GetDecimal(dr, "VatAmount");
+                inv.Amount = DaHelper.GetDecimal(dr, "Amount");
                 inv.GAmount = DaHelper.GetDecimal(dr, "GAmount");
 
                 inv.PaidQty = DaHelper.GetDecimal(dr, "PaidQty");

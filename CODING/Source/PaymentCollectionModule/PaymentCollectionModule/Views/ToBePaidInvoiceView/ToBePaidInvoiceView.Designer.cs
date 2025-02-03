@@ -56,6 +56,7 @@ namespace PEA.BPM.PaymentCollectionModule
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.filterPeriodTextBox = new System.Windows.Forms.MaskedTextBox();
@@ -72,6 +73,7 @@ namespace PEA.BPM.PaymentCollectionModule
             this.addressDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.debtTypeDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.periodDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AmountColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.toPayAmountDgColumn = new System.Windows.Forms.DataGridViewLinkColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dueDateDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -223,6 +225,7 @@ namespace PEA.BPM.PaymentCollectionModule
             this.addressDgColumn,
             this.debtTypeDgColumn,
             this.periodDgColumn,
+            this.AmountColumn,
             this.toPayAmountDgColumn,
             this.Column4,
             this.dueDateDgColumn,
@@ -337,12 +340,26 @@ namespace PEA.BPM.PaymentCollectionModule
             this.periodDgColumn.ReadOnly = true;
             this.periodDgColumn.Width = 70;
             // 
+            // AmountColumn
+            // 
+            this.AmountColumn.DataPropertyName = "Amount";
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle2.Format = "N2";
+            dataGridViewCellStyle2.NullValue = null;
+            this.AmountColumn.DefaultCellStyle = dataGridViewCellStyle2;
+            this.AmountColumn.FillWeight = 1F;
+            this.AmountColumn.HeaderText = "จำนวน";
+            this.AmountColumn.MinimumWidth = 80;
+            this.AmountColumn.Name = "AmountColumn";
+            this.AmountColumn.ReadOnly = true;
+            this.AmountColumn.Width = 80;
+            // 
             // toPayAmountDgColumn
             // 
             this.toPayAmountDgColumn.DataPropertyName = "ToBePaidGAmount";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle2.Format = "N2";
-            this.toPayAmountDgColumn.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle3.Format = "N2";
+            this.toPayAmountDgColumn.DefaultCellStyle = dataGridViewCellStyle3;
             this.toPayAmountDgColumn.FillWeight = 1F;
             this.toPayAmountDgColumn.HeaderText = "รวมทั้งสิ้น";
             this.toPayAmountDgColumn.MinimumWidth = 95;
@@ -354,10 +371,10 @@ namespace PEA.BPM.PaymentCollectionModule
             // Column4
             // 
             this.Column4.DataPropertyName = "ToBePaidVatAmount";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle3.Format = "N2";
-            dataGridViewCellStyle3.NullValue = null;
-            this.Column4.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle4.Format = "N2";
+            dataGridViewCellStyle4.NullValue = null;
+            this.Column4.DefaultCellStyle = dataGridViewCellStyle4;
             this.Column4.FillWeight = 1F;
             this.Column4.HeaderText = "ภาษีมูลค่าเพิ่ม";
             this.Column4.MinimumWidth = 80;
@@ -377,20 +394,20 @@ namespace PEA.BPM.PaymentCollectionModule
             // PaidAmount
             // 
             this.PaidAmount.DataPropertyName = "ToPayGAmount";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle4.Format = "N2";
-            dataGridViewCellStyle4.NullValue = null;
-            this.PaidAmount.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle5.Format = "N2";
+            dataGridViewCellStyle5.NullValue = null;
+            this.PaidAmount.DefaultCellStyle = dataGridViewCellStyle5;
             this.PaidAmount.HeaderText = "ชำระ";
             this.PaidAmount.MinimumWidth = 100;
             this.PaidAmount.Name = "PaidAmount";
             // 
             // LeftAmount
             // 
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle5.Format = "N2";
-            dataGridViewCellStyle5.NullValue = "0.00";
-            this.LeftAmount.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle6.Format = "N2";
+            dataGridViewCellStyle6.NullValue = "0.00";
+            this.LeftAmount.DefaultCellStyle = dataGridViewCellStyle6;
             this.LeftAmount.HeaderText = "คงเหลือ";
             this.LeftAmount.MinimumWidth = 100;
             this.LeftAmount.Name = "LeftAmount";
@@ -949,6 +966,14 @@ namespace PEA.BPM.PaymentCollectionModule
         private System.Windows.Forms.TextBox paidAmountTransactionTextBox;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox paidTransactionTextBox;
+        private System.Windows.Forms.CheckBox CheckBoxAll;
+        private System.Windows.Forms.MaskedTextBox filterInvoiceNoTextBox;
+        private System.Windows.Forms.Label filterInvoicelabel;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.MaskedTextBox filterPeriodTextBox;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox totalCaIdTextBox;
         private System.Windows.Forms.DataGridViewCheckBoxColumn checkedDgColumn;
         private System.Windows.Forms.DataGridViewImageColumn statusColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn branchIdDgColumn;
@@ -958,6 +983,7 @@ namespace PEA.BPM.PaymentCollectionModule
         private System.Windows.Forms.DataGridViewTextBoxColumn addressDgColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn debtTypeDgColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn periodDgColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn AmountColumn;
         private System.Windows.Forms.DataGridViewLinkColumn toPayAmountDgColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dueDateDgColumn;
@@ -968,14 +994,6 @@ namespace PEA.BPM.PaymentCollectionModule
         private System.Windows.Forms.DataGridViewTextBoxColumn CaTaxBranchColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn SubGroupInvoiceNo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-        private System.Windows.Forms.CheckBox CheckBoxAll;
-        private System.Windows.Forms.MaskedTextBox filterInvoiceNoTextBox;
-        private System.Windows.Forms.Label filterInvoicelabel;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.MaskedTextBox filterPeriodTextBox;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox totalCaIdTextBox;
 
     }
 }
