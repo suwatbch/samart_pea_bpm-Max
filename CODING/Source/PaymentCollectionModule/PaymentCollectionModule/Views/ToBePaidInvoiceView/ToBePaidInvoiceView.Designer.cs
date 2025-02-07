@@ -64,6 +64,26 @@ namespace PEA.BPM.PaymentCollectionModule
             this.filterInvoiceNoTextBox = new System.Windows.Forms.MaskedTextBox();
             this.CheckBoxAll = new System.Windows.Forms.CheckBox();
             this.transactionDataGridView = new System.Windows.Forms.DataGridView();
+            this.checkedDgColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.statusColumn = new System.Windows.Forms.DataGridViewImageColumn();
+            this.branchIdDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.caIdDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.InvoiceNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.addressDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.debtTypeDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.periodDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AmountColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.toPayAmountDgColumn = new System.Windows.Forms.DataGridViewLinkColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dueDateDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PaidAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LeftAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CaDoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CaTaxIdColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CaTaxBranchColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SubGroupInvoiceNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel13 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
@@ -105,26 +125,6 @@ namespace PEA.BPM.PaymentCollectionModule
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.upToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.downToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.checkedDgColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.statusColumn = new System.Windows.Forms.DataGridViewImageColumn();
-            this.branchIdDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.caIdDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.InvoiceNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.addressDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.debtTypeDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.periodDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AmountColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.toPayAmountDgColumn = new System.Windows.Forms.DataGridViewLinkColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dueDateDgColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PaidAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.LeftAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CaDoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CaTaxIdColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CaTaxBranchColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SubGroupInvoiceNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.transactionDataGridView)).BeginInit();
             this.panel12.SuspendLayout();
@@ -250,6 +250,208 @@ namespace PEA.BPM.PaymentCollectionModule
             this.transactionDataGridView.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.transactionDataGridView_CellEndEdit);
             this.transactionDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.transactionDataGridView_CellClick);
             this.transactionDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.transactionDataGridView_CellContentClick);
+            // 
+            // checkedDgColumn
+            // 
+            this.checkedDgColumn.DataPropertyName = "IsChecked";
+            this.checkedDgColumn.FillWeight = 1F;
+            this.checkedDgColumn.HeaderText = "";
+            this.checkedDgColumn.MinimumWidth = 20;
+            this.checkedDgColumn.Name = "checkedDgColumn";
+            this.checkedDgColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.checkedDgColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.checkedDgColumn.Width = 20;
+            // 
+            // statusColumn
+            // 
+            this.statusColumn.FillWeight = 1F;
+            this.statusColumn.HeaderText = "";
+            this.statusColumn.MinimumWidth = 20;
+            this.statusColumn.Name = "statusColumn";
+            this.statusColumn.ReadOnly = true;
+            this.statusColumn.Width = 20;
+            // 
+            // branchIdDgColumn
+            // 
+            this.branchIdDgColumn.DataPropertyName = "BranchId";
+            this.branchIdDgColumn.FillWeight = 1F;
+            this.branchIdDgColumn.HeaderText = "การไฟฟ้า";
+            this.branchIdDgColumn.MinimumWidth = 50;
+            this.branchIdDgColumn.Name = "branchIdDgColumn";
+            this.branchIdDgColumn.ReadOnly = true;
+            this.branchIdDgColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.branchIdDgColumn.Width = 50;
+            // 
+            // caIdDgColumn
+            // 
+            this.caIdDgColumn.DataPropertyName = "DisplayCaId";
+            this.caIdDgColumn.FillWeight = 1F;
+            this.caIdDgColumn.HeaderText = "บัญชีแสดงสัญญา (CA)";
+            this.caIdDgColumn.MinimumWidth = 90;
+            this.caIdDgColumn.Name = "caIdDgColumn";
+            this.caIdDgColumn.Width = 90;
+            // 
+            // InvoiceNo
+            // 
+            this.InvoiceNo.DataPropertyName = "DisplayInvoiceNo";
+            this.InvoiceNo.HeaderText = "เลขที่ใบแจ้งหนี้";
+            this.InvoiceNo.MinimumWidth = 110;
+            this.InvoiceNo.Name = "InvoiceNo";
+            this.InvoiceNo.Width = 110;
+            // 
+            // nameDgColumn
+            // 
+            this.nameDgColumn.DataPropertyName = "ReceiptPrintName";
+            this.nameDgColumn.FillWeight = 1F;
+            this.nameDgColumn.HeaderText = "ชื่อ";
+            this.nameDgColumn.MinimumWidth = 120;
+            this.nameDgColumn.Name = "nameDgColumn";
+            this.nameDgColumn.ReadOnly = true;
+            this.nameDgColumn.Width = 120;
+            // 
+            // addressDgColumn
+            // 
+            this.addressDgColumn.DataPropertyName = "Address";
+            this.addressDgColumn.FillWeight = 1F;
+            this.addressDgColumn.HeaderText = "ที่อยู่";
+            this.addressDgColumn.MinimumWidth = 60;
+            this.addressDgColumn.Name = "addressDgColumn";
+            this.addressDgColumn.ReadOnly = true;
+            this.addressDgColumn.Width = 60;
+            // 
+            // debtTypeDgColumn
+            // 
+            this.debtTypeDgColumn.DataPropertyName = "DebtType";
+            this.debtTypeDgColumn.FillWeight = 1F;
+            this.debtTypeDgColumn.HeaderText = "ประเภทหนี้";
+            this.debtTypeDgColumn.MinimumWidth = 100;
+            this.debtTypeDgColumn.Name = "debtTypeDgColumn";
+            this.debtTypeDgColumn.ReadOnly = true;
+            // 
+            // periodDgColumn
+            // 
+            this.periodDgColumn.DataPropertyName = "PeriodString";
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.periodDgColumn.DefaultCellStyle = dataGridViewCellStyle1;
+            this.periodDgColumn.FillWeight = 1F;
+            this.periodDgColumn.HeaderText = "ประจำเดือน";
+            this.periodDgColumn.MinimumWidth = 70;
+            this.periodDgColumn.Name = "periodDgColumn";
+            this.periodDgColumn.ReadOnly = true;
+            this.periodDgColumn.Width = 70;
+            // 
+            // AmountColumn
+            // 
+            this.AmountColumn.DataPropertyName = "GAmount";
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle2.Format = "N2";
+            dataGridViewCellStyle2.NullValue = null;
+            this.AmountColumn.DefaultCellStyle = dataGridViewCellStyle2;
+            this.AmountColumn.FillWeight = 1F;
+            this.AmountColumn.HeaderText = "หนี้ตั้งต้น";
+            this.AmountColumn.MinimumWidth = 80;
+            this.AmountColumn.Name = "AmountColumn";
+            this.AmountColumn.ReadOnly = true;
+            this.AmountColumn.Width = 80;
+            // 
+            // toPayAmountDgColumn
+            // 
+            this.toPayAmountDgColumn.DataPropertyName = "ToBePaidGAmount";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle3.Format = "N2";
+            this.toPayAmountDgColumn.DefaultCellStyle = dataGridViewCellStyle3;
+            this.toPayAmountDgColumn.FillWeight = 1F;
+            this.toPayAmountDgColumn.HeaderText = "รวมทั้งสิ้น";
+            this.toPayAmountDgColumn.MinimumWidth = 95;
+            this.toPayAmountDgColumn.Name = "toPayAmountDgColumn";
+            this.toPayAmountDgColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.toPayAmountDgColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.toPayAmountDgColumn.Width = 95;
+            // 
+            // Column4
+            // 
+            this.Column4.DataPropertyName = "ToBePaidVatAmount";
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle4.Format = "N2";
+            dataGridViewCellStyle4.NullValue = null;
+            this.Column4.DefaultCellStyle = dataGridViewCellStyle4;
+            this.Column4.FillWeight = 1F;
+            this.Column4.HeaderText = "ภาษีมูลค่าเพิ่ม";
+            this.Column4.MinimumWidth = 80;
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            this.Column4.Width = 80;
+            // 
+            // dueDateDgColumn
+            // 
+            this.dueDateDgColumn.DataPropertyName = "DisplayDueDate";
+            this.dueDateDgColumn.FillWeight = 1F;
+            this.dueDateDgColumn.HeaderText = "วันครบกำหนด";
+            this.dueDateDgColumn.MinimumWidth = 85;
+            this.dueDateDgColumn.Name = "dueDateDgColumn";
+            this.dueDateDgColumn.Width = 85;
+            // 
+            // PaidAmount
+            // 
+            this.PaidAmount.DataPropertyName = "ToPayGAmount";
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle5.Format = "N2";
+            dataGridViewCellStyle5.NullValue = null;
+            this.PaidAmount.DefaultCellStyle = dataGridViewCellStyle5;
+            this.PaidAmount.HeaderText = "ชำระ";
+            this.PaidAmount.MinimumWidth = 100;
+            this.PaidAmount.Name = "PaidAmount";
+            // 
+            // LeftAmount
+            // 
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle6.Format = "N2";
+            dataGridViewCellStyle6.NullValue = "0.00";
+            this.LeftAmount.DefaultCellStyle = dataGridViewCellStyle6;
+            this.LeftAmount.HeaderText = "คงเหลือ";
+            this.LeftAmount.MinimumWidth = 100;
+            this.LeftAmount.Name = "LeftAmount";
+            this.LeftAmount.ReadOnly = true;
+            // 
+            // CaDoc
+            // 
+            this.CaDoc.DataPropertyName = "CaDoc";
+            this.CaDoc.HeaderText = "Ca Doc";
+            this.CaDoc.MinimumWidth = 110;
+            this.CaDoc.Name = "CaDoc";
+            this.CaDoc.Width = 110;
+            // 
+            // CaTaxIdColumn
+            // 
+            this.CaTaxIdColumn.DataPropertyName = "CaTaxId";
+            this.CaTaxIdColumn.HeaderText = "เลขประจำตัวผู้เสียภาษี";
+            this.CaTaxIdColumn.MinimumWidth = 110;
+            this.CaTaxIdColumn.Name = "CaTaxIdColumn";
+            this.CaTaxIdColumn.ReadOnly = true;
+            this.CaTaxIdColumn.Width = 110;
+            // 
+            // CaTaxBranchColumn
+            // 
+            this.CaTaxBranchColumn.DataPropertyName = "CaTaxBranch";
+            this.CaTaxBranchColumn.HeaderText = "สาขา";
+            this.CaTaxBranchColumn.Name = "CaTaxBranchColumn";
+            this.CaTaxBranchColumn.ReadOnly = true;
+            // 
+            // SubGroupInvoiceNo
+            // 
+            this.SubGroupInvoiceNo.DataPropertyName = "SubGroupInvoiceNo";
+            this.SubGroupInvoiceNo.HeaderText = "SubGroupInvoiceNo";
+            this.SubGroupInvoiceNo.Name = "SubGroupInvoiceNo";
+            this.SubGroupInvoiceNo.Visible = false;
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "";
+            this.Column9.MinimumWidth = 20;
+            this.Column9.Name = "Column9";
+            this.Column9.ReadOnly = true;
+            this.Column9.Visible = false;
+            this.Column9.Width = 20;
             // 
             // panel13
             // 
@@ -688,208 +890,6 @@ namespace PEA.BPM.PaymentCollectionModule
             this.downToolStripMenuItem.Name = "downToolStripMenuItem";
             this.downToolStripMenuItem.Size = new System.Drawing.Size(280, 26);
             this.downToolStripMenuItem.Text = "เลื่อนรายการลง";
-            // 
-            // checkedDgColumn
-            // 
-            this.checkedDgColumn.DataPropertyName = "IsChecked";
-            this.checkedDgColumn.FillWeight = 1F;
-            this.checkedDgColumn.HeaderText = "";
-            this.checkedDgColumn.MinimumWidth = 20;
-            this.checkedDgColumn.Name = "checkedDgColumn";
-            this.checkedDgColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.checkedDgColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.checkedDgColumn.Width = 20;
-            // 
-            // statusColumn
-            // 
-            this.statusColumn.FillWeight = 1F;
-            this.statusColumn.HeaderText = "";
-            this.statusColumn.MinimumWidth = 20;
-            this.statusColumn.Name = "statusColumn";
-            this.statusColumn.ReadOnly = true;
-            this.statusColumn.Width = 20;
-            // 
-            // branchIdDgColumn
-            // 
-            this.branchIdDgColumn.DataPropertyName = "BranchId";
-            this.branchIdDgColumn.FillWeight = 1F;
-            this.branchIdDgColumn.HeaderText = "การไฟฟ้า";
-            this.branchIdDgColumn.MinimumWidth = 50;
-            this.branchIdDgColumn.Name = "branchIdDgColumn";
-            this.branchIdDgColumn.ReadOnly = true;
-            this.branchIdDgColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.branchIdDgColumn.Width = 50;
-            // 
-            // caIdDgColumn
-            // 
-            this.caIdDgColumn.DataPropertyName = "DisplayCaId";
-            this.caIdDgColumn.FillWeight = 1F;
-            this.caIdDgColumn.HeaderText = "บัญชีแสดงสัญญา (CA)";
-            this.caIdDgColumn.MinimumWidth = 90;
-            this.caIdDgColumn.Name = "caIdDgColumn";
-            this.caIdDgColumn.Width = 90;
-            // 
-            // InvoiceNo
-            // 
-            this.InvoiceNo.DataPropertyName = "DisplayInvoiceNo";
-            this.InvoiceNo.HeaderText = "เลขที่ใบแจ้งหนี้";
-            this.InvoiceNo.MinimumWidth = 110;
-            this.InvoiceNo.Name = "InvoiceNo";
-            this.InvoiceNo.Width = 110;
-            // 
-            // nameDgColumn
-            // 
-            this.nameDgColumn.DataPropertyName = "ReceiptPrintName";
-            this.nameDgColumn.FillWeight = 1F;
-            this.nameDgColumn.HeaderText = "ชื่อ";
-            this.nameDgColumn.MinimumWidth = 120;
-            this.nameDgColumn.Name = "nameDgColumn";
-            this.nameDgColumn.ReadOnly = true;
-            this.nameDgColumn.Width = 120;
-            // 
-            // addressDgColumn
-            // 
-            this.addressDgColumn.DataPropertyName = "Address";
-            this.addressDgColumn.FillWeight = 1F;
-            this.addressDgColumn.HeaderText = "ที่อยู่";
-            this.addressDgColumn.MinimumWidth = 60;
-            this.addressDgColumn.Name = "addressDgColumn";
-            this.addressDgColumn.ReadOnly = true;
-            this.addressDgColumn.Width = 60;
-            // 
-            // debtTypeDgColumn
-            // 
-            this.debtTypeDgColumn.DataPropertyName = "DebtType";
-            this.debtTypeDgColumn.FillWeight = 1F;
-            this.debtTypeDgColumn.HeaderText = "ประเภทหนี้";
-            this.debtTypeDgColumn.MinimumWidth = 100;
-            this.debtTypeDgColumn.Name = "debtTypeDgColumn";
-            this.debtTypeDgColumn.ReadOnly = true;
-            // 
-            // periodDgColumn
-            // 
-            this.periodDgColumn.DataPropertyName = "PeriodString";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.periodDgColumn.DefaultCellStyle = dataGridViewCellStyle1;
-            this.periodDgColumn.FillWeight = 1F;
-            this.periodDgColumn.HeaderText = "ประจำเดือน";
-            this.periodDgColumn.MinimumWidth = 70;
-            this.periodDgColumn.Name = "periodDgColumn";
-            this.periodDgColumn.ReadOnly = true;
-            this.periodDgColumn.Width = 70;
-            // 
-            // AmountColumn
-            // 
-            this.AmountColumn.DataPropertyName = "GAmount";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle2.Format = "N2";
-            dataGridViewCellStyle2.NullValue = null;
-            this.AmountColumn.DefaultCellStyle = dataGridViewCellStyle2;
-            this.AmountColumn.FillWeight = 1F;
-            this.AmountColumn.HeaderText = "หนี้ตั้งต้น";
-            this.AmountColumn.MinimumWidth = 80;
-            this.AmountColumn.Name = "AmountColumn";
-            this.AmountColumn.ReadOnly = true;
-            this.AmountColumn.Width = 80;
-            // 
-            // toPayAmountDgColumn
-            // 
-            this.toPayAmountDgColumn.DataPropertyName = "ToBePaidGAmount";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle3.Format = "N2";
-            this.toPayAmountDgColumn.DefaultCellStyle = dataGridViewCellStyle3;
-            this.toPayAmountDgColumn.FillWeight = 1F;
-            this.toPayAmountDgColumn.HeaderText = "รวมทั้งสิ้น";
-            this.toPayAmountDgColumn.MinimumWidth = 95;
-            this.toPayAmountDgColumn.Name = "toPayAmountDgColumn";
-            this.toPayAmountDgColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.toPayAmountDgColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.toPayAmountDgColumn.Width = 95;
-            // 
-            // Column4
-            // 
-            this.Column4.DataPropertyName = "ToBePaidVatAmount";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle4.Format = "N2";
-            dataGridViewCellStyle4.NullValue = null;
-            this.Column4.DefaultCellStyle = dataGridViewCellStyle4;
-            this.Column4.FillWeight = 1F;
-            this.Column4.HeaderText = "ภาษีมูลค่าเพิ่ม";
-            this.Column4.MinimumWidth = 80;
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            this.Column4.Width = 80;
-            // 
-            // dueDateDgColumn
-            // 
-            this.dueDateDgColumn.DataPropertyName = "DisplayDueDate";
-            this.dueDateDgColumn.FillWeight = 1F;
-            this.dueDateDgColumn.HeaderText = "วันครบกำหนด";
-            this.dueDateDgColumn.MinimumWidth = 85;
-            this.dueDateDgColumn.Name = "dueDateDgColumn";
-            this.dueDateDgColumn.Width = 85;
-            // 
-            // PaidAmount
-            // 
-            this.PaidAmount.DataPropertyName = "ToPayGAmount";
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle5.Format = "N2";
-            dataGridViewCellStyle5.NullValue = null;
-            this.PaidAmount.DefaultCellStyle = dataGridViewCellStyle5;
-            this.PaidAmount.HeaderText = "ชำระ";
-            this.PaidAmount.MinimumWidth = 100;
-            this.PaidAmount.Name = "PaidAmount";
-            // 
-            // LeftAmount
-            // 
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle6.Format = "N2";
-            dataGridViewCellStyle6.NullValue = "0.00";
-            this.LeftAmount.DefaultCellStyle = dataGridViewCellStyle6;
-            this.LeftAmount.HeaderText = "คงเหลือ";
-            this.LeftAmount.MinimumWidth = 100;
-            this.LeftAmount.Name = "LeftAmount";
-            this.LeftAmount.ReadOnly = true;
-            // 
-            // CaDoc
-            // 
-            this.CaDoc.DataPropertyName = "CaDoc";
-            this.CaDoc.HeaderText = "Ca Doc";
-            this.CaDoc.MinimumWidth = 110;
-            this.CaDoc.Name = "CaDoc";
-            this.CaDoc.Width = 110;
-            // 
-            // CaTaxIdColumn
-            // 
-            this.CaTaxIdColumn.DataPropertyName = "CaTaxId";
-            this.CaTaxIdColumn.HeaderText = "เลขประจำตัวผู้เสียภาษี";
-            this.CaTaxIdColumn.MinimumWidth = 110;
-            this.CaTaxIdColumn.Name = "CaTaxIdColumn";
-            this.CaTaxIdColumn.ReadOnly = true;
-            this.CaTaxIdColumn.Width = 110;
-            // 
-            // CaTaxBranchColumn
-            // 
-            this.CaTaxBranchColumn.DataPropertyName = "CaTaxBranch";
-            this.CaTaxBranchColumn.HeaderText = "สาขา";
-            this.CaTaxBranchColumn.Name = "CaTaxBranchColumn";
-            this.CaTaxBranchColumn.ReadOnly = true;
-            // 
-            // SubGroupInvoiceNo
-            // 
-            this.SubGroupInvoiceNo.DataPropertyName = "SubGroupInvoiceNo";
-            this.SubGroupInvoiceNo.HeaderText = "SubGroupInvoiceNo";
-            this.SubGroupInvoiceNo.Name = "SubGroupInvoiceNo";
-            this.SubGroupInvoiceNo.Visible = false;
-            // 
-            // Column9
-            // 
-            this.Column9.HeaderText = "";
-            this.Column9.MinimumWidth = 20;
-            this.Column9.Name = "Column9";
-            this.Column9.ReadOnly = true;
-            this.Column9.Visible = false;
-            this.Column9.Width = 20;
             // 
             // ToBePaidInvoiceView
             // 
