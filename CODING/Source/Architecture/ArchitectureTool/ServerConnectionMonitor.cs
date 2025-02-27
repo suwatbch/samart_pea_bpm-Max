@@ -133,12 +133,12 @@ namespace PEA.BPM.Architecture.ArchitectureTool
             //bpm might start from offline and then online so this step has to be put in ping
             ICommonService commonservice = GetCommonService();
             BPMVersion ver = commonservice.GetVersion();
-            if (Session.Application.Version != ver.Version && compatible_version != ver.Version)
-            {
-                MessageBox.Show("เวอร์ชันของ BPM Client ไม่ตรงกับ BPM Server ที่ให้บริการอยู่\nกรุณาติดตั้งเวอร์ชันใหม่ล่าสุดหรือติดต่อ BPM Support\n\n", "Invalid version", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-                Session.Work.OnCloseNotify = false; //not to notify
-                Application.Exit();
-            }
+            //if (Session.Application.Version != ver.Version && compatible_version != ver.Version)
+            //{
+            //    MessageBox.Show("เวอร์ชันของ BPM Client ไม่ตรงกับ BPM Server ที่ให้บริการอยู่\nกรุณาติดตั้งเวอร์ชันใหม่ล่าสุดหรือติดต่อ BPM Support\n\n", "Invalid version", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            //    Session.Work.OnCloseNotify = false; //not to notify
+            //    Application.Exit();
+            //}
 
             if (Session.Branch.OnlineConnection)
                 Session.Server.ConnectionInfo = Session.Server.Address.Center + (string.IsNullOrEmpty(ver.POSDatabase) ? "" : " -> " + ver.POSDatabase);
